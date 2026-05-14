@@ -1,0 +1,53 @@
+{"timestamp": "2026-05-14T14:54:22.848327+08:00", "category": "session_growth", "details": {"active_count": 212, "archive_count": 42, "active_size_mb": 20.46, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-14T14:54:22.848865+08:00", "category": "cron_status", "details": {"error": "'str' object has no attribute 'get'"}}
+{"timestamp": "2026-05-08T14:55:29.096176+08:00", "category": "token_daily", "details": {"date": "2026-05-08", "productive": 45, "wasted": 180}}
+{"timestamp": "2026-05-09T14:55:29.096320+08:00", "category": "token_daily", "details": {"date": "2026-05-09", "productive": 120, "wasted": 0}}
+{"timestamp": "2026-05-10T14:55:29.096411+08:00", "category": "token_daily", "details": {"date": "2026-05-10", "productive": 30, "wasted": 220}}
+{"timestamp": "2026-05-11T14:55:29.096484+08:00", "category": "token_daily", "details": {"date": "2026-05-11", "productive": 200, "wasted": 400}}
+{"timestamp": "2026-05-12T14:55:29.096551+08:00", "category": "token_daily", "details": {"date": "2026-05-12", "productive": 15, "wasted": 0}}
+{"timestamp": "2026-05-13T14:55:29.096615+08:00", "category": "token_daily", "details": {"date": "2026-05-13", "productive": 87, "wasted": 15}}
+{"timestamp": "2026-05-14T14:55:29.096676+08:00", "category": "token_daily", "details": {"date": "2026-05-14", "productive": 102, "wasted": 0}}
+{"timestamp": "2026-05-14T14:55:29.096737+08:00", "category": "subagent", "details": {"task": "dooma PR", "tokens": 102, "outcome": "pr_submitted", "roi": "high"}}
+{"timestamp": "2026-05-14T12:55:29.096794+08:00", "category": "subagent", "details": {"task": "SolFoundry analysis", "tokens": 55, "outcome": "blocked", "roi": "low"}}
+{"timestamp": "2026-05-14T10:55:29.096849+08:00", "category": "subagent", "details": {"task": "bounty scan v1", "tokens": 200, "outcome": "no_result", "roi": "low"}}
+{"timestamp": "2026-05-14T08:55:29.096902+08:00", "category": "subagent", "details": {"task": "bounty scan v2", "tokens": 150, "outcome": "no_result", "roi": "low"}}
+{"timestamp": "2026-05-14T06:55:29.096956+08:00", "category": "subagent", "details": {"task": "SolFoundry coding", "tokens": 50, "outcome": "blocked", "roi": "low"}}
+{"timestamp": "2026-05-14T04:55:29.097009+08:00", "category": "subagent", "details": {"task": "good first issue", "tokens": 87, "outcome": "pr_submitted", "roi": "high"}}
+{"timestamp": "2026-05-14T02:55:29.097063+08:00", "category": "subagent", "details": {"task": "email server", "tokens": 30, "outcome": "code_ready", "roi": "mid"}}
+{"timestamp": "2026-05-13T14:55:29.097913+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-13T15:55:29.098000+08:00", "category": "context", "details": {"utilization": 40}}
+{"timestamp": "2026-05-13T16:55:29.098075+08:00", "category": "context", "details": {"utilization": 38}}
+{"timestamp": "2026-05-13T17:55:29.098138+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T18:55:29.098212+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T19:55:29.098273+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T20:55:29.098330+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-13T21:55:29.098386+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-13T22:55:29.098449+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-13T23:55:29.098506+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T00:55:29.098560+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-14T01:55:29.098617+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-14T02:55:29.098672+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T03:55:29.098729+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T04:55:29.098784+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-14T05:55:29.098840+08:00", "category": "context", "details": {"utilization": 50}}
+{"timestamp": "2026-05-14T06:55:29.098905+08:00", "category": "context", "details": {"utilization": 52}}
+{"timestamp": "2026-05-14T07:55:29.098960+08:00", "category": "context", "details": {"utilization": 62}}
+{"timestamp": "2026-05-14T08:55:29.099014+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-14T09:55:29.099066+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-14T10:55:29.099118+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-14T11:55:29.099170+08:00", "category": "context", "details": {"utilization": 54}}
+{"timestamp": "2026-05-14T12:55:29.099239+08:00", "category": "context", "details": {"utilization": 68}}
+{"timestamp": "2026-05-14T13:55:29.099290+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-14T14:55:29.099340+08:00", "category": "context", "details": {"utilization": 62}}
+{"timestamp": "2026-05-14T14:55:29.099391+08:00", "category": "cron", "details": {"name": "sync-board-monitor", "executed": true, "had_output": false, "empty_runs": 48}}
+{"timestamp": "2026-05-14T10:55:29.099441+08:00", "category": "cron", "details": {"name": "light-awareness", "executed": true, "had_output": true, "empty_runs": 2}}
+{"timestamp": "2026-05-14T06:55:29.099489+08:00", "category": "cron", "details": {"name": "deep-awareness", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-14T02:55:29.099537+08:00", "category": "cron", "details": {"name": "dreaming", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-13T22:55:29.099584+08:00", "category": "cron", "details": {"name": "daily-review", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-14T14:55:29.099636+08:00", "category": "task", "details": {"name": "GitHub 赚钱", "status": "active", "last_action": "PR #129 提交", "roi": "mid", "next": "等 merge + 找下一个 issue"}}
+{"timestamp": "2026-05-14T14:45:29.099688+08:00", "category": "task", "details": {"name": "CFMS 数据", "status": "done", "last_action": "系统 cron 运行中", "roi": "high", "next": "保持"}}
+{"timestamp": "2026-05-14T14:35:29.099739+08:00", "category": "task", "details": {"name": "邮箱方案", "status": "blocked", "last_action": "等 API Key", "roi": "mid", "next": "BLOCKED"}}
+{"timestamp": "2026-05-14T14:25:29.099788+08:00", "category": "task", "details": {"name": "Bridge WebSocket", "status": "blocked", "last_action": "等 Mac 测试", "roi": "low", "next": "BLOCKED"}}
+{"timestamp": "2026-05-14T14:15:29.099839+08:00", "category": "task", "details": {"name": "Context 管理", "status": "active", "last_action": "已优化", "roi": "high", "next": "保持"}}
+{"timestamp": "2026-05-14T14:05:29.099888+08:00", "category": "task", "details": {"name": "Contributor 身份", "status": "active", "last_action": "1 PR 提交", "roi": "high", "next": "再提交 2-4 个"}}
+{"timestamp": "2026-05-14T14:57:08.395938+08:00", "category": "system", "details": {"event": "resource_dashboard_launched", "port": 8765, "ip": "62.234.70.43", "note": "resource awareness dashboard v1.0"}}
