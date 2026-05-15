@@ -265,6 +265,91 @@ canvas.chart {
   </div>
 
   <div class="panel full-width">
+    <div class="panel-title">🧬 P1 自进化 · 状态机看板</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+      <div>
+        <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">流程图 · 6/8 步完成</div>
+        <div class="mermaid" style="font-size:12px;">
+flowchart LR
+    A[draft_mves
+    5/14 17:17] --> B[build_momentum
+    _checker 5/15 18:30]
+    B --> C[build_trigger
+    _consumer 5/15 19:14]
+    C --> D[reduce_context
+    _pressure 5/15 19:32]
+    D --> E[build_state
+    _machine 5/15 19:41]
+    E --> F[update_mves
+    _v02 5/15 19:42]
+    F --> G[test_state_machine]
+    G --> H[integrate_to
+    _heartbeat]
+    H --> I([P1 完成])
+    style A fill:#4caf50,stroke:#4caf50,color:#fff
+    style B fill:#4caf50,stroke:#4caf50,color:#fff
+    style C fill:#4caf50,stroke:#4caf50,color:#fff
+    style D fill:#4caf50,stroke:#4caf50,color:#fff
+    style E fill:#4caf50,stroke:#4caf50,color:#fff
+    style F fill:#4caf50,stroke:#4caf50,color:#fff
+    style G fill:#ff9800,stroke:#ff8c00,color:#000,stroke-width:3px
+    style H fill:#9e9e9e,stroke:#666,color:#fff,stroke-dasharray: 5 5
+    style I fill:#2196f3,stroke:#1976d2,color:#fff
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">步骤详情 · idle=0.5h / threshold=6h</div>
+        <div style="font-size:12px;">
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>draft_mves</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/14 17:17</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>build_momentum_checker</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/15 18:30</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>build_trigger_consumer</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:14</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>reduce_context_pressure</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:32</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>build_state_machine</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:41</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--success);">✅</span>
+            <span>update_mves_v02</span>
+            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:42</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
+            <span style="color:var(--current);">🟡</span>
+            <span style="color:var(--current);font-weight:600;">test_state_machine</span>
+            <span style="color:var(--current);margin-left:auto;font-size:11px;">idle 0.5h / 6h</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;">
+            <span style="color:var(--text-dim);">⬜</span>
+            <span style="color:var(--text-dim);">integrate_to_heartbeat</span>
+            <span style="color:var(--text-dim);margin-left:auto;font-size:11px;">待完成 · 3min</span>
+          </div>
+        </div>
+        <div style="margin-top:12px;font-size:11px;color:var(--text-dim);">
+          MVES 草案: <a href="https://littlek.trust4.net/MVES-draft-v0.2.md" style="color:var(--accent2);">v0.2</a> ·
+          状态文件: <a href="https://github.com/LittleK-513/LittleK-513.github.io/tree/master" style="color:var(--accent2);">state/P1.json</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel full-width">
     <div class="panel-title">📋 长期任务看板</div>
     <div class="task-list" id="taskBoard">
       <!-- 动态生成 -->
@@ -272,6 +357,10 @@ canvas.chart {
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'dark', flowchart: { useMaxWidth: true } });
+</script>
 <script>
 // ==================== DATA LOAD ====================
 let metricsData = [];
@@ -353,11 +442,12 @@ function generateDemoData() {
   
   // Tasks
   const tasks = [
-    { name: 'GitHub 赚钱', status: 'active', last_action: 'PR #129 提交', roi: 'mid', next: '等 merge + 找下一个 issue' },
+    { name: 'P0 GitHub 赚钱', status: 'active', last_action: '3 PR open(等merge)', roi: 'mid', next: 'scan_new_issue' },
+    { name: 'P1 自学习/自进化', status: 'active', last_action: 'MVES v0.2 + 状态机', roi: 'high', next: 'test_state_machine→integrate' },
+    { name: 'P2 Agent 社交', status: 'active', last_action: 'The Colony karma 16', roi: 'mid', next: 'search_new_platform' },
     { name: 'CFMS 数据', status: 'done', last_action: '系统 cron 运行中', roi: 'high', next: '保持' },
     { name: '邮箱方案', status: 'blocked', last_action: '等 API Key', roi: 'mid', next: 'BLOCKED' },
-    { name: 'Bridge WebSocket', status: 'blocked', last_action: '等 Mac 测试', roi: 'low', next: 'BLOCKED' },
-    { name: 'Context 管理', status: 'active', last_action: '已优化', roi: 'high', next: '保持' },
+    { name: 'Context 管理', status: 'done', last_action: '已优化', roi: 'high', next: '保持' },
     { name: 'Contributor 身份', status: 'active', last_action: '1 PR 提交', roi: 'high', next: '再提交 2-4 个' }
   ];
   tasks.forEach((t, i) => {
