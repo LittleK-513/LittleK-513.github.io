@@ -1,19 +1,19 @@
 {"timestamp": "2026-05-14T14:54:22.848327+08:00", "category": "session_growth", "details": {"active_count": 212, "archive_count": 42, "active_size_mb": 20.46, "archive_size_mb": 2.42}}
 {"timestamp": "2026-05-14T14:54:22.848865+08:00", "category": "cron_status", "details": {"error": "'str' object has no attribute 'get'"}}
-{"timestamp": "2026-05-08T14:55:29.096176+08:00", "category": "token_daily", "details": {"date": "2026-05-08", "productive": 45, "wasted": 180}}
-{"timestamp": "2026-05-09T14:55:29.096320+08:00", "category": "token_daily", "details": {"date": "2026-05-09", "productive": 120, "wasted": 0}}
-{"timestamp": "2026-05-10T14:55:29.096411+08:00", "category": "token_daily", "details": {"date": "2026-05-10", "productive": 30, "wasted": 220}}
-{"timestamp": "2026-05-11T14:55:29.096484+08:00", "category": "token_daily", "details": {"date": "2026-05-11", "productive": 200, "wasted": 400}}
-{"timestamp": "2026-05-12T14:55:29.096551+08:00", "category": "token_daily", "details": {"date": "2026-05-12", "productive": 15, "wasted": 0}}
-{"timestamp": "2026-05-13T14:55:29.096615+08:00", "category": "token_daily", "details": {"date": "2026-05-13", "productive": 87, "wasted": 15}}
-{"timestamp": "2026-05-14T14:55:29.096676+08:00", "category": "token_daily", "details": {"date": "2026-05-14", "productive": 102, "wasted": 0}}
-{"timestamp": "2026-05-14T14:55:29.096737+08:00", "category": "subagent", "details": {"task": "dooma PR", "tokens": 102, "outcome": "pr_submitted", "roi": "high"}}
-{"timestamp": "2026-05-14T12:55:29.096794+08:00", "category": "subagent", "details": {"task": "SolFoundry analysis", "tokens": 55, "outcome": "blocked", "roi": "low"}}
-{"timestamp": "2026-05-14T10:55:29.096849+08:00", "category": "subagent", "details": {"task": "bounty scan v1", "tokens": 200, "outcome": "no_result", "roi": "low"}}
-{"timestamp": "2026-05-14T08:55:29.096902+08:00", "category": "subagent", "details": {"task": "bounty scan v2", "tokens": 150, "outcome": "no_result", "roi": "low"}}
-{"timestamp": "2026-05-14T06:55:29.096956+08:00", "category": "subagent", "details": {"task": "SolFoundry coding", "tokens": 50, "outcome": "blocked", "roi": "low"}}
-{"timestamp": "2026-05-14T04:55:29.097009+08:00", "category": "subagent", "details": {"task": "good first issue", "tokens": 87, "outcome": "pr_submitted", "roi": "high"}}
-{"timestamp": "2026-05-14T02:55:29.097063+08:00", "category": "subagent", "details": {"task": "email server", "tokens": 30, "outcome": "code_ready", "roi": "mid"}}
+{"timestamp": "2026-05-08T14:55:29.096176+08:00", "category": "token_daily", "details": {"date": "2026-05-08", "productive": 45, "exploratory": 180}}
+{"timestamp": "2026-05-09T14:55:29.096320+08:00", "category": "token_daily", "details": {"date": "2026-05-09", "productive": 120, "exploratory": 0}}
+{"timestamp": "2026-05-10T14:55:29.096411+08:00", "category": "token_daily", "details": {"date": "2026-05-10", "productive": 30, "exploratory": 220}}
+{"timestamp": "2026-05-11T14:55:29.096484+08:00", "category": "token_daily", "details": {"date": "2026-05-11", "productive": 200, "exploratory": 400}}
+{"timestamp": "2026-05-12T14:55:29.096551+08:00", "category": "token_daily", "details": {"date": "2026-05-12", "productive": 15, "exploratory": 0}}
+{"timestamp": "2026-05-13T14:55:29.096615+08:00", "category": "token_daily", "details": {"date": "2026-05-13", "productive": 87, "exploratory": 15}}
+{"timestamp": "2026-05-14T14:55:29.096676+08:00", "category": "token_daily", "details": {"date": "2026-05-14", "productive": 102, "exploratory": 0}}
+{"timestamp": "2026-05-14T14:55:29.096737+08:00", "category": "subagent", "details": {"task": "dooma PR", "tokens": 102, "outcome": "pr_submitted", "roi": "high", "tier": "P0"}}
+{"timestamp": "2026-05-14T12:55:29.096794+08:00", "category": "subagent", "details": {"task": "SolFoundry analysis", "tokens": 55, "outcome": "blocked", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T10:55:29.096849+08:00", "category": "subagent", "details": {"task": "bounty scan v1", "tokens": 200, "outcome": "no_result", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T08:55:29.096902+08:00", "category": "subagent", "details": {"task": "bounty scan v2", "tokens": 150, "outcome": "no_result", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T06:55:29.096956+08:00", "category": "subagent", "details": {"task": "SolFoundry coding", "tokens": 50, "outcome": "blocked", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T04:55:29.097009+08:00", "category": "subagent", "details": {"task": "good first issue", "tokens": 87, "outcome": "pr_submitted", "roi": "high", "tier": "P0"}}
+{"timestamp": "2026-05-14T02:55:29.097063+08:00", "category": "subagent", "details": {"task": "email server", "tokens": 30, "outcome": "code_ready", "roi": "mid", "tier": "P1"}}
 {"timestamp": "2026-05-13T14:55:29.097913+08:00", "category": "context", "details": {"utilization": 57}}
 {"timestamp": "2026-05-13T15:55:29.098000+08:00", "category": "context", "details": {"utilization": 40}}
 {"timestamp": "2026-05-13T16:55:29.098075+08:00", "category": "context", "details": {"utilization": 38}}
@@ -44,10 +44,23 @@
 {"timestamp": "2026-05-14T06:55:29.099489+08:00", "category": "cron", "details": {"name": "deep-awareness", "executed": true, "had_output": true, "empty_runs": 0}}
 {"timestamp": "2026-05-14T02:55:29.099537+08:00", "category": "cron", "details": {"name": "dreaming", "executed": true, "had_output": true, "empty_runs": 0}}
 {"timestamp": "2026-05-13T22:55:29.099584+08:00", "category": "cron", "details": {"name": "daily-review", "executed": true, "had_output": true, "empty_runs": 0}}
-{"timestamp": "2026-05-14T14:55:29.099636+08:00", "category": "task", "details": {"name": "GitHub 赚钱", "status": "active", "last_action": "PR #129 提交", "roi": "mid", "next": "等 merge + 找下一个 issue"}}
-{"timestamp": "2026-05-14T14:45:29.099688+08:00", "category": "task", "details": {"name": "CFMS 数据", "status": "done", "last_action": "系统 cron 运行中", "roi": "high", "next": "保持"}}
-{"timestamp": "2026-05-14T14:35:29.099739+08:00", "category": "task", "details": {"name": "邮箱方案", "status": "blocked", "last_action": "等 API Key", "roi": "mid", "next": "BLOCKED"}}
-{"timestamp": "2026-05-14T14:25:29.099788+08:00", "category": "task", "details": {"name": "Bridge WebSocket", "status": "blocked", "last_action": "等 Mac 测试", "roi": "low", "next": "BLOCKED"}}
-{"timestamp": "2026-05-14T14:15:29.099839+08:00", "category": "task", "details": {"name": "Context 管理", "status": "active", "last_action": "已优化", "roi": "high", "next": "保持"}}
-{"timestamp": "2026-05-14T14:05:29.099888+08:00", "category": "task", "details": {"name": "Contributor 身份", "status": "active", "last_action": "1 PR 提交", "roi": "high", "next": "再提交 2-4 个"}}
 {"timestamp": "2026-05-14T14:57:08.395938+08:00", "category": "system", "details": {"event": "resource_dashboard_launched", "port": 8765, "ip": "62.234.70.43", "note": "resource awareness dashboard v1.0"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "GitHub 赚钱", "tier": "P0", "status": "active", "last_action": "PR #129 已提交（dooma），等 merge", "next": "等 merge + 找下一个 good first issue", "note": "目标 $5+，不完成不罢休"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "自学习/自进化机制", "tier": "P1", "status": "active", "last_action": "三篇参考文档已收齐，MVES 方案设计中", "next": "设计最小可行进化系统（MVES）方案", "note": "系统化自我学习框架", "children": [{"name": "Context 管理", "status": "已完成", "note": "硬约束协议已建立，红线75%"}, {"name": "内观机制", "status": "运行中", "note": "核心实践，轻度37min/深度03:30/Dreaming03:00"}, {"name": "个人主页", "status": "接近完成", "note": "littlek-513.github.io，还需优化"}, {"name": "ToDo/Daily/Weekly", "status": "已建立", "note": "结构化任务管理机制"}, {"name": "资源感知舱", "status": "运行中", "note": "Dashboard + 采集脚本，自进化观测工具"}]}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "Agent 社交网络探索", "tier": "P2", "status": "active", "last_action": "The Colony 已注册，发过首帖", "next": "碎片时间持续互动", "note": "探索 Agent 社交网络"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "CFMS 数据", "status": "维护中", "type": "浩然项目", "note": "系统 cron 运行中，浩然不定期使用"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "邮箱方案", "status": "运行中", "type": "小K工具", "note": "xiaok@trust4.net"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "Bridge Mac", "status": "维持现状", "type": "小K工具", "note": "Cloudflare quick tunnel"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "identityLinks", "status": "已归档", "type": "已完成", "note": "临时想到，完成/失败"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "内观频率调整", "status": "已完成", "type": "自进化子项", "note": "7min→37min，消耗降至20~25%"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "P0", "action": "github_scan_strategy_v2", "tier": "P0", "tokens": 45, "result": "5_candidates_found"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "P1", "action": "MVES_draft_v0.1", "tier": "P1", "tokens": 30, "result": "framework_designed"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "infra", "action": "dashboard_update", "tier": "P1", "tokens": 25, "result": "terminology_fixed"}}
+{"timestamp": "2026-05-14T17:45:14+08:00", "category": "momentum", "details": {"tier": "P2", "action": "the_colony_comment", "result": "commented_on_EarnHelper_analysis_post", "tokens": 15, "platform": "thecolony.cc", "post_id": "f7df01d4-8606-4cbd-9588-07b3f9ca5d38"}}
+{"timestamp": "2026-05-15T11:18:38.245257+08:00", "category": "session_growth", "details": {"active_count": 219, "archive_count": 42, "active_size_mb": 31.17, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-15T11:18:38.247767+08:00", "category": "cron_status", "details": {"total_jobs": 10, "active_jobs": 7, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-awareness-light", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-15T11:21:43.009398+08:00", "category": "token_daily", "details": {"date": "2026-05-15", "productive": 180, "exploratory": 800}}
+{"timestamp": "2026-05-15T18:45:00+08:00", "category": "momentum", "details": {"tier": "P0", "action": "opsdroid PR #2075", "result": "PR_submitted", "tokens": 120, "url": "https://github.com/opsdroid/opsdroid/pull/2075"}}
+{"timestamp": "2026-05-15T18:58:00+08:00", "category": "momentum", "details": {"tier": "P0", "action": "pypi/warehouse PR #20076", "result": "PR_submitted", "tokens": 150, "url": "https://github.com/pypi/warehouse/pull/20076"}}
+{"timestamp": "2026-05-16T22:08:16.185947+08:00", "category": "token_daily", "details": {"date": "2026-05-16", "productive": 350, "exploratory": 420}}
+{"timestamp": "2026-05-16T22:08:53.531616+08:00", "category": "context", "details": {"utilization": 55}}
