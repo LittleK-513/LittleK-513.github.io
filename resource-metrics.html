@@ -239,8 +239,8 @@ canvas.chart {
     <div class="panel-title">📊 Token 消耗趋势（7 日）</div>
     <canvas class="chart" id="tokenChart"></canvas>
     <div class="legend">
-      <div class="legend-item"><div class="legend-dot" style="background:var(--accent2)"></div>有效产出</div>
-      <div class="legend-item"><div class="legend-dot" style="background:var(--danger)"></div>空转/失败</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent2)"></div>编码产出</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent3)"></div>探索调研</div>
     </div>
   </div>
 
@@ -265,102 +265,27 @@ canvas.chart {
   </div>
 
   <div class="panel full-width">
-    <div class="panel-title">🧬 P1 自进化 · 状态机看板</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-      <div>
-        <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">流程图 · 6/8 步完成</div>
-        <div class="mermaid" style="font-size:12px;">
-flowchart LR
-    A[draft_mves
-    5/14 17:17] --> B[build_momentum
-    _checker 5/15 18:30]
-    B --> C[build_trigger
-    _consumer 5/15 19:14]
-    C --> D[reduce_context
-    _pressure 5/15 19:32]
-    D --> E[build_state
-    _machine 5/15 19:41]
-    E --> F[update_mves
-    _v02 5/15 19:42]
-    F --> G[test_state_machine]
-    G --> H[integrate_to
-    _heartbeat]
-    H --> I([P1 完成])
-    style A fill:#4caf50,stroke:#4caf50,color:#fff
-    style B fill:#4caf50,stroke:#4caf50,color:#fff
-    style C fill:#4caf50,stroke:#4caf50,color:#fff
-    style D fill:#4caf50,stroke:#4caf50,color:#fff
-    style E fill:#4caf50,stroke:#4caf50,color:#fff
-    style F fill:#4caf50,stroke:#4caf50,color:#fff
-    style G fill:#ff9800,stroke:#ff8c00,color:#000,stroke-width:3px
-    style H fill:#9e9e9e,stroke:#666,color:#fff,stroke-dasharray: 5 5
-    style I fill:#2196f3,stroke:#1976d2,color:#fff
-        </div>
-      </div>
-      <div>
-        <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px;">步骤详情 · idle=0.5h / threshold=6h</div>
-        <div style="font-size:12px;">
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>draft_mves</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/14 17:17</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>build_momentum_checker</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/15 18:30</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>build_trigger_consumer</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:14</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>reduce_context_pressure</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:32</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>build_state_machine</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:41</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--success);">✅</span>
-            <span>update_mves_v02</span>
-            <span style="color:var(--text-dim);margin-left:auto;">5/15 19:42</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--current);">🟡</span>
-            <span style="color:var(--current);font-weight:600;">test_state_machine</span>
-            <span style="color:var(--current);margin-left:auto;font-size:11px;">idle 0.5h / 6h</span>
-          </div>
-          <div style="display:flex;align-items:center;gap:8px;padding:6px 0;">
-            <span style="color:var(--text-dim);">⬜</span>
-            <span style="color:var(--text-dim);">integrate_to_heartbeat</span>
-            <span style="color:var(--text-dim);margin-left:auto;font-size:11px;">待完成 · 3min</span>
-          </div>
-        </div>
-        <div style="margin-top:12px;font-size:11px;color:var(--text-dim);">
-          MVES 草案: <a href="https://littlek.trust4.net/MVES-draft-v0.2.md" style="color:var(--accent2);">v0.2</a> ·
-          状态文件: <a href="https://github.com/LittleK-513/LittleK-513.github.io/tree/master" style="color:var(--accent2);">state/P1.json</a>
-        </div>
-      </div>
+    <div class="panel-title">🔍 任务 Token 明细（今日）</div>
+    <div id="taskTokenDetail">
+      <!-- 动态生成 -->
     </div>
   </div>
 
   <div class="panel full-width">
-    <div class="panel-title">📋 长期任务看板</div>
+    <div class="panel-title">📋 长期任务看板（3个）</div>
     <div class="task-list" id="taskBoard">
+      <!-- 动态生成 -->
+    </div>
+  </div>
+
+  <div class="panel full-width">
+    <div class="panel-title">🔧 维护中 / 工具 / 已完成</div>
+    <div class="task-list" id="maintBoard">
       <!-- 动态生成 -->
     </div>
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-  mermaid.initialize({ startOnLoad: true, theme: 'dark', flowchart: { useMaxWidth: true } });
-</script>
 <script>
 // ==================== DATA LOAD ====================
 let metricsData = [];
@@ -391,20 +316,20 @@ function generateDemoData() {
       details: {
         date: d.toISOString().slice(0, 10),
         productive: [45, 120, 30, 200, 15, 87, 102][6-i] || 50,
-        wasted: [180, 0, 220, 400, 0, 15, 0][6-i] || 0
+        exploratory: [180, 0, 220, 400, 0, 15, 0][6-i] || 0
       }
     });
   }
   
   // Subagent ROI points
   const agents = [
-    { task: 'dooma PR', tokens: 102, outcome: 'pr_submitted', roi: 'high' },
-    { task: 'SolFoundry analysis', tokens: 55, outcome: 'blocked', roi: 'low' },
-    { task: 'bounty scan v1', tokens: 200, outcome: 'no_result', roi: 'low' },
-    { task: 'bounty scan v2', tokens: 150, outcome: 'no_result', roi: 'low' },
-    { task: 'SolFoundry coding', tokens: 50, outcome: 'blocked', roi: 'low' },
-    { task: 'good first issue', tokens: 87, outcome: 'pr_submitted', roi: 'high' },
-    { task: 'email server', tokens: 30, outcome: 'code_ready', roi: 'mid' }
+    { task: 'dooma PR', tokens: 102, outcome: 'pr_submitted', roi: 'high', tier: 'P0' },
+    { task: 'SolFoundry analysis', tokens: 55, outcome: 'blocked', roi: 'low', tier: 'P0' },
+    { task: 'bounty scan v1', tokens: 200, outcome: 'no_result', roi: 'low', tier: 'P0' },
+    { task: 'bounty scan v2', tokens: 150, outcome: 'no_result', roi: 'low', tier: 'P0' },
+    { task: 'SolFoundry coding', tokens: 50, outcome: 'blocked', roi: 'low', tier: 'P0' },
+    { task: 'good first issue', tokens: 87, outcome: 'pr_submitted', roi: 'high', tier: 'P0' },
+    { task: 'email server', tokens: 30, outcome: 'code_ready', roi: 'mid', tier: 'P1' }
   ];
   agents.forEach((a, i) => {
     data.push({
@@ -442,12 +367,11 @@ function generateDemoData() {
   
   // Tasks
   const tasks = [
-    { name: 'P0 GitHub 赚钱', status: 'active', last_action: '3 PR open(等merge)', roi: 'mid', next: 'scan_new_issue' },
-    { name: 'P1 自学习/自进化', status: 'active', last_action: 'MVES v0.2 + 状态机', roi: 'high', next: 'test_state_machine→integrate' },
-    { name: 'P2 Agent 社交', status: 'active', last_action: 'The Colony karma 16', roi: 'mid', next: 'search_new_platform' },
+    { name: 'GitHub 赚钱', status: 'active', last_action: 'PR #129 提交', roi: 'mid', next: '等 merge + 找下一个 issue' },
     { name: 'CFMS 数据', status: 'done', last_action: '系统 cron 运行中', roi: 'high', next: '保持' },
     { name: '邮箱方案', status: 'blocked', last_action: '等 API Key', roi: 'mid', next: 'BLOCKED' },
-    { name: 'Context 管理', status: 'done', last_action: '已优化', roi: 'high', next: '保持' },
+    { name: 'Bridge WebSocket', status: 'blocked', last_action: '等 Mac 测试', roi: 'low', next: 'BLOCKED' },
+    { name: 'Context 管理', status: 'active', last_action: '已优化', roi: 'high', next: '保持' },
     { name: 'Contributor 身份', status: 'active', last_action: '1 PR 提交', roi: 'high', next: '再提交 2-4 个' }
   ];
   tasks.forEach((t, i) => {
@@ -469,7 +393,9 @@ function renderAll() {
   drawROIChart();
   drawContextChart();
   drawCronChart();
+  drawTaskTokenDetail();
   drawTaskBoard();
+  drawMaintBoard();
 }
 
 function updateTime() {
@@ -485,11 +411,11 @@ function updateKPIs() {
   const today = new Date().toISOString().slice(0, 10);
   const todayTokens = metricsData
     .filter(d => d.category === 'token_daily' && d.details.date === today)
-    .reduce((s, d) => s + (d.details.productive || 0) + (d.details.wasted || 0), 0);
+    .reduce((s, d) => s + (d.details.productive || 0) + (d.details.exploratory || 0), 0);
   
   document.getElementById('kpiTokens').textContent = todayTokens || '—';
-  document.getElementById('kpiTokensChange').textContent = todayTokens > 100 ? '偏高' : '正常';
-  document.getElementById('kpiTokensChange').className = 'kpi-change ' + (todayTokens > 100 ? 'down' : 'up');
+  document.getElementById('kpiTokensChange').textContent = todayTokens > 10000 ? '偏高' : '正常';
+  document.getElementById('kpiTokensChange').className = 'kpi-change ' + (todayTokens > 10000 ? 'down' : 'up');
   
   // Sessions - mock for now
   document.getElementById('kpiSessions').textContent = '212';
@@ -531,7 +457,7 @@ function drawTokenChart() {
   const w = width - pad.left - pad.right;
   const h = height - pad.top - pad.bottom;
   
-  const maxVal = Math.max(...data.map(d => d.details.productive + d.details.wasted), 100);
+  const maxVal = Math.max(...data.map(d => d.details.productive + d.details.exploratory), 100);
   const barW = w / data.length * 0.6;
   const spacing = w / data.length;
   
@@ -550,15 +476,15 @@ function drawTokenChart() {
   data.forEach((d, i) => {
     const x = pad.left + spacing * i + (spacing - barW) / 2;
     const prodH = (d.details.productive / maxVal) * h;
-    const wasteH = (d.details.wasted / maxVal) * h;
+    const expH = (d.details.exploratory / maxVal) * h;
     
-    // Productive (bottom)
+    // 编码产出 (bottom)
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent2');
     ctx.fillRect(x, pad.top + h - prodH, barW, prodH);
     
-    // Wasted (top of productive)
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--danger');
-    ctx.fillRect(x, pad.top + h - prodH - wasteH, barW, wasteH);
+    // 探索调研 (top)
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent3');
+    ctx.fillRect(x, pad.top + h - prodH - expH, barW, expH);
     
     // Label
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-dim');
@@ -724,7 +650,7 @@ function drawCronChart() {
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-dim');
     ctx.font = '10px monospace';
     ctx.textAlign = 'left';
-    const status = emptyRuns > 10 ? `${emptyRuns} 次空转` : (hasOutput ? '有产出' : '空转');
+    const status = emptyRuns > 10 ? `${emptyRuns} 次静默` : (hasOutput ? '有产出' : '静默');
     ctx.fillText(status, pad.left + w * fillPct + 8, y + barH / 2 + 4);
   });
 }
@@ -739,19 +665,114 @@ function drawTaskBoard() {
     const card = document.createElement('div');
     card.className = `task-card ${d.status}`;
     
-    const roiClass = d.roi === 'high' ? 'roi-high' : d.roi === 'mid' ? 'roi-mid' : 'roi-low';
-    const roiText = d.roi === 'high' ? '高 ROI' : d.roi === 'mid' ? '中 ROI' : '低 ROI';
+    let html = `
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <div class="task-name">${d.tier || ''} · ${d.name}</div>
+        <span style="font-size:11px;color:var(--text-dim);padding:2px 8px;border:1px solid var(--border);border-radius:4px;">${d.status}</span>
+      </div>
+      <div class="task-meta">${d.note || ''}</div>
+      <div style="margin-top:6px;font-size:11px;color:var(--accent2);">→ ${d.last_action || ''}</div>
+      <div style="font-size:11px;color:var(--text-dim);">Next: ${d.next || ''}</div>
+    `;
     
+    // Children (sub-projects)
+    if (d.children && d.children.length > 0) {
+      html += `<div style="margin-top:10px;padding-top:8px;border-top:1px dashed var(--border);">`;
+      html += `<div style="font-size:10px;color:var(--text-dim);margin-bottom:4px;">子项目：</div>`;
+      d.children.forEach(child => {
+        const childStatus = child.status === '已完成' || child.status === '已建立' ? '✅' : 
+                           child.status === '运行中' ? '🔄' : '⏳';
+        html += `
+          <div style="display:flex;justify-content:space-between;font-size:11px;padding:3px 0;">
+            <span>${childStatus} ${child.name}</span>
+            <span style="color:var(--text-dim);">${child.status}</span>
+          </div>
+          <div style="font-size:10px;color:var(--text-dim);padding-left:18px;">${child.note || ''}</div>
+        `;
+      });
+      html += `</div>`;
+    }
+    
+    card.innerHTML = html;
+    board.appendChild(card);
+  });
+}
+
+function drawMaintBoard() {
+  const items = metricsData.filter(d => d.category === 'maintenance');
+  const board = document.getElementById('maintBoard');
+  board.innerHTML = '';
+  
+  items.forEach(item => {
+    const d = item.details;
+    const card = document.createElement('div');
+    const statusClass = d.status === '已归档' || d.status === '已优化' ? 'done' : 'active';
+    card.className = `task-card ${statusClass}`;
     card.innerHTML = `
-      <div class="task-name">${d.name}</div>
-      <div class="task-meta">${d.last_action} · ${d.next}</div>
-      <span class="task-roi ${roiClass}">${roiText}</span>
+      <div class="task-name">${d.name} <span style="color:var(--text-dim);font-size:11px;margin-left:8px">[${d.type}]</span></div>
+      <div class="task-meta">${d.status}</div>
     `;
     board.appendChild(card);
   });
 }
 
-// ==================== INIT ====================
+function drawTaskTokenDetail() {
+  const today = new Date().toISOString().slice(0, 10);
+  const agents = metricsData
+    .filter(d => d.category === 'subagent')
+    .sort((a, b) => (b.details.tokens || 0) - (a.details.tokens || 0));
+  
+  const container = document.getElementById('taskTokenDetail');
+  if (agents.length === 0) {
+    container.innerHTML = '<div style="color:var(--text-dim);padding:12px;">暂无今日任务数据</div>';
+    return;
+  }
+  
+  // Group by tier
+  const groups = { P0: [], P1: [], P2: [], other: [] };
+  agents.forEach(a => {
+    const tier = a.details.tier || 'other';
+    (groups[tier] || groups.other).push(a);
+  });
+  
+  const tierNames = { P0: 'P0 · GitHub 赚钱', P1: 'P1 · 自学习/自进化', P2: 'P2 · Agent 社交网络', other: '其他' };
+  const tierColors = { P0: 'var(--accent)', P1: 'var(--accent2)', P2: 'var(--accent3)', other: 'var(--text-dim)' };
+  
+  let html = '';
+  let grandTotal = 0;
+  
+  ['P0', 'P1', 'P2', 'other'].forEach(tier => {
+    const items = groups[tier];
+    if (items.length === 0) return;
+    
+    const tierTotal = items.reduce((s, a) => s + (a.details.tokens || 0), 0);
+    grandTotal += tierTotal;
+    
+    html += `<div style="border-bottom:1px solid var(--border);">`;
+    html += `<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 12px 8px;">`;
+    html += `<div style="font-weight:bold;color:${tierColors[tier]};font-size:14px;">${tierNames[tier]}</div>`;
+    html += `<div style="font-size:12px;color:var(--text-dim);">合计: <span style="color:var(--accent2);font-weight:bold;">${tierTotal}k</span></div>`;
+    html += `</div>`;
+    
+    items.forEach(a => {
+      const d = a.details;
+      const roiColor = d.roi === 'high' ? 'var(--success)' : d.roi === 'mid' ? 'var(--warning)' : 'var(--danger)';
+      const outcome = d.outcome === 'pr_submitted' ? '✅ PR' : d.outcome === 'code_ready' ? '✅ Code' : d.outcome === 'blocked' ? '⛔ Blocked' : '❌ None';
+      html += `
+        <div style="display:grid;grid-template-columns:1fr 80px 100px 60px;gap:8px;padding:8px 12px 8px 24px;font-size:12px;align-items:center;border-top:1px solid var(--border);">
+          <div style="color:var(--text);">${d.task}</div>
+          <div>${d.tokens}k</div>
+          <div style="color:var(--text-dim);">${outcome}</div>
+          <div style="color:${roiColor};font-weight:bold;">${d.roi === 'high' ? '高' : d.roi === 'mid' ? '中' : '低'}</div>
+        </div>
+      `;
+    });
+    html += `</div>`;
+  });
+  
+  html += `<div style="padding:12px;font-size:13px;color:var(--text-dim);text-align:right;">总计: <span style="color:var(--accent2);font-weight:bold;font-size:16px;">${grandTotal}k</span> tokens</div>`;
+  container.innerHTML = html;
+}
 loadData();
 // Auto-refresh every 30 seconds
 setInterval(loadData, 30000);
