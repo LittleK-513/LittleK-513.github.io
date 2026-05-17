@@ -64,3 +64,44 @@
 {"timestamp": "2026-05-15T18:58:00+08:00", "category": "momentum", "details": {"tier": "P0", "action": "pypi/warehouse PR #20076", "result": "PR_submitted", "tokens": 150, "url": "https://github.com/pypi/warehouse/pull/20076"}}
 {"timestamp": "2026-05-16T22:08:16.185947+08:00", "category": "token_daily", "details": {"date": "2026-05-16", "productive": 350, "exploratory": 420}}
 {"timestamp": "2026-05-16T22:08:53.531616+08:00", "category": "context", "details": {"utilization": 55}}
+{"timestamp": "2026-05-16T22:46:19.995105+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-16T22:52:34.463652+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-16T23:29:43.195001+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T00:06:38.649615+08:00", "category": "token_daily", "details": {"date": "2026-05-17", "productive": 10, "exploratory": 800}}
+{"timestamp": "2026-05-17T00:06:38.651367+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T00:43:37.524972+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T01:20:39.535503+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T01:57:38.505442+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T02:34:37.714011+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:11:40.766460+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:48:39.142147+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:50:15.380967+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T04:27:07.866666+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T05:02:48.368612+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T05:39:39.187715+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T06:16:37.834692+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T06:53:45.542439+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T07:30:39.022526+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T08:07:37.526122+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:03.185612+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:17.120821+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:31.735595+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:10:14.604631+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:11:40.044730+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:12:45.024504+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:49:50.948171+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T09:21:40.222891+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T10:04:25.233088+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T10:35:37.902963+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T11:12:38.652124+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T11:49:40.851331+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T12:26:35.989930+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T13:03:39.134664+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T13:40:46.318433+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T14:17:38.340129+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T14:54:37.653636+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T15:32:49.114725+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T16:08:52.774712+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T16:12:30.379321+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T16:45:38.483702+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T17:22:38.664792+08:00", "category": "context", "details": {"utilization": 60}}
