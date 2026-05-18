@@ -197,3 +197,10 @@
 {"timestamp": "2026-05-18T18:00:01.592976+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=3.7h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
 {"timestamp": "2026-05-18T18:00:01.593225+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "waiting", "note": "⏳ phase='act' idle=7.4h/6h", "last_action": "auto-scan", "roi": "mid"}}
 {"timestamp": "2026-05-18T18:00:01.593388+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=9.2h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:30:01.484418+08:00", "category": "session_growth", "details": {"active_count": 212, "archive_count": 42, "active_size_mb": 149.28, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T18:30:01.487903+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T18:30:01.875787+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 25131, "exploratory": 3699}}
+{"timestamp": "2026-05-18T18:30:01.877565+08:00", "category": "context", "details": {"utilization": 76}}
+{"timestamp": "2026-05-18T18:30:01.943531+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=4.2h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:30:01.946511+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "waiting", "note": "⏳ phase='act' idle=7.9h/6h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:30:01.946885+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=9.7h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
