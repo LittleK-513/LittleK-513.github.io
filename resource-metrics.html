@@ -89,6 +89,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  justify-content: space-between;
 }
 
 /* KPI Cards */
@@ -132,6 +133,27 @@ canvas.chart {
   display: block;
 }
 
+/* Range selector */
+.range-selector {
+  display: flex;
+  gap: 4px;
+}
+.range-btn {
+  background: var(--grid);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.range-btn.active {
+  background: var(--accent2);
+  color: var(--bg);
+  border-color: var(--accent2);
+}
+
 /* Task board */
 .task-list {
   display: grid;
@@ -157,16 +179,6 @@ canvas.chart {
   color: var(--text-dim);
   margin-top: 4px;
 }
-.task-roi {
-  font-size: 11px;
-  margin-top: 6px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  display: inline-block;
-}
-.roi-high { background: rgba(46, 204, 113, 0.15); color: var(--success); }
-.roi-mid { background: rgba(243, 156, 18, 0.15); color: var(--warning); }
-.roi-low { background: rgba(231, 76, 60, 0.15); color: var(--danger); }
 
 /* Legend */
 .legend {
@@ -229,18 +241,27 @@ canvas.chart {
   <div class="kpi">
     <div class="kpi-value" id="kpiPRs">—</div>
     <div class="kpi-label">PR 提交</div>
-    <div class="kpi-change up" id="kpiPRsChange">本周</div>
+    <div class="kpi-change up" id="kpiPRsChange">累计</div>
   </div>
 </div>
 
 <!-- Charts -->
 <div class="grid">
-  <div class="panel">
-    <div class="panel-title">📊 Token 消耗趋势（7 日）</div>
+  <div class="panel full-width">
+    <div class="panel-title">
+      <span>📊 Token 消耗趋势</span>
+      <div class="range-selector">
+        <button class="range-btn" data-range="7" onclick="setTokenRange(7)">7日</button>
+        <button class="range-btn" data-range="30" onclick="setTokenRange(30)">30日</button>
+        <button class="range-btn active" data-range="all" onclick="setTokenRange('all')">全部</button>
+      </div>
+    </div>
     <canvas class="chart" id="tokenChart"></canvas>
     <div class="legend">
-      <div class="legend-item"><div class="legend-dot" style="background:var(--accent2)"></div>编码产出</div>
-      <div class="legend-item"><div class="legend-dot" style="background:var(--accent3)"></div>探索调研</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>P0 · GitHub 赚钱</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent2)"></div>P1 · 自学习/自进化</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent3)"></div>P2 · Agent 社交网络</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#888"></div>其他 / 未分类</div>
     </div>
   </div>
 
@@ -259,58 +280,44 @@ canvas.chart {
     <canvas class="chart" id="contextChart"></canvas>
   </div>
 
-  <div class="panel">
-    <div class="panel-title">⏰ Cron 执行统计（24h）</div>
-    <canvas class="chart" id="cronChart"></canvas>
+  <div class="panel full-width">
+    <div class="panel-title">🔍 项目 Token 消耗明细（累计）</div>
+    <div id="taskTokenDetail"></div>
   </div>
 
   <div class="panel full-width">
-    <div class="panel-title">🔍 任务 Token 明细（今日）</div>
-    <div id="taskTokenDetail">
-      <!-- 动态生成 -->
-    </div>
-  </div>
-
-  <div class="panel full-width">
-    <div class="panel-title">📋 长期任务看板（3个）</div>
-    <div class="task-list" id="taskBoard">
-      <!-- 动态生成 -->
-    </div>
+    <div class="panel-title">📋 长期任务看板</div>
+    <div class="task-list" id="taskBoard"></div>
   </div>
 
   <div class="panel full-width">
     <div class="panel-title">🔧 维护中 / 工具 / 已完成</div>
-    <div class="task-list" id="maintBoard">
-      <!-- 动态生成 -->
-    </div>
+    <div class="task-list" id="maintBoard"></div>
   </div>
 </div>
 
 <script>
 // ==================== DATA LOAD ====================
 let metricsData = [];
+let tokenRange = 'all'; // '7', '30', 'all'
 
 async function loadData() {
   try {
-    // Add cache-busting timestamp
     const cacheBuster = '?v=' + Date.now();
-    // GitHub Pages doesn't serve .jsonl, use .json
     const resp = await fetch('./data.json' + cacheBuster);
     if (!resp.ok) throw new Error('No data');
     const text = await resp.text();
     metricsData = text.trim().split('\n').map(l => JSON.parse(l));
   } catch (e) {
-    // Use demo data if no real data yet
     metricsData = generateDemoData();
   }
   renderAll();
 }
 
 function generateDemoData() {
+  // Fallback demo data - minimal
   const data = [];
   const now = new Date('2026-05-14T14:00:00+08:00');
-  
-  // 7 days of token data
   for (let i = 6; i >= 0; i--) {
     const d = new Date(now); d.setDate(d.getDate() - i);
     data.push({
@@ -318,74 +325,20 @@ function generateDemoData() {
       category: 'token_daily',
       details: {
         date: d.toISOString().slice(0, 10),
-        productive: [45, 120, 30, 200, 15, 87, 102][6-i] || 50,
-        exploratory: [180, 0, 220, 400, 0, 15, 0][6-i] || 0
+        productive: 50, exploratory: 0,
+        by_tier: { P0: 30, P1: 15, P2: 5, other: 0 }
       }
     });
   }
-  
-  // Subagent ROI points
-  const agents = [
-    { task: 'dooma PR', tokens: 102, outcome: 'pr_submitted', roi: 'high', tier: 'P0' },
-    { task: 'SolFoundry analysis', tokens: 55, outcome: 'blocked', roi: 'low', tier: 'P0' },
-    { task: 'bounty scan v1', tokens: 200, outcome: 'no_result', roi: 'low', tier: 'P0' },
-    { task: 'bounty scan v2', tokens: 150, outcome: 'no_result', roi: 'low', tier: 'P0' },
-    { task: 'SolFoundry coding', tokens: 50, outcome: 'blocked', roi: 'low', tier: 'P0' },
-    { task: 'good first issue', tokens: 87, outcome: 'pr_submitted', roi: 'high', tier: 'P0' },
-    { task: 'email server', tokens: 30, outcome: 'code_ready', roi: 'mid', tier: 'P1' }
-  ];
-  agents.forEach((a, i) => {
-    data.push({
-      timestamp: new Date(now.getTime() - i * 3600000).toISOString(),
-      category: 'subagent',
-      details: a
-    });
-  });
-  
-  // Context samples
-  for (let i = 20; i >= 0; i--) {
-    const d = new Date(now); d.setHours(d.getHours() - i);
-    const util = 45 + Math.sin(i * 0.5) * 20 + Math.random() * 10;
-    data.push({
-      timestamp: d.toISOString(),
-      category: 'context',
-      details: { utilization: Math.min(75, Math.max(35, Math.round(util))) }
-    });
-  }
-  
-  // Cron samples
-  const crons = ['sync-board', 'light-awareness', 'deep-awareness', 'dreaming', 'daily-review'];
-  crons.forEach((name, i) => {
-    data.push({
-      timestamp: new Date(now.getTime() - i * 7200000).toISOString(),
-      category: 'cron',
-      details: {
-        name: name,
-        executed: true,
-        had_output: name === 'sync-board' ? false : true,
-        empty_runs: name === 'sync-board' ? 48 : 0
-      }
-    });
-  });
-  
-  // Tasks
-  const tasks = [
-    { name: 'GitHub 赚钱', status: 'active', last_action: 'PR #129 提交', roi: 'mid', next: '等 merge + 找下一个 issue' },
-    { name: 'CFMS 数据', status: 'done', last_action: '系统 cron 运行中', roi: 'high', next: '保持' },
-    { name: '邮箱方案', status: 'blocked', last_action: '等 API Key', roi: 'mid', next: 'BLOCKED' },
-    { name: 'Bridge WebSocket', status: 'blocked', last_action: '等 Mac 测试', roi: 'low', next: 'BLOCKED' },
-    { name: 'Context 管理', status: 'active', last_action: '已优化', roi: 'high', next: '保持' },
-    { name: 'Contributor 身份', status: 'active', last_action: '1 PR 提交', roi: 'high', next: '再提交 2-4 个' }
-  ];
-  tasks.forEach((t, i) => {
-    data.push({
-      timestamp: new Date(now.getTime() - i * 60000).toISOString(),
-      category: 'task',
-      details: t
-    });
-  });
-  
   return data;
+}
+
+function setTokenRange(range) {
+  tokenRange = range;
+  document.querySelectorAll('.range-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.range === String(range));
+  });
+  drawTokenChart();
 }
 
 // ==================== RENDER ====================
@@ -395,7 +348,6 @@ function renderAll() {
   drawTokenChart();
   drawROIChart();
   drawContextChart();
-  drawCronChart();
   drawTaskTokenDetail();
   drawTaskBoard();
   drawMaintBoard();
@@ -412,18 +364,22 @@ function updateTime() {
 
 function updateKPIs() {
   const today = new Date().toISOString().slice(0, 10);
-  const todayTokens = metricsData
-    .filter(d => d.category === 'token_daily' && d.details.date === today)
-    .reduce((s, d) => s + (d.details.productive || 0) + (d.details.exploratory || 0), 0);
+  
+  // Today's tokens - from token_daily (should be single record per day)
+  const todayRecord = metricsData.find(d => 
+    d.category === 'token_daily' && d.details.date === today
+  );
+  const todayTokens = todayRecord ? 
+    (todayRecord.details.productive || 0) + (todayRecord.details.exploratory || 0) : 0;
   
   document.getElementById('kpiTokens').textContent = todayTokens || '—';
   document.getElementById('kpiTokensChange').textContent = todayTokens > 10000 ? '偏高' : '正常';
   document.getElementById('kpiTokensChange').className = 'kpi-change ' + (todayTokens > 10000 ? 'down' : 'up');
   
-  // Sessions - from session_growth data
+  // Sessions
   const sessions = metricsData.filter(d => d.category === 'session_growth');
-  const latestSession = sessions.pop();
-  const prevSession = sessions.pop();
+  const latestSession = sessions[sessions.length - 1];
+  const prevSession = sessions.length > 1 ? sessions[sessions.length - 2] : null;
   const sessionCount = latestSession ? latestSession.details.active_count : 0;
   const sessionChange = latestSession && prevSession ? 
     latestSession.details.active_count - prevSession.details.active_count : 0;
@@ -434,13 +390,14 @@ function updateKPIs() {
   document.getElementById('kpiSessionsChange').className = 'kpi-change ' + (sessionChange > 5 ? 'down' : 'up');
   
   // Context - latest
-  const latestCtx = metricsData.filter(d => d.category === 'context').pop();
+  const ctxRecords = metricsData.filter(d => d.category === 'context');
+  const latestCtx = ctxRecords[ctxRecords.length - 1];
   const ctxVal = latestCtx ? latestCtx.details.utilization : 58;
   document.getElementById('kpiContext').textContent = ctxVal + '%';
   document.getElementById('kpiContextChange').textContent = ctxVal > 70 ? '预警' : '安全';
   document.getElementById('kpiContextChange').className = 'kpi-change ' + (ctxVal > 70 ? 'down' : 'up');
   
-  // PRs - all time (subagent records)
+  // PRs - all time
   const prCount = metricsData.filter(d => 
     d.category === 'subagent' && d.details.outcome === 'pr_submitted'
   ).length;
@@ -461,14 +418,36 @@ function setupCanvas(id) {
 
 function drawTokenChart() {
   const { ctx, width, height } = setupCanvas('tokenChart');
-  const data = metricsData.filter(d => d.category === 'token_daily').slice(-7);
+  let data = metricsData.filter(d => d.category === 'token_daily');
+  
+  // Apply range filter
+  if (tokenRange === '7') data = data.slice(-7);
+  else if (tokenRange === '30') data = data.slice(-30);
+  // 'all' = no filter
+  
   if (data.length === 0) return;
   
-  const pad = { top: 20, right: 20, bottom: 30, left: 40 };
+  const pad = { top: 20, right: 20, bottom: 30, left: 50 };
   const w = width - pad.left - pad.right;
   const h = height - pad.top - pad.bottom;
   
-  const maxVal = Math.max(...data.map(d => d.details.productive + d.details.exploratory), 100);
+  // Build tier stacks: for each day, get P0/P1/P2/other
+  const tierColors = { P0: '#ff6b6b', P1: '#4ecdc4', P2: '#ffe66d', other: '#888888' };
+  const tierOrder = ['other', 'P2', 'P1', 'P0'];
+  
+  const stacked = data.map(d => {
+    const byTier = d.details.by_tier || {};
+    return {
+      date: d.details.date,
+      P0: byTier.P0 || 0,
+      P1: byTier.P1 || 0,
+      P2: byTier.P2 || 0,
+      other: (d.details.productive || 0) + (d.details.exploratory || 0) - 
+             (byTier.P0 || 0) - (byTier.P1 || 0) - (byTier.P2 || 0)
+    };
+  });
+  
+  const maxVal = Math.max(...stacked.map(d => d.P0 + d.P1 + d.P2 + d.other), 100);
   const barW = w / data.length * 0.6;
   const spacing = w / data.length;
   
@@ -483,26 +462,29 @@ function drawTokenChart() {
     ctx.stroke();
   }
   
-  // Bars
-  data.forEach((d, i) => {
+  // Stacked bars
+  stacked.forEach((d, i) => {
     const x = pad.left + spacing * i + (spacing - barW) / 2;
-    const prodH = (d.details.productive / maxVal) * h;
-    const expH = (d.details.exploratory / maxVal) * h;
+    let yBottom = pad.top + h;
     
-    // 编码产出 (bottom)
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent2');
-    ctx.fillRect(x, pad.top + h - prodH, barW, prodH);
+    tierOrder.forEach(tier => {
+      const val = Math.max(0, d[tier]);
+      const barH = (val / maxVal) * h;
+      ctx.fillStyle = tierColors[tier];
+      ctx.fillRect(x, yBottom - barH, barW, barH);
+      yBottom -= barH;
+    });
     
-    // 探索调研 (top)
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent3');
-    ctx.fillRect(x, pad.top + h - prodH - expH, barW, expH);
-    
-    // Label
+    // Label - show MM/DD, skip some if many bars
     ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-dim');
     ctx.font = '10px monospace';
     ctx.textAlign = 'center';
-    const date = d.details.date.slice(5).replace('-', '/');
-    ctx.fillText(date, x + barW / 2, height - 8);
+    const dateStr = d.date.slice(5).replace('-', '/');
+    // Only show every Nth label if >14 bars
+    const step = data.length > 20 ? Math.ceil(data.length / 14) : 1;
+    if (i % step === 0 || i === data.length - 1) {
+      ctx.fillText(dateStr, x + barW / 2, height - 8);
+    }
   });
   
   // Y axis labels
@@ -624,48 +606,6 @@ function drawContextChart() {
   }
 }
 
-function drawCronChart() {
-  const { ctx, width, height } = setupCanvas('cronChart');
-  const crons = metricsData.filter(d => d.category === 'cron');
-  if (crons.length === 0) return;
-  
-  const pad = { top: 20, right: 20, bottom: 30, left: 120 };
-  const w = width - pad.left - pad.right;
-  const h = height - pad.top - pad.bottom;
-  const barH = h / crons.length * 0.5;
-  const spacing = h / crons.length;
-  
-  crons.forEach((d, i) => {
-    const y = pad.top + spacing * i + (spacing - barH) / 2;
-    const hasOutput = d.details.had_output;
-    const emptyRuns = d.details.empty_runs || 0;
-    
-    // Background bar
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--grid');
-    ctx.fillRect(pad.left, y, w, barH);
-    
-    // Output bar (filled portion)
-    const fillPct = hasOutput ? 0.7 : 0.1;
-    ctx.fillStyle = hasOutput ? 
-      getComputedStyle(document.documentElement).getPropertyValue('--success') :
-      getComputedStyle(document.documentElement).getPropertyValue('--danger');
-    ctx.fillRect(pad.left, y, w * fillPct, barH);
-    
-    // Label
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text');
-    ctx.font = '11px monospace';
-    ctx.textAlign = 'right';
-    ctx.fillText(d.details.name, pad.left - 8, y + barH / 2 + 4);
-    
-    // Status
-    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--text-dim');
-    ctx.font = '10px monospace';
-    ctx.textAlign = 'left';
-    const status = emptyRuns > 10 ? `${emptyRuns} 次静默` : (hasOutput ? '有产出' : '静默');
-    ctx.fillText(status, pad.left + w * fillPct + 8, y + barH / 2 + 4);
-  });
-}
-
 function drawTaskBoard() {
   const tasks = metricsData.filter(d => d.category === 'task');
   const board = document.getElementById('taskBoard');
@@ -686,7 +626,6 @@ function drawTaskBoard() {
       <div style="font-size:11px;color:var(--text-dim);">Next: ${d.next || ''}</div>
     `;
     
-    // Children (sub-projects)
     if (d.children && d.children.length > 0) {
       html += `<div style="margin-top:10px;padding-top:8px;border-top:1px dashed var(--border);">`;
       html += `<div style="font-size:10px;color:var(--text-dim);margin-bottom:4px;">子项目：</div>`;
@@ -728,14 +667,12 @@ function drawMaintBoard() {
 }
 
 function drawTaskTokenDetail() {
-  const today = new Date().toISOString().slice(0, 10);
-  const agents = metricsData
-    .filter(d => d.category === 'subagent')
-    .sort((a, b) => (b.details.tokens || 0) - (a.details.tokens || 0));
+  // Aggregate subagent tokens by tier (all time)
+  const agents = metricsData.filter(d => d.category === 'subagent');
   
   const container = document.getElementById('taskTokenDetail');
   if (agents.length === 0) {
-    container.innerHTML = '<div style="color:var(--text-dim);padding:12px;">暂无今日任务数据</div>';
+    container.innerHTML = '<div style="color:var(--text-dim);padding:12px;">暂无任务数据</div>';
     return;
   }
   
@@ -762,10 +699,10 @@ function drawTaskTokenDetail() {
     html += `<div style="border-bottom:1px solid var(--border);">`;
     html += `<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 12px 8px;">`;
     html += `<div style="font-weight:bold;color:${tierColors[tier]};font-size:14px;">${tierNames[tier]}</div>`;
-    html += `<div style="font-size:12px;color:var(--text-dim);">合计: <span style="color:var(--accent2);font-weight:bold;">${tierTotal}k</span></div>`;
+    html += `<div style="font-size:12px;color:var(--text-dim);">合计: <span style="color:var(--accent2);font-weight:bold;">${tierTotal}k</span> · ${items.length} 次任务</div>`;
     html += `</div>`;
     
-    items.forEach(a => {
+    items.slice(0, 5).forEach(a => {  // Show top 5 per tier
       const d = a.details;
       const roiColor = d.roi === 'high' ? 'var(--success)' : d.roi === 'mid' ? 'var(--warning)' : 'var(--danger)';
       const outcome = d.outcome === 'pr_submitted' ? '✅ PR' : d.outcome === 'code_ready' ? '✅ Code' : d.outcome === 'blocked' ? '⛔ Blocked' : '❌ None';
@@ -778,12 +715,16 @@ function drawTaskTokenDetail() {
         </div>
       `;
     });
+    if (items.length > 5) {
+      html += `<div style="padding:4px 12px 8px 24px;font-size:11px;color:var(--text-dim);">... 还有 ${items.length - 5} 条记录</div>`;
+    }
     html += `</div>`;
   });
   
-  html += `<div style="padding:12px;font-size:13px;color:var(--text-dim);text-align:right;">总计: <span style="color:var(--accent2);font-weight:bold;font-size:16px;">${grandTotal}k</span> tokens</div>`;
+  html += `<div style="padding:12px;font-size:13px;color:var(--text-dim);text-align:right;">总计: <span style="color:var(--accent2);font-weight:bold;font-size:16px;">${grandTotal}k</span> tokens · ${agents.length} 次子 Agent 任务</div>`;
   container.innerHTML = html;
 }
+
 loadData();
 // Auto-refresh every 30 seconds
 setInterval(loadData, 30000);
