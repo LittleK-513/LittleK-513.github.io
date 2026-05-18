@@ -294,7 +294,8 @@ async function loadData() {
   try {
     // Add cache-busting timestamp
     const cacheBuster = '?v=' + Date.now();
-    const resp = await fetch('./data.jsonl' + cacheBuster);
+    // GitHub Pages doesn't serve .jsonl, use .json
+    const resp = await fetch('./data.json' + cacheBuster);
     if (!resp.ok) throw new Error('No data');
     const text = await resp.text();
     metricsData = text.trim().split('\n').map(l => JSON.parse(l));
