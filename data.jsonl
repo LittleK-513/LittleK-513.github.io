@@ -1,3 +1,5 @@
+{"timestamp": "2026-05-18T13:11:22.292975+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 133.67, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T13:11:22.293610+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
 {"timestamp": "2026-05-14T14:54:22.848327+08:00", "category": "session_growth", "details": {"active_count": 212, "archive_count": 42, "active_size_mb": 20.46, "archive_size_mb": 2.42}}
 {"timestamp": "2026-05-14T14:54:22.848865+08:00", "category": "cron_status", "details": {"error": "'str' object has no attribute 'get'"}}
 {"timestamp": "2026-05-08T14:55:29.096176+08:00", "category": "token_daily", "details": {"date": "2026-05-08", "productive": 45, "exploratory": 180}}
@@ -105,3 +107,58 @@
 {"timestamp": "2026-05-17T16:12:30.379321+08:00", "category": "context", "details": {"utilization": 60}}
 {"timestamp": "2026-05-17T16:45:38.483702+08:00", "category": "context", "details": {"utilization": 60}}
 {"timestamp": "2026-05-17T17:22:38.664792+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T17:59:39.595684+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T18:36:39.509268+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T19:13:44.798632+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T19:50:40.773196+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T20:27:48.368423+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T20:34:48.744285+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T21:24:13.438909+08:00", "category": "context", "details": {"utilization": 63}}
+{"timestamp": "2026-05-17T21:25:47.653466+08:00", "category": "context", "details": {"utilization": 63}}
+{"timestamp": "2026-05-17T21:41:44.418689+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T21:44:19.237339+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T22:18:52.076642+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T22:55:50.828973+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T23:32:44.838039+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T00:09:39.880137+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 10, "exploratory": 800}}
+{"timestamp": "2026-05-18T00:09:39.881902+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T00:46:39.814595+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T01:23:38.697255+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T02:00:44.218785+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T02:37:38.998062+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T03:14:48.970196+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T03:51:41.827436+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T04:28:41.757860+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T05:07:19.947563+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T05:42:36.435838+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T06:19:39.199334+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T06:56:44.231119+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T07:33:35.623998+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T08:10:35.669664+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T08:47:35.770351+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T09:24:46.311196+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T10:01:39.630943+08:00", "category": "context", "details": {"utilization": 67}}
+{"timestamp": "2026-05-18T10:38:58.884002+08:00", "category": "context", "details": {"utilization": 68}}
+{"timestamp": "2026-05-18T11:15:40.351513+08:00", "category": "context", "details": {"utilization": 69}}
+{"timestamp": "2026-05-18T13:30:01.793521+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 133.81, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T13:30:01.794070+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T14:00:02.073347+08:00", "category": "session_growth", "details": {"active_count": 220, "archive_count": 42, "active_size_mb": 134.02, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T14:00:02.073850+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T14:30:01.399021+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 134.15, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T14:30:01.399541+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:00:01.766010+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 134.17, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:00:01.766641+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:23:43.454930+08:00", "category": "session_growth", "details": {"active_count": 222, "archive_count": 42, "active_size_mb": 134.47, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:23:43.455369+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:23:43.602050+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 5750, "exploratory": 3408}}
+{"timestamp": "2026-05-18T15:23:43.603660+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T15:23:43.651630+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=1.1h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:23:43.651785+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=4.7h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:23:43.651910+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=6.6h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.106298+08:00", "category": "session_growth", "details": {"active_count": 222, "archive_count": 42, "active_size_mb": 150.66, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:30:02.106880+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:30:02.510323+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 9012, "exploratory": 3408}}
+{"timestamp": "2026-05-18T15:30:02.512154+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T15:30:02.579570+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=1.2h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.579787+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=4.9h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.579931+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=6.7h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}

@@ -292,7 +292,9 @@ let metricsData = [];
 
 async function loadData() {
   try {
-    const resp = await fetch('./data.jsonl');
+    // Add cache-busting timestamp
+    const cacheBuster = '?v=' + Date.now();
+    const resp = await fetch('./data.jsonl' + cacheBuster);
     if (!resp.ok) throw new Error('No data');
     const text = await resp.text();
     metricsData = text.trim().split('\n').map(l => JSON.parse(l));
@@ -417,10 +419,18 @@ function updateKPIs() {
   document.getElementById('kpiTokensChange').textContent = todayTokens > 10000 ? '偏高' : '正常';
   document.getElementById('kpiTokensChange').className = 'kpi-change ' + (todayTokens > 10000 ? 'down' : 'up');
   
-  // Sessions - mock for now
-  document.getElementById('kpiSessions').textContent = '212';
-  document.getElementById('kpiSessionsChange').textContent = '+8 今日';
-  document.getElementById('kpiSessionsChange').className = 'kpi-change down';
+  // Sessions - from session_growth data
+  const sessions = metricsData.filter(d => d.category === 'session_growth');
+  const latestSession = sessions.pop();
+  const prevSession = sessions.pop();
+  const sessionCount = latestSession ? latestSession.details.active_count : 0;
+  const sessionChange = latestSession && prevSession ? 
+    latestSession.details.active_count - prevSession.details.active_count : 0;
+  
+  document.getElementById('kpiSessions').textContent = sessionCount || '—';
+  document.getElementById('kpiSessionsChange').textContent = 
+    sessionChange > 0 ? `+${sessionChange} 今日` : sessionChange < 0 ? `${sessionChange} 今日` : '今日';
+  document.getElementById('kpiSessionsChange').className = 'kpi-change ' + (sessionChange > 5 ? 'down' : 'up');
   
   // Context - latest
   const latestCtx = metricsData.filter(d => d.category === 'context').pop();
@@ -429,11 +439,11 @@ function updateKPIs() {
   document.getElementById('kpiContextChange').textContent = ctxVal > 70 ? '预警' : '安全';
   document.getElementById('kpiContextChange').className = 'kpi-change ' + (ctxVal > 70 ? 'down' : 'up');
   
-  // PRs
+  // PRs - all time (subagent records)
   const prCount = metricsData.filter(d => 
     d.category === 'subagent' && d.details.outcome === 'pr_submitted'
   ).length;
-  document.getElementById('kpiPRs').textContent = prCount;
+  document.getElementById('kpiPRs').textContent = prCount || '—';
 }
 
 // ==================== CHARTS ====================
