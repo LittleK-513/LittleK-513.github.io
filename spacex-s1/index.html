@@ -8,6 +8,8 @@
         :root {
             --primary: #005288;
             --accent: #ff6b35;
+            --danger: #e53935;
+            --success: #43a047;
             --bg: #f8f9fa;
             --card: #fff;
             --text: #1a1a2e;
@@ -30,31 +32,62 @@
         .hero h1 { font-size: 2.5em; margin-bottom: 10px; }
         .hero .subtitle { font-size: 1.1em; opacity: 0.85; }
         .hero .meta { margin-top: 20px; font-size: 0.9em; opacity: 0.7; }
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin: 3px;
+        }
         .container { max-width: 960px; margin: 0 auto; padding: 20px; }
         .section { background: var(--card); border-radius: 12px; padding: 30px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
         .section h2 { color: var(--primary); font-size: 1.5em; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid var(--border); }
         .section h3 { color: var(--text); font-size: 1.2em; margin: 20px 0 10px; }
         .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
         .kpi-card { background: linear-gradient(135deg, var(--primary) 0%, #1a6db0 100%); color: white; padding: 20px; border-radius: 10px; text-align: center; }
+        .kpi-card.danger { background: linear-gradient(135deg, #c62828 0%, #e53935 100%); }
+        .kpi-card.success { background: linear-gradient(135deg, #2e7d32 0%, #43a047 100%); }
+        .kpi-card.warning { background: linear-gradient(135deg, #ef6c00 0%, #ff9800 100%); }
         .kpi-card .value { font-size: 2em; font-weight: bold; margin: 10px 0; }
         .kpi-card .label { font-size: 0.85em; opacity: 0.9; }
         .risk-list { list-style: none; }
         .risk-list li { padding: 12px 15px; margin: 8px 0; background: #fff5f0; border-left: 4px solid var(--accent); border-radius: 6px; }
-        .data-table { width: 100%; border-collapse: collapse; margin: 15px 0; }
-        .data-table th { background: var(--primary); color: white; padding: 12px; text-align: left; }
-        .data-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
+        .risk-list li.high { background: #ffebee; border-left-color: var(--danger); }
+        .data-table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 0.9em; }
+        .data-table th { background: var(--primary); color: white; padding: 10px; text-align: left; }
+        .data-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
         .data-table tr:hover { background: #f0f4f8; }
+        .data-table .num { text-align: right; font-family: 'SF Mono', monospace; }
         .highlight { background: #fff8e1; padding: 2px 6px; border-radius: 4px; font-weight: 500; }
+        .highlight-red { background: #ffebee; color: #c62828; padding: 2px 6px; border-radius: 4px; font-weight: 500; }
+        .highlight-green { background: #e8f5e9; color: #2e7d32; padding: 2px 6px; border-radius: 4px; font-weight: 500; }
         .analysis-box { background: #e8f4f8; border-left: 4px solid var(--primary); padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .analysis-box.danger { background: #ffebee; border-left-color: var(--danger); }
+        .analysis-box.success { background: #e8f5e9; border-left-color: var(--success); }
         .analysis-box h4 { color: var(--primary); margin-bottom: 10px; }
+        .analysis-box.danger h4 { color: var(--danger); }
+        .analysis-box.success h4 { color: var(--success); }
+        .seg-bar { display: flex; height: 30px; border-radius: 6px; overflow: hidden; margin: 10px 0; }
+        .seg-bar .seg { display: flex; align-items: center; justify-content: center; color: white; font-size: 0.75em; font-weight: 500; }
+        .seg-connectivity { background: var(--success); width: 61%; }
+        .seg-space { background: var(--primary); width: 22%; }
+        .seg-ai { background: var(--accent); width: 17%; }
+        .milestone-track { display: flex; align-items: center; gap: 8px; margin: 15px 0; flex-wrap: wrap; }
+        .milestone-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--border); }
+        .milestone-dot.active { background: var(--success); }
+        .milestone-dot.current { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+        .milestone-label { font-size: 0.8em; color: var(--text-light); }
         footer { text-align: center; padding: 40px 20px; color: var(--text-light); font-size: 0.85em; }
         .nav { position: sticky; top: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 15px 0; border-bottom: 1px solid var(--border); z-index: 100; }
-        .nav-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
-        .nav-links a { color: var(--primary); text-decoration: none; font-weight: 500; padding: 5px 10px; border-radius: 6px; transition: background 0.2s; }
+        .nav-links { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; max-width: 960px; margin: 0 auto; padding: 0 20px; }
+        .nav-links a { color: var(--primary); text-decoration: none; font-weight: 500; padding: 5px 10px; border-radius: 6px; transition: background 0.2s; font-size: 0.9em; }
         .nav-links a:hover { background: #e8f4f8; }
+        .tag { display: inline-block; background: var(--bg); padding: 2px 8px; border-radius: 4px; font-size: 0.8em; color: var(--text-light); margin-right: 5px; }
         @media (max-width: 600px) {
             .hero h1 { font-size: 1.8em; }
             .kpi-grid { grid-template-columns: 1fr; }
+            .data-table { font-size: 0.8em; }
         }
     </style>
 </head>
@@ -62,216 +95,305 @@
     <div class="hero">
         <h1>SpaceX S-1 招股书深度解读</h1>
         <p class="subtitle">Space Exploration Technologies Corp. 纳斯达克 IPO 深度分析</p>
-        <p class="meta">股票代码：SPCX | 注册地：德克萨斯州 | SIC：7370 计算机编程与数据处理</p>
-        <p class="meta">承销商：高盛、摩根士丹利、美银证券、花旗、摩根大通</p>
+        <p class="meta">
+            <span class="badge">股票代码 SPCX</span>
+            <span class="badge">纳斯达克 / Nasdaq Texas</span>
+            <span class="badge">SIC 7370 计算机编程与数据处理</span>
+        </p>
+        <p class="meta">
+            <span class="badge">Societe Generale</span>
+            <span class="badge">Macquarie Capital</span>
+            <span class="badge">Mirae Asset Securities</span>
+        </p>
     </div>
 
     <div class="nav">
         <div class="nav-links">
-            <a href="#cover">发行概览</a>
-            <a href="#summary">核心摘要</a>
-            <a href="#tam">市场机会</a>
+            <a href="#overview">发行概览</a>
             <a href="#financials">财务数据</a>
-            <a href="#business">业务板块</a>
-            <a href="#risk">风险因素</a>
-            <a href="#analysis">专业解读</a>
+            <a href="#segments">业务板块</a>
+            <a href="#tam">市场机会</a>
+            <a href="#risks">风险因素</a>
+            <a href="#analysis">投资解读</a>
         </div>
     </div>
 
     <div class="container">
-        <div class="section" id="cover">
+        <div class="section" id="overview">
             <h2>发行概览</h2>
             <div class="kpi-grid">
-                <div class="kpi-card">
-                    <div class="label">计划募资</div>
-                    <div class="value" id="ipo-raise">$40-80B</div>
-                    <div class="label">创历史纪录</div>
+                <div class="kpi-card warning">
+                    <div class="label">2025 年收入</div>
+                    <div class="value">$18.7B</div>
+                    <div class="label">+33.2% YoY</div>
                 </div>
-                <div class="kpi-card">
-                    <div class="label">股票代码</div>
-                    <div class="value">SPCX</div>
-                    <div class="label">纳斯达克</div>
+                <div class="kpi-card danger">
+                    <div class="label">2025 运营亏损</div>
+                    <div class="value">$2.6B</div>
+                    <div class="label">AI 业务拖累</div>
+                </div>
+                <div class="kpi-card success">
+                    <div class="label">Adj. EBITDA</div>
+                    <div class="value">$6.6B</div>
+                    <div class="label">Starlink 驱动</div>
+                </div>
+                <div class="kpi-card danger">
+                    <div class="label">总债务</div>
+                    <div class="value">$29.1B</div>
+                    <div class="label">截至 2026.3.31</div>
                 </div>
                 <div class="kpi-card">
                     <div class="label">TAM 总市场</div>
-                    <div class="value" id="tam-value">$28.5T</div>
-                    <div class="label">其中 AI 占 $26.5T</div>
+                    <div class="value">$28.5T</div>
+                    <div class="label">其中 AI $26.5T</div>
                 </div>
                 <div class="kpi-card">
-                    <div class="label">2025 年收入</div>
-                    <div class="value" id="revenue-2025">$11.4B</div>
-                    <div class="label">Starlink 驱动</div>
+                    <div class="label">2025 资本支出</div>
+                    <div class="value">$20.7B</div>
+                    <div class="label">AI 占 $12.7B</div>
                 </div>
             </div>
-            <h3>承销商阵容</h3>
-            <p>本次 IPO 由全球顶级投行联席承销：</p>
+
+            <h3>马斯克市值里程碑</h3>
+            <p>绩效奖励设置了 12 个市值里程碑，从 <span class="highlight">$1.065 万亿</span>到<span class="highlight">$6.565 万亿</span>，每 $500B 增量。</p>
+            <div class="milestone-track">
+                <div class="milestone-dot current"></div>
+                <div class="milestone-label">IPO</div>
+                <div style="flex:1; height:2px; background:var(--border);"></div>
+                <div class="milestone-dot"></div>
+                <div class="milestone-label">$1.065T</div>
+                <div style="flex:1; height:2px; background:var(--border);"></div>
+                <div class="milestone-dot"></div>
+                <div class="milestone-label">$2T</div>
+                <div style="flex:1; height:2px; background:var(--border);"></div>
+                <div class="milestone-dot"></div>
+                <div class="milestone-label">$4T</div>
+                <div style="flex:1; height:2px; background:var(--border);"></div>
+                <div class="milestone-dot"></div>
+                <div class="milestone-label">$6.565T</div>
+            </div>
+            <p style="font-size:0.85em; color:var(--text-light);">* 最终条件：在火星建立至少 100 万居民的永久人类殖民地</p>
+
+            <h3>股权结构</h3>
             <ul>
-                <li><strong> Goldman Sachs & Co. LLC</strong> — 牵头经办人</li>
-                <li><strong> Morgan Stanley</strong> — 联席牵头</li>
-                <li><strong> BofA Securities</strong> — 联席经办</li>
-                <li><strong> Citigroup</strong> — 联席经办</li>
-                <li><strong> J.P. Morgan</strong> — 联席经办</li>
+                <li><strong>双重股权结构：</strong>A 类每股 1 票，B 类每股 10 票</li>
+                <li><strong>马斯克控制：</strong>IPO 后持有多数投票权，公司成为"受控公司"</li>
+                <li><strong>2026 年 5 月 4 日：</strong>5:1 拆股已生效</li>
             </ul>
-            <h3>法律顾问</h3>
-            <p><strong>发行人律师：</strong>Gibson, Dunn & Crutcher LLP（休斯顿）<br>
-            <strong>承销商律师：</strong>Davis Polk & Wardwell LLP（纽约）</p>
-        </div>
-
-        <div class="section" id="summary">
-            <h2>招股摘要（Prospectus Summary）</h2>
-            <div id="summary-content">
-                <!-- 内容由子 agent 填充 -->
-                <p class="text-light">正在加载翻译内容...</p>
-            </div>
-        </div>
-
-        <div class="section" id="tam">
-            <h2>总潜在市场（TAM）</h2>
-            <div id="tam-content">
-                <p>SpaceX 在招股书中报出的 <span class="highlight">TAM 为 28.5 万亿美元</span>，这一数字被业界称为"科幻级"，远超任何已上市公司的市场规模。</p>
-                <div class="analysis-box">
-                    <h4>专业解读：TAM 可信度分析</h4>
-                    <p>28.5 万亿美元的 TAM 包含以下主要板块：</p>
-                    <ul>
-                        <li><strong>AI 市场：$26.5T</strong> — 包含 Grok/xAI 的推理市场、自动驾驶、机器人等</li>
-                        <li><strong>卫星通信：$1.2T</strong> — Starlink 的全球宽带覆盖</li>
-                        <li><strong>太空发射：$0.5T</strong> — 商业发射、国防发射、月球/火星任务</li>
-                        <li><strong>其他：$0.3T</strong> — 星舰货运、太空旅游、基础设施</li>
-                    </ul>
-                    <p><strong>风险提示：</strong>28.5T 的 TAM 中 93% 来自 AI 市场，而 SpaceX 在 AI 领域的实际竞争力（vs OpenAI、Anthropic、Google）尚待验证。xAI 的 Grok 目前市场份额极小，大部分 TAM 属于"潜在"而非"可触达"。</p>
-                </div>
-            </div>
         </div>
 
         <div class="section" id="financials">
             <h2>财务数据</h2>
-            <div id="financials-content">
-                <h3>收入与利润（2025 年度）</h3>
-                <table class="data-table">
-                    <thead>
-                        <tr><th>指标</th><th>2025</th><th>2024</th><th>同比变化</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>总收入</td><td id="rev-2025">$11,387M</td><td id="rev-2024">—</td><td>—</td></tr>
-                        <tr><td>运营利润</td><td id="op-2025">$4,423M</td><td id="op-2024">—</td><td>—</td></tr>
-                        <tr><td>Segment Adjusted EBITDA</td><td id="ebitda-2025">$7,168M</td><td id="ebitda-2024">—</td><td>—</td></tr>
-                        <tr><td>运营利润率</td><td id="margin-2025">38.8%</td><td>—</td><td>—</td></tr>
-                    </tbody>
-                </table>
-                <div class="analysis-box">
-                    <h4>财务解读</h4>
-                    <p>SpaceX 2025 年 <span class="highlight">运营利润率 38.8%</span>，在航天/卫星行业中属于极高水平。作为对比：</p>
-                    <ul>
-                        <li>传统国防承包商（Lockheed Martin、Boeing）利润率：8-12%</li>
-                        <li>电信运营商（Verizon、AT&T）利润率：15-20%</li>
-                        <li>科技巨头（Apple、Google）利润率：25-35%</li>
-                    </ul>
-                    <p>高利润率主要来自 Starlink 的订阅模式（经常性收入）+ 发射业务的规模效应（猎鹰 9 号回收降低单次成本）。</p>
-                </div>
+
+            <h3>合并损益表</h3>
+            <table class="data-table">
+                <thead>
+                    <tr><th>指标</th><th>2025</th><th>2024</th><th>2023</th><th>趋势</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>总收入</td><td class="num">$18,674M</td><td class="num">$14,015M</td><td class="num">$10,387M</td><td>+33%</td></tr>
+                    <tr><td>运营利润/亏损</td><td class="num"><span class="highlight-red">$(2,589)M</span></td><td class="num">$466M</td><td class="num"><span class="highlight-red">$(3,505)M</span></td><td>转亏</td></tr>
+                    <tr><td>Adj. EBITDA</td><td class="num"><span class="highlight-green">$6,584M</span></td><td class="num">$1,127M</td><td class="num">—</td><td>+484%</td></tr>
+                </tbody>
+            </table>
+
+            <h3>分板块收入与利润（2025）</h3>
+            <div class="seg-bar">
+                <div class="seg seg-connectivity">连接 $11.4B 61%</div>
+                <div class="seg seg-space">太空 $4.1B 22%</div>
+                <div class="seg seg-ai">AI $3.2B 17%</div>
+            </div>
+
+            <table class="data-table">
+                <thead>
+                    <tr><th>板块</th><th>收入</th><th>增速</th><th>运营利润</th><th>Segment EBITDA</th><th>资本支出</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>连接（Starlink）</strong></td>
+                        <td class="num">$11,387M</td>
+                        <td>+49.8%</td>
+                        <td class="num"><span class="highlight-green">$4,423M</span></td>
+                        <td class="num"><span class="highlight-green">$7,168M</span></td>
+                        <td class="num">$4,178M</td>
+                    </tr>
+                    <tr>
+                        <td><strong>太空（发射）</strong></td>
+                        <td class="num">$4,086M</td>
+                        <td>+7.6%</td>
+                        <td class="num"><span class="highlight-red">$(657)M</span></td>
+                        <td class="num">$653M</td>
+                        <td class="num">$3,832M</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AI（xAI/X）</strong></td>
+                        <td class="num">$3,201M</td>
+                        <td>+22.2%</td>
+                        <td class="num"><span class="highlight-red">$(6,355)M</span></td>
+                        <td class="num"><span class="highlight-red">$(1,237)M</span></td>
+                        <td class="num">$12,727M</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="analysis-box success">
+                <h4>Starlink：利润引擎</h4>
+                <p>连接业务 EBITDA 利润率 <strong>63%</strong>（$7.2B / $11.4B），是主要利润来源。用户从 500 万增长到 <strong>1,030 万</strong>（+105%），覆盖 164 个国家。</p>
+            </div>
+            <div class="analysis-box danger">
+                <h4>AI 业务：最大亏损来源</h4>
+                <p>AI 运营亏损 <strong>$6.4B</strong>，资本支出 <strong>$12.7B</strong>。COLOSSUS + COLOSSUS II 合计约 <strong>1.0 吉瓦</strong>计算能力。这是"战略性亏损"——用短期亏损换取 AI 基础设施领导地位。</p>
             </div>
         </div>
 
-        <div class="section" id="business">
-            <h2>业务板块</h2>
-            <div id="business-content">
-                <h3>1. Starlink（卫星互联网）</h3>
-                <p>SpaceX 的核心收入引擎。截至 2026 年，Starlink 拥有 <span class="highlight">全球超过 500 万用户</span>，覆盖 100+ 国家。</p>
-                <ul>
-                    <li><strong>消费者业务：</strong>住宅宽带，月费 $120-500</li>
-                    <li><strong>企业业务：</strong>海事、航空、远程办公</li>
-                    <li><strong>政府/国防：</strong>Starshield（军用版 Starlink）</li>
-                </ul>
+        <div class="section" id="segments">
+            <h2>业务板块详解</h2>
 
-                <h3>2. Launch（发射服务）</h3>
-                <p>全球发射市场的领导者，2025 年完成 <span class="highlight">100+ 次发射</span>，占全球商业发射的 80% 以上。</p>
-                <ul>
-                    <li><strong>猎鹰 9 号：</strong>已回收重复使用 300+ 次</li>
-                    <li><strong>猎鹰重型：</strong>重型载荷发射</li>
-                    <li><strong>星舰（Starship）：</strong>下一代完全可复用火箭，开发中</li>
-                </ul>
+            <h3>1. Starlink（连接业务）— 利润引擎</h3>
+            <ul>
+                <li><span class="tag">Consumer</span>住宅宽带，月费 $120-500，占连接收入 60%+</li>
+                <li><span class="tag">Enterprise</span>航空、海事、陆地移动、建筑工地</li>
+                <li><span class="tag">Government</span>Starshield 军用版，美国政府客户</li>
+                <li><span class="tag">Mobile</span>直连手机，约 30 个国家，补充地面盲区</li>
+            </ul>
+            <p><strong>关键数据：</strong>9,600 颗卫星在轨 | 1,030 万用户 | 单颗 V3 卫星 1Tbps 下行 | 覆盖 164 国</p>
 
-                <h3>3. xAI / Grok（人工智能）</h3>
-                <p>2026 年 5 月，xAI 并入 SpaceX（更名为 SpaceXAI）。Grok 是 SpaceX 的 AI 入口，集成到 X 平台、特斯拉、Starlink。</p>
-                <div class="analysis-box">
-                    <h4>业务板块估值拆解</h4>
-                    <table class="data-table">
-                        <thead>
-                            <tr><th>板块</th><th>2025 收入占比</th><th>增长率</th><th>估值权重</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Starlink</td><td>~70%</td><td>60%+ YoY</td><td>50%</td></tr>
-                            <tr><td>Launch</td><td>~25%</td><td>20% YoY</td><td>25%</td></tr>
-                            <tr><td>xAI / Other</td><td>~5%</td><td>N/A</td><td>25%</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+            <h3>2. 太空业务（发射服务）</h3>
+            <ul>
+                <li><strong>Falcon 9：</strong>2025 年发射 <strong>165 次</strong>，一级助推器已重复使用 <strong>34 次</strong></li>
+                <li><strong>Falcon Heavy：</strong>重型载荷发射</li>
+                <li><strong>Dragon：</strong>载人/货运飞船，为 NASA 执行 CRS 任务</li>
+                <li><strong>Starship：</strong>下一代完全可复用火箭，预计 2026 H2 轨道交付</li>
+            </ul>
+            <p><strong>发射成本优势：</strong>SpaceX 约 $2,700/kg vs 历史 $18,500/kg（降低 85%）</p>
+
+            <h3>3. AI 业务（xAI / X）</h3>
+            <ul>
+                <li><strong>Grok：</strong>truth-seeking AI 模型，GPQA Diamond 前沿水平</li>
+                <li><strong>COLOSSUS：</strong>约 100,000 颗 H100 + 110,000 颗 GB200 + 110,000 颗 GB300</li>
+                <li><strong>X 平台：</strong>11 亿+ 账户，5.2 亿 MAU，AI 生态系统的数据引擎</li>
+                <li><strong>Terafab：</strong>芯片制造计划，与 Tesla、Intel 合作，目标年产 1 太瓦</li>
+                <li><strong>Cursor 期权：</strong>隐含估值 <strong>$60B</strong>，终止费 $1.5B</li>
+            </ul>
+        </div>
+
+        <div class="section" id="tam">
+            <h2>总潜在市场（TAM）</h2>
+            <table class="data-table">
+                <thead>
+                    <tr><th>板块</th><th>TAM</th><th>说明</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>AI 企业应用</td><td class="num">$22.7T</td><td>推理、自动化、数字劳动力</td></tr>
+                    <tr><td>AI 消费者</td><td class="num">$3.8T</td><td>个人 AI 助手、娱乐、教育</td></tr>
+                    <tr><td>卫星连接</td><td class="num">$1.6T</td><td>全球宽带、企业连接、移动</td></tr>
+                    <tr><td>太空发射/服务</td><td class="num">$370B</td><td>商业发射、国防、月球/火星</td></tr>
+                    <tr><td><strong>总计</strong></td><td class="num"><strong>$28.5T</strong></td><td>号称人类历史上最大的可行动 TAM</td></tr>
+                </tbody>
+            </table>
+
+            <div class="analysis-box">
+                <h4>TAM 可信度分析</h4>
+                <p>$28.5T 中 <strong>93% 来自 AI</strong>（$26.5T）。但 SpaceX 在 AI 领域的实际竞争力（vs OpenAI、Anthropic、Google）尚不明确。Grok 市场份额极小，大部分 TAM 属于"潜在"而非"可触达"。</p>
+                <p><strong>更现实的近期可寻址市场：</strong>连接业务 $1.6T + 太空业务 $370B = <strong>$2.0T</strong></p>
             </div>
         </div>
 
-        <div class="section" id="risk">
+        <div class="section" id="risks">
             <h2>风险因素（Top 10）</h2>
-            <div id="risk-content">
-                <ol class="risk-list">
-                    <li><strong>马斯克个人风险：</strong>CEO 过度集中决策，个人品牌与公司深度绑定</li>
-                    <li><strong>星舰开发不确定性：</strong>关键技术未验证，延迟将影响月球/火星计划</li>
-                    <li><strong>竞争加剧：</strong>Amazon Kuiper、OneWeb、中国星网竞争卫星互联网</li>
-                    <li><strong>监管风险：</strong>FCC、FAA、国际频率协调</li>
-                    <li><strong>地缘政治：</strong>Starlink 在战争地区使用引发国际争议</li>
-                    <li><strong>AI 整合风险：</strong>xAI 并入后的技术/文化整合</li>
-                    <li><strong>发射失败：</strong>任何重大事故将导致发射停飞和保险成本上升</li>
-                    <li><strong>债务水平：</strong>高杠杆运营，利息覆盖能力待观察</li>
-                    <li><strong>客户集中：</strong>NASA/DoD 占收入比例较高</li>
-                    <li><strong>估值泡沫：</strong>40-80B 募资对应高估值倍数</li>
-                </ol>
+            <ol class="risk-list">
+                <li class="high"><strong>Starship 开发失败或延迟</strong> — 任何延迟将限制下一代卫星部署、卫星到移动通信和轨道 AI 计算</li>
+                <li class="high"><strong>监管批准延迟</strong> — FAA 发射许可证、FCC 频谱授权，任何延迟将实质中断运营</li>
+                <li><strong>频谱和通信牌照风险</strong> — 频谱访问有限且高度监管</li>
+                <li><strong>AI 和 X 平台法规风险</strong> — 复杂且不断演变的法律环境</li>
+                <li><strong>史无前例规模部署的执行风险</strong> — 重大执行、成本和时间风险</li>
+                <li><strong>发射失败和延迟</strong> — 任何重大事故将导致发射停飞</li>
+                <li><strong>太空环境风险</strong> — 恶劣不可预测的太空环境</li>
+                <li><strong>卫星碰撞和太空碎片</strong> — 低轨卫星激增增加碰撞风险</li>
+                <li><strong>关键基础设施中断</strong> — 网络、地面站、数据中心中断</li>
+                <li><strong>债务风险</strong> — 总债务 <strong>$29.1B</strong>，高杠杆运营</li>
+            </ol>
+
+            <div class="analysis-box danger">
+                <h4>额外重大风险</h4>
+                <ul>
+                    <li><strong>马斯克绝对控制权：</strong>双重股权结构，可豁免公司治理要求</li>
+                    <li><strong>竞争加剧：</strong>Amazon Kuiper（3,236 颗卫星）、蓝色起源、中国星网</li>
+                    <li><strong>AI 军备竞赛：</strong>OpenAI、Google、Anthropic 资金雄厚</li>
+                    <li><strong>地缘政治：</strong>国际扩张面临监管审查</li>
+                </ul>
             </div>
         </div>
 
         <div class="section" id="analysis">
             <h2>专业解读与投资建议</h2>
-            <div id="analysis-content">
-                <div class="analysis-box">
-                    <h4>估值分析</h4>
-                    <p>SpaceX 计划募资 <span class="highlight">$40-800 亿</span>，如果按 80B 计算：</p>
-                    <ul>
-                        <li>2025 收入 $11.4B → 7x 市销率（PS）</li>
-                        <li>运营利润 $4.4B → 18x 市盈率（PE）</li>
-                        <li>对比：Apple PE ~30x，Tesla PE ~60x</li>
-                    </ul>
-                    <p><strong>结论：</strong>估值不算夸张，前提是增长持续。</p>
-                </div>
 
-                <div class="analysis-box">
-                    <h4>投资亮点</h4>
-                    <ul>
-                        <li>✅ <strong>Starlink 垄断地位：</strong>先发优势 + 规模效应 + 频谱资源</li>
-                        <li>✅ <strong>发射成本优势：</strong>猎鹰 9 号回收技术使单次发射成本降低 10x</li>
-                        <li>✅ <strong>经常性收入：</strong>Starlink 订阅模式提供可预测现金流</li>
-                        <li>✅ <strong>政府合同：</strong>NASA Artemis、DoD Starshield 提供稳定需求</li>
-                    </ul>
-                </div>
-
-                <div class="analysis-box">
-                    <h4>投资疑虑</h4>
-                    <ul>
-                        <li>⚠️ <strong>星舰时间表：</strong>马斯克历史上有严重延迟记录</li>
-                        <li>⚠️ <strong>xAI 整合：</strong>AI 业务与航天业务协同 unclear</li>
-                        <li>⚠️ <strong>治理结构：</strong>私人公司转公共公司，马斯克控制力 vs 股东权益</li>
-                        <li>⚠️ <strong>竞争：</strong>Amazon Kuiper 有无限资金，中国星网有国家战略支持</li>
-                    </ul>
-                </div>
-
-                <h3>一句话总结</h3>
-                <p style="font-size: 1.1em; background: #fff8e1; padding: 20px; border-radius: 8px; margin-top: 20px;">
-                    <strong>SpaceX 是"航天界的 Tesla"——技术领先、增长迅猛、风险极高。如果你相信马斯克能按时交付星舰，且 Starlink 能守住卫星互联网垄断，这是一个历史级机会。但如果你对时间表或治理有疑虑，建议等 IPO 后观察 1-2 个季度再入场。</strong>
-                </p>
+            <div class="analysis-box">
+                <h4>估值分析</h4>
+                <p>马斯克激励里程碑从 <strong>$1.065T</strong>到<strong>$6.565T</strong>，暗示长期估值区间。第一里程碑 $1.065T 对应 IPO 后中等估值。</p>
+                <p>若按 $80B 募资额、$18.7B 收入计算：<strong>约 4.3x 市销率</strong>。对比：Tesla 上市时 ~15x PS，Amazon 上市时 ~25x PS。</p>
             </div>
+
+            <div class="analysis-box success">
+                <h4>投资亮点（Bull Case）</h4>
+                <ul>
+                    <li>✅ <strong>Starlink 垄断地位：</strong>先发优势 + 规模效应 + 频谱资源 + 9,600 颗卫星占全球 75%</li>
+                    <li>✅ <strong>成本领先：</strong>发射成本降低 85-99%，Falcon 9 已重复使用 34 次</li>
+                    <li>✅ <strong>经常性收入：</strong>Starlink 订阅模式，用户 +105%</li>
+                    <li>✅ <strong>政府合同：</strong>NASA、DoD 主要供应商</li>
+                    <li>✅ <strong>垂直整合：</strong>从火箭到卫星到终端到 AI 芯片全价值链控制</li>
+                </ul>
+            </div>
+
+            <div class="analysis-box danger">
+                <h4>投资疑虑（Bear Case）</h4>
+                <ul>
+                    <li>⚠️ <strong>AI 亏损黑洞：</strong>2025 年 AI 亏损 $6.4B，资本支出 $12.7B，且 Q1 2026 加速至年化 $31B</li>
+                    <li>⚠️ <strong>债务压力：</strong>$29.1B 债务，加息环境下利息负担重</li>
+                    <li>⚠️ <strong>马斯克控制权：</strong>双重股权结构，公司治理风险</li>
+                    <li>⚠️ <strong>竞争：</strong>Amazon Kuiper 资金无限，中国星网有国家战略支持</li>
+                    <li>⚠️ <strong>时间表：</strong>Starship 历史上多次延迟</li>
+                </ul>
+            </div>
+
+            <h3>三种情景预测</h3>
+            <table class="data-table">
+                <thead>
+                    <tr><th>情景</th><th>关键假设</th><th>2028 年收入预测</th><th>市值展望</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="highlight-green">🐂 牛市</span></td>
+                        <td>Starship 成功、AI 扭亏、Starlink $50B+</td>
+                        <td>$50-70B</td>
+                        <td>$3-6T</td>
+                    </tr>
+                    <tr>
+                        <td><span class="highlight">⚖️ 基准</span></td>
+                        <td>连接稳定增长、AI 2028 收窄亏损、Starship 2027 起飞</td>
+                        <td>$35-45B</td>
+                        <td>$800B-1.2T</td>
+                    </tr>
+                    <tr>
+                        <td><span class="highlight-red">🐻 熊市</span></td>
+                        <td>Starship 延迟、AI 持续失血、债务违约</td>
+                        <td>$25-30B</td>
+                        <td>$300-500B</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>一句话总结</h3>
+            <p style="font-size: 1.1em; background: linear-gradient(135deg, #fff8e1 0%, #e8f4f8 100%); padding: 25px; border-radius: 10px; margin-top: 20px; line-height: 1.8;">
+                <strong>SpaceX 是独一无二的"太空基础设施 + 全球连接 + AI 计算"三合一平台。</strong>Starlink 已进入规模化盈利阶段（EBITDA $7.2B，利润率 63%），但 AI 业务是短期最大变量——2025 年亏损 $6.4B、资本支出 $12.7B。若你相信马斯克能按时交付星舰且 AI 业务能在 2-3 年内收窄亏损，这是一个历史级机会。但如果 AI 持续失血或 Starship 再次延迟，高债务（$29.1B）将成为致命风险。建议等 IPO 后观察 1-2 个季度再入场。
+            </p>
         </div>
     </div>
 
     <footer>
         <p>SpaceX S-1 招股书深度解读 | 由小K AI 分析生成</p>
-        <p>数据来源：SEC EDGAR S-1 Filing (May 20, 2026) | 仅供研究参考，不构成投资建议</p>
-        <p><a href="https://littlek-513.github.io">🏠 返回小K主页</a></p>
+        <p>数据来源：SEC EDGAR S-1 Filing (May 20, 2026) | 全文 143 万字符提取分析</p>
+        <p style="margin-top:10px;"><a href="https://littlek-513.github.io">🏠 返回小K主页</a> | <a href="https://github.com/LittleK-513/LittleK-513.github.io/tree/master/spacex-s1">📁 查看源码</a></p>
     </footer>
 </body>
 </html>
