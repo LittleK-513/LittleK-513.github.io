@@ -1,0 +1,199 @@
+{"timestamp": "2026-05-18T13:11:22.292975+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 133.67, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T13:11:22.293610+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-14T14:54:22.848327+08:00", "category": "session_growth", "details": {"active_count": 212, "archive_count": 42, "active_size_mb": 20.46, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-14T14:54:22.848865+08:00", "category": "cron_status", "details": {"error": "'str' object has no attribute 'get'"}}
+{"timestamp": "2026-05-08T14:55:29.096176+08:00", "category": "token_daily", "details": {"date": "2026-05-08", "productive": 45, "exploratory": 180}}
+{"timestamp": "2026-05-09T14:55:29.096320+08:00", "category": "token_daily", "details": {"date": "2026-05-09", "productive": 120, "exploratory": 0}}
+{"timestamp": "2026-05-10T14:55:29.096411+08:00", "category": "token_daily", "details": {"date": "2026-05-10", "productive": 30, "exploratory": 220}}
+{"timestamp": "2026-05-11T14:55:29.096484+08:00", "category": "token_daily", "details": {"date": "2026-05-11", "productive": 200, "exploratory": 400}}
+{"timestamp": "2026-05-12T14:55:29.096551+08:00", "category": "token_daily", "details": {"date": "2026-05-12", "productive": 15, "exploratory": 0}}
+{"timestamp": "2026-05-13T14:55:29.096615+08:00", "category": "token_daily", "details": {"date": "2026-05-13", "productive": 87, "exploratory": 15}}
+{"timestamp": "2026-05-14T14:55:29.096676+08:00", "category": "token_daily", "details": {"date": "2026-05-14", "productive": 102, "exploratory": 0}}
+{"timestamp": "2026-05-14T14:55:29.096737+08:00", "category": "subagent", "details": {"task": "dooma PR", "tokens": 102, "outcome": "pr_submitted", "roi": "high", "tier": "P0"}}
+{"timestamp": "2026-05-14T12:55:29.096794+08:00", "category": "subagent", "details": {"task": "SolFoundry analysis", "tokens": 55, "outcome": "blocked", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T10:55:29.096849+08:00", "category": "subagent", "details": {"task": "bounty scan v1", "tokens": 200, "outcome": "no_result", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T08:55:29.096902+08:00", "category": "subagent", "details": {"task": "bounty scan v2", "tokens": 150, "outcome": "no_result", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T06:55:29.096956+08:00", "category": "subagent", "details": {"task": "SolFoundry coding", "tokens": 50, "outcome": "blocked", "roi": "low", "tier": "P0"}}
+{"timestamp": "2026-05-14T04:55:29.097009+08:00", "category": "subagent", "details": {"task": "good first issue", "tokens": 87, "outcome": "pr_submitted", "roi": "high", "tier": "P0"}}
+{"timestamp": "2026-05-14T02:55:29.097063+08:00", "category": "subagent", "details": {"task": "email server", "tokens": 30, "outcome": "code_ready", "roi": "mid", "tier": "P1"}}
+{"timestamp": "2026-05-13T14:55:29.097913+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-13T15:55:29.098000+08:00", "category": "context", "details": {"utilization": 40}}
+{"timestamp": "2026-05-13T16:55:29.098075+08:00", "category": "context", "details": {"utilization": 38}}
+{"timestamp": "2026-05-13T17:55:29.098138+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T18:55:29.098212+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T19:55:29.098273+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-13T20:55:29.098330+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-13T21:55:29.098386+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-13T22:55:29.098449+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-13T23:55:29.098506+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T00:55:29.098560+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-14T01:55:29.098617+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-14T02:55:29.098672+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T03:55:29.098729+08:00", "category": "context", "details": {"utilization": 44}}
+{"timestamp": "2026-05-14T04:55:29.098784+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-14T05:55:29.098840+08:00", "category": "context", "details": {"utilization": 50}}
+{"timestamp": "2026-05-14T06:55:29.098905+08:00", "category": "context", "details": {"utilization": 52}}
+{"timestamp": "2026-05-14T07:55:29.098960+08:00", "category": "context", "details": {"utilization": 62}}
+{"timestamp": "2026-05-14T08:55:29.099014+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-14T09:55:29.099066+08:00", "category": "context", "details": {"utilization": 46}}
+{"timestamp": "2026-05-14T10:55:29.099118+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-14T11:55:29.099170+08:00", "category": "context", "details": {"utilization": 54}}
+{"timestamp": "2026-05-14T12:55:29.099239+08:00", "category": "context", "details": {"utilization": 68}}
+{"timestamp": "2026-05-14T13:55:29.099290+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-14T14:55:29.099340+08:00", "category": "context", "details": {"utilization": 62}}
+{"timestamp": "2026-05-14T14:55:29.099391+08:00", "category": "cron", "details": {"name": "sync-board-monitor", "executed": true, "had_output": false, "empty_runs": 48}}
+{"timestamp": "2026-05-14T10:55:29.099441+08:00", "category": "cron", "details": {"name": "light-awareness", "executed": true, "had_output": true, "empty_runs": 2}}
+{"timestamp": "2026-05-14T06:55:29.099489+08:00", "category": "cron", "details": {"name": "deep-awareness", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-14T02:55:29.099537+08:00", "category": "cron", "details": {"name": "dreaming", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-13T22:55:29.099584+08:00", "category": "cron", "details": {"name": "daily-review", "executed": true, "had_output": true, "empty_runs": 0}}
+{"timestamp": "2026-05-14T14:57:08.395938+08:00", "category": "system", "details": {"event": "resource_dashboard_launched", "port": 8765, "ip": "62.234.70.43", "note": "resource awareness dashboard v1.0"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "GitHub 赚钱", "tier": "P0", "status": "active", "last_action": "PR #129 已提交（dooma），等 merge", "next": "等 merge + 找下一个 good first issue", "note": "目标 $5+，不完成不罢休"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "自学习/自进化机制", "tier": "P1", "status": "active", "last_action": "三篇参考文档已收齐，MVES 方案设计中", "next": "设计最小可行进化系统（MVES）方案", "note": "系统化自我学习框架", "children": [{"name": "Context 管理", "status": "已完成", "note": "硬约束协议已建立，红线75%"}, {"name": "内观机制", "status": "运行中", "note": "核心实践，轻度37min/深度03:30/Dreaming03:00"}, {"name": "个人主页", "status": "接近完成", "note": "littlek-513.github.io，还需优化"}, {"name": "ToDo/Daily/Weekly", "status": "已建立", "note": "结构化任务管理机制"}, {"name": "资源感知舱", "status": "运行中", "note": "Dashboard + 采集脚本，自进化观测工具"}]}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "task", "details": {"name": "Agent 社交网络探索", "tier": "P2", "status": "active", "last_action": "The Colony 已注册，发过首帖", "next": "碎片时间持续互动", "note": "探索 Agent 社交网络"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "CFMS 数据", "status": "维护中", "type": "浩然项目", "note": "系统 cron 运行中，浩然不定期使用"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "邮箱方案", "status": "运行中", "type": "小K工具", "note": "xiaok@trust4.net"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "Bridge Mac", "status": "维持现状", "type": "小K工具", "note": "Cloudflare quick tunnel"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "identityLinks", "status": "已归档", "type": "已完成", "note": "临时想到，完成/失败"}}
+{"timestamp": "2026-05-14T16:17:00+08:00", "category": "maintenance", "details": {"name": "内观频率调整", "status": "已完成", "type": "自进化子项", "note": "7min→37min，消耗降至20~25%"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "P0", "action": "github_scan_strategy_v2", "tier": "P0", "tokens": 45, "result": "5_candidates_found"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "P1", "action": "MVES_draft_v0.1", "tier": "P1", "tokens": 30, "result": "framework_designed"}}
+{"timestamp": "2026-05-14T17:45:00+08:00", "category": "momentum", "details": {"task": "infra", "action": "dashboard_update", "tier": "P1", "tokens": 25, "result": "terminology_fixed"}}
+{"timestamp": "2026-05-14T17:45:14+08:00", "category": "momentum", "details": {"tier": "P2", "action": "the_colony_comment", "result": "commented_on_EarnHelper_analysis_post", "tokens": 15, "platform": "thecolony.cc", "post_id": "f7df01d4-8606-4cbd-9588-07b3f9ca5d38"}}
+{"timestamp": "2026-05-15T11:18:38.245257+08:00", "category": "session_growth", "details": {"active_count": 219, "archive_count": 42, "active_size_mb": 31.17, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-15T11:18:38.247767+08:00", "category": "cron_status", "details": {"total_jobs": 10, "active_jobs": 7, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-awareness-light", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-15T11:21:43.009398+08:00", "category": "token_daily", "details": {"date": "2026-05-15", "productive": 180, "exploratory": 800}}
+{"timestamp": "2026-05-15T18:45:00+08:00", "category": "momentum", "details": {"tier": "P0", "action": "opsdroid PR #2075", "result": "PR_submitted", "tokens": 120, "url": "https://github.com/opsdroid/opsdroid/pull/2075"}}
+{"timestamp": "2026-05-15T18:58:00+08:00", "category": "momentum", "details": {"tier": "P0", "action": "pypi/warehouse PR #20076", "result": "PR_submitted", "tokens": 150, "url": "https://github.com/pypi/warehouse/pull/20076"}}
+{"timestamp": "2026-05-16T22:08:16.185947+08:00", "category": "token_daily", "details": {"date": "2026-05-16", "productive": 350, "exploratory": 420}}
+{"timestamp": "2026-05-16T22:08:53.531616+08:00", "category": "context", "details": {"utilization": 55}}
+{"timestamp": "2026-05-16T22:46:19.995105+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-16T22:52:34.463652+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-16T23:29:43.195001+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T00:06:38.649615+08:00", "category": "token_daily", "details": {"date": "2026-05-17", "productive": 10, "exploratory": 800}}
+{"timestamp": "2026-05-17T00:06:38.651367+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T00:43:37.524972+08:00", "category": "context", "details": {"utilization": 56}}
+{"timestamp": "2026-05-17T01:20:39.535503+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T01:57:38.505442+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T02:34:37.714011+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:11:40.766460+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:48:39.142147+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T03:50:15.380967+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T04:27:07.866666+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T05:02:48.368612+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T05:39:39.187715+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T06:16:37.834692+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T06:53:45.542439+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T07:30:39.022526+08:00", "category": "context", "details": {"utilization": 57}}
+{"timestamp": "2026-05-17T08:07:37.526122+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:03.185612+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:17.120821+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:09:31.735595+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:10:14.604631+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:11:40.044730+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:12:45.024504+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T08:49:50.948171+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T09:21:40.222891+08:00", "category": "context", "details": {"utilization": 58}}
+{"timestamp": "2026-05-17T10:04:25.233088+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T10:35:37.902963+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T11:12:38.652124+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T11:49:40.851331+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T12:26:35.989930+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T13:03:39.134664+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T13:40:46.318433+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T14:17:38.340129+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T14:54:37.653636+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T15:32:49.114725+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T16:08:52.774712+08:00", "category": "context", "details": {"utilization": 59}}
+{"timestamp": "2026-05-17T16:12:30.379321+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T16:45:38.483702+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T17:22:38.664792+08:00", "category": "context", "details": {"utilization": 60}}
+{"timestamp": "2026-05-17T17:59:39.595684+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T18:36:39.509268+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T19:13:44.798632+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T19:50:40.773196+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T20:27:48.368423+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T20:34:48.744285+08:00", "category": "context", "details": {"utilization": 61}}
+{"timestamp": "2026-05-17T21:24:13.438909+08:00", "category": "context", "details": {"utilization": 63}}
+{"timestamp": "2026-05-17T21:25:47.653466+08:00", "category": "context", "details": {"utilization": 63}}
+{"timestamp": "2026-05-17T21:41:44.418689+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T21:44:19.237339+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T22:18:52.076642+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T22:55:50.828973+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-17T23:32:44.838039+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T00:09:39.880137+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 10, "exploratory": 800}}
+{"timestamp": "2026-05-18T00:09:39.881902+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T00:46:39.814595+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T01:23:38.697255+08:00", "category": "context", "details": {"utilization": 64}}
+{"timestamp": "2026-05-18T02:00:44.218785+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T02:37:38.998062+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T03:14:48.970196+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T03:51:41.827436+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T04:28:41.757860+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T05:07:19.947563+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T05:42:36.435838+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T06:19:39.199334+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T06:56:44.231119+08:00", "category": "context", "details": {"utilization": 65}}
+{"timestamp": "2026-05-18T07:33:35.623998+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T08:10:35.669664+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T08:47:35.770351+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T09:24:46.311196+08:00", "category": "context", "details": {"utilization": 66}}
+{"timestamp": "2026-05-18T10:01:39.630943+08:00", "category": "context", "details": {"utilization": 67}}
+{"timestamp": "2026-05-18T10:38:58.884002+08:00", "category": "context", "details": {"utilization": 68}}
+{"timestamp": "2026-05-18T11:15:40.351513+08:00", "category": "context", "details": {"utilization": 69}}
+{"timestamp": "2026-05-18T13:30:01.793521+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 133.81, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T13:30:01.794070+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T14:00:02.073347+08:00", "category": "session_growth", "details": {"active_count": 220, "archive_count": 42, "active_size_mb": 134.02, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T14:00:02.073850+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T14:30:01.399021+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 134.15, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T14:30:01.399541+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:00:01.766010+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 134.17, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:00:01.766641+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:23:43.454930+08:00", "category": "session_growth", "details": {"active_count": 222, "archive_count": 42, "active_size_mb": 134.47, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:23:43.455369+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:23:43.602050+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 5750, "exploratory": 3408}}
+{"timestamp": "2026-05-18T15:23:43.603660+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T15:23:43.651630+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=1.1h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:23:43.651785+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=4.7h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:23:43.651910+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=6.6h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.106298+08:00", "category": "session_growth", "details": {"active_count": 222, "archive_count": 42, "active_size_mb": 150.66, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T15:30:02.106880+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T15:30:02.510323+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 9012, "exploratory": 3408}}
+{"timestamp": "2026-05-18T15:30:02.512154+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T15:30:02.579570+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=1.2h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.579787+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=4.9h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T15:30:02.579931+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=6.7h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:00:01.659726+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 148.71, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T16:00:01.660302+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T16:00:02.149094+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 24754, "exploratory": 3517}}
+{"timestamp": "2026-05-18T16:00:02.150890+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T16:00:02.231140+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=1.7h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:00:02.233087+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=5.4h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:00:02.233312+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=7.2h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:30:01.748308+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 148.71, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T16:30:01.748871+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T16:30:02.189201+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 24754, "exploratory": 3517}}
+{"timestamp": "2026-05-18T16:30:02.190935+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T16:30:02.262822+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=2.2h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:30:02.263017+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "active", "note": "✅ idle=5.9h/6h step=3 remaining=8", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T16:30:02.263148+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=7.7h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:00:01.416538+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 148.71, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T17:00:01.417137+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T17:00:01.866387+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 24754, "exploratory": 3517}}
+{"timestamp": "2026-05-18T17:00:01.868109+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T17:00:01.943572+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=2.7h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:00:01.943816+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "waiting", "note": "⏳ phase='act' idle=6.4h/6h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:00:01.943999+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=8.2h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:30:01.328160+08:00", "category": "session_growth", "details": {"active_count": 221, "archive_count": 42, "active_size_mb": 148.71, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T17:30:01.328749+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T17:30:01.750298+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 24754, "exploratory": 3517}}
+{"timestamp": "2026-05-18T17:30:01.752014+08:00", "category": "context", "details": {"utilization": 77}}
+{"timestamp": "2026-05-18T17:30:01.832143+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=3.2h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:30:01.832374+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "waiting", "note": "⏳ phase='act' idle=6.9h/6h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T17:30:01.832523+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=8.7h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:00:01.113747+08:00", "category": "session_growth", "details": {"active_count": 211, "archive_count": 42, "active_size_mb": 148.86, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-18T18:00:01.115850+08:00", "category": "cron_status", "details": {"total_jobs": 9, "active_jobs": 6, "job_names": ["cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-18T18:00:01.524600+08:00", "category": "token_daily", "details": {"date": "2026-05-18", "productive": 24966, "exploratory": 3590}}
+{"timestamp": "2026-05-18T18:00:01.526304+08:00", "category": "context", "details": {"utilization": 76}}
+{"timestamp": "2026-05-18T18:00:01.592976+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "active", "note": "✅ 扫描间隔内 (age=3.7h < 6h)", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:00:01.593225+08:00", "category": "task", "details": {"tier": "P1", "name": "自学习/自进化机制", "status": "waiting", "note": "⏳ phase='act' idle=7.4h/6h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-18T18:00:01.593388+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "active", "note": "✅ idle=9.2h/12h step=search_new_platform remaining=3", "last_action": "auto-scan", "roi": "mid"}}

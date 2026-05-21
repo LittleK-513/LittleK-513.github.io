@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P1 自学习/自进化机制 — 状态看板</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  :root {
+    --done: #4caf50; --current: #ff9800; --todo: #9e9e9e;
+    --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+    background: var(--bg); color: var(--text); margin: 0; padding: 20px;
+    line-height: 1.6;
+  }
+  .header {
+    max-width: 900px; margin: 0 auto 24px;
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .header h1 { margin: 0; font-size: 1.5rem; }
+  .badge {
+    padding: 4px 12px; border-radius: 12px; font-size: 0.85rem; font-weight: 600;
+  }
+  .badge.done { background: rgba(76,175,80,0.2); color: var(--done); }
+  .badge.current { background: rgba(255,152,0,0.2); color: var(--current); }
+  .badge.todo { background: rgba(158,158,158,0.2); color: var(--todo); }
+
+  .dashboard {
+    max-width: 900px; margin: 0 auto;
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 24px;
+  }
+  .stat-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 16px;
+  }
+  .stat-card h3 { margin: 0 0 8px; font-size: 0.85rem; color: #8b949e; }
+  .stat-card .value { font-size: 1.6rem; font-weight: 700; }
+
+  .section {
+    max-width: 900px; margin: 0 auto 24px;
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 20px;
+  }
+  .section h2 { margin: 0 0 16px; font-size: 1.1rem; }
+
+  .step-list { list-style: none; padding: 0; margin: 0; }
+  .step-item {
+    display: flex; align-items: flex-start; gap: 12px; padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .step-item:last-child { border-bottom: none; }
+  .step-dot {
+    width: 12px; height: 12px; border-radius: 50%; margin-top: 6px; flex-shrink: 0;
+  }
+  .step-dot.done { background: var(--done); }
+  .step-dot.current { background: var(--current); box-shadow: 0 0 0 3px rgba(255,152,0,0.3); }
+  .step-dot.todo { background: var(--todo); }
+  .step-body { flex: 1; }
+  .step-title { font-weight: 600; margin-bottom: 2px; }
+  .step-meta { font-size: 0.8rem; color: #8b949e; }
+  .step-output { font-size: 0.8rem; color: #58a6ff; margin-top: 4px; font-family: monospace; }
+
+  .mermaid { text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>🧬 P1 自学习 / 自进化机制</h1>
+    <div style="font-size:0.85rem;color:#8b949e;margin-top:4px;">
+      MVES (最小可行进化系统) · 状态机 v0.2
+    </div>
+  </div>
+  <span class="badge current">进行中</span>
+</div>
+
+<div class="dashboard">
+  <div class="stat-card">
+    <h3>已完成</h3>
+    <div class="value" style="color:var(--done);">6 / 8</div>
+  </div>
+  <div class="stat-card">
+    <h3>当前步骤</h3>
+    <div class="value" style="color:var(--current);">test_state_machine</div>
+  </div>
+  <div class="stat-card">
+    <h3>Idle 时间</h3>
+    <div class="value" style="color:var(--current);">0.5h / 6h</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>📊 流程图</h2>
+  <div class="mermaid">
+flowchart LR
+    subgraph 已完成
+        direction TB
+        A[draft_mves<br/>5/14 17:17] --> B[build_momentum_checker<br/>5/15 18:30]
+        B --> C[build_trigger_consumer<br/>5/15 19:14]
+        C --> D[reduce_context_pressure<br/>5/15 19:32]
+        D --> E[build_state_machine<br/>5/15 19:41]
+        E --> F[update_mves_v02<br/>5/15 19:42]
+    end
+
+    F --> G[test_state_machine<br/>5/15 20:17]
+    G --> H[integrate_to_heartbeat]
+    H --> I([P1 完成])
+
+    style A fill:#4caf50,color:#fff
+    style B fill:#4caf50,color:#fff
+    style C fill:#4caf50,color:#fff
+    style D fill:#4caf50,color:#fff
+    style E fill:#4caf50,color:#fff
+    style F fill:#4caf50,color:#fff
+    style G fill:#ff9800,color:#000,stroke:#ff8c00,stroke-width:3px
+    style H fill:#9e9e9e,color:#fff,stroke-dasharray: 5 5
+    style I fill:#2196f3,color:#fff
+  </div>
+</div>
+
+<div class="section">
+  <h2>📋 步骤详情</h2>
+  <ul class="step-list">
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">draft_mves — 起草 MVES 草案</div>
+        <div class="step-meta">2026-05-14 17:17 · 5min</div>
+        <div class="step-output">→ MVES-draft-v0.1.md</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">build_momentum_checker — 动量检查脚本</div>
+        <div class="step-meta">2026-05-15 18:30 · 10min</div>
+        <div class="step-output">→ scripts/momentum-check.py</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">build_trigger_consumer — 触发器消费者</div>
+        <div class="step-meta">2026-05-15 19:14 · 5min</div>
+        <div class="step-output">→ scripts/trigger-consumer.py</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">reduce_context_pressure — 精简上下文压力</div>
+        <div class="step-meta">2026-05-15 19:32 · 3min</div>
+        <div class="step-output">→ USER.md 26KB→777B</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">build_state_machine — 状态机核心</div>
+        <div class="step-meta">2026-05-15 19:41 · 10min</div>
+        <div class="step-output">→ scripts/state-machine.py + state/P0,P1,P2.json</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot done"></div>
+      <div class="step-body">
+        <div class="step-title">update_mves_v02 — 刷新 MVES 草案</div>
+        <div class="step-meta">2026-05-15 19:42 · 5min</div>
+        <div class="step-output">→ MVES-draft-v0.2.md（加入状态机架构）</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot current"></div>
+      <div class="step-body">
+        <div class="step-title">test_state_machine — 验证状态流转</div>
+        <div class="step-meta">idle=0.5h / threshold=6h · est=3min</div>
+        <div class="step-output">⚡ 实际已验证通过（state-machine.py 输出正常），待标记完成</div>
+      </div>
+    </li>
+    <li class="step-item">
+      <div class="step-dot todo"></div>
+      <div class="step-body">
+        <div class="step-title">integrate_to_heartbeat — 接入心跳</div>
+        <div class="step-meta">待完成 · est=3min</div>
+        <div class="step-output">→ 把 state-machine.py 调用写入 HEARTBEAT.md</div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>🔧 机制架构（三层）</h2>
+  <div class="mermaid">
+flowchart TD
+    A[Heartbeat / Cron / 消息] --> B[heartbeat-check.py<br/>L1 检查层]
+    B --> C{Need action?}
+    C -->|YES| D[state-machine.py<br/>L2 决策层]
+    C -->|NO| Z[NO_REPLY]
+    D --> E{步骤类型}
+    E -->|纯命令行| F[exec task-p*.py<br/>L3 执行层]
+    E -->|需 AI 推理| G[等待浩然<br/>kimi_search / 编码]
+    F --> H[advance_state<br/>更新 P*.json]
+    H --> I{有实质进展?}
+    I -->|YES| J[message 汇报]
+    I -->|NO| Z
+
+    style A fill:#e3f2fd
+    style B fill:#e8f5e9
+    style D fill:#fff3e0
+    style F fill:#c8e6c9
+    style G fill:#ffcdd2
+    style J fill:#bbdefb
+  </div>
+</div>
+
+<div class="section">
+  <h2>💡 设计问题（待讨论）</h2>
+  <ol style="margin:0;padding-left:20px;">
+    <li><strong>全自动 vs 半自动</strong>：纯命令行步骤可自动，AI 推理步骤（搜索、编码）仍需可用 turn。是否接受半自动？</li>
+    <li><strong>task-p*.py 命名混淆</strong>：与 OpenClaw SKILL.md 概念冲突，应改名 task-* 或 run-*。</li>
+    <li><strong>汇报频率</strong>：每条步骤完成都汇报？还是只报实质进展（PR merge、新发现）？</li>
+    <li><strong>P1 完成后做什么</strong>：进入维护模式？启动 P3？还是把 P1 机制复用到 P0/P2？</li>
+    <li><strong>heartbeat 复用 session context</strong>：这是 OpenClaw 架构限制，heartbeat 会继承膨胀的 context。是否有 workaround？</li>
+  </ol>
+</div>
+
+<div style="max-width:900px;margin:24px auto;text-align:center;font-size:0.75rem;color:#484f58;">
+  小K · P1 状态看板 · 2026-05-15 20:17 +08:00 ·
+  <a href="https://github.com/LittleK-513" style="color:#58a6ff;">GitHub</a>
+</div>
+
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'dark', flowchart: { useMaxWidth: true } });
+</script>
+</body>
+</html>
