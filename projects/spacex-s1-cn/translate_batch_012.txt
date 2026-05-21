@@ -1,0 +1,575 @@
+s� for a discussion of factors that could cause actual results to differ materially from the results
+
+described in or implied by the forward-looking statements contained in the following discussion and analysis and
+
+elsewhere in this prospectus. Our audited consolidated financial statements and related notes have been prepared to
+
+reflect the retrospective combination of the companies for all periods presented as the acquisitions of xAI and X
+
+Holdings were accounted for as transactions between entities under common control.
+
+Our mission is to build the systems and technologies necessary to make life multiplanetary, to understand the true
+
+nature of the universe, and to extend the light of consciousness to the stars. To do this, we have formed the most
+
+ambitious, vertically integrated innovation engine on (and off) Earth with unmatched capabilities to rapidly
+
+manufacture and launch space-based communications that connect the world, to harness the Sun to power a truth-
+
+seeking artificial intelligence that advances scientific discovery, and ultimately to build a base on the Moon and
+
+cities on other planets.
+
+Starship Flight Test
+
+Founded in 2002, SpaceX is the only company building the integrated hardware and software infrastructure of the
+
+future across space, connectivity, and AI. At our core, we are builders. We design, manufacture, launch, and operate
+
+products and services built on cutting-edge technologies, including the world�s most advanced rockets and
+
+spacecraft. We safely and reliably transport astronauts, satellites, and other payloads on missions that benefit life on
+
+Table of Contents
+
+Earth. Since 2023, we have launched more than 80% of mass to orbit for the world each year with an over 99%
+
+mission success rate with Falcon rockets. We also operate a high-speed, low-latency global broadband data and
+
+communications network powered by approximately 9,600 Starlink broadband and mobile satellites in Low-Earth
+
+Orbit, delivering connectivity to millions of consumer, enterprise, and government customers across 164 countries,
+
+territories, and other markets, as of March 31, 2026. Using our dedicated satellite-to-mobile constellation, we offer
+
+connectivity services, supplementing terrestrial networks and substantially reducing mobile �dead zones� across
+
+approximately 30 countries.
+
+With the potential to improve both space exploration and life on Earth, AI accelerates SpaceX�s mission to make life
+
+multiplanetary, to understand the true nature of the universe, and to extend the light of consciousness to the stars.
+
+xAI, which was founded in 2023 and acquired by SpaceX in early 2026, is now an integral pillar of our vertically
+
+integrated company. We are rapidly constructing AI compute infrastructure�starting on Earth with the goal of
+
+extending to space�at industry-leading pace and cost efficiency. Our infrastructure supports training and inference
+
+for Grok, which has emerged as one of the world�s most advanced frontier models. Grok is designed as a truth-
+
+seeking AI model, built on our founder Elon Musk�s mission to enable humanity to understand the universe. We
+
+believe that accomplishing this mission requires a truth-seeking approach to AI. We define truth seeking as the
+
+active, relentless pursuit of what is objectively true about reality, and grounded in evidence, logic, empirical data,
+
+and first principles thinking. Our goal is to understand and explain what the universe appears to be doing, as
+
+accurately as current knowledge allows. Within two years of its initial model release, Grok achieved frontier-level
+
+performance in scientific reasoning, as measured by its GPQA Diamond score, an industry benchmark that evaluates
+
+AI models on a standardized set of questions written and validated by experts, on a faster timeline than reported by
+
+other leading model providers. Grok also benefits from integration with X, our real-time information, entertainment,
+
+and free speech platform, which serves as a foundational distribution and data engine for our AI ecosystem and
+
+further enhances Grok�s truth-seeking objective.
+
+We believe that space represents the largest economic frontier in human history, unlocking unprecedented
+
+opportunities in orbit and on Earth. Earth has limits, so we must build infrastructure and industries in space,
+
+expanding human capabilities to improve life on Earth and to establish life beyond. Connectivity infrastructure in
+
+space is designed to help everyone on Earth have access to education, healthcare, entertainment, and
+
+communications, and to enable people to overcome many traditional limits, such as physical and political borders.
+
+We believe AI infrastructure in space can utilize the virtually limitless power of the Sun and thereby enable the use
+
+of AI as a transformative force for understanding the universe and improving the daily lives of all humans. We
+
+believe the convergence of these areas will enable an unprecedented expansion in the global economy, leading to an
+
+age of abundance. Our innovations and technological advancements are redefining industries on Earth, while we aim
+
+to create new ones on the Moon, Mars, and beyond. We are truly building the infrastructure of the future.
+
+SpaceX is the only company that has cracked the code on accessing space at scale, revolutionizing an industry
+
+characterized by decades of stagnation, risk aversion, and economically perverse cost structures. SpaceX upended
+
+this paradigm through the application of first-principles thinking, which rejects industry assumptions and builds
+
+solutions based on the fundamental laws of physics. Our intense, mission-driven, engineering-first culture and focus
+
+on extreme vertical integration have propelled us to achieve what many deemed impossible. We have demonstrated
+
+the ability to achieve groundbreaking technological innovations with speed, quality control, and precision. We
+
+pioneered high-cadence, reliable, and affordable access to space with our Falcon family of rockets, with a goal to
+
+transform the rocket launch industry into airline-like operations. In 2015, we established at least a 10-year lead over
+
+the industry by successfully landing our first Falcon 9 booster back from space before anyone else. We have
+
+continued to invest significantly in further increasing our lead by pursuing full and rapid reusability at scale,
+
+including investing over $15 billion in our next-generation rocket, Starship.
+
+We believe rocket launches and landings should be as routine and commonplace as airplanes taking off and landing.
+
+To achieve this sort of cadence, our iterative approach emphasizes rapid designing, testing, and process
+
+optimization, putting flight hardware in the flight environment as often as possible. This allows us to accelerate our
+
+learning by repeatedly using and improving our systems. This has resulted in a significantly higher flight rate at
+
+costs that are much lower than launch programs that existed before SpaceX. For example, according to NASA, the
+
+first version of Falcon 9 in 2010 had a launch cost of approximately $2,700 per kilogram, which represented a
+
+reduction of approximately 85% compared to the historical average launch cost per kilogram of $18,500. The first
+
+Table of Contents
+
+version of Falcon Heavy in 2018 further reduced this cost to approximately $1,400 per kilogram, a reduction of
+
+approximately 92% compared to the historical average cost. With the future deployment of Starship, which is
+
+designed to be the world�s first fully and rapidly reusable spacecraft, we aim to further reduce the cost to reach orbit
+
+by 99% or more relative to the historical average launch cost. Central to our cost advantage is the reusability of key
+
+hardware�most notably boosters�which we recover, refurbish, and refly many times instead of discarding after
+
+single use. This dramatically lowers per-launch costs by minimizing hardware replacement expenses and spreading
+
+fixed production costs across repeated uses. Space flight that historically cost billions per launch now costs in the
+
+tens of millions, fundamentally reducing the cost of space access, providing the opportunity to build new enterprises
+
+Similarly, xAI has cracked the code in the complexities of building and scaling AI compute infrastructure, becoming
+
+the first company to deploy a coherent gigawatt-scale AI training cluster. We believe the combination of our
+
+proprietary AI infrastructure capability, our truth-seeking frontier model, Grok, and our access to real-time data on
+
+X creates a formidable competitive advantage, allowing us to maintain a leading position in the development of
+
+advanced artificial intelligence. This advantage stems from our complete vertical integration and the common vision
+
+infused by our founder, Elon Musk. In just a few years, we have demonstrated an ability to build coherent compute
+
+at scale and rapid speed with lower cost. COLOSSUS and COLOSSUS II collectively provide approximately 1.0
+
+gigawatt of compute power, with additional power capacity available for data center operations. We believe speed is
+
+a competitive advantage. In order to bring compute clusters online as fast as possible, we employ a vertically
+
+integrated, nimble approach to construction. At COLOSSUS, we brought online the first cluster of approximately
+
+100,000 H100 processors, approximately 130 megawatts of compute power, in just 122 days, repurposing the shell
+
+of an existing factory. At COLOSSUS II, we brought online the first cluster of approximately 110,000 GB200
+
+processors, approximately 210 megawatts of compute power, even faster in 91 days. As an illustrative comparison,
+
+an industry benchmark to bring online a 100 megawatt greenfield data center is approximately two years.
+
+Furthermore, in the case of COLOSSUS II, following the initial cluster, we brought online the second cluster of
+
+110,000 GB300 processors and 220 megawatts of compute power in 64 days, demonstrating our ability to rapidly
+
+scale our facilities once built. We expect that once fully operational, the next phase of expansion at COLOSSUS II
+
+will bring online at least 220,000 additional GB300 processors and over 400 additional megawatts of compute
+
+power. We also demonstrated a significant improvement in cost efficiency, achieving data center construction costs
+
+for COLOSSUS II that are considerably lower than industry benchmarks on a per megawatt basis.
+
+We are able to deploy power and compute significantly faster than other AI companies through first-principles
+
+thinking, behind-the-meter power generation, coupled with what we believe is the world�s largest network of
+
+sustainable battery storage systems, and innovations in advanced liquid cooling, high-density rack layouts, and
+
+efficient networking. Our facilities also incorporate innovative design features that limit the effects on regional
+
+electricity pricing for neighbors and include advanced water cleaning, reclamation, and recycling processes to
+
+support sustainable operations. We partner with utilities and communities to connect to and enhance the grid over
+
+time, and do so while pledging to cover costs of all new power delivery infrastructure upgrades to service our data
+
+centers, including adequate network upgrade costs, to ensure that these expenses are not passed on to the ordinary
+
+household. Our ability to rapidly and cost-effectively scale with the latest processors keeps us ahead of competitors
+
+who deploy traditional and more expensive methods. As a result, we believe COLOSSUS II became one of the
+
+world�s first data centers to deploy GB200s and GB300s, the most advanced AI processors available at the time, at
+
+significant scale, and is currently powering training for our next frontier models, including Grok-5. Furthermore,
+
+through our Terafab initiative together with Tesla to build a manufacturing facility capable of producing 1 terawatt
+
+per year of compute hardware, we intend to further extend our vertical integration to chip design and manufacturing
+
+to alleviate potential future chip shortages at SpaceX, optimize compute performance, and potentially reduce overall
+
+compute costs. Intel, which has the ability to design, fabricate, and package ultra-high-performance chips at scale,
+
+also joined the Terafab project in early April 2026. Our shovels-to-tokens approach allows us to train and iterate our
+
+frontier models at high velocity, accelerating development cycles, eliminating external bottlenecks, and driving
+
+rapid, continuous improvements in model performance.
+
+We were the first private company to develop and launch a liquid-fuel rocket to reach orbit with the successful
+
+launch of Falcon 1 in 2008. In 2019, we were the first to begin deploying a large-scale LEO broadband satellite
+
+Table of Contents
+
+constellation. In February 2026, we acquired xAI, the first company to build a gigawatt-scale AI training cluster and
+
+largest coherent supercomputer. The graphic below illustrates key milestones for our business.
+
+Table of Contents
+
+Our Repeatable Business Model
+
+Our business model is built on a repeatable, engineering-driven framework that combines our unparalleled launch
+
+capabilities, extreme vertical integration, rapid iteration, and disciplined capital investment to create durable, large-
+
+scale businesses. We execute this framework through the following core principles:
+
+1. Leverage our unparalleled launch capabilities to enable massive scale . Our rockets�with unmatched
+
+launch cadence, best-in-class reliability, and dramatically reduced cost-to-orbit�are the foundation that we
+
+expect will enable us to create economic opportunities in space and deliver a diversified portfolio of services.
+
+Our launch capabilities enable large-scale deployment of assets that would not otherwise be economically
+
+2. Identify and create new trillion-dollar market opportunities. We focus on market opportunities that are
+
+useful for humanity and that present trillion-dollar opportunities, including global broadband and mobile
+
+connectivity for consumers, enterprises, and governments; and AI applications and computational infrastructure.
+
+We prioritize opportunities where structural inefficiencies or legacy technological limitations have constrained
+
+3. Design a solution with world-class engineering and first-principles thinking. We apply physics-based
+
+engineering and first-principles thinking to design products and systems from the ground up�boiling things
+
+down to the most fundamental truths and reasoning up from there. This helps us drive massive, step-function
+
+improvements in performance, scalability, and cost.
+
+4. Apply �The Algorithm� (make less dumb, delete, optimize, accelerate, automate). We operate under a set
+
+of core execution principles that we refer to as �The Algorithm,� a five-step iterative process that we use as our
+
+guiding principles day-to-day. We make the requirements less dumb , delete unnecessary processes or parts
+
+(embracing the principle that the best part is no part), only then optimize the necessary processes or parts, and
+
+then accelerate cycle time (many entities have launched once; no one other than us has ever launched over 100
+
+times per year), and automate only proven processes after the first four steps are completed. We apply the
+
+Algorithm across every aspect of our organization, creating a cultural and operational standard of excellence
+
+that has defined SpaceX since inception.
+
+5. Vertically integrate all the way to the end customer. We design and manufacture a significant portion of our
+
+components in-house, including engines, avionics, structures, and software, even producing the �tools that make
+
+the tools,� enabling us to test, fail, and iterate rapidly. We can then release newer, more advanced hardware with
+
+speed and cost efficiency.
+
+6. Continuously drive cost down and throughput up. Through rocket reusability, manufacturing at scale,
+
+advanced automation, and rigorous operational discipline, we continuously reduce unit costs while increasing
+
+launch cadence, satellite network, and AI hosting capacity.
+
+7. Generate significant cash flow and reinvest in the future. As our businesses scale, they generate significant
+
+cash flow, which we reinvest into nascent market opportunities�driving a self-reinforcing cycle of constant
+
+innovation and potentially creating significant additional value.
+
+Segments in Our Vertically-Integrated Innovation Engine
+
+We have three reportable segments in our vertically integrated innovation engine: Space, Connectivity, and AI. In
+
+our Space segment, we design, manufacture, and launch reusable rockets to provide high cadence, reliable, and
+
+affordable access to space at unprecedented scale. In our Connectivity segment, we operate a worldwide high-speed,
+
+low-latency broadband data and communications network powered by over 9,600 Starlink broadband and mobile
+
+satellites in Low-Earth Orbit, delivering connectivity to millions of consumer, enterprise, and government customers
+
+across 164 countries, territories, and other markets. In our AI segment, we operate a highly vertically integrated AI
+
+platform spanning our truth-seeking frontier model Grok, AI solutions for consumer and enterprise customers, X�
+
+our real-time information, entertainment, and free speech platform�and AI computational infrastructure.
+
+Table of Contents
+
+Our financial results reflect the strength of our operating model and our ability to create and scale multiple new
+
+� For the three months ended March 31, 2026, we generated revenue on a consolidated basis of $4,694 million,
+
+loss from operations of $(1,943) million and Adjusted EBITDA of $1,127 million. In 2025, we generated
+
+revenue on a consolidated basis of $18,674 million, loss from operations of $(2,589) million and Adjusted
+
+EBITDA of $6,584 million. Our Space and Connectivity segments contributed the substantial majority of our
+
+consolidated revenue in the three months ended March 31, 2026 and the year ended December 31, 2025 ,
+
+demonstrating the benefits of their scale and operating leverage in our vertically integrated business model;
+
+� For the three months ended March 31, 2026, our Space segment generated revenue of $619 million, loss from
+
+operations of $(662) million, and Segment Adjusted EBITDA of $(351) million. In 2025 , our Space segment
+
+generated revenue of $4,086 million , loss from operations of $(657) million , and Segment Adjusted EBITDA of
+
+$653 million . Additionally, our Space segment funded $930 million and $3,004 million in research and
+
+development expense during the three months ended March 31, 2026 and the year ended December 31, 2025,
+
+respectively, for our next-generation Starship launch vehicle program. Starship is designed to enable a step-
+
+function change in our launch capability across reusability, payload capacity, and launch cadence, and is the key
+
+enabler of our long-term growth strategy by unlocking entirely new categories of missions ;
+
+� For the three months ended March 31, 2026, our Connectivity segment generated revenue of $3,257 million,
+
+income from operations of $1,188 million, and Segment Adjusted EBITDA of $2,087 million. Our Connectivity
+
+segment, primarily driven by Starlink, generated revenue of $11,387 million , income from operations of $4,423
+
+million , and Segment Adjusted EBITDA of $7,168 million in 2025 , representing year-over-year growth of
+
+49.8% , 120.4% , and 86.2% , respectively, benefiting from subscriber growth, increasing enterprise adoption, and
+
+continued improvement in network efficiency;
+
+� In our newly acquired AI segment, we plan to prioritize growth and investment to capture significant
+
+opportunities in AI applications and compute infrastructure. For the three months ended March 31, 2026, our AI
+
+segment generated revenue of $818 million, loss from operations of $(2,469) million, and Segment Adjusted
+
+EBITDA of $(609) million. In 2025 , our AI segment generated revenue of $3,201 million , loss from operations
+
+of $(6,355) million , and Segment Adjusted EBITDA of $(1,237) million , reflecting its earlier stage of
+
+development and continued investments to support long-term growth opportunities in AI; and
+
+� For the three months ended March 31, 2026, capital expenditures for our Space segment was $1,052 million, for
+
+our Connectivity segment was $1,332 million and for our AI segment was $7,723 million. In 2025, capital
+
+expenditures for our Space segment was $3,832 million, for our Connectivity segment was $4,178 million and
+
+for our AI segment was $12,727 million.
+
+Segment Adjusted EBITDA is a non-GAAP measure. Please refer to the section titled ��Non-GAAP Financial
+
+Measures� for additional information on our non-GAAP financial measures, including reconciliations of Segment
+
+Adjusted EBITDA to segment income (loss) from operations, the most directly comparable GAAP measure.
+
+Since our founding in 2002, SpaceX has cracked the code on accessing space at scale, transforming an industry
+
+characterized by decades of stagnation, risk aversion, and economically perverse cost structures. We design,
+
+manufacture, launch, and refurbish reusable launch vehicles that provide cost-efficient, reliable, and high-cadence
+
+access to space for our own purposes as well as for third-party commercial and government customers. In 2025, we
+
+launched from four primary launch pads in the United States and successfully recovered boosters across seven
+
+landing facilities including autonomous drone ships and catch towers based on the vehicle type and mission profile.
+
+Our extensive vertical integration and end-to-end control over the entire value chain, from design to launch to
+
+operations, allows us to achieve unprecedented speed and cost efficiency.
+
+Table of Contents
+
+Falcon 9 First Stage Booster Landing
+
+As of March 31, 2026, SpaceX had launched a total mass to orbit of approximately 7,400 metric tons with an over
+
+99% mission success rate across our Falcon rockets. We have completed approximately 650 orbital space launches,
+
+and over 540 of those launches were completed by a flight-proven Falcon rocket . In 2025 alone, SpaceX completed
+
+170 missions across Falcon and Starship vehicles and 159 flight-proven booster launches with an over 99% success
+
+rate on attempted booster recoveries. We launched over 2,200 metric tons, representing over 80% of mass to orbit
+
+for the world in 2025 . With the first successful launch of Falcon 1 in 2008, we became the first private company to
+
+successfully launch a liquid-fueled rocket to Earth�s orbit. Just two years later, in 2010, the commercial debut of the
+
+Falcon 9 rocket revolutionized space access by delivering unprecedented cost efficiency. For example, according to
+
+NASA, the first version of Falcon 9 in 2010 reduced launch cost to approximately $2,700 per kilogram, which
+
+represented a reduction of approximately 85% compared to the historical average launch cost per kilogram of
+
+$18,500. The first version of Falcon Heavy in 2018 further reduced this cost to $1,400 per kilogram, a reduction of
+
+approximately 92% compared to the historical average. We have also reduced our internal cost of launch through a
+
+combination of engineering improvements, manufacturing efficiencies, and economies of scale�most notably,
+
+through our ability to drive more frequent reuse of rockets.
+
+We generate Space revenue primarily through launch and mission services of Falcon 9, Falcon Heavy, and Dragon
+
+provided to commercial and government customers. We fly to LEO, MEO, GEO, lunar, and interplanetary
+
+trajectories, as well as the International Space Station. Our Space segment revenue is derived from fixed-price
+
+contracts related to the development and provision of launch services for both commercial customers and
+
+governmental agency space programs, either at a �point in time� or �over time.�
+
+We manage our Space segment to support our businesses and those of our customers. We plan launches and allocate
+
+payloads in advance, although it can be difficult to manage the timing of customer payload arrivals. When an
+
+expected customer payload for a planned launch is not available, we instead use launch capacity for our satellites. As
+
+a result, we adjust expected launch payloads frequently, impacting period-to-period financial comparison. For a
+
+majority of customer payloads, revenue and costs are primarily recognized at the launch or deployment of the
+
+customer�s spacecraft to its intended orbi t, with some revenues and costs being recognized over time. For launches
+
+dedicated to deploying our Starlink satellites, we capitalize the associated costs within our Connectivity segment and
+
+depreciate them over time, and we do not recognize revenue for those launches in our Space segment. We allocate a
+
+Table of Contents
+
+significant amount of launch capacity to our Connectivity segment, and expect to allocate a significant amount to
+
+our AI segment in the future. Our Space segment revenue only reflects customer launches and other customer
+
+activities. As a result, notwithstanding an increasing launch cadence, our Space segment has relatively lower
+
+revenue scale and revenue growth compared to our other segments, though its financial results do not reflect the
+
+foundational strategic value that it provides to us in bolstering the growth of our Connectivity and AI segments.
+
+Connectivity . Starlink provides global access to high-speed internet, including underserved rural and remote
+
+communities worldwide. As of March 31, 2026, we had approximately 9,600 Starlink broadband and mobile
+
+satellites in Low-Earth Orbit, providing broadband connectivity to approximately 10.3 million Starlink Subscribers
+
+across 164 countries, territories, and other markets. We also provide satellite-to-mobile texting and over-the-top
+
+voice services to approximately 7.4 million monthly unique devices across approximately 30 countries.
+
+� Starlink Consumer Broadband. We operate the world�s largest and most advanced space-based internet
+
+broadband service with median latency at approximately 25 milliseconds as of March 31, 2026. We provide
+
+fiber-like download speeds�at a median of 225 Mbps during peak hours for residential users as of March 31,
+
+2026�and the technological capability to provide service everywhere on Earth, including the poles. This
+
+service quality is enabled by our vast network of approximately 9,600 Starlink broadband and mobile satellites
+
+in Low-Earth Orbit, which accounted for approximately 75% of all active maneuverable satellites in orbit as of
+
+March 31, 2026. We expect to commence deploying our next-generation V3 satellites, designed to offer one
+
+Tbps of downlink capacity per satellite, using Starship in the second half of 2026. We expect that a single
+
+Starship launch will be capable of deploying up to 60 V3 satellites to LEO, representing a potential twenty-fold
+
+increase in Starlink downlink capacity deployed relative to a Falcon 9 launch. As of March 31, 2026, we had
+
+approximately 10.3 million Starlink Subscribers, up approximately 105% from 5.0 million subscribers a year
+
+prior. We charge our Starlink Subscribers a monthly subscription fee, which varies based on geographic market
+
+and download speed, plus typically a one-time upfront terminal cost.
+
+� Enterprise Solutions . SpaceX is a critical partner to a wide array of enterprises. We offer Starlink�s high-
+
+speed, low-latency, reliable internet services to enterprise customers across industries including construction,
+
+agriculture, retail, telecom, hospitality, aviation, maritime, and land mobility. Starlink�s unique capabilities are
+
+well‑suited for deployments across field offices, remote worksites, research stations, drilling rigs, rural
+
+Table of Contents
+
+hospitals, aircraft, cruise ships, trains, and hotels. Our enterprise customers include companies such as United
+
+Airlines, Carnival, Maersk, and John Deere, among others. We also serve a broad fixed‑site customer base
+
+across industries such as retail and financial services that require high availability for critical operations as well
+
+as reliable connectivity in remote or hard-to-serve locations. As companies continue to invest in secure and
+
+resilient networks and backup systems to keep critical infrastructure online�such as point‑of‑sale and payment
+
+processing systems�we often start as a backup solution and then transition to being the primary solution. Our
+
+enterprise contracts are based on a combination of subscriptions, data consumption, capacity, or other pricing
+
+models depending on each customer�s particular needs. Since 2023, no Starlink Enterprise customer having
+
+contributed more than $750,000 of annual revenue has voluntarily discontinued their service, demonstrating the
+
+strong performance and value of our offering. This is despite the ability of our customers to cancel the service at
+
+� Government Solutions. For our government customers, we provide high-speed, resilient connectivity for
+
+public services, social impact, humanitarian efforts, and disaster response in even the most remote and
+
+challenging environments. Examples include support for the FEMA in coordinating disaster recovery after
+
+hurricanes and wildfires, the NOAA for at-sea testing and environmental monitoring, the Government of the
+
+Philippines for linking remote islands, schools, and public institutions, the Government of Jamaica for
+
+improving digital access in remote and maritime areas, and the Government of Ecuador for supporting
+
+education and healthcare connectivity in isolated communities. Separately with Starshield, we have leveraged
+
+our commercial LEO satellite constellation engineering learnings and operational experiences to develop a
+
+secure, dedicated satellite network designed specifically for United States Government customers and national
+
+security applications.
+
+� Starlink Mobile. We provide satellite-to-mobile connectivity, supplementing terrestrial networks and
+
+substantially reducing mobile �dead zones� across 

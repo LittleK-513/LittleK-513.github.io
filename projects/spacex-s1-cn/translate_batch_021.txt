@@ -1,0 +1,573 @@
+ifiable amount
+
+of computational effort. The total cost per token is determined by the efficiency, availability, and unit economics of
+
+the underlying compute resources. According to SemiAnalysis, for most AI companies without a build cost
+
+advantage, their total capital cost of building compute infrastructure derives approximately 30% from data center
+
+construction costs (including, but not limited to, the shell; mechanical, electrical, and plumbing (�MEP�); and grid
+
+interconnection) and approximately 70% from the cost of procuring processors and critical IT equipment. Ongoing
+
+operational costs of utilizing this compute infrastructure include the cost of power to run the processors, cost of
+
+maintaining those processors, and cost of delivering inference workloads to the end user. Improvement in the cost of
+
+building and operating this compute infrastructure�whether through lower data center construction cost, lower
+
+power infrastructure cost, shorter time to grid interconnection, or higher cluster-level throughput�translates directly
+
+into lower cost per token. Accordingly, for a given level of intelligence, we expect the long-term economics of AI
+
+companies to be driven by the ability to consistently deliver bleeding-edge compute at the lowest possible cost per
+
+token. Put simply, we view cost per token as a function of three primary inputs�the underlying AI model, the
+
+compute hardware, and energy, and we expect to have a competitive advantage in the latter two cost components.
+
+We believe we have a pathway over time that will significantly reduce compute hardware costs through continued
+
+vertical integration and development of proprietary chips, building on our experience designing custom silicon for
+
+our Starlink satellites. We also expect that the marginal cost of energy for our AI compute satellites will be minimal
+
+because our satellites are powered by solar arrays in space. By driving the energy component to minimal levels and
+
+Table of Contents
+
+pursuing improvements in compute hardware cost, we believe we can achieve a meaningfully lower overall cost per
+
+token in the future.
+
+We Have a Dual Speed and Cost Advantage in Terrestrial AI Compute. We have established a leading position in
+
+building and scaling terrestrial AI compute infrastructure, becoming the first company to deploy a coherent
+
+gigawatt-scale AI training cluster. We own and operate what we believe to be the largest AI training data center
+
+clusters on Earth. Our AI compute facilities, COLOSSUS and COLOSSUS II, collectively provide approximately
+
+1.0 gigawatt of compute power, with additional power capacity available for data center operations. Our first-
+
+principles thinking enables us to build coherent compute at scale and at rapid speed with lower costs than most other
+
+companies in the industry. We brought the first cluster of COLOSSUS online in 122 days, repurposing the shell of
+
+an existing factory, and the first cluster of COLOSSUS II online even faster in 91 days. As an illustrative
+
+comparison, an industry benchmark to bring online a 100 megawatt greenfield data center is approximately two
+
+years. We also demonstrated a significant improvement in cost efficiency, achieving data center construction costs
+
+for COLOSSUS II that are considerably lower than industry benchmarks on a per megawatt basis. We are able to
+
+deploy power and compute significantly faster than other AI companies through first-principles thinking, behind-
+
+the-meter power generation, coupled with what we believe is the world�s largest network of sustainable battery
+
+storage systems, and innovations in advanced liquid cooling, high-density rack layouts, and efficient networking.
+
+Our first-principles thinking and innovations in advanced liquid cooling, high-density rack layouts, and efficient
+
+networking enable rapid, cost-effective scaling with the latest processors�keeping us ahead of competitors
+
+deploying traditional methods. Faster deployments reinforce our cost advantage: we are able to access and bring
+
+online the highest performing hardware before our competitors, allowing us to sustain a token cost advantage. For
+
+example, we believe COLOSSUS II became one of the world�s first data centers to deploy GB200s and GB300s at
+
+significant scale and is currently powering training for our next frontier models, including Grok-5. We have already
+
+proven in multiple large-scale terrestrial data centers that we have built not only faster than competitors in the
+
+industry, but also at a lower cost.
+
+We have a Unique Right to Win in Orbital AI . The Sun contains approximately 99.8% of the solar system�s energy
+
+and offers what we believe is the only truly scalable solution to terrestrial energy constraints, as we expect the cost
+
+and availability of terrestrial energy sources over time will necessitate a transition to orbital AI solutions. The logical
+
+path forward is to move power-intensive AI workloads into orbit, where solar energy is near-constant and
+
+uninterrupted. With such accessibility to energy, we believe that our launch business will enable us to consistently
+
+activate the highest performing hardware before our competitors without such access, shrinking the timeline to
+
+useful tokens on bleeding-edge hardware and sustaining our token cost advantage . Manufacturing next-generation
+
+satellites and launching them into space in very large numbers is a core component of our plans. We believe we are
+
+the only company with a commercially viable path to building orbital AI compute at scale. This is underpinned by
+
+our unique ability to launch substantial mass into orbit cost-efficiently through reusable rockets and to manufacture
+
+secure, reliable, and high-performance satellites at low cost and high volume.
+
+� Terrestrial compute leadership. We believe the same cost and build advantages that have underpinned our
+
+leadership in gigawatt-scale terrestrial data centers will enable us to innovate across other terrestrial data center
+
+formats such as modular data centers for inference. We believe our modular terrestrial data center architectures
+
+will provide a foundation for the deployment of compute infrastructure in orbit given similarities in form factor
+
+in contrast to a gigawatt-scale campus.
+
+� Satellites. Just as we expect our expertise in terrestrial data centers will enable us to package AI compute into
+
+modular, satellite form factors, we expect our leadership in satellite communications to allow us to interconnect
+
+our fleet of AI compute satellites into a massive, coherent constellation of compute. For example, as of March
+
+31, 2026, our constellation already incorporated over 23,000 inter-satellite lasers that create a dynamic mesh
+
+network in space, enabling traffic to route through orbit rather than relying solely on terrestrial backhaul
+
+infrastructure. We are designing next-generation, high-performance AI compute satellites built for high volume,
+
+low cost, and with the reliability required for long-duration operation in space.
+
+� Starship. We expect each of our Starship V3 vehicles to carry 100 metric tons to Earth�s orbit in a reusable
+
+configuration, and future generations could reach 200 metric tons in capacity, potentially as soon as Starship
+
+Table of Contents
+
+V4 . Future generations of Starship are being designed to eventually deliver millions of tons to orbit and beyond
+
+per year. Delivering large amounts of mass to orbit at low cost will be critical to deploying AI compute satellites
+
+We Believe Orbital AI Can Accelerate Time to Power and Reduce Token Costs . The Sun contains approximately
+
+99.8% of the solar system�s energy and offers what we believe is the only truly scalable solution to the challenge of
+
+accelerating demand for compute relative to terrestrial energy constraints. The logical path forward is to move
+
+power-intensive AI workloads into orbit, where solar energy is near-constant and uninterrupted. With such
+
+accessibility to energy, we believe that our launch business will enable us to consistently activate the highest
+
+performing hardware before our competitors without such access. We believe SpaceX is uniquely positioned to
+
+deploy and operate data centers in orbit that can eventually achieve a lower cost than terrestrial data centers over
+
+time due to our extreme vertically integrated approach across launch, satellite manufacturing at scale, network
+
+connectivity and terrestrial data center expertise.
+
+� Time to useful tokens on new generations of infrastructure. Although we have already demonstrated an
+
+ability to rapidly scale new generations of compute in terrestrial deployments, we believe orbital AI will
+
+accelerate our time to useful tokens on bleeding-edge AI infrastructure. Physical deployment of new hardware
+
+is expected to be enabled by our launch business, where we believe reusability and launch cost efficiency will
+
+drive rapid cycles of payload delivery. Rapid time to useful tokens on that hardware will be enabled by the
+
+Sun�s near-constant, uninterrupted supply of power, which would circumvent terrestrial power infrastructure
+
+constraints such as power procurement, grid interconnections, and permitting. As new generations of AI
+
+infrastructure continue to deliver step-function improvements in token efficiency, we believe that maintaining
+
+an AI fleet consistently at the bleeding edge of the frontier curve has the potential to deliver a sustainable cost
+
+per token advantage relative to our competitors .
+
+� Construction, power, and cooling infrastructure. In orbit, construction costs are replaced by launch costs and
+
+satellite production costs. We expect reusable launch systems and high flight cadence will significantly reduce
+
+the cost per kilogram to orbit, enabling more efficient deployment of compute payloads to orbit, and eventually
+
+approach the cost of fuel. We believe our advanced satellite manufacturing capabilities enable us to build AI
+
+compute satellites at scale and lower cost than competitors. Other terrestrial data center construction costs such
+
+as building the shell, MEP, and grid interconnection are not applicable in space. As a result, once Starship and
+
+our AI compute satellites are fully deployed at scale, we believe that the initial deployment costs of in-orbit
+
+compute in the aggregate will be less than construction costs of others� terrestrial data centers.
+
+� Cost to procure and service processors. The cost of processors is a significant cost for both terrestrial and
+
+orbital data centers. We do not believe that moving compute to space in and of itself will have a meaningful
+
+impact on the cost of procuring processors. However, we believe that diversifying our long-term access to the
+
+supply of processors, including through our Terafab initiative with Tesla and Intel, will be a key driver in
+
+reducing the overall cost of compute hardware over time. By combining internally manufactured, lower cost
+
+chips with those we source from third-party suppliers, we expect the overall cost of our processors to decline. In
+
+addition to reducing costs, we also expect that this hybrid sourcing strategy will help alleviate potential future
+
+chip shortages at SpaceX. In addition, we i ntend to conduct intensive pre-deployment testing to reduce the rate
+
+of chip failure in space, as we do not anticipate servicing or repairing processors in space.
+
+� Ongoing operations. The total cost of operating data centers is heavily influenced by energy, cooling, and
+
+distribution requirements. In orbit, chips are expected to be powered by solar energy which is low cost and
+
+unlimited, and we expect to leverage radiative cooling architectures, which incur no operating costs compared
+
+to liquid or air cooling. Our integrated, space-based Starlink network architecture also enables more cost
+
+efficient routing of data between compute clusters and to end users on a global basis.
+
+We Believe We Are Well-Positioned to Deliver Orbital AI Compute . We believe orbital AI compute is an incredibly
+
+difficult technical challenge that only we can solve at scale in the near term. We are the only company that has
+
+already accomplished the key technical challenges associated with evolving connectivity satellites into AI compute
+
+satellites. In our view, due to our proven experience, we are well-positioned to deliver a full-scale AI compute
+
+satellite constellation. Significant work remains, but we are confident in our singular leadership position.
+
+Table of Contents
+
+� We have unmatched satellite launch capabilities to enable deployment at scale. Our ability to launch mass
+
+at scale and low cost is our foundational competitive advantage. Deployment of 100 gigawatts per year via
+
+satellites carrying over 100 kilowatts of compute power per metric ton will require thousands of launches per
+
+year and the transport of approximately one million metric tons to orbit annually. The fully reusable nature of
+
+Starship positions us to be capable of launching this level of mass. We plan to leverage our PEZ dispenser
+
+system, an integrated payload deployment system for Starship, along with our experience in developing fully
+
+deployable single-unit systems that are designed to substantially reduce the risks associated with in-orbit
+
+assembly. Starlink Broadband V1 and V2 Mini satellites have already demonstrated launch survivability and
+
+high reliability under vibration, shock, g-loads, acoustic stress, and vacuum exposure, achieving 99.9% average
+
+uptime. Although introducing AI processors would traditionally increase component-level failure rates, we plan
+
+to subject compute hardware to extensive pre-deployment testing on Earth to identify early life failures before
+
+� We have already solved many of the significant technical hurdles to evolving connectivity satellites into
+
+AI compute satellites. Through our leading expertise in connectivity satellites and Starlink�s existing technical
+
+and operational capabilities�including constellation-scale satellite management, autonomous operations, over-
+
+the-air software updates, inter-satellite laser communications, mesh network deployment, radiation-hardened
+
+system design, proprietary chip development, and the ability to operate computers reliably in the space
+
+environment �we have already solved the hardest part in the development of AI compute satellites. AI compute
+
+satellites represent an evolution of spacecraft engineering already demonstrated at scale through Starlink�s
+
+connectivity satellites, and we believe development of AI compute satellites will be easier for us than for
+
+anyone else. AI compute satellites must integrate high-density compute payloads developed with radiation-
+
+tolerant designs and components with high electrical power generation, advanced thermal management, and
+
+inter satellite networking. To source the electricity needed to power our AI processors, we aim to continuously
+
+scale our existing space-grade solar technologies through insourced process development and build a
+
+constellation in dawn-dusk Sun-synchronous orbit that delivers near-constant solar exposure. We expect solar
+
+cells optimized for the space environment will be produced at a rapid rate, with early satellites generating 100
+
+kilowatts of compute power and scaling from there. In orbit, thermal control must be accomplished through
+
+radiation rather than convection and conduction. We plan to advance thermal control systems�many of which
+
+have been proven on Starlink�by using radiators, vapor chambers, active cooling loops, and coatings to
+
+dissipate the heat generated by AI hardware in space�s vacuum. We will also utilize inter-satellite lasers
+
+pioneered by Starlink for mesh networking at scale, creating coherent computing clusters across free space
+
+instead of wired connections used in terrestrial data centers. Our existing Starlink constellation, with over
+
+23,000 inter-satellite lasers, will be a crucial enabler of orbital AI compute, as its global network allows data
+
+from our AI compute satellites in Sun-synchronous orbit to reach ground stations anywhere on Earth. The
+
+SpaceX AI compute satellites will be designed for high rate, automated production to enable the scale of
+
+satellites needed for the large amounts of compute planned in space.
+
+There are material differences between connectivity satellites and AI compute satellites. Connectivity satellites
+
+are primarily designed for communications, with substantial onboard equipment dedicated to phased-array
+
+antennas, radio systems, and data transmission. In contrast, AI compute satellites are optimized for high-
+
+performance computing. Key differences include significantly larger solar arrays to support higher power
+
+requirements, substantially larger radiators for thermal management, different electronics centered on AI
+
+accelerators rather than communications processors, and the removal of much of the communications hardware.
+
+Our V3 satellite platform already incorporates proprietary chips, providing a strong foundation for the ability to
+
+operate AI-focused electronics in space, and we expect to begin deploying our orbital AI compute satellites as
+
+The primary remaining challenge is one of scale. For example, a deployment rate of approximately 10 gigawatts
+
+per year would require a materially lower manufacturing and launch cadence, which we believe would still
+
+enable a commercially attractive AI compute business with strong economic returns. While our long-term vision
+
+includes the ambition of deploying up to 100 gigawatts of power to orbit annually, which would require the
+
+deployment of thousands of launches per year, assuming 100 kilowatts of compute power per metric ton and
+
+Starship capacity to orbit of 100 metric tons, we believe we can be economically successful at significantly
+
+more modest volumes.
+
+Table of Contents
+
+Our 100 gigawatt annual power deployment goal is based on reasoned engineering analyses and design
+
+parameters developed through our ongoing design and development work on next-generation AI compute
+
+satellites. These analyses are based on currently available space-grade solar technology and do not require
+
+fundamental technological advances beyond existing capabilities. Specifically, we expect these satellites to
+
+leverage our already-designed V3 satellite platform. The core V3 satellite design is complete, and the AI
+
+compute satellites are expected to generate substantially more power than V3 satellites. This performance is
+
+expected to be achieved primarily through the use of significantly larger solar arrays. These satellites are
+
+targeted to generate approximately 100 kW of compute power per ton, which initially will require
+
+approximately five times the solar array output compared to V3 satellite designs.
+
+We currently do not anticipate material supply constraints for space-based solar panels, as global production
+
+capacity, including through our vertical integration efforts, is believed to be sufficient to meet its requirements.
+
+We are actively developing the manufacturing, launch cadence, and operational capabilities that we believe
+
+would be needed to support such launch rates.
+
+The precise solar collection area, total system mass per satellite, and on-orbit assembly requirements associated
+
+with this goal continue to be refined as part of our ongoing engineering efforts. In general, the approach
+
+contemplates larger deployable solar arrays on each satellite, with no significant on-orbit assembly currently
+
+� We will use our proven Starlink in-orbit technology to optimize our orbital AI compute. In order to
+
+operate orbital AI compute satellites, we plan to build on our vast experience of operating approximately 9,600
+
+Starlink broadband and mobile satellites in Low-Earth Orbit. In 2025 alone, Starlink satellites proactively
+
+performed over 1,000 automated collision avoidance maneuvers per day guided by this technology to safely and
+
+efficiently operate the constellation. This operating model gives us control over workload placement across
+
+Earth and space while maintaining resilience through redundancy and fail safe systems. To ensure optimized
+
+thermal management and power generation, we will design each satellite�s solar arrays to face the sun for
+
+constant power while its housing radiator panels face cold deep space for radiative cooling. A high degree of
+
+controllability will allow the satellite to be optimized for brightness mitigation, disposal, and other modes of
+
+operation. As more advanced AI hardware becomes available, we plan to manage the lifecycle of deployed
+
+systems by shifting older hardware to lower intensity workloads as performance characteristics evolve, and
+
+retiring systems that are no longer needed through controlled end of life disposition, including transition to
+
+graveyard orbits where appropriate. These retirements may occur sooner than our estimates for the useful lives
+
+of our satellites, which estimates are based on engineering studies, historical on-orbit performance, propellant
+
+life, utilization patterns, design enhancements across generations, and planned transitions to newer satellite
+
+technology. Space based compute also introduces orbital debris risk, which we already manage at constellation
+
+scale through our autonomous collision avoidance system across Starlink. To date, we have not experienced any
+
+failures of our autonomous collision avoidance system that have resulted in satellite loss.
+
+� We can manufacture our AI compute constellations at scale with rapid upgrade cycles. We have built one
+
+of the largest satellite manufacturing operations in the world with standardized bus architectures, rapid iteration
+
+cycles, and automotive-style production lines, enabling us to evolve bus architecture and subsystem design with
+
+limited reliance on third-party suppliers. Our highly vertically integrated approach will be key to our mass-
+
+scaling efforts and should allow us to deploy the latest AI processors. Our ability to quickly develop and deploy
+
+new generations of AI compute to orbit will be a key advantage in maintaining frontier performance of the
+
+constellation. We believe SpaceX will be the first and only company to manufacture satellites at the scale of
+
+automotive manufacturing.
+
+� We are building chip manufacturing capabilities to scale our access to AI compute hardware. We
+
+announced a collaboration with Tesla in March 2026 to build the Terafab initiative with a long-term goal of
+
+producing one terawatt of compute hardware each year. Intel joined the project in April 2026 and is expected to
+
+contribute its expertise in designing, fabricating, and packaging ultra-high-performance chips to help Terafab
+
+scale. In connection with such collaboration, we have agreed with Tesla on a general framework for the future
+
+development of Terafab. Any specific projects undertaken pursuant to this framework will be subject to separate
+
+negotiations and agreements (including any development timelines, milestones and capital expenditures) and
+
+Table of Contents
+
+have not yet been determined. Our strategy for Terafab is to vertically integrate across design of lithography
+
+masks, fabrication of logic and memory chips, design of advanced packaging and rapidly test and iterate in
+
+order to improve chip design and performance. With this internal manufacturing capability, we plan to alleviate
+
+potential future chip shortages at SpaceX, especially as we develop orbital AI at scale, and design chips that are
+
+optimized for the space environment. We expect that our speed and cost advantage from vertical integration will
+
+allow us to scale efficiently in AI chip manufacturing.
+
+� We can leverage our terrestrial experience to build and operate compute clusters and AI workloads at
+
+scale. We believe our experience operating compute infrastructure on Earth provides the technical and
+
+operational foundation to extend these capabilities into orbit. For example, manufacturing and silicon defects in
+
+AI processors can cause failures early in life. We plan to subject compute hardware to extensive pre-deployment
+
+testing on Earth to identify early life failures before launch to reduce in-orbit disruption. Over time, we plan to
+
+design AI compute processors optimized for the space environment. Our operating experience will be critical in
+
+informing our orbital data center designs for highly reliable operations even with potential chip failures. This
+
+capability is further supported by our flexible allocation of AI workloads across compute clusters, enabling us to
+
+utilize orbital data centers for workloads without hardware reconfigurations or maintenance. For compute
+
+hardware that does fail, we plan to leverage existing Starlink fleet management software to reallocate traffic to
+
+other satellites and prevent cluster-level downtime. We further believe that our strong relationships with chip
+
+makers enhance our ability to build a well-functioning, integrated AI compute system in space.
+
+We Believe Our Infrastructure is a Distinct Advantage in Delivering Superior AI. We believe that the key
+
+constraints in the continued growth of AI are physical � chip manufacturing, data center infrastructure, and power
+
+generation; the future of AI will be determined by the control of the physical stack. We believe no other AI company
+
+has better control over the full physical stack than SpaceX. We expect the combination of competitive cost per
+
+token, our ability to deploy and operate data centers in orbit, and our strength in connectivity to result in more
+
+scalable intelligence that is accessible globally at high speeds by way of the following structural advantage s:
+
+� Time to power. If we are able to deploy our AI compute satellite constellation, we believe it will enable
+
+compute capacity to be deployed and expanded efficiently as capacity requirements grow. This approach will
+
+also allow us to deploy new generations of compute hardware in quicker succession relative to terrestrial
+
+approaches where data centers cannot be easily retrofitted for new compute hardware. Due to terrestrial
+
+retrofitting limitations, adding terrestrial capacity typically demands building large, new data centers designed
+
+for specific generations of compute hardware. This approach is usually burdened with long lead times for
+
+activities such as power procurement, utility grid interconnections, and permitting before new computing
+
+hardware can generate useful tokens. We belie ve our orbital, modular approach will allow us to circumvent
+
+terrestrial power infrastructure constraints.
+
+� Highly scalable compute capacity. Unlike terrestrial facilities constrained by physical footprint and
+
+availability of power in a given location, orbital data centers leverage a decentralized mesh architecture. This
+
+permits the aggregation of massive compute clusters interconnected over long distances by inter-satellite lasers
+
+pioneered by Starlink. Space offers effectively unlimited power and vast expanse to sustain uninterrupted
+
+operations as capacity grows. We believe this abundance of power and physical area will allow us to scale our
+
+connected compute capacity faster and far beyond levels that are terrestrially viable.
+
+� Low latency . Our satellite constellation provides a direct, orbital data path that circumvents the bottlenecks of
+
+terrestrial communications networks. This architecture is particularly suitable to support high-speed
+
+connectivity for latency-sensitive workloads, which we believe are increasingly valued in certain consumer- and
+
+enterprise-facing applications.
+
+� Global distribution. Because of the global coverage of our satellite constellation, not only can we deliver high-
+
+speed, ultra-low latency AI solutions, we can do so anywhere in the world. We believe our increasingly global
+
+network of Starlink satellites will enable us to deliver frontier intelligence, at high speed and reliability, to
+
+communities and economies around the world.
+
+Table of Contents
+
+Design and manufacture our own chips. Terafab aims to be the world�s largest chip manufacturing facility, with
+
+the goal of achieving one terawatt of annual compute production capacity. While Terafab is intended to expand our
+
+internal chip manufacturing capabilities, we expect to continue sourcing a significant portion of our compute
+
+hardware from third-party suppliers. We view Terafab as complementary to these relationships, enabling us to
+
+augment our access to compute hardware at massive scale and further complete our highly vertically integrated
+
+compute platform by extending our control to the foundational chip layer. By developing end-to-end capabilities
+
+spanning the design of lithography masks, fabrication of logic and memory chips, and advanced packaging, all in a
+
+vertically integrated closed-loop single plant, we will be able to more rapidly iterate to improve chip design and
+
+performance. We plan to design chips that are optimized for the space environment. This collaboration directly
+
+enables our planned orders-of-magnitude increases in AI compute deployment in orbit which would be constrained
+
+by pure reliance on external foundries. Leveraging shared engineering resources, intellectual property, and
+
+infrastructure across Tesla and SpaceX, as well as Intel�s proposed contribution of its expertise in designing,
+
+fabricating and packaging ultra-high-performance chips at scale, Terafab creates powerful ecosystem synergies that
+
+accelerate innovation cycles and reduce costs. Just as we manufacture approximately 80% of Starship in-house,
+
+enabling it to be the world�s most powerful and, eventually, the most cost-effective launch vehicle through full and
+
+rapid reusability, we expect significant speed and cost advantages from Terafab�s vertical integration. We believe
+
+this will provide us with a critical competitive advantage in the race to scale AI infrastructure, especially as we begin
+
+our orbital AI compute satellite deployments.
+
+Industry Overview
+
+We are focused

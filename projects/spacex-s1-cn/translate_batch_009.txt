@@ -1,0 +1,563 @@
+uld adversely impact our business,
+
+financial condition, results of operations, and future prospects. We may assume unexpected obligations or incur
+
+costs associated with acquired businesses, including litigation, regulatory compliance, environmental liabilities, or
+
+contractual disputes, which could result in material losses or divert management focus from ongoing operations.
+
+Integrating acquired businesses, partnerships, or joint ventures may present significant challenges, including
+
+aligning operations, systems, and cultures, which could result in inefficiencies, increased costs, or failure to realize
+
+anticipated benefits. The process of integration is often complex and time-consuming, and we may encounter
+
+unforeseen difficulties in harmonizing business practices, integrating technologies and IT systems, retaining key
+
+personnel, or reconciling differences in corporate cultures and management philosophies. In addition, the integration
+
+of acquired entities or new partners exposes us to disruptions in, or unauthorized access to, our computer systems
+
+and data or may divert management attention and resources from our core operations, potentially impacting our
+
+ability to execute on other strategic initiatives or maintain existing customer relationships. We may also face
+
+challenges in achieving expected synergies, cost savings, or strategic objectives within anticipated timeframes, or at
+
+all, which could adversely affect our business, financial condition, results of operations, and future prospects. If we
+
+are unable to successfully integrate acquisitions, partnerships, or joint ventures, or if the anticipated benefits of these
+
+transactions do not materialize as expected, we could experience operational disruptions, loss of key personnel or
+
+customers, increased costs, and diminished competitive position. Any failure to effectively integrate acquired
+
+businesses, partnerships, or joint ventures could materially and adversely affect our business, financial condition,
+
+results of operations, and future prospects.
+
+Similarly, divestitures could result in the loss of revenue, disruption of customer or partner relationships, or
+
+challenges in separating assets and personnel. There can be no assurance that we will be able to identify,
+
+consummate, or integrate future acquisitions, divestitures, or other strategic transactions on favorable terms, or at all,
+
+and any such activities may heighten our exposure to operational, financial, and regulatory risks unique to our
+
+We have experienced, and will likely continue to experience, development and manufacturing delays and damage
+
+or destruction during pre-launch operations, any of which could have a material adverse effect on our business,
+
+financial condition, results of operations, and future prospects.
+
+The development, manufacturing, and operation of launch vehicles and satellites are complex and capital-intensive
+
+activities that are subject to numerous risks. Our launch vehicles, satellites, and related systems have in the past
+
+experienced and may in the future experience delays, damage or destruction during design and manufacturing,
+
+including delays in fabrication, assembly, inspection, testing, and component qualification. These issues may arise
+
+from engineering challenges, supplier performance problems, quality control shortcomings, unexpected design
+
+modifications, or disruptions in our manufacturing facilities. Any of these factors may delay development or
+
+production schedules, increase costs, or result in hardware that must be reworked or replaced.
+
+Our operations also involve significant risks during pre-launch preparation. Launch vehicles and satellites can be
+
+damaged or destroyed during transport, fueling, integration, or ground testing. Furthermore, the early retirement or
+
+Table of Contents
+
+inoperability of satellites or related infrastructure may require us to accelerate depreciation or recognize impairment
+
+charges, thereby adversely affecting our business, financial condition, results of operations, and future prospects.
+
+Even minor anomalies may require extensive troubleshooting or repairs, resulting in launch delays, increased
+
+mission costs, or the loss of flight hardware. Because launch operations require coordination across multiple systems
+
+�including propulsion, avionics, ground infrastructure, and third-party range providers�issues in any one area can
+
+lead to postponements or mission cancellations.
+
+Our ability to continue and expand launch and satellite operations depends upon our ability to obtain new and
+
+leverage existing U.S. export control and sanctions authorizations, and any significant changes to the geopolitical
+
+landscape or U.S. government regulatory approach to licensing could materially and adversely impact our
+
+international business operations by compromising existing licenses or limiting our ability to engage in
+
+commercial dealings in or involving geopolitically sensitive countries.
+
+The launch and satellite operations are subject to stringent export control and economic and trade sanctions laws,
+
+including the U.S. International Traffic in Arms Regulations (�ITAR�), the Export Administration Regulations, and
+
+sanctions administered and enforced by the U.S. Treasury Department�s Office of Foreign Assets Control
+
+(�OFAC�). Under U.S. export control laws, we are required to obtain export authorizations from the Departments of
+
+Commerce or State to export or share any controlled goods, technology, or software with foreign persons, including
+
+foreign person employees, or to foreign destinations. The availability of such authorizations may be impacted by
+
+significant changes to the geopolitical landscape. The U.S. government may revise export control regulations,
+
+restrict exports to new or additional locations, or otherwise change its approach to licensing in ways that, while
+
+outside of our control, materially impact our international supply chain, existing export licenses, and business
+
+operations. For example, under the ITAR, we are required to determine the proper licensing jurisdiction and
+
+classification of products, software and technology; and obtain licenses or other forms of U.S. government
+
+authorizations to engage in certain activities related to and that support our business operations. The authorization
+
+requirements include the need to get permission to release controlled technology to foreign person employees and
+
+other foreign persons.
+
+In addition, we are required to obtain OFAC authorization in certain situations, including to provide connectivity
+
+services or engage in other business operations in certain global markets that may be subject to economic sanctions
+
+or trade embargoes. While we have been successful in obtaining such authorizations in the past, there can be no
+
+assurances that authorizations or licenses will be available in the future. In addition, significant changes to the
+
+geopolitical landscape, such as the outbreak of armed conflict, could result in the imposition of new or expanded
+
+economic or trade sanctions that may impact or prevent our ability to provide services or otherwise operate in certain
+
+markets. Failures by us to comply with import, export control, or sanctions laws and regulations could result in civil
+
+or criminal penalties, fines, investigations, more onerous compliance requirements, loss of export privileges,
+
+debarment from government contracts, or limitations on our ability to enter into contracts with the U.S. government.
+
+Other regulators, such as the EU or UK, may also impose restrictions on our ability to operate in geopolitically
+
+sensitive countries or territories.
+
+Our use of open source technology could impose limitations on our ability to commercialize our space-based
+
+internet and mobile phone services, AI products, and X platform, or otherwise negatively affect our business.
+
+We use open source technology in some of our software, including in our Starlink products and services, and in our
+
+AI segment�s and X platform�s software and products, and we expect to continue to use open source technology in
+
+the future. Open source technology is licensed by its authors or other third parties under open source licenses, which
+
+in some instances may subject us to certain unfavorable conditions. For example, certain open source licenses may
+
+give rise to requirements to disclose or license our proprietary source code or make available any derivative works
+
+or modifications of the open source code on unfavorable terms or at no cost. Although we monitor and have
+
+implemented policies relating to our use of open source technology to avoid subjecting our products and services to
+
+conditions we do not intend, we cannot guarantee such efforts will be successful and we may face allegations from
+
+others alleging ownership of, or seeking to enforce the terms of, an open source license, including by demanding
+
+release of the open source software, derivative works or modifications, or our proprietary source code that was
+
+developed using such technology, or demanding access to our software free of charge or on other unfavorable terms.
+
+These allegations could also result in litigation. Additionally, our AI products are trained on data sets that may
+
+Table of Contents
+
+include open source software, and it is possible that certain outputs of our AI products may be subject to open source
+
+license restrictions or obligations. The terms of many open source licenses are ambiguous and have not been
+
+interpreted by United States or foreign courts. There is a risk that these licenses could be construed in a way that
+
+could impose unanticipated conditions or restrictions on our ability to commercialize our AI segment�s products. In
+
+such an event, we may be required to seek licenses from third parties to continue commercially offering our AI
+
+segment�s products, to make our proprietary code generally available in source code form, to re-engineer our AI
+
+segment�s products or to discontinue the sale of our AI segment�s products or such other products if re-engineering
+
+could not be accomplished on a timely basis, any of which could adversely affect our business, financial condition,
+
+results of operations, and future prospects.
+
+In addition, the use of open source technology may entail greater technical and legal risks than those associated with
+
+the use of third-party commercial software as open source licensors generally do not provide support, warranties,
+
+controls on origin of the software, indemnification or other contractual protections regarding infringement claims or
+
+the quality of the code, including the existence of security vulnerabilities. Many of the risks associated with usage of
+
+open source technology, such as the lack of warranties or assurance of title, cannot be eliminated and could, if not
+
+properly addressed, negatively affect our business. To the extent that our technologies and other business operations
+
+depend upon the successful and secure operation of the open source technology we use, any undetected errors or
+
+defects in this open source software could prevent the deployment or impair the functionality of our software, delay
+
+the introduction of new technological capabilities, result in a failure of our technologies, and injure our brand and
+
+reputation. For example, undetected errors or defects in open source software could render it vulnerable to breaches
+
+or security attacks and make our AI segment�s products more vulnerable to data breaches or security attacks. Any of
+
+the foregoing would have a material adverse effect on our business, financial condition, results of operations and
+
+future prospects.
+
+Payment, banking, and other financial service-related activities may subject us to additional regulatory
+
+requirements, regulatory actions, and other risks that could be costly and difficult to comply with or that could
+
+harm our business.
+
+We plan to publicly launch the Money Product, which will offer payment, banking and other financial services
+
+functionalities, including enabling our users to purchase tangible, virtual, and digital goods from merchants and send
+
+money to other users, among other activities. These activities will subject us to a variety of laws and regulations in
+
+the United States, Europe, and elsewhere globally, including those governing anti-money laundering and counter-
+
+terrorism financing, money transmission, stored value, gift cards and other prepaid access instruments, electronic
+
+funds transfer, virtual currency, consumer protection, charitable fundraising, global and local economic sanctions,
+
+and import and export restrictions. In addition, we could become subject to new consumer protection laws and
+
+regulations that may be adopted or amended, including those related to payment, banking, and other financial
+
+services activities as well as sharing, collection, and use of payment, banking, and other financial services-related
+
+data. Depending on how the Money Product evolves, we may also be subject to other laws and regulations including
+
+those governing gambling, cryptocurrencies, brokerage, banking, credit, and lending. In some jurisdictions, the
+
+application or interpretation of these laws and regulations is not clear. We have received certain payments licenses in
+
+the United States and other jurisdictions for our anticipated regulated payments-related products and activities.
+
+These licenses increase flexibility in how our use of payments may evolve, help mitigate regulatory uncertainty, and
+
+will generally require us to demonstrate compliance with many domestic and foreign laws in relation to our licensed
+
+payments products and activities. Our efforts to comply with these laws and regulations may still not guarantee
+
+compliance. In the event that we are found to be in violation of any such legal or regulatory requirements, we may
+
+be subject to monetary fines or other penalties such as a cease and desist order, or we may be required to make
+
+product changes, any of which could have a material and adverse effect on our business, financial condition, results
+
+of operations and future prospects.
+
+In addition, we will be subject to a variety of additional risks as a result of payment, banking, and other financial
+
+services transactions, including: increased costs and other resources to address errors in transactions or customer
+
+disputes; potential fraudulent or otherwise illegal activity by users, developers, employees, or third parties;
+
+restrictions on the investment of consumer funds used to transact payments; and additional disclosure and reporting
+
+requirements. We plan to publicly launch the Money Product and may in the future undertake additional payment,
+
+Table of Contents
+
+banking, and other financial services initiatives, which may subject us to many of the foregoing risks and additional
+
+licensing requirements.
+
+Our efforts to support the creation of permanent installations on the Moon and Mars depend on the successful
+
+development and deployment of next-generation capabilities.
+
+Activities related to the industrialization and development of the Moon and Mars require the successful development
+
+and deployment of next-generation capabilities such as fully reusable launch vehicles, including Starship, in-space
+
+refueling and propellant storage, in space communications systems, and other capabilities required for operations
+
+beyond Earth�s orbit. These systems involve significant technological, engineering, and operational challenges,
+
+including the need to develop habitable transportation and surface environments, and perform complex in-orbit
+
+operations. Solving these challenges will require developing solutions that are novel or untested and will require
+
+substantial capital investment. If these efforts take longer than anticipated, or if technical, operational, or engineering
+
+challenges arise in connection with these efforts, our goals with respect to the Moon and Mars, including
+
+government contracts, and other and multiplanetary initiatives could be delayed, modified, or cancelled and could
+
+materially and adversely affect our business, financial condition, and results of operations. Even if such goals are
+
+achieved, they may not generate meaningful revenue or achieve profitability for an extended period of time.
+
+Our AI segment is recently formed, is still being fully integrated and optimized, operates in a rapidly evolving
+
+industry and is subject to significant execution, competitive and operational risks.
+
+We acquired xAI in February 2026 as the foundational platform for our AI segment and as part of our ambitious
+
+vertical integration strategy intended to combine artificial intelligence capabilities with our established Space and
+
+Connectivity businesses. Prior to its acquisition by the Company, xAI itself was an early-stage company. As a result,
+
+our AI segment remains in a relatively early stage of organizational and operational maturity and is subject to
+
+integration, scaling and execution risks.
+
+The successful integration of acquired businesses, technologies, strategic partners, and employees is inherently
+
+complex, costly and time-consuming, and may result in operational inefficiencies, delays, disruptions, increased
+
+costs, loss of knowledge and diversion of management attention. As is common in large acquisitions, we have had to
+
+take significant steps to integrate xAI�s operations into our broader corporate structure as part of our AI segment,
+
+including putting in place the management team and organizational structure needed to execute at the scale and pace
+
+our strategy demands, as well as controls and procedures appropriate for a larger organization like ours. Many of
+
+these steps are not yet complete.
+
+We have undertaken, and continue to undertake, changes in personnel, strategic partnerships, infrastructure-sharing
+
+arrangements, organizational restructurings, acquisitions and other integration initiatives intended to accelerate
+
+development of our AI capabilities, compute infrastructure and commercial offerings. Management believes these
+
+initiatives may create long-term strategic advantages through the combination of engineering talent, compute
+
+infrastructure, proprietary data, software capabilities and integrated operational platforms across the Company�s
+
+businesses, among others. However, the successful integration of acquired businesses, management teams,
+
+employees, strategic partners, technologies and evolving product architectures is inherently complex, costly and
+
+time-consuming and may result in operational inefficiencies, delays, disruptions or the failure to realize anticipated
+
+synergies or commercial benefits.
+
+We have also pursued evolving commercial and technical strategies, including coding and software development
+
+(such as through our partnership with Cursor) and monetization of unused compute capacity (such as through our
+
+cloud compute services agreements with Anthropic), while simultaneously continuing to invest heavily in expanding
+
+datacenter and compute capacity for our own internal AI initiatives and products. These efforts may require
+
+substantial capital expenditures and management attention and may create operational complexity relating to
+
+infrastructure allocation, prioritization of internal versus external compute usage, integration of third-party
+
+technologies and partnerships, cybersecurity, data governance and commercialization strategy. We may elect to
+
+allocate capital and resources to long-term initiatives even if alternative uses with more short-term upside are
+
+available. There can be no assurance that these initiatives will achieve their intended operational or financial
+
+Table of Contents
+
+The artificial intelligence industry is highly dynamic and rapidly evolving. We face significant uncertainty relating
+
+to technological developments, changing customer preferences, evolving regulatory and legal frameworks,
+
+increasing public scrutiny, and intense competition for engineering talent, compute capacity, infrastructure,
+
+customers and capital. In addition, the consumer AI market is characterized by rapid model iteration, frequent new
+
+entrants and intense competition for user attention; as a result, download and other usage metrics for any individual
+
+AI application, including Grok, can fluctuate significantly (including periods of decreased Grok app downloads and
+
+user activity) in response to competitor model releases, product update cycles, and broader shifts in user behavior.
+
+As a result of these market dynamics, we may need to modify our AI strategy, organizational structure,
+
+infrastructure deployment and capital allocation decisions in response to technological change, competitive
+
+pressures, regulatory developments or commercial adoption trends. Initiatives that management believes are
+
+strategically beneficial over the long term may nevertheless experience near-term operational disruptions, integration
+
+inefficiencies, product delays, technical setbacks, leadership turnover, employee attrition, infrastructure constraints,
+
+increased costs or uneven customer adoption during periods of transition or rapid scaling.
+
+Management believes that our recent organizational restructuring efforts, infrastructure investments and strategic
+
+collaborations position the AI segment favorably for long-term growth and are consistent with the maturation
+
+process of rapidly scaling AI platforms and optimization of acquired companies. However, there can be no assurance
+
+that we will successfully integrate acquired businesses and technologies, retain key personnel, execute our AI
+
+strategy within anticipated timeframes, achieve meaningful commercial adoption, generate anticipated revenues or
+
+returns on investment, or compete effectively in a rapidly evolving and increasingly competitive and consolidated AI
+
+market. If we are unable to successfully execute our AI strategy, our business, financial condition, results of
+
+operations and prospects could be materially adversely affected.
+
+Our AI segment is capital intensive, has incurred significant operating losses, and operates in a nascent and
+
+rapidly evolving market in which the potential of AI remains uncertain.
+
+AI is a nascent and rapidly evolving technology, and although we believe AI holds significant promise for
+
+consumers and enterprises, its long-term impact will depend on the degree to which AI products and services prove
+
+to be broadly useful in real-world applications. There can be no assurance that demand for AI solutions will develop
+
+or be sustained at the levels we anticipate, or at all. While industry interest in AI has grown substantially, the
+
+commercial value proposition of frontier AI models remains largely unproven, and long-term market acceptance of
+
+our AI products and services is uncertain. Developing, training, and providing inference for frontier AI models
+
+requires substantial and growing capital expenditures, including investments in specialized computing hardware,
+
+data center infrastructure, energy procurement, and technical personnel, and we expect these costs to continue to
+
+increase for the foreseeable future. In addition, we plan to allocate substantial capital to build our AI compute
+
+infrastructure, and we expect a multi-year investment horizon before these deployments translate into sustained
+
+positive AI Segment Adjusted EBITDA. Our AI segment has incurred significant operating losses since inception,
+
+and we may not achieve profitability in this segment, or, if achieved, sustain it, and there can be no assurance that
+
+the returns on our AI investments will be adequate to justify the capital deployed. Furthermore, the continued
+
+improvement of AI model capabilities has historically depended in part on scaling laws, the empirical observation
+
+that model performance improves with increased compute, data, and model size, but there is uncertainty as to how
+
+long these scaling relationships will continue to hold. As a result of these factors, our AI segment may not achieve
+
+the growth or returns we expect.
+
+We have a history of net losses and may not achieve profitability in the future.
+
+We incurred net losses of $(4,937) million and $(4,628) million for the years ended December 31, 2025 and 2023,
+
+respectively, and a net loss of $(4,276) million for the three months ended March 31, 2026. We may not achieve or,
+
+if achieved, sustain profitability in the future. As of March 31, 2026, we had an accumulated deficit of $41,311
+
+million . While we have experienced significant growth in revenue over the last three years, we cannot predict
+
+whether we will maintain this level of growth or when we will achieve profitability again. We also expect our capital
+
+expenditures and operating expenses to increase in the future, including our general and administrative expenses as a
+
+result of increased costs associated with operating as a public company and as we continue to invest for our future
+
+growth, including substantial capital expenditures to design, develop, expand, and maintain our technologies and
+
+infrastructure to support our operations. Our revenue could decline for a number of reasons, including if we are
+
+Table of Contents
+
+unable to execute on our growth strategy and as a result of the other risks described in this prospectus. Furthermore,
+
+if we fail to maintain or increase our revenue to offset increases in our operating expenses or manage our costs as we
+
+invest in our business, including if we do not maintain or improve our operating efficiencies, we may not achieve or
+
+sustain profitability. Any failure by us to achieve or sustain profitability on a consistent basis could have a material
+
+adverse effect on our business, financial condition and results of operations and cause the market price of our Class
+
+A common stock to decline.
+
+The timing of our revenue and cost recognition may fluctuate due to factors outside of our control, which could
+
+cause our periodic results of operations to fluctuate and make our results difficult to predict.
+
+In our financial results, we recognize revenue and costs for a majority of customer payloads at the launch or
+
+deployment of the customer�s payload to its intended orbit. While we plan launches and schedule payloads in
+
+advance, the timing of these launches or deployments may vary and can be delayed or otherwise affected by a
+
+number of factors outside of our control, including the customer�s delay in delivering their payload for integration
+
+onto the launch vehicle, adverse weather, and other operational considerations. As a result, the timing of revenue
+
+recognition may shift between reporting periods. For example, if the launch of a customer�s payload was expected to
+
+occur near the end of a reporting period but instead occurs shortly thereafter (e.g., on April 1 instead of March 30),
+
+the associated revenue would be recognized in the subsequent quarter. In addition, if a significant number of
+
+launches or deployments occur within a short period of time, the concentration of those events may result in greater
+
+variability in the timing of revenue recognition between reporting periods. These factors may cause our quarterly or
+
+annual results of operations to fluctuate and may make our results difficult to predict.
+
+Failure to comply with requirements to design, implement, and maintain effective internal controls could have a
+
+material adverse effect on our business and stock price.
+
+As a privately held company, we were not required to evaluate our internal control over financial reporting in a
+
+manner that meets the standards of publicly traded companies required by Section 404(a) of the Sarbanes-Oxley Act
+
+(�Section 404�).
+
+As a public company, we will have significant requirements for enhanced financial reporting and internal controls.
+
+The process of designing and implementing effective internal controls is a continuous effort that requires us to
+
+anticipate and react to changes in our business and the economic and regulatory environments and to expend
+
+significant resources to maintain a system of internal controls that is adequate to satisfy our reporting obligations as
+
+a public company. If we are unable to establish or maintain appropriate internal financial reporting controls and
+
+procedures, it could cause us to fail to meet our reporting obligations on a timely basis, result in material
+
+misstatements in our consolidated financial statements, and harm our results of operations. In addition, we will be
+
+required, pursuant to Section 404, to furnish a report by management on, among other things, the effectiveness of
+
+our internal control over financial reporting in the second annual report following the completion of this offering.
+
+This assessment will need to include disclosure of any material weaknesses identified by our management in our
+
+internal control over financial reporting. The rules governing the standards that must be met for our management to
+
+assess our internal control over financial reporting are complex and require significant documentation, testing, and
+
+possible remediation. Testing and maintaining internal controls may divert our management�s attention from other
+
+matters that are important to our business. Additionally, our independent registered public accounting firm will be
+
+required to attest to the effectiveness of our internal control over financial reporting on an annual basis, beginning
+
+with our second annual report.
+
+We are currently in the process of updating our control processes and automating certain of our procedures and
+
+systems in anticipation of becoming a public company, but our internal controls over financial reporting currently do
+
+not meet all of the standards contemplated by Section 404 that we will eventually be required to meet. Because we
+
+currently do not have comprehensive documentation of our internal controls and have not yet tested our internal
+
+controls in accordance with Section

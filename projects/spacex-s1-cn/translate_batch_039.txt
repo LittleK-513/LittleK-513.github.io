@@ -1,0 +1,673 @@
+cept units of digital assets)
+
+Digital assets held:
+
+Bitcoin .........................................
+
+Total ................................................
+
+Table of Contents
+
+The fair value of digital assets is determined using a Level I in the fair value hierarchy.  The following table
+
+provides activities related to digital assets:
+
+Year Ended December 31,
+
+Beginning balance, at fair value ................................................................................
+
+Unrealized gain (loss), net .........................................................................................
+
+Ending balance, at fair value .................................................................................
+
+Note 8 - Financial Instruments
+
+The Company�s assets that are measured at fair value on a recurring basis are as follows :
+
+As of December 31, 2025
+
+Cash and cash equivalents
+
+Cash .................................................
+
+Money market funds ........................
+
+Prepaid expenses and other
+
+Restricted cash .................................
+
+Restricted cash in money market
+
+funds ...............................................
+
+Restricted cash .................................
+
+Restricted cash in money market
+
+funds ...............................................
+
+Total ..................................................
+
+As of December 31, 2024
+
+Cash and cash equivalents
+
+Cash .................................................
+
+Money market funds ........................
+
+Marketable securities
+
+Government securities .....................
+
+Prepaid expenses and other
+
+Restricted cash .................................
+
+Restricted cash .................................
+
+Restricted cash in money market
+
+funds ...............................................
+
+Government securities .....................
+
+Total ..................................................
+
+Table of Contents
+
+Note 9 - Investments in Unconsolidated Affiliates
+
+Equity method investment
+
+In April 2025, the Company, through its wholly-owned subsidiary CTC Property LLC (�CTC�), entered into a joint
+
+venture Stateline Power, LLC (�Stateline�), with Solaris Power Solutions Stateline, LLC (�Stateline Power
+
+Solutions�), a wholly owned subsidiary of Solaris Energy Infrastructure, Inc. (�Solaris�).
+
+Stateline was formed to provide off-grid power to CTC�s data center campus pursuant to a long-term equipment
+
+rental arrangement. In connection with the formation of Stateline, Solaris contributed non-cash assets valued at $86
+
+million , consisting primarily of progress payments on power generation equipment now owned by Stateline and pre-
+
+funded expenses, in exchange for a 50.1% equity interest in Stateline. CTC contributed $86 million in cash in
+
+exchange for the remaining 49.9% equity interest. Interests in Stateline held by CTC were subsequently assigned to
+
+MZX Tech LLC (�MZX�), another wholly-owned subsidiary of the Company.
+
+Concurrent with its formation, CTC (subsequently assigned to MZX) entered into a master equipment rental
+
+agreement (�Rental Agreement�) with Stateline under which Stateline will lease power generation equipment to
+
+MZX for use at the Company � s data center facility. The Rental Agreement lease commences upon completion of
+
+equipment deployment and commissioning activities by Stateline. No rental payments were made by the Company
+
+for the year ended December 31, 2025 .
+
+The Company evaluated its interest in Stateline under ASC 810 and determined that Stateline is a variable interest
+
+entity but the Company is not the primary beneficiary because it does not have the power to direct the activities that
+
+most significantly impact Stateline�s economic performance, which are the operations of the assets managed by a
+
+subsidiary of Solaris and the Company�s lack of control over how the assets are managed and redeployed after the
+
+initial term of the Rental Agreement. As a result, the Company accounts for its interest in Stateline using the equity
+
+method of accounting. As of December 31, 2025 , the carrying value of the equity method investment was $86
+
+million , which represents the Company � s initial investment in Stateline. Activity in Stateline during the year ended
+
+December 31, 2025 was not material.
+
+Equity investments without readily determinable fair value
+
+As of December 31, 2025 and 2024 , the Company held investments in unconsolidated affiliates which are accounted
+
+for as equity investments without readily determinable fair values of $157 million and $154 million , respectively.
+
+For the years ended December 31, 2025, 2024, and 2023 , the Company recorded a total of $0 million , $1 million ,
+
+and $45 million of impairment charges related to the equity method investments in Other income (expense), net in
+
+the consolidated statements of operations. The Company recorded cumulative downward adjustments of $59 million
+
+on these investments as of December 31, 2025 . No upward adjustments were recorded in the years ended December
+
+31, 2025, 2024 and 2023.
+
+Table of Contents
+
+As of December 31, 2025
+
+X 2027 and X 2030 Notes ..............................................................
+
+X B-1 Term Loan ...........................................................................
+
+X B-3 Term Loan ...........................................................................
+
+xAI Fixed Rate Term Loan ............................................................
+
+xAI Floating Rate Term Loan ........................................................
+
+xAI 12.5% Secured Senior Notes ...................................................
+
+Other financings (1) .........................................................................
+
+Total debt ........................................................................................
+
+Finance lease liability .....................................................................
+
+Total debt and finance leases ..........................................................
+
+Less: Short-term portion .................................................................
+
+Total debt and finance leases, net of current ............................
+
+As of December 31, 2024
+
+X 2027 and X 2030 Notes ..............................................................
+
+X B-1 Term Loan ...........................................................................
+
+X Bridge Credit Facilities ...............................................................
+
+Other financings .............................................................................
+
+Total debt ........................................................................................
+
+Finance lease liability .....................................................................
+
+Total debt and finance leases ..........................................................
+
+Less: Short-term portion .................................................................
+
+Total debt and finance leases, net of current ............................
+
+__________________
+
+(1) Includes obligations related to certain AI infrastructure assets recorded as failed sale-leaseback transactions. Refer to Other Financings
+
+below for additional details.
+
+SpaceX ABL Credit Agreement
+
+General. In 2018 and subsequently amended through 2023, SpaceX entered into a senior secured asset-based
+
+revolving credit agreement (�SpaceX ABL Credit Agreement�) with a syndicate of banks. The SpaceX ABL Credit
+
+Agreement provided for a senior secured asset-based revolving credit facility, from which the Company may draw
+
+upon as needed for up to $1,500 million . The SpaceX ABL Credit Agreement was collateralized primarily by a
+
+pledge of certain of SpaceX � s inventory and equipment, and availability under the SpaceX ABL Credit Agreement
+
+was based on the estimated fair value of such assets, as reduced by certain reserves. The Company was required to
+
+meet various covenants, including meeting certain reporting requirements, and certain financial covenants applied
+
+once more than 85.0% of the SpaceX ABL Credit Agreement was drawn upon. In February 2025, SpaceX
+
+terminated the SpaceX ABL Credit Agreement. No amounts were outstanding at the time of termination.
+
+SpaceX Credit Facility
+
+General. I n February 2025, the Company entered into a five-year senior unsecured revolving credit agreement
+
+( �SpaceX Credit Facility �) with a syndicate of banks, under which the Company may draw up to $1,500 million ,
+
+Table of Contents
+
+subject to a customary financial covenant and other reporting requirements. The SpaceX Credit Facility terminates,
+
+and all outstanding loans become due and payable, on February 7, 2030, unless the parties agree to an extension. No
+
+amounts were borrowed under the SpaceX Credit Facility during 2025 .
+
+Interest Rates. Under the SpaceX Credit Facility, borrowings bear interest at the Company�s option, at a rate per
+
+annum of (i) between 0.75%-1.25%, depending on the Company�s current debt rating, plus the relevant Term SOFR
+
+or (ii) between 0.0%-0.25% depending on the Company�s current debt rating plus the greater of (a) the Federal
+
+Funds Rate plus 0.5%, (b) the Prime Rate, (c) Term SOFR plus 1.0% and (d) 1.0%. The Company may also borrow
+
+in various alternative currencies at various alternative rates, including rates based on SONIA for Pound Sterling
+
+loans and EURIBOR for Euro loans plus an applicable margin. The fee for undrawn amounts is between
+
+0.07%-0.11% per annum, depending on the Company�s current debt rating. Interest is payable either monthly or
+
+quarterly, depending on the interest loan option.
+
+Covenants. The Company was in compliance with the covenants of the SpaceX Credit Facility as of December 31,
+
+2025 ; however, the Company had a technical default when the Company acquired xAI on February 2, 2026 due to
+
+the amount of debt assumed as part of the acquisition at the subsidiary level. On March 2, 2026, the Company
+
+obtained a waiver from the syndicate of banks and amended the SpaceX Credit Facility allowing for the debt
+
+refinance completed on March 2, 2026 (refer to Note 21 , Subsequent Events for additional details), resulting in the
+
+Company being in compliance with all covenants.
+
+X 2027 and 2030 Notes
+
+General. In 2019, a subsidiary of X , an indirect subsidiary of the Company, issued $700 million aggregate principal
+
+amount of 3.875% senior notes due 2027 (the �X 2027 Notes�) in a private placement. The X 2027 Notes mature on
+
+December 15, 2027.  In 2022, a subsidiary of X issued $1,000 million aggregate principal amount of 5.000% senior
+
+notes due 2030 (the �X 2030 Notes�) in a private placement.  The X 2030 Notes mature on March 1, 2030. The X
+
+2027 and X 2030 Notes represent senior unsecured obligations of the Company.
+
+Interest Rates. For the X 2027 Notes, the interest rate is fixed at 3.875% per annum and interest is payable semi-
+
+annually in arrears on June 15 and December 15 of each year.  For the X 2030 Notes, the interest rate is fixed at
+
+5.000% per annum and interest is payable semi-annually in arrears on March 1 and September 1 of each year.
+
+Principal Repayments. In November 2022, the Company purchased approximately $675 million aggregate principal
+
+amount of X 2027 Notes and $998 million aggregate principal amount of the X 2030 Notes in settlement of the
+
+change in control of Twitter. The X 2027 Notes and X 2030 Notes that remain outstanding may be redeemed at the
+
+option of the Company, in whole or in part, at any time prior to September 15, 2027 and December 1, 2029,
+
+respectively, at a price equal to 100.0% of the principal amounts plus a �make-whole� premium and accrued and
+
+unpaid interest, if any, up to, but excluding, the redemption date.
+
+Covenants. The Company was in compliance with the covenants of the X 2027 Notes and X 2030 Notes as of
+
+December 31, 2025 .
+
+X First Lien Senior Credit Facilities
+
+General. In 2022, X Corp., an indirect subsidiary of the Company, entered into the First Lien Credit Agreement
+
+which provided for a new term loan commitment of $6,705 million (�X B-1 Term Loan�) and a $500 million
+
+Secured First Lien Revolving Credit Facility (including a letter of credit subfacility with an aggregate face value of
+
+up to $100 million ) (together referred to as �X First Lien Senior Credit Facilities�).  The Secured First Lien
+
+Revolving Credit Facility matures on October 27, 2027 and the X B-1 Term Loan matures on October 27, 2029.
+
+Amendments. In February 2025, X Corp., an indirect subsidiary of the Company, amended the X First Lien Senior
+
+Credit Facilities and entered into a new term loan commitment for $4,741 million with a maturity date of October
+
+27, 2029  (�X B-3 Term Loan�) and reduced the Secured First Lien Revolving Credit Facility commitment to $0 .
+
+As part of the issuance of the X B-3 Term Loan, the Company is required to pay an arrangement fee of $51 million,
+
+which is due and payable on February 19, 2027. In April 2025, the Company entered into an amendment to the X
+
+Table of Contents
+
+B-3 Term Loan for an additional commitment of $1,225 million with the same terms and conditions, increasing the
+
+total X B-3 Term Loan borrowings to $5,966 million .
+
+Proceeds. The proceeds from the X B-3 Term Loan were used to pay down and extinguish the First Lien Bridge
+
+Credit Facility and the Second Lien Bridge Credit Facility. The Company accounted for the pay down as a partial
+
+modification and extinguishment of debt, expensing immaterial debt issuance costs.
+
+Interest Rates. The X B-1 Term Loan bears interest at a rate per annum of, initially, adjusted Term SOFR plus
+
+6.50% .  The Secured First Lien Revolving Credit Facility bore interest at a rate per annum of, initially, an adjusted
+
+Term SOFR plus 4.50% , with leverage-based step-downs. Undrawn commitments under the Secured First Lien
+
+Revolving Credit Facility were subject to an unused commitment fee of 0.50% per annum, subject to quarterly
+
+leverage based step-downs.  The X B-3 Term Loan has a fixed interest rate of 9.50% per annum.  Interest on the X
+
+B-1 Term Loan and X B-3 Term Loan is payable monthly, quarterly, or bi-annually at the option of the Company.
+
+The effective interest rate on outstanding borrowings under the X B-1 Term Loan and X B-3 Term Loan was
+
+12.40% and 9.80% , respectively, as of December 31, 2025 .
+
+Principal Repayments. The X B-1 Term Loan is repayable at any time, in whole or in part, without premium or
+
+penalty, subject to mandatory quarterly prepayments of principal beginning on the last day of the fiscal quarter
+
+ended March 31, 2023, in amounts equal to 0.25% of the original principal amount of borrowings thereunder, with
+
+the unpaid balance being payable on the final maturity date thereof.  The X B-1 Term Loan is also subject to
+
+additional customary mandatory prepayment provisions from the proceeds of certain debt issuances and asset sales,
+
+as well as sweeps of a portion of excess cash flow, subject to certain leverage-based step-downs and exceptions.
+
+None of these additional customary mandatory prepayment provisions have been triggered as of December 31, 2025 .
+
+The X B-3 Term Loan has prepayment penalties of 107.13% of the outstanding principal before October 27, 2026,
+
+104.75% of the outstanding principal before October 27, 2027, and 102.38% of the outstanding principal before
+
+October 27, 2028.
+
+Guarantors and Collateral. Obligations under the First Lien Senior Credit Facilities were guaranteed by X, and were
+
+collateralized by a first priority lien on substantially all of the assets of X and its subsidiaries (subject to customary
+
+exceptions) which had a carrying amount of $42,132 million as of December 31, 2025.
+
+Covenants. The Company was in compliance with the covenants of the First Lien Senior Credit Facilities as of
+
+December 31, 2025 .
+
+X Bridge Credit Facilities
+
+General. On October 27, 2022, X Corp., an indirect subsidiary of the Company, entered into the First Lien Bridge
+
+Loan Credit Agreement and the Second Lien Bridge Loan Credit Agreement as borrower, which provided for a
+
+$3,000 million First Lien Bridge Credit Facility and a $3,000 million Second Lien Bridge Credit Facility (together,
+
+the �X Bridge Credit Facilities�), respectively. The initial term loans under each Bridge Credit Facility automatically
+
+convert to permanent term loans (�Permanent Bridge Loans�) on July 31, 2025 (�Bridge Conversion Date�), as
+
+amended. The Permanent Bridge Loans mature on October 27, 2029 and October 27, 2030 for the First Lien Bridge
+
+Credit Facility and the Second Lien Bridge Credit Facility, respectively.  In February 2025, the Company repaid the
+
+full outstanding amount of $2,966 million resulting in the full payoff of the First Lien Bridge Credit Facility prior to
+
+the Bridge Conversation Date.  In February and April 2025, the Company made principal payments of $1,775
+
+million and $1,225 million respectively, resulting in the full payoff of the Second Lien Bridge Credit Facility prior
+
+to the Bridge Conversation Date.
+
+Interest Rates. Borrowings under the First Lien Bridge Credit Facility bore interest at a rate per annum of, initially,
+
+an adjusted term SOFR plus 6.75% , with 0.50% step-ups occurring on each successive three-month period until the
+
+Bridge Conversion Date, but subject to a maximum all-in rate of, prior to January 20, 2023, 9.25% and, on and after
+
+January 20, 2023, 9.50% (�First Lien Bridge Total Cap�).  After the Bridge Conversion Date, any outstanding
+
+borrowings under the First Lien Bridge Credit Facility bore interest at the First Lien Bridge Total Cap.  Borrowings
+
+under the Second Lien Bridge Credit Facility bore interest at a rate per annum of, initially, an adjusted term SOFR
+
+plus 10.00% , with 0.50% step-ups occurring on each successive three-month period thereafter until the Bridge
+
+Conversion Date, but subject to a maximum all-in rate of, prior to January 20, 2023, 12.75% and, on and after
+
+Table of Contents
+
+January 20, 2023, 13.00% (�Second Lien Bridge Total Cap�). After the Bridge Conversion Date, any outstanding
+
+borrowings under the Second Lien Bridge Credit Facility bore interest at the Second Lien Bridge Total Cap.
+
+xAI First Lien Credit Agreement
+
+General. In June 2025, X.AI Corp. and X.AI LLC , indirect subsidiaries of the Company, entered into the First Lien
+
+Credit Agreement to provide borrowings up to $2,000 million .  The Company executed a $1,000 million Fixed Rate
+
+Term Loan maturing on June 30, 2030 (�xAI Fixed Rate Term Loan�); and a $1,000 million Floating Rate Term
+
+Loan  maturing on June 30, 2030 (�xAI Floating Rate Term Loan�).
+
+Interest Rates. The xAI Fixed Rate Term Loan has a fixed interest rate of 12.50% per annum and the xAI Floating
+
+Rate Term Loan has a floating interest rate per annum of Term SOFR plus 7.25% or ABR plus 6.25%.  Interest on
+
+the xAI Fixed Rate Term Loan is payable bi-annually on January 31 and July 31, commencing on January 31, 2026.
+
+Interest on the xAI Floating Rate Term loan is payable monthly, quarterly, or bi-annually at the option of the
+
+Company.  The effective interest rate on outstanding borrowings under the xAI Fixed Rate Term Loan and xAI
+
+Floating Rate Term Loan was 11.91% and 12.4 8% , respectively, as of December 31, 2025 .
+
+Principal Repayments. The xAI Fixed Rate Term Loan and the xAI Floating Rate Term Loan have prepayment
+
+penalties of 103% on the principal outstanding balance prior to June 30, 2027 and 101% on the principal outstanding
+
+balance prior to June 30, 2028.
+
+Guarantors. Obligations under the xAI Fixed Rate Term Loan and xAI Floating Rate Term Loan were guaranteed
+
+each jointly and severally by X.AI Corp. and the following subsidiaries of X.AI Corp.: AIQ Phase LLC, CTC
+
+Holding LLC, CTC, LLZ Build LLC, and MZX.
+
+Covenants. The Company was in compliance with the covenants of the xAI Fixed Rate Term Loan and xAI Floating
+
+Rate Term Loan as of December 31, 2025 .
+
+xAI 12.5% Secured Senior Notes
+
+General. In June 2025, X.AI LLC and, X.AI Co Issuer Corp, indirect subsidiaries of the Company, issued $3,000
+
+million aggregate principal amount of 12.5% interest Senior Secured Notes due in 2030 (�xAI 12.5% Senior Secured
+
+Notes�).  The Senior Secured Notes were issued at 100% of the principal amount and the entire principal amount
+
+will be due on June 30, 2030.
+
+Interest Rates. The xAI 12.5% Senior Secured Notes have a fixed interest rate of 12.50% per annum.  Interest is
+
+payable bi-annually on January 15 and July 15, commencing on January 15, 2026.
+
+Principal Repayments. The xAI 12.5% Senior Secured Notes have prepayment penalties of 106.25% on the principal
+
+outstanding balance prior to July 15, 2027 and 103.13% on the principal outstanding balance prior to July 15, 2028.
+
+Guarantors. Obligations under the xAI 12.5% Senior Secured Notes were guaranteed each jointly and severally by
+
+xAI and the following subsidiaries of xAI: AIQ Phase LLC, CTC Holding LLC, CTC, LLZ Build LLC, and MZX.
+
+Covenants. The Company was in compliance with the covenants of the 12.5% Senior Secured Notes as of
+
+December 31, 2025 .
+
+xAI Revolving Line of Credit
+
+General. In April 2024 and amended in May 2024, a subsidiary of xAI , an indirect subsidiary of the Company,
+
+entered into a revolving line of credit for an aggregate face amount up to $150 million .  The Company had no
+
+Table of Contents
+
+borrowings under the line of credit during 2025 .  Letters of credit issued under the revolving line of credit were $145
+
+million as of December 31, 2025 .
+
+Interest Rates. Interest on any borrowings is calculated based on the 30-day average SOFR plus the International
+
+Swaps and Derivatives Association spread adjustment plus a spread of 40 basis points.
+
+Guarantors and Collateral. The agreement permits borrowings up to the value of the pledged collateral held in
+
+custody, less any outstanding loan balances, accrued interest, and fees. The pledged collateral consisted of securities
+
+held in xAI � s custodial account.
+
+Other Financings
+
+The Company has entered into various other financing arrangements, generally collateralized by specific machinery
+
+and equipment. These arrangements have an average fixed interest rate of 5.5% and 5.3% per annum as of
+
+December 31, 2025 and 2024 , respectively, with principal and interest payments due monthly, and in certain
+
+instances, a lump sum payment at the end of term.
+
+In addition, in November 2025, CTC completed a sale-leaseback transaction for its AI infrastructure assets which
+
+would have been deemed finance leases resulting in failed sale-leaseback transactions. X.A I Corp. guarantees certain
+
+of CTC � s obligations under the lease agreement. As a result, the Company recorded the related debt of $455 million
+
+and $4,052 million within Debt and finance leases, current and Debt and finance leases, net of current , respectively,
+
+in the Company � s consolidated balance sheets . Refer to Note 18 , Related Party Transactions for additional details.
+
+The future scheduled principal maturities of debt as of December 31, 2025 are as follows:
+
+2026 ......................................................................................................................................................
+
+2027 ......................................................................................................................................................
+
+2028 ......................................................................................................................................................
+
+2029 ......................................................................................................................................................
+
+2030 ......................................................................................................................................................
+
+Thereafter ..............................................................................................................................................
+
+The Company recognized interest expense for debt prior to capitalization of interest of $1,797 million , $1,580
+
+million and $1,693 million , in the years ended December 31, 2025, 2024, and 2023 , respectively.
+
+The Company measures the fair value of its long-term fixed-rate debt for disclosure purposes. The fair value
+
+estimates for these debts were determined based on a discounted cash flow app roach using yields calibrated from
+
+recent issuances of the securities, resulting in Level II measurement.
+
+The carrying amounts and fair values of the long-term fixed-rate debt included in the consolidated balance sheets are
+
+As of December 31, 2025
+
+X B-3 Term Loan ......................................................................................................
+
+xAI Fixed Rate Term Loan ........................................................................................
+
+xAI 12.5% Secured Senior Notes ..............................................................................
+
+Table of Contents
+
+Note 11 - Leases
+
+The balances of the Company�s operating and finance leases, included in Other assets , Accrued expenses and other
+
+current liabilities , and Other liabilities for operating leases, and Finance lease right-of-use assets , Debt and finance
+
+leases, current , and Debt and finance leases, net of current for finance leases, in the consolidated balance sheets , are
+
+Operating leases:
+
+Operating lease right-of-use assets .......................................................................
+
+Operating lease liabilities, current ........................................................................
+
+Operating lease liabilities, net of current ..............................................................
+
+Total operating lease liabilities ...................................................................
+
+Finance lease right-of-use assets ...........................................................................
+
+Finance lease liabilities, current ............................................................................
+
+Finance lease liabilities, net of current .................................................................
+
+Total finance lease liabilitie s ........................................................................
+
+The components of lease expense are as follows within the consolidated statements of operations :
+
+Year Ended December 31,
+
+Operating lease expense:
+
+Operating lease expense ............................................................
+
+Short-term lease cost .................................................................
+
+Variable lease cost .....................................................................
+
+Total operating lease expense ...............................................
+
+Finance lease expense:
+
+Amortization of leased assets ....................................................
+
+Interest on lease liabilities .........................................................
+
+Total finance lease expense ..................................................
+
+Total lease expense ......................................................................
+
+Table of Contents
+
+Other information related to leases is as follows:
+
+Weighted-average remaining lease term (in years):
+
+Operating leases .........................................................................................................
+
+Finance leases ............................................................................................................
+
+Weighted-average discount rate:
+
+Operating leases .........................................................................................................
+
+Finance leases ............................................................................................................
+
+During the years ended December 31, 2024 and 2023 , the Company recorded restructuring charges o f $30 million
+
+and $106 million , respectively, for operating lease right-of-use assets as part of its facilities consolidation
+
+restructuring efforts in Restructuring charges in the consolidated statements of operations . There was no impairment
+
+related to leases during the year ended December 31, 2025 .
+
+Supplemental cash flow and other information related to the Company�s leases are as follows:
+
+Year Ended December 31,
+
+Cash paid for amounts included in the measurement of lease
+
+Operating cash outflows from operating leases .........................
+
+Operating cash outflows from finance leases ............................
+
+Financing cash outflows from finance leases ............................
+
+Leased assets obtained in exchange for operating lease liabilities .
+
+Leased assets obtained in exchange for finance lease liabilities ....
+
+The above tables exclude operating lease agreements that have been signed as of December 31, 2025 , but not yet
+
+commenced for the aggregate lease payments of $1,627 million and an average lease term of 7.2 years, including the
+
+operating lease arrangement with Stateline. Refer to Note 9 , Investments in unconsolidated affiliates for additional
+
+The maturities of the Company�s lease liabilities as of December 31, 2025 are as follows:
+
+Operating Leases
+
+2026 ...........................................................................................................................
+
+2027 ...........................................................................................................................
+
+2028 ...........................................................................................................................
+
+2029 ...........................................................................................................................
+
+2030 ...........................................................................................................................
+
+Thereafter ...................................................................................................................
+
+Total undiscounted

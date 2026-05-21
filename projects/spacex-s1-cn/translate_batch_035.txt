@@ -1,0 +1,585 @@
+licable laws, rules and regulations in India, without the requirement to obtain any prior
+
+approval, and that it is not prohibited or prevented under any law, rule or regulation in India from acquiring, owning
+
+or selling the shares of Class A common stock.
+
+This prospectus does not, and is not intended to, constitute a public offering in Indonesia under Law Number 8 of
+
+1995 regarding Capital Market. This prospectus may not be distributed in the Republic of Indonesia and the shares
+
+of Class A common stock may not be offered or sold in the Republic of Indonesia or to Indonesian citizens wherever
+
+they are domiciled, or to Indonesia residents, in a manner which constitutes a public offering under the laws of the
+
+Republic of Indonesia.
+
+In the State of Israel this prospectus shall not be regarded as an offer to the public to purchase shares of Class A
+
+common stock under the Israeli Securities Law, 5728�1968, which requires a prospectus to be published and
+
+authorized by the Israel Securities Authority, if it complies with certain provisions of Section 15 of the Israeli
+
+Securities Law, 5728�1968, including, inter alia, if: (i) the offer is made, distributed or directed to not more than 35
+
+investors, subject to certain conditions (the �Addressed Investors�), or (ii) the offer is made, distributed or directed
+
+to certain qualified investors defined in the First Addendum of the Israeli Securities Law, 5728�1968, subject to
+
+certain conditions (the �Qualified Investors�). The Qualified Investors shall not be taken into account in the count of
+
+the Addressed Investors and may be offered to purchase securities in addition to the 35 Addressed Investors. We
+
+have not and will not take any action that would require it to publish a prospectus in accordance with and subject to
+
+the Israeli Securities Law, 5728�1968. We have not and will not distribute this prospectus or make, distribute or
+
+direct an offer to subscribe for our Class A common stock to any person within the State of Israel, other than to
+
+Qualified Investors and up to 35 Addressed Investors.
+
+Qualified Investors may have to submit written evidence that they meet the definitions set out in of the First
+
+Addendum to the Israeli Securities Law, 5728�1968. In particular, we may request, as a condition to be offered
+
+shares of Class A common stock, that Qualified Investors will each represent, warrant and certify to us and/or to
+
+anyone acting on our behalf: (i) that it is an investor falling within one of the categories listed in the First Addendum
+
+to the Israeli Securities Law, 5728�1968; (ii) which of the categories listed in the First Addendum to the Israeli
+
+Securities Law, 5728�1968 regarding Qualified Investors is applicable to it; (iii) that it will abide by all provisions
+
+set forth in the Israeli Securities Law, 5728�1968 and the regulations promulgated thereunder in connection with
+
+the offer to be issued shares of Class A common stock; (iv) that the shares of Class A common stock that it will be
+
+issued are, subject to exemptions available under the Israeli Securities Law, 5728�1968: (a) for its own account; (b)
+
+for investment purposes only; and (c) not issued with a view to resale within the State of Israel, other than in
+
+accordance with the provisions of the Israeli Securities Law, 5728�1968; and (v) that it is willing to provide further
+
+evidence of its Qualified Investor status. Addressed Investors may have to submit written evidence in respect of their
+
+identity and may have to sign and submit a declaration containing, inter alia, the Addressed Investor�s name, address
+
+and passport number or Israeli identification number.
+
+Table of Contents
+
+No prospectus or other offering material or document in connection with the offer and sale of shares of Class A
+
+common stock offered by this prospectus has been or will be registered with the Securities Commission of Malaysia
+
+(the �Malaysian Commission�) for the Malaysian Commission�s approval pursuant to the Capital Markets and
+
+Services Act 2007. Accordingly, this prospectus and any other document or material in connection with the offer or
+
+sale, or invitation for subscription or purchase, of the shares of Class A common stock may not be circulated or
+
+distributed, nor may the shares of Class A common stock be offered or sold, or be made the subject of an invitation
+
+for subscription or purchase, whether directly or indirectly, to persons in Malaysia other than (i) a closed-end fund
+
+approved by the Malaysian Commission; (ii) a holder of a Capital Markets Services License; (iii) a person who
+
+acquires shares of Class A common stock, as principal, if the offer is on terms that the shares if Class A common
+
+stock may only be acquired at a consideration of not less than RM250,000 (or its equivalent in foreign currencies)
+
+for each transaction; (iv) an individual whose total net personal assets or total net joint assets with his or her spouse
+
+exceeds RM3 million (or its equivalent in foreign currencies), excluding the value of the primary residence of the
+
+individual; (v) an individual who has a gross annual income exceeding RM300,000 (or its equivalent in foreign
+
+currencies) per annum in the preceding twelve months; (vi) an individual who, jointly with his or her spouse, has a
+
+gross annual income of RM400,000 (or its equivalent in foreign currencies), per annum in the preceding twelve
+
+months; (vii) a corporation with total net assets exceeding RM10 million (or its equivalent in foreign currencies)
+
+based on the last audited accounts; (viii) a partnership with total net assets exceeding RM10 million (or its
+
+equivalent in foreign currencies); (ix) a bank licensee or insurance licensee as defined in the Labuan Financial
+
+Services and Securities Act 2010; (x) an Islamic bank licensee or takaful licensee as defined in the Labuan Financial
+
+Services and Securities Act 2010; and (xi) any other person as may be specified by the Commission; provided that,
+
+in each of the preceding categories (i) to (xi), the distribution of the shares of Class A common stock is made by a
+
+holder of a Capital Markets Services License who carries on the business of dealing in securities. The distribution in
+
+Malaysia of this prospectus is subject to Malaysian laws. This prospectus does not constitute and may not be used
+
+for the purpose of a public offering or an issue, offer for subscription or purchase, or invitation to subscribe for or
+
+purchase any securities requiring the registration of a prospectus with the Malaysian Commission under the Capital
+
+Markets and Services Act 2007.
+
+The shares of Class A common stock have not been and will not be registered with the Mexican National Securities
+
+Registry (Registro Nacional de Valores or the �RNV�) maintained by the Mexican National Banking and Securities
+
+Commission (Comisi�n Nacional Bancaria y de Valores, or the �CNBV�), and therefore, may not be offered or sold
+
+publicly in Mexico or otherwise be subject to intermediation activities in Mexico. However, the shares of Class A
+
+common stock may only be offered and sold in Mexico on a private placement basis to investors that qualify as
+
+institutional or qualified investors pursuant to the private placement exemption set forth in Article 8 of the Mexican
+
+Securities Market Law (Ley del Mercado de Valores) and regulations thereunder. The information contained in this
+
+prospectus is solely our responsibility and has not been reviewed or authorized by the CNBV and may not be
+
+publicly distributed in Mexico. In making an investment decision, all investors, including any Mexican investor,
+
+who may acquire the shares of Class A common stock from time to time, must rely on their own examination of us
+
+and the terms of this offering and the shares of Class A common stock, including the merits and risks involved.
+
+This document has not been registered, filed with or approved by any New Zealand regulatory authority under the
+
+Financial Markets Conduct Act 2013 (the �FMC Act�). The shares of Class A common stock may only be offered or
+
+sold in New Zealand (or allotted with a view to being offered for sale in New Zealand) to a person who:
+
+� is an investment business within the meaning of clause 37 of Schedule I of the FMC Act;
+
+� meets the investment activity criteria in clause 38 of Schedule I of the FMC Act;
+
+� is large within the meaning of clause 39 of Schedule I of the FMC Act;
+
+� is a government agency within the meaning of clause 40 of Schedule I of the FMC Act; or
+
+Table of Contents
+
+� is an eligible investor within the meaning of clause 41 of Schedule I of the FMC Act.
+
+The shares of Class A common stock and the information contained herein are not being publicly marketed or
+
+offered in Peru and will not be distributed or caused to be distributed to the general public in Peru. Peruvian
+
+securities laws and regulations on public offerings will not be applicable to this offering and therefore, the disclosure
+
+obligations set forth therein will not be applicable to the Company or the sellers of the shares of Class A common
+
+stock before or after their acquisition by prospective investors. The shares of Class A common stock and the
+
+information contained herein have not been and will not be reviewed, confirmed, approved or in any way submitted
+
+to the Superintendencia del Mercado de Valores (Peruvian capital market regulator) (the �SMV�), nor have they
+
+been registered with the SMV�s Securities Market Public Registry (Registro P�blico del Mercado de Valores).
+
+Accordingly, the shares of Class A common stock cannot be offered or sold within Peruvian territory except to the
+
+extent any such offering or sale qualifies as a private offering under Peruvian law and regulations and complies with
+
+the provisions on private offerings set forth therein.
+
+The shares of Class A common stock being offered or sold have not been and will not be registered with the
+
+Philippine Securities and Exchange Commission under the Securities Regulation Code of the Philippines (the
+
+�SCR�). Any future offer or sale of the shares of Class A common stock within the Philippines is subject to the
+
+registration requirements under the SRC unless such offer or sale qualifies as a transaction exempt from the
+
+registration under the SRC.
+
+Accordingly, this prospectus, and any other document or material in connection with the offer or sale, or invitation
+
+for subscription or purchase of the shares of Class A common stock, may not be circulated or distributed in the
+
+Philippines, and the shares of Class A common stock may not be offered or sold, or be made the subject of an
+
+invitation for subscription or purchase, to persons in the Philippines, other than (i) to qualified investors in
+
+transactions that are exempt from the registration requirements of the SRC; and (ii) by persons licensed to make
+
+such offers or sales in the Philippines.
+
+In the State of Qatar, the offer contained in this prospectus is made on an exclusive basis to the specifically intended
+
+recipient thereof, upon that person�s request and initiative, for personal use only and shall in no way be construed as
+
+a general offer for the sale of the shares of Class A common stock to the public or an attempt to do business as a
+
+bank, an investment company or otherwise in the State of Qatar. This prospectus and the underlying securities have
+
+not been approved or licensed by the Qatar Central Bank or the Qatar Financial Center Regulatory Authority or any
+
+other regulator in the State of Qatar. The information contained in this prospectus shall only be shared with any third
+
+parties in the State of Qatar on a need to know basis for the purpose of evaluating the offering. Any distribution of
+
+this prospectus by the recipient to third parties in the State of Qatar beyond the terms hereof is not permitted and
+
+shall be at the liability of such recipient.
+
+This prospectus may not be distributed in the Kingdom of Saudi Arabia except to such persons as are permitted
+
+under the Rules on the Offer of Securities and Continuing Obligations Regulations as issued by the board of the
+
+Saudi Arabian Capital Market Authority (the �CMA�) pursuant to resolution number 3-123-2017 dated 27
+
+December 2017, as amended. The CMA does not make any representation as to the accuracy or completeness of this
+
+prospectus and expressly disclaims any liability whatsoever for any loss arising from, or incurred in reliance upon,
+
+any part of this prospectus. Prospective purchasers of the shares of Class A common stock offered hereby should
+
+conduct their own due diligence on the accuracy of the information relating to the shares of Class A common stock.
+
+If you do not understand the contents of this prospectus, you should consult an authorized financial adviser.
+
+Table of Contents
+
+This prospectus has not been registered as a prospectus with the Monetary Authority of Singapore. Accordingly, the
+
+shares of Class A common stock may not be offered or sold, or made the subject of an invitation for subscription or
+
+purchase, nor may this prospectus or any other document or material in connection with the offer or sale, or
+
+invitation for subscription or purchase of the shares of Class A common stock be circulated, whether directly or
+
+indirectly, to any person in Singapore other than (i) to an institutional investor (as defined in Section 4A of the
+
+Securities and Futures Act 2001 of Singapore, as modified or amended from time to time (the �SFA�)) pursuant to
+
+Section 274 of the SFA or (ii) to an accredited investor (as defined in Section 4A of the SFA) pursuant to and in
+
+accordance with the conditions specified in Section 275 of the SFA.
+
+Due to restrictions under the securities laws of South Africa, no �offer to the public� (as such term is defined in the
+
+South African Companies Act, No. 71 of 2008 (as amended or re-enacted) (the South African Companies Act)) is
+
+being made in connection with the issue of the shares of Class A common stock in South Africa. Accordingly, this
+
+document does not, nor is it intended to, constitute a �registered prospectus� (as that term is defined in the South
+
+African Companies Act) prepared and registered under the South African Companies Act and has not been approved
+
+by, and/or filed with, the South African Companies and Intellectual Property Commission or any other regulatory
+
+authority in South Africa. The shares of Class A common stock are not offered, and the offer should not be
+
+transferred, sold, renounced, or delivered in South Africa or to a person with an address in South Africa, unless one
+
+or other of the following exemptions stipulated in section 96(1) applies:
+
+Section 96(1)(a) the offer, transfer, sale, renunciation or delivery is to:
+
+i. persons whose ordinary business, or part of whose ordinary business, is to deal in securities, as principal or
+
+ii. the South African Public Investment Corporation;
+
+iii. persons or entities regulated by the Reserve Bank of South Africa;
+
+iv. authorized financial service providers under South African law;
+
+v. financial institutions recognized as such under South African law;
+
+vi. a wholly-owned subsidiary of any person or entity contemplated in (iii), (iv) or (v), acting as agent in the
+
+capacity of an authorized portfolio manager for a pension fund, or as manager for a collective investment
+
+scheme (in each case duly registered as such under South African law); or
+
+vii. any combination of the person in (i) to (vi);
+
+Section 96(1)(b) the total contemplated acquisition cost of the shares of Class A common stock, for any single
+
+addressee acting as a principal is equal to or greater than ZAR 1,000,000 or such higher amount as may be
+
+promulgated by notice in the Government Gazette of South Africa pursuant to section 96(2)(a) of the South African
+
+Information made available in this prospectus should not be considered as �advice� as defined in the South African
+
+Financial Advisory and Intermediary Services Act 2002.
+
+The shares of Class A common stock offered by this prospectus have not been and will not be registered under the
+
+Financial Investments Services and Capital Markets Act of Korea and the decrees and regulations thereunder (the
+
+�FSCMA�), and the shares of Class A common stock have been and will be offered in Korea as a private placement
+
+under the FSCMA. None of the shares of Class A common stock may be offered, sold or delivered directly or
+
+indirectly, or offered or sold to any person for re-offering or resale, directly or indirectly, in Korea or to any resident
+
+Table of Contents
+
+of Korea except pursuant to the applicable laws and regulations of Korea, including the FSCMA and the Foreign
+
+Exchange Transaction Law of Korea and the decrees and regulations thereunder (the �FETL�). The shares of Class
+
+A common stock have not been listed on any of securities exchanges in the world including, without limitation, the
+
+Korea Exchange in Korea. Furthermore, the purchaser of the shares of Class A common stock will comply with all
+
+applicable regulatory requirements (including but not limited to requirements under the FETL) in connection with
+
+the purchase of shares of Class A common stock. By the purchase of shares of Class A common stock, the relevant
+
+holder thereof will be deemed to represent and warrant that if it is in Korea or is a resident of Korea, it purchased the
+
+shares of Class A common stock pursuant to the applicable laws and regulations of Korea.
+
+Except pursuant to the Swiss public offering described above, the shares of Class A common stock may not be
+
+publicly offered in Switzerland. In addition, the Class A common stock will not be listed on any trading venue in
+
+Other than in the context of the Swiss public offering described above, the shares of Class A common stock may
+
+only be offered, sold or advertised, directly or indirectly, in or into Switzerland (i) to any investor that qualifies as a
+
+professional client within the meaning of the Swiss Financial Services Act ("FinSA") or (ii) in any other
+
+circumstances falling within Article 36 FinSA.
+
+This document does not constitute a prospectus within the meaning of the FinSA and has not been and will not be
+
+filed with, or reviewed or approved by, a Swiss review body pursuant to Article 51 FinSA. This document does not
+
+comply with the disclosure requirements applicable to a prospectus within the meaning of the FinSA. This document
+
+may not be publicly distributed or otherwise made publicly available in Switzerland.
+
+The shares of Class A common stock have not been and will not be registered with the Financial Supervisory
+
+Commission of Taiwan pursuant to relevant securities laws and regulations and may not be sold, issued or offered
+
+within Taiwan through a public offering or in circumstances which constitutes an offer within the meaning of the
+
+Securities and Exchange Act of Taiwan that requires a registration or approval of the Financial Supervisory
+
+Commission of Taiwan. No person or entity in Taiwan has been authorized to offer, sell, give advice regarding or
+
+otherwise intermediate the offering and sale of the shares of Class A common stock in Taiwan.
+
+This prospectus does not, and is not intended to, constitute a public offering in Thailand. The shares of Class A
+
+common stock may not be offered or sold to persons in Thailand, unless such offering is made under the exemptions
+
+from approval and filing requirements under applicable laws, or under circumstances which do not constitute an
+
+offer for sale of the shares Class A common stock to the public for the purposes of the Securities and Exchange Act
+
+of 1992 of Thailand, nor require approval from the Office of the Securities and Exchange Commission of Thailand.
+
+United Arab Emirates
+
+The shares of Class A common stock have not been, and are not being, publicly offered, sold, promoted or
+
+advertised in the United Arab Emirates (including the Dubai International Financial Centre) other than in
+
+compliance with the laws of the United Arab Emirates (and the Dubai International Financial Centre) governing the
+
+issue, offering and sale of the shares of Class A common stock. Further, this prospectus does not constitute a public
+
+offer of securities in the United Arab Emirates (including the Dubai International Financial Centre) and is not
+
+intended to be a public offer. This prospectus has not been approved by or filed with the Central Bank of the United
+
+Arab Emirates, the Securities and Commodities Authority, Financial Services Regulatory Authority or the Dubai
+
+Financial Services Authority.
+
+This prospectus has been prepared on the basis that the offering of the shares of Class A common stock falls within
+
+one of the exceptions specified in Part 1 of Schedule 1 of the Public Offers and Admissions to Trading Regulations
+
+Table of Contents
+
+2024 (the �POATRs�) and, accordingly, there will not be a prospectus prepared or published for the purposes of the
+
+POATRs. This prospectus does not constitute a prospectus for the purposes of the POATRs.
+
+Each underwriter has represented and agreed that it has not made and will not make an offer of the shares of Class A
+
+common stock which are the subject of this prospectus to the public in the United Kingdom, except that it may make
+
+� at any time to any legal entity which is a qualified investor as defined in paragraph 15 of Schedule 1 to the
+
+� at any time to fewer than 150 persons (other than qualified investors as defined in paragraph 15 of Schedule 1 to
+
+the POATRs) in the United Kingdom subject to obtaining the prior consent of the relevant underwriters
+
+nominated by us for any such offer; or
+
+� at any time in any other circumstances falling within Part 1 of Schedule 1 to the POATRs.
+
+For the purposes of this provision, the expression an �offer to the public� in relation to the shares of Class A
+
+common stock in the United Kingdom means the communication in any form and by any means of sufficient
+
+information on the terms of the offer and the shares of Class A common stock to be offered so as to enable an
+
+investor to decide to purchase or subscribe for the shares of Class A common stock.
+
+Table of Contents
+
+The validity of the shares of Class A common stock offered by this prospectus will be passed upon for us by Gibson,
+
+Dunn & Crutcher LLP, Houston, Texas. Certain legal matters in connection with this offering will be passed upon
+
+for the underwriters by Davis Polk & Wardwell LLP, New York, New York.
+
+The financial statements as of December 31, 2025 and 2024 and for each of the three years in the period ended
+
+December 31, 2025 included in this prospectus have been so included in reliance on the report of
+
+PricewaterhouseCoopers LLP (which contains an explanatory paragraph relating to the Company�s significant
+
+transactions with related parties, as described in Note 18 to the consolidated financial statements), an independent
+
+registered public accounting firm, given on the authority of said firm as experts in auditing and accounting.
+
+WHERE YOU CAN FIND ADDITIONAL INFORMATION
+
+We have filed with the SEC a registration statement on Form S-1 under the Securities Act relating to the shares of
+
+our Class A common stock offered by this prospectus. This prospectus, which constitutes a part of the registration
+
+statement, does not contain all of the information set forth in the registration statement or the exhibits and schedules
+
+thereto. For more information regarding us and the shares of our Class A common stock offered by this prospectus,
+
+we refer you to the full registration statement, including the exhibits and schedules filed therewith. This prospectus
+
+summarizes certain provisions of certain contracts and other documents filed as exhibits to which we refer you.
+
+Because the summaries may not contain all of the information that you may find important, you should review the
+
+full text of those documents.
+
+The SEC maintains a website at www.sec.gov that contains reports, information statements and other information
+
+regarding issuers that file electronically with the SEC. Our registration statement, of which this prospectus
+
+constitutes a part, can be downloaded from the SEC�s website. As a result of the offering, we will become subject to
+
+the reporting requirements of the Exchange Act and will file with or furnish to the SEC periodic reports and other
+
+information. We intend to furnish or make available to our shareholders annual reports containing our audited
+
+consolidated financial statements prepared in accordance with GAAP. We also intend to furnish or make available to
+
+our shareholders quarterly reports containing our unaudited interim financial information, for the first three fiscal
+
+quarters of each fiscal year. Our website is located at www.spacex.com . Following the completion of this offering,
+
+we intend to make our periodic reports and other information filed with or furnished to the SEC available, free of
+
+charge, through our website, as soon as reasonably practicable after those reports and other information are
+
+electronically filed with or furnished to the SEC. Information contained on our website or linked therein or
+
+otherwise connected thereto does not constitute part of nor is it incorporated by reference into this prospectus or the
+
+registration statement of which this prospectus forms a part. We may use our website www.spacex.com / or
+
+our X account to make information publicly available for purposes of Regulation FD from time to time.
+
+Table of Contents
+
+INDEX TO FINANCIAL STATEMENTS
+
+Space Exploration Technologies Corp.
+
+Audited Consolidated Financial Statements
+
+Report of Independent Registered Public Accounting Firm ...................................................................
+
+Consolidated Balance Sheets as of December 31, 2025 and 2024 ..........................................................
+
+Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ......
+
+Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 31, 2025,
+
+2024, and 2023 .....................................................................................................................................
+
+Consolidated Statements of Redeemable Convertible Preferred Stock and Shareholders' Equity for
+
+the Years Ended December 31, 2025, 2024, and 2023 ........................................................................
+
+Consolidated Statements of Cash Flows for the Years Ended December 31, 2025, 2024, and 2023 .....
+
+Notes to Consolidated Financial Statements ...........................................................................................
+
+Unaudited Consolidated Financial Statements
+
+Consolidated Balance Sheets as of March 31, 2026 and December 31, 2025 ........................................
+
+Consolidated Statements of Operations for the Three Months Ended March 31, 2026 and 2025 ..........
+
+Consolidated Statements of Comprehensive Loss for the Three Months Ended March 31, 2026 and
+
+2025 .....................................................................................................................................................
+
+Consolidated Statements of Redeemable Convertible Preferred Stock and Shareholders' Equity for
+
+the Three Months Ended  March 31, 2026 and 2025 ..........................................................................
+
+Consolidated Statements of Cash Flows for the Three Months Ended March 31, 2026 and 2025 .........
+
+Notes to Consolidated Financial Statements ...........................................................................................
+
+Table of Contents
+
+Report of Independent Registered Public Accounting Firm
+
+To the Board of Directors and Shareholders of Space Exploration Technologies Corp.
+
+Opinion on the Financial Statements
+
+We have audited the accompanying consolidated balance sheets of Space Exploration Technologies Corp. and its
+
+subsidiaries (the �Company�) as of December 31, 2025 and 2024, and the related consolidated statements of
+
+operations, of comprehensive income (loss), of redeemable convertible preferred stock and shareholders' equity and
+
+of cash flows for each of the three years in the period ended December 31, 2025, including the related notes
+
+(collectively referred to as the �consolidated financial statements�). In our opinion, the consolidated financial
+
+statements present fairly, in all material respects, the financial position of the Company as of December 31, 2025
+
+and 2024, and the results of its operations and its cash flows for each of the three years in the period ended
+
+December 31, 2025 in conformity with accounting principles generally accepted in the United States of America.
+
+Change in Accounting Principle
+
+As discussed in Note 2 to the consolidated financial statements, the Company changed the manner in which it
+
+accounts for digital assets in 2024.
+
+Basis for Opinion
+
+These consolidated financial statements are the responsibility of the Company�s management. Our responsibility is
+
+to express an opinion on the Company�s consolidated financial statements based on our audits. We are a public
+
+accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are
+
+required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the
+
+applicable rules and regulations of the Securities and Exchange Commission and the PCAOB.
+
+We conducted our audits of these consolidated financial statements in accordance with the standards of the PCAOB.
+
+Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the
+
+consolidated financial statements are free of material misstatement, whether due to error or fraud.
+
+Our audits included performing procedures to assess the risks of material misstatement of the consolidated financial
+
+statements, whether due to error or fraud, and performing procedures that respond to those risk

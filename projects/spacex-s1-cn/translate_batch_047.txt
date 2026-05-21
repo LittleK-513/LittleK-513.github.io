@@ -1,0 +1,501 @@
+ the compute agreement, the Company will
+
+collaborate with Cursor to improve the Company�s existing models, including Grok, and potentially to jointly
+
+develop AI models and related model-specific deliverables.
+
+Concurrent with the compute agreement, the Company also entered into an option agreement for the right, but not
+
+the obligation, to acquire Cursor. The option agreement generally provides that the Company may exercise the call
+
+option at any time during the 30-day period following the earlier of (i) seven trading days following the completion
+
+of the Company�s IPO and (ii) September 30, 2026. Exercise of the call option is in the Company�s sole discretion
+
+and subject to further approval by the board of directors. Cursor is also subject to certain exclusivity obligations
+
+under the option agreement. The consideration for the acquisition of Cursor would consist of shares of  Class A
+
+common stock based on an implied equity value of Cursor of $60.0 billion, and the price of Class A common stock
+
+that equals, if the acquisition closed prior to the completion of this offering, the most recent quarterly valuation, or,
+
+if the acquisition closed after the completion of the Company�s IPO, the volume-weighted average closing price
+
+thereof over the seven consecutive trading days immediately preceding the closing of the acquisition. If either (i) the
+
+Company decides to terminate the option agreement or (ii) Cursor is eligible to and decides to terminate due to the
+
+Company�s material breach of the option agreement, Cursor is entitled to a $1.5 billion termination fee under the
+
+option agreement and an $8.5 billion deferred services fee under the compute agreement. These fees are payable in
+
+cash (or Class A common stock, if the Company�s IPO has not been consummated at the time the fees become
+
+The Company has conducted preliminary due diligence on Cursor�s business, technology and operations, and expect
+
+to continue such diligence in connection with any decision to exercise the call option. The Company cannot predict
+
+whether the Company will elect to exercise the call option or, if exercised, whether the acquisition will close on the
+
+anticipated terms or at all.
+
+Sale-Leaseback Transaction
+
+On April 24, 2026, CTC entered into a five-year equipment lease agreement with Valor, a related party, for certain
+
+AI infrastructure hardware (�Valor transaction III � ) for total undiscounted lease payments of $6,587 million.
+
+Asset Acquisition
+
+On April 30, 2026 , the Company entered into an asset purchase agreement with an unaffiliated third party to
+
+purchase certain mobile gas turbines and related p ackag es for approximately $2,000 million (the �Turbine
+
+Acquisition�). The closing of the Turbine Acquisition is expected to occur in May 2026 and is subject to customary
+
+closing conditions. The seller has also agreed to enter into a post-closing services agreement to support the
+
+Company's turbine operations. The Turbine Acquisition will help provide power to the Company's data centers.
+
+Cloud Services Agreement
+
+On May 3, 2026, the Company entered into a cloud services agreement with Anthropic PBC, an AI research and
+
+development public benefit corporation, with respect to access to compute capacity. Pursuant to this agreement, the
+
+customer has agreed to pay a monthly fee through May 2029, with capacity ramping in May 2026 at a reduced fee.
+
+The agreement may be terminated by either party upon 90 days� notice. The customer will retain ownership and
+
+intellectual property rights in its content, AI models, and related data.
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Class A Common Stock
+
+PRELIMINARY PROSPECTUS
+
+Through and including                     , 2026 (the 25th day after the date of this prospectus), all dealers effecting
+
+transactions in our Class A common stock, whether or not participating in this offering, may be required to deliver a
+
+prospectus. This delivery requirement is in addition to a dealer�s obligation to deliver a prospectus when acting as an
+
+underwriter and with respect to an unsold allotment or subscription.
+
+Table of Contents
+
+INFORMATION NOT REQUIRED IN PROSPECTUS
+
+Item 13. Other Expenses of Issuance and Distribution.
+
+The following table shows the costs and expenses, other than underwriting discounts and commissions, payable in
+
+connection with the sale and distribution of the securities being registered. All amounts except the SEC registration
+
+fee, the FINRA fee and the stock exchange listing fee are estimated.
+
+SEC Registration Fee ............................................................................................................................
+
+FINRA Filing Fee .................................................................................................................................
+
+Nasdaq Listing Fee
+
+Printing Costs ........................................................................................................................................
+
+Legal Fees and Expenses .......................................................................................................................
+
+Accounting Fees and Expenses .............................................................................................................
+
+Transfer Agent Fees and Expenses .......................................................................................................
+
+Miscellaneous Expenses ........................................................................................................................
+
+Total ......................................................................................................................................................
+
+__________________
+
+* To be provided by amendment.
+
+Item 14. Indemnification of Directors and Officers.
+
+Under the Texas Business Organizations Code (the �TBOC�), the charter of a corporation may provide that a
+
+director or officer of the corporation is not liable, or is liable only to the extent provided by the charter, to the
+
+corporation or its shareholders for monetary damages for an act or omission by the person in the person�s capacity as
+
+a director or officer. The TBOC does not authorize elimination or limitation of liability to the extent the director or
+
+officer is found liable under applicable law for:
+
+� any breach of the director�s or officer�s duty of loyalty to the corporation or its shareholders;
+
+� any act or omission not in good faith that constitutes a breach of duty of the director or officer to the corporation
+
+or that involves intentional misconduct or a knowing violation of law;
+
+� any transaction from which the director or officer receives an improper benefit, whether or not the benefit
+
+resulted from an action taken within the scope of the director�s duties; or
+
+� an act or omission for which the liability of the director or officer is expressly provided by an applicable statute.
+
+Our charter will provide that our directors and officers are not liable to the Company or its shareholders for
+
+monetary damages for an act or omission by the director or officer in his or her capacity as a director or officer or
+
+for a breach of any duty as a director or officer to the fullest extent permitted by the TBOC, as it exists or as
+
+amended from time to time.
+
+The TBOC provides that a corporation must indemnify a director or former director against reasonable expenses
+
+actually incurred by the person in connection with a proceeding in which the person is a respondent because the
+
+person is or was a director, or is or was serving as a representative of another enterprise or organization or an
+
+employee benefit plan while serving as a director, if the director or former director is wholly successful, on the
+
+merits or otherwise, in the defense of the proceeding. If a court determines that a director, former director or
+
+representative is entitled to indemnification, the court will order indemnification by the corporation and award the
+
+person expenses incurred in securing the indemnification. The TBOC also permits corporations to indemnify present
+
+or former directors where indemnification is not mandated by the TBOC; however, such permissive indemnification
+
+is subject to certain limitations and the director satisfying specified standards of conduct. The TBOC also provides
+
+that officers must be indemnified to the same extent as directors are required to be indemnified under the TBOC and
+
+Table of Contents
+
+that a court may also order indemnification under various circumstances. In addition, the TBOC permits
+
+indemnification in certain circumstances in which we would not otherwise have the power to do so under the
+
+provisions of the TBOC or our charter or bylaws if that indemnification is approved by the shareholders of the
+
+Our bylaws will also provide that, to the fullest extent permitted by the TBOC, the Company must indemnify any
+
+person who was or is, or is threatened to be made, a party to any threatened, pending or completed action, suit or
+
+proceeding, whether civil, criminal, administrative, arbitrative, legislative or investigative, including an appeal
+
+thereof, by reason of the fact that the person is or was a director or an officer (who is appointed by our board or
+
+specifically designated as such by our chief executive officer, president or chief financial officer) of the Company,
+
+or while a director or officer of the Company is or was serving at the request of the Company as a director, officer,
+
+partner, venturer, trustee, employee, administrator or agent of another entity, trust or enterprise, against expenses
+
+(including attorneys� fees), judgments, penalties, fines and amounts paid in settlement actually and reasonably
+
+incurred by the person in connection with the action, suit or proceeding if the person satisfied a specified standard of
+
+conduct. Our bylaws will also provide that expenses (including attorneys� fees) actually and reasonably incurred by
+
+such director or officer in defending any proceeding will be paid by the Company in advance of the final disposition
+
+of the proceeding upon written request from that person subject to the person satisfying certain conditions. To the
+
+extent that indemnification for liabilities arising under the Securities Act may be permitted to our directors, officers
+
+and controlling persons, we have been advised that, in the opinion of the SEC, this indemnification is against public
+
+policy as expressed in the Securities Act and is, therefore, unenforceable.
+
+The TBOC and our bylaws permit the Company to purchase insurance on behalf of existing or former officers,
+
+employees, directors or agents against any liability asserted against and incurred by that person in such capacity, or
+
+arising out of that person�s status in such capacity, whether or not the Company would have the power to indemnify
+
+that person under the TBOC. Pursuant to this authority, we expect to obtain such insurance for the officers,
+
+employees, directors and agents of the Company and its subsidiaries. We will also enter into written indemnification
+
+agreements with each of our officers and directors that provide, in general, that we will indemnify them against loss
+
+and liability arising from, and will pay or reimburse their actual and reasonable expenses incurred in advance of the
+
+final disposition of any legal proceeding involving their service to us or on our behalf. As permitted by the TBOC,
+
+because these agreements are expected to be approved by our shareholders, the agreements may require
+
+indemnification or payment of expenses in favor of the indemnitee in certain circumstances in which we would not
+
+otherwise have the power to do so under the provisions of the TBOC or our charter or bylaws. Pursuant to a written
+
+undertaking provided by any director or officer who requests the Company to reimburse or pay that person�s
+
+expenses in advance of the final disposition of the proceeding, the director or officer will be required to repay the
+
+advanced expenses to the Company if it is found that such director or officer is not entitled to indemnification under
+
+applicable law and our bylaws.
+
+The proposed form of Underwriting Agreement filed as Exhibit 1.1 to this Registration Statement will provide for
+
+indemnification of our directors and officers by the underwriters against certain liabilities in connection with this
+
+Table of Contents
+
+Item 15. Recent Sales of Unregistered Securities.
+
+The following sets forth information regarding all unregistered securities we have issued in the last three years.
+
+Unless stated otherwise, the sale of the securities listed below were deemed to be exempt from registration pursuant
+
+to Section 4(a)(2) of the Securities Act, including Regulation D and Rule 506 promulgated thereunder, as
+
+transactions by an issuer not involving a public offering. Share amounts in this Item 15. do not give effect to the
+
+2026 Stock Split.
+
+On February 2, 2026, we consummated the xAI Merger and, in connection therewith, issued 321,681,643 shares of
+
+Class A common stock and 121,683,400 shares of Class B common stock as partial consideration, including
+
+3,798,039 shares of Class A common stock to Tesla following the completion of a regulatory review period on
+
+On January 13, 2026, we granted 200 million performance-based restricted shares of Class B common stock to Mr.
+
+Musk to vest upon (i) our achievement of specified market capitalization milestones across 15 equal tranches and (ii)
+
+the Company�s establishment of a permanent human colony on Mars with at least one million inhabitants, in each
+
+case, subject to Mr. Musk�s continued employment with us through the date on which achievement is certified by
+
+On September 7, 2025, we entered into a License Purchase Agreement with Spectrum Business Trust 2025-1, a
+
+Nevada Business Trust, and EchoStar. The total consideration for the acquisition of EchoStar�s spectrum is
+
+approximately $19.6 billion, consisting of (i) approximately $11.1 billion in equity, payable through the issuance of
+
+approximate ly 52.4 million shares of Class A common stock at a fixed value of $212 per share , and (ii) up to $8.5
+
+billion related to the payoff of designated EchoStar debt, with any shortfall below $8.5 billion to be paid in cash.
+
+Such amounts do not give effect to the 2026 Stock Split. The allocation of cash and equity consideration is subject to
+
+certain adjustments based on the amount of EchoStar debt satisfied at or prior to closing. The Spectrum Transaction
+
+is expected to close in November 2027.
+
+Item 16. Exhibits and Financial Statement Schedules.
+
+Description of Exhibit
+
+Form of Underwriting Agreement.
+
+Agreement and Plan of Merger and Reorganization, by and among Space Exploration Technologies
+
+Corp., X.AI Holdings Corp., K2 Merger Sub Inc. and K2 Merger Sub 2 LLC, dated January 31, 2026.
+
+Form of Restated Certificate of Formation of Space Exploration Technologies Corp.
+
+Form of Amended and Restated Bylaws of Space Exploration Technologies Corp.
+
+Form of Class A Common Stock Certificate of Space Exploration Technologies Corp.
+
+Amended and Restated Investors� Rights Agreement, dated as of August 4, 2020, by and among
+
+Space Exploration Technologies Corp. and the investors listed on the exhibits thereto.
+
+Form of Opinion of Gibson, Dunn & Crutcher LLP.
+
+Form of Indemnification Agreement.
+
+Form of Space Exploration Technologies Corp. Second Amended and Restated 2017 Employee Stock
+
+Space Exploration Technologies Corp. Amended & Restated 2015 Equity Incentive Plan and Form of
+
+Stock Option Grant Notice and Option Agreement.
+
+Form of Space Exploration Technologies Corp. Amended and Restated 2024 Equity Incentive Plan.
+
+Space Exploration Technologies Corp. 2024 Equity Incentive Plan and Forms of Grant Notices and
+
+Award Agreements.
+
+Class B Restricted Stock Award Agreement between Space Exploration Technologies Corp. and Elon
+
+R. Musk, dated as of January 13, 2026.
+
+Class B Restricted Stock Award Agreement between Space Exploration Technologies Corp. and Elon
+
+R. Musk, dated as of March 23, 2026.
+
+Table of Contents
+
+Description of Exhibit
+
+Amended and Restated License Purchase Agreement, dated as of November 5, 2025, by and among
+
+EchoStar Corporation, Space Exploration Technologies Corp. and Spectrum Business Trust 2025-1.
+
+Bridge Loan Credit Agreement, dated as of March 2, 2026, by and among Space Exploration
+
+Technologies Corp., as borrower, the guarantors from time to time party thereto, the lenders from
+
+time to time party thereto and Goldman Sachs Bank USA, as administrative agent and a lender.
+
+Amended and Restated Credit Agreement, dated as of May 19, 2026, by and among Space
+
+Exploration Technologies Corp., the Guarantors party thereto, the Lenders party thereto, Bank of
+
+America, NA., as the administrative agent, an L/C Issuer and the Swing Line Lender, and the other L/
+
+C Issuers from time to time party thereto.
+
+List of subsidiaries of Space Exploration Technologies Corp.
+
+Consent of PricewaterhouseCoopers LLP, independent registered public accounting firm to Space
+
+Exploration Technologies Corp.
+
+Consent of Gibson, Dunn & Crutcher LLP (form included in Exhibit 5.1).
+
+Power of Attorney (included on the signature page hereto).
+
+Filing Fee Table.
+
+__________________
+
+* To be filed by amendment.
+
+^ Certain of the schedules and attachments to this exhibit have been omitted pursuant to Regulation S-K, Item 601(a)(5). The registrant
+
+hereby undertakes to provide further information regarding such omitted materials to the SEC upon request.
+
+� Management contract or compensatory plan or arrangement.
+
+(b) Financial Statement Schedules
+
+Financial statement schedules have been omitted because the information is not applicable or included in our
+
+consolidated financial statements in the prospectus that forms a part of this Registration Statement.
+
+Item 17. Undertakings.
+
+The undersigned registrant hereby undertakes to provide to the underwriters at the closing specified in the
+
+underwriting agreement certificates in such denominations and registered in such names as required by the
+
+underwriters to permit prompt delivery to each purchaser.
+
+Insofar as indemnification for liabilities arising under the Securities Act may be permitted to directors, officers and
+
+controlling persons of the registrant pursuant to the provisions referenced in Item 14 of this Registration Statement,
+
+or otherwise, the registrant has been advised that in the opinion of the Securities and Exchange Commission such
+
+indemnification is against public policy as expressed in the Securities Act and is, therefore, unenforceable. In the
+
+event that a claim for indemnification against such liabilities (other than the payment by the registrant of expenses
+
+incurred or paid by a director, officer or controlling person of the registrant in the successful defense of any action,
+
+suit or proceeding) is asserted by such director, officer or controlling person in connection with the securities being
+
+registered, the registrant will, unless in the opinion of its counsel the matter has been settled by controlling
+
+precedent, submit to a court of appropriate jurisdiction the question whether such indemnification by it is against
+
+public policy as expressed in the Securities Act and will be governed by the final adjudication of such issue.
+
+The undersigned registrant hereby undertakes that:
+
+(1) For purposes of determining any liability under the Securities Act, the information omitted from the form of
+
+prospectus filed as part of this Registration Statement in reliance upon Rule 430A and contained in a form of
+
+prospectus filed by the registrant pursuant to Rule 424(b)(1) or (4) or 497(h) under the Securities Act shall be
+
+deemed to be part of this Registration Statement as of the time it was declared effective.
+
+(2) For the purpose of determining any liability under the Securities Act, each post-effective amendment that
+
+contains a form of prospectus shall be deemed to be a new registration statement relating to the securities
+
+offered therein, and the offering of such securities at that time shall be deemed to be the initial bona fide
+
+offering thereof.
+
+Table of Contents
+
+Pursuant to the requirements of the Securities Act of 1933, the registrant has duly caused this Registration Statement
+
+to be signed on its behalf by the undersigned, thereunto duly authorized, in the city of Starbase, Texas, on May 20,
+
+Space Exploration Technologies Corp.
+
+Chief Executive Officer and Chief
+
+Technical Officer
+
+Table of Contents
+
+POWER OF ATTORNEY
+
+KNOW ALL PEOPLE BY THESE PRESENTS, that each person whose signature appears below constitutes and
+
+appoints Gwynne Shotwell and Bret Johnsen, and each of them, as his or her true and lawful attorneys-in-fact and
+
+agents, each with full power of substitution and resubstitution, for him or her and in his or her name, place or stead,
+
+in any and all capacities (including, without limitation, the capacities listed below), to sign any and all amendments
+
+(including post-effective amendments) to this Registration Statement, and to sign any registration statement for the
+
+same offering covered by this Registration Statement that is to be effective upon filing pursuant to Rule 462(b)
+
+promulgated under the Securities Act of 1933, as amended, and all post-effective amendments thereto, and to file the
+
+same, with all exhibits thereto and all other documents in connection therewith, with the Securities and Exchange
+
+Commission, and hereby grants to such attorneys-in-fact and agents, and each of them, full power and authority to
+
+do and perform each and every act and thing requisite and necessary to be done in connection therewith, as fully to
+
+all intents and purposes as he or she might or could do in person, hereby ratifying and confirming all that said
+
+attorneys-in-fact and agents, or any of them, or his or her substitute or substitutes, may lawfully do or cause to be
+
+done by virtue hereof.
+
+Pursuant to the requirements of the Securities Act of 1933, as amended, this Registration Statement has been signed
+
+by the following persons in the capacities indicated on the 20th day of May, 2026.
+
+Chief Executive Officer, Chief Technical Officer and
+
+Chairman of the Board
+
+(principal executive officer)
+
+/s/ Gwynne Shotwell
+
+President, Chief Operating Officer and Director
+
+/s/ Bret Johnsen
+
+Chief Financial Officer
+
+(principal financial and accounting officer)
+
+/s/ Ira Ehrenpreis
+
+/s/ Antonio J. Gracias
+
+Antonio J. Gracias
+
+/s/ Donald Harrison
+
+/s/ Steve Jurvetson

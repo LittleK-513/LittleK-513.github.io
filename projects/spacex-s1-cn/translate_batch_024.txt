@@ -1,0 +1,569 @@
+e X revenue growth by increasing engagement across our users, increasing
+
+X Premium subscriber conversion, growing advertising revenue per user, and diversifying our advertising base. We
+
+continue to evolve X into an �Everything App,� integrating real-time information, communications, media,
+
+payments, banking, and more within one consumer app experience. This can improve the usefulness of X, and
+
+therefore increase the usage and monetization potential of X. We have demonstrated rapid product launch velocity,
+
+with frequent features and products launched since 2023, including Grok integration, long‑form video, audio and
+
+video calling, secure messaging, tool calling, long-form articles, and creator tools. We plan to further broaden the
+
+value proposition of X through offerings like Money, a product we launched in beta in November 2025, which aims
+
+to expand platform utility by enabling payments and other financial services. We updated X chat in 2025, featuring
+
+end-to-end encryption and no connection to our ad personalization, unlike other messaging services. We intend to
+
+further embed Grok throughout X to enhance discovery, analysis of posts, user support, and personalization,
+
+increasing the usefulness of X and further improving the value of a paid subscription.
+
+We also expect to grow advertising revenue per user and to diversify our advertiser base over time because of X�s
+
+compelling advertiser value proposition�large-scale user engagement, real-time content, and advanced AI-driven
+
+performance marketing tools. We intend to drive further advertising revenue growth by improving our performance
+
+advertising capabilities, embedding AI to optimize ad campaigns, and launching richer ad formats, including those
+
+that increase advertiser return on ad spending and their spend with us. In determining our advertising rates, we use
+
+an auction process in which advertisers bid to have their ads shown to the audience they are targeting, except for
+
+certain reserved inventory, which is sold on a fixed price basis. We provide advertisers with several engagement
+
+metrics, including: the number of impressions, price per ad, clicks, and conversions. Currently, Grok API access is
+
+not included in our advertising rates to advertisers. We do not currently sell or offer advertisers the ability to place
+
+ads on the Grok API.
+
+We also expect X�s real-time content stream and engagement feedback, subject to some limitations for certain
+
+content, to strengthen our advertising product performance and relevance, improving outcomes for both consumers
+
+and advertisers, and increasing retention. We also began a phased roll-out of our new advertising platform, including
+
+the new X Ads Manager, in April 2026. X Ads Manager is designed to help advertisers launch better campaigns
+
+faster, with AI-powered systems enabling more precise, relevant, and dynamic ad delivery and a centralized
+
+workflow for campaign creation, optimization, and real-time monitoring. Grok supports this strategy by helping
+
+advertisers with campaign creation, creative optimization, and alignment with trending topics and user intent.
+
+Deepen enterprise and government adoption. We believe adoption of AI by both enterprise and government reflects
+
+a structural industry shift, with room for substantial long-term growth. Our Grok Business, Grok Enterprise, and xAI
+
+Gov offerings position us to scale in tandem with broader enterprise and governmental AI adoption. Our Grok API
+
+further extends our reach by enabling developers to integrate our models directly into their applications and
+
+workflows. We intend to further support our enterprise offerings with a specialized salesforce and forward deployed
+
+engineers, engineers who embed directly with a client to implement our solution, to support customer acquisition
+
+Increase the scale of our terrestrial power and AI compute infrastructure. We plan to rapidly scale our terrestrial
+
+AI compute infrastructure through the continued deployment of large-scale clusters to support the training and
+
+Table of Contents
+
+inference of our AI models. To rapidly bring gigawatt-scale data centers online, we leverage world-class
+
+engineering, first-principles thinking and deep �shovels-to-tokens� vertical integration. Our AI compute facilities,
+
+COLOSSUS and COLOSSUS II, collectively provide approximately 1.0 gigawatt of compute power, with additional
+
+power capacity available for data center operations. COLOSSUS II will also provide the compute to train our next-
+
+generation Grok 5 AI model. We expect that once fully operational, the next phase of expansion at COLOSSUS II
+
+will represent an additional 400MW of compute capacity. Our first-principles thinking enables us to build coherent
+
+compute at scale and at rapid speed with lower costs than most other companies in the industry. We brought the first
+
+cluster of COLOSSUS online in 122 days, repurposing the shell of an existing factory, and the first cluster of
+
+COLOSSUS II online even faster in 91 days. As an illustrative comparison, an industry benchmark to bring online a
+
+100 megawatt greenfield data center is approximately two years. We also demonstrated a significant improvement in
+
+cost efficiency, achieving data center construction costs for COLOSSUS II that are considerably lower than industry
+
+benchmarks on a per megawatt basis. As AI workloads increase in complexity and scale, data center operators face
+
+constraints related to power density, cooling, network bandwidth, supply chain management, construction expertise
+
+and capital deployment. Our experience in designing mission-critical hardware systems, optimizing power
+
+efficiency, and operating distributed infrastructure networks provides a differentiated foundation for continuing to
+
+grow and advance the next-generation compute platform. We believe that continued investment in our compute
+
+infrastructure is critical to supporting long-term consumer and enterprise growth as AI adoption accelerates, while
+
+also providing a powerful foundation for our transition to orbital AI compute at scale.
+
+In addition, our leadership in compute infrastructure positions us to monetize not only AI software applications built
+
+on our models, but also the underlying compute that powers them. As we continue to scale our terrestrial compute
+
+infrastructure to support internal model development, training, and inference workloads, we intend to sell our high-
+
+performance compute capacity to a limited number of third party customers.
+
+Deploy orbital AI compute at scale. We believe growth of the projected $26.5 trillion-dollar AI market will be
+
+constrained by Earth�s inability to rapidly scale power generation, underscoring the challenge of achieving terawatt-
+
+scale compute without harming people and the environment. While we expect terrestrial power generation to
+
+continue to grow, we believe the physical, environmental, and regulatory constraints will prevent it from delivering
+
+the orders-of-magnitude increases needed to match future energy demands of the AI era. Power from the Sun, an
+
+enormous, free fusion reactor in the sky, represents approximately 99.8% of the solar system�s energy and offers the
+
+only truly scalable solution to terrestrial energy constraints. By combining virtually unlimited solar power in space
+
+with our industry-leading launch costs and satellite manufacturing capabilities, we believe we can deliver compute
+
+over time at a fundamentally lower cost structure than is possible on Earth. By the end of the decade, we intend to
+
+deploy the first modular orbital AI compute shells and begin monetizing capacity through the sale of AI software
+
+and AI compute. We aim to launch 100 gigawatts of AI compute capacity on solar-powered satellites each year,
+
+equivalent to roughly one fifth of total annual U.S. power production in 2025. The amount of compute capacity we
+
+can launch depends on three components�payload, satellite capacity, and launch frequency. With respect to
+
+payload, Starship V3 is designed to deliver 100 metric tons to space in a fully reusable configuration while enabling
+
+rapid turnaround times, and future generations could reach 200 metric tons, potentially as soon as Starship V4. With
+
+respect to satellite capacity, we expect solar cells optimized for the space environment will be produced at a rapid
+
+rate, with early satellites generating 100 kilowatts of compute power and scaling from there. Finally, with respect to
+
+launch frequency, we expect to be able to scale to thousands of launches per year. Together, we expect these
+
+achievements will allow us to transport approximately one million metric tons to orbit annually, powering 100
+
+gigawatts of AI compute. Such compute capacity will also play a critical role in advancing our human augmentation
+
+vision by expanding the reach, speed, and capability of AI beyond what is possible with terrestrial compute
+
+infrastructure alone.
+
+We believe we are well-positioned to execute and deliver orbital AI compute to build the infrastructure of the future.
+
+We believe orbital AI compute is an incredibly difficult challenge that only we can solve at scale in the near term.
+
+Design and manufacture our own chips. We plan to deepen our strategic collaboration with Tesla and Intel through
+
+Terafab. In connection with such collaboration, we have agreed with Tesla on a general framework for the future
+
+development of Terafab. Any specific projects undertaken pursuant to this framework will be subject to separate
+
+negotiations and agreements (including any development timelines, milestones and capital expenditures) and have
+
+not yet been determined. We expect Terafab to be the world�s largest chip manufacturing facility, with the goal of
+
+Table of Contents
+
+eventually achieving one terawatt of annual compute production capacity. While Terafab is intended to expand our
+
+internal chip manufacturing capabilities, we expect to continue sourcing a significant portion of our compute
+
+hardware from third-party suppliers. We view Terafab as complementary to these relationships, enabling us to
+
+augment our access to compute hardware at massive scale and further complete our highly vertically integrated
+
+compute platform by extending our control to the foundational chip layer. By developing end-to-end capabilities
+
+spanning the design of lithography masks, fabrication of logic and memory chips, and advanced packaging, all in a
+
+vertically integrated closed-loop single plant, we will be able to more rapidly iterate to improve chip design and
+
+performance. We plan to design chips that are optimized for the space environment. This collaboration directly
+
+enables our planned orders-of-magnitude increases in AI compute deployment in orbit which would be constrained
+
+by pure reliance on external foundries. Leveraging shared engineering resources, intellectual property, and
+
+infrastructure across Tesla and SpaceX, as well as Intel�s expertise in designing, fabricating and packaging ultra-
+
+high-performance chips at scale, Terafab is designed to create powerful ecosystem synergies that accelerate
+
+innovation cycles and reduce costs. Just as we manufacture approximately 80% of Starship in-house, we expect
+
+significant speed and cost advantages from Terafab�s vertical integration. We believe this integration, if achieved,
+
+will provide us with a critical competitive advantage in the race to scale AI infrastructure, especially as we begin our
+
+orbital AI compute satellite deployments.
+
+Launch digital human augmentation . In partnership with Tesla, we are developing Macrohard, an agentic platform
+
+designed to fully emulate digital workflows and augment human operation of computers�from coding and product
+
+development to management and entire business processes. Similar to how autonomous systems emulate human
+
+inputs to execute complex tasks, Macrohard is designed to augment how humans operate computers and tools to
+
+analyze, create, and manage workflows. Unlike other enterprise software and AI applications that primarily digitize
+
+workflows and systematize historical processes, our solutions are designed to operate as real-time, intelligence-
+
+driven extensions of the user. Macrohard aims to combine our frontier AI model with Tesla�s physical AI prowess to
+
+achieve the goal of augmenting the operational functions of entire companies. We expect Macrohard to benefit from
+
+running on both state-of-the-art processors and cost efficient Tesla processors, a critical advantage of our vertical
+
+integration. We believe Macrohard has the potential to fundamentally transform how companies across all industries
+
+are structured and operate, thereby allowing dramatic increases in human productivity and prosperity.
+
+We aim to build the infrastructure of the future in Space, leveraging our foundational competitive advantage, the
+
+ability to launch mass at scale. By opening access to space to industries on Earth, we can grow our business by
+
+creating new markets. Our technological capabilities enable us to repeatedly create new markets by pushing the
+
+boundaries of what space can support. As we continue to advance and scale, we expect to unlock new market
+
+opportunities. Over the long-term, we expect our Starship-enabled opportunities to include:
+
+� Point-to-point terrestrial travel. We plan to develop ultra-fast long-haul point-to-point Earth transport using
+
+Starship, enabling passengers and cargo to travel between major cities in a fraction of current transit times,
+
+revolutionizing global logistics and passenger travel with unprecedented speed and efficiency.
+
+� Space tourism. With meaningful advances in space technology and the continued build-out of orbital flight
+
+infrastructure, we expect increasing interest in human space travel as it becomes easier and more common to
+
+� In-orbit manufacturing. We aim to establish in-space manufacturing facilities that leverage the unique
+
+microgravity conditions of space to produce materials, pharmaceuticals, and advanced components that are
+
+difficult or impossible to manufacture on Earth, opening new high-value industrial markets.
+
+� Passenger and cargo transport to the Moon and Mars. We intend to support large-scale passenger and cargo
+
+missions to the Moon and Mars, delivering the people, equipment, and supplies needed to establish permanent
+
+human settlements and accelerate the path to becoming a self-sustaining multiplanetary civilization.
+
+� Energy production on the Moon and Mars. We aim to develop large-scale solar energy production on the
+
+Moon and Mars, taking advantage of the thin atmosphere and constant solar exposure to generate power for
+
+manufacturing, habitats, and future infrastructure at scale.
+
+Table of Contents
+
+� Manufacturing capabilities on the Moon and Mars. We plan to build manufacturing infrastructure on the
+
+Moon and Mars that utilizes local resources to produce fuel, construction materials, and other essential
+
+resources, reducing dependence on Earth resupply and enabling sustainable long-term presence.
+
+� Asteroid mining. We plan to pursue asteroid mining operations to extract metals and other critical resources
+
+from near-Earth and main-belt asteroids, providing abundant raw materials for space-based industries and
+
+reducing the need to launch mass from Earth.
+
+Our Market Opportunity
+
+We believe space represents the largest economic frontier in human history. Our innovations and technological
+
+advancements are redefining existing industries and creating new market opportunities across Space, Connectivity
+
+and AI. We believe we have a distinct ability to identify, develop, and commercialize new multi-trillion-dollar
+
+markets that did not previously exist. We currently stand alone in our ability to deliver revolutionary breakthroughs
+
+across spaceflight and exploration, global connectivity, and artificial intelligence, enabling an age of abundance that
+
+we believe has the potential to propel an unprecedented expansion in the global economy.
+
+By pioneering the world�s first and only fleet of reusable rockets at scale, we revolutionized space access through
+
+dramatically lower cost and unmatched reliability. Lowering costs by orders of magnitude creates entirely new
+
+industries on Earth and in space that were technologically and economically infeasible for others to access
+
+historically. Our first trillion-dollar market was Starlink, a satellite service supported by our low-latency, high-speed
+
+LEO constellation that required the rapid, low-cost deployment of millions of kilograms of hardware into orbit. Our
+
+Starlink constellation powers a global connectivity platform capable of supporting broadband and mobile services,
+
+enabling high-speed internet access to homes, enterprises, governments, and mobile users across virtually any
+
+location on Earth. We believe our next trillion-dollar market is AI compute, which we contemplate will leverage our
+
+rockets and satellites for massive orbital deployment.
+
+We believe we have identified the largest TAM in human history. We estimate that our quantifiable TAM is $28.5
+
+trillion, consisting of $370 billion in Space from space-enabled solutions; $1.6 trillion in Connectivity across $870
+
+billion in Starlink Broadband and $740 billion in Starlink Mobile as well as additional opportunities in enterprise
+
+and government; $26.5 trillion in AI across $2.4 trillion in AI infrastructure, $760 billion in consumer subscriptions,
+
+$600 billion in digital advertising, and $22.7 trillion in enterprise applications. For illustrative purposes of sizing our
+
+addressable market opportunity, we exclude China and Russia from our global estimates.
+
+In addition to the markets we serve today, we believe we are poised to catalyze transformative breakthroughs and
+
+create entirely new markets. Given these are longer-term opportunities at earlier stages of development, we do not
+
+quantify them in our TAM estimates; however, we believe that over time each of these markets could eventually
+
+represent multi-trillion-dollar economic opportunities. These new markets include long haul point-to-point terrestrial
+
+travel, space tourism, in-orbit manufacturing, asteroid mining, energy production and manufacturing on the Moon
+
+and Mars, and passenger and cargo transportation to the Moon and Mars.
+
+Table of Contents
+
+Space X�s Estimated TAM by Segment
+
+While the size of the space market is massive for any company to address, our capabilities in space represent a
+
+foundational competitive advantage that allow us to address markets that represent significant portions of global
+
+gross domestic product (�GDP�)�connectivity and AI. We estimate a total market opportunity of $370 billion
+
+across space-enabled solutions, with the lunar economy presenting a significant upside not included in the estimate.
+
+Space-Enabled Solutions. According to Novaspace, space-enabled solutions represented a $370 billion market in
+
+2025, including spacecraft manufacturing, launch services, satellite operations, positioning, navigation and timing
+
+(�PNT�) devices and value-added services, as well as uncontracted costs of government space agencies. Both
+
+commercial and government customers participate in this market, with growing space-based defense budgets
+
+reflecting prioritization of security, resilience, and strategic autonomy by governments globally. For the purpose of
+
+sizing our TAM, we exclude the value of satellite communications services, as we include those within our
+
+Connectivity segment.
+
+Lunar Economy. We believe the development of a sustained human and commercial presence on the Moon has the
+
+potential to give rise to a new lunar economy encompassing transportation, infrastructure, communications, energy,
+
+manufacturing (including the production of satellites and advanced chips), resource extraction, and scientific and
+
+commercial activity. Early demand is already emerging from government space agencies and research institutions,
+
+and we expect this to expand over time to include commercial enterprises seeking to leverage the Moon as a
+
+platform for logistics, industrial activity, and deep-space exploration. Establishing a lunar economy requires first
+
+proving reliable extraction of water ice to sustain life and producing hydrogen-oxygen propellant, alongside building
+
+power, transport, and storage infrastructure in an extreme, high-cost environment. If achieved, we believe these
+
+same resources and the Moon�s low gravity unlock the potential for scalable growth through an efficient fuel
+
+production and refueling hub, creating a strategic access point that can potentially support deeper space
+
+industrialization and serve as a stepping stone to establishing a civilization on Mars. Although we believe the
+
+potential size and scope of the lunar economy is extraordinarily large, we are not providing an estimate of the TAM
+
+for this opportunity at this time because expectations regarding the timing, pace of adoption, regulatory frameworks,
+
+and ultimate scope of commercial activity beyond Earth are rapidly evolving alongside the development and
+
+deployment of the technology necessary to establish a lunar presence (such as Starship). As the Moon transitions
+
+Table of Contents
+
+from a scientific outpost into an industrial frontier, SpaceX is positioned to spearhead this revolutionary expansion,
+
+and we believe that continued advancements in our launch capabilities, space infrastructure capabilities, and cost
+
+efficiency will allow us to meaningfully accelerate the development of a sustainable lunar economy.
+
+We believe the global connectivity market represents a substantial and durable opportunity, driven by the increasing
+
+reliance of consumers, enterprises, and governments on high-speed, low-latency, reliable connectivity across both
+
+terrestrial and remote environments. Across Starlink Broadband and Starlink Mobile, we estimate a total market
+
+opportunity of $1.6 trillion reflecting primarily consumer use cases. We believe these traditional use cases, however,
+
+do not account for the long-term market opportunity, as connectivity is evolving into a critical infrastructure layer
+
+underpinning the global economy, enabling entirely new categories of demand. As high-performance, ubiquitous
+
+connectivity becomes embedded across transportation networks, autonomous systems, and smart devices, we expect
+
+the scope of the market to extend well beyond the traditional definitions.
+
+Starlink Broadband. The global demand for ubiquitous, high-speed broadband internet creates an approximately
+
+$870 billion dollar opportunity. Our satellite broadband service, Starlink, is positioned to capture value across
+
+multiple massive and rapidly expanding markets:
+
+� Consumer Broadband. As the digital economy continues to expand, ubiquitous, high-speed, reliable internet
+
+has become a structural necessity for households worldwide�powering opportunity and the next wave of
+
+global prosperity. According to Euromonitor, there were approximately 1.8 billion global households in 2025.
+
+As Starlink develops, we believe that our broadband network can connect, and improve the existing connection,
+
+of every household globally. Given varying economic conditions and consumer purchasing power across
+
+different countries, we use a different monthly ARPU for different parts of the world based on country-specific
+
+consumer broadband ARPU from Omdia as we seek to make our service affordable and accessible across
+
+different economic development contexts. Region-specific ARPU assumptions result in a weighted average of
+
+$31 monthly ARPU for residential broadband internet services globally, according to Omdia. This global
+
+average consists of a weighted average monthly ARPU of $43 in high-income markets, $16 in upper-middle
+
+income markets, and $9 in lower-middle income and low income markets per World Bank classification.
+
+Together this represents a total addressable market of $660 billion based on 1.8 billion households.
+
+Approximately 40% of the global population lives in rural areas, remaining structurally underserved by
+
+terrestrial broadband infrastructure due to unfavorable deployment economics, limited network density and high
+
+last-mile costs.
+
+This structural imbalance creates a large, durable and relatively uncontested baseline market for satellite-based
+
+connectivity solutions. For many of these households, Starlink represents the first viable option for high-speed,
+
+low-latency internet access, with limited competition from terrestrial providers. Unlike terrestrial networks,
+
+which require significant incremental capital to extend coverage to low-density areas, our space-based
+
+architecture enables economically scalable service delivery across these regions with minimal marginal cost per
+
+additional user.
+
+Importantly, while rural and underserved geographies provide a compelling initial adoption vector, we believe
+
+Starlink�s value proposition extends well beyond these markets. As network capacity increases and product
+
+performance continues to improve, we expect to compete increasingly in suburban and urban environments.
+
+Accordingly, while rural households represent a large and durable entry point for our connectivity offering, we
+
+view this segment as a foundational layer upon which significantly broader consumer, enterprise and
+
+government demand can be built.
+
+� Enterprise Solutions. We offer fixed site broadband solutions tailored for the needs of our enterprise customers
+
+across many different industries, including construction, agriculture, retail, telecom, hospitality and others. For
+
+the purpose of sizing market opportunity, we include small and medium sized businesses within our Enterprise
+
+Solutions market opportunity. Our Starlink enterprise offerings can provide important primary or back-up
+
+connectivity for every business in the geographies where we are licensed to operate. According to Grand View
+
+Table of Contents
+
+Research, the global business broadband market in 2025 across small to medium sized business and enterprise
+
+usage is estimated to be $200 billion.
+
+� Government Solutions. Driven by increasing demand for resilient, low-latency, and highly secure
+
+communications in contested and remote environments, defense organizations and governments around the
+
+world are increasingly turning to commercial satellite providers with connectivity solutions to supplement and
+
+enhance traditional military networks. According to Novaspace, the global satellite communications market
+
+driven by defense and government demand in 2025 was $5 billion. The estimate of the government
+
+communications market includes only publicly disclosed programs and budgets and does not include classified
+
+missions or other restricted uses, which we believe represent additional sources of demand.
+
+Starlink Mobile. According to Omdia, as of December 31, 2025, there were eight billion mobile connected devices
+
+globally. We believe our Starlink Mobile offering will be able to provide continuous global coverage and
+
+substantially reduce mobile �dead zones,� which remain areas that are structurally underserved by the limitations of
+
+the networks of current mobile network operators. For example, according to the J.D. Power U.S. Wireless Network
+
+Quality Performance Study, U.S. wireless customers experienced service problems in approximately one out of
+
+every 11 mobile interactions, even in well-connected areas. In addition, an estimated 40% of the global population
+
+resided in rural areas in 2024 according to the World Bank, where terrestrial mobile coverage can be limited or
+
+unreliable. While we expect Starlink Mobile service today to be most impactful for customers in remote areas
+
+uncovered by terrestrial mobile networks, as our constellation grows and our product performance continues to
+
+improve, we will compete to be the preferred connectivity experience to our customers no matter where they are
+
+located, whether in rural, suburban, or urban areas. The next-generation of Starlink Mobile satellites, in combination
+
+with our recent purchase of wireless spectrum from EchoStar, is designed to provide high bandwidth and low
+
+latency connectivity directly to end user devices, enabling a connectivity solution on par with terrestrial mobile
+
+networks. Given varying economic conditions and consumer purchasing power across different countries, we
+
+assume a different monthly ARPU for different parts of the world as we seek to make our service affordable and
+
+accessible across different economic development contexts. Our region-specific ARPU assumptions result in a
+
+weighted average monthly mobile ARPU of $8 per user. This global average consists of a weighted average monthly
+
+ARPU of $18 in high-income markets, $5 in upper-middle income markets, $2 in lower-middle, and $2 in low
+
+income markets. Based on the total number of connected devices globally and the mobile ARPU, we estimate the
+
+Starlink Mobile market opportunity to be $740 billion. We expect to continue to partner with mobile network
+
+operators globally as we expand coverage and participate in the broader mobile connectivity market.
+
+Additional and Future Starlink Applications . We believe the long-term market opportunity for Starlink extends
+
+materially beyond traditional fixed broadband and satellite-to-mobile connectivity. Many of these use cases
+
+represent new categories of demand that were not previously addressable with legacy terrestrial or satellite solutions
+
+due to limitations in coverage, latency, capacity, or cost. While these additional and future use cases are early stage
+
+and not yet captured in conventional industry market definitions, we believe they have the potential to significantly
+
+expand the total addressable market for connectivity over time.
+
+� Enterprise Mobility. Because our Starlink solutions are uniquely well-suited for in-motion environments,
+
+remote, or hard-to-serve locations, we are able to provide high-performance connectivity across land, ai

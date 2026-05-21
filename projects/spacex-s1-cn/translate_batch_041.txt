@@ -1,0 +1,643 @@
+le Preferred Stock ...................................................
+
+Add: Effect of assumed conversion of stock options ................
+
+Add: Effect of assumed conversion of restricted stock units ....
+
+Add: Effect of assumed issuance of shares under the ESPP .....
+
+Net income (loss) attributable to common shareholders - diluted ..
+
+Weighted average shares of common stock outstanding - basic ....
+
+Weighted average shares of common stock equivalents:
+
+Conversion of SpaceX Redeemable Convertible Preferred
+
+Stock ......................................................................................
+
+Exercise of stock options ...........................................................
+
+Conversion of restricted stock units ..........................................
+
+Conversion of ESPPs .................................................................
+
+Weighted average common stock and common stock equivalent
+
+outstanding - diluted ...................................................................
+
+Earnings (loss) per share attributable to common shareholders
+
+Basic ..........................................................................................
+
+Diluted .......................................................................................
+
+__________________
+
+(1) The excess of fair market value over the consideration transferred for the repurchase of SpaceX Redeemable Convertible Preferred Stock
+
+was treated as a deemed dividend and resulted in a decrease to net income (loss) attributable to common shareholders in the calculation of
+
+earnings (loss) per share.
+
+Table of Contents
+
+The following potentially dilutive securities on an as-converted basis are excluded from the calculation of diluted net
+
+income (loss) per share attributable to common shareholders for the periods presented because the impact of
+
+including them would b e anti-dilutive (refer to Note 15 , Share-based Compensation for additional details):
+
+Year Ended December 31,
+
+xAI Redeemable Convertible Preferred Stock ...............................
+
+SpaceX Redeemable Convertible Preferred Stock .........................
+
+Share-based compensation .............................................................
+
+The table above excludes 14.5 million , 38.3 million , and 21.2 million share-based compensation awards outstanding
+
+as of December 31, 2025 , 2024 , and 2023 , respectively, as these awards are subject to performance and market
+
+conditions that were not met as of those dates.
+
+Note 15 - Share-based Compensation
+
+X and xAI Mergers
+
+As part of the xAI Merger, each xAI option for a share of xAI common stock outstanding and unexercised at the
+
+time of the xAI Merger (vested and unvested) was converted into a SpaceX option to receive 0.1433 shares of
+
+Space X Class A or Class B Common Stock (on a pre-2026 Stock Split basis), as applicable, under the same terms
+
+and conditions (including the vesting and exercisability conditions) as the original xAI stock options at an exercise
+
+price equal to the original xAI option exercise price divided by 0.1433 (on a pre-2026 Stock Split basis) . Each xAI
+
+RSU that was vested and outstanding was converted to the right to receive 0.1433 of a share of SpaceX Class A or
+
+Class B Common Stock (on a pre-2026 Stock Split basis), as applicable. Each xAI RSU that was unvested was
+
+converted to 0.1433 of a SpaceX RS U (on a pre-2026 Stock Split basis). Each xAI RSA was converted to 0.1433
+
+shares of SpaceX RSA for SpaceX Class A or Class B Common Stock (on a pre-2026 Stock Split basis), as
+
+applicable, with the same terms and conditions (including the vesting terms). Holders of vested xAI options and
+
+vested xAI RSUs also had the option to receive cash payment for $75.46 per share in lieu of conversion . Refer to
+
+Note 13 , Redeemable Convertible Preferred Stock and Shareholders� Equity for additional details.
+
+As part of the X Merger, each X RSU that was outstanding was converted to a xAI RSU to receive 2.776 shares of
+
+xAI Common Stock .
+
+The Company grants RSU s, RSAs, and non-statutory options to eligible employees, key executives, and certain non-
+
+employee service providers (collectively, the �Plans�).  The Company also has a number of performance-based
+
+awards. RSUs entitle the grantee to receive shares of Class A or Class B Common Stock upon vesting, with vesting
+
+generally occurring either ( i) 25% after the first service year with quarterly vesting for the remaining four-year
+
+service period,  (ii) 12.5% after the first six months of service with quarterly vesting for the remaining four-year
+
+service period, or (iii) 20% after the first service year with semi-annual vesting for the remaining five-year service
+
+period, subject to continued service through the applicable vesting date. RSAs entitle the grantee to receive shares of
+
+Class A or Class B Common Stock with 25% after the first service year with monthly vesting for the remaining four-
+
+year service period.  Options generally vest over (i) four years with 25% vesting after one year then one thirty-sixth
+
+of the remainder vesting thereafter on a monthly basis or (ii) six years with 20% vesting after two years, and then
+
+one forty-eighth of the remainder vesting thereafter on a monthly basis.  Options are exercisable up to ten years from
+
+the date of grant. At December 31, 2025 , 543.8 million shares remained available for future grant under the Plans.
+
+The Company offers an ESPP, under which eligible employees can purchase the Company�s Common Stock at a
+
+discounted price. The Company also offers a Non-Qualified Employee Stock Purchase Plan (�NQ ESPP�), under
+
+which employees can purchase the Company�s Common Stock at the fair market value. At December 31, 2025 , 27.0
+
+million and 4.8 million shares remained available for future grant under the ESPP and NQ ESPP plans, respectively.
+
+Table of Contents
+
+Summary Activity under the Plans
+
+Below table summarizes activities related to the Company�s Plans, presented on an as-converted basis per the xAI
+
+Merger. For the purposes of the table below, each xAI option, RSU and RSA is presented as 0.1433 SpaceX option,
+
+RSU and RSA, respective ly.
+
+Average Exercise
+
+Contractual Life
+
+Balance at December 31, 2024 ........................
+
+Granted ................................................................
+
+Exercised .............................................................
+
+Cancelled .............................................................
+
+Outstanding at December 31, 2025 .................
+
+Vested and expected to vest at December 31,
+
+2025 ..................................................................
+
+Vested and exercisable at December 31, 2025 ..
+
+Restricted Stock
+
+Restricted Stock
+
+Balance at December 31, 2024 ........................
+
+Granted ................................................................
+
+Exercised .............................................................
+
+Cancelled .............................................................
+
+Balance at December 31, 2025 ........................
+
+The weighted-average grant-date fair value per share of options granted during the years ended December 31, 2025,
+
+2024, and 2023 was $21.29 , $5.02 , and $7.60 respectively. The total intrinsic value of options exercised during the
+
+years ended December 31, 2025, 2024, and 2023 was $1,249 million , $392 million and $261 million , respectively.
+
+The weighted-average grant date fair value per share of RSUs granted during the years ended December 31, 2025,
+
+2024, and 2023 was $54.84 , $17.68 , and $15.60 , respectively. The total fair market value of RSUs released for the
+
+years ended December 31, 2025, 2024, and 2023 was $2,151 million , $871 million and $729 million , respectively.
+
+The weighted-average grant date fair value per share of RSAs granted during the years ended December 31, 2025,
+
+2024, and 2023 was $93.87 , $� , and $0.00 , respectively. There were no RSAs released during the years ended
+
+December 31, 2025 and 2024 , and the total fair value of the RSAs released during the year ended December 31,
+
+2023 was $38 million .
+
+At December 31, 2025 , total remaining share-based compensation expense for unvested stock options, RSUs, and
+
+RSAs was $4,842 million , which is expected to be recognized over a weighted-average period of 3.2 years.
+
+During the years ended December 31, 2025, 2024, and 2023 , under the ESPP, the Company issued 6.3 million , 8.0
+
+million and 6.5 million shares, respectively. For the year ended December 31, 2025 , the Company issued 0.2 million
+
+shares under the NQ ESPP. No shares were issued under NQ ESPP during the years ended December 31, 2024 and
+
+Table of Contents
+
+In November 2025, the Company granted a performance-based award (�xAI Award�) to Elon Musk consisting of
+
+twelve tranches. Each tranche represents the right to receive a number of shares at fair market value equal to 1.0% of
+
+xAI � s valuation at the valuation milestone. The xAI Award is subject to market conditions based on valuation
+
+milestones, ranging from $213 billion to $1,313 billion , performance condition requiring the Company to receive not
+
+less than $2,000 million in proceeds from investors through capital raises on the milestone date, and a service
+
+condition requiring Mr. Musk�s continued service over the ten-year performance period.
+
+The grant date fair value of the award was determined to be $2,205 million an d the Company recorded $28 million
+
+of share-based compensation expense for the year ended December 31, 2025 .  In March 2026, the Company
+
+terminated the xAI Award, refer to Note 21 , Subsequent Events for further discussion.
+
+Performance-based awards
+
+In March 2023, X issued performance-based RSU awards to all X employees that also included service conditions.
+
+The performance conditions would only be satisfied upon a change in control or completion of an initial public
+
+offering (deemed a liquidity event). For the years ended December 31, 2024 and 2023 , no share-based compensation
+
+expense was recorded as it was not probable the performance-based vesting condition would be met.  In 2025, these
+
+awards were modified to remove the performance-based condition, resulting in additional share-based compensation
+
+expense of $588 million .
+
+Fair Value Determination
+
+The weighted-average assumptions that were used to calculate the grant date fair value of the Company�s employee
+
+stock option grants are as follows:
+
+Year Ended December 31,
+
+Expected term (years) .....................................................................
+
+Volatility .........................................................................................
+
+Risk-free interest rate .....................................................................
+
+Dividend yield ................................................................................
+
+The expected term of employee stock options represents the weighted-average period that the stock options are
+
+expected to remain outstanding. The Company determined the expected term of options granted using the simplified
+
+method. Under the simplified method, the expected term of an award is presumed to be the mid-point between the
+
+vesting period and the contractual life of the award.
+
+The Company determined the expected volatility assumption using the frequency of daily historical prices of
+
+comparable public companies� common stock for a period equal to the expected term of the options.
+
+The risk-free interest rate assumption is based upon observed interest rates on U.S. Government securities for a
+
+period consistent with the expected term of the Company�s employee stock options.
+
+The dividend yield assumption is based on the Company�s history and expectation of dividend payouts. The
+
+Company has never declared or paid any cash dividends on its Common Stock and does not anticipate paying any
+
+cash dividends in the foreseeable future.
+
+Table of Contents
+
+The weighted-average assumptions that were used to calculate the grant date fair value of the CEO�s xAI Award are
+
+Expected term (years) ...........................................................................................................................
+
+Volatility ...............................................................................................................................................
+
+Risk-free interest rate ............................................................................................................................
+
+Dividend yield .......................................................................................................................................
+
+The expected term is the period from the grant date to the end of the performance period. The Company determined
+
+the expected volatility assumption using the frequency of daily historical prices of comparable public companies�
+
+common stock for a period equal to the expected term. The risk-free interest rate assumption is based upon observed
+
+interest rates on U.S. Government securities for a period consistent with the expected term. The dividend yield
+
+assumption is based on the Company�s history and expectation of dividend payouts. The Company has never
+
+declared or paid any cash dividends on its Common Stock and does not anticipate paying any cash dividends in the
+
+foreseeable future.
+
+Summary of Share-Based Compensation Information
+
+The following table summarizes our share-based compensation expense by line item in the consolidated statements
+
+Year Ended December 31,
+
+Cost of revenue ...............................................................................
+
+Research and development .............................................................
+
+Selling, general, and administrative ...............................................
+
+Total .........................................................................................
+
+During the years ended December 31, 2025, 2024, and 2023 , share-based compensation expense capitalized to the
+
+consolidated balance sheets was $154 million , $132 million , and $108 million , respectively. No income tax benefit
+
+was recognized from share-based compensation expense during the years ended December 31, 2025, 2024, and 2023
+
+due to the valuation allowance on U.S. deferred tax assets. Refer to Note 16 , Income Taxes for additional details.
+
+Note 16 - Income Taxes
+
+The U.S. and foreign components of consolidated income (loss) before income taxes for the years ended December
+
+31, 2025, 2024, and 2023 are as follows:
+
+Year Ended December 31,
+
+Domestic .........................................................................................
+
+Foreign ...........................................................................................
+
+Income (loss) before income taxes ..............................................
+
+Table of Contents
+
+The current and deferred provisions (benefits) for federal, state, and foreign income taxes consist of the following :
+
+Year Ended December 31,
+
+Federal .......................................................................................
+
+State ...........................................................................................
+
+Foreign .......................................................................................
+
+Total current provision ...............................................................
+
+Federal .......................................................................................
+
+State ...........................................................................................
+
+Foreign .......................................................................................
+
+Total deferred provision .............................................................
+
+Total provision for (benefit from) income taxes .......................
+
+Upon adoption of ASU 2023-09, as described in Note 2 , Summary of Significant Accounting Policies , the
+
+reconciliation of the U.S. federal statutory income tax rate to the Company � s effective income tax rate is as follows:
+
+Year Ended December 31,
+
+U.S. federal statutory income tax rate .......................................................................
+
+State and local income taxes, net of federal income tax effect (1) ...............................
+
+Foreign tax effects .....................................................................................................
+
+Ireland ...................................................................................................................
+
+Other .....................................................................................................................
+
+Effect of cross-border tax laws ..................................................................................
+
+Research and development tax credits ..................................................................
+
+Foreign tax credits ................................................................................................
+
+Other .....................................................................................................................
+
+Change in valuation allowance ..................................................................................
+
+Nontaxable or nondeductible items
+
+Share-based compensation ....................................................................................
+
+Other .....................................................................................................................
+
+Change in unrecognized tax benefits .........................................................................
+
+Other adjustments ......................................................................................................
+
+Effective tax rate .....................................................................................................
+
+__________________
+
+(1) State taxes in California made up the majority (greater than 50%) of the tax effect in this category.
+
+Table of Contents
+
+The following table is a reconciliation of taxes at the U.S. federal statutory income tax rate to the Company�s benefit
+
+from income taxes for the years ended December 31, 2024 and 2023 in accordance with the guidance prior to the
+
+Company�s adoption of ASU 2023-09:
+
+Year Ended December 31,
+
+Federal statutory income tax rate ...............................................................................
+
+State and local income taxes, net of federal income tax effect ..................................
+
+Share-based compensation ........................................................................................
+
+Foreign tax effects .....................................................................................................
+
+Research and development tax credits .......................................................................
+
+Change in valuation allowance ..................................................................................
+
+Change in unrecognized tax benefits .........................................................................
+
+Other adjustments ......................................................................................................
+
+Provision for (benefit from) income taxes ............................................................
+
+Upon adoption of ASU 2023-09, cash paid for income taxes, net of refunds, during the year ended December 31,
+
+2025 is as follows:
+
+Federal ...................................................................................................................................................
+
+State and Local ......................................................................................................................................
+
+Ireland ..............................................................................................................................................
+
+Mexico .............................................................................................................................................
+
+Other .................................................................................................................................................
+
+Total cash paid for income taxes, net of refunds .............................................................................
+
+Table of Contents
+
+The significant components of the deferred tax assets and liabilities are as follows:
+
+Deferred tax assets:
+
+Net operating loss carryforwards .............................................................................
+
+Research and development and other credits ...........................................................
+
+Intangible assets .......................................................................................................
+
+Operating lease liability ...........................................................................................
+
+Capitalized research and development costs ...........................................................
+
+Share-based compensation ......................................................................................
+
+Deferred revenue .....................................................................................................
+
+Disallowed interest expense ....................................................................................
+
+Other ........................................................................................................................
+
+Total deferred tax assets ..........................................................................................
+
+Valuation allowance ................................................................................................
+
+Deferred tax assets, net of valuation allowance .......................................................
+
+Deferred tax liabilities:
+
+Fixed assets ..............................................................................................................
+
+Operating lease right-of-use asset ............................................................................
+
+Unrealized gains/losses ............................................................................................
+
+Other ........................................................................................................................
+
+Total deferred tax liabilities .....................................................................................
+
+Deferred tax assets, net of valuation allowance .................................................
+
+In assessing the realizability of deferred tax assets, management considered whether it is more likely than not that
+
+some or all of the deferred tax assets will not be realizable based on the relevant weight of all positive and negative
+
+evidence, including the retrospective combination of the financial results of the entities due to the Mergers described
+
+in Note 1 , Nature of Business . As a result of the Mergers, management assessed the realizability of the deferred tax
+
+assets of the combined group and concluded that the majority of the U.S. federal and state deferred tax assets are not
+
+more likely than not to be realized based on cumulative pretax losses adjusted for permanent differences and other
+
+negative evidence. Accordingly, the Company has recorded a full valuation allowance against its net U.S. deferred
+
+tax assets as of December 31, 2025 with the exception of certain state deferred tax assets and transferrable
+
+investment tax credits that are expected to be realizable. The Company will continue to assess the realizability of its
+
+deferred tax assets in future periods and will adjust the valuation allowance as necessary based on changes in facts
+
+and circumstances.
+
+In addition, the Company continues to record a valuation allowance in certain foreign jurisdictions where the
+
+Company has concluded it is more likely than not that the deferred tax assets will not be realized.
+
+A reconciliation of the valuation allowance is as follows:
+
+Year Ended December 31,
+
+Beginning balance ..........................................................................
+
+Charged to income tax expense ......................................................
+
+Charged to other comprehensive income .......................................
+
+Cumulative effect adjustment .........................................................
+
+Ending balance ............................................................................
+
+Table of Contents
+
+The valuation allowance on the Company�s net deferred tax assets increased by $2,665 million, $39 million and
+
+$1,235 million during the years ended December 31, 2025, 2024, and 2023 , respectively. The changes in valuation
+
+allowance are primarily driven by the generation of net operating loss carry-forwards (�NOLs�) and tax credits,
+
+which are not more likely than not to be realizable. For the year ended December 31, 2024, the Company released a
+
+partial valuation allowance on SpaceX�s U.S. deferred tax assets for the retrospectively combined comparative
+
+results. Based on available projections as of December 31, 2024, management forecasted $659 million of deferred
+
+tax assets related to U.S. R&D credits would be utilized in the following year on a separate company basis in 2025
+
+before the Mergers occurred, and as such, no valuation allowance was recorded on those credits.
+
+At December 31, 2025 , the Company had NOLs for federal and state income tax purposes of $9,728 million and
+
+$5,234 million , which are available to offset taxable income in future periods. The federal NOLs generated through
+
+December 31, 2017 expire at various dates beginning in 2034 and will continue to expire through 2037, while U.S.
+
+federal net operating loss carryforwards generated in 2018 or later do not expire. The state NOLs  will expire at
+
+various dates beginning in 2027.
+
+At December 31, 2025 , the Company had tax credits for federal and state income tax purposes of $3,586 million and
+
+$2,104 million , respectively, which are available to offset future periods and begin to expire in 2036 for federal
+
+income tax purposes. Of the $2,104 million in state tax credits, $161 million will begin to expire in 2026 and the
+
+remaining credits do not expire.
+
+Additionally, the Company�s net operating loss carryforwards and other tax attributes are subject to various
+
+limitations and restrictions, including those arising from ownership changes under applicable tax laws, which may
+
+limit the Company�s ability to utilize such attributes in the future.
+
+At December 31, 2025 , the Company had foreign NOLs of $126 million , which will expire at various dates based on
+
+the tax laws of the different jurisdictions we operate in.
+
+In assessing whether uncertain tax positions should be recognized in the financial statements, the Company first
+
+determines whether it is more likely than-not that a tax position will be sustained upon examination, including
+
+resolution of any related appeals or litigation process, based on the technical merits of the position. In evaluating
+
+whether a tax position has met the more likely than-not recognition threshold, the Company presumes that the
+
+position will be examined by the appropriate taxing authority that would have full knowledge of all relevant
+
+information. For tax positions that meet the more likely than not recognition threshold, the Company measures the
+
+amount of benefit recognized in its financial statements at the largest amount of benefit that is greater than 50.0%
+
+likely of being realized upon ultimate settlement.
+
+The following table reflects changes in gross unrecognized tax benefits:
+
+Year Ended December 31,
+
+Beginning balance ..........................................................................
+
+Gross increases - current year tax positions ...................................
+
+Gross increases - prior year tax positions .......................................
+
+Gross decreases - current year tax positions ..................................
+
+Gross decreases - prior year tax positions ......................................
+
+Gross decreases - settlements with tax authorities .........................
+
+Gross decreases - lapse of statute of limitations .............................
+
+Ending balance ............................................................................
+
+For the years ended December 31, 2025, 2024, and 2023 , the Company had unrecognized tax benefits of $1,916
+
+million , $1,619 million , and $1,320 million respectively. The Company�s policy is to recognize interest and
+
+penalties associated with uncertain tax benefits as part of the income tax provision. The amount of interest and
+
+penalties recognized in the periods presented were insignificant. As of December 31, 2025 and 2024, the Company
+
+has accrued $6 million and $5 million, respectively, related to interest and penalties on our unrecognized tax
+
+Table of Contents
+
+benefits. As of December 31, 2025 , u nrecognized tax benefits of $11 million, if recognized, would affect our
+
+effective tax rate.
+
+The Company files income tax returns in the U.S. and all state and various foreign jurisdictions. To the extent the
+
+Company has tax attribute carryforwards, the tax years in which the attribute was generated may still be adjusted
+
+upon examination by the federal, state or foreign tax authorities to the extent utilized in a future period. As of
+
+December 31, 2025 , the major jurisdictions in which the Company remains subject to examinations are U.S. federal
+
+and California for tax years 2003 and forward. Based on all available information, the Company is not aware of any
+
+new information that would require the remeasurement of its uncertain tax positions.
+
+On July 4, 2025, the One Big Beautiful Bill Act, Public Law No. 119-21 and formally titled �An Act to Provide for
+
+Reconciliation Pursuant to Title II of H. Con. Res. 14� (�OBBBA�) was enacted in the Unite

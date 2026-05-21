@@ -1,0 +1,597 @@
+approximately 30 countries. We partner with MNOs
+
+including major wireless carriers like T-Mobile in the United States, and other international operators including
+
+One NZ, Optus, Telstra, Rogers, KDDI, Salt, Entel, Kyivstar, and VMO2. Through these partnerships, we
+
+enable consumers, businesses, and public-sector customers to use their existing phones in more places, support
+
+critical connectivity during disasters and power outages, and open new applications for low-bandwidth mobile
+
+and IoT devices. Our current capabilities under our �V1� constellation (consisting of approximately 650 V1
+
+Mobile satellites in orbit) include light data, text messaging (SMS), and over-the-top voice services (e.g.,
+
+WhatsApp and FaceTime). We are developing more comprehensive satellite-to-mobile services, including
+
+broadband data and IoT connectivity, which are expected to deliver resilient, infrastructure-independent
+
+connectivity worldwide and enable 5G connectivity. We have partnerships with approximately 30 MNOs on six
+
+continents, covering an area that is home to approximately 1.9 billion people. We charge MNOs either a fixed
+
+fee or a per-mobile user fee-based amount, which is typically passed through to the customer via the carrier as
+
+an �add-on� feature.
+
+We generate revenue in our Connectivity segment primarily through subscription fees from consumer subscribers.
+
+We drive consumer revenue through monthly subscription fees based on geographic market and download speed,
+
+recognizing revenue ratably over the service period, plus typically a one-time sale of a kit . In addition, we generate
+
+revenue from enterprises through contracts structured as a combination of subscriptions, data consumption, and
+
+capacity, or on a percentage-of-completion basis, depending on each customer�s particular needs. We generate
+
+government revenue via long term contracts for Starshield, a secure satellite network designed specifically for
+
+government customers and national security applications. We also earn Starlink Mobile revenue through revenue-
+
+sharing arrangements with MNO partners, based on connectivity services included in their plans.
+
+In 2025 , revenue from consumer subscribers represented over 60% of Connectivity segment revenue. We expect
+
+revenue from consumer subscribers, as well as enterprise and government customers, to be  the primary driver of
+
+Connectivity segment growth, and that Starlink Mobile will become a significant new contributor of Connectivity
+
+segment revenue.
+
+AI. We operate a highly vertically integrated AI platform spanning gigawatt-scale AI compute infrastructure, our
+
+truth-seeking frontier AI model, Grok, AI solutions for consumer and enterprise customers, and X, our real-time
+
+information, entertainment, and free speech platform. We believe AI is rapidly converging toward AGI, where
+
+Table of Contents
+
+human cognitive capabilities can be replicated and scaled at machine speeds, profoundly augmenting human
+
+productivity. Once an AGI system exists, its true value derives from the ability to create limitless duplicates of
+
+human-like intelligence, necessitating vast computational resources and cost-efficient deployment to achieve
+
+meaningful scale. Without large-scale, power-efficient infrastructure, AGI cannot be deployed broadly or
+
+economically�making such infrastructure a critical strategic differentiator.
+
+COLOSSUS II Facility in Memphis, Tennessee
+
+� AI Compute Infrastructure. xAI has established a leading position in building and scaling terrestrial AI
+
+compute infrastructure, becoming the first company to deploy a coherent gigawatt-scale AI training cluster. Our
+
+AI compute facilities, COLOSSUS and COLOSSUS II, collectively provide approximately 1.0 gigawatt of
+
+compute power, with additional power capacity available for data center operations. Our first-principles
+
+thinking enables us to build coherent compute at scale and at rapid speed with lower costs than most other
+
+companies in the industry. We brought the first cluster of COLOSSUS online in 122 days, repurposing the shell
+
+of an existing factory, and the first cluster of COLOSSUS II online even faster in 91 days. As an illustrative
+
+comparison, an industry benchmark to bring online a 100 megawatt greenfield data center is approximately two
+
+years. We also demonstrated a significant improvement in cost efficiency, achieving data center construction
+
+costs for COLOSSUS II that are considerably lower than industry benchmarks on a per megawatt basis. This
+
+dual speed and cost advantage stems from our complete vertical integration and the shared culture infused by
+
+our founder, Mr. Musk, across our Space, Connectivity, and AI segments. The addition of Terafab, an initiative
+
+together with Tesla to build a manufacturing facility capable of producing 1 terawatt per year of compute
+
+hardware, aims to further extend our vertical integration to chip design and manufacturing to alleviate potential
+
+future chip shortages at SpaceX, optimize compute performance, and potentially reduce overall compute costs.
+
+Intel, which has the ability to design, fabricate, and package ultra-high-performance chips at scale, has also
+
+joined the Terafab project. We believe that the key constraints in the continued growth of AI are physical�chip
+
+manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the
+
+control of the physical stack.
+
+� Truth-Seeking Frontier Model . xAI has developed one of the world�s most advanced, truth-seeking frontier
+
+models with Grok. Since launching Grok-1 in November 2023, we have released four major versions and
+
+notable variations thereof, achieving one of the fastest iteration cycles in the industry, culminating in Grok-4.3
+
+Table of Contents
+
+(April 2026). Building on this trajectory, we expect to continue scaling Grok through subsequent generations.
+
+Ongoing training of next‑generation models is expected to scale toward multiple trillions of parameters, which
+
+could represent a step change in reasoning in depth and overall intelligence. In this context, the number of
+
+parameters refers to the scale of the model, where parameters are the internal numerical values, such as
+
+�weights,� that are adjusted during training to enable the model to recognize patterns and relationships in data.
+
+A larger number of parameters generally allows the model to capture more complex relationships, store greater
+
+amounts of knowledge, and achieve higher levels of reasoning capability. Within two years of its initial model
+
+release, Grok achieved frontier-level performance in scientific reasoning, as measured by its GPQA Diamond
+
+score, an industry benchmark that evaluates AI models on a standardized set of questions written and validated
+
+by experts, on a faster timeline than reported by other leading model providers. This accelerated rate of
+
+innovation stems from our highly vertically integrated stack: full ownership of training infrastructure, access to
+
+the world�s most powerful compute clusters, and relentless focus on truth seeking and real-world utility. A key
+
+competitive differentiator is Grok�s deep integration with X, enabling proprietary access to a real-time
+
+information stream of approximately 350 million daily posts, which enhances freshness, relevance, and
+
+contextual awareness for Grok. This direct, real-time access to the information and human discourse on X
+
+enhances Grok�s truth-seeking capabilities by grounding outputs in up-to-date knowledge and diverse
+
+viewpoints. We believe that this combination of compute infrastructure scale and the massive dataset available
+
+to us through X, subject to some limitations for certain content, has allowed us to achieve industry-leading
+
+performance and provide model outputs that analyze real-time information on global events. We expect that our
+
+compute infrastructure and direct access to real-time data via X constitute substantial performance advantages
+
+for Grok that will result in increasingly rapid and dramatic iteration cycles.
+
+� Consumer and Enterprise Applications . We leverage our leading frontier models and compute infrastructure
+
+to deliver consumer and enterprise applications. In under six months, we developed Grok Voice, a real-time
+
+speech engine, including in multilingual performance. Our image and video generation system, Imagine,
+
+produced approximately 10 billion images and over 2 billion videos per month, on average, for the quarter
+
+ending March 31, 2026. Together with Tesla, we are also developing Macrohard, an agentic AI platform
+
+designed to be capable of fully emulating digital workflows and augmenting human operation of computers�
+
+from coding and product development to management and entire business processes�using sophisticated
+
+autonomous agents. We believe Macrohard will have the potential to fundamentally transform how companies
+
+are structured and operate, thereby allowing dramatic increases in human productivity. In addition, we believe
+
+our existing government relationships and track record as large government contractors are a structural
+
+advantage as governments become significant consumers of AI applications.
+
+Our integrated AI platforms across Grok and X have over 1.3 billion supported accounts active in the last
+
+twelve months ended March 31, 2026 , including approximately 550 million MAUs, up from over 1.1 billion
+
+supported accounts and approximately 520 million MAUs as of December 31, 2025. Of our MAUs, we had
+
+approximately 117 million MAUs that used Grok�s AI features as of March 31, 2026. While MAUs provide an
+
+estimated measure of the size and engagement of our user base, we are focused on revenue and operating
+
+margin, and manage our business with the objective of driving sustainable revenue growth and profitability
+
+rather than with the primary objective of growing or maintaining MAU levels .
+
+We also monetize user activity through high-impact advertising inventory on X. We believe X�s scale , real-time
+
+engagement, and integration with Grok provide a differentiated foundation for building a unified user
+
+experience across communication, content discovery, commerce, and financial services, among others. For
+
+enterprises that advertise on X, we offer large-scale user engagement, real-time content, and advanced AI-
+
+driven performance marketing tools. For enterprises, we offer tailored deployments of Grok customized to
+
+specific workflows and security needs through Grok Business and Grok Enterprise, sold on license-,
+
+consumption-, or outcome-based pricing models.
+
+Our Capital Allocation and Funding Strategy
+
+Since our beginning, we have managed through multiple investment cycles. We initially raised capital to fund what
+
+is now our Space segment, which generates revenue from commercial and government customers while serving as
+
+the backbone for our Connectivity segment. We invested in our Connectivity segment as we generated Segment
+
+Table of Contents
+
+Adjusted EBITDA from our Space segment, along with additional equity capital that we raised externally, creating a
+
+segment that generates predictable and recurring revenue from consumer, enterprise, and government customers. We
+
+continue to invest meaningfully in both our Space and Connectivity segments to build out the infrastructure of the
+
+future through our next-generation Starship launch platform and our expanded Starlink broadband and mobility
+
+We have a stellar track record of capital allocation and value creation in Space and Connectivity. Since SpaceX�s
+
+founding in 2002, we have raised over $9 billion of equity capital to fund the development and growth of these two
+
+business segments. The Space segment became Segment Adjusted EBITDA positive on a sustained basis beginning
+
+in 2018 and the Connectivity segment became in aggregate Segment Adjusted EBITDA positive on a sustained basis
+
+beginning in 2023. In 2025, our Space segment generated a loss from operations of $(657) million and Segment
+
+Adjusted EBITDA of $653 million , including the impact of funding $3,004 million in research and development
+
+expense for our next-generation Starship launch vehicle program. In 2025, our Connectivity segment generated
+
+income from operations of $4,423 million and Segment Adjusted EBITDA of $7,168 million .
+
+We acquired xAI in February 2026, which forms the basis of our AI segment. We expect to allocate substantial
+
+capital to expand our compute infrastructure, and we expect a multi-year investment horizon before these
+
+deployments translate into sustained positive AI Segment Adjusted EBITDA. During this investment period, our
+
+capital expenditures will scale as quickly as we are able to deploy power and compute to address the $26.5 trillion
+
+potential market opportunity for AI. We plan to access a range of debt and equity financing solutions available to us
+
+as a public company to fund future investments in growth and to maintain strong liquidity. We aim to maintain an
+
+investment grade credit rating.
+
+Segment Adjusted EBITDA is a non-GAAP measure. Please refer to the section titled ��Non-GAAP Financial
+
+Measures� for additional information on our non-GAAP financial measures, including reconciliations of Segment
+
+Adjusted EBITDA to segment income (loss) from operations, the most directly comparable GAAP measure.
+
+Key Business Metrics
+
+We use the following key business metrics to evaluate our business, measure our performance, identify trends,
+
+formulate business plans, and make strategic decisions.
+
+In our Space segment, we use mass to orbit and launches as key business metrics to measure our scale and
+
+throughput. Mass to orbit and launches grow more rapidly than Space segment revenue because these metrics
+
+include our internal constellation deployments from which we do not recognize inter-segment revenue.
+
+Mass to Orbit : Mass to orbit is the total kilograms of payload that we deploy to orbit in a given period, and is a key
+
+indicator of SpaceX�s capacity and scalability that supports Space revenue and drives expansion across our
+
+Connectivity and AI segments. We calculate this metric by summing verified mass, including Starlink satellites,
+
+customer payloads, and development cargo, from all successful orbital and flight tests. This measure excludes failed
+
+or scrubbed attempts. We increased mass to orbit from 1,210 metric tons in 2023 to 1,699 metric tons in 2024 to
+
+2,213 metric tons in 2025, and from 450 metric tons in the three months ended March 31, 2025 to 556 metric tons in
+
+the three months ended March 31, 2026. In 2023, 2024, and 2025, mass to orbit included 205, 282, and 312 metric
+
+tons attributable to customer payloads, respectively, and 1,005, 1,418, and 1,901 metric tons attributable to internal
+
+payloads, respectively (the amounts presented may not add up to the corresponding totals due to rounding). Falcon 9
+
+launches contribute steadily at an average capacity of 13 metric tons per mission since 2023 to various orbits while
+
+we transition to Starship. As the most powerful launch system ever developed, we expect that Starship V3 will be
+
+able to carry a payload of 100 metric tons, with future generations of Starship being designed to double this payload.
+
+Table of Contents
+
+Launches : Launches are a key measure of our operational scale, which in turn supports our revenue growth and
+
+mission to expand humanity�s presence in space. Launches in a period represent the sum of all successful orbital and
+
+flight tests across our rockets, including internal Starlink deployments, development tests, and launches for our
+
+third-party customers, and excluding any cancellations or scrubs that occurred in that period. Falcon 9 is the most
+
+active orbital launch vehicle today, with approximately 620 orbital space launches as of March 31, 2026, and an
+
+over 99% mission success rate. During the three months ended March 31, 2026, we launched 40 Falcon rockets, of
+
+which 39 were flight-proven booster launches, and in 2025, we launched 165 Falcon 9 rockets, of which 157 were
+
+flight-proven booster launches. While we have steadily increased our Falcon 9 launch cadence over recent years, we
+
+expect Falcon 9 launches to decrease over time. While Falcon 9 currently drives the majority of our launch activity,
+
+we expect Starship, which is designed to be the world�s first fully, rapidly, reusable launch vehicle, to become a
+
+larger contributor to our launch volume as it enters operational service. To date, we have executed 11 Starship flight
+
+tests to advance our goal of rapidly and fully reusable orbital capability, a breakthrough we believe will transform
+
+our launch economics and benefit both our business and customers who rely on our launch services. We have also
+
+scheduled a 12th flight test, which will debut the next generation Starship vehicle and Super Heavy booster,
+
+powered by the next evolution of our Raptor engine and launching from a newly designed pad at Starbase. We
+
+allocate a significant amount of launch capacity to our Connectivity segment, and expect to allocate a significant
+
+Table of Contents
+
+amount to our AI segment in the future. Our Space segment revenue only reflects our customer launches and
+
+customer activities.
+
+__ ________________
+
+(1) With respect to Falcon launches, the number of launches for the years ended December 31, 2023, 2024, and 2025 totaled 96 , 134 , and 165 ,
+
+respectively, of which customer launches totaled 33 , 45 , and 43 , respectively, and internal launches totaled 63 , 89 , and 122 , respectively.
+
+The number of Falcon launches for the three months ended March 31, 2025 and 2026 totaled 36 and 40 , respectively, of which customer
+
+launches totaled 12 and 7 , respectively, and internal launches totaled 24 and 33 , respectively. We designate a launch as a �customer launch�
+
+if an external customer payload constitutes the primary payload (i.e., where the principal objective is to deliver the customer payload) and
+
+the mission parameters (e.g., launch window, orbital parameters, mission profile) are designed around the primary payload�s requirements.
+
+To date, all Starship launches have been classified as internal.
+
+In our Connectivity segment, we view Starlink Subscribers and Starlink Subscriber ARPU as key business metrics to
+
+evaluate our growth and monetization.
+
+Starlink Subscribers : We define a Starlink Subscriber as a unique Service Line that is directly assigned to a
+
+Starlink.com account registered to a person or entity that does not have a direct, negotiated agreement with the
+
+Starlink sales team . A Service Line is an individual instance of Starlink broadband internet service provisioned
+
+under a subscription plan, generally associated with a specific Starlink terminal or group of terminals, and billed
+
+according to Starlink�s service plans and terms of service. The number of Service Lines is distinct from the number
+
+of unique devices, account holders, end users or physical persons. An individual, household, or business may share a
+
+single Service Line among multiple end-users. Likewise, an individual, household, or business may maintain
+
+multiple service lines (e.g., both a Residential Service Line and a separate Roam Service Line, which would be
+
+defined as two separate Service Lines and therefore two Starlink Subscribers).
+
+We use this measure to assess the adoption of Starlink as we expand within and across geographies and business
+
+segments. Starlink Subscribers includes both Personal (e.g., Residential and Roam) and Business (e.g., Local
+
+Priority and Global Priority) subscription plans, but does not include managed enterprise and government customers
+
+with contracts in domains including aviation, maritime, land mobility, fixed sites and government entities. We
+
+calculate Starlink Subscribers for a period as the number of unique Service Lines at the end of the period. Starlink
+
+Table of Contents
+
+Subscribers totaled approximately 10.3 million and 5.0 million, up 105% and 91% on a year-over-year basis, in the
+
+quarters ended March 31, 2026 and March 31, 2025, respectively.
+
+Starlink Subscriber ARPU : We calculate ARPU as service revenue generated from Starlink Subscribers during the
+
+period divided by (i) the average number of Starlink Subscribers during the period and by (ii) the number of months
+
+in the period. Our strategy is focused on driving sustainable revenue growth and expanding our margins through
+
+operational efficiencies and technological advancements, rather than prioritizing increases in ARPU. This approach
+
+aligns with our long-term vision of expanding global connectivity and market access. We generally expect Starlink
+
+Subscriber ARPU to continue to decline over the next few years as the portion of our subscriber base outside North
+
+America continues to grow, as we add lower priced service plans, and as we adjust the monthly service plan fees we
+
+charge for broadband offerings . However, we expect these dynamics to be offset by increased scale and
+
+technological advancement in our launch, satellite, and user terminal operations, ultimately supporting overall
+
+revenue growth and cost reduction. Our Starlink Subscriber monthly ARPU decreased from $86 per month for the
+
+three months ended March 31, 2025 to $66 per month for the three months ended March 31, 2026 and from $91 per
+
+Table of Contents
+
+month in 2024 to $81 per month in 2025. These decreases were driven primarily by international expansion and the
+
+addition of lower priced service plans.
+
+Nameplate Compute Draw : We calculate Nameplate Compute Draw for a period as the number of GPUs installed in
+
+our data centers at the end of the period multiplied by their respective all-in power draw. Nameplate Compute Draw
+
+reflects installed capacity and does not represent actual power consumption or utilization. It does not include power
+
+we install and use for our supporting infrastructure such as cooling systems, power distribution losses, lighting,
+
+security systems, or facility-level overhead. Our Nameplate Compute Draw increased to 1.0 gigawatt as of March
+
+Table of Contents
+
+31, 2026 as we brought COLOSSUS and COLOSSUS II online. We use this metric to assess our ability to deploy
+
+and scale compute capacity.
+
+Segment Income (Loss) from Operations
+
+Space Income (Loss) from Operations
+
+Space loss from operations for the three months ended March 31, 2026 increased by $592 million to $(662) million
+
+compared to $(70) million for the three months ended March 31, 2025, primarily driven by an accelerated
+
+investment in development of the Starship vehicle as well as launch facilities to support future Starship launches,
+
+and a decrease in revenue from customer launches, partially offset by a decrease in cost of revenue, selling, general,
+
+and administrative expenses and impairment.
+
+Space income (loss) from operations for the year ended December 31, 2025 decreased by $678 million to $(657)
+
+million compared to $21 million for the year ended December 31, 2024 , while Space income (loss) from operations
+
+for the year ended December 31, 2024 increased by $22 million to $21 million for the year ended December 31,
+
+2024 compared to $(1) million for the year ended December 31, 2023 . The year-over-year decrease in 2025 was
+
+primarily driven by an accelerated investment in development of the Starship vehicle as well as launch facilities to
+
+support future Starship launches, partially offset by an increase in revenue and decrease in cost of revenue.
+
+Connectivity Income (Loss) from Operations
+
+Connectivity income from operations for the three months ended March 31, 2026 increased by $155 million to
+
+$1,188 million compared to $1,033 million for the three months ended March 31, 2025, primarily driven by
+
+increased revenue from our consumer subscribers ( composed of 104.7% growth in Starlink Subscribers, offset by a
+
+22.9% decline in Starlink Subscriber ARPU, primarily due to international expansion and the addition of lower
+
+priced service plans) and enterprise business, partially offset by higher depreciation of capitalized launch and
+
+satellite costs due to the increase in Starlink flights, as well as higher operating expenses including ground operating
+
+costs and international expansion costs to support and drive subscriber growth.
+
+Connectivity income from operations for 2025 increased by $2,417 million to $4,423 million compared to $2,006
+
+million for the year ended December 31, 2024 while Connectivity income from operations for the year ended
+
+Table of Contents
+
+December 31, 2024 increased by $1,537 million to $2,006 million compared to $469 million for the year ended
+
+December 31, 2023 . The year-over-year increase in 2025 was primarily driven by increased revenue from growth of
+
+our consumer and enterprise customers by $2,378 million and $1,410 million , respectively, partially offset by higher
+
+depreciation of capitalized launch and satellite costs due to the increase in Starlink flights, as well as higher
+
+marketing and international expansion costs to drive subscriber growth.
+
+AI Income (Loss) from Operations
+
+AI loss from operations for the three months ended March 31, 2026 increased by $1,533 million to $(2,469) million
+
+compared to $(936) million for the three months ended March 31, 2025, primarily driven by higher cloud computing
+
+and GPU depreciation costs, data center infrastructure and employee expenses, partially offset by higher revenue.
+
+AI loss from operations for 2025 increased by $4,794 million to $(6,355) million compared to $(1,561) million for
+
+the year ended December 31, 2024 , while AI loss from operations for the year ended December 31, 2024 decreased
+
+by $2,412 million to $(1,561) million compared to $(3,973) million for the year ended December 31, 2023 . The
+
+increase in 2025 was primarily driven by higher cloud computing costs, facilities-related costs and employee
+
+expenses, partially offset by higher revenue.
+
+Segment Adjusted EBITDA
+
+Segment Adjusted EBITDA is defined as segment income (loss) from operations excluding (i) depreciation and
+
+amortization, (ii) share-based compensation, (iii) restructuring charges and (iv) impairment.
+
+Space Segment Adjusted EBITDA
+
+Space Segment Adjusted EBITDA for the three months ended March 31, 2026 decreased by $575 million to $(351)
+
+million compared to $224 million for the three months ended March 31, 2025, primarily driven by an accelerated
+
+investment in development of the Starship vehicle as well as launch facilities to support future Starship launches,
+
+and a decrease in revenue from customer launches, partially offset by a decrease in cost of revenue, selling, general,
+
+and administrative expenses.
+
+Space Segment Adjusted EBITDA for 2025 decreased by $501 million to $653 million compared to $1,154 million
+
+in 2024, while Space Segment Adjusted EBITDA for 2024 increased by $157 million to $1,154 million compared to
+
+$997 million in 2023. The year-over-year decrease in 2025 was primarily driven by an accelerated investment in
+
+development of the Starship vehicle, as well as launch facilities to support future Starship launches, partially offset
+
+by an increase in NASA Cargo Resupply Services (CRS) for additional missions to the International Space Station,
+
+along with increased revenue from a U.S. Department of War contract . Our Space Segment Adjusted EBITDA is
+
+also driven by the reusability and efficiency of our rockets, which boosts cadence and reliability and supports a
+
+diversified base of commercial and government customers. These efforts have created a strong foundation for our
+
+Space Segment Adjusted EBITDA, and we believe position us to unlock further high-value opportunities in the
+
+expanding space economy.
+
+Connectivity Segment Adjusted EBITDA
+
+Connectivity Segment Adjusted EBITDA for the three months ended March 31, 2026 increased by $469 million to
+
+$2,087 million compared to $1,618 million for the three months ended March 31, 2025, primarily driven by higher
+
+revenue from growth in consumer and enterprise revenue. Consumer revenue was composed of 104.7% growth in
+
+Starlink Subscribers, offset by a 22.9% decline in Starlink Subscriber ARPU, primarily due to international
+
+expansion and the addition of lower priced service plans. Enterprise and government revenue had an increase
+
+primarily driven by the growth in our aviation, maritime, mobility, and other enterprise business, partially offset by a
+
+decrease in our government business. These increases in revenue were offset by higher operating expenses for
+
+international expansion, and higher research and development costs.
+
+Connectivity Segment Adjusted EBITDA for 2025 increased by $3,319 million to $7,168 million compared to
+
+$3,849 million in 2024 while Connectivity Segment Adjusted EBITDA for 2024 increased by $2,247 million to
+
+$3,849 million compared to $1,602 million in 2023. The year-over-year increase in 2025 was primarily driven by
+
+Table of Contents
+
+higher revenue from growth in our consumer and enterprise customers, partially offset by higher marketing and
+
+international expansion costs to grow our subscribers, as well as higher research and development costs for our next-
+
+generation product development . We have driven our strong sequential Connectivity Segment Adjusted EBITDA
+
+growth by expanding the scale and efficiency of our LEO satellite constellations and our highly verticalized supply
+
+chain, which has delivered major cost reductions in user terminal production.
+
+AI Segment Adjusted EBITDA
+
+AI Segment Adjusted EBITDA for the three months ended March 31, 2026 decreased by $497 million to $(609)
+
+million compared to $(112) million for the three months ended March 31, 2025, primarily driven by higher cloud
+
+compute and data center infrastructure and operating costs, and employee compensation expenses, partially offset by
+
+AI Segment Adjusted EBITDA for 2025 decreased by $1,584 million to $(1,237) million compared to $347 million
+
+in 2024 while AI Segment Adjusted EBITDA for 2024 decreased by $875 million t

@@ -1,0 +1,667 @@
+ December 31, 2023. This increase was primarily due to higher server depreciation of $97 million ,
+
+partially offset by lower infrastructure and revenue share expenses of $46 million , and lower employee and
+
+facilities-related expenses of $18 million resulting from the Company�s restructuring and cost reduction efforts.
+
+Research and Development
+
+Research and development for the year ended December 31, 2024 increased by $990 million , or 531.5% , compared
+
+to the prior year ended December 31, 2023. This increase was primarily due to increased investments made in
+
+advancing our AI technologies, including employee compensation expenses (including salaries, benefits, and share-
+
+based compensation) and infrastructure services of $703 million and higher depreciation of $321 million for our
+
+equipment hardware.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2024 increased by $24 million , or 2.3% ,
+
+compared to the prior year ended December 31, 2023. This increase was primarily due to an increase in our
+
+Table of Contents
+
+amortization expense of $107 million related to the Twitter brand becoming a finite-lived intangible asset and higher
+
+legal costs of $65 million , partially offset by lower employee and facilities related costs of $125 million and lower
+
+professional fees of $23 million resulting from the Company�s restructuring and cost reduction efforts.
+
+Restructuring charges
+
+Restructuring charges for the year ended December 31, 2024 decreased by $24 million , or 10.2% , compared to the
+
+prior year ended December 31, 2023. This decrease was due to the impairment on the office leases assumed as part
+
+of the Twitter acquisition that primarily occurred during the year ended December 31, 2023, partially offset by an
+
+increase in workforce-related restructuring charges.
+
+Impairment for the year ended December 31, 2024 decreased by $3,775 million compared to the prior year ended
+
+December 31, 2023. The impairment during the year ended December 31, 2023 was related to the impairment of the
+
+Twitter brand intangible asset following its rebranding to X.
+
+Loss from Operations
+
+Loss from operations for the year ended December 31, 2024 decreased by $2,412 million , or 60.7% , compared to the
+
+prior year ended December 31, 2023 driven by the factors described above.
+
+Non-GAAP Financial Measures
+
+Management believes that certain financial measures that are not presented in accordance with GAAP provide
+
+management and investors with useful supplemental information that provides a meaningful view of our financial
+
+condition and results of operations across periods by removing the impact of items that management believes do not
+
+directly reflect our ongoing operating performance. Adjusted EBITDA and Segment Adjusted EBITDA are
+
+supplemental measures that are not required by or presented in accordance with GAAP. In evaluating our
+
+performance as measured by Adjusted EBITDA and Segment Adjusted EBITDA, management recognizes and
+
+considers the limitations of these measures. Other companies in our industry may calculate Adjusted EBITDA and
+
+Segment Adjusted EBITDA differently than we do or may not calculate them at all, limiting their usefulness as
+
+comparative measures. Because of these limitations,  Adjusted EBITDA and Segment Adjusted EBITDA should not
+
+be considered in isolation or as a substitute for net income (loss), income (loss) from operations, or any other
+
+measure calculated in accordance with GAAP, and should be considered together with our GAAP financial
+
+measures and the reconciliations to the corresponding most directly comparable GAAP financial measures set forth
+
+in this prospectus.
+
+Adjusted EBITDA is defined as net income (loss) excluding (i) depreciation and amortization, (ii) share-based
+
+compensation, (iii) impairment, (iv) restructuring charges, (v) interest expense, (vi) interest income, (vii) other
+
+income (expense), net and (viii) provision for income taxes. Segment Adjusted EBITDA is defined as segment
+
+income (loss) from operations excluding (i) depreciation and amortization, (ii) share-based compensation, (iii)
+
+restructuring charges, and (iv) impairment. Adjusted EBITDA and Segment Adjusted EBITDA are key performance
+
+measures that our management uses to assess our financial performance as well as for internal planning and
+
+forecasting purposes. We consider Adjusted EBITDA and Segment Adjusted EBITDA to be meaningful
+
+performance measures for investors to evaluate our operating performance and to compare the financial results
+
+between periods.
+
+Table of Contents
+
+The following table sets forth a reconciliation of Net income (loss), the most directly comparable GAAP measure, to
+
+Adjusted EBITDA:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Net income (loss) ........................................
+
+Depreciation and amortization ....................
+
+Share-based compensation ..........................
+
+Restructuring charges ..................................
+
+Impairments ................................................
+
+Interest expense ...........................................
+
+Interest income ............................................
+
+Other (income) expense, net .......................
+
+Provision for (benefit from) income taxes ..
+
+Adjusted EBITDA .....................................
+
+Table of Contents
+
+The following table sets forth a reconciliation of Income (loss) from operations for each segment, the most directly
+
+comparable GAAP measure, to Segment Adjusted EBITDA :
+
+Three Months Ended March 31,
+
+Total Reportable
+
+Income (loss) from operations ............................
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Restructuring charges ..........................................
+
+Segment Adjusted EBITDA ................................
+
+Three Months Ended March 31,
+
+Total Reportable
+
+Income (loss) from operations ............................
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Restructuring charges ..........................................
+
+Impairment ..........................................................
+
+Segment Adjusted EBITDA ................................
+
+Year Ended December 31,
+
+Total Reportable
+
+Income (loss) from operations ............................
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Restructuring charges ..........................................
+
+Impairment ..........................................................
+
+Segment Adjusted EBITDA ................................
+
+Table of Contents
+
+Year Ended December 31,
+
+Total Reportable
+
+Income (loss) from operations ............................
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Restructuring charges ..........................................
+
+Impairment ..........................................................
+
+Segment Adjusted EBITDA ................................
+
+Year Ended December 31,
+
+Total Reportable
+
+Income (loss) from operations ............................
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Restructuring charges ..........................................
+
+Impairment ..........................................................
+
+Segment Adjusted EBITDA ................................
+
+Liquidity and Capital Resources
+
+Our primary sources of liquidity are cash flows generated from operations, our total cash and cash equivalents of
+
+$15,852 million as of March 31, 2026, short-term marketable securities of $7,823 million as of March 31, 2026, and
+
+borrowings under our credit facilities. As of March 31, 2026, we have $1,500 million available to borrow under the
+
+SpaceX Credit Facility .  The cash we generate from our core operations also enables us to fund our research and
+
+development projects including our Starship rocket and next-generation satellites, the construction of future data
+
+centers, and the continued expansion of our AI-enabled products.
+
+In addition, because we expect a significant portion of our future expenditures to fund growth initiatives, we retain
+
+flexibility to adjust spending across segments. For example, if our near-term data center needs decrease in scale or
+
+ramp more slowly than expected, including due to global economic, tax, trade or business conditions, we may
+
+reduce future capital expenditures in this segment and reallocate those expenditures to other segments based on
+
+business priorities and growth opportunities. In addition, we continually evaluate our cash needs and may decide it is
+
+best to raise additional capital or seek alternative financing sources to fund the rapid growth of our business,
+
+including through drawdowns on existing or new debt facilities. We may seek to refinance the SpaceX Bridge Loan,
+
+including with the proceeds from notes offerings, bank borrowings, or other financial arrangements. We may also
+
+from time to time determine that it is in our best interests to voluntarily repay certain indebtedness early.
+
+Accordingly, we believe we have sufficient sources of funding to meet our business requirements for at least the
+
+next twelve months from the issuance of the consolidated financial statements.
+
+SpaceX Credit Facility
+
+In February 2025, SpaceX entered into a five-year senior unsecured revolving credit agreement with a syndicate of
+
+banks, under which the Company may borrow up to $1,500 million (�SpaceX Credit Facility�). The SpaceX Credit
+
+Facility is subject to certain customary representations, warranties, covenants, and events of default, including a
+
+Table of Contents
+
+maximum financial covenant requiring the Company to maintain a Consolidated Leverage Ratio (as defined in the
+
+SpaceX Credit Facility) of no greater than 3.75 to 1.0 as of the end of each fiscal quarter (subject to temporary
+
+increases to 4.25 to 1.0 following certain qualified acquisitions) and other customary reporting requirements. The
+
+SpaceX Credit Facility also includes sublimits of up to $150 million for financial letters of credit and up to $1,000
+
+million for performance letters of credit. The SpaceX Credit Facility terminates, and all outstanding loans become
+
+due and payable, on February 7, 2030, unless the parties agree to an extension in accordance with the terms of the
+
+SpaceX Credit Facility. As of March 31, 2026 and December 31, 2025, no amounts were outstanding under the
+
+SpaceX Credit Facility.
+
+Borrowings under the SpaceX Credit Facility bear interest, at the Company�s option, at a rate per annum equal to (i)
+
+a forward-looking term rate based on SOFR (�Term SOFR�) plus an applicable margin ranging from 0.75% and
+
+1.25% (depending on the Company�s debt rating), or (ii) a base rate equal to the highest of (a) Federal Funds Rate
+
+plus 0.5%, (b) the Prime Rate, (c) Term SOFR plus 1.00%, and (d) 1.00% plus an applicable margin ranging from
+
+0.0% and 0.25% (depending on the Company�s debt rating). The Company may also borrow in various alternative
+
+currencies, with interest calculated at rates based on SONIA for Pound Sterling-denominated loans and EURIBOR
+
+for Euro-denominated loans, plus an applicable margin. In addition, the Company pays a commitment fee on the
+
+unused portion of the SpaceX Credit Facility, which ranges from 0.07% (amended to 0.06% under the Amended
+
+SpaceX Credit Facility described below) to 0.11% per annum based on the Company�s debt rating. As of March 31,
+
+2026, the Company was in compliance with all covenants under the SpaceX Credit Facility.
+
+In March 2026, the Company entered into a First Amendment to Credit Agreement and Waiver (the �First
+
+Amendment�) with its lenders, in connection with the Company�s entry into the SpaceX Bridge Loan (as defined
+
+below). The First Amendment, among other things, (i) waived certain specified defaults and (ii) amended certain
+
+definitions and covenants under the SpaceX Credit Facility to conform to the terms of the SpaceX Bridge Loan.
+
+In May 2026, SpaceX amended the SpaceX Credit Facility to increase the borrowing capacity up to $5,000 million
+
+(�Amended SpaceX Credit Facility�). As part of the Amended SpaceX Credit Facility, the sublimit for performance
+
+letters of credit was increased to $2,000 million. The Amended SpaceX Credit Facility terminates, and all
+
+outstanding loans become due and payable, on May 19, 2031, unless the parties agree to an extension in accordance
+
+with the terms of the Amended SpaceX Credit Facility. All other terms were consistent with the terms of the SpaceX
+
+Credit Facility.
+
+SpaceX Bridge Loan
+
+In March 2026, SpaceX entered into a new bridge loan credit agreement (the �SpaceX Bridge Loan�) with a
+
+syndicate of lenders, providing for an unsecured bridge term loan facility in an aggregate principal amount of
+
+$20,000 million . The SpaceX Bridge Loan matures on September 2, 2027, with two three-month extensions at the
+
+Company�s option, subject to the absence of a continuing default and the payment of an extension fee of 0.25% of
+
+the aggregate outstanding principal per extension, resulting in a final extended maturity date of March 2028.
+
+The proceeds of the SpaceX Bridge Loan were used to repay the X B-1 Term Loan, the X B-3 Term Loan, the xAI
+
+Fixed Rate Loan, the xAI Floating Rate Loan and the xAI 12.5% Senior Secured Notes (as defined and described in
+
+Note 10, Debt, to the consolidated financial statements included elsewhere in this prospectus). The Company may
+
+also use the remaining proceeds for general corporate purposes.
+
+The SpaceX Bridge Loan bears interest, at the Company�s election, at a rate per annum equal to (i) Term SOFR plus
+
+an applicable margin ranging from 0.75%-1.75% (depending on the Company�s debt rating), or (ii) a base rate equal
+
+to the highest of (a) the Federal Funds Rate plus 0.5% , (b) the Prime Rate, (c) Term SOFR plus 1.0% and (d) 1.00%,
+
+plus an applicable margin ranging from 0.00% to 0.75% (depending on the Company�s debt rating). In addition, the
+
+Company is obligated to pay duration fees equal to 0.125% of outstanding principal on the first anniversary of
+
+closing and 0.25% of outstanding principal on the fifteen-month anniversary of closing. As of March 31, 2026, the
+
+Company was in compliance with all covenants under the SpaceX Bridge Loan.
+
+The obligations of the Company under the SpaceX Bridge Loan are guaranteed on a joint and several basis by X
+
+Corp., X.AI LLC, and CTC Property LLC (each a subsidiary of the Company). The SpaceX Bridge Loan may be
+
+prepaid at any time, in whole or in part, without premium or penalty. The Company is required to use an amount
+
+Table of Contents
+
+equal to the net cash proceeds of certain debt financings to repay amounts outstanding under the SpaceX Bridge
+
+Loa n and to apply an amount equal to the net proceeds of a qualified initial public offering, including this offering,
+
+to repay such amounts within six months following receipt of such proceeds .
+
+The SpaceX Bridge Loan contains customary events of default and affirmative and negative covenants, including
+
+restrictions on liens, subsidiary indebtedness, fundamental changes (including a prohibition on the disposition of
+
+Starlink assets and other material businesses outside the consolidated group), and changes in the nature of the
+
+Company�s business. The sole financial maintenance covenant requires the Company to maintain a Consolidated
+
+Leverage Ratio � defined as consolidated funded indebtedness (net of 85% of unrestricted cash) to Consolidated
+
+EBITDA (as defined in the SpaceX Bridge Loan) � of no greater than 3.75 to 1.0 as of the end of each fiscal
+
+quarter, with a temporary step-up to 4.25 to 1.0 for four fiscal quarters following a qualifying acquisition of at least
+
+Material Cash Commitments
+
+From time to time in the ordinary course of business, we enter into agreements with suppliers for the purchase of
+
+parts and raw materials to manufacture our products. However, due to contractual terms, variability in the precise
+
+growth curves of our development and production ramps, and opportunities to renegotiate pricing, these contracts
+
+generally do not have long-term binding and enforceable purchase orders, and the timing and magnitude of purchase
+
+orders beyond the short term is difficult to accurately project. Because we do not have long-term purchase orders for
+
+these parts and raw materials, future purchases may result in material cash commitments. For additional information
+
+about this risk, please refer to �Risk Factors� in this prospectus.
+
+On September 7, 2025, the Company entered into a License Purchase Agreement (the �Spectrum License Purchase
+
+Agreement�) with Spectrum Business Trust 2025-1, a Nevada Business Trust (�Trust�) and EchoStar Corporation
+
+( �E choStar� and the transactions contemplated thereby, � Spectrum Transaction �). On November 5, 2025 the parties
+
+amended and restated the Spectrum License Purchase Agreement to include EchoStar�s licenses for up to 15 MHz of
+
+additional unpaired AWS-3 spectrum. The total consideration for the acquisition of EchoStar�s spectrum is
+
+approximately $19.6 billion, consisting of (i) approximately $11.1 billion in equity, payable through the issuance of
+
+approximat ely 261.8 million shares of the Company�s Class A common stock at a fixed value of $42.40 per share,
+
+and (ii) up to $8.5 billion related to the payoff of designated EchoStar debt, with any shortfall below $8.5 billion to
+
+be paid in cash. The allocation of cash and equity consideration is subject to certain adjustments based on the
+
+amount of EchoStar debt satisfied at or prior to closing. The Spectrum Transaction was approved by the FCC on
+
+May 12, 2026 and is expected to close on or about November 30, 2027 subject to other closing conditions . Upon
+
+closing, the Company intends to either use cash and cash equivalents on hand or seek alternative financing sources
+
+to fund the cash payment to EchoStar.
+
+As of March 31, 2026, we and our subsidiaries had outstanding $29,132 million in aggregate principal amount of
+
+indebtedness and no debt principal payments are due until August 28, 2027 if we choose not to extend.  As of March
+
+31, 2026, our total minimum lease payments wa s $5,823 million , of which $1,026 million is due within this fiscal
+
+year. For details regarding our indebtedness and lease obligations, refer to Note 10 , Debt , and Note 11 , Leases of our
+
+audited consolidated financial statements and Note 9 , Debt of our unaudited consolidated financial statements
+
+included elsewhere in this prospectus.
+
+Summary of Cash flows
+
+The following table summarizes our cash flows for the periods indicated:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Net cash provided by (used in)
+
+Operating activities ........................
+
+Investing activities .........................
+
+Financing activities ........................
+
+Table of Contents
+
+Operating Activities
+
+Net cash provided by operating activities increased by $320 million from $727 million during the three months
+
+ended March 31, 2025 to $1,047 million during the three months ended March 31, 2026 . This increase was primarily
+
+driven by an increase in working capital for deferred revenue of $1,153 million from upfront payments from our
+
+Space and Connectivity customers , partially offset by lower net income exclusive of non-cash items.
+
+Net cash provided by operating activities increased by $1,009 million from $5,776 million during the year ended
+
+December 31, 2024 to $6,785 million during the year ended December 31, 2025 . This increase was primarily driven
+
+by higher net income exclusive of non-cash items and an increase of $1,080 million for accounts payable and other
+
+liabilities as we continue to expand our infrastructure and timing of payments, and higher deferred revenue from
+
+cash received from upfront payments from our aviation customers. This increase was partially offset by an increase
+
+of $449 million for accounts receivable, prepaid expenses, and inventory .
+
+Net cash provided by operating activities increased by $1,256 million from $4,520 million during the year ended
+
+December 31, 2023 to $5,776 million during the year ended December 31, 2024 . This increase was primarily driven
+
+by higher net income exclusive of non-cash items, partially offset by a decrease of $628 million for inventory,
+
+accounts receivable, prepaid expenses and other assets due to increase in our revenue and production of Starlink
+
+Investing Activities
+
+Net cash used in investing activities increased by $12,554 million from $4,170 million during the three months
+
+ended March 31, 2025 to $16,724 million during the three months ended March 31, 2026 .  This increase was
+
+primarily driven by an increase in capital expenditures of $5,967 million related to the build out of data centers and
+
+related infrastructure, and space launch facilities and related infrastructure, as well as an increase in purchases of
+
+marketable securities of $7,489 million in the period. This increase was partially offset by an increase in cash
+
+received from product rebates of $1,195 million .
+
+Net cash used in investing activities increased by $8,779 million from $10,796 million during the year ended
+
+December 31, 2024 to $19,575 million during the year ended December 31, 2025 .  This increase was primarily
+
+driven by an increase in capital expenditures of $9,574 million related to the build out of data centers and related
+
+infrastructure, and space launch facilities and related infrastructure, partially offset by a net increase in cash received
+
+from marketable securities of $1,264 million .
+
+Net cash used in investing activities increased by $5,929 million from $4,867 million during the year ended
+
+December 31, 2023 to $10,796 million during the year ended December 31, 2024 .  This increase was primarily
+
+driven by an increase in capital expenditures of $6,748 million related to the build out of data centers and related
+
+infrastructure, and space launch facilities and related infrastructure, partially offset by an increase in cash received
+
+for the maturities of marketable securities of $981 million .
+
+Financing Activities
+
+Net cash provided by financing activities increased by $6,771 million from $354 million during the three months
+
+ended March 31, 2025 to $7,125 million during the three months ended March 31, 2026 .  This increase was
+
+primarily driven by an increase in proceeds from the SpaceX Bridge Loan and other financing arrangements of
+
+$17,950 million and proceeds from sale of our capital stock of $7,420 million , partially offset by an increase in
+
+payment on existing debt obligations and debt extinguishment costs of $14,703 million from the proceeds from the
+
+SpaceX Bridge Loan as well as an increase in repurchases of our capital stock of $3,838 million following the xAI
+
+Net cash provided by financing activities increased by $14,520 million from $11,830 million during the year ended
+
+December 31, 2024 to $26,350 million during the year ended December 31, 2025 .  This increase was primarily
+
+driven by an increase in proceeds from debt and other financing arrangements for our AI segment of $16,055 million
+
+and proceeds from sale of our capital stock of $5,706 million , partially offset by an increase in repayments on debt
+
+and other financing arrangements for our AI segment of $6,781 million .
+
+Table of Contents
+
+Net cash provided by financing activities increased by $11,408 million from $422 million during the year ended
+
+December 31, 2023 to $11,830 million during the year ended December 31, 2024 .  This increase was primarily
+
+driven by an increase in proceeds from the sale of our capital stock of $12,327 million , partially offset by an increase
+
+in the buyback of common and preferred shares by the Company of $104 million .
+
+Critical Accounting Estimates
+
+The preparation of financial statements and related disclosures in conformity with GAAP and the Company�s
+
+discussion and analysis of its financial condition and operating results require the Company�s management to make
+
+judgments, assumptions and estimates that affect the amounts reported. Note 2, �Summary of Significant
+
+Accounting Policies� of the Notes to audited consolidated financial statements included elsewhere in this p rospectus
+
+describes the significant accounting policies and methods used in the preparation of the Company�s consolidated
+
+financial statements. Management bases its estimates on historical experience and on various other assumptions it
+
+believes to be reasonable under the circumstances, the results of which form the basis for making judgments about
+
+the carrying values of assets and liabilities.
+
+Revenue Recognition
+
+Space contract revenue is derived from fixed-price contracts related to the development and provision of launch
+
+services for the deployment of spacecraft and other payloads to their intended orbit for both commercial customers
+
+and governmental agency space programs. Connectivity contract revenue for Starshield customers is mostly derived
+
+from fixed-price contracts related to the development of a secure satellite network designed specifically for
+
+government an d national security applications.
+
+The Company recognizes revenue over time when the Company�s performance on the contract creates an asset with
+
+no alternative use and when the Company has an enforceable right to payment for performance to date. The
+
+Company measures progress on these contracts using the cost-to-cost input method, as the Company believes this
+
+represents the most appropriate measure towards satisfaction of its performance obligation. Under the cost-to-cost
+
+input method, the Company records revenue based upon costs (such as materials and labor hours) incurred to date
+
+relative to the total estimated cost at completion.
+
+The Company�s contracts recognized over time using the cost-to-cost input method are complex and require the
+
+Company to estimate the total costs to perform over the term of the contracts, as well as the measurement of
+
+progress towards completion for each performance obligation. For Space contracts, developing the estimated total
+
+cost at completion for each performance obligation requires the use of significant management judgment, including
+
+assumptions regarding launch timing, labor hours, allocation of shared costs for launch vehicles that have been
+
+identified as reusable for multiple launches, as well as expected technological changes to launch vehicles and
+
+spacecraft. For Connectivity contracts, developing the estimated total cost at completion for each performance
+
+obligation requires the use of significant management judgment, including assumptions regarding labor hours,
+
+allocation of shared costs used in the production of satellites, satellite material costs, as well as expected
+
+technological changes to satellites. Material changes in estimated contract revenue or costs at completion and the
+
+resulting changes in contract profit could have a material impact on the Company�s financial condition and operating
+
+The impact of net adjustments from contracts recognized over time using the cost-to-cost input method to our
+
+revenue and operating income was not material for the years ended December 31, 2025, 2024, and 2023 and for the
+
+three months ended March 31, 2026. If the combined gross margins for our contracts recognized over time using the
+
+cost-to-cost input method had been estimated to be higher or lower by 1% during 2025, it would have increased or
+
+decreased operating income for the year by approximately $110 million.
+
+Property, Plant, and Equipment, Net
+
+Property, plant, and equipment, net is stated at cost less accumulated depreciation. The Company depreciates these
+
+assets primarily using the straight-line method over the estimated useful lives of the assets except flight vehicles and
+
+spacecraft, which are depreciated over the expected number of average flights for each flight vehicle and spacecraft.
+
+Leasehold improvements are depreciated over the shorter of their estimated useful lives or the related lease term.
+
+Table of Contents
+
+Determining the useful lives and the number of average flights a flight vehicle and spacecraft can fly require the
+
+Company to estimate the period over which we expect to recover the economic value of our property, plant, and
+
+equipment. For each of our flight vehicle hardware and spacecraft, we consider recovery and refurbishment success
+
+rates, refurbishment economics, customer acceptance limits that may prohibit the use of vehicles that have been
+
+flown more than a certain number of launches, expected future launches included in the mission manifest, as well as
+
+any anticipated retirement timing of certain flight vehicle and spacecraft models such as Falcon as a result of
+
+anticipated transition to Starship to determine the expected number of average flights for each vehicle.
+
+For our satellites assets, we consider factors such as on-orbit performance, orbit-raise timing, expected service
+
+capability, and the evolution of constellation density and technology.
+
+When we determine that the useful lives or expected remaining flights of assets are shorter or longer than we had
+
+originally estimated, we adjust the rate of depreciation to reflect the assets' revised useful lives or number of
+
+remaining flights.
+
+The Company periodically evaluates impairment of its property, plant, and equipment assets whenever events or
+
+circumstances indicate that the carrying value of an asset or asset group may not be recoverable. Factors we consider
+
+to identify indicators of potential impairment include significant changes or planned changes in our use of certain
+
+property, plant and equipment, technol

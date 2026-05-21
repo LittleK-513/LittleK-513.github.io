@@ -1,0 +1,599 @@
+o $347 million , compared to
+
+$1,222 million in 2023. The decrease in 2025 was primarily driven by higher cloud computing costs, facilities-
+
+related costs and employee expenses, partially offset by higher revenue. AI Segment Adjusted EBITDA is primarily
+
+driven by our strategy to rapidly and cost-effectively scale compute infrastructure. We expect to continue to expand
+
+our terrestrial data centers, and to launch orbital data centers, and we expect a multi-year investment horizon before
+
+these deployments translate into sustained positive Segment Adjusted EBITDA for our AI segment.
+
+Segment Adjusted EBITDA is a non-GAAP measure. Please refer to the section titled ��Non-GAAP Financial
+
+Measures� for additional information on our non-GAAP financial measures, including reconciliations of Segment
+
+Adjusted EBITDA to segment income (loss) from operations, the most directly comparable GAAP measure.
+
+Capital Expenditures
+
+The following table presents our capital expenditures by segment :
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Space ..................................................
+
+Connectivity .......................................
+
+AI ........................................................
+
+Total Capital Expenditures .................
+
+Space Capital Expenditures
+
+Space capital expenditures for the three months ended March 31, 2026 increased $293 million to $1,052 million
+
+compared to $759 million for the three months ended March 31, 2025. The increase was primarily driven by
+
+increased investment in our launch site infrastructure for Starship.
+
+Space capital expenditures for 2025 increased $1,800 million to $3,832 million compared to $2,032 million in 2024,
+
+while Space capital expenditures for 2024 increased $535 million to $2,032 million compared to $1,497 million in
+
+2023. The increase in each year-over-year period was primarily driven by increased investment in our launch site
+
+infrastructure for Starship.
+
+Connectivity Capital Expenditures
+
+Connectivity capital expenditures for the three months ended March 31, 2026 increased $518 million to $1,332
+
+million compared to $814 million for the three months ended March 31, 2025. The increase was primarily driven by
+
+higher satellite and ground equipment costs as we continue to increase our number of satellites and grow our satellite
+
+Connectivity capital expenditures for 2025 increased $680 million to $4,178 million compared to $3,498 million in
+
+2024, while Connectivity capital expenditures for 2024 increased $1,043 million to $3,498 million compared to
+
+Table of Contents
+
+$2,455 million in 2023. The increase in each year-over-year period was primarily driven by higher satellite and
+
+ground equipment costs as we continue to increase our number of satellites and grow our satellite network.
+
+AI Capital Expenditures
+
+AI capital expenditures for the three months ended March 31, 2026 increased $5,156 million to $7,723 million
+
+compared to $2,567 million for the three months ended March 31, 2025. The increase was primarily driven by
+
+investments in the rapid expansion of our terrestrial data centers, including the development, construction, and
+
+equipping of new facilities and supporting infrastructure.
+
+AI capital expenditures for 2025 increased $7,094 million to $12,727 million compared to $5,633 million in 2024,
+
+while AI capital expenditures for 2024 increased $5,170 million to $5,633 million compared to $463 million in
+
+2023. This increase was primarily driven by significant investments in the rapid expansion of our terrestrial data
+
+centers, including the development, construction, and equipping of new facilities and supporting infrastructure.
+
+Drivers of Our Performance
+
+Developing Starship. Starship is our next-generation vehicle that we expect will dramatically expand our launch
+
+capability through full and rapid reusability combined with unprecedented mass to orbit capability. As the most
+
+powerful launch system ever developed, we expect that Starship V3 will be able to carry a payload of 100 metric
+
+tons, and that future generations could reach 200 metric tons, potentially as soon as Starship V4. Starship is central
+
+to our goal of unlocking growth through our unique vertically integrated business model. Starship is expected to be
+
+the only vehicle with fully reusable first and second stages, which is critical to reducing launch costs and increasing
+
+launch cadence. We believe that Starship can eventually reduce the cost to reach orbit by 99% or more relative to the
+
+historical average launch cost per kilogram according to NASA of $18,500, establishing a scalable path to creating
+
+the infrastructure of the future, such as orbital AI compute.
+
+We have already demonstrated catching and reusing the first stage booster for Starship through our innovative
+
+�chopsticks� method to catch the booster. To date, we have executed 11 Starship flight tests. We have also
+
+scheduled a 12th flight test, which will debut the next generation Starship vehicle and Super Heavy booster . This
+
+next-generation Starship introduces major changes for better orbital performance and reusability. We plan to
+
+demonstrate key development milestones of catching the upper stage and demonstrating in-orbit propellant transfer
+
+capabilities. These milestones will be the key unlocks for a rapidly reusable rocket that we expect will take hundreds
+
+of thousands of tons of mass to orbit to drive growth in our Connectivity and AI segments, and allow us to develop
+
+the lunar economy and eventually to reach Mars . We expect Starship to commence payload delivery to orbit in the
+
+second half of 2026 following additional flight tests. For additional information about this risk, please refer to �Risk
+
+Factors �Risks Related to Our Business�Any failure or delay in the development of Starship at scale or in
+
+achieving the required launch cadence, reusability and capabilities thereafter would delay or limit our ability to
+
+execute our growth strategy, including the deployment of next-generation satellites, global satellite-to-mobile
+
+connectivity, and orbital AI compute, which could materially adversely affect our business, financial condition,
+
+results of operations, and future prospects � in this prospectus.
+
+Launch Costs and Cadence. Our launch costs and cadence underpin the foundational competitive advantage that
+
+enables the performance of each of our segments. The reusability of our launch vehicles meaningfully reduces the
+
+cost per kilogram to orbit by eliminating or limiting the need to manufacture new vehicles for every mission.
+
+Reusability also enables higher launch cadence by shortening the time between flights, as vehicles can be rapidly
+
+reflown after their return. These factors enable performance in our Connectivity segment by supporting faster and
+
+more cost‑effective deployment of our satellite constellations. We expect they will support our AI segment as we
+
+aim to deploy a large fleet of orbital AI compute. We expect continued enhancements to our launch infrastructure
+
+and launch vehicles, including Starship, to drive cost down and throughput up, extending these benefits to our
+
+businesses, as well as to our third‑party customers who rely on our launch capabilities. As we continue to reduce
+
+launch costs and increase launch cadence, we expect to transform the rocket launch industry into airline-like
+
+operations, enabling continuous and affordable access to space. Period-to-period comparisons of launch costs and
+
+cadence are impacted by factors out of our control, including timing of delivery of customer payloads which impacts
+
+Table of Contents
+
+the mix of customer and internal payloads and related financial reporting, or weather which can delay a launch from
+
+one period to another.
+
+Increasing Satellite Capacity. The scale, reliability, and capacity of our LEO broadband and mobile satellite
+
+constellations drive our Connectivity segment�s growth and operating performance. In 2025 , launching and
+
+operating higher-throughput satellites supported Starlink�s service quality and customer reach by increasing
+
+available network capacity and improving service consistency during peak usage periods. As of March 31, 2026, we
+
+operated over 9,600 Starlink broadband and mobile satellites in Low-Earth Orbit, with the majority composed of our
+
+second-generation, V2 Mini satellites. We expect to commence deploying our next-generation V3 satellites,
+
+designed to offer one Tbps of downlink capacity per satellite, using Starship in the second half of 2026 and expect
+
+that a single Starship launch will be capable of deploying up to 60 V3 satellites to LEO, representing a twenty-fold
+
+increase in Starlink downlink capacity deployed relative to a Falcon 9 launch.
+
+We also provide satellite-to-mobile connectivity, supplementing terrestrial networks and substantially reducing
+
+mobile �dead zones� in approximately 30 countries. Since January 2025, we have grown our constellation from
+
+approximately 360 m obile V1 Mobile satellites to approximately 650 mobile V1 Mobile satellites. Through this
+
+constellation and in partnership with more th an 30 mobile network operators , we provided data, over-the-top voice,
+
+and messaging services to approximately 7.4 million monthly unique devices across approximately 30 countrie s .
+
+During 2025 , we also entered into agreements to acquire 65 MHz of spectrum in the United States as well as certain
+
+global Mobile Satellite Service spectrum licenses from EchoStar for $19.6 billion of equity and cash consideration,
+
+as described below u nder ��Liquidity and Capital Resources�Material Cash Commitments .� We expect the
+
+spectrum acquisition to close in November 2027, subject to required regulatory approvals and other closing
+
+conditions . We expect the wider bandwidth operations enabled by this spectrum purchase, together with our
+
+authorization to deploy 7,500 satellites including with the 2GHz spectrum band, will provide stronger support for
+
+current performance and potential future services, including broadband data and IoT connectivity, and is expected to
+
+enable 5G connectivity.
+
+These investments in satellite scale, per-satellite capacity, and expanded capabilities are instrumental to the growth
+
+and operating performance of our Connectivity segment, enabling us to onboard new users while improving service
+
+Increasing Starlink Brand Awareness and Acquiring New Subscribers. Our growth is driven in part by increased
+
+global awareness of Starlink�s capabilities and our ability to convert that awareness into customer adoption. Trust,
+
+visibility, and demonstrated reliability are central to customer acquisition, particularly for those in remote and
+
+infrastructure-limited regions. Proven performance in rural, remote, and disaster-affected areas, along with strong
+
+brand awareness, reinforces Starlink�s reputation as essential infrastructure, leading to higher adoption in new
+
+As of March 31, 2026, we had over 9,600 Starlink broadband and mobile satellites in Low-Earth Orbit, operating the
+
+world�s most advanced broadband constellation providing internet connectivity to approximately 10.3 million
+
+Starlink Subscribers across 164 countries, territories, and other markets, collectively home to more than 3.3 billion
+
+people. We are focused on growing the number of Starlink Subscribers by expanding our consumer distribution
+
+network across thousands of authorized retail stores globally, and executing region-specific marketing campaigns to
+
+increase brand awareness. By clearly demonstrating Starlink�s superior speed, low-latency, and ease of installation,
+
+we expect to drive meaningful subscriber growth.
+
+Increasing Enterprise Customer Adoption . As we continue to grow our Starlink constellation and bandwidth, we
+
+see a large opportunity to grow the enterprise connectivity market by providing solutions that had not previously
+
+been available. Our network is global and can provide primary connectivity for on-the-move applications as well as
+
+a resilient backup option for enterprises serviced by land-based connectivity. We plan to deepen our penetration with
+
+enterprise and government customers through direct, vertical-specific acquisition strategies. In recent years, we have
+
+assembled dedicated sales and engineering teams to market and support fleet-wide conversions in aviation and
+
+maritime, customized deployments for land mobility, which we expect to continue to grow as consumers who
+
+experience Starlink begin to expect high-performance connectivity when traveling. We expect to enable more
+
+customized deployments for land mobility across existing use cases such as commercial trucking fleets, and new
+
+Table of Contents
+
+applications enabled by more connected devices. We also continue to develop specialized networks for secure
+
+government applications via Starshield. By leveraging proven performance in mission-critical environments and
+
+expanding through channel partners in select geographies, we expect to drive increased adoption among high-value
+
+enterprise and government accounts.
+
+Accelerating Investment in Growth and Innovation. We are simultaneously developing and scaling a wide range of
+
+complex, capital‑intensive projects, including Starship and terrestrial and orbital AI compute. We believe speed is a
+
+competitive advantage, and periodically we decide to increase and accelerate our investments. For example, in 2025
+
+we accelerated our timeline for Starship development, increasing R&D in our Space segment to $3,004 million ,
+
+compared to $1,835 million in 2024 . In our AI segment, in 2025 we successfully accelerated deployment of compute
+
+for the development of Grok, increasing R&D in our AI segment to $5,064 million , compared to $1,176 million in
+
+2024 . We believe pursuing multiple ambitious programs in parallel enables us to compound advantages across our
+
+vertically integrated innovation engine and unlock new large addressable markets over time. The timing of our
+
+investments is not fixed and may accelerate based on technical progress, market opportunity, or resource
+
+availability. As a result, our operating results, margins and profitability may fluctuate from period to period as we
+
+continue to prioritize execution speed, capacity expansion, and technological leadership over near‑term margin
+
+optimization. We believe that this approach maximizes long‑term value creation by allowing us to move faster than
+
+competitors, scale earlier in emerging markets, and reinforce durable competitive advantages that we expect to
+
+benefit our business over time.
+
+Supply Chain and Manufacturing Efficiency for User Terminals. The operating performance of our Connectivity
+
+segment depends in part on the cost and availability of user terminals at scale. We are vertically integrated across
+
+terminal design, production, and support, including silicon, hardware, software, manufacturing, fulfillment, and
+
+operations, which enables us to control our means of production as well as rapidly iterate to continuously improve
+
+the performance of our user terminals and optimize product cost. Since our initial launch of our user terminal, we
+
+have optimized the design of our phased-array antennas, our self-aligning antenna responsible for connecting user
+
+equipment to our LEO satellite network, for manufacturability and high-volume scale. Over the past five years, we
+
+have significantly lowered production costs and have scaled terminal output to approximately 200,000 terminals per
+
+week. We plan to continue to further scale production significantly and make gains that improve margins, lower
+
+customer barriers, and broaden addressable markets.
+
+Scaling our AI Compute Rapidly and Efficiently . Our ability to rapidly and cost-effectively scale AI compute is a
+
+significant driver of our competitiveness. We view scaling of compute capacity through a simple lens: power
+
+availability and the powered shell together determine how quickly we can deploy compute, and our model and
+
+serving stack in that powered shell determines how efficiently we convert that compute into useful tokens. In order
+
+to scale our AI segment rapidly and efficiently, our strategy is extreme vertical integration, �from shovels to tokens.�
+
+Power Availability and Powered Shells. We have demonstrated an industry-leading ability to rapidly deploy
+
+large-scale data center infrastructure at unprecedented speed and cost efficiency. Our COLOSSUS and
+
+COLOSSUS II data centers collectively provide approximately 1.0 gigawatt of compute power, with additional
+
+power capacity available for data center operations. We brought the first cluster of COLOSSUS online in 122
+
+days, repurposing the shell of an existing factory, and the first cluster of COLOSSUS II online even faster in 91
+
+days. As an illustrative comparison, an industry benchmark to bring online a 100 megawatt greenfield data
+
+center is approximately two years. We also demonstrated a significant improvement in cost efficiency,
+
+achieving data center construction costs for COLOSSUS II that are considerably lower than industry
+
+benchmarks on a per megawatt basis.
+
+COLOSSUS and COLOSSUS II were brought online almost entirely through on-site power generation
+
+capabilities that we designed, built, and deployed ourselves. We view our proven ability to construct power
+
+infrastructure at this scale and speed as a significant competitive advantage. We partner closely with local
+
+utilities to fund grid infrastructure expansions and access excess capacity, while proactively curtailing our grid
+
+usage whenever required to prioritize community needs. Megapacks�utility-scale battery storage systems�
+
+deliver critical redundancy and help stabilize operations during peak demand. Going forward, COLOSSUS II is
+
+expected to be primarily powered by a dedicated natural gas power plant, supplemented over time by additional
+
+grid capacity that we are directly funding through our local utility partners. Our comprehensive expertise across
+
+the full infrastructure stack�from power procurement and on-site generation to distribution and advanced
+
+Table of Contents
+
+cooling systems�enables us to translate available power into usable compute capacity with exceptional
+
+efficiency. As we continue to scale and optimize, we expect to drive further improvements in Power Usage
+
+Effectiveness. We expect these gains to accelerate the path from buildout to monetization.
+
+AI Token Generation Efficiency. We are highly vertically integrated. We design, own or lease, and install all of
+
+our powered shells and dedicated processor capacity. This full-stack ownership enables us to efficiently convert
+
+power capacity into usable compute, precisely control cluster configuration, and operate a true end-to-end
+
+system spanning infrastructure through to model deployment. Our operating performance depends on how
+
+effectively we utilize deployed compute once capacity comes online�specifically, our ability to convert raw
+
+infrastructure into reliable, high-throughput token generation at scale. Achieving this requires tight coordination
+
+across model training and inference workflows, hardware configuration, and data center operations so that
+
+utilization and throughput ramp efficiently as we expand. We believe we hold a meaningful efficiency
+
+advantage by tightly integrating the model layer directly with the compute layer. Unlike third-party
+
+environments that impose multiple abstraction layers, we run our serving stack close to the processors and
+
+optimize serving, networking, and cluster configuration as a single unified system. This �model-to-compute�
+
+integration reduces overhead, improves hardware utilization, and increases the proportion of available compute
+
+that is converted into delivered output tokens. Output tokens represent the final generated response delivered to
+
+the user, while total processing can be substantially higher when a request triggers additional inference-time
+
+reasoning steps. Because we control workload scheduling and serving logic, we can prioritize high token
+
+efficiency�intelligently balancing compute allocated to reasoning with strong final output to maintain or
+
+improve response quality. This end-to-end control, combined with our sourcing relationships with leading
+
+compute providers, gives us a performance-per-watt advantage and enables us to adopt new processor
+
+generations at scale more rapidly through a repeatable playbook for reconfiguration and recommissioning.
+
+Orbital AI Compute Has the Potential to Massively Increase Our Ability to Scale Our AI Compute,
+
+Accelerate Our Pace, and to Be More Cost Effective Relative to Terrestrial Options. We believe we are the
+
+only company with a commercially viable path to building orbital AI compute at scale. This is underpinned by
+
+our unique ability to launch substantial mass into orbit cost efficiently through reusable rockets and manufacture
+
+secure, reliable, and high performance satellites at low cost and high volume. We plan to develop orbital data
+
+centers to enable scaling of compute capacity for us and our customers that is independent of terrestrial power
+
+infrastructure constraints. Space offers the potential to access virtually limitless power and an operating
+
+environment that supports sustained high‑density compute, including structural advantages for power
+
+generation, cooling, and uninterrupted operations as capacity grows. We plan to employ a modular shell
+
+approach built around our scalable satellite constellation, which enables compute capacity to be deployed and
+
+expanded efficiently as capacity requirements grow. The architecture also supports shorter refresh cycles at the
+
+token layer, as we can upgrade compute as successive chip generations arrive, increasing token output per unit
+
+of installed capacity. Our goal over time is to launch 100 gigawatts of compute to space each year. If operated
+
+continuously, the generation resources used to support 100 gigawatts of compute could generate approximately
+
+one-fifth of the annual power production in the United States, which was 4.4 thousand terawatt hours in 2025 ,
+
+according to the U.S. Energy Information Administration (EIA). We expect space‑based compute to massively
+
+increase AI compute scale, while also improving token economics.
+
+Ability to Increase Revenue from our Consumer User Base. Our performance depends in part on our ability to
+
+effectively increase revenue from our over 1.3 billion accounts active in the last twelve months ended March 2026 ,
+
+including approximately 550 million monthly active AI users across Grok and X through multiple complementary
+
+monetization channels:
+
+Growing our Advertising Platform. A dvertising remains a core monetization channel for our AI segment, with
+
+revenue driven by our ability to deliver highly relevant ads. We aim to grow advertising revenue per user by
+
+strengthening performance advertising, expanding AI‑driven targeting and measurement, and introducing richer
+
+ad formats and creative tools. A central focus of ours is making ads feel like content�contextually relevant,
+
+aligned with user interests, and integrated into real‑time conversations. Grok increasingly supports this strategy
+
+by helping advertisers with campaign creation, creative optimization, and alignment with trending topics and
+
+user intent. While these factors help us drive advertising revenue, the pricing of our advertising products is also
+
+affected by other factors, including the global economy and the highly competitive nature of our industry. We
+
+Table of Contents
+
+believe continued investment in AI‑powered advertising will further improve advertiser ROI while further
+
+enhancing user experience.
+
+Conversion of Users to Paid Subscribers. In parallel, we are focused on converting a greater portion of our user
+
+base into paying subscribers through our X subscription (Premium and Premium+) and Grok subscription
+
+offerings. Subscribers benefit from enhanced functionality, exclusive features, and access to our latest AI
+
+models. As of March 31, 2026, we reached approximately 6.3 million active paid subscribers, which was
+
+comprised of approximately 4.4 million X Premium and Premium+ paid subscribers and approximately 1.9
+
+million SuperGrok, SuperGrok Heavy and SuperGrok Lite paid subscribers. We plan to continue adding new
+
+features and functionality while releasing increasingly capable Grok models to increase the penetration rate of
+
+our subscriber base. Our AI segment has demonstrated exceptional model velocity: since launching Grok, we
+
+have developed leading frontier models at a far faster rate of innovation than others. We believe this pace of
+
+innovation strengthens the value proposition of our subscription offerings and supports long‑term subscriber
+
+Progress Toward the Everything App and New Monetization Channels. We aim to evolve X into an
+
+�Everything App,� integrating real-time information, communications, media, payments, banking, commerce
+
+and more within one consumer experience. This can increase the usefulness of X, and therefore increase the
+
+usage and monetization potential of X. We have rapid product launch velocity, with a frequent cadence of new
+
+features and products launched since 2023, including features such as long‑form video, improved group
+
+interactions, and creator tools. We plan to further broaden the value proposition of X through offerings like
+
+Money, a product we launched in beta in November 2025, which aims to expand platform utility by enabling
+
+payments and other financial services. We released X Chat in November 2025, which features end-to-end
+
+encryption and has no connection to advertising, unlike other services. We intend to further embed Grok
+
+throughout the platform to enhance discovery, analysis of posts, user support, and personalization, making core
+
+workflows more useful and reducing friction for users to adopt paid features.
+
+Growing Enterprise and Government Adoption of Our AI Offerings. Our future growth and financial performance
+
+depend in part on our ability to increase adoption and usage of our AI offerings among enterprise and government
+
+customers. We have launched Grok Business, Grok Enterprise, Grok API, and xAI Gov, products that we believe
+
+will be attractive to enterprises and governments, and we expect substantial opportunities to acquire new customers.
+
+We are also partnering with Cursor to advance Grok and potentially to create jointly-owned coding and knowledge
+
+work AI models, trained on our compute infrastructure. Over time, we also believe enterprises and governments will
+
+present significant opportunities for revenue expansion as they deploy our models more broadly across their
+
+organizations, adopt new capabilities, and build and operate solutions using our API. We also intend to continue to
+
+offer our compute infrastructure to third-party customers. Our ability to realize these expansion opportunities
+
+depends on continued innovation, reliable performance, and meeting evolving technical, security, and compliance
+
+Components of Results of Operations
+
+Description of Our Segments
+
+Space segment generates revenue primarily through (i) Launch Services for the deployment of payloads to their
+
+intended orbits for both commercial and government customers utilizing Falcon 9 and Falcon Heavy, and (ii)
+
+Launch and Development for the development of spacecraft and provision of launch and mission services for
+
+government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon. Launch Services
+
+revenue is derived from fixed-price contracts that range from one to five years. Launch and Development revenue is
+
+derived from fixed-price contracts that can range from one to fourteen years.
+
+Table of Contents
+
+The Company recognizes Launch Services revenue at a point in time , due to the interchangeability of flight
+
+hardware and minimal unique engineering costs. Revenue and costs are deferred and not recognized until upon the
+
+launch or deployment of the customer�s payload to their intended orbit.
+
+The Company recognizes Launch and Development revenue over time as the Company�s performance on the
+
+contract creates an asset with no alternative use and the Company has an enforceable right to payment for
+
+performance to date. The Company measures progress on these contracts using the cost-to-cost input method, which
+
+the Company believes represents the most appropriate measure towards satisfaction of its performance obligation.
+
+For launches of our Starlink satellites, the Company does not recognize any inter-segment revenue, rather those
+
+launch costs are capitalized in satellites in Property, plant, and equipment, net .  We allocate a significant amount of
+
+launch capacity to our Connectivity segment, and expect to allocate a significant amount to our AI segment in the
+
+future. Our Space segment revenue only reflects our customer launches and customer activities.
+
+Revenue from Launch Services recognized at point in time and revenue from Launch and Development recognized
+
+over time as a percentage of total Space segment revenue are as follows:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Launch Services ...............................
+
+Launch & Development ...................
+
+Space ................................................
+
+We expect Space revenue growth to continue to be lower than total company revenue growth as our internal
+
+business continues to absorb most of the growth in our launch capacity. In addition, we expect Launch and
+
+Development to represent a larger portion of our Space revenue as we continue to serve our long-term contracts for
+
+our government customers. From period to period, Space revenue will vary based on the mix of launches used for
+
+customers and our own businesses.
+
+Expenses - Space
+
+The Company�s Falcon 9 and Falcon Heavy are composed of boosters (also known as first stages), second stages,
+
+Merlin engines, and fairings. Boosters, fairings, and Merlin engines are reu

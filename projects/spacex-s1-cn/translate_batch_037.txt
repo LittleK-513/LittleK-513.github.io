@@ -1,0 +1,597 @@
+............
+
+Restricted cash included in prepaid expenses and other current
+
+assets ...........................................................................................
+
+Restricted cash included in other assets .........................................
+
+Total as presented in the consolidated statements of cash
+
+flows ..........................................................................................
+
+Marketable Securities
+
+The Company�s marketable securities consist primarily of debt securities of the U.S. Government, time deposits and
+
+certificates of deposits, and are classified and accounted for as either available-for-sale or held-to-maturity.
+
+Management determines the classification of its investments at the time of purchase and reevaluates the
+
+classification at each balance sheet date. Marketable securities are classified as held-to-maturity when the Company
+
+has the positive intent and ability to hold the securities to maturity and are carried at cost. The Company�s available-
+
+for-sale investments in marketable securities are recorded at fair value, with any unrealized gains and losses, net of
+
+taxes, reported as a component of accumulated other comprehensive income (loss) in shareholders� equity until
+
+realized. Realized gains and losses on the sale of available-for-sale marketable securities are recorded in Other
+
+income (expense), net . Interest on marketable securities is included in Interest income .
+
+The Company classifies its marketable securities as either short-term or long-term based on each instrument�s
+
+underlying contractual maturity date. Marketable securities with maturities of 12 months or less from the balance
+
+sheet date are classified as short-term, and maturities greater than 12 months from the balance sheet date are
+
+classified as long-term and included in Other assets .
+
+Accounts Receivable, Unbilled Receivables, and Allowance for Credit Losses
+
+The Company extends credit in the normal course of business to its customers and performs credit evaluations on a
+
+case-by-case basis. The Company generally does not obtain collateral or other security to secure accounts receivable.
+
+Billed receivables are recorded at their carrying amount, net of allowance for credit losses, and do not bear interest.
+
+Unbilled receivables is comprised principally of revenue recognized on contracts that are not contractually billable at
+
+the balance sheet date.
+
+The allowance for credit losses is established through a provision for bad debt expense which is recorded in Selling,
+
+general, and administrative expense in the consolidated statements of operations . The Company determines the
+
+adequacy of its allowance for credit losses by considering a number of factors including: age of invoices, each
+
+customer � s expected ability to pay and collection history, customer-specific information, and current economic
+
+conditions that may impact a customer � s ability to pay. Accounts receivable are written off when they are deemed
+
+Fair Value Measurement
+
+Financial Accounting Standards Board (�FASB�) Accounting Standards Codification (�ASC�) Topic 820, Fair
+
+Value Measurement , states that fair value is an exit price, representing the amount that would be received to sell an
+
+asset or paid to transfer a liability in an orderly transaction between market participants. As such, fair value is a
+
+market-based measurement that should be determined based on assumptions that market participants would use in
+
+pricing an asset or a liability. The three-tiered fair value hierarchy, which prioritizes which inputs should be used in
+
+measuring fair value, is comprised of:
+
+Level I Observable inputs such as quoted prices in active markets
+
+Table of Contents
+
+Level II Inputs other than quoted prices in active markets that are observable either directly or indirectly
+
+Level III Unobservable inputs for which there is little or no market data
+
+The fair value hierarchy requires the use of observable market data when available in determining fair value. The
+
+Company�s financial assets only include cash equivalents, certain restricted cash accounts, digital assets and
+
+marketable securities that are measured and recorded at fair value on a recurring basis. The carrying amounts of the
+
+Company�s other financial instruments, including cash, accounts receivable, and accounts payable approximate fair
+
+value because of their short maturities. The carrying value of financing obligations approximate fair value based on
+
+the interest rate remaining relatively consistent from the dates these arrangements were initially entered into and/or
+
+the overall materiality of the related liability balances.
+
+Launch Vehicles and Spacecraft
+
+The Company has four types of launch vehicles - Falcon 9, Falcon Heavy, Dragon, and Starship.  Falcon 9 and
+
+Falcon Heavy are comprised of the following significant components: boosters (also known as first stages), second
+
+stages, Merlin engines, and fairings.  Boosters, fairings, and Merlin engines are reusable and are classified as
+
+Property, plant, and equipment, net .  The second stages are not reusable and are recorded as inventory until they are
+
+launched for point-in-time revenue transactions or assigned for over-time revenue transactions.  Dragon is composed
+
+of a fully reusable capsule that is classified as Property, plant, and equipment, net . Starship is a fully reusable rocket
+
+composed of boosters, ships, and Raptor engines and is currently in the development stage. A majority of Starship
+
+costs are expensed to Research and development as incurred.
+
+Inventory consists primarily of raw materials and work-in-progress used in the production of launch vehicles and
+
+Starlink K its , and finished goods for Starlink Kits, Falcon 9 and Falcon Heavy second stages awaiting launch.
+
+Inventory is computed using standard cost or weighted average, which approximates actual cost on a first-in, first-
+
+out basis and is stated at the lower of cost or net realizable value. The Company records inventory write-downs in
+
+Cost of revenue in the consolidated statements of operations for estimated obsolescence or unmarketable inventories
+
+based upon assumptions about future demand and design, and technological or other changes.
+
+Property, Plant, and Equipment, net
+
+Property, plant, and equipment are stated at cost, less accumulated depreciation. Depreciation is computed using the
+
+straight-line method over the estimated useful lives of the assets except flight vehicles, which is computed based on
+
+the expected number of average flights for each flight vehicle. Leasehold improvements are depreciated over the
+
+shorter of their estimated useful lives or the related lease term. Management periodically reviews these useful life
+
+estimates with engineering and operations teams and revises them as additional data becomes available.
+
+The Company estimates the useful lives of its satellite assets based on engineering studies, historical on-orbit
+
+performance, propellant life, utilization patterns, design enhancements across generations, and planned transitions to
+
+newer satellite technology. The Company estimates broadband satellites to have a five-year useful life and the first
+
+generation mobile satellites to have a three-year useful life.
+
+The Company estimates the expected flights for its flight vehicle hardware based on three key criteria: (1) the
+
+continued ability to successfully recover and refurbish the hardware for additional flights, (2) the continued
+
+economic feasibility of using the hardware on incremental flights, supported by declining refurbishment costs and
+
+sensitivity analyses, and (3) customer acceptance for reflown hardware as evidenced by the Company�s launch
+
+Expenditures for maintenance and repairs that do not extend the lives of the respective assets are expensed as
+
+incurred while significant refurbishment, renewals, and enhancements that increase the functionality, output or
+
+expected life of an asset are capitalized and depreciated ratably over the identified useful life.
+
+Table of Contents
+
+Satellites include costs to build the satellites (parts, labor, and allocated overhead) as well as capitalized launch costs
+
+incurred by the Space segment to launch the satellites to orbit, which include an allocation of the flight vehicle
+
+The Company capitalizes certain interest costs associated with significant acquisition or construction of certain
+
+Property, plant, and equipment, net . The Company begins to capitalize qualified interest cost once activities
+
+necessary to get the asset ready for its intended use have commenced. The Company calculates qualified interest
+
+capitalization using the average amount of accumulated expenditures during the period the asset is being prepared
+
+for its intended use and a capitalization rate which is derived from the Company�s weighted average borrowing rate
+
+during such time, in the absence of specific borrowings related to the significant long term construction projects.
+
+The Company ceases capitalization on any portions substantially completed and ready for their intended use.
+
+Capitalized interest is considered a part of the assets� historical cost, and depreciates over the estimated useful lives
+
+of the underlying assets.
+
+The Company evaluates impairment of its Property, plant, and equipment assets at the lowest level for which
+
+identifiable cash flows are largely independent of the cash flows of other assets and liabilities. The Company
+
+reviews Property, plant, and equipment for impairment whenever events or circumstances indicate that the carrying
+
+value of an asset or asset group may not be recoverable. If estimated future cash flows are less than the carrying
+
+value of the asset or asset group, an impairment charge is recognized to the extent its carrying value exceeds its
+
+estimated fair value. Routine asset disposals, scrapping, gateway decommissions, and other recurring operational
+
+losses are charged to Cost of revenue or Selling, general, and administrative expenses depending on the nature of the
+
+assets, or to impairment if the impairment is considered to be outside the normal course of business.
+
+The estimated useful lives of the Company�s Property, plant, and equipment, net are as follows:
+
+Estimated Useful Life
+
+Servers and networking equipment ...................................
+
+Satellites ............................................................................
+
+Machinery and equipment .................................................
+
+Flight vehicle hardware .....................................................
+
+Data center infrastructure ..................................................
+
+Launch sites .......................................................................
+
+Buildings and improvements .............................................
+
+Leasehold improvements ...................................................
+
+Shorter of 7 - 20 years or the life of the lease
+
+The Company leases facilities, corporate offices, data centers, and manufacturing equipment primarily in the U.S.
+
+under various operating and finance leases. In addition, the Company enters into various lease agreements for its
+
+satellite gateway sites throughout the world.
+
+The Company determines whether an arrangement is or contains a lease at inception. If a lease exists, any lease
+
+arrangements with contractual terms longer than twelve months are classified as either an operating or finance lease.
+
+Finance leases are generally those leases that allow the Company to substantially utilize or pay for the entire asset
+
+over its estimated life. All other leases that do not meet any of the criteria for finance lease classification are
+
+classified as operating leases.
+
+Leases with a lease term of twelve months or less are not recorded on the consolidated balance sheets and are
+
+expensed on a straight-line basis over the lease term in the consolidated statements of operations .
+
+Certain lease agreements include options that grant the Company the ability to renew or extend the lease term, or
+
+early terminate the lease. When determining the lease term, the Company does not include renewal or early
+
+termination options unless they are deemed to be reasonably certain of being exercised at the lease commencement
+
+Table of Contents
+
+Upon lease commencement, the Company recognizes a lease liability measured at the present value of the fixed
+
+future minimum lease payments and a right-of-use asset for an amount equal to the lease liability, adjusted by
+
+prepaid and accrued rent, lease incentives, and initial direct costs. The Company has elected the practical expedient
+
+to not separate lease and non-lease components. Operating lease expense is recognized on a straight-line basis over
+
+the lease term, with the cost presented as a component of Cost of revenue , Research and development, or Selling,
+
+general, and administrative expenses in the consolidated statements of operations depending on the nature of the
+
+operating lease. Finance lease cost is composed of a separate interest component and amortization component. The
+
+interest component of a finance lease is included in Interest expense in the consolidated statements of operations and
+
+the amortization component of a finance lease is included in Cost of revenue, Research and development, or Selling,
+
+general, and administrative expenses in the consolidated statements of operations depending on the nature of the
+
+The Company�s leases generally do not provide information about the rate implicit in the lease. Therefore, the
+
+Company utilizes an incremental borrowing rate to calculate the present value of future lease obligations. The
+
+Company � s incremental borrowing rate is estimated to approximate the interest rate on a collateralized basis with
+
+similar terms and payments, and in economic environments where the leased asset is located.
+
+Goodwill and Indefinite-Lived Intangible Assets
+
+Goodwill represents the excess of the purchase price over the fair value of identifiable assets acquired and the
+
+liabilities assumed in connection with a business combination. Goodwill and indefinite-lived intangible assets are
+
+not amortized but rather, are tested for impairment annually on October 1 and more frequently if events and
+
+circumstances indicate that the asset might be impaired. Events that could indicate impairment of goodwill and other
+
+indefinite-lived intangible assets that trigger an impairment assessment i nclude, but are not limited to, adverse
+
+economic market conditions, long-term declining industry outlook conditions, entity-specific financial
+
+underperformance, changes in the use of the asset, and other adverse legal and regulatory events. Goodwill is tested
+
+for impairment at the reporting unit level.
+
+The Company may elect to utilize a qualitative assessment to evaluate whether it is more likely than not that the fair
+
+value of a reporting unit or indefinite-lived intangible asset is less than its carrying value and if so, the Company
+
+performs a quantitative test. Impairment is recognized when the quantitative assessment results in the carrying value
+
+exceeding the fair value . The reporting unit�s estimated fair value is determined on the basis of discounted future
+
+cash flows and market approach using the guideline public company method .
+
+The Company conducted its annual goodwill impairment test and no goodwill impairments were identified for the
+
+years ended December 31, 2025, 2024, and 2023 . Refer to Note 6 , Intangible Assets and Goodwill for additional
+
+discussion on indefinite-lived intangible assets.
+
+The Company has ownership of and control over its digital assets, which consist of bitcoin, and utilizes, and expects
+
+to continue to utilize, third-party custodians to hold its bitcoin.
+
+The Company determines and records the fair value of its bitcoin based on quoted prices on the active exchange that
+
+the Company has determined is the principal market for bitcoin (Level I inputs). The cost of bitcoin is based upon
+
+the specific identification method. Realized and unrealized gains and losses are recorded to Other income (expense),
+
+net in the Company�s consolidated statements of operations .
+
+The Company adopted Accounting Standards Update No. 2023-08, Intangibles�Goodwill and Other�Crypto
+
+Assets (Subtopic 350-60) (�ASU 2023-08�) , using a modified retrospective approach effective January 1, 2024. The
+
+Table of Contents
+
+cumulative effect of the changes made on the Company�s January 1, 2024 consolidated balance sheet for the
+
+adoption of ASU 2023-08 were as follows:
+
+Digital assets ..................................................................................
+
+Shareholders� Equity
+
+Accumulated deficit .......................................................................
+
+Loss Contingencies
+
+The Company is currently involved in, and may in the future be involved in, legal proceedings, claims,
+
+investigations, and government inquiries and investigations arising in the ordinary course of business. The Company
+
+records a liability when it believes that it is both probable that a loss has been incurred and the amount or range can
+
+be reasonably estimated. If the Company determines there is a reasonable possibility that it may incur a loss and the
+
+loss or range of loss can be estimated, it discloses the possible loss to the extent material. Significant judgment is
+
+required to determine both probability and the estimated amount. The Company reviews these provisions on a
+
+regular basis and adjusts these provisions accordingly to reflect the impact of negotiations, settlements, rulings,
+
+advice of legal counsel, and updated information. Legal fees are expensed as incurred.
+
+Joint Ventures and Investments
+
+The Company has made strategic investments in joint ventures. The Company evaluates each investment to
+
+determine if the investee is a variable interest entity, and, if so, whether the Company is the primary beneficiary of
+
+the variable interest entity. The Company has determined, as of December 31, 2025 , there were no variable interest
+
+entities required to be consolidated in the Company�s consolidated financial statements . The Company�s investments
+
+in unconsolidated affiliates are primarily non-marketable equity securities without readily determinable fair values.
+
+The Company accounts for each of its investments in unconsolidated affiliates either under equity method
+
+accounting, fair value, or by adjusting the carrying value of its non-marketable equity securities to fair value upon
+
+observable transactions for identical or similar investments of the same issuer or upon impairment (referred to as the
+
+measurement alternative). The investments in unconsolidated affiliates are included within Other assets on the
+
+consolidated balance sheets . Gains and losses on the Company � s non-marketable equity securities are recognized in
+
+Other income (expense), net in the consolidated statements of operations . Refer to Note 9 , Investments in
+
+unconsolidated affiliates for additional details.
+
+Revenue Recognition
+
+Below describes the Company�s significant revenue recognition policies by segment.
+
+The Company�s Space segment generates revenue primarily through (i) Launch Services for the deployment of
+
+payloads to their intended orbits for both commercial and government customers utilizing Falcon 9 and Falcon
+
+Heavy, and (ii) Launch and Development for the development of spacecraft and provision of launch and mission
+
+services for government agency space programs utilizing Falcon 9, Falcon Heavy, Starship, and Dragon.
+
+Space revenue is derived from fixed-price contracts related to the development and provision of launch services for
+
+the deployment of spacecraft and other payloads to its intended orbit for both commercial customers and
+
+governmental agency space programs. The Company recognizes revenue as control is transferred to the customer,
+
+either �over time� or at a �point in time �. The Company recognizes revenue over time for Launch and Development
+
+contracts when the Company�s performance on the contract creates an asset with no alternative use and when the
+
+Company has an enforceable right to payment for performance to date. The Company measures progress on these
+
+Table of Contents
+
+contracts using the cost-to-cost input method, as the Company believes this represents the most appropriate measure
+
+towards satisfaction of its performance obligation. Under the cost-to-cost input method, the Company records
+
+revenue based upon costs (such as materials and labor hours) incurred to date relative to the total estimated cost at
+
+completion. For Launch Services contracts where revenue is recognized at a point in time, due to the
+
+interchangeability of flight hardware and minimal unique engineering costs, revenue and costs are deferred and not
+
+recognized until the launch or deployment of the customer�s spacecraft to its intended orbit.
+
+The Company�s contracts are complex and require the Company to estimate total costs to perform over the term of
+
+the contracts, as well as the measurement of progress towards completion for each performance obligation.
+
+Developing the estimated total cost at completion for each performance obligation requires the use of significant
+
+management judgment, including assumptions regarding launch timing, labor hours, allocation of shared costs for
+
+launch vehicles that have been identified as reusable for multiple launches, as well as expected technological
+
+changes to launch vehicles and spacecraft. The Company recognizes changes in estimated contract revenue or costs
+
+at completion and the resulting changes in contract profit on a cumulative basis.
+
+Connectivity Segment
+
+The Company�s Connectivity segment generates revenue primarily through broadband and Starlink Mobile services
+
+to consumers, and enterprise and government customers throughout 156 markets.
+
+Substantially all of the Company�s contracts with Starlink customers contain multiple performance obligations.
+
+These performance obligations typicall y include (i) the broadband services provided through Starlink and (ii) the
+
+sale of the Starlink Kit (inclusive of the terminal). For customer contracts that include multiple performance
+
+obligations, the Company accounts for individual performance obligations if they are distinct. The transaction price
+
+is allocated to each performance obligation based on its standalone selling price. The Company determines the
+
+standalone selling price based on the price at which the good or service is sold separately on a standalone basis to
+
+similar customers in similar locations. Starlink Mobile services have one performance obligation.
+
+The Company�s performance obligation to provide broadband and Starlink Mobile services is satisfied over time as
+
+the customer simultaneously receives and consumes the benefits provided.  The Company generates service revenue
+
+by (i) fixed price services that require advanced or recurring monthly payments by the customer or (ii) variable
+
+priced services based on actual data usage of the Starlink broadband .  The amounts received from customers for
+
+advanced payment for broadband and Starlink Mobile service are included in deferred revenue on the Company�s
+
+consolidated balance sheets and revenue is recognized either ratably over the subscription term or based on actual
+
+data usage. The Company�s contracts are generally month to month and the revenue recognized for these recurring
+
+customers is equal to the amount billed in that month.
+
+The Company�s performance obligation to provide the Starlink Kit and other related hardware is satisfied at the
+
+point in time when control is transferred to the customer. In almost all circumstances, control passes to the customer
+
+upon delivery of the Starlink Kit and other related hardware to the customer, or in the instance of certain enterprise
+
+customers, when it is installed. Starlink Kit revenue is reported net of sales returns and chargebacks. Shipping and
+
+handling charges are included in the transaction price. The Company recognizes shipping and handling activities as
+
+fulfillment activities and not as a separate performance obligation.
+
+The Company recognizes revenue over time for certain contracts related to the Starshield business that are long-term
+
+in nature using the cost-to-cost input method.  The Company records revenue based upon costs (such as materials
+
+and labor hours) incurred to date relative to the total estimated cost at completion.
+
+The Company�s Starshield contracts are complex and require the Company to estimate the total costs to perform
+
+over the term of the contracts, as well as the measurement of progress towards completion for each performance
+
+obligation. Developing the estimated total cost at completion for each performance obligation requires the use of
+
+significant management judgment, including assumptions regarding labor hours, allocation of shared costs used in
+
+the production of satellites, satellite material costs, as well as expected technological changes to satellites. The
+
+Company recognizes changes in estimated contract revenue or costs at completion and the resulting changes in
+
+contract profit on a cumulative basis.
+
+Table of Contents
+
+The AI segment generates revenue from the sale of advertising and from AI solutions and infrastructure services,
+
+which include (i) subscription offerings, (ii) data licensing arrangements, and (iii) API access to Grok models.
+
+Revenue from advertising is recognized in the period in which the advertising is delivered, as evidenced by a user
+
+engaging with the ad in a manner that satisfies the advertiser�s selected engagement criteria. The Company evaluates
+
+whether it acts as principal or agent when third parties are involved. For advertising products sold directly through
+
+its X platform, the Company controls the specified ad services prior to transfer to the advertiser, is responsible for
+
+serving the advertisements, and fulfills the advertiser�s engagement criteria. Accordingly, it acts as principal and
+
+recognizes revenue on a gross basis. For advertising sold through supply side platform (�SSP�) partners, the
+
+Company receives a percentage share of gross advertising spend. The SSP partner controls the advertising inventory
+
+prior to its transfer to the advertisers, is primarily responsible for fulfilling the performance obligation to the
+
+advertiser, and has discretion in pricing. As a result, the Company acts as agent and recognizes revenue on a net
+
+Subscription revenue is recognized ratably over the period of the subscription term.
+
+Data licensing arrangements grant customers a right to access, search, and analyze the Company�s historical and
+
+real-time intellectual property (�IP�) on the X platform through the developer channel for a defined period. These
+
+arrangements may contain a single performance obligation (satisfied at a point in time for historical IP or over time
+
+for future IP) or multiple performance obligations satisfied separately. For arrangements with a fixed monthly fee
+
+and a single future IP performance obligation, revenue is recognized on a straight-line basis over the period in which
+
+the Company provides the data . When such arrangements contain multiple performance obligations, the Company
+
+allocates revenue on a relative basis between the performance obligations based on standalone selling price based on
+
+directly observable standalone transactions and recognizes revenue as the performance obligations are satisfied. For
+
+certain data licensing arrangements, the Company charges customers based on the amount of sales they generate
+
+from downstream customers using its data. For arrangements with a minimum guarantee and a single future IP
+
+performance obligation, the minimum guarantee is recognized on a straight-line basis over the period. For
+
+arrangements with a minimum guarantee and two or more performance obligations, the Company allocates revenue
+
+on a relative basis between the performance obligations based on standalone selling price based on directly
+
+observable standalone transactions and recognizes revenue as each performance obligation is satisfied. Any royalties
+
+in excess of minimum guarantees, if any, are recognized over the contract term, on a straight-line, on a cumulative
+
+For the Company�s API services, the primary performance obligation is to stand ready to provide customers with
+
+access to the platform to process data through token-based inputs and utilize compute hours for outputs. Revenue is
+
+recognized ratably on a straight-line basis over the contract term for subscription arrangements that provide stand-
+
+ready access. For usage-based arrangements, revenue is recognized as the services are consumed (i.e., as tokens are
+
+processed or compute hours are utilized).
+
+For all segments, the Company records payment processing fees for its credit card sales within Cost of revenue.
+
+Taxes collected from customers and remitted to government authorities are not included in the transaction price. The
+
+Company expenses sales commissions as incurred when the amortization period is one year or less within Selling,
+
+general, and administrative expenses in the consolidated statements of operations .
+
+Cost of revenue includes the cost of materials, depreciation and amortization, shipping and handling, payment
+
+processor fees, customs and duties, revenue share costs, infrastructure costs, allocated overhead, and employee
+
+compensation costs (including salaries, benefits, and share-based compensation). Infrastructure costs consist
+
+primarily of rocket, kit, and satellite manufacturing facilities and data center costs related to the Company�s
+
+colocated facilities, which include lease and hosting costs, related support and maintenance costs, energy and
+
+bandwidth costs, and public cloud hosting costs.
+
+Table of Contents
+
+Warranty on Starlink Kits
+
+The Company offers a standard product warranty for a period of one to two year

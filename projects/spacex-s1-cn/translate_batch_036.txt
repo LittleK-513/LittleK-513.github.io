@@ -1,0 +1,679 @@
+s. Such procedures
+
+included examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial
+
+statements. Our audits also included evaluating the accounting principles used and significant estimates made by
+
+management, as well as evaluating the overall presentation of the consolidated financial statements. We believe that
+
+our audits provide a reasonable basis for our opinion.
+
+Significant Transactions with Related Parties
+
+As discussed in Note 18 to the consolidated financial statements, the Company has entered into significant
+
+transactions with related parties.
+
+Critical Audit Matters
+
+The critical audit matter communicated below is a matter arising from the current period audit of the consolidated
+
+financial statements that was communicated or required to be communicated to the audit committee and that (i)
+
+relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our
+
+especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter
+
+in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by
+
+communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the
+
+accounts or disclosures to which it relates.
+
+Table of Contents
+
+Revenue Recognition � Estimate of Total Cost at Completion for Certain Contracts Recognized Over Time
+
+As described in Notes 2 and 3 to the consolidated financial statements, the Company recognized revenue of $4.1
+
+billion and $11.4 billion for the year ended December 31, 2025 within the Space and Connectivity segments,
+
+respectively, a portion of which related to contracts recognized over time using the cost-to-cost input method. Under
+
+the cost-to-cost input method, the Company records revenue based upon costs (such as materials and labor hours)
+
+incurred to date relative to the total estimated cost at completion. Developing the estimated total cost at completion
+
+for each performance obligation requires the use of significant management judgment, including assumptions
+
+regarding (i) launch timing, labor hours, allocation of shared costs for launch vehicles that have been identified as
+
+reusable for multiple launches, as well as expected technological changes to launch vehicles and spacecraft for
+
+Space contracts, and (ii) labor hours, allocation of shared costs used in the production of satellites, satellite material
+
+costs, as well as expected technological changes to satellites for Connectivity contracts. The Company recognizes
+
+changes in estimated contract revenue or costs at completion and the resulting changes in contract profit on a
+
+cumulative basis.
+
+The principal considerations for our determination that performing procedures relating to revenue recognition �
+
+estimate of total cost at completion for certain contracts recognized over time is a critical audit matter are (i) the
+
+significant judgment by management in developing the estimate of total cost at completion, including significant
+
+judgments and assumptions on a contract by contract basis, and (ii) a high degree of auditor judgment, subjectivity,
+
+and effort in performing procedures and evaluating audit evidence related to management�s estimate of total cost at
+
+completion, including estimated labor hours.
+
+Addressing the matter involved performing procedures and evaluating audit evidence in connection with forming
+
+our overall opinion on the consolidated financial statements. These procedures included, among others, (i) testing
+
+the completeness and accuracy of underlying data used by management related to actual costs to date, (ii) testing
+
+management�s process for developing the estimate of total cost at completion, including evaluating on a test basis,
+
+the reasonableness of certain significant judgments and assumptions considered by management specific to each
+
+contract, including estimated labor hours. Evaluating the significant judgments and assumptions related to the
+
+estimates of total cost at completion involved evaluating whether the significant judgments and assumptions used by
+
+management were reasonable considering (i) management�s historical forecasting accuracy; (ii) evidence to support
+
+the relevant aforementioned assumptions; (iii) the consistent application of accounting policies; and (iv) the timely
+
+identification of circumstances which may require a modification to a previous estimate.
+
+/s/PricewaterhouseCoopers LLP
+
+Los Angeles, California
+
+March 30, 2026, except for the effects of the reorganization of entities under common control and the effects of the
+
+stock split discussed in Note 1 to the consolidated financial statements and the change in reportable segments
+
+discussed in Note 19 to the consolidated financial statements, as to which the date is May 7, 2026
+
+We have served as the Company�s auditor since 2012.
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Consolidated Balance Sheets
+
+(in millions, except per share data)
+
+Cash and cash equivalents .............................................................................................................................
+
+Marketable securities .....................................................................................................................................
+
+Accounts receivable, net of allowance for credit losses of $39 and $119 at December 31, 2025 and 2024,
+
+respectively ...............................................................................................................................................
+
+Inventory ........................................................................................................................................................
+
+Prepaid expenses and other current assets .....................................................................................................
+
+Total current assets .....................................................................................................................................
+
+Property, plant, and equipment, net (a) ...................................................................................................................
+
+Finance lease right-of-use assets ..........................................................................................................................
+
+Intangible assets, net ............................................................................................................................................
+
+Digital assets .........................................................................................................................................................
+
+Goodwill ...............................................................................................................................................................
+
+Deferred tax assets ................................................................................................................................................
+
+Other assets ...........................................................................................................................................................
+
+Total assets ...............................................................................................................................................
+
+Liabilities, Redeemable Convertible Preferred Stock, and Shareholders � Equity
+
+Current liabilities
+
+Accounts payable ...........................................................................................................................................
+
+Deferred revenue, current .............................................................................................................................
+
+Debt and finance leases, current (related party of $455 and $- at December 31, 2025 and 2024,
+
+respectively) ..............................................................................................................................................
+
+Accrued expenses and other current liabilities ..............................................................................................
+
+Total current liabilities ................................................................................................................................
+
+Long-term liabilities .............................................................................................................................................
+
+Deferred revenue, net of current ..........................................................................................................................
+
+Debt and finance leases, net of current (related party of $4,052 and $- at December 31, 2025 and 2024,
+
+respectively) ....................................................................................................................................................
+
+Other liabilities .....................................................................................................................................................
+
+Total liabilities ..........................................................................................................................................
+
+Commitments and contingencies (Note 17)
+
+Redeemable convertible preferred stock
+
+Redeemable convertible preferred stock, par value $0.001; 2,351 and 1,997 shares issued; 2,046 and
+
+1,748 shares outstanding as of December 31, 2025 and 2024, respectively .............................................
+
+Shareholders� equity
+
+Class A common stock, par value $0.001; 2,036 and 1,832 shares issued; 1,954 and 1,832 shares
+
+outstanding as of December 31, 2025 and 2024, respectively ..................................................................
+
+Class B common stock, par value $0.001; 644 and 768 shares issued and outstanding as of December
+
+31, 2025 and 2024, respectively ................................................................................................................
+
+Class C common stock, par value $0.001; 482 and 421 shares issued and outstanding as of December
+
+31, 2025 and 2024, respectively ................................................................................................................
+
+Class D common stock, par value $0.0001; no shares issued and outstanding as of December 31, 2025
+
+and 2024, respectively ...............................................................................................................................
+
+Additional paid-in capital .....................................................................................................................................
+
+Accumulated deficit .............................................................................................................................................
+
+Accumulated other comprehensive income .........................................................................................................
+
+Total shareholders � equity ......................................................................................................................
+
+Total liabilities, redeemable convertible preferred stock, and shareholders � equity .......................
+
+__________________
+
+(a) Refer to Note 18 , Related Party Transactions for additional details on related party arrangements.
+
+The accompanying notes are an integral part of these consolidated financial statements .
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Consolidated Statements of Operations
+
+(in millions, except per share data)
+
+Year Ended December 31,
+
+Revenue ........................................................................................
+
+Costs and expenses ......................................................................
+
+Cost of revenue ............................................................................
+
+Research and development ..........................................................
+
+Selling, general, and administrative .............................................
+
+Restructuring charges ...................................................................
+
+Impairment ...................................................................................
+
+Total costs and expenses ...........................................................
+
+Income (loss) from operations ....................................................
+
+Interest expense (related party of $66, $-, and $- for December
+
+31, 2025, 2024, and 2023, respectively) .....................................
+
+Interest income ...............................................................................
+
+Other income (expense), net ...........................................................
+
+Income (loss) before income taxes ..............................................
+
+Provision for (benefit from) income taxes .....................................
+
+Net income (loss) ..........................................................................
+
+Net income (loss) attributable to shareholders - basic .................
+
+Net income (loss) attributable to shareholders - diluted ..............
+
+Net income (loss) per share of common stock attributable to
+
+common shareholders
+
+Basic ...............................................................................................
+
+Diluted ............................................................................................
+
+Weighted average shares used in computing net income (loss)
+
+per share of common stock
+
+Basic ...............................................................................................
+
+Diluted ............................................................................................
+
+The accompanying notes are an integral part of these consolidated financial statements .
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Consolidated Statements of Comprehensive Income (Loss)
+
+Year Ended December 31,
+
+Net income (loss) .........................................................................
+
+Other comprehensive income (loss)
+
+Change in foreign currency translation adjustments, net of tax ....
+
+Unrealized gains (losses) on marketable securities, net of tax ......
+
+Other comprehensive income (loss) ..............................................
+
+Comprehensive income (loss) ....................................................
+
+The accompanying notes are an integral part of these consolidated financial statements .
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Consolidated Statements of Redeemable Convertible Preferred Stock and Shareholders� Equity
+
+Redeemable Convertible Preferred
+
+Balances at December 31, 2022 ....................................
+
+Share-based compensation ...............................................
+
+Issuance of redeemable convertible preferred stock ........
+
+Common stock issued, net of tax withholding .................
+
+Repurchase of common stock ..........................................
+
+Net loss .............................................................................
+
+Other comprehensive income (loss) .................................
+
+Balances at December 31, 2023 ....................................
+
+Adjustment for prior periods from adoption of ASU
+
+2023-08 .......................................................................
+
+Share-based compensation ..............................................
+
+Issuance of redeemable convertible preferred stock ........
+
+Common stock issued, net of tax withholding .................
+
+Repurchase of common and redeemable convertible
+
+preferred stock .............................................................
+
+Conversion of redeemable convertible preferred stock
+
+to common stock ..........................................................
+
+Net income ......................................................................
+
+Other comprehensive income (loss) .................................
+
+Balances at December 31, 2024 ....................................
+
+Share-based compensation ..............................................
+
+Issuance of redeemable convertible preferred stock ........
+
+Common stock issued, net of tax withholding .................
+
+Repurchase of common stock ..........................................
+
+Conversion of redeemable convertible preferred stock
+
+to common stock ..........................................................
+
+Transfer of equity in business combination .....................
+
+Net loss .............................................................................
+
+Other comprehensive income (loss) .................................
+
+Balances at December 31, 2025 ....................................
+
+The accompanying notes are an integral part of these consolidated financial statements .
+
+Table of Contents
+
+Space Exploration Technologies Corp.
+
+Consolidated Statements of Cash Flows
+
+Year Ended December 31,
+
+Cash flows from operating activities
+
+Net income (loss) ...........................................................................
+
+Adjustments to reconcile net income (loss) to net cash provided
+
+by operating activities:
+
+Depreciation and amortization ...................................................
+
+Share-based compensation ........................................................
+
+Intangible asset impairment .......................................................
+
+Deferred income taxes ...............................................................
+
+Unrealized (gain) loss on digital assets .....................................
+
+Impairment and loss on disposal of fixed assets, net .................
+
+Amortization of debt discount and issuance costs .....................
+
+Other ..........................................................................................
+
+Changes in operating assets and liabilities
+
+Accounts receivable ..............................................................
+
+Inventory ...............................................................................
+
+Prepaid expenses and other assets ........................................
+
+Accounts payable ..................................................................
+
+Deferred revenue ..................................................................
+
+Operating lease liabilities, net ...............................................
+
+Other liabilities .....................................................................
+
+Net cash provided by operating activities ........................
+
+Cash flows from investing activities
+
+Purchases of property, plant, and equipment (related party of
+
+$666, $171, and $11 for December 31, 2025, 2024, and 2023,
+
+respectively) ................................................................................
+
+Capitalized interest .........................................................................
+
+Proceeds from product rebates .......................................................
+
+Purchases of marketable securities .................................................
+
+Maturities of marketable securities ................................................
+
+Proceeds from sales of marketable securities .................................
+
+Investments in unconsolidated affiliates ........................................
+
+Other investing activities, net .........................................................
+
+Net cash used in investing activities ..........................................
+
+Cash flows from financing activities
+
+Principal repayments on finance leases ..........................................
+
+Proceeds from debt and other financing obligations ......................
+
+Payment of debt issuance costs ......................................................
+
+Repayments on debt and other financing obligations ....................
+
+Proceeds from issuance of capital stock, net of issuance costs ......
+
+Proceeds from employee equity award plans .................................
+
+Table of Contents
+
+Year Ended December 31,
+
+Payments for repurchase of common and redeemable convertible
+
+preferred stock ............................................................................
+
+Taxes paid related to net share settlement of equity award ............
+
+Net cash provided by financing activities ..................................
+
+Effect of exchange rate changes on cash and cash equivalents ......
+
+Net change in cash and cash equivalents and restricted cash .........
+
+Cash and cash equivalents and restricted cash, beginning of year .
+
+Cash and cash equivalents and restricted cash, end of year ...........
+
+Supplemental disclosures of cash flow information
+
+Cash paid for the following:
+
+Interest, net of interest capitalized .............................................
+
+Income taxes, net .......................................................................
+
+Supplemental schedule of noncash investing and financing
+
+Share-based compensation capitalized in property, plant, and
+
+equipment, net .............................................................................
+
+Acquisition of property, plant, and equipment included in
+
+accounts payable .........................................................................
+
+The accompanying notes are an integral part of these consolidated financial statements .
+
+Table of Contents
+
+SPACE EXPLORATION TECHNOLOGIES CORP.
+
+NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS
+
+(tables in millions, except per share data)
+
+Note 1 - Nature of Business
+
+Description of Business
+
+Space Exploration Technologies Corp. and its wholly owned subsidiaries, collectively referred to as the �Company�
+
+or �SpaceX,� operate three segments � (i) the Space segment designs, manufactures, and launches reusable rockets
+
+to provide high cadence, reliable, and affordable access to space at unprecedented scale, (ii) the Connectivity
+
+segment operates a worldwide high-speed, low-latency broadband network powered by t housands of Starlink
+
+satellites in Low-Earth Orbit , delivering connectivity to millions of consumer, enterprise, and government customers
+
+through our Starlink offering , and (iii) the AI segment operates a vertically integrated AI platform spanning a
+
+frontier LLM Grok, AI solutions for consumer and enterprise customers, X � a real-time information,
+
+entertainment, and free speech platform � and AI computational infrastructure.
+
+SpaceX is advancing the boundaries of space technology and human spaceflight through its Falcon launch vehicles
+
+and Dragon spacecraft and is currently developing Starship, a fully reusable transportation system that is designed to
+
+carry crew, cargo, satellites, and data centers to Earth orbit, the Moon, Mars, and beyond.
+
+SpaceX operates Starlink which delivers high-speed, low-latency broadband internet to customers around the globe,
+
+including to those who live in some of the most remote places on Earth. The Company also provides access to
+
+satellite-to-mobile texting and voice services to mobile users (referred to as �Starlink Mobile�).
+
+SpaceX operates a global platform for public conversation known as X (formerly known as Twitter) as well as the
+
+Grok suite of text and multi-modal AI models, accessible to individual users via online platforms such as x.com and
+
+to enterprise clients for applications in research, productivity, and decision-making.
+
+The Company � s corporate headquarters is located in Starbase, Texas. SpaceX was incorporated in the state of
+
+Delaware on March 14, 2002 and converted into a corporation organized under the laws of the State of Texas on
+
+February 14, 2024.
+
+On May 4 , 2026, the Company effected a five-for-one forward stock split of its authorized, issued, and outstanding
+
+shares of Class A, Class B, and Class C Common Stock (�2026 Stock Split�). The conversion rate of SpaceX
+
+Redeemable Convertible Preferred Stock was proportionately adjusted to factor in the 2026 Stock Split. All share
+
+and per share information has been retroactively adjusted to reflect the 2026 Stock Split for all periods presented.
+
+On February 2, 2026, the Company completed its acquisition of X.AI Holdings Corp. (�xAI�), pursuant to which
+
+xAI became a wholly-owned subsidiary of the Company (�xAI Merger�). Prior to the xAI Merger, on March 28,
+
+2025, xAI completed its acquisition of X Holdings Corp. (�X�) and X.AI Corp., in which X and X.AI Corp. became
+
+wholly-owned subsidiaries of xAI (�X Merger�, and collectively with xAI Merger, �Mergers�). X.AI Corp began
+
+operations in March 2023 and Twitter, Inc. (�Twitter�) was acquired by Mr. Elon Musk in October 2022. The
+
+Mergers were each effected through a share exchange.
+
+The Mergers have been accounted for as reorganizations of entities under common control as Mr. Elon Musk had a
+
+controlling financial interest in the Company, xAI and X through his majority voting interest in each such entity
+
+during the years presented in these consolidated financial statements . The Company�s consolidated financial
+
+statements have been prepared to reflect the retrospective combination of the net assets of the entities at their
+
+historical carrying amounts for all periods presented. No new goodwill or other intangible assets have been recorded
+
+and all historical related party transactions between the entities have been eliminated in consolidation. The capital
+
+stock and shareholders� equity for all periods presented reflects a continuation of the historical SpaceX capital stock
+
+and shareholders� equity, combined with the historical capital stock and shareholders� equity of X and xAI merged
+
+under common control, as adjusted by the respective exchange ratios used to effect the Mergers, except for xAI�s
+
+historical redeemable convertible preferred stock. This presentation constitutes a change in reporting entity. Refer to
+
+Table of Contents
+
+Note 13 , Redeemable Convertible Preferred Stock and Shareholders� Equity for additional details.
+
+As the consolidated financial statements already reflect the reorganization of entities under common control for all
+
+periods presented, separate financial statements of xAI and X are not provided.
+
+Note 2 - Summary of Significant Accounting Policies
+
+Basis of Presentation
+
+The consolidated financial statements are presented in accordance with generally accepted accounting principles
+
+(�GAAP�) in the United States of America (�U.S.�).
+
+Principles of Consolidation
+
+The consolidated financial statements include the accounts of the Company and its wholly owned subsidiaries. All
+
+intercompany balances and transactions have been eliminated in consolidation.
+
+Use of Estimates
+
+The preparation of consolidated financial statements in conformity with U.S. GAAP requires management to make
+
+estimates and assumptions that affect the reported amounts of assets and liabilities, the disclosure of contingent
+
+assets and liabilities at the date of the consolidated financial statements , and the reported amounts of revenue and
+
+expenses during the reporting period. Actual results could differ from those estimates. Amounts which are subject to
+
+significant judgment and use of estimates include revenues recognized over time using the cost-to-cost input
+
+method, the determination of valuation allowances associated with deferred tax assets and estimates of tax liabilities,
+
+reserves for excess and obsolete inventory, fair value of indefinite-lived intangible assets and goodwill, useful lives
+
+of property, plant, and equipment, the determination of incremental borrowing rate for lease liabilities, litigation and
+
+settlement costs, and the valuation and assumptions underlying share-based compensation. On an ongoing basis, the
+
+Company evaluates its estimates compared to historical experience and current trends, which forms the basis for
+
+making judgments about the carrying value of assets and liabilities. In addition, the Company engages valuation
+
+specialists to assist in the valuation of equity instruments.
+
+Concentration of Supplier Risk
+
+Certain materials and products that are key inputs in the Company�s Space, Connectivity, and AI segments are
+
+available from a limited number of suppliers, including sole or limited-source suppliers; and the Company�s direct
+
+chip suppliers are dependent on a concentrated group of advanced semiconductor fabrication facilities. The
+
+Company believes that alternative suppliers are available for many, but not all, of these products and services. The
+
+inability of these suppliers to deliver necessary components of the products in a timely manner and at prices, quality
+
+levels, and volumes acceptable to the Company, or interruptions in supply of materials or products on which these
+
+suppliers rely, could have an adverse effect on the Company�s ability to meet customer demands and contractual
+
+obligations, to execute on its growth strategy, or to manage its expenses or timelines as expected, which could
+
+adversely impact the Company�s financial condition and operating results.
+
+Cash and Cash Equivalents and Restricted Cash
+
+Cash and cash equivalents consist of cash in checking accounts, money market accounts, and certificates of deposit
+
+at high quality financial institutions primarily in the U.S. All highly liquid investments with an original maturity of
+
+three months or less at the date of purchase are considered to be cash equivalents. The Company maintains certain
+
+cash and cash equivalents for which the withdrawal or use is restricted. The restricted cash and cash equivalents are
+
+generally held in separate, dedicated accounts required to secure letters of credit related to various customer,
+
+insurance, and facility lease agreements.
+
+Table of Contents
+
+The Company�s total cash and cash equivalents and restricted cash, as presented in the consolidated statements of
+
+cash flows , are as follows :
+
+Year Ended December 31,
+
+Cash and cash equivalents ..................................................

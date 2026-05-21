@@ -1,0 +1,595 @@
+rchase periods with purchase
+
+dates occurring on April 15 th and October 15 th of each year.
+
+Table of Contents
+
+During the purchase period, a participant may contribute between 1% and 100% of their eligible earnings (in whole
+
+percentage increments) through payroll deductions. A participant may change their payroll deduction prior to the
+
+beginning of an offering; however, during an offering, a participant may not increase the contribution percentage
+
+and may only decrease it up to two times (with the second decrease required to be to 0%), subject to the withdrawal
+
+provisions. At the end of each offering period, unless the participant has withdrawn from the A&R 2017 ESPP,
+
+payroll deductions are applied automatically to purchase shares of Class A common stock at the purchase price
+
+described below. The number of shares purchased is determined by dividing the payroll deductions by the applicable
+
+purchase price, with any remaining funds held in the participant�s account for the subsequent purchase period
+
+(subject to the withdrawal provisions).
+
+In the event of a participant�s termination of employment or a participant�s withdrawal from an offering (which may
+
+occur at any time prior to the ten-business day period preceding the purchase date), such participant�s accumulated
+
+deductions will be returned to the participant as soon as administratively practicable.
+
+The price per share at which shares are purchased under the A&R 2017 ESPP in a particular offering period is
+
+determined by the ESPP Administrator, but in no event will be less than 85% of the lower of the fair market value of
+
+the Class A common stock on the offering date or the fair market value of the Class A common stock on the
+
+In the event of any reorganizations, recapitalizations, stock splits, reverse stock splits, stock dividends, extraordinary
+
+dividends or distributions, or similar events, the ESPP Administrator will appropriately adjust the number and class
+
+of shares available under the A&R 2017 ESPP and subject to the purchase limits under each ongoing offering and
+
+the applicable purchase price of such shares in each ongoing offering.
+
+Rights to purchase Class A common stock under the A&R 2017 ESPP may not be transferred by a participant and
+
+may be exercised during a participant�s lifetime only by the participant.
+
+Amendment and Termination
+
+The A&R 2017 ESPP will become effective when it is approved by our board. Our board may amend, alter, or
+
+discontinue the A&R 2017 ESPP in any respect at any time, subject to shareholder approval as required by
+
+applicable laws and regulations.
+
+Director Compensation
+
+During 2025, our non-employee directors did not receive cash or equity compensation for their service on our board.
+
+Mr. Musk and Ms. Shotwell do not receive any additional compensation for their respective services as directors.
+
+Table of Contents
+
+CERTAIN RELATIONSHIPS AND RELATED PERSON TRANSACTIONS
+
+The following is a description of certain relationships and transactions that exist, are proposed to exist or have
+
+existed or that we have entered into or propose to enter into with our directors, executive officers, holders of more
+
+than 5% of our capital stock or their affiliates and immediate family members since January 1, 2023 and where:
+
+� we have been or are to be a participant;
+
+� the amount involved exceeded or will exceed $120,000; and
+
+� any of our directors, executive officers, or holders of more than 5% of our capital stock, or any immediate
+
+family member of, or persons sharing their household with, any of these individuals, had or will have a direct or
+
+indirect material interest.
+
+Note Regarding the xAI Merger
+
+On February 2, 2026, we effected the xAI Merger, pursuant to which we acquired xAI (which includes X). For the
+
+purposes of the disclosures set forth in this section pursuant to Item 404 of Regulation S-K, the transactions
+
+described below also include certain agreements and transactions originally entered into by xAI or X Holdings prior
+
+to the xAI Merger to the extent that such agreements and transactions are ongoing following the consummation of
+
+Transactions with Elon Musk and Affiliated Entities
+
+Elon Musk, our founder, Chief Executive Officer, Chief Technical Officer, Chairman of our board, and principal
+
+shareholder, also serves as the Technoking, Chief Executive Officer and director of Tesla, and is an approximately
+
+20% shareholder of Tesla as of November 10, 2025. Mr. Musk is also the founder of several other ventures,
+
+including The Boring Company (an infrastructure company). In addition, Mr. Musk was a stockholder, director, and
+
+officer of each of xAI and X prior to the X Merger and the xAI Merger. We have certain relationships and/or
+
+transactions with Mr. Musk and affiliated entities, as described below.
+
+Transactions with Tesla
+
+Tesla is the beneficial owner of 18,990,195 shares of our Class A common stock as of May 1, 2026, representing an
+
+ownership interest of less than 1.0% of the total outstanding number of shares of our Class A common stock, after
+
+giving effect to the sale of shares of Class A common stock in this offering.
+
+Tesla designs, develops, manufactures, sells, and leases fully electric vehicles and energy generation and storage
+
+systems that deliver AI-related and enhanced software and services to its customers. We have historically
+
+collaborated with Tesla through commercial, licensing, and support agreements. Certain amounts presented below
+
+that may have been incurred in one year could be paid in another year.
+
+� SpaceX c ommercial, licensing and support agreements. We are party with Tesla to certain agreements which
+
+generally relate to commercial, licensing, and support agreements and standardized commercial transactions
+
+with Tesla done on terms no less favorable to SpaceX than those generally available to unaffiliated third parties
+
+under similar circumstances. Pursuant to those agreements, we obtained goods and services of $11 million in
+
+2 023, $4 million in 2024, $144 million in 2025, a nd $0.2 million from January 1, 2026 through February 28,
+
+� xAI commercial, licensing and support agreements. xAI is party to certain commercial, licensing, and
+
+support agreements with Tesla. Under these agreements, xAI obtained goods and services of $191 million in
+
+2024, $506 million in 2025 , and $34 million from January 1, 2026 through February 28, 2026, and xAI
+
+recognized revenue of $2 million in 2025 and $0.4 million from January 1, 2026 through February 28, 2026
+
+Table of Contents
+
+� X Holdings advertising agreements. Tesla has directly and indirectly purchased advertising on our X
+
+platform. These amounts totaled $0.5 million in 2024, $4 million in 2025, and $0 fro m January 1, 2026 through
+
+February 28, 2026 .
+
+� Aircraft usage. Since April 2016, we have owned and operated aircraft used by Mr. Musk, in his capacity as
+
+the Chief Executive Officer of Tesla, and other Tesla personnel for business travel, and we have invoiced Tesla
+
+for the use of such aircraft owned and operated by us at rates determined by Tesla and SpaceX, subject to rules
+
+of the Federal Aviation Administration governing such arrangements. For such aircraft use, we charged Tesla
+
+$1 million in 2023, $1 million in 2024, $ 2 million in 2025, and $ 0 from January 1, 2026 through February 28,
+
+Transactions with The Boring Company
+
+In 2024, X entered into a lease for office space with a subsidiary owned by The Boring Company (an entity
+
+affiliated with Mr. Musk). Under this agreement, X made lease payments of $0.1 million in 2024, $1 million in
+
+2025, and $0.1 million from January 1, 2026 through February 28, 2026. In addition, SpaceX incurred expenses of
+
+$1 million in 2025 in connection with the construction of tunnels by The Boring Company in Bastrop, Texas.
+
+Relationships with Musk Industries LLC
+
+xAI leases a real property owned by the Musk Industries LLC, which is owned by Mr. Musk. Under this agreement,
+
+xAI made lease payments of $0.5 million in 2024, $2 million in 2025, and $0.2 million from January 1, 2026
+
+through February 28, 2026.
+
+Security Services provided to Mr. Musk
+
+We are party to a services agreement with a security company owned by Mr. Musk and organized to provide
+
+security services concerning him, including in connection with his duties to and work for SpaceX. SpaceX incurred
+
+expenses of $2 million for such SpaceX-related security services in 2023, $3 million for such security services in
+
+2024, $4 million for such security services in 2025, and $1 million for such security services from January 1, 2026
+
+through February 28, 2026.
+
+Relationship with Antonio J. Gracias and Affiliated Entities
+
+Transactions with Valor Equity Partners and Affiliated Entities
+
+Mr. Antonio J. Gracias, a member of our board, also serves as the founder, CEO and Chief Investment Officer of
+
+Valor Equity Partners (together with its affiliates, �Valor�).
+
+Certain subsidiaries of xAI, have entered into certain equipment lease, sublease, and access agreements with Valor.
+
+These arrangements include (i) an equipment lease agreement under which a subsidiary of xAI leases computing and
+
+related equipment from Valor, which provides for aggregate cash payments of $6,986 million to be made by such
+
+subsidiary over the life of the lease, (ii) a second equipment lease agreement under which such subsidiary leases
+
+certain computing and related equipment from Valor, which provides for aggregate cash payments of $6,633 million
+
+to be made by such subsidiary over the life of the lease, and (iii) a third equipment lease under which such
+
+subsidiary leases certain computing and related equipment from Valor, which provides for aggregate cash payments
+
+of $6,587 million to be made by such subsidiary over the life of the lease. The lessees� payments and performance
+
+obligations under these agreements are guaranteed by Space Exploration Technologies Corp. or one of its
+
+subsidiaries. Pursuant to the lease agreements described above, our subsidiaries have made payments of $885
+
+million in 2025, and $857 million from January 1, 2026 through February 28, 2026.
+
+In connection with certain X API services, X received payments from Valor of $1 million in 2024, $1 million in
+
+2025, and $0.1 million from January 1, 2026 through February 28, 2026.
+
+Table of Contents
+
+Other Transactions with our Directors and Executive Officers
+
+We own and operate, through our subsidiary, Falcon Landing, LLC, three aircraft for use by our directors, executive
+
+officers and employees in connection with the performance of their duties for business purposes. One of the aircraft
+
+is maintained and serviced by Craft Aviation Services, LLC, an affiliate of Mr. Musk. The amount of the expenses
+
+incurred by us for the maintenance and service of this aircraft was $1 million in 2023, $1 million in 2024, $3 million
+
+in 2025, and $1 million from January 1, 2026 through February 28, 2026. As disclosed above, we have also invoiced
+
+Tesla for their use of one of the aircraft owned and operated by us at rates determined by Tesla and SpaceX, subject
+
+to rules of the Federal Aviation Administration governing such arrangements.
+
+In certain circumstances, when our aircraft are unavailable, Mr. Musk uses his personal aircraft for SpaceX business
+
+purposes and is reimbursed by us, subject to rules of the Federal Aviation Administration governing such
+
+arrangements. In connection with the use of such aircraft, SpaceX has incurred expenses of $0.1 million in 2023, $3
+
+million in 2024, $2 million in 2025, and $0.2 million from January 1, 2026 through February 28, 2026.
+
+Ms. Shotwell, our President, Chief Operating Officer and Director, and Mr. Johnsen, our Chief Financial Officer,
+
+separately co-own an aircraft for their personal use. In certain circumstances, when none of our aircraft are available
+
+for business use, our directors and employees, including Ms. Shotwell and Mr. Johnsen, have used this aircraft for
+
+SpaceX business purposes. Any leasing fees for the use of such aircraft for our business purposes have been waived
+
+by the owners, and we have agreed to assume the cost of maintenance, crew and operation of such aircraft for such
+
+use, subject to rules of the Federal Aviation Administration governing such arrangements. In connection with the use
+
+of this aircraft, SpaceX has incurred expenses of $3 million in 2023, $3 million in 2024, $3 million in 2025, and $1
+
+million from January 1, 2026 through February 28, 2026.
+
+Investors� Rights Agreement
+
+Certain existing investors in our equity securities, including entities affiliated with Elon Musk, Google, Valor, and
+
+DFJ Growth, are party to an Amended and Restated Investors� Rights Agreement, dated as of August 4, 2020 (the
+
+�Investors� Rights Agreement�). Under the Investors� Rights Agreement, such existing investors are entitled to
+
+registration rights with respect to shares of our Class A common stock beneficially owned by them (collectively, the
+
+�Registrable Securities�). These registration rights, if exercised, would require us to register such existing investors�
+
+Registrable Securities under the Securities Act, and would facilitate the resale of such securities by such existing
+
+investors into the public markets.
+
+We will pay all registration expenses, other than underwriting discounts and commissions, associated with
+
+registrations effected pursuant to the Investors� Rights Agreement, subject to limited exceptions.
+
+Demand Registration Rights
+
+At any time commencing six months after the effective date of the first registration statement for a public offering of
+
+our securities (other than a registration on certain registration forms or for transactions not providing for the sale of
+
+Registrable Securities), such holders of a majority of the then‑outstanding Registrable Securities, excluding for this
+
+purpose shares issuable or issued upon conversion of certain series of our preferred stock, may request that we file a
+
+registration statement within 60 days after receipt of the request covering the offer and sale of Registrable Securities,
+
+provided that, among other things, the anticipated aggregate offering price, net of underwriting discounts and selling
+
+expenses, exceeds $250.0 million. Further, the initiating holders may require that such registration be an
+
+underwritten offering, in which case the underwriter will be selected by a majority in interest of the initiating
+
+holders, subject to our reasonable approval.
+
+Piggyback Registration Rights
+
+If we propose to register any of our securities under the Securities Act for sale to the public for cash (other than on
+
+certain registration forms or for transactions that do not permit piggyback participation), we must promptly give
+
+each holder of Registrable Securities notice of such proposed registration and, upon timely request, cause to be
+
+registered all Registrable Securities that such holder requests to be included, subject to any cutbacks, as permitted by
+
+Table of Contents
+
+Policies and Procedures for Review of Related Person Transactions
+
+In connection with the completion of this offering, we will adopt a written policy pursuant to which the audit
+
+committee will review and approve or disapprove certain �related person transactions� (as defined in the policy and
+
+summarized below) with our directors, executive officers and holders of more than 5% of any class of our voting
+
+securities and certain of their family members and affiliates. In approving or disapproving any such transaction, we
+
+expect that our audit committee will consider the relevant facts and circumstances available and deemed relevant to
+
+the audit committee. Any member of the audit committee who is a related person with respect to a transaction under
+
+review will not be permitted to participate in the deliberations or vote on approval or disapproval of the transaction.
+
+In addition, certain transactions (including compensation arrangements with our executives and directors) will
+
+constitute pre-approved related person transactions under the terms of our policy.
+
+For purposes of the policy, (i) �related person transaction� is a transaction, arrangement or relationship in which we
+
+or any of our subsidiaries was, is or will be a participant, the amount of which involved exceeds $120,000, and in
+
+which any related person had, has or will have a direct or indirect material interest; and (ii) �related person� means:
+
+(1) any person who is, or at any time during the applicable period was, one of our executive officers or one of our
+
+directors; (2) any person who is known by us to be the beneficial owner of more than 5.0% of any class of our
+
+common stock; and (3) any immediate family member of any of the foregoing persons, which means any child,
+
+stepchild, parent, stepparent, spouse, sibling, mother-in-law, father-in-law, son-in-law, daughter-in-law, brother-in-
+
+law or sister-in-law of a director, executive officer or a beneficial owner of more than 5.0% of any class of our
+
+common stock, and any person (other than a tenant or employee) sharing the household of such director, executive
+
+officer or beneficial owner of more than 5.0% of any class of our common stock.
+
+Table of Contents
+
+SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT
+
+The following table sets forth certain information with respect to the beneficial ownership of our common stock as
+
+of May 1, 2026 and as adjusted to give effect to the completion of this offering and transactions related thereto, for:
+
+� each person (or group of affiliated persons) known to us to beneficially own more than 5% of any class of our
+
+voting securities;
+
+� each of our named executive officers and directors; and
+
+� all of our executive officers and directors as a group.
+
+Unless otherwise indicated, the address of each beneficial owner listed below is c/o Space Exploration Technologies
+
+Corp., 1 Rocket Road, Starbase, Texas 78521.
+
+The percentage ownership information before this offering shown in the table is based on 6,932,508,000 shares of
+
+our Class A common stock and 5,602,790,410 shares of our Class B common stock outstanding as of May 1, 2026,
+
+after giving effect to the Class C Reclassification, the Preferred Conversion, and the 2026 Stock Split. The
+
+percentage ownership information after this offering shown in the table is based on               shares of our Class A
+
+common stock and                shares of our Class B common stock outstanding as of May 1, 2026, after giving effect
+
+to the sale of               shares of Class A common stock in this offering and to the Class C Reclassification, the
+
+Preferred Conversion, and the 2026 Stock Split.
+
+To the extent that the underwriters sell more than               shares of Class A common stock, the underwriters have
+
+the option to purchase up to an additional               shares of Class A common stock from us. These amounts are
+
+shown assuming no exercise of the underwriters� option to purchase additional shares of Class A common stock.
+
+The following table does not reflect any of the shares of Class A common stock that may be purchased in this
+
+offering through the directed share program described in �Underwriting�Directed Share Program.�
+
+We have determined beneficial ownership in accordance with the rules of the SEC. Shares of common stock subject
+
+to options, warrants and rights that are exercisable within 60 days of May 1, 2026 are considered outstanding and
+
+beneficially owned by the person holding such options or warrants for the purpose of computing the percentage
+
+ownership of that person but are not treated as outstanding for the purpose of computing the percentage ownership
+
+of any other person, except with respect to the percentage ownership of all directors and executive officers as a
+
+Table of Contents
+
+Shares Beneficially Owned Before This Offering
+
+Shares Beneficially Owned After This Offering (No Exercise)
+
+Class A common stock (8)
+
+Class B common stock
+
+Class A common stock
+
+Class B common stock
+
+5% Shareholders:
+
+Elon Musk (1) ...................................
+
+Named Executive Officers and
+
+Elon Musk (1) ...................................
+
+Gwynne Shotwell (2) ........................
+
+Bret Johnsen (3) ................................
+
+Ira Ehrenpreis (4) ..............................
+
+Randy Glein (5) .................................
+
+Antonio J. Gracias (6) .......................
+
+Donald Harrison ..............................
+
+Steve Jurvetson ...............................
+
+Luke Nosek (7) .................................
+
+All executive officers and directors
+
+as a group (              persons) ......
+
+__________________
+
+* Represents beneficial ownership or voting power of less tha n 1%.
+
+(1) Includes (i) 1,302,072,285 shares of restricted Class B common stock issued to and held of record by Mr. Musk, which may be voted by Mr. Musk and the vesting
+
+of which is subject to the satisfaction of certain performance and other conditions, (ii) 842,091,670 shares of Class A common stock and 3,788,654,145 shares of
+
+Class B common stock held of record by the Elon Musk Revocable Trust dated July 22, 2003, of which Mr. Musk serves as trustee, (iii) 900,495 shares of Class B
+
+common stock held of record by the Musk 2017 Sprinkling Trust dated 12/12/2017, of which Mr. Musk serves as trustee, (iv) 7,402,770 shares of Class A
+
+common stock held of record by the EM 2024 GRAT-A under agreement dated November 26, 2024, of which Mr. Musk serves as trustee, (v) 127,426,150 shares
+
+of Class B common stock held of record by the Mission Trust dated December 12, 2019, of which Mr. Musk serves as trustee, and (vi) 350,000,000 shares of
+
+Class B common stock issuable to Mr. Musk upon exercise of options exercisable within 60 days of May 1, 2026. The reported amounts include 237,530 shares of
+
+Class A common stock pledged as security for personal indebtedness.
+
+(2) Includes (i) 2,258,135 shares of Class A common stock and 7,113,550 shares of Class B common stock held of record by Ms. Shotwell, (ii) 1,556,055 shares of
+
+Class A common stock held of record by QM GS 2021 Exempt Trust, of which Ms. Shotwell and her spouse serve as trustees, (iii) 1,556,005 shares of Class A
+
+common stock held of record by QM RS 2021 Exempt Trust, of which Ms. Shotwell and her spouse serve as trustees, and (iv) 90,205 shares of Class A common
+
+stock issuable to Ms. Shotwell upon exercise of options exercisable within 60 days of May 1, 2026.
+
+(3) Includes (i) 2,518,540 shares of Class A common stock held of record by B & C Johnsen Holdings LLC, of which Mr. Johnsen and his spouse serve as managers,
+
+(ii) 3,866,970 shares of Class A common stock held of record by the Bret and Catherine Johnsen Family Trust dated July 2, 2015, of which Mr. Johnsen and his
+
+spouse serve as trustees, and (iii) 3,198,180 shares of Class A common stock issuable to Mr. Johnsen upon exercise of options exercisable within 60 days of May
+
+(4) Consists of 809,050 shares of Class A common stock and 564,650 shares of Class B common stock held of record by a revocable trust, of which Mr. Ehrenpreis
+
+and his spouse serve as trustees.
+
+(5) Represents 277,800 shares of Class A common stock held of record by Galaxy2021 Partners, LLC for which Mr. Glein serves as a manager. Mr. Glein disclaims
+
+beneficial ownership of the shares held of record by Galaxy2021 Partners, LLC, except to the extent of his pecuniary interest therein.
+
+(6) Consists of shares of Class A common stock held of record by the following: (i) 16,250,015 shares held by CV Consortio A LLC, (ii) 5,154,650 shares held by CV
+
+Consortio F LLC, (iii) 4,464,250 shares held by CV Consortio G LLC, (iv) 2,375,295 shares held by CV Consortio M LLC, (v) 4,652,600 shares held by CV
+
+Consortio N LLC, (vi) 3,648,645 shares held by KVSX I L.P., (vii) 1,118,920 shares held by TM33 Partner Holdings LLC, (viii) 911,430 shares held by Valor
+
+Equity Partners Opportunity Fund I L.P., (ix) 190,610 shares held by Valor Equity Partners Opportunity Fund I-A L.P., (x) 1,576,525 shares held by Valor Equity
+
+Partners Opportunity Fund I-B L.P., (xi) 20,529,605 shares held by Valor Equity Partners VI L.P., (xii) 495,880 shares held by Valor Equity Partners VI-A L.P.,
+
+(xiii) 13,152,840 shares held by Valor Equity Partners VI-B L.P., (xiv) 52,569,550 shares held by Valor IV Space Holdings, LLC, (xv) 39,793,000 shares held by
+
+Valor M33 II L.P., (xvi) 22,066,800 shares held by Valor M33 IV L.P., (xvii) 77,810,800 shares held by Valor M33 V L.P., (xviii) 8,939,445 shares held by Valor
+
+M33 VI L.P., (xix) 31,083,705 shares held by Valor M33 L.P., (xx) 7,552,000 shares held by Valor R&D Series LLC, (xxi) 97,883,000 shares held by Valor
+
+Space Holdings, LLC, (xxii) 34,051,100 shares held by Valor V Space Holdings, L.P., (xxiii) 1,179,245 shares held by Valor VII Space Holdings, L.P., (xxiv)
+
+20,497,155 shares held by VG 1.0 L.P., (xxv) 4,272,795 shares held by VG 2.0 L.P., (xxvi) 783,920 shares held by VG AI Holdings L.P., (xxvii) 27,462,910
+
+shares held by VGX 1.0 L.P., (xxviii) 669,600 shares held by VOF Space Holdings L.P., (xxix) 1,197,160 shares held by VSV II XAI Holdings L.P., and (xxx)
+
+1,081,080 shares held by VX Holdings L.P. (collectively, �Valor Entities�). By virtue of his position with the Valor Entities or the general partners of the Valor
+
+Entities, Antonio J. Gracias may be deemed to have beneficial ownership of the shares held of record by the Valor Entities. Mr. Gracias disclaims beneficial
+
+ownership of the shares held of record by each of the Valor Entities, except to the extent of his pecuniary interest therein. The address for each of the Valor
+
+Entities identified in this footnote and Antonio Gracias is c/o Valor Equity Partners, 320 North Sangamon Street, Suite 1200, Chicago, IL 60607.
+
+(7) Includes (i) 24,987,340 shares of Class A common stock held of record by Mr. Nosek and (ii) 8,000,020 shares of Class A common stock held of record by Nosek
+
+Capital, LLC, for which Mr. Nosek is the managing member. The reported amounts include 2,381,000 shares of Class A common stock pledged as security for
+
+personal indebtedness.
+
+Table of Contents
+
+(8) The amounts in the table with respect to Class A Common Stock do not include the shares of Class B Common Stock beneficially owned by the persons listed
+
+therein. Each share of Class B common stock is convertible at any time at the option of the holder into one share of our Class A common stock. In addition,
+
+subject to certain exceptions, each share of Class B common stock will convert automatically into one share of Class A common stock upon any sale of such share
+
+of Class B common stock or any legal or beneficial interest in such share, as described in �Description of Capital Stock�Common Stock�Conversion.�
+
+Beneficial ownership is determined in accordance with the rules of the SEC, which generally attribute ownership to persons who have or share voting or
+
+investment power with respect to the relevant securities. Shares of Class A Common Stock that may be acquired within 60 days upon conversion of outstanding
+
+Class B Common Stock are deemed to be beneficially owned. Securities not outstanding, but included in the beneficial ownership of each such person, are deemed
+
+to be outstanding for the purpose of computing the percentage of outstanding securities of the class owned by such person, but are not deemed to be outstanding
+
+for the purpose of computing the percentage of the class(es) of securities owned by any other person. Except as indicated in these footnotes, and subject to
+
+community property laws where applicable, the persons named in the table have sole voting and investment power with respect to all securities shown as
+
+beneficially owned by them. Moreover, as described in �Description of Capital Stock�Voting Rights,� subject to the terms of our charter, each holder of our
+
+Class A common stock is entitled to one vote per share, and each holder of our Class B common stock is entitled to ten votes per share. Holders of our Class B
+
+common stock, voting separately as a class, are entitled to elect 51% of the total number of authorized directors (rounded up to the nearest whole number).
+
+Table of Contents
+
+DESCRIPTION OF CAPITAL STOCK
+
+The following summary of the Company�s capital stock and charter and bylaws (each as in effect upon completion of
+
+this offering) does not purport to be complete and is qualified in its entirety by reference to the provisions of
+
+applicable law and to our charter and bylaws, which are filed as exhibits to the registration statement of which this
+
+prospectus is a part. To understand the material terms of our common stock and preferred stock, you should read
+
+our charter and our bylaws in their entirety. For purposes of this section, the term �common stock� refers to our
+
+Class A, Class B, and Class C common stock.
+
+Upon completion of this offering, the authorized capital stock of the Company will consist of  36,132,150,000 shares
+
+of Class A common stock, par value $0.001 per share, of which          shares will be issued and outstanding,
+
+6,125,000,000 shares of Class B common stock, par value $0.001 per share, of which          shares will be issued and
+
+outstanding, 10,000,000,000 shares of Class C common stock, par value $0.001 per share, of which no shares will be
+
+issued and outstanding, and 2,400,000,000 shares of preferred stock, par value $0.001 per share, of which no shares
+
+will be issued and outstanding.
+
+Subject to the terms of our charter, each holder of our Class A common stock is entitled to one vote per share; each
+
+holder of our Class B common stock is entitled to ten votes per share; and the holders of our Class C common stock
+
+will have no voting rights. Generally speaking, with respect to matters to be voted on by shareholders of the
+
+Company, the holders of all classes of our voting common stock will vote together as a single class. Notwithstanding
+
+the foregoing, our charter will provide that (

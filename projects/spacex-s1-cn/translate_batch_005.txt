@@ -1,0 +1,547 @@
+r business, financial condition, results of operations,
+
+and future prospects.
+
+Any delays or difficulties in obtaining, maintaining or renewing required communications licenses and spectrum
+
+authorizations for our satellite connectivity services, including international and FCC satellite spectrum licenses,
+
+could materially delay or disrupt our operations, harm our business, or limit our ability to execute our business
+
+Our satellite connectivity services are subject to extensive regulation in the United States and internationally.
+
+Obtaining and maintaining communications licenses and approvals from U.S. and foreign regulatory authorities is
+
+critical to our connectivity services. Our satellite connectivity, including our global satellite-to-mobile connectivity
+
+services under Starlink Mobile, depend on access to radio frequency spectrum and authorizations from the FCC in
+
+the United States and telecommunications regulators in other countries. Without these licenses and approvals, we
+
+generally cannot offer connectivity services in a given market. Acquiring the necessary authorizations can be a
+
+complex and time-consuming process, often involving technical coordination, public-interest or national security
+
+reviews, and cross-border considerations, including in certain jurisdictions where regulatory processes may be
+
+influenced by protectionist policies or preferences. Spectrum access itself is limited and highly regulated. In
+
+September 2025, we announced a definitive agreement with EchoStar to purchase its AWS-4 and H-block spectrum
+
+licenses. The Spectrum Transaction was approved by the FCC on May 12, 2026 and is subject to other closing
+
+conditions prior to completion. We expect the Spectrum Transaction to close in November 2027. There can be no
+
+assurance that these conditions will be satisfied or waived in a timely manner, or at all. Even if the transaction is
+
+completed, there can be no assurance that our purchase of licenses from EchoStar will be sufficient to meet our
+
+growing need for spectrum licenses and we may be unable to find other parties to provide us with additional
+
+spectrum licenses on terms acceptable to us, or at all. We may in the future pursue additional acquisitions, leases, or
+
+other arrangements relating to spectrum rights in order to support the expansion of our connectivity services, and
+
+there can be no assurance that we will be able to enter into or complete any such transactions or arrangements on
+
+acceptable terms, or at all. Any such future transactions or arrangements could require significant capital
+
+commitments, ongoing payment obligations, and regulatory approvals. In addition, we must secure the global right
+
+to use the spectrum acquired from EchoStar from a number of international telecommunications regulators in order
+
+to make our V2 satellite-to-mobile services usable worldwide, and there can be no assurance that such authorizations
+
+will be granted on acceptable terms, or at all. Moreover, our rights to use certain frequencies are coordinated through
+
+the International Telecommunication Union (�ITU�) and are subject to international agreements to prevent harmful
+
+interference. We must comply with ITU rules and coordination procedures, and changes in international spectrum
+
+allocations or adverse decisions in global regulatory forums could also reduce the frequencies available to us or
+
+attach conditions that degrade our network�s performance. Additionally, third parties have in the past, and may in
+
+the future, obtain spectrum rights for the purpose of blocking market entry.
+
+Regulatory regimes for communications services vary widely across different countries and are continuously
+
+evolving. Each country may impose its own licensing conditions and operating requirements on satellite internet
+
+Table of Contents
+
+providers � for example, mandates to partner with a local entity, to host certain infrastructure within its borders, or to
+
+adhere to specific standards relating to data privacy and cybersecurity (including data localization) and, in some
+
+cases, regulators may deny, delay or decline to grant authorization for us to operate or use our spectrum in their
+
+jurisdiction at all. Regimes in certain of our target markets may also favor incumbent or legacy telecommunications
+
+companies, which may impede, delay, or prevent our ability to enter such markets. Compliance with the different
+
+requirements of applicable regulatory regimes can be challenging and costly, and any failure to comply with local
+
+laws and regulations could lead to penalties or the loss of our authorization to operate in that region. Furthermore,
+
+communications regulatory authorizations often require periodic renewal and ongoing compliance with conditions
+
+such as deployment milestones, fee payments, and interference mitigation obligations. If we are unable to obtain,
+
+retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target
+
+markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our
+
+ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse
+
+effect on our business, financial condition, results of operations, and future prospects.
+
+Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations
+
+regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth
+
+protection, safety, consumer protection and notification, advertising, e-commerce, sanctions, export controls, and
+
+other matters. Many of these laws and regulations are subject to change and uncertain interpretation, and we
+
+could be required to make changes to our products and business practices, and be exposed to monetary penalties,
+
+increased cost of operations, declines in user growth or engagement, or loss of customers, or other harm to our
+
+AI products and X platform.
+
+Our AI products and X platform are subject to a variety of laws and regulations in the United States and abroad,
+
+including privacy, cybersecurity, data use, data combination, data protection and personal information, the provision
+
+of our services to younger users, biometrics, encryption, rights of publicity and related concepts, content, integrity,
+
+intellectual property, advertising, marketing, distribution, data security, data retention and deletion, data localization
+
+and storage, data disclosure, AI and machine learning, electronic contracts and other communications, competition,
+
+protection of minors, consumer protection, sanctions, export controls, and notification, civil rights, accessibility,
+
+product liability, e-commerce, taxation and online payment services, as well as contractual requirements imposed by
+
+app stores, payment processors, and other partners. The introduction of new products or services, expansion of our
+
+activities in certain jurisdictions, or other actions that we may take may subject us to additional laws, regulations, or
+
+other government scrutiny and, in some cases, such laws, regulations, or government scrutiny may limit or delay our
+
+ability to introduce new products or services or expand our activities in certain jurisdictions. Particularly, our
+
+leadership position in various markets, especially in orbital launch services, could subject us to heightened
+
+regulatory scrutiny under competition laws. In addition, these U.S. and foreign laws and regulations may impose
+
+different obligations from each other. As a result of these laws, regulations, and requirements, we are exposed to the
+
+risk of significant fines and penalties or other adverse consequences, such as changes to our products, services, or
+
+business practices.
+
+Our social media and AI-related activities expose us to a variety of risks related to harmful, misleading or illegal
+
+content, accuracy, misinformation and deepfakes, bias, discrimination, toxicity, sycophancy, AI deception,
+
+consumer protection and notification, products liability, intellectual property infringement or misappropriation,
+
+defamation, data privacy, cybersecurity, and sanctions and export controls. Social media and AI are the subject of
+
+increasing legislative and regulatory activity by various governmental and regulatory agencies in jurisdictions
+
+around the world, which are applying, or are considering applying, platform moderation, intellectual property,
+
+product liability, data privacy, age restrictions, data disclosure, cybersecurity, export controls, consumer protection,
+
+or other existing laws and regulations or new general legal frameworks to AI (such as the EU�s AI Act, California�s
+
+Frontier Artificial Intelligence Act and New York�s Responsible AI Safety and Education Act). In the United States,
+
+an increasing amount of legislative and regulatory activity regarding AI is taking place at the state level. Various
+
+other jurisdictions have enacted or are considering enacting regulations focused on AI. Restrictions under such laws
+
+or regulations, if implemented, could increase the costs and burdens to our AI segment and its customers, delay or
+
+halt deployment of new systems using our AI segment�s products, require us to modify, restrict, or discontinue
+
+certain features (including less constrained modes), and reduce the number of new entrants and customers,
+
+negatively impacting our AI segment�s business and financial results. If we do not adequately address concerns and
+
+Table of Contents
+
+regulations relating to the responsible use of AI, public confidence in AI could be undermined, adoption of our AI
+
+products and services could slow, and we may suffer reputational or financial harm.
+
+Certain of our AI products, including Grok, offer features or modes designed to generate more candid, direct, or less
+
+reserved or irreverent outputs, such as �Spicy� Imagine Mode and �Unhinged� Voice Mode. These features are
+
+intended to provide users with greater flexibility and control in how they use our tools. Because these modes may be
+
+more irreverent and harsher than our standard offerings, they present heightened risks, including reputational harm,
+
+the generation of potentially explicit content and misinformation or deceptive outputs, potential nonconsensual or
+
+exploitative imagery, intellectual property infringement, or content that could be viewed as exploitative, harmful,
+
+harassing, abusive, or discriminatory. The availability of such features may also increase the risk of regulatory
+
+scrutiny, enforcement actions, litigation, or claims of harm, as well as reputational damage, user or advertiser
+
+backlash, or limitations on our ability to distribute or monetize our products in certain jurisdictions or through
+
+certain partners.
+
+In addition, various regulatory authorities and agencies around the world are actively investigating and making
+
+inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and
+
+inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and
+
+notification, which have resulted in, and may in the future result in additional or further investigations and
+
+proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs
+
+may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from
+
+regulators and law enforcement authorities in the United States and internationally concerning allegations that our
+
+AI products were used to create nonconsensual explicit images or content representing children in sexualized
+
+contexts, and similar matters. We are subject to ongoing litigation, including putative class action lawsuits, relating
+
+to such allegations, and we may be subject to additional litigation in the future concerning these types of allegations.
+
+These regulatory inquiries, including those related to misuse of our AI products, such as Grok, and those related to
+
+the X platform, could expose us to additional investigations, proceedings, and litigation, regulatory sanctions
+
+(including loss of access to certain markets, which has occurred in the past), liability and adverse publicity, any of
+
+which would adversely affect our business.
+
+For example, in February 2026, the Irish Data Protection Commission, our AI segment�s privacy regulator in
+
+Europe, launched a large-scale inquiry to determine whether our AI segment has complied with its obligations under
+
+the European Union�s General Data Protection Regulation (�GDPR�). This inquiry involves the processing of
+
+personal data of European Union data subjects, including children, using generative AI functionality associated with
+
+the Grok model within the X platform. In the United States, the Federal Trade Commission has undertaken an
+
+inquiry into the chatbots of our AI segment and other major technology companies to understand how these
+
+companies have evaluated the safety of their chatbots when acting as companions to children and teens. Regulatory
+
+requirements applicable to online platforms and content moderation, and to AI systems, could require us to
+
+implement costly compliance measures, restrict certain features or jurisdictions, or expose us to significant fines,
+
+liability, penalties, or operational constraints. We are also subject to developer agreements and guidelines imposed
+
+by third-party app stores, such as the Apple App Store and Google Play Store. Failure to comply with these
+
+agreements and guidelines, including those relating to content, could result in the suspension or removal of our
+
+mobile applications from such app stores. Any such suspension or removal could materially limit our ability to
+
+distribute our mobile applications, and adversely affect our business, results of operations, and financial condition.
+
+Authorities around the world have adopted or are considering adopting a number of legislative and regulatory
+
+proposals concerning data protection and privacy. Additionally, the increasing adoption of AI technologies, which
+
+often rely on the collection of large amounts of data and use of such data to train, fine-tune or otherwise develop AI
+
+models, has led data protection authorities around the world to consider and adopt new and evolving interpretations
+
+of data protection laws, imposing specific obligations with respect to the processing of personal data, including
+
+required notices, consents and opt-outs. Adverse legal rulings, legislation or regulations related to such data privacy
+
+matters may result in fines and orders requiring that we change our practices, which could have an adverse effect on
+
+how we provide services, and could harm our business, financial condition, results of operations and future
+
+prospects. These compliance obligations could also cause us to incur substantial costs or harm the quality and
+
+operations of our products and services in ways that harm our business. Further, we are subject to evolving laws and
+
+regulations that dictate whether, how, and under what circumstances we can transfer, receive or otherwise process
+
+Table of Contents
+
+personal data. The validity of various data transfer mechanisms we currently rely upon remains subject to legal,
+
+regulatory and political developments globally, which may require us to adapt our existing arrangements. Evolving
+
+data protection laws and regulations such as the GDPR and ePrivacy Directive, and regulatory actions affecting our
+
+AI segment may restrict or adversely affect the X platform�s advertising services, Grok�s development and training,
+
+or the ability to offer certain products and services in certain jurisdictions.
+
+We are also subject to tax laws, regulations, and policies of the U.S. federal, state, and local governments and of
+
+comparable taxing authorities in foreign jurisdictions where we conduct business. Changes in tax laws or in their
+
+interpretation or enforcement could result in fluctuations in our effective tax rate, exposure to new or additional tax
+
+liabilities, or adversely affect our after-tax profitability or financial position. These U.S. federal and state, EU, and
+
+other international laws and regulations, which in some cases can be enforced by private parties in addition to
+
+government entities, are constantly evolving and can be subject to significant change. As a result, the application,
+
+interpretation, and enforcement of these laws and regulations are often uncertain, particularly in the new and rapidly
+
+evolving industry in which we operate, and may be interpreted and applied inconsistently from jurisdiction to
+
+jurisdiction and inconsistently with our current policies and practices. For example, regulatory or legislative actions
+
+or litigation concerning the manner in which we display content to our users, moderate content, provide our services
+
+to younger users, or are able to use data in various ways, including for advertising, have in the past and could in the
+
+future adversely affect user growth and engagement, affect the manner in which we provide our services, or
+
+adversely affect our financial results, including by imposing significant fines that increasingly may be calculated
+
+based on global revenue. For example, the UK�s Online Safety Act 2023 and Australia�s Online Safety Amendment
+
+(Social Media Minimum Age) Act 2024 impose risk mitigation and age-related requirements on certain online
+
+platforms. These laws and regulations, as well as any associated claims, inquiries, or investigations or any
+
+government actions, have led to, and may in the future lead to, unfavorable outcomes including increased
+
+compliance costs, changes to our products, loss of revenue, delays or impediments in the development of new
+
+products, negative publicity and reputational harm, increased operating costs, diversion of management time and
+
+attention, and remedies that harm our business, including fines, damages, or orders that we modify or cease existing
+
+business practices. In addition, our AI products and the X platform have historically been, and may continue to be,
+
+subject to claims and investigations relating to misinformation and deepfakes, defamation, intellectual property
+
+infringement or misappropriation, data privacy, cybersecurity, employment matters, advertising practices, and user
+
+harms; defending such matters could be costly and divert management attention.
+
+Our Starlink and other satellite services are subject to complex and evolving U.S. and foreign laws and
+
+regulations, particularly relating to data privacy, cybersecurity, and telecommunications.
+
+Our Starlink and other satellite services are subject to a variety of laws and regulations in the United States and
+
+abroad covering cybersecurity, privacy, data use, data combination, data protection, data security, data retention and
+
+deletion, data localization and storage, and data disclosure to law enforcement agencies. As a satellite internet and
+
+communications provider, we collect and otherwise process various kinds of data in connection with our services,
+
+such as customer personal information, account registration information, device identifiers, network and
+
+connectivity data, and government information. These laws and regulations govern how we handle such information,
+
+and they may, among others, impose requirements relating to cybersecurity and privacy governance, data security
+
+measures, data security breach notification, cross border data transfers, and customer consent obligations.
+
+In particular, the California Consumer Privacy Act (as amended), the GDPR (and its equivalent in the United
+
+Kingdom) and other data privacy laws and regulations impose stringent and burdensome requirements in connection
+
+with the processing of personal information and include significant penalties for non-compliance. Additionally, as a
+
+government contractor, we are also subject to the Department of War�s Cybersecurity Maturity Model Certification
+
+requirements, which requires companies that do business with the Department of War to, depending on the level of
+
+scrutiny required, meet or exceed certain specified cybersecurity standards to be eligible for new contract awards.
+
+Many of these laws and regulations are subject to change and uncertain interpretation, and their application may
+
+vary significantly across jurisdictions. Compliance may require us to modify our policies, procedures, and controls,
+
+and increase our compliance costs and operational complexity. We may post public privacy policies and other
+
+statements regarding our collection, storage, sharing and other processing of personal information, and any actual or
+
+perceived failure to comply with such privacy policies and other statements, as well as the foregoing data privacy
+
+Table of Contents
+
+and cybersecurity laws and regulations, may subject us to enforcement actions, investigations, litigation, reputational
+
+harm or requirements to modify or cease our business practices.
+
+Our business strategy depends on successfully designing, developing, and deploying our products and services, as
+
+well as related platforms, infrastructure, and other strategic initiatives, at an unprecedented scale, which presents
+
+significant execution, cost, and timing risks.
+
+Our business plan, and ultimately, the achievement of our mission, is predicated on building, commercializing, and
+
+operating products and services, as well as related infrastructure and strategic initiatives at a scale that has not
+
+previously been achieved. This objective requires us to integrate complex technologies, develop new processes and
+
+infrastructure, and coordinate across multiple suppliers, contractors, regulators, and stakeholders. Because we are
+
+attempting to execute at a scale for which there is limited precedent, we face heightened uncertainty with respect to
+
+design, engineering, procurement, construction, commissioning, and operational performance, which is further
+
+heightened by the novel nature of the technologies underlying the products and services we intend to develop.
+
+As a result, timelines for developing and deploying our products and services may be longer than we currently
+
+anticipate, and we may encounter delays due to, among other things, technical challenges, including those resulting
+
+from the nascent state of certain of our products and services, the unavailability or immaturity of key technologies,
+
+supply chain constraints, energy shocks, including related price volatility, labor availability, permitting and
+
+regulatory approvals, or the need to redesign or reengineer key components. In addition, the costs associated with
+
+developing and deploying our products and services and related platforms, infrastructure and strategic initiatives at
+
+scale may exceed our current estimates, including due to inflationary pressures, energy prices, unforeseen
+
+engineering complexities, the cost of developing or licensing technologies that are not yet commercially available,
+
+competitive dynamics, changes in scope, or the need for additional capital expenditures, contingency reserves or
+
+working capital.
+
+If we are unable to successfully execute our growth strategy on the anticipated timeline or within our expected cost
+
+parameters, our business, financial condition and results of operations could be materially adversely affected. Delays
+
+or cost overruns could also impact our ability to achieve projected returns, meet contractual commitments, access
+
+additional financing on acceptable terms, or maintain investor confidence. Moreover, even if we successfully deploy
+
+our growth strategy, including Starship, Terafab, orbital AI, and the creation of the lunar economy, they may not
+
+perform as expected at scale, which could result in operational inefficiencies, increased costs, reduced revenues, or
+
+declines in our stock price.
+
+We have experienced, and will likely continue to experience, launch delays and failures that could have a
+
+material adverse effect on our business, financial condition, results of operations, and future prospects.
+
+Launch vehicle underperformance, propulsion anomalies, structural failures, software errors, or other malfunctions
+
+could result in launch delays or partial or total mission failures, including the loss of satellites or payloads. The
+
+occurrence of mission failures or other significant operational disruptions could also expose us to litigation as well
+
+as increased scrutiny from regulatory authorities, lead to the imposition of additional compliance requirements, and
+
+adversely affect our brand and reputation, and our ability to obtain future licenses, permits, or government contracts.
+
+We do not typically obtain insurance coverage for our satellites, payloads, or launch vehicles, and as a result we bear
+
+the full financial cost of any such losses. Repeated anomalies or high visibility mission failures could also negatively
+
+affect our brand, reputation, ability to win new business, and our customers� ability to procure launch and in-orbit
+
+insurance at competitive rates (to the extent we decide to pursue it). Such repeated anomalies or mission failures
+
+could also result in, regulators delaying, conditioning or denying approvals, waivers or licenses required for future
+
+launches or reentries, which could reduce our launch cadence and delay the deployment of our satellites and other
+
+services. In the past, certain of our launch vehicles have experienced partial or total mission failures, including
+
+anomalies that resulted in the loss of payloads and damage to launch vehicles. In certain circumstances, such
+
+mission failures could result in, debris from our launch vehicles causing significant damage to persons or property
+
+on the ground as well as environmental damage. There can be no assurance that similar or other failures will not
+
+occur with future launches. In addition, satellites may be deployed into incorrect or suboptimal orbits due to vehicle
+
+performance issues, separation events, or guidance, navigation and control errors. Incorrect orbital placement can
+
+Table of Contents
+
+materially reduce a satellite�s operational life, impair performance, increase fuel consumption, or render the satellite
+
+Our satellites, launch vehicles, and other space-related technologies operate, and in the case of orbital AI
+
+compute, will operate, in the harsh and unpredictable environment of space, exposing them to a wide and unique
+
+range of space-related risks that could cause them to malfunction or fail, and any such malfunction or failure
+
+could adversely affect our business, financial condition, results of operations, and future prospects.
+
+Operating in space subjects our satellites, launch vehicles, spacecraft, and related systems to extreme and highly
+
+variable conditions that can adversely affect performance, reduce useful life, or result in total mission failure. Space
+
+is inherently hostile. Hardware must withstand: significant vibration and acoustic loads during launch; wide-ranging
+
+thermal cycles; radiation from solar and cosmic sources; micrometeoroids and orbital debris; and other
+
+environmental hazards, each of which testing cannot fully replicate. In particular, we have not, and no one else has,
+
+previously operated or attempted to operate orbital AI compute, and the conditions of space on such AI
+
+infrastructure have not been tested. Once deployed, orbital AI compute infrastructure will not be readily accessible,
+
+and as a result, will not be easily repaired or upgraded, such that any component failures could result in permanent
+
+capacity loss, accelerated depreciation, decommissioning or need for replacement of the infrastructure.
+
+In addition, space weather events, such as geomagnetic storms, solar flares, and other forms of radiation activity,
+
+have in the past disrupted and could in the future disrupt satellite propulsion, power systems, and communications
+
+equipment, potentially leading to reduced performance or permanent damage. Although we incorporate certain
+
+radiation-hardened components, shielding, and redundancy into our systems, these measures may not be sufficient to
+
+prevent material adverse impacts in all scenarios. Failures or performance degradation resulting from these risks
+
+could delay deployments, reduce available capacity, increase operating costs, require significant capital expenditures
+
+to replace affected assets, or interrupt or degrade services provided to customers. Furthermore, the useful life of our
+
+satellites is inherently shorter than that of the information technology systems and infrastructure they host. As a
+
+result, we must periodically launch replacement satellites as existing satellites reach the end of their useful lives and
+
+are decommissioned, which may truncate the effective lifespan of those underlying information technology systems
+
+and infrastructure. Any such events could adversely affect our reputation, compliance with applicable laws and
+
+regulations, business, financial condition, results of operations, and future prospects.
+
+The continued proliferation of satellite constellations in Low-Earth Orbit, as well as the risk of collisions with
+
+space debris or other spacecraft, could limit or impair our launch flexibility and satellite deployment, which could
+
+adversely affect our business, financial condition, results of operations, and future prospects.
+
+The continued proliferation of Low-Earth Orbit constellations can increase the risk of collisions with space debris or
+
+other spacecraft if operators fail to adhere to responsible space safety, debris mitigation, or coordination practices.
+
+Our growth strategy depends, in part, on continuing to launch additional satellites into Low-Earth Orbit. As the
+
+number of satellites and other objects in Low-Earth Orbit continues to grow, the probability of accidental collisions,
+
+fragmentation events, or other in-orbit incidents increases, which could result in the los

@@ -1,0 +1,567 @@
+ satellite manufacturing capabilities to enable the delivery of high-speed, low-
+
+latency broadband and mobile connectivity to homes and businesses everywhere in the world. Our vertically
+
+integrated model allows us to provide reliable service with unmatched speed and cost across geographies where
+
+traditional terrestrial infrastructure has been limited, uneconomical, or unavailable.
+
+Truth-Seeking AI Model Enhanced by Real-Time Data
+
+AI frontier models are shaped by the values, objectives, and design choices of their creators that influence accuracy,
+
+logic, and utility of the model outputs. We believe Grok represents a differentiated approach to AI, grounded in a
+
+core objective of truth seeking and powered by continuous, proprietary access to real-time data inflows through its
+
+integration with X. With approximately 350 million daily posts, X enables freshness, relevance, and contextual
+
+awareness for Grok that we believe is a competitive differentiator. This direct, real-time access to the information
+
+and human discourse on X enhances Grok�s truth-seeking capabilities by grounding outputs in up-to-date knowledge
+
+and diverse viewpoints.
+
+This architecture reflects our core philosophy that maximizing truth seeking�through the active, relentless pursuit
+
+of what is objectively true about reality, grounded in evidence, logic, empirical data, and first principles thinking�
+
+drives superior model outputs and higher utility intelligence. By combining our unique truth-seeking model with
+
+proprietary access to one of the world�s largest real-time information platforms, we believe Grok can deliver the
+
+most objective and relevant insights and best serve high-frequency, high-value use cases across consumer and
+
+enterprise AI applications.
+
+Extreme Vertical Integration Enabling High Velocity and Superior Cost Efficiency at Scale
+
+While conventional aerospace manufacturing relies heavily on fragmented and outsourced supply chains, we operate
+
+with extreme vertical integration. By designing and manufacturing a significant portion of our components in-house,
+
+we bypass many of the slow, bloated sourcing channels that structurally constrain the rest of the industry. For
+
+example, approximately 80% of Starship, SpaceX�s next-generation launch vehicle, is manufactured in-house. Our
+
+vertical integration allows us to achieve iterative cycles in weeks, compared to years for some legacy companies,
+
+enabling us to build newer, more technologically advanced products faster than many of our competitors. We
+
+Table of Contents
+
+believe this technological and logistical gap is widening meaningfully as our speed and cost advantage compound.
+
+Our vertical integration extends beyond design and manufacturing�it permeates our entire business model,
+
+encompassing engineering, deployment, and operations. We are the only company building integrated hardware and
+
+software infrastructure of the future across space, connectivity and AI. This end-to-end control allows us to deliver
+
+value through structural advantages in speed, cost and quality.
+
+Our strong belief in the benefits of extreme vertical integration is further exemplified by our acquisition of xAI. We
+
+not only develop best-in-class models to support the application layer of AI, where we leverage real-time data
+
+ingestion from X (subject to some limitations for certain content), but we also own and operate the physical compute
+
+infrastructure required to train and run inference on those models, providing a substantial cost and speed advantage.
+
+Through our Terafab initiative together with Tesla and Intel, we intend to further extend our vertical integration to
+
+chip design and manufacturing to alleviate potential future chip shortages at SpaceX, optimize compute
+
+performance, and reduce overall compute costs. Intel will contribute its expertise in designing, fabricating, and
+
+packaging ultra-high-performance chips to help Terafab scale. This highly vertically integrated approach allows us
+
+to train and iterate our frontier models at high velocity, accelerating development cycles, eliminating external
+
+bottlenecks, and driving rapid, continuous improvements in model performance. Compute availability is also critical
+
+for running more complex workloads and delivering higher performance inference at scale. As AI adoption
+
+accelerates and demand for low-latency, high-throughput inference increases, we believe operators with the ability
+
+to support and efficiently allocate compute across both training and inference workloads are best positioned to win
+
+the AI race. Our human augmentation solutions are being designed to capitalize on this shift, enabling us to deliver
+
+superior performance for our customers. This advantage of vertical integration exists in both a terrestrial context,
+
+where we own our own data centers and the associated power infrastructure, and eventually in a space-based
+
+context, where we are planning to build our own orbital AI compute infrastructure. The key constraints in the
+
+continued growth of AI are physical�chip manufacturing, data center infrastructure, and power generation.
+
+Differentiation is rapidly shifting from model architecture alone to AI compute scale, cost efficiency, power
+
+availability, and speed of deployment. We believe that physical infrastructure, not models, will be the primary
+
+competitive differentiator for AI companies, and no other AI company has better control over the full physical
+
+infrastructure than SpaceX.
+
+Unique Ability to Scale New Trillion-Dollar Markets Across Space, Connectivity, and AI
+
+We believe space represents the largest economic frontier in human history. We believe we have a distinct ability to
+
+identify, activate, and commercialize new multi-trillion-dollar markets that did not previously exist. Historically,
+
+space access was impaired by high launch costs, low flight cadence, and limited demand. While such constraints
+
+may limit others� ability to access space at a scale, our ability to build large-scale and complex hardware
+
+infrastructure is a meaningful competitive advantage. By pioneering the world�s first and only fleet of reusable
+
+rockets at scale, we revolutionized space access through dramatically lower cost and unmatched reliability.
+
+Lowering costs by orders of magnitude does not just expand the launch market, it enables the creation of entirely
+
+new industries on Earth and in space that have historically been technologically and economically infeasible for
+
+others to access historically.
+
+When we have identified a new trillion-dollar market opportunity to pursue, we design a solution rooted in the same
+
+world-class engineering and first-principles thinking that has driven our technological breakthroughs and success to
+
+date. Our first trillion-dollar market was connectivity: we founded Starlink, a satellite service supported by our low-
+
+latency, high-speed LEO constellation. Starlink required the rapid, low-cost deployment of millions of kilograms of
+
+hardware into orbit, a feat economically impossible to solve for anyone lacking our foundational launch capabilities.
+
+Our Starlink constellation powers a global connectivity platform capable of supporting the world�s largest and most
+
+advanced space-based internet broadband service and satellite-to-mobile service, enabling high-speed internet access
+
+to homes, enterprises, governments, and mobile users around the world. We believe our next trillion-dollar market is
+
+AI compute, and we expect to leverage our rockets and satellites for massive orbital deployments of AI
+
+infrastructure. We believe this AI compute infrastructure will help us develop and monetize the Grok model faster
+
+than other AI companies that are dependent on finite sources of power on Earth. No other company has built the
+
+capabilities to create value across all these end markets at scale.
+
+Table of Contents
+
+In addition, we believe we are poised to catalyze transformative breakthroughs in other industries on Earth and in
+
+space such as long haul point-to-point terrestrial travel, in-orbit manufacturing, passenger and cargo transportation to
+
+the Moon and Mars, manufacturing and energy production on the Moon and Mars, and asteroid mining. In
+
+particular, we believe that if we achieve our goal of establishing a lunar presence, it will potentially enable terawatt-
+
+scale annual AI compute growth, support deeper space exploration and industrialization, and serve as a stepping
+
+stone to establishing a civilization on Mars. As we continue to scale and expand into new trillion-dollar markets, we
+
+expect our more mature businesses will continue to generate substantial cash flows, enabling us to reinvest in
+
+emerging opportunities.
+
+Business Models that Are Incredibly Difficult to Replicate
+
+Our business model is simple to describe: leverage our unparalleled launch capabilities to reduce the cost of access
+
+to space, apply first-principles thinking and world-class engineering to solve large structural constraints, vertically
+
+integrate across the value chain, continuously improve cost efficiency and throughput, and reinvest cash flow to
+
+expand our capabilities and create new markets. While simple to describe, we believe this model is extraordinarily
+
+difficult to replicate. We believe no other organization can execute this combination of reusable orbital launch
+
+systems at industrial scale, breakthrough engineering designs with reliable high-volume manufacturing, full stack
+
+proprietary software, and end-to-end operational control. These capabilities reinforce each other, and our vertical
+
+integration enables faster innovation cycles and structural cost advantages that widen our competitive advantage.
+
+Our business model has allowed us to build a diversified portfolio of complementary businesses and revenue streams
+
+from a common technological foundation. Our Space segment generates revenue from commercial and government
+
+customers, while also serving as the backbone for our Connectivity segment which generates highly predictable and
+
+recurring subscription revenue from Starlink broadband consumer, enterprise, and government customers, as well as
+
+Starlink Mobile subscribers. The result is a powerful, self-reinforcing value creation cycle: success in one business
+
+fuels faster growth in the others, enabling reinvestment into the next frontier. We believe this model has the potential
+
+to create compounding value across our ecosystem, allowing our lead to grow and become more durable over time.
+
+Mission-Driven Culture and World-Class Talent
+
+We have the benefit of being founded and led by Elon Musk, one of the great visionaries of our generation. We
+
+believe that our ability to attract and retain world-class technical and engineering talent is a significant competitive
+
+advantage. Our founding goal of making life multiplanetary serves as the ultimate mission-driven filter and retention
+
+tool, which has only been enhanced by xAI�s truth-seeking mission of understanding the universe. Top engineers are
+
+drawn to SpaceX to work on some of the hardest, most consequential problems facing humanity�doing things that
+
+have never been done before, like landing and re-using rockets, working towards making humanity multiplanetary,
+
+and gaining a better understanding of the mysteries of the universe through AI. They are also drawn to our intense,
+
+engineering-led, first-principles culture, which treats the laws of physics as the only true constraints. We reinforce
+
+this culture through �The Algorithm,� a five-step iterative process that emphasizes making the requirements less
+
+dumb, deleting unnecessary processes or parts (embracing the principle that the best part is no part), only then
+
+optimizing what remains, accelerating cycle time, and automating only proven processes. Our organizational
+
+philosophy embraces failure as an essential learning opportunity and maintains a relentless focus on efficiency and
+
+speed, enabling rapid iteration and repeatable execution on the hardest technical problems. To this end, our
+
+engineering-oriented organization maintains access to some of the world�s most selective talent pool. In 2025, we
+
+accepted under 2% of our engineering applicants, reflecting our ability to be highly selective and hire among the
+
+best talent in the industry. We also foster commitment by aligning employee interests with organizational success:
+
+our broad-based employee ownership program ensures that those who help us build the future are also direct
+
+beneficiaries of our success. This commitment to quality and mission results in exceptional employee loyalty,
+
+reflected by an average tenure across our broader SpaceX leadership team of 12 years.
+
+Our Growth Strategies
+
+We have created what we believe to be the world�s most ambitious vertically integrated innovation engine that
+
+captures significant growth across three domains: Space, Connectivity, and AI. While our Space segment provides
+
+us with a foundational competitive advantage that enables all other parts of our business, our Connectivity and AI
+
+Table of Contents
+
+segments are expected to be the primary driver of revenue growth in the near term. In the next few years, we are
+
+focused on increasing the monetization of our existing Connectivity infrastructure and our existing AI user base. We
+
+also intend to continue to build out our AI infrastructure, which we expect to enable growth as we address the
+
+significant AI market opportunity. Our growth strategy aligns with our value creation cycle where we identify
+
+emerging opportunities, invest in innovation, rigorously test and iterate, launch new offerings, and generate strong
+
+cash flows to fuel the next wave of breakthroughs.
+
+Increase launch payload capacity. We plan to drive meaningful growth in payload delivered to orbit (mass to orbit)
+
+through higher launch cadence and increased payload per launch, while enhancing launch efficiency and reducing
+
+costs. Our next-generation fully and rapidly reusable Starship V3 vehicle is designed to carry 100 metric tons to
+
+Earth�s orbit in a reusable configuration, driving substantial improvements in payload capacity per launch , while
+
+enabling significantly more frequent flights, at unparalleled cost efficiency. To date, we have executed 11 Starship
+
+flight tests. We have also scheduled a 12th flight test, which will debut the next generation Starship vehicle and
+
+Super Heavy booster, powered by the next evolution of our Raptor engine and launching from a newly designed pad
+
+at Starbase. We expect Starship to commence payload delivery to orbit in the second half of 2026. We have
+
+achieved innovative milestones, such as the creation of booster catches using �chopstick� arms that facilitate rapid
+
+refurbishment and reuse, including launching multiple times per day. To enable a more frequent launch cadence and
+
+overall greater payload delivery, we are also expanding our ground launch infrastructure, including investing in
+
+additional pads, on-site propellant production, and other support facilities, and investing in future generations of
+
+Starship, which could carry 200 metric tons in capacity, potentially as soon as Starship V4. We expect these efforts
+
+to continue to drive launch payload growth that is expected to provide the foundational capacity needed to scale our
+
+Starlink Broadband and Starlink Mobile constellations that underpin our Connectivity platform. Our growing
+
+payload capacity is also intended to underpin the deployment of orbital AI compute that will accelerate our AI
+
+business, as well as benefit third-party customers who use our launch offerings.
+
+Establish the lunar economy. Advancing access to the lunar surface represents an important next step in the
+
+evolution of our Space segment and is a prerequisite for long-term commercialization beyond Earth. We are focused
+
+on developing the capability to transport significant amounts of cargo and crew to the lunar surface in a repeatable
+
+and economically viable manner. We believe this capability will also enable creating a petawatt-scale AI
+
+constellation through the use of lunar satellite production and a lunar mass driver for launch activities. By leveraging
+
+Starship�s expected fully and rapidly reusable capabilities and in‑space refueling, we expect to materially reduce the
+
+cost of lunar missions relative to historical norms. Our initial efforts will prioritize lunar cargo landings and
+
+returning Americans to the Moon, followed by expanded crewed missions that we believe can establish a continuous
+
+flow of cargo and humans between Earth and the lunar surface.
+
+We believe that the foundation of a commercial lunar economy begins with achieving infrastructure development,
+
+lunar resource utilization, and high bandwidth communications at scale. This requires the ability to mine, extract and
+
+process raw material for the production of solar power on the lunar surface. Combined with the ability to locally
+
+produce water and fuel, we believe these capabilities would enable sustained lunar operations, support lunar
+
+exploration, and provide the foundation for humanity�s permanent presence on the Moon. The lunar base would then
+
+allow sustained, high volume testing of new technologies in a space environment much closer to Earth than deep
+
+We intend to establish lunar‑based manufacturing capabilities, including factories to produce large‑scale AI compute
+
+satellites. We believe we can efficiently launch our satellites at scale, namely due to the potential use of a lunar mass
+
+driver that is capable of high-frequency, low-cost launches of satellites from the lunar surface. By shifting energy
+
+and material and mass-intensive satellite and solar manufacturing activities off Earth that leverage sustainable power
+
+generation and the Moon�s low gravity, we aim to significantly reduce costs and terrestrial resource constraints. We
+
+expect to use raw materials from the Moon to construct most of the mass of the satellites and ship chips and other
+
+lower mass elements from Earth. This roadmap positions the Moon not only as a potential gateway to Mars and
+
+space exploration, but as the first space-based industrial economy at scale.
+
+Table of Contents
+
+Once resource utilization capabilities are proven feasible, we believe there is an opportunity to commercialize the
+
+harvesting and exportation of rare materials, which is estimated to be present on the Moon in quantities exceeding
+
+one million tons and has potential applications in future nuclear energy and quantum computing systems. Large-
+
+scale access to these resources, coupled with the Moon�s low gravity, could unlock the potential for scalable growth
+
+by establishing a vertically-integrated resource extraction, processing and exportation hub. Using Starship�s high
+
+payload capacity, we believe these materials could be economically transported directly to Earth. In parallel, the
+
+Moon could function as a proving ground for closed-loop ecosystems, long-duration habitats, and autonomous
+
+construction techniques, all of which are essential for industrialization. Over time, this infrastructure has the
+
+potential to position the Moon as a strategic industrial and transportation node.
+
+Establishing lunar operations for mining, refueling, manufacturing, and habitation is subject to a variety of
+
+interconnected engineering and other hurdles as well as known and currently unknown risks and uncertainties. These
+
+include hurdles, risks and uncertainties that relate to, among other things, transporting and deploying heavy
+
+equipment to the lunar surface, developing reliable power generation and storage systems, extracting and processing
+
+lunar resources at commercial scale, operating equipment in extreme temperature, radiation and dust conditions,
+
+maintaining communications and navigation infrastructure, and supporting long-duration human presence in a
+
+remote and hazardous environment.
+
+Grow Starlink Broadband customers. In the near term, we are focused on increasing global awareness of our
+
+Starlink brand and capabilities to grow our base of Starlink Broadband subscribers and to increase Starlink
+
+Broadband adoption in new and existing markets.
+
+� Starlink Consumer Broadband. We have grown the number of Starlink Subscribers rapidly over the last
+
+several years. As of March 31, 2026, we had approximately 10.3 million Starlink Subscribers across 164
+
+countries, territories, and other markets. These subscribers represent a small fraction of the estimated 3.3 billion
+
+potential end users in the markets we currently serve, many of whom still lack reliable high-speed broadband.
+
+Because we report Starlink Subscribers on a per‑Service Line basis, the number of individual end users who
+
+access Starlink is already likely meaningfully higher than 10.3 million, as multiple people may share a single
+
+Service Line, including within a household. We intend to grow the number of Starlink Subscribers by
+
+expanding our consumer distribution network across thousands of authorized retail stores globally and execute
+
+region-specific marketing campaigns to increase Starlink brand awareness. By clearly demonstrating Starlink�s
+
+superior speed, low-latency, affordability, and ease of installation�not only in rural, remote, and infrastructure-
+
+limited areas, but also in suburban and urban areas with wireline broadband options�we expect to drive
+
+meaningful subscriber and revenue growth.
+
+� Enterprise and Government Starlink Customers. We plan to drive growth in enterprise and government
+
+Starlink customers through our direct, vertical-specific sales model. In recent years, we have assembled
+
+dedicated sales and engineering teams to market and support fleet-wide conversions in the aviation and
+
+maritime sectors. This has enabled partnerships with many of the world�s leading airlines, including United
+
+Airlines, Southwest Airlines, Qatar Airways, Lufthansa Group, British Airways, Alaska Airlines, and Hawaiian
+
+Airlines, many of which have implemented or committed to fleet-wide Starlink installations for seamless in-
+
+flight connectivity. We have also partnered with premier cruise operators, such as Carnival Corporation, Royal
+
+Caribbean Group, MSC Cruises, and Norwegian Cruise Line Holdings, for full-fleet deployments that deliver
+
+reliable high-speed internet across thousands of vessels worldwide. In addition, we have partnered with land
+
+mobility operators, including John Deere and the California Fire Department, as well as passenger rail operators
+
+such as Brightline (Florida), and Italo Treno, to provide remote monitoring and management of their fleets. We
+
+are actively driving growth in these sectors by onboarding new major airlines, cruise lines, and land mobility
+
+operators around the world, expanding existing relationships through deeper fleet penetration, and introducing
+
+advanced service tiers to make Starlink the standard connectivity solution for aviation, maritime, and land
+
+mobility customers globally. We also intend to expand our government customer base, securing major contracts
+
+with the United States and allied governments while delivering secure, resilient, and mission-critical
+
+connectivity for defense operations, humanitarian efforts, disaster response, and national security applications in
+
+even the most remote and challenging environments. We also serve a broad fixed‑site customer base across
+
+Table of Contents
+
+industries such as retail and financial services that require high availability for critical operations as well as
+
+reliable connectivity in remote or hard-to-serve locations. As companies continue to invest in secure and
+
+resilient networks to keep critical infrastructure�such as point‑of‑sale and payment processing systems�we
+
+see an opportunity to grow our broad fixed‑site customer base, often starting as back-up and then transitioning
+
+Expand our Starlink Mobile offering. As of March 31, 2026, we provide Starlink Mobile services to approximately
+
+7.4 million monthly unique devices across approximately 30 countries. We partner with leading device
+
+manufacturers, application developers, and mobile network operators to enhance the services we provide over one
+
+satellite network, including over-the-top voice, video, and messaging. In 2025, we entered into agreements to
+
+acquire 65 MHz of spectrum in the United States and certain global Mobile Satellite Service spectrum licenses from
+
+EchoStar, which will enable a step-change in the possibilities for our Starlink Mobile service. Furthermore, we
+
+anticipate that Starship will be able to deploy approximately 50 mobile satellites per launch, significantly increasing
+
+capacity per launch and accelerating the deployment of our next-generation constellation. With the deployment of
+
+our next-generation constellation, which is designed to fully utilize the acquired spectrum, and the expansion of our
+
+MNO partnerships, we aim to further deliver on our goal of providing connectivity for everyone and substantially
+
+reducing mobile �dead zones� worldwide�eventually with 5G connectivity to unmodified cell phones and IoT
+
+devices globally.
+
+Increase the capacity of our constellations. Our current constellations of approximately 9,600 Starlink broadband
+
+and mobile satellites, including over 3,000 satellites deployed in 2025, support over 700 Tbps of cumulative
+
+downlink capacity. To support larger numbers of customers through our Connectivity segment, we plan to materially
+
+increase the capacity of our broadband and mobile constellations. For our Starlink broadband constellation, we will
+
+continue deployment of more of our V2 Mini satellites, and in the second half of 2026, we expect to begin
+
+deployment of our next-generation V3 satellites, each of which is designed to offer one Tbps of downlink capacity
+
+per satellite. We expect Starship will be able to deploy up to 60 V3 satellites per launch, representing a twenty-fold
+
+increase in downlink capacity deployed per launch compared to Falcon 9, enabling a more rapid expansion of our
+
+Starlink broadband constellation at a significantly lower cost. For our Starlink Mobile constellation, we currently
+
+have approximately 650 existing dedicated mobile satellites. We are developing more comprehensive satellite-to
+
+mobile services, which we refer to as our Starlink Mobile Gen2 services, including broadband data and IoT
+
+connectivity, which are expected to deliver resilient, infrastructure-independent connectivity worldwide and enable
+
+5G connectivity.
+
+We plan to expand our mobile constellation by deploying our next-generation mobile V2 Mobile satellites in 2027
+
+which, combined with the EchoStar spectrum acquisition and optimized 5G protocols, are expected to increase
+
+capacity by orders of magnitude compared to our first-generation constellation. In the U.S., the FCC approved the
+
+EchoStar license transfer in May 2026, and we separately expect to receive the remaining necessary U.S. regulatory
+
+authorizations in the second or third quarter of 2026. While these authorizations would be sufficient from a U.S.
+
+regulatory perspective, we still require our V2 Mobile satellites to be in orbit and must complete the acquisition of
+
+the relevant spectrum from EchoStar before we can commence our planned commercial Gen2 service in the United
+
+States. Internationally, we have filed applications in nearly every country in which we intend to operate our Gen2
+
+service, and approvals have been granted in a limited number of these jurisdictions to date. Each international
+
+jurisdiction presents its own regulatory process and timeline, and we cannot predict when or whether approvals will
+
+be granted in any given market. In addition, our Gen2 service is subject to ITU coordination requirements. We have
+
+an operational coordination agreement with EchoStar, which we expect to continue through 2026 and 2027, under
+
+which EchoStar has agreed to protect our lower-priority S-band V2 Mobile constellation. By prioritizing these step-
+
+change capacity increases in our satellite-to-mobile capabilities, we expect to both enhance high-speed, low-latency
+
+service quality in existing markets and provide services to previously capacity-limited and unserved regions,
+
+including dense urban areas and emerging markets.
+
+Grow consumer AI platform monetization. We plan to continue to grow revenue from our AI platform, the Grok
+
+application, by increasing monetization of our existing user base. We will leverage our unique combination of
+
+real‑time data, large‑scale distribution, leading foundational model, and hardware expertise to increase the number
+
+Table of Contents
+
+of Grok subscribers. Subscribers benefit from enhanced functionality, exclusive features, and access to our latest AI
+
+models. Since the introduction of our Grok subscription offering in 2025, we have increased the number of available
+
+features to add value to our subscribers, including providing access to our latest and enhanced AI tools. We plan to
+
+continue adding new features and functionality while releasing increasingly capable Grok models to increase the
+
+penetration rate of our subscriber base. Our AI segment has demonstrated exceptional model velocity: since
+
+launching Grok, we have developed leading frontier models at a far faster rate of innovation than others. We
+
+continue to invest in scaling Grok through subsequent generations, including Grok 5. Our roadmap for future models
+
+contains multi-trillion parameter models, which could represent a step change in reasoning depth and overall
+
+intelligence. We believe this pace of innovation strengthens the value proposition of our subscription offerings and
+
+supports long term subscriber growth. While our subscriber growth has been strong, we believe we are still early in
+
+increasing paid penetration across our Grok user base. We further believe there might be an incremental
+
+monetization opportunity by introducing advertising into our stand-alone Grok offering.
+
+Grow X monetization. We intend to driv

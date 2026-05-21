@@ -1,0 +1,627 @@
+s on Starlink Kits. The Company
+
+has an obligation to either repair or replace the defective Starlink Kit. At the time revenue is recognized, an estimate
+
+of future warranty costs is recorded as a component of Cost of revenue. Factors that affect the warranty obligation
+
+include historical as well as current product failure rates and costs incurred in correcting product failures. Warranty
+
+expenses and related liabilities are not material to the consolidated financial statements.
+
+Research and Development Expenses
+
+The Company sponsors various research and development projects, whose costs are expensed as incurred. Research
+
+and development (�R&D�) expenses consist of cost of materials, employee compensation costs (including salaries,
+
+benefits, and share-based compensation), contractor compensation expenses, cloud computing expenses, data
+
+services, equipment lease expenses, depreciation for R&D equipment and allocated overhead. R&D costs also
+
+include certain expenses related to the development of features and modules created through engineering services
+
+for the Company�s products, where the Company retains the associated intellectual property.
+
+Software Development Costs
+
+The Company expenses software development costs marketed under on-premise perpetual license agreements. Costs
+
+incurred prior to the establishment of technological feasibility are expensed as research and development costs. Due
+
+to the nature of the Company�s development cycle, technological feasibility typically occurs shortly before the
+
+product is available for general release. All software development costs for the years ended December 31, 2025,
+
+2024, and 2023 were expensed as incurred.
+
+Share-Based Compensation
+
+The fair value of stock options, restricted share units (�RSUs�) and restricted share awards (�RSAs�) with service
+
+and/or performance conditions and the employee share purchase plan (�ESPP�) are estimated on the grant or
+
+offering date. The fair value of RSUs, RSAs, and ESPP is determined based on the fair value of the Company�s
+
+common stock on the date of grant and the fair value of stock options is determined using the Black-Scholes option-
+
+pricing model. The Black-Scholes option-pricing model requires inputs such as the fair value of the Company�s
+
+common stock, risk-free interest rate, expected award term and expected share price volatility.
+
+Share-based compensation expense for equity awards with performance conditions is recognized over the requisite
+
+service period when the vesting of the award becomes probable. Share-based compensation expense is recognized
+
+on a straight-line basis for equity awards with only a service condition and on a graded vesting basis for equity
+
+awards with a performance condition. The Company accounts for forfeitures as they occur rather than on an
+
+estimated basis.
+
+The fair value and derived service period of awards granted to the Company�s CEO with market, service, and
+
+performance conditions are estimated on the grant date using a Monte Carlo simulation model. A Monte Carlo
+
+simulation model requires inputs such as fair value of the Company�s common stock, the risk-free interest rate,
+
+expected award term, expected share dilution and expected share price volatility. These inputs, which are subjective
+
+and generally require judgment, are unique to each award based on the best available information at the valuation
+
+date. For these awards, share-based compensation expense is not recognized until the performance condition is
+
+probable. Once the performance condition is met, share-based compensation is recorded based on the requisite
+
+service period associated with th e probable performance conditio n.
+
+Advertising Expense
+
+The Company expenses the cost of advertising and other promotional expenditures to primarily market Starlink
+
+services as incurred. For the years ended December 31, 2025, 2024, and 2023 , advertising expenses included in
+
+Selling, general, and administrative expenses on the consolidated statements of operations are $69 million , $31
+
+million , and $29 million , respectively.
+
+Table of Contents
+
+Net Income (Loss) per Share of Common Stock Attributable to Common Shareholders
+
+Net income (loss) per share attributable to common shareholders is computed using the two-class method required
+
+for participating securities. Under this method, net income is allocated to common shareholders and participating
+
+securities based on their respective rights to receive dividends as if all earnings for the period had been distributed.
+
+Certain series of the Company�s redeemable convertible preferred stock are considered participating securities
+
+because they are entitled to receive dividends on an as-converted basis if and when dividends are declared on
+
+common stock. These securities do not participate in net losses. The Company�s classes of common stock have
+
+identical economic rights, resulting in the same net income (loss) per share for each class. Accordingly, the
+
+Company presents a single net income (loss) per share for all classes of common stock.
+
+Diluted net (loss) income per share is computed based on the more dilutive of (i) the two-class method or (ii) the if-
+
+converted method. Potentially dilutive shares from outstanding share-based compensation awards, including stock
+
+options and restricted stock units, are included when calculating diluted net income (loss) per share of attributable to
+
+common shareholders using the treasury stock method when their effect is dilutive.
+
+Refer to Note 13 , Redeemable Convertible Preferred Stock and Shareholders� Equity for additional details of the
+
+Company�s preferred and common stock.
+
+The Company utilizes the asset and liability method of accounting for income taxes as set forth in ASC Topic 740,
+
+Income Taxes (�ASC 740�). Under this method, deferred tax assets and liabilities are recognized using enacted tax
+
+rates for the effect of temporary differences between the book and tax bases of recorded assets and liabilities.
+
+ASC 740 also requires that deferred tax assets be reduced by a valuation allowance if it is more likely than not that
+
+some portion or all of the net deferred tax assets will not be realized. The Company�s ability to realize deferred tax
+
+assets is assessed at each year-end and a valuation allowance is established if necessary. The factors used to assess
+
+the likelihood of realization may include forecasts of future taxable income, future reversal of existing taxable
+
+temporary differences, and available tax planning strategies that could be implemented to realize net deferred tax
+
+The Company applies the provisions of ASC 740-10, which requires the Company to recognize in the consolidated
+
+financial statements the impact of a tax position only if it is more likely than not to be sustained upon examination
+
+based on the technical merits of the position. The Company recognizes interest and penalties related to uncertain tax
+
+positions in income tax expense.
+
+In December 2023, the FASB issued ASU No. 2023-09, Improvements to Income Tax Disclosures (Topic 740)
+
+(�ASU 2023-09�). ASU 2023-09 requires disaggregated information about a reporting entity�s effective tax rate
+
+reconciliation as well as additional information on income taxes paid. The Company adopted this ASU on a
+
+prospective basis effective January 1, 2025. Refer to Note 16 , Income Taxes for the inclusion of new disclosures
+
+Investment Tax Credits
+
+The Company recognizes investment tax credits when there is reasonable assurance that the credit will be received
+
+and the Company will comply with the conditions specified in the agreement or statutory requirements. The
+
+Company records capital-related credits as a reduction to Property, plant, and equipment, net within the consolidated
+
+balance sheets and recognizes a reduction to depreciation expense over the useful life of the corresponding acquired
+
+Foreign Currency
+
+The reporting currency of the Company is the United States (�U.S.�) dollar. The Company determines the functional
+
+and reporting currency of each of its international subsidiaries based on the primary currency in which they operate.
+
+If the functional currency is not the U.S. dollar, the Company recognizes a cumulative translation adjustment created
+
+by the different rates the Company applies to current period income or loss and the balance sheet . For each
+
+Table of Contents
+
+subsidiary, the Company applies the monthly average functional exchange rate to its monthly income or loss and the
+
+month-end functional currency rate to translate the balance sheet .
+
+Foreign currency transaction gains and losses are a result of the effect of exchange rate changes on transactions
+
+denominated in currencies other than the functional currency. Transaction gains and losses are recognized in Other
+
+income (expense), net in the consolidated statements of operations . Net foreign currency transaction gains (losses)
+
+were not material to the consolidated financial statements .
+
+Recent Accounting Pronouncements
+
+In November 2024, the FASB issued ASU No. 2024-03, Disaggregation of Income Statement Expenses (Subtopic
+
+220-40) . The ASU requires the disaggregated disclosure of specific expense categories, including purchases of
+
+inventory, employee compensation, depreciation, and amortization, within relevant income statement captions. This
+
+ASU also requires disclosure of the total amount of selling expenses along with the definition of selling expenses.
+
+The ASU is effective for annual periods beginning after December 15, 2026, and interim periods within fiscal years
+
+beginning after December 15, 2027. Adoption of this ASU can either be applied prospectively to consolidated
+
+financial statements issued for reporting periods after the effective date of this ASU or retrospectively to any or all
+
+prior periods presented in the consolidated financial statements . This ASU will likely result in the required
+
+additional disclosures being included in the consolidated financial statements , once adopted. The Company is
+
+currently evaluating the provisions of this ASU.
+
+In July 2025, the FASB issued ASU No. 2025-05, Financial Instruments�Credit Losses (Topic 326): Measurement
+
+of Credit Losses for Accounts Receivable and Contract Assets . The amendments in this update provide a practical
+
+expedient permitting an entity to assume that conditions at the balance sheet date remain unchanged over the life of
+
+the asset when estimating expected credit losses for current classified accounts receivable and contract assets. This
+
+update is effective for annual periods beginning after December 15, 2025, including interim periods within those
+
+fiscal years. Adoption of this ASU can be applied prospectively for reporting periods after its effective date. Early
+
+adoption is permitted. The Company is currently evaluating the provisions of this ASU and does not expect this
+
+ASU to have a material impact on the consolidated financial statements .
+
+In September 2025, the FASB issued ASU No. 2025-06, Intangibles�Goodwill and Other�Internal-Use Software
+
+(Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software . The ASU simplifies the
+
+capitalization guidance by removing all references to prescriptive and sequential software development stages
+
+(referred to as �project stages�) throughout ASC 350-40. The ASU is effective for annual periods beginning after
+
+December 15, 2027, and interim periods within those fiscal years. Adoption of this ASU can be applied
+
+prospectively for reporting periods after its effective date; or follow a modified transition approach that is based on
+
+the status of the respective projects and whether software costs were capitalized before the date of adoption; or
+
+retrospectively to any or all prior periods presented in the consolidated financial statements . Early adoption is
+
+permitted. The Company is currently evaluating the provisions of this ASU and does not expect this ASU to have a
+
+material impact on the consolidated financial statements.
+
+In December 2025, the FASB issued ASU No. 2025-10, Government Grants (Topic 832): Accounting for
+
+Government Grants Received by Business Entities . The ASU establishes authoritative guidance in GAAP about
+
+accounting for government grants received by business entities, clarifies the appropriate accounting, in an effort to
+
+reduce diversity in practice, and increase consistency of application across business entities. The ASU is effective
+
+for annual reporting periods beginning after December 15, 2028, and interim reporting periods within those annual
+
+reporting periods. Adoption of this ASU can be applied a modified prospective approach, a modified retrospective
+
+approach, or a retrospective approach. Early adoption is permitted. The Company is currently evaluating the
+
+provisions of this ASU and does not expect this ASU to have a material impact on the consolidated financial
+
+Table of Contents
+
+Note 3 - Revenue
+
+Revenue disaggregated by products and services is as follows:
+
+Year Ended December 31,
+
+Products ..........................................................................................
+
+Services ..........................................................................................
+
+Total revenues ..............................................................................
+
+All of products revenue is attributable to the Connectivity segment.
+
+Revenue disaggregated by type and segment is as follows:
+
+Year Ended December 31,
+
+Launch Services ...........................................................................
+
+Launch & Development ...............................................................
+
+Space .............................................................................................
+
+Consumer .....................................................................................
+
+Enterprise & Government (1) ........................................................
+
+Connectivity .................................................................................
+
+Advertising ...................................................................................
+
+AI Solutions & Infrastructure ......................................................
+
+AI ..................................................................................................
+
+Total revenues .........................................................................
+
+___________________
+
+(1) Enterprise & Government revenue includes revenue from Starlink Mobile service offerings.
+
+Deferred revenue
+
+Deferred revenue is recorded when cash payments are received or due, in advance of the Company�s performance.
+
+Deferred revenu e primarily relates to Space agreements and Connectivity enterprise and government contracts. Total
+
+deferred revenue as of December 31, 2024 was $10,179 million , of which $4,080 million was recognized as revenue
+
+for the year ended December 31, 2025 . Total deferred revenue as of December 31, 2025 was $12,116 million .
+
+Revenue recognized during the years ended December 31, 2024 and 2023 that were included in the deferred revenue
+
+balance at the beginning of each period was $3,414 million and $2,691 million , respectively.
+
+The Company�s backlog represents the transaction price of performance obligations to customers for which work
+
+remains to be performed. The amount of backlog increases with new contracts or additions to existing contracts and
+
+decreases as revenue is recognized on existing contracts. Contracts are included in backlog when an enforceable
+
+agreement has been reached. Backlog does not include amounts related to performance obligations that are billed
+
+and recognized as they are delivered, optional purchases that do not represent material rights and any estimated
+
+amounts of vari able consideration that are subject to constraint. Backlog totaled $28,377 million as of December 31,
+
+2025 , of which $12,116 million was recognized as deferred revenue at December 31, 2025 . A pproximately 32% is
+
+expected to be recognized within one year, and approximately 53% to be recognized in 2027 and 2028, with the
+
+remaining 15% to be recognized thereafter.
+
+Table of Contents
+
+Concentration of risk
+
+Consolidated revenue from a significant customer is as follows:
+
+Year Ended December 31,
+
+Customer A ....................................................................................
+
+Revenue from this customer relates to all three segments. No other customers represented more than 10% of
+
+consolidated revenue during the years ended December 31, 2025 , 2024 and 2023 .
+
+Note 4 - Inventory
+
+Inventory consists of the following:
+
+Raw materials ............................................................................................................
+
+Work-in-progress .......................................................................................................
+
+Finished goods ...........................................................................................................
+
+Inventory .................................................................................................................
+
+Note 5 - Property, Plant, and Equipment, Net
+
+Property, plant, and equipment, net consist of the following:
+
+Servers and networking equipment ...........................................................................
+
+Satellites .....................................................................................................................
+
+Machinery and equipment .........................................................................................
+
+Data center infrastructure ..........................................................................................
+
+Launch sites ...............................................................................................................
+
+Land, buildings and improvements (1) .......................................................................
+
+Flight vehicle hardware .............................................................................................
+
+Leasehold improvements ...........................................................................................
+
+Construction-in-progress ...........................................................................................
+
+Property, plant, and equipment ..................................................................................
+
+Less: Accumulated depreciation ................................................................................
+
+Property, plant, and equipment, net .....................................................................
+
+__________________
+
+(1) Land is not a depreciable asset.
+
+Construction in progress is primarily comprised of ongoing construction and expansion of the facilities and
+
+equipment as well as AI infrastructure that has not yet been placed in service.
+
+Depreciation expense for the years ended December 31, 2025 , 2024 and 2023 was $5,915 million , $2,977 million
+
+and $1,897 million respectively.
+
+Interest is capitalized during the construction period for significant long term construction projects, such as the AI
+
+infrastructure data centers. For the year ended December 31, 2025 , the Company capitalized $169 million of interest,
+
+Table of Contents
+
+which is included in Construction-in-progress amounts above. No interest was capitalized during the years ended
+
+December 31, 2024 and 2023 .
+
+For the years ended December 31, 2025 and 2024 , the Company recorded impairment charges of $38 million and
+
+$63 million , respectively, related to the write off of (i) damaged flight vehicle in the Space segment, and (ii)
+
+abandoned production line and damaged satellite hardware in the Connectivity segment. These charges are reflected
+
+in Impairment in the consolidated statements of operations . There was no impairment related to Property, plant, and
+
+equipment recorded in Impairment during the year ended December 31, 2023 .
+
+During the years ended December 31, 2024 and 2023 , the Company also recorded impairment charges of $36
+
+million and $54 million , respectively, related to its leasehold improvements and office equipment as part of its
+
+facilities consolidation efforts in the AI segment in Restructuring charges in the consolidated statements of
+
+operations . There was no impairment related to Property, plant, and equipment recorded in Restructuring charges
+
+during the year ended December 31, 2025 . Refer to Note 20 , Restructuring for additional details.
+
+In 2024, the Company closed two taxable revenue bond transactions with a local municipality, in order to receive a
+
+personal property tax abatement on newly acquired server and networking equipment in the state. Pursuant to this
+
+transaction, the municipality issued taxable revenue bonds of $442 million and $258 million principal amount each
+
+to the Company and used the constructive proceeds to purchase the server and networking equipment from the
+
+Company, and then leased the equipment back to the Company. As this effectively created a bond receivable and a
+
+corresponding financing obligation with the municipality, and the Company has the legal right to set-off and intends
+
+to set-off the corresponding lease expense and bond service payments received, there was no impact to the
+
+consolidated statements of operations and consolidated balance sheets .
+
+Note 6 - Intangible Assets and Goodwill
+
+Intangible Assets
+
+Finite-lived intangible assets consist of the following:
+
+December 31, 2025
+
+Brand ......................................................................
+
+User base .................................................................
+
+Existing technology ................................................
+
+Advertising customer relationships ........................
+
+Acquired workforce ................................................
+
+Total .................................................................
+
+December 31, 2024
+
+Brand ......................................................................
+
+User base .................................................................
+
+Existing technology ................................................
+
+Advertising customer relationships ........................
+
+Data licensing customer relationships ....................
+
+Developed technology ............................................
+
+Total .................................................................
+
+Table of Contents
+
+Amortization expense associated with finite-lived intangible assets was $786 million , $847 million , and $738
+
+million in the years ended December 31, 2025 , 2024 , and 2023 , respectively.
+
+The Company also has indefinite-lived intangible assets of $ 11 million and $ 4 million as of December 31, 2025 and
+
+2024 , respectively. Indefinite-lived intangible assets primarily consist of domain names, which are expected to
+
+provide long-term branding and marketing benefits. No impairment charges were recognized on indefinite-lived
+
+intangible assets for the years ended December 31, 2025 , 2024 , and 2023 other than the Twitter impairment
+
+described below.
+
+Estimated future amortization expense of finite-lived intangible assets as of December 31, 2025 is as follows:
+
+2026 ......................................................................................................................................................
+
+2027 ......................................................................................................................................................
+
+2028 ......................................................................................................................................................
+
+2029 ......................................................................................................................................................
+
+2030 ......................................................................................................................................................
+
+Thereafter ..............................................................................................................................................
+
+Twitter Impairment
+
+In 2023, the Company rebranded its Twitter platform to X. As a result of the rebranding, the Company performed an
+
+impairment assessment and recorded an impairment charge of $3,775 million on its previously indefinite-lived brand
+
+intangible for the AI segment. The Company�s brand intangible asset was determined to no longer be indefinite-
+
+lived and is presented as a finite-lived intangible asset with a five-year useful life. The fair value of the brand
+
+intangible asset was determined using the relief-from-royalty method.
+
+Spectrum Transactions
+
+On September 7, 2025, the Company entered into a License Purchase Agreement (the �Spectrum License Purchase
+
+Agreement�) with Spectrum Business Trust 2025-1, a Nevada Business Trust (�Trust�) and EchoStar Corporation
+
+(�EchoStar� , and the transactions contemplated thereby, �Spectrum Transactions�) for total consideration of $17,000
+
+million as discussed below.
+
+Pursuant to the terms and subject to the conditions set forth in the Spectrum License Purchase Agreement, the
+
+Company agreed to purchase EchoStar�s rights and licenses related to an aggregate of 50 MHz of spectrum in
+
+frequency ranges 2000�2020, 2180�2200, 1915�1920 and 1995� 2 000 (the �AWS-4 and H-Block Licenses� and
+
+such spectrum, �the Spectrum�) granted by the Federal Communication Commissions (�FCC � ), together with
+
+certain international authorizations, filings, concessions, licenses, rights and priorities related to that spectrum and
+
+certain assets associated therewith (collectively, the �Foreign Assets�). The transfer of the AWS-4 and H-Block
+
+Licenses will occur in two steps: first, the AWS-4 and H-Block Licenses will be transferred by EchoStar to the Trust
+
+(the �Spectrum Transfer Closing�), and second, the AWS-4 and H-Block Licenses will be transferred by the Trust to
+
+the Company (the �Spectrum Acquisition Closing�). The Foreign Assets will be transferred directly to the Company
+
+at the Spectrum Acquisition Closing, to the extent the required regulatory approvals have been obtained by such
+
+date; provided, however, that the failure to obtain such approvals will not delay or prevent the Spectrum Acquisition
+
+In connection wi th the Spectrum License Purchase Agreement and the Spectrum Transactions, on September 7,
+
+2025, the Company and the Trust entered into a Credit Agreement, pursuant to which the Company has agreed upon
+
+the Spectrum Transfer Closing, to loan to the Trust (via loans which are able to be canceled at six-month intervals)
+
+to be used by the Trust to  make debt service payments on EchoStar�s debt through at least November 30, 2027, but
+
+in no event later than November 30, 2028. These loans will be secured on a junior lien basis by the AWS-4 and H-
+
+Block Licenses. The aggregate amount of debt service payments through November 30, 2028 will equal
+
+approximately $3,000 million.
+
+Table of Contents
+
+On November 5, 2025, the parties amended and restated the Spectrum License Purchase Agreement to include
+
+EchoStar�s licenses for up to 15MHz of additional unpaired AWS-3 spectrum, and increased the consideration by
+
+$2,600 million, to a total amount of consideration of $19,600 million. The cash payoff consideration (as noted
+
+below), two-step transfer process, debt service payments, trust structure, and maintenance obligations remain
+
+The total consideration, approximating $19.6 billion, consisting of (i) approximately $11.1 billion in equity, payable
+
+through the issuance of approximately 261.8 million shares of the Company�s Class A common stock at a fixed
+
+value of $42.40 per share, and (ii) up to $8.5 billion related to the payoff of designated EchoStar debt, with any
+
+shortfall below $8.5 billion to be paid in cash. The allocation of cash and equity consideration is subject to certain
+
+adjustments based on the amount of EchoStar debt satisfied at or prior to closing.
+
+The Spectrum Acquisition Closing is expected to occur on or about November 30, 2027. The completion of the
+
+Spectrum Transactions is subject to the satisfaction or waiver of customary closing conditions, including, among
+
+others, receipt of certain consents and approvals from the FCC and the Department of Justice ( � DOJ � ). The
+
+Spectrum License Purchase Agreement also provides for specified termination rights. As of December 31, 2025 , the
+
+Spectrum Transfer Closing has not yet occurred, and as a result, the Company is not yet obligated to make any
+
+payments under the Credit Agreement with the Trust. Once the Spectrum Transfer Closing occurs, the Spectrum
+
+Transactions will be recognized as acquired intangible assets.
+
+The activity for goodwill is as follows:
+
+Balance at December 31, 2023 .............................................................................................................
+
+Cumulative translation adjustments .................................................................................................
+
+Balance at December 31, 2024 .............................................................................................................
+
+Business combination .......................................................................................................................
+
+Cumulative translation adjustments ................................................................................................
+
+Balance at December 31, 2025 ..........................................................................................................
+
+As of December 31, 2025 and 2024, goodwill attributable to the Connectivity segment was $513 million and $505
+
+million , respectively, and goodwill attributable to the AI segment was $11,296 million and $10,624 million ,
+
+Note 7 - Digital Assets
+
+Digital assets consist of the following:
+
+(in millions ex

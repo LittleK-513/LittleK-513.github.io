@@ -1,0 +1,709 @@
+commissions and
+
+estimated offering expenses payable by us. Please refer to
+
+�Underwriting.� We intend to use the net proceeds from this
+
+offering to fund our growth strategy, including the expansion of
+
+our AI compute infrastructure, enhancements to our launch
+
+infrastructure and launch vehicles, increases in the scale and
+
+capacity of our satellite constellations, and any remaining
+
+amounts for general corporate purposes. Please refer to �Use of
+
+Proceeds� for a more complete description of the intended use
+
+of proceeds from this offering.
+
+Table of Contents
+
+Dividend policy ......................................................
+
+We do not anticipate declaring or paying any cash dividends to
+
+holders of our common stock in the foreseeable future. We
+
+currently intend to retain future earnings, if any, to finance the
+
+growth of our business. Our future dividend policy is within the
+
+discretion of our board and will depend upon then-existing
+
+conditions, including our results of operations, financial
+
+condition, capital requirements, investment opportunities,
+
+statutory restrictions on our ability to pay dividends, restrictions
+
+in our existing and any future debt agreements and other factors
+
+our board may deem relevant. Covenants under our Credit
+
+Agreements also restrict our ability to pay dividends, and we
+
+may enter into credit agreements or other borrowing
+
+arrangements in the future that restrict our ability to declare or
+
+pay cash dividends or make distributions in the future.
+
+Directed share program ..........................................
+
+At our request, the underwriters have reserved              percent
+
+of the shares of Class A common stock to be issued by the
+
+Company and offered by this prospectus for sale, at the initial
+
+public offering price, to employees of the Company and certain
+
+other designated individuals. If purchased by these persons,
+
+these shares of Class A common stock will not be subject to a
+
+lock-up restriction. The number of shares of Class A common
+
+stock available for sale to the general public will be reduced to
+
+the extent these individuals purchase such reserved shares of
+
+Class A common stock. Any reserved shares of Class A
+
+common stock that are not so purchased will be offered by the
+
+underwriters to the general public on the same basis as the other
+
+shares of Class A common stock offered by this prospectus.
+
+Controlled company ...............................................
+
+Upon completion of this offering, Mr. Musk will beneficially
+
+own a majority of the voting power of our common stock and
+
+the Class B common stock, which elects a majority of the
+
+board. As a result, we expect to be a �controlled company�
+
+within the meaning of the Nasdaq and Nasdaq Texas corporate
+
+governance standards, and intend to rely on exemptions from
+
+certain of the corporate governance listing requirements. Please
+
+refer to �Management�Controlled Company Exemption� and
+
+�Certain Relationships and Related Person Transactions.�
+
+Risk factors .............................................................
+
+You should carefully read and consider the information set
+
+forth in the section titled �Risk Factors� beginning on page 26 ,
+
+together with all of the other information set forth in this
+
+prospectus, before deciding whether to invest in our Class A
+
+Listing and trading symbol .....................................
+
+We have applied to list our Class A common stock on Nasdaq
+
+and Nasdaq Texas under the symbol �SPCX.�
+
+The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based
+
+on           shares of Class A common stock and                   shares of Class B common stock outstanding as of March
+
+31, 2026, after giving effect to (i) the sale of                    shares of Class A common stock in this offering, (ii) the
+
+Class C Reclassification (as defined below), and (iii) the Preferred Conversion (as defined below).
+
+Unless otherwise noted, common stock outstanding after the offering and other information based thereon in this
+
+prospectus does not reflect any of the following:
+
+� shares of Class A common stock issuable upon exercise of the underwriters� option to purchase
+
+additional shares from us;
+
+� shares of Class A common stock issuable upon the exercise of outstanding stock options granted
+
+under the Equity Plans (as defined below) that were outstanding as of March 31, 2026 with a weighted-average
+
+exercise price of $                per share;
+
+Table of Contents
+
+� shares of Class A common stock issuable upon the exercise of outstanding stock options granted
+
+under the Equity Plans (as defined below) granted after March 31, 2026 with a weighted-average exercise price
+
+of $                per share;
+
+� shares of Class A common stock issuable upon the vesting and settlement of restricted stock units that
+
+were outstanding as of March 31, 2026 under the Equity Plans (none of which will vest in connection with this
+
+� shares of Class A common stock issuable upon the vesting and settlement of restricted stock units
+
+granted after March 31, 2026 under the Equity Plans (none of which will vest in connection with this offering);
+
+� shares of Class A common stock reserved for issuance under our Amended and Restated 2024 Equity
+
+Incentive Plan (the �A&R 2024 Plan�), excluding shares subject to outstanding awards thereunder as described
+
+above, which we plan to adopt in connection with this offering;
+
+� shares of Class A common stock reserved for issuance under our Amended and Restated 2017 Equity
+
+Stock Purchase Plan (the �A&R 2017 ESPP�), which we plan to adopt in connection with this offering; and
+
+� shares of Class A common stock reserved for future issuance upon the conversion of           shares of
+
+Class B common stock on a one-for-one basis.
+
+The term �Equity Plans� refers to our 2015 Plan, our A&R 2017 ESPP and our A&R 2024 Plan as well as (i) xAI�s
+
+2023 Equity Incentive Plan, 2023 Incentive Plan and 2025 Equity Incentive Plan, each of which we assumed in the
+
+xAI Merger and (ii) the 2017 Stock Plan, as amended, of Swarm Technologies, Inc. (�Swarm�), which we assumed
+
+in our acquisition of Swarm in 2021.
+
+The information in this prospectus also does not reflect:
+
+� the payment of                      shares of Class A common stock and cash consideration which would occur upon
+
+closing of our agreement with EchoStar Corporation (�EchoStar�) to purchase certain AWS-3, AWS-4, and H-
+
+Block spectrum licenses pursuant to the License Purchase Agreement, dated as of September 7, 2025 (as
+
+amended and restated on November 5, 2025), by and among SpaceX, Spectrum Business Trust 2025-1 and
+
+EchoStar (the �Spectrum Transaction�), which transaction was approved by the FCC on May 12, 2026 and is
+
+subject to other closing conditions prior to completion; and
+
+� the issuance of shares of our Class A common stock if in the future our board determines to exercise our option
+
+to acquire Cursor as such option is described under �Business � Collaboration with Cursor,� which, as an
+
+example, assuming the volume-weighted average closing price of our common stock over the seven consecutive
+
+trading days immediately preceding the closing of such acquisition were equal to the initial public offering price
+
+of $ per share (which is the midpoint of the price range set forth on the cover of this prospectus),
+
+would equal approximately shares. The actual number of shares that may be issued will be
+
+determined based on a future trading price and is subject to customary adjustments for reclassifications,
+
+recapitalization, stock splits or any other similar event affecting the outstanding capital stock of Cursor or the
+
+Unless otherwise indicated, all information contained in this prospectus assumes or gives effect to:
+
+� the 2026 Stock Split;
+
+� prior to the completion of this offering, pursuant to the terms of our certificate of formation in effect as a private
+
+company prior to this offering, the reclassification of all of the outstanding shares of our Class C common stock
+
+into an aggregate of                      shares of Class A common stock (the �C lass C Reclassificatio n�) and the
+
+conversion of the outstanding shares of all our preferred stock into an aggregate of                     shares of our
+
+Class A common stock and                    shares of our Class B common stock (the �Preferred Conversion�) ;
+
+� the effectiveness of our charter and bylaws, which will become effective upon the completion of this offering;
+
+Table of Contents
+
+� an initial public offering price of $                per share of Class A common stock (the midpoint of the price range
+
+set forth on the cover of this prospectus);
+
+� that the underwriters do not exercise their option to purchase additional shares of Class A common stock from
+
+� no purchase of shares of Class A common stock in this offering by our directors, officers or existing
+
+Table of Contents
+
+Summary Historical Consolidated Financial and Operating Data
+
+The following table sets forth the summary historical consolidated financial and operating data for the periods and as
+
+of the dates presented. The summary historical consolidated financial data as of March 31, 2026 and for the three
+
+months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock
+
+attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net
+
+loss per share of common stock attributable to common shareholders) has been derived from our unaudited
+
+consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated
+
+financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023
+
+(except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and
+
+weighted average shares used in computing pro forma basic and diluted net loss per share of common stock
+
+attributable to common shareholders) has been derived from our audited consolidated financial statements included
+
+elsewhere in this prospectus.  The summary historical consolidated financial and operating data presented below is
+
+not indicative of the results to be expected for any future period, and the results for any interim period are not
+
+necessarily indicative of the results to be expected for the full fiscal period.
+
+The summary historical consolidated financial and operating data of SpaceX has been prepared to reflect the
+
+retrospective combination of the companies for all periods presented to include the historical results of xAI, which
+
+was acquired by SpaceX, effective February 2, 2026, and X Holdings, which was acquired by xAI, effective
+
+March 28, 2025, because these transactions were between entities under common control.
+
+The following information should be read together with �Management�s Discussion and Analysis of Financial
+
+Condition and Results of Operations� and our consolidated financial statements and related notes thereto included
+
+elsewhere in this prospectus. The summary historical consolidated financial data included in this section is not
+
+intended to replace the consolidated financial statements and is qualified in its entirety by our consolidated financial
+
+statements and related notes included elsewhere in this prospectus.
+
+Stat ements of Operations Data:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+(in millions, except per share data )
+
+Revenue .............................................
+
+Total costs and expenses ...........
+
+Income (loss) from operations ...........
+
+Net income (loss) ..............................
+
+Net income (loss) per share of
+
+common stock attributable to
+
+common shareholders (1)
+
+Basic ..............................................
+
+Diluted ...........................................
+
+Weighted average shares used in
+
+computing net income (loss) per
+
+share of common stock (1)
+
+Basic ..............................................
+
+Diluted ...........................................
+
+__________________
+
+(1) Please refer to Note 14 , Earnings per Share to our audited consolidated financial statements appearing elsewhere in this prospectus for an
+
+explanation of our calculation of basic and diluted net income (loss) per share of common stock attributable to common shareholders.
+
+Table of Contents
+
+The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of
+
+common stock attributable to common shareholders for the period presented :
+
+(in millions, except per share data)
+
+Net loss attributable to common shareholders, basic and diluted .........................
+
+Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable
+
+Convertible Preferred Stock, basic and diluted ................................................
+
+Pro Forma net loss attributable to common shareholders, basic and diluted ........
+
+Weighted average shares used in computing net loss per share of common
+
+stock, basic and diluted .....................................................................................
+
+Pro forma adjustment to reflect the Preferred Conversion as if the conversion
+
+occurred on January 1, 2025, basic and diluted ................................................
+
+Weighted average shares used in computing pro forma net loss per share of
+
+common stock, basic and diluted ......................................................................
+
+Pro forma net loss per share of common stock attributable to common
+
+shareholders, basic and diluted (2) ..........................................................................
+
+__________________
+
+(2) Pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted-average number of
+
+shares used in the computation of the per share amount gives effect to (i) the Preferred Conversion as if such conversion had occurred as of
+
+January 1, 2025, (ii) the Class C Reclassification as if such reclassification had occurred as of January 1, 2025, and (iii) the effectiveness of
+
+our charter, which will become effective upon the completion of this offering.
+
+Statement of Cash Flows Data:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Net cash provided by operating
+
+activities ..........................................
+
+Net cash used in investing activities ..
+
+Net cash provided by financing
+
+activities ..........................................
+
+Capital Expenditures:
+
+The following table presents our capital expenditures by segment:
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Space ..................................................
+
+Connectivity .......................................
+
+AI ........................................................
+
+Total Capital Expenditures .................
+
+Table of Contents
+
+Balance Sheet Data:
+
+Cash and cash equivalents ..............................................................
+
+Total current assets .........................................................................
+
+Property, plant, and equipment, net ................................................
+
+Total assets ....................................................................................
+
+Debt and finance leases, current ....................................................
+
+Total current liabilities ...................................................................
+
+Total liabilities ................................................................................
+
+Redeemable convertible preferred stock ........................................
+
+Total shareholders� equity .............................................................
+
+Segment Operating and Financial Data (unaudited)
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Mass to Orbit (in metric tons) (1) ........
+
+Launches (number) (1) .........................
+
+Segment income (loss) from
+
+operations (in millions) ...................
+
+Segment Adjusted EBITDA (in
+
+millions) (2) ......................................
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Starlink Subscribers (in millions) (1) ...
+
+Starlink ARPU (dollars per month) (1)
+
+Segment income from operations (in
+
+millions) ..........................................
+
+Segment Adjusted EBITDA (in
+
+millions) (2) ......................................
+
+Three Months Ended March 31,
+
+Year Ended December 31,
+
+Nameplate compute draw (in
+
+gigawatts) (1) ....................................
+
+Segment loss from operations (in
+
+millions) ..........................................
+
+Segment Adjusted EBITDA (in
+
+millions) (2) ......................................
+
+(1) Please refer to the section titled �Management�s Discussion and Analysis of Financial Condition and Results of Operation�Key Business
+
+Metrics� for additional information on our key business metrics.
+
+(2) Segment Adjusted EBITDA is a non-GAAP measure. Please refer to the section titled �Management�s Discussion and Analysis of Financial
+
+Condition and Results of Operation�Non-GAAP Financial Measures� for additional information on our non-GAAP financial measures,
+
+including reconciliations of Segment Adjusted EBITDA to segment income (loss) from operations, the most directly comparable GAAP
+
+Table of Contents
+
+Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and
+
+uncertainties described below, together with all of the other information contained in this prospectus, including our
+
+consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A
+
+common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and
+
+adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks.
+
+References to past events are provided by way of example only and are not intended to be a complete listing or a
+
+representation as to whether or not such factors have or have not occurred in the past or their likelihood of
+
+occurring in the future. Additional risks and uncertainties that we are unaware of, or that we currently believe are
+
+not material, may also become important factors that adversely affect us. Many of the risks and uncertainties that
+
+could materially adversely affect us or our prospects are beyond our control or relate to portions of our business
+
+strategy that have a lengthy time horizon or involve unprecedented ventures. This can make assessment of certain
+
+risks more difficult and you should factor these uncertainties into your assessment of an investment in our Class A
+
+common stock. If any of the following risks and uncertainties occur, the price of our Class A common stock could
+
+decline, and you could lose part or all of your investment.
+
+Risks Related to Our Business
+
+Any failure or delay in the development of Starship at scale or in achieving the required launch cadence,
+
+reusability and capabilities thereafter would delay or limit our ability to execute our growth strategy, including
+
+the deployment of next-generation satellites, global satellite-to-mobile connectivity, and orbital AI compute,
+
+which could materially adversely affect our business, financial condition, results of operations, and future
+
+If we are unable to successfully complete the development, testing, and deployment of Starship at scale in
+
+accordance with our anticipated schedule, or at all, or if we are unable to achieve sufficient launch cadence,
+
+reusability, and capability, our ability to execute our growth strategy (such as the deployment of our next-generation
+
+V3 satellites, V2 satellite-to-mobile connectivity, and providing orbital AI compute infrastructure) would be
+
+materially and adversely affected. The commercial deployment of Starship, particularly at scale, is subject to
+
+substantial risks and uncertainties inherent in the development of new and complex technologies and systems.
+
+Delays or challenges in the Starship program have in the past occurred, and may occur in the future due to a variety
+
+of factors, including unforeseen technical challenges, supply chain disruptions, manufacturing difficulties, delays in
+
+the development, construction or commissioning of launch and fueling infrastructure (such as launch pads, air
+
+separation units and other propellant production systems), unavailability of such launch and fueling infrastructure
+
+(including launch pads) in sufficient number and in operable condition (including as a result of mishaps), loss or
+
+damage to the vehicle or other components, regulatory hurdles, or the need for additional design modifications. If we
+
+are required to undertake unanticipated redesigns, conduct additional testing, replace lost vehicles or components, or
+
+address operational setbacks, we may experience delays and incur significant additional costs, or be forced to
+
+reallocate critical resources from other projects. If our launch pads are not available for an extended period of time
+
+for any reason, we may not be able to achieve our development, testing and deployment goals. Such delays could
+
+have cascading effects on our ability to achieve the scale we need to timely achieve future objectives. In addition, a
+
+critical part of our growth strategy involves increasing our launch cadence, reusability and capability, including
+
+increasing our payload per launch. This will require, among other things, the successful development and operation
+
+of reusable launch vehicles, substantially increased access to raw materials and components like steel, fuel and
+
+propellant, the construction of additional facilities and securing of additional launch sites or rights to additional
+
+launches from existing sites, and navigating complex and evolving regulatory requirements and environmental and
+
+technological issues as we seek to increase our launch cadence. Our rocket programs have historically required
+
+substantial time and resources to reach the cadence and cost thresholds necessary for commercial viability, and the
+
+development of Starship may face similar or greater challenges. Any significant delay in achieving key development
+
+milestones, obtaining the necessary regulatory approvals or increasing and maintaining our launch cadence,
+
+reusability, and capability would impede the expansion of our service offerings, defer anticipated revenue streams,
+
+and negatively impact our growth trajectory and competitive positioning in rapidly evolving markets.
+
+Table of Contents
+
+Our ability to execute our growth strategy is highly dependent on Starship. If we are unable to achieve the
+
+commercial development, anticipated performance, launch cadence, or cost efficiencies associated with Starship
+
+within expected timeframes, our ability to deploy next-generation V3 satellites, V2 Mobile satellites, and orbital AI
+
+compute infrastructure at scale, reduce capital and operating costs (including cost per token), realize projected
+
+revenue growth, and retain existing customers from these initiatives could be materially and adversely affected. This
+
+includes our expectations with respect to completion of flight testing of Starship and commencement of payload
+
+delivery to orbit. Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of
+
+deploying V3 satellites and V2 Mobile satellites.
+
+In addition, our ability to pursue new initiatives and capture emerging business opportunities�particularly those
+
+requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations
+
+and interplanetary missions�depends on the timely and successful deployment of Starship and achieving our
+
+targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key
+
+milestones and the continued investment of significant capital resources. These include: securing additional land and
+
+developing high-rate launch sites and supporting infrastructure across multiple locations; scaling production of
+
+Starship vehicles and Raptor engines; constructing propellant production facilities, including air separation units and
+
+methane liquefaction plants co-located with launch sites; securing sufficient power supply; and obtaining the
+
+necessary regulatory approvals, particularly from the FAA, to support a high launch cadence while addressing public
+
+safety and environmental considerations. We face a number of material challenges and uncertainties in achieving
+
+these milestones, such as achieving reliable high-cadence return-to-launch-site operations for the full vehicle stack,
+
+developing durable reusable heat shields capable of withstanding repeated high-velocity reentries, ensuring rapid
+
+refurbishment and high-rate reusability of engines and other vehicle components, managing public and regulatory
+
+tolerance for anomalies during the transition to frequent operational flights, securing sufficient power for both
+
+manufacturing and launch operations, and obtaining timely regulatory approvals from the FAA and other agencies.
+
+Orbital refueling involves technical complexities associated with cryogenic propellant transfer in microgravity,
+
+propellant settling, and boil-off management and is required for lunar and interplanetary objectives.
+
+If Starship does not achieve full reusability or rapid turnaround, we may experience higher per-launch costs, slower
+
+deployment timelines for our large-scale constellations (including our orbital AI compute program), delayed revenue
+
+growth, and increased overall capital requirements, and our brand and reputation may suffer. AI compute satellites at
+
+scale need full Starship reusability to be economically compelling. Without full reusability and rapid turnaround,
+
+Starship would still be capable of enabling progress on our next-generation Starlink, direct-to-cell, initial lunar
+
+objectives, and early AI compute satellite deployments, but such progress would be at a slower pace and higher cost.
+
+Any inability to deliver Starship to market as planned could constrain our participation in new or expanding
+
+addressable markets, limit our competitive differentiation, and hinder our efforts to attract and retain customers.
+
+There can be no assurance that we will be able to achieve our objectives with respect to Starship within the expected
+
+timeframes, if at all, or that delays or setbacks will not materially impact our strategic plans.
+
+Any delays or difficulties in obtaining, maintaining or renewing required regulatory approvals and licenses
+
+required for our space-related activities, including FAA launch and reentry licenses, would materially delay or
+
+disrupt our operations, harm our business, or limit our ability to execute our business strategy.
+
+Our launch services are subject to extensive regulation in the United States and internationally. We must secure and
+
+maintain numerous governmental approvals to launch our rockets and conduct related launch and reentry activities.
+
+Any failure or significant delay in obtaining required licenses and permits or failure to maintain them could disrupt
+
+our operations, constrain our growth, and adversely affect our ability to serve our customers. Our plans to deploy
+
+large-scale orbital infrastructure, including orbital AI compute systems, will require the operation of very large
+
+satellite constellations, potentially numbering up to one million satellites. These plans will depend on obtaining a
+
+wide range of domestic and international approvals, including spectrum authorizations, orbital debris mitigation
+
+approvals, and coordination and authorization requirements relating to space situational awareness and international
+
+regulatory regimes, and there can be no assurance that such approvals will be obtained on acceptable timelines,
+
+terms, or at all.
+
+We depend on timely approvals from the FAA to conduct our launch operations. If we do not receive FAA launch
+
+licenses or related approvals on the schedules we anticipate or if we are subject to regulatory delays, we could be
+
+Table of Contents
+
+forced to delay or cancel planned launches, which could cause missed customer commitments, increased costs, and
+
+underutilization of our launch resources. Obtaining a launch license involves rigorous safety and environmental
+
+reviews, and unforeseen issues in meeting these requirements or additional conditions imposed during the review
+
+process could also impact our launch timelines. For example, current FAA regulations do not permit return-to-
+
+launch-site reentries for Starship, requiring us to obtain a waiver from the FAA, which is not guaranteed and could
+
+delay or restrict such operations. Following an anomaly, mishap, or failure, the FAA or other authorities may require
+
+investigations, impose corrective actions, or restrict or delay our ability to conduct launch operations. We have in the
+
+past been, and may in the future become, subject to such actions, impacting our ability to increase launch cadence.
+
+The regulatory framework governing commercial launches may also evolve over time. The FAA or other authorities
+
+could introduce new or more stringent requirements for launch licensing � for instance, heightened safety standards,
+
+environmental mitigation measures, or other operational restrictions � that could require us to invest in new
+
+technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency
+
+of our launches and industry activity overall continues to grow, the FAA�s resources may become strained, which
+
+could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant
+
+delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure to obtain an
+
+approval for a key launch, could materially adversely affect ou

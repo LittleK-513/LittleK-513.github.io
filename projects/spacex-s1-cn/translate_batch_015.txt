@@ -1,0 +1,711 @@
+sable and are classified as property, plant,
+
+and equipment and are depreciated to cost of revenue. The second stages are not reusable and are recorded to cost of
+
+revenue when they are launched for Launch Services revenue transactions or assigned for Launch and Development
+
+revenue transactions. Dragon is comprised of a fully reusable capsule that is classified as Property, plant, and
+
+equipment, net and is depreciated to cost of revenue. Starship is comprised of a booster, ship, and Raptor engines
+
+and is currently in the development stage. A majority of Starship costs are currently expensed to Research and
+
+development as incurred. Raptor engines are expensed when used in test flights.
+
+Space segment�s cost of revenue includes second stages flown related to the Company�s Falcon 9 and Falcon Heavy
+
+launches, launch operations and overhead, depreciation (inclusive of booster, Merlin engine, and fairing
+
+depreciation), employee compensation costs (including salaries, benefits, and share-based compensation) for our
+
+operations teams, launch testing and overhead, engineering costs, inventory excess and obsolescence, shared costs
+
+incurred in the production of launch hardware, and ongoing product support.
+
+We expect Space cost of revenue to increase both in absolute dollars and as a percentage of revenue based on our
+
+expected mix of Launch Services and Launch and Development . From period to period, Space segment cost of
+
+revenue will vary based on the mix of customer and internal launches.
+
+Research and Development
+
+Space segment�s research and development (�R&D�) expenses mainly relate to the development, build, and testing
+
+of Starship. Starship costs consist of test flight hardware, Raptor engines, employee compensation costs (including
+
+Table of Contents
+
+salaries, benefits, and share-based compensation), tooling and equipment expenses, depreciation for R&D
+
+equipment, and allocated overhead. R&D also includes certain expenses related to the development of features and
+
+modules created through engineering services for the Company�s Falcon vehicles, where the Company retains the
+
+associated intellectual property.
+
+We expect Space research and development to increase both in absolute dollars and as a percentage of revenue in
+
+2026 , as we invest in the development and commercialization of Starship, and to moderate both in absolute dollars
+
+and as a percentage of revenue once Starship is commercialized by delivering payload to orbit. At
+
+commercialization, Starship costs generally will be capitalized and then depreciated in cost of revenue of the
+
+segment associated with the payload delivered.
+
+Selling, General, and Administrative
+
+Space segment�s selling, general, and administrative (�SG&A�) expenses include allocated employee compensation
+
+costs (including salaries, benefits, and share-based compensation) for our sales, facilities, legal, finance, information
+
+technology, human resources, and other administrative employees, depreciation, and corporate aircraft costs.
+
+We expect Space segment's SG&A to increase in absolute dollars to support growth of our business, and to decrease
+
+as a percentage of revenue as we continue to work to reduce operating costs as a percentage of revenue.
+
+Space impairment includes impairment losses on fixed assets due to anomalies on the Company�s flight vehicles and
+
+launch sites, which occur outside our normal business operations.
+
+Revenue - Connectivity
+
+Connectivity segment generates revenue from (i) the broadband and mobile connectivity services provided through
+
+Starlink and (ii) the sale of the Starlink Kit (inclusive of the terminal) . The Company provides connectivity services
+
+and Starlink Kits to c onsumers or enterprise and government customers.
+
+The Company recognizes revenue from broadband and mobile connectivity services over time as the customer
+
+simultaneously receives and consumes the benefits provided. The Company generates service revenue from (i)
+
+fixed-price services that require advance or recurring monthly payments by the customer or (ii) variable-priced
+
+services based on actual data consumption. The amounts received from customers for advanced payments for
+
+broadband and mobile connectivity services are recognized either ratably over the subscription term or based on
+
+actual data consumption. The Company�s broadband contracts are generally month-to-month and the revenue
+
+recognized for these recurring consumer customers is equal to the amount billed in that month. The Company�s
+
+mobile connectivity agreements are generally multi-year contractual obligations that range from one to five years,
+
+although the customer can generally terminate at any time.
+
+The Company recognizes revenue over time for certain contracts related to our Starshield business that are multi-
+
+year in nature. For revenue that is recognized over time, we use the cost-to-cost input method. The Company records
+
+revenue based upon costs (such as materials and labor hours) incurred to date relative to the total estimated cost at
+
+The Company records revenue for the Starlink Kit upon delivery to the customer, or in the instance of certain
+
+enterprise customers, when it is installed. Starlink Kit revenue is reported net of sales returns, credits, and
+
+Table of Contents
+
+Expenses - Connectivity
+
+Connectivity segment�s cost of revenue includes depreciation (inclusive of launch, satellite, and ground
+
+infrastructure costs), Starlink Kit costs, shipping and handling costs, ground operating expenses, employee
+
+compensation costs (including salaries, benefits, and share-based compensation) for our engineering and operations
+
+teams, payment processor fees, warranty expense, inventory excess and obsolescence, and customs and duties.
+
+We expect Connectivity cost of revenue to increase in absolute dollars as we grow our revenue, and to decrease as a
+
+percentage of revenue as we continue to drive efficiencies in our next-generation satellites, Starlink Kits, and ground
+
+Research and Development
+
+Connectivity segment�s R&D expenses mainly relate to the development, build, and testing of our next-generation
+
+satellites, Starlink K its , and ground infrastructure . These costs include employee compensation costs (including
+
+salaries, benefits, and share-based compensation), contractor compensation expenses, equipment lease expenses,
+
+depreciation for R&D equipment, and allocated overhead.
+
+We expect Connectivity research and development to increase in absolute dollars as we grow our revenue, and to
+
+decrease as a percentage of revenue as we scale our business.
+
+Selling, General, and Administrative
+
+Connectivity segment�s SG&A expenses include allocated employee compensation costs (including salaries,
+
+benefits, and share-based compensation) for our sales, facilities, legal, finance, information technology, human
+
+resources, and other administrative employees, licensing and regulatory fees, marketing expenses, depreciation, and
+
+bad debt expense.
+
+We expect Connectivity SG&A to increase in absolute dollars and as a percentage of revenue in 2026 as we
+
+introduce marketing spend to support growth of our business, and to decrease as a percentage of revenue over time
+
+as we continue to work to reduce operating costs as a percentage of revenue .
+
+Connectivity impairment includes costs related to discontinuation of a product line for Starlink K its that is non-
+
+AI segment generates revenue from the sale of digital platform services, including advertising, subscription, and
+
+licensing services offered to consumers and enterprise customers.
+
+The Company generates revenue from (i) the sale of ad products displayed on its X platform, and (ii) providing AI
+
+solutions and infrastructure, which includes subscription-related offerings , data licensing arrangements , and API
+
+access to Grok models.
+
+Revenue for advertising services is recognized in the period when advertising is delivered as evidenced by a person
+
+engaging with an ad on the Company�s platforms in a manner satisfying the types of engagement selected by the
+
+advertisers.  The Company�s contract terms for advertising services are typically cancellable short-term
+
+arrangements . We experience seasonality in our advertising revenues. Overall advertising spend tends to be highest
+
+in the fourth quarter of each year due in large part to end-of-year advertiser spending and lowest in the first quarter
+
+Table of Contents
+
+Revenue for AI solutions and infrastructure includes: (i) premium subscriptions on X and Grok which is recognized
+
+ratably over the period of the subscription term (ranging from month-to-month to one year) , (ii) data licensing
+
+revenue which is generally recognized ratably over the period (from month-to-month to two years) in which the
+
+Company provides data as the customer consumes and benefits from the use of the licensed data, (iii) revenue from
+
+providing API access to Grok models recognized ratably over the contract term (typically month-to-month or up to
+
+one year) for stand-ready access or as services are consumed for usage based arrangements.
+
+AI segment�s cost of revenue includes infrastructure costs, revenue share expenses, payment processor fees,
+
+payments to creators, amortization of acquired intangible assets, and allocated labor and overhead costs.
+
+Infrastructure costs consist primarily of costs related to data center facilities, including lease and hosting costs,
+
+related support, maintenance, energy, and bandwidth costs, depreciation of servers and networking equipment,
+
+public cloud hosting costs, and employee compensation costs (including salaries, benefits, and share-based
+
+compensation) for our operations teams.
+
+We expect AI cost of revenue to increase in absolute dollars as we grow our revenue, and to decrease as a
+
+percentage of revenue as we monetize our products and as we expand our service offerings for AI solutions .
+
+Research and Development
+
+AI segment�s R&D expenses mainly relate to the training of Grok, our leading frontier model , development, build,
+
+and testing of our next-generation AI-enabled products and data center costs to train AI-enabled products. These
+
+costs include cloud computing expenses, employee compensation expenses (including salaries, benefits, and share-
+
+based compensation), power generation costs, and depreciation of data center assets, including processors,
+
+equipment lease expenses, and networking equipment.
+
+We expect AI R&D expenses to increase, both in absolute dollars and as a percentage of revenue, as we invest in
+
+compute infrastructure for Grok. Additionally, AI R&D expenses may increase as a result of the compute agreement
+
+Selling, General, and Administrative
+
+AI segment�s SG&A expenses consist primarily of employee compensation expenses (including salaries, benefits,
+
+and share-based compensation) for our sales, sales support, marketing, finance, legal, information technology,
+
+human resources and other administrative employees. In addition, SG&A expenses include fees and costs for
+
+professional services, including consulting, content moderation, third-party legal and accounting services and
+
+facilities costs and other supporting overhead costs that are not allocated to other departments .
+
+We expect AI SG&A to increase in absolute dollars to support growth of our business, and to decrease as a
+
+percentage of revenue as we continue to work to reduce operating costs as a percentage of revenue. Additionally, AI
+
+SG&A may increase as a result of the compute agreement with Cursor.
+
+Restructuring C harges
+
+AI restructuring charges are the result of the acquisition of Twitter in October 2022 by X Holdings. The charges
+
+include workforce restructuring for former Twitter employees, as well as impairment and early termination penalties
+
+as a result of consolidation of Twitter�s various office leases.
+
+AI impairment includes a one-time impairment of the Twitter brand when Twitter was rebranded to X in July 2023.
+
+Table of Contents
+
+Other Corporate Expenses
+
+Interest Expense
+
+Interest expense includes interest expense related to our borrowings, amortization of associated debt issuance costs,
+
+undrawn fees, and finance leases. Interest expense is reflected net of capitalized interest.
+
+Interest income includes interest income earned on cash and cash equivalents and marketable securities, and
+
+dividend income from our investments in mutual funds.
+
+Other Income (Expense), N et
+
+Other income (expense), net consists of gain or loss on digital assets, gain or loss on foreign currency transactions,
+
+and loss on extinguishment of debt.
+
+Provision for (Benefit from) Income Taxes
+
+The provision for (benefit from) income taxes consists primarily of income taxes in certain federal, state, local and
+
+foreign jurisdictions in which we conduct business. Foreign jurisdictions typically have different statutory tax rates
+
+from those in the United States. Accordingly, our effective tax rates may vary depending on the impact of the
+
+valuation allowance as well as the relative proportion of foreign income to domestic income, generation of tax
+
+credits, changes in the valuation of our deferred tax assets and liabilities, and changes in tax laws.
+
+Comparison of the three months ended March 31, 2026 and 2025
+
+Consolidated Results of Operations
+
+The following table sets forth our consolidated financial statements data for the periods indicated:
+
+Three Months Ended March 31,
+
+2026 vs. 2025 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges (credits) .......................
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income (loss) from operations ............................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other expense, net ...............................................
+
+Loss before income taxes ....................................
+
+Provision for income taxes ..................................
+
+Net loss ................................................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Table of Contents
+
+Revenue for the three months ended March 31, 2026 increased by $627 million , or 15.4% , compared to the three
+
+months ended March 31, 2025 . This increase was primarily due to an increase in revenue from our Connectivity
+
+segment of $782 million as our Starlink Subscriber base continued to grow as well as an increase in revenue from
+
+our AI segment of $91 million from higher X and Grok subscriptions, partially offset by a decrease in revenue from
+
+our Space segment of $246 million due to lower Launch Services missions and timing of work for government
+
+Cost of revenue for the three months ended March 31, 2026 increased by $426 million , or 21.7% , compared to the
+
+prior three months ended March 31, 2025 . This increase was primarily due to an increase in costs in our
+
+Connectivity segment of $437 million driven by an increase in depreciation related to the number of satellites placed
+
+into orbit and higher operating costs of $5 million in our AI segment, partially offset by a decrease in cost of revenue
+
+from our Space segment of $16 million due to less customer launches.
+
+Research and Development
+
+Research and development expense for the three months ended March 31, 2026 increased by $1,957 million , or
+
+125.7% , compared to the prior three months ended March 31, 2025 . This increase was primarily due to higher costs
+
+in our AI segment of $1,471 million driven by depreciation of GPU hardware , and the cost of cloud computing and
+
+data center infrastructure expenses as a result of our AI data center expansions and higher costs from our Space
+
+segment of $404 million driven by accelerated investment in our Starship vehicle and related facilities.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative expense for the three months ended March 31, 2026 increased by $253 million ,
+
+or 51.3% , compared to the prior three months ended March 31, 2025 . This increase was primarily due to higher
+
+employee-related costs and professional fees for our AI segment of $163 million as our AI business grew rapidly,
+
+higher marketing and international expansion costs of $79 million and $23 million, respectively, for our
+
+Connectivity segment. These increase s were partially offset by lower expenses of $18 million in our Space segment.
+
+Restructuring Charges (Credits)
+
+Restructuring charges (credits) for the three months ended March 31, 2026 decreased by $15 million compared to
+
+the prior three months ended March 31, 2025 .  This decrease was primarily due to change in estimated settlement
+
+amounts for former Twitter employees as part of the workforce reduction program implemented in 2022.
+
+Impairment for the three months ended March 31, 2026 decreased by $24 million compared to the prior three
+
+months ended March 31, 2025 . The impairment in the three months ended March 31, 2025 was related to a post-
+
+landing anomaly in our Space segment.  There was no impairment for the three months ended March 31, 2026.
+
+Income (Loss) from Operations
+
+Income (loss) from operations for the three months ended March 31, 2026 decreased by $1,970 million compared to
+
+the prior three months ended March 31, 2025 driven by the factors described above.
+
+Interest Expense
+
+Interest expense for the three months ended March 31, 2026 increased by $217 million , or 48.5% , compared to the
+
+prior three months ended March 31, 2025 . This increase was primarily due to additional debt raised by the Company
+
+and other financing arrangements entered into during the period by our AI segment.
+
+Table of Contents
+
+Interest income for the three months ended March 31, 2026 increased by $96 million , or 82.1% , compared to the
+
+prior three months ended March 31, 2025 . This increase was primarily due to an increase in interest income earned
+
+from cash equivalents and marketable securities.
+
+Other Income (Expense), Net
+
+Other expense, net for the three months ended March 31, 2026 increased by $1,665 million , compared to the prior
+
+three months ended March 31, 2025 . This increase was primarily due to the loss on extinguishment of debt and
+
+unrealized loss on digital assets.
+
+Provision for (Benefit from) Income Taxes
+
+Provision for income taxes for the three months ended March 31, 2026 decreased by $8 million compared to the
+
+prior three months ended March 31, 2025 . This decrease was primarily due to the change in the mix of our
+
+jurisdictional earnings subject to different tax rates.
+
+Net Income (Loss)
+
+Net loss for the three months ended March 31, 2026 increased by $3,748 million compared to the prior three months
+
+ended March 31, 2025 driven by the factors described above.
+
+Three Months Ended March 31,
+
+2026 vs. 2025 Change
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue ...................................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Impairment .....................................................
+
+Total costs and expenses ................................
+
+Loss from operations .................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the three months ended March 31, 2026 decreased $246 million , or 28.4% , compared to the prior three
+
+months ended March 31, 2025 . This decrease was primarily driven by a decrease in Launch Services revenue of
+
+$236 million and a decrease of $10 million in Launch and Development revenue. The decrease in Launch Services
+
+revenue is due to a decrease in customer launches period over period. While total Falcon launches increased by 4
+
+from 36 for the three months ended March 31, 2025 to 40 for the three months ended March 31, 2026, Launch
+
+Services missions decreased by 4 over the same period. Launch and Development revenue decreased due to timing
+
+of work performed on government contracts.
+
+Cost of revenue for the three months ended March 31, 2026 decreased by $16 million , or 5.4% , compared to the
+
+prior three months ended March 31, 2025 . This decrease was primarily due to the decrease in customer launches and
+
+timing of work on government contracts of $34 million, offset by an increase of $10 million in inventory excess and
+
+obsolescence reserves and $10 million in launch hardware disposals for damaged Falcon fairings.
+
+Table of Contents
+
+Research and Development
+
+Research and development for the three months ended March 31, 2026 increased by $404 million , or 76.8% ,
+
+compared to the prior three months ended March 31, 2025 . This increase was primarily driven by higher production
+
+costs of $194 million, higher engineering costs of $95 million, and higher test and launch costs of $62 million, due
+
+to the accelerated investment in development of the Starship vehicle and continued development of production and
+
+launch facilities to support future Starship launches.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the three months ended March 31, 2026 decreased by $18 million , or 20.5% ,
+
+compared to the prior three months ended March 31, 2025 . This decrease was primarily due to lower allocated
+
+general and administrative overhead of $13 million.
+
+Impairment for the three months ended March 31, 2026 decreased by $24 million compared to the prior three
+
+months ended March 31, 2025 . This decrease was primarily due to a non-recurring impairment loss on a Falcon 9
+
+booster due to a post-landing anomaly during the three months ended March 31, 2025 . There was no impairment for
+
+the three months ended March 31, 2026.
+
+Loss from Operations
+
+Space loss from operations for the three months ended March 31, 2026 increased by $592 million compared to the
+
+prior three months ended March 31, 2025 driven by the factors described above.
+
+Three Months Ended March 31,
+
+2026 vs. 2025 Change
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Total costs and expenses ................................
+
+Income from operations .............................
+
+Revenue for the three months ended March 31, 2026 increased by $782 million , or 31.6% , compared to the prior
+
+three months ended March 31, 2025 . This increase was primarily driven by an increase of $656 million in revenue
+
+from our consumer subscribers, composed of 104.7% growth in Starlink Subscribers, offset by an 22.9% decline in
+
+Starlink Subscriber ARPU, primarily due to international expansion and the addition of lower priced service plans.
+
+In addition, enterprise and government revenue had an increase of $126 million primarily driven by the growth in
+
+our aviation, maritime, and other enterprise business of $209 million, our mobile connectivity business of $85
+
+million, partially offset by a decrease of $175 million in our government connectivity business.
+
+Cost of revenue for the three months ended March 31, 2026 increased by $437 million , or 36.0% , compared to the
+
+prior three months ended March 31, 2025 . This increase was primarily due to higher depreciation of $276 million
+
+from capitalized launch and satellite costs, higher operating expenses of $140 million mainly driven by ground
+
+operating costs of $50 million, customer support and installation costs of $42 million, payment processor fees of $19
+
+million, freight costs of $15 million, and warranty costs of $12 million.
+
+Table of Contents
+
+Research and Development
+
+Research and development for the three months ended March 31, 2026 increased by $82 million , or 66.7% ,
+
+compared to the prior three months ended March 31, 2025 . This increase was primarily due to higher costs for the
+
+next-generation production development of satellites of $62 million, Starlink Kits of $8 million, and ground
+
+equipment of $14 million.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the three months ended March 31, 2026 increased by $108 million , or
+
+102.9% , compared to the prior three months ended March 31, 2025 . This increase was primarily driven by higher
+
+marketing costs of $79 million and higher international expansion costs of $23 million, partially offset by lower bad
+
+debt expense of $9 million.
+
+Income from Operations
+
+Connectivity income from operations for the three months ended March 31, 2026 increased by $155 million , or
+
+15.0% , compared to the prior three months ended March 31, 2025 driven by the factors described above.
+
+Three Months Ended March 31,
+
+2026 vs. 2025 Change
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges .....................................
+
+Total costs and expenses ...........................
+
+Loss from operations .................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the three months ended March 31, 2026 increased by $91 million , or 12.5% , compared to the prior three
+
+months ended March 31, 2025 due to the increase in AI solutions and infrastructure revenue of $191 million , offset
+
+by decrease in advertising revenue of $100 million . The increase in AI solutions and infrastructure was primarily
+
+due to an increase in Grok and X subscription revenue of $177 million and an increase in data licensing
+
+arrangements of $12 million . The decrease in advertising revenue is due to an overhaul of the Company�s
+
+advertising platform which impacted ad sales for a short period of time during the rebuild.
+
+Cost of revenue for the three months ended March 31, 2026 increased by $5 million , or 1.1% , compared to the prior
+
+three months ended March 31, 2025 . This increase was primarily due to an increase in revenue share and content
+
+creator expenses of $71 million , and higher payment processing fees of $18 million , partially offset by a decrease in
+
+amortization expenses of technology intangibles of $89 million that were fully amortized during 2025.
+
+Research and Development
+
+Research and development for the three months ended March 31, 2026 increased by $1,471 million , or 162.0% ,
+
+compared to the prior three months ended March 31, 2025 . This increase was primarily due to higher GPU
+
+depreciation expense of $908 million , and higher cloud computing and data center infrastructure expenses of $301
+
+Table of Contents
+
+million associated with the continued build out of our compute infrastructure, as well as higher employee
+
+compensation expenses (including salaries, benefits, and share-based compensation) of $262 million .
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the three months ended March 31, 2026 increased by $163 million , or
+
+54.3% , compared to the prior three months ended March 31, 2025 . This increase was primarily due to higher
+
+employee compensation expenses (including salaries, benefits, and share-based compensation) of $148 million as
+
+we continue to expand our AI business and higher legal expenses of $33 million , partially offset by a decrease in
+
+facilities and general and administrative costs of $18 million .
+
+Restructuring Charges (Credits)
+
+Restructuring charges (credits) for the three months ended March 31, 2026 decreased by $15 million compared to
+
+the prior three months ended March 31, 2025 . This decrease was primarily due to a change in estimated settlement
+
+amounts for former Twitter employees as part of the workforce reduction program implemented in 2022.
+
+Loss from Operations
+
+AI loss from operations for the three months ended March 31, 2026 increased by $1,533 million , or 163.8% ,
+
+compared to the prior three months ended March 31, 2025 driven by the factors described above.
+
+Comparison of the Years Ended December 31, 2025 and 2024
+
+Consolidated Results of Operations
+
+The following table sets forth our consolidated statements of operations data for the periods indicated:
+
+Year Ended December 31,
+
+2025 vs. 2024 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges .....................................
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income (loss) from operations ............................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other income, net ................................................
+
+Income (loss) before income taxes ......................
+
+Provision for (benefit from) income taxes ..........
+
+Net income (loss) ................................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2025 increased by

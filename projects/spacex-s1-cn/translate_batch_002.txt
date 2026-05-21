@@ -1,0 +1,589 @@
+ primarily driven by Starlink, generated revenue of $11,387 million , income from operations of $4,423
+
+million , and Segment Adjusted EBITDA of $7,168 million in 2025 , representing year-over-year growth of
+
+49.8% , 120.4% , and 86.2% , respectively, benefiting from subscriber growth, increasing enterprise adoption, and
+
+continued improvement in network efficiency;
+
+� In our newly acquired AI segment, we plan to prioritize growth and investment to capture significant
+
+opportunities in AI applications and compute infrastructure. For the three months ended March 31, 2026, our AI
+
+segment generated revenue of $818 million, loss from operations of $(2,469) million, and Segment Adjusted
+
+EBITDA of $(609) million. In 2025 , our AI segment generated revenue of $3,201 million , loss from operations
+
+of $(6,355) million , and Segment Adjusted EBITDA of $(1,237) million , reflecting its earlier stage of
+
+development and continued investments to support long-term growth opportunities in AI; and
+
+� For the three months ended March 31, 2026, capital expenditures for our Space segment was $1,052 million, for
+
+our Connectivity segment was $1,332 million and for our AI segment was $7,723 million. In 2025, capital
+
+expenditures for our Space segment was $3,832 million, for our Connectivity segment was $4,178 million and
+
+for our AI segment was $12,727 million.
+
+Segment Adjusted EBITDA is a non-GAAP measure. Please refer to the section titled �Management�s Discussion
+
+and Analysis of Financial Condition and Results of Operations�Non-GAAP Financial Measures� for additional
+
+information on our non-GAAP financial measures, including reconciliations of Segment Adjusted EBITDA to
+
+segment income (loss) from operations, the most directly comparable GAAP measure.
+
+Why This Matters Now
+
+For the entirety of its existence, human civilization has lived on a single celestial body: Earth. The current paradigm,
+
+in which human civilization is confined to one planet, exposes humanity to existential threats that are unpredictable
+
+and uncontrollable on a planetary scale. By moving beyond the only home we have ever known, we ensure species-
+
+level redundancy and that the light of consciousness will not be tied to a single planet subject to the inevitable
+
+hazards of a harsh and vast universe. We do not want humans to have the same fate as dinosaurs. We want to give
+
+Table of Contents
+
+them a reason to look ahead with excitement, with the prospect that we are entering an age of abundance with an
+
+endlessly prosperous and exciting future.
+
+For decades, a reality where humanity travels between the planets and the stars has felt tantalizingly close but still
+
+locked in the pages and screens of science fiction. We are capable of better understanding the universe, exploring the
+
+universe, and ultimately making life multiplanetary across the universe. We are becoming a civilization with the
+
+ability to reach beyond Earth�s cradle and begin to inhabit other worlds. While we remain dedicated to this
+
+fundamental mission, our progress in accessing space continues to yield opportunities that enrich life on Earth. For
+
+example, by dramatically reducing the cost of access to space, we have been able to expand our mission to address
+
+some of the Earth�s most pressing challenges, including bridging the digital divide by aiming to connect over three
+
+billion unconnected people to the internet and humanity�s collective knowledge.
+
+The rapid emergence of the AI era intensifies the urgency of our mission, as AI has the potential to accelerate not
+
+only space exploration, but also transformative societal advancements on Earth. However, AI�s ability to
+
+revolutionize human potential is directly dependent on meeting exponentially increasing resource demands. On
+
+Earth, the massive expansion of data center capacity to support growing compute demand is significantly outpacing
+
+electricity generation, which was effectively flat in the United States for approximately 15 years, growing at a
+
+compound annual growth rate of 0.1% from 2008 to 2023. Despite the recent increase in electricity demand from AI
+
+data centers, electricity generation in the United States has grown at an annual rate of less than 3% between 2023
+
+and 2025, while electricity generation in China has grown at approximately twice that rate in the same time period.
+
+This supply and demand imbalance is already imposing unsustainable strains on terrestrial power grids, supply
+
+chains, and the environment. The Sun contains approximately 99.8% of the solar system�s energy and, as a result,
+
+we believe it is the only truly scalable solution to terrestrial energy constraints in the age of AI. Harnessing this
+
+energy in space is considerably more efficient than on land. Space-based solar arrays can generate more than five
+
+times the energy per unit area of terrestrial solar due to continuous illumination, lack of atmospheric interference,
+
+and optimal orientation. SpaceX is well-positioned to capture this space-based solar energy through our ability to
+
+rapidly access Sun-synchronous orbit through our satellite manufacturing scale and launch capability. As a result,
+
+we are expanding our footprint and harnessing the vast resources of space that are essential to sustaining
+
+technological development. Our goal is to ensure that AI becomes a force for human flourishing and a benefit to
+
+civilization, rather than a catalyst for terrestrial resource depletion and instability.
+
+We believe that our current space efforts will catalyze transformative breakthroughs that could reshape terrestrial
+
+industries and lead to the emergence of new trillion-dollar markets on the Moon, Mars, and beyond. In particular, we
+
+believe our goal of establishing a lunar presence will enable terawatt-scale annual AI compute growth, support
+
+deeper space exploration and industrialization, and serve as a stepping stone to establishing a civilization on Mars.
+
+We believe the next paradigm shift for humanity is the creation of a resilient, perpetually expanding spacefaring
+
+civilization that drives continuous innovation across new frontiers, ultimately propelling us to Kardashev Type II
+
+status�we believe we are capable of unlocking an era of unprecedented economic expansion, while also
+
+contributing to the safeguards of humanity�s future against existential risk.
+
+SpaceX combines the most transformative and critical technologies in human history, including reusable rockets, a
+
+fully global internet service, satellite-to-mobile communications, a real-time information, entertainment and free
+
+speech platform, and a truth-seeking AI system designed to accelerate scientific discovery and augment human
+
+Our Unparalleled Launch Capabilities
+
+Since our founding in 2002, SpaceX has cracked the code on accessing space at scale, transforming an industry
+
+characterized by decades of stagnation, risk aversion, and economically perverse cost structures. We design,
+
+manufacture, launch, and refurbish reusable launch vehicles that provide cost-efficient, reliable, and high-cadence
+
+access to space for our own purposes as well as for third-party commercial and government customers. Our
+
+extensive vertical integration and end-to-end control over the entire value chain, from design to launch to operations,
+
+allows us to achieve unprecedented speed and cost efficiency.
+
+Table of Contents
+
+As of March 31, 2026, SpaceX had launched a total mass to orbit of approximately 7,400 metric tons with an over
+
+99% mission success rate across our Falcon rockets. We have completed approximately 650 orbital space launches,
+
+and over 540 of those launches were completed by a flight-proven Falcon rocket. With the first successful launch of
+
+Falcon 1 in 2008, we became the first private company to successfully launch a liquid-fueled rocket to Earth�s orbit.
+
+In December 2015, we achieved what many deemed impossible: landing a rocket launched to space back on Earth.
+
+By 2017, we were routinely recovering and reusing the Falcon 9 first-stage booster post-launch, delivering another
+
+step-function drop in space access costs via groundbreaking reusability. As of March 31, 2026, our Falcon 9 rockets
+
+have demonstrated the ability to refly a first-stage 34 times. With the future deployment of Starship, which is
+
+designed to be the world�s first fully and rapidly reusable spacecraft, we aim to reduce the cost to reach orbit by 99%
+
+or more relative to the historical average launch cost, establishing the most affordable and scalable path to creating
+
+new opportunities in space, such as orbital AI compute and Mars exploration.
+
+Our principal launch vehicles and spacecraft include:
+
+� Falcon 9. As the world�s first orbital-class rapidly reusable rocket, Falcon 9 was first launched in 2010 and has
+
+a payload capacity to LEO of approximately 23 metric tons when fully expendable. Falcon 9 has completed
+
+approximately 620 orbital space launches as of March 31, 2026, and an over 99% mission success rate.
+
+According to NASA, the first version of Falcon 9 in 2010 reduced launch cost to approximately $2,700 per
+
+kilogram, approximately 85% less than the historical average launch cost of $18,500 per kilogram.
+
+� Falcon Heavy. Falcon Heavy first launched in 2018 when it put a Tesla all-electric sports car (�Tesla
+
+Roadster�) and its mannequin passenger, known as Starman, into orbit around the Sun. With a payload capacity
+
+to LEO of approximately 64 metric tons, Falcon Heavy is a partially reusable super heavy-lift launch vehicle
+
+designed to deliver large payloads to orbit. Falcon Heavy is one of the most powerful operational rockets in the
+
+world measured by liftoff thrust, with 11 launches as of March 31, 2026 and a 100% mission success rate.
+
+� Dragon. Launched by Falcon 9 in 2012, our Dragon spacecraft became the first commercial spacecraft to
+
+deliver cargo to and from the International Space Station, an orbiting laboratory that serves as a research facility
+
+and destination for human spaceflight, and, eight years later, the first privately built vehicle to fly humans to the
+
+orbiting laboratory. Since 2020, our Dragon spacecraft has safely flown 78 crewmembers from 20 countries.
+
+� Starship. First launched in 2023, Starship is designed to be a fully reusable, super heavy-lift launch vehicle.
+
+Starship V3 is designed to deliver 100 metric tons to Earth�s orbit in a fully reusable configuration while
+
+enabling rapid turnaround times akin to commercial aviation. Future generations of Starship are being designed
+
+to double this payload capacity. To date, we have executed 11 Starship flight tests. We have also scheduled a
+
+12th flight test, which will debut the next generation Starship vehicle and Super Heavy booster, powered by the
+
+next evolution of our Raptor engine and launching from a newly designed pad at Starbase. We expect Starship
+
+to commence payload delivery to orbit in the second half of 2026. We have achieved innovative milestones
+
+such as catching a booster using �chopstick� arms on the same tower it launched from. We expect this
+
+capability will facilitate rapid refurbishment and reuse, allowing for multiple launches per day at reduced costs.
+
+Upon achieving rocket reusability, we recognized the immense potential of our launch business to enable new
+
+revenue streams. This led to the development of Starlink, our global satellite internet constellation, consisting of
+
+thousands of LEO satellites designed to provide high-speed, low-latency broadband connectivity to underserved
+
+areas worldwide. Although the concept of using satellites for global internet connectivity dates back decades,
+
+technical challenges and the prohibitive cost of accessing space and deploying the satellites required for capacity and
+
+global coverage historically rendered attempts to provide such connectivity economically unviable. Within three
+
+years of our first satellite launch in 2019, we solved the technical and production challenges of the satellites, and
+
+within five years, we had deployed the largest LEO constellation in existence. Today, Starlink is the sole low-
+
+latency network available globally. By combining increasing launch cadence, expanding cargo capacity, and
+
+declining unit costs�driven by rapid reusability�we have generated a compounding competitive advantage. This
+
+not only fortifies our core business, but also provides vast new market opportunities uniquely enabled by space.
+
+Table of Contents
+
+Our Leading Capabilities Across Space, Connectivity, and AI
+
+Space. While our launch capabilities support our other businesses, such as Starlink Consumer Broadband and
+
+Starlink Mobile, we also sell launches to third-party customers. We offer launch services to commercial, civil,
+
+international and government customers through our reusable Falcon 9 and Falcon Heavy rockets for satellite, cargo,
+
+and crew missions. We are the primary launch provider for the U.S. government. In 2025, we launched 11 of 12
+
+National Security Space Launch (�NSSL�) medium and heavy lift missions and all five U.S. crew and cargo
+
+missions to the International Space Station for NASA.
+
+Connectivity. Our Connectivity business includes Starlink Consumer Broadband, Enterprise Solutions, Government
+
+Solutions, and Starlink Mobile.
+
+� Starlink Consumer Broadband. We operate the world�s largest and most advanced space-based internet
+
+broadband service. We provide fiber-like download speeds�at a median of 225 Mbps during peak hours for
+
+residential users as of March 31, 2026�and the technological capability to provide service everywhere on
+
+Earth, including the poles. This service quality is enabled by our vast network of approximately 9,600 Starlink
+
+broadband and mobile satellites in Low-Earth Orbit, which accounted for approximately 75% of all active
+
+maneuverable satellites in orbit as of March 31, 2026. We expect to commence deploying our next-generation
+
+V3 satellites, designed to offer one Tbps of downlink capacity per satellite, using Starship in the second half of
+
+2026. We expect that a single Starship launch will be capable of deploying up to 60 V3 satellites to LEO,
+
+representing a potential twenty-fold increase in Starlink downlink capacity deployed relative to a Falcon 9
+
+� Enterprise Solutions. SpaceX is a critical partner to a wide array of enterprises. We offer Starlink�s high-
+
+speed, low-latency, reliable internet services to enterprise customers across industries including construction,
+
+agriculture, retail, telecom, hospitality, aviation, maritime, and land mobility. Starlink�s unique capabilities are
+
+well‑suited for deployments across field offices, remote worksites, research stations, drilling rigs, rural
+
+hospitals, aircraft, cruise ships, trains, and hotels. We also serve a broad fixed‑site customer base across
+
+industries such as retail and financial services that require high availability for critical operations as well as
+
+reliable connectivity in remote or hard-to-serve locations.
+
+� Government Solutions. For our government customers, we provide high-speed, resilient connectivity for
+
+public services, social impact , humanitarian efforts, and disaster response in even the most remote and
+
+challenging environments. Separately with Starshield, we have leveraged our commercial LEO satellite
+
+constellation engineering learnings and operational experiences to develop a secure, dedicated satellite network
+
+designed specifically for United States Government customers and national security applications.
+
+� Starlink Mobile. We provide satellite-to-mobile connectivity, supplementing terrestrial networks and
+
+substantially reducing mobile �dead zones� across approximately 30 countries. Through our partnerships with
+
+approximately 30 MNOs on six continents, we enable consumers, businesses, and public-sector customers to
+
+use their existing phones in more places, support critical connectivity during disasters and power outages, and
+
+open new applications for low-bandwidth mobile and IoT devices.
+
+AI. We operate a highly vertically integrated AI platform.
+
+� AI Compute Infrastructure. xAI has established a leading position in building and scaling terrestrial AI
+
+compute infrastructure, becoming the first company to deploy a coherent gigawatt-scale AI training cluster. We
+
+own and operate what we believe to be the largest AI training data center clusters on Earth, including
+
+COLOSSUS and COLOSSUS II. The addition of Terafab, a chip manufacturing initiative with Tesla and Intel,
+
+aims to further extend our vertical integration to chip design and manufacturing to alleviate potential future chip
+
+shortages at SpaceX, optimize compute performance, and potentially reduce overall compute costs. In
+
+connection with such collaboration, we have agreed with Tesla on a general framework for the future
+
+development of Terafab. Any specific projects undertaken pursuant to this framework will be subject to separate
+
+negotiations and agreements (including any development timelines, milestones and capital expenditures) and
+
+have not yet been determined. We believe that the key constraints in the continued growth of AI are physical�
+
+Table of Contents
+
+chip manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the
+
+control of the physical stack .
+
+� Truth-Seeking Frontier Model. Since launching Grok-1 in November 2023, we have released four major
+
+versions and notable variations thereof, achieving one of the fastest iteration cycles in the industry. Within two
+
+years of its initial model release, Grok achieved frontier-level performance in scientific reasoning, as measured
+
+by its GPQA Diamond score, an industry benchmark that evaluates AI models on a standardized set of
+
+questions written and validated by experts, on a faster timeline than reported by other leading model providers.
+
+Building on this trajectory, we expect to continue scaling Grok through subsequent generations. Ongoing
+
+training of next‑generation models is expected to scale toward multiple trillions of parameters, which could
+
+represent a step change in reasoning in depth and overall intelligence. In this context, the number of parameters
+
+refers to the scale of the model, where parameters are the internal numerical values, such as �weights,� that are
+
+adjusted during training to enable the model to recognize patterns and relationships in data. A larger number of
+
+parameters generally allows the model to capture more complex relationships, store greater amounts of
+
+knowledge, and achieve higher levels of reasoning capability. This accelerated rate of innovation stems from
+
+our highly vertically integrated stack: full ownership of training infrastructure; access to the world�s most
+
+powerful compute clusters; and relentless focus on truth seeking and real-world utility. A key competitive
+
+differentiator is Grok�s deep integration with X, enabling proprietary access to a real-time information stream of
+
+approximately 350 million daily posts, which enhances freshness, relevance, and contextual awareness for
+
+Grok. This direct, real-time access to the information and human discourse on X enhances Grok�s truth-seeking
+
+capabilities by grounding outputs in up-to-date knowledge and diverse viewpoints.
+
+� Consumer and Enterprise Applications. We leverage our leading frontier models and compute infrastructure
+
+to deliver consumer and enterprise applications. Together with Tesla, we are also developing Macrohard, an
+
+agentic AI platform designed to be capable of fully emulating digital workflows and augmenting human
+
+operation of computers using sophisticated autonomous agents. We believe Macrohard will have the potential to
+
+fundamentally transform how companies are structured and operate, thereby allowing dramatic increases in
+
+human productivity.
+
+Our Repeatable Business Model
+
+Our business model is built on a repeatable, engineering-driven framework that combines our unparalleled launch
+
+capabilities, extreme vertical integration, rapid iteration, and disciplined capital investment to create durable, large-
+
+scale businesses. We execute this framework through the following core principles:
+
+1. Leverage our unparalleled launch capabilities to enable massive scale;
+
+2. Identify and create new trillion-dollar market opportunities;
+
+3. Design a solution with world-class engineering and first-principles thinking;
+
+4. Apply �The Algorithm� (make less dumb, delete, optimize, accelerate, automate);
+
+5. Vertically integrate all the way to the end customer;
+
+6. Continuously drive cost down and throughput up; and
+
+7. Generate significant cash flow and reinvest in the future.
+
+Our Engineering-First Culture
+
+We are able to achieve transformative technological breakthroughs because we accept only the laws of physics as
+
+the limiting factors to our work and mission. Our core approach is deeply rooted in first-principles thinking, which
+
+rejects any preconceived notions or experience-based norms. We have a track record of achieving what many have
+
+deemed impossible. Some of our industry-defining achievements and historic milestones include:
+
+� The first private company to develop and launch a liquid-fuel rocket to reach orbit (2008);
+
+� The first private company to successfully dock a private spacecraft with the International Space Station (2012);
+
+� The first to successfully propulsively land (2015) and refly orbital-class rocket boosters (2017);
+
+� The first to begin deploying a large-scale LEO broadband satellite constellation (2019);
+
+� The first private company to transport astronauts to orbit, returning America�s ability to fly astronauts to and
+
+from the International Space Station (2020);
+
+Table of Contents
+
+� The first to manufacture consumer-grade phased-array user terminals at scale (2022);
+
+� The first to deploy a large-scale LEO satellite-to-mobile constellation (2025);
+
+� The first to build a gigawatt-scale AI training cluster and largest coherent supercomputer (2026);
+
+� The first gigawatt-scale Megapack battery installation (2026); and
+
+� The on ly company capable of building orbital AI compute at scale.
+
+Our AI Compute Infrastructure Advantage and Growth Strategy
+
+Why Compute Matters. We believe AI leadership will be defined by the ability to rapidly scale compute capacity to
+
+support exponential usage growth and frontier intelligence. The training and inference demanded by advanced AI
+
+models require substantial computational resources. Reasoning models introduced in 2024 demonstrated that
+
+allocating more computational resources and giving models more time to process during inference directly leads to
+
+higher-quality intelligence. In addition, compute infrastructure with end-to-end, cluster-level coherence through tight
+
+integration across software and hardware systems enables more efficient, stable, and higher-fidelity training and
+
+inference at scale�ultimately enhancing model intelligence and performance. Within inference, we expect
+
+computationally-intensive reasoning, agentic, and multi-modal workloads will continue to grow as a portion of
+
+overall usage. We therefore believe operators with superior model-to-compute integration�the ability to efficiently
+
+support and allocate compute across both training and inference workloads�are best positioned to win the AI race.
+
+Self-Reinforcing Network Effects Among Lower Cost Per Token, Model Quality, and User Adoption. AI systems
+
+are ultimately constrained or differentiated by the cost, speed, and scale at which they can generate and process
+
+tokens. A �token� represents the fundamental unit of data consumed and produced by modern AI models. This is
+
+because lower cost per token enables more frequent model training, larger and more sophisticated models, longer
+
+chains of processing for reasoning and agentic workloads, and significantly higher inference volumes at
+
+economically viable prices. This dynamic directly impacts model quality, responsiveness, and accessibility, while
+
+also determining the ability to serve the rising global demand across consumer, enterprise, and mission-critical AI
+
+applications. This creates a self-reinforcing advantage in which lower token costs drive greater model quality and
+
+user adoption, reinforcing AI leadership.
+
+Cost of Compute is the Main Driver of Cost Per Token. The total cost per token is determined by the efficiency,
+
+availability, and unit economics of the underlying compute and the cost of building and operating compute
+
+infrastructure. Improvement in the cost of building and operating this compute infrastructure�whether through
+
+lower data center construction cost, lower power infrastructure cost, shorter time to grid interconnection, or higher
+
+cluster-level throughput�translates directly into lower cost per token. Accordingly, for a given level of intelligence,
+
+we expect the long-term economics of AI companies to be driven by the ability to consistently deliver bleeding-edge
+
+compute at the lowest possible cost per token. Put simply, we view cost per token as a function of three primary
+
+inputs�the underlying AI model, the compute hardware, and energy, and we expect to have a competitive
+
+advantage in the latter two cost components. We believe we have a pathway over time that will significantly reduce
+
+compute hardware costs through continued vertical integration and development of proprietary chips, building on
+
+our experience designing custom silicon for our Starlink satellites. We also expect that the marginal cost of energy
+
+for our AI compute satellites will be minimal because our satellites are powered by solar arrays in space. By driving
+
+the energy component to minimal levels and pursuing improvements in compute hardware cost, we believe we can
+
+achieve a meaningfully lower overall cost per token in the future.
+
+We Have a Dual Speed and Cost Advantage in Terrestrial AI Compute. We own and operate what we believe to be
+
+the largest AI training data center clusters on Earth. Our AI compute facilities, COLOSSUS and COLOSSUS II,
+
+collectively provide approximately 1.0 gigawatt of compute power, with additional power capacity available for data
+
+center operations. Our first-principles thinking enables us to build coherent compute at scale and at rapid speed with
+
+lower costs than most other companies in the industry. In order to bring compute clusters online as fast as possible,
+
+we employ a vertically integrated, nimble approach to construction. We brought the first cluster of COLOSSUS
+
+online in 122 days, repurposing the shell of an existing factory, and the first cluster of COLOSSUS II online even
+
+faster in 91 days. As an illustrative comparison,  an industry benchmark to bring online a 100 megawatt greenfield
+
+data center is approximately two years. We also demonstrated a significant improvement in cost efficiency,
+
+achieving data center construction costs for COLOSSUS II that are considerably lower than industry benchmarks on
+
+a per megawatt basis.
+
+Table of Contents
+
+We Believe Orbital AI Can Accelerate Time to Power and Reduce Token Costs. The Sun contains approximately
+
+99.8% of the solar system�s energy and offers what we believe is the only truly scalable solution to the challenge of
+
+accelerating demand for compute relative to terrestrial energy constraints. The logical path forward is to move
+
+power-intensive AI workloads into orbit, where solar energy is near-constant and uninterrupted. With such
+
+accessibility to energy, we believe that our launch business will enable us to consistently activate the highest
+
+performing hardware before our competitors without such access, shrinking the timeline to useful tokens on
+
+bleeding-edge hardware and sustaining our token cost advantage. We believe SpaceX is uniquely positioned to
+
+deploy and operate data centers in orbit that can eventually achieve a lower cost than terrestrial data centers over
+
+time due to our extreme vertically integrated approach across launch, satellite manufacturing at scale, network
+
+connectivity, and terrestrial data center expertise.
+
+We Believe We Are Well-Positioned to Deliver Orbital AI Compute. We believe orbital AI compute is an incredibly
+
+difficult technical challenge that only we can solve at scale in the near term. We are the only company that has
+
+already accomplished the key technical challenges associated with evolving connectivity satellites into AI compute
+
+satellites. In our view, we are well-positioned to deliver a full-scale AI compute satellite constellation. Significant
+
+work remains, but we are confident in our singular leadership position.
+
+� We have unm atched satellite launch capabilities to enable deployment at scale. Deployment of 100
+
+gigawatts per year via satellites carrying over 100 kilowatts of compute power per metric ton will require
+
+thousands of launches per year and the transport of approximately one million metric tons to orbit annually. The
+
+fully reusable nature of Starship positions us to be capable of launching this level of mass. Starlink Broadband
+
+V1 and V2 Mini satellites have already demonstrated launch survivability and high reliability under vibration,
+
+shock, g-loads, acoustic stress, and vacuum exposure, achieving 99.9% average uptime.
+
+� We have already solved many of the significant technical hurdles to evolving connectivity satellites into
+
+AI compute satellites. Through our leading expertise of connectivity satellites�including mass production,
+
+deployment, network operations, and inter-satellite lasers and mesh connectivity�we have already solved the
+
+hardest part in the development of AI compute satellites. Because AI compute satellites represent an evolution
+
+of spacecraft engineering already demonstrated through Starlink, we believe development of AI compute
+
+satellites will be easier for us than for anyone else. Our existing Starlink constellation is another crucial enabler
+
+of orbital AI compute, as its global network allows data from our AI compute satellites to reach ground stations
+
+anywhere

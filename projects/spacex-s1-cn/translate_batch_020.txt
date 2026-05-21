@@ -1,0 +1,581 @@
+cessitating vast computational resources and cost-efficient deployment to achieve
+
+meaningful scale. Without large-scale, power-efficient infrastructure, AGI cannot be deployed broadly or
+
+economically�making such infrastructure a critical strategic differentiator.
+
+� AI Compute Infrastructure. xAI has established a leading position in building and scaling terrestrial AI
+
+compute infrastructure, becoming the first company to deploy a coherent gigawatt-scale AI training cluster. Our
+
+AI compute facilities, COLOSSUS and COLOSSUS II, collectively provide approximately 1.0 gigawatt of
+
+compute power, with additional power capacity available for data center operations. Our first-principles
+
+thinking enables us to build coherent compute at scale and at rapid speed with lower costs than most other
+
+companies in the industry. We brought the first cluster of COLOSSUS online in 122 days, repurposing the shell
+
+of an existing factory, and the first cluster of COLOSSUS II online even faster in 91 days. As an illustrative
+
+comparison, an industry benchmark to bring online a 100 megawatt greenfield data center is approximately two
+
+years. We also demonstrated a significant improvement in cost efficiency, achieving data center construction
+
+costs for COLOSSUS II that are considerably lower than industry benchmarks on a per megawatt basis. This
+
+dual speed and cost advantage stems from our complete vertical integration and the shared culture infused by
+
+our founder, Mr. Musk, across our Space, Connectivity, and AI segments. The addition of Terafab, an initiative
+
+together with Tesla to build a manufacturing facility capable of producing 1 terawatt per year of compute
+
+hardware, aims to further extend our vertical integration to chip design and manufacturing to alleviate potential
+
+future chip shortages at SpaceX, optimize compute performance, and potentially reduce overall compute costs.
+
+Intel, which has the ability to design, fabricate, and package ultra-high-performance chips at scale, has also
+
+joined the Terafab project. We believe that the key constraints in the continued growth of AI are physical�chip
+
+manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the
+
+control of the physical stack.
+
+Table of Contents
+
+� Truth-Seeking Frontier Model . xAI has developed one of the world�s most advanced, truth-seeking frontier
+
+models with Grok. Since launching Grok-1 in November 2023, we have released four major versions and
+
+notable variations thereof, achieving one of the fastest iteration cycles in the industry, culminating in Grok-4.3
+
+(April 2026). Building on this trajectory, we expect to continue scaling Grok through subsequent generations.
+
+Ongoing training of next‑generation models is expected to scale toward multiple trillions of parameters, which
+
+could represent a step change in reasoning in depth and overall intelligence. In this context, the number of
+
+parameters refers to the scale of the model, where parameters are the internal numerical values, such as
+
+�weights,� that are adjusted during training to enable the model to recognize patterns and relationships in data.
+
+A larger number of parameters generally allows the model to capture more complex relationships, store greater
+
+amounts of knowledge, and achieve higher levels of reasoning capability. Within two years of its initial model
+
+release, Grok achieved frontier-level performance in scientific reasoning, as measured by its GPQA Diamond
+
+score, an industry benchmark that evaluates AI models on a standardized set of questions written and validated
+
+by experts, on a faster timeline than reported by other leading model providers. This accelerated rate of
+
+innovation stems from our highly vertically integrated stack: full ownership of training infrastructure, access to
+
+the world�s most powerful compute clusters, and relentless focus on truth seeking and real-world utility. A key
+
+competitive differentiator is Grok�s deep integration with X, enabling proprietary access to a real-time
+
+information stream of approximately 350 million daily posts, which enhances freshness, relevance, and
+
+contextual awareness for Grok. This direct, real-time access to the information and human discourse on X
+
+enhances Grok�s truth-seeking capabilities by grounding outputs in up-to-date knowledge and diverse
+
+viewpoints. We believe that this combination of compute infrastructure scale and the massive dataset available
+
+to us through X, subject to some limitations for certain content, has allowed us to achieve industry-leading
+
+performance and provide model outputs that analyze real-time information on global events. We expect that our
+
+compute infrastructure and direct access to real-time data via X constitute substantial performance advantages
+
+for Grok that will result in increasingly rapid and dramatic iteration cycles.
+
+� Consumer and Enterprise Applications . We leverage our leading frontier models and compute infrastructure
+
+to deliver consumer and enterprise applications. In under six months, we developed Grok Voice, a real-time
+
+speech engine, including in multilingual performance. Our image and video generation system, Imagine,
+
+produced approximately 10 billion images and over 2 billion videos per month, on average, for the quarter
+
+ending March 31, 2026. Together with Tesla, we are also developing Macrohard, an agentic AI platform
+
+designed to be capable of fully emulating digital workflows and augmenting human operation of computers�
+
+from coding and product development to management and entire business processes�using sophisticated
+
+autonomous agents. We believe Macrohard will have the potential to fundamentally transform how companies
+
+are structured and operate, thereby allowing dramatic increases in human productivity. In addition, we believe
+
+our existing government relationships and track record as large government contractors are a structural
+
+advantage as governments become significant consumers of AI applications.
+
+Our integrated AI platforms across Grok and X have over 1.3 billion supported accounts active in the last
+
+twelve months ended March 31, 2026 , including approximately 550 million MAUs, up from over 1.1 billion
+
+supported accounts and approximately 520 million MAUs as of December 31, 2025. Of our MAUs, we had
+
+approximately 117 million MAUs that used Grok�s AI features as of March 31, 2026.
+
+We also monetize user activity through high-impact advertising inventory on X. We believe X�s scale , real-time
+
+engagement, and integration with Grok provide a differentiated foundation for building a unified user
+
+experience across communication, content discovery, commerce, and financial services, among others. For
+
+enterprises that advertise on X, we offer large-scale user engagement, real-time content, and advanced AI-
+
+driven performance marketing tools. For enterprises, we offer tailored deployments of Grok customized to
+
+specific workflows and security needs through Grok Business and Grok Enterprise, sold on license-,
+
+consumption-, or outcome-based pricing models.
+
+Collaboration with Tesla
+
+SpaceX and Tesla developed the early foundation of a strong and constructive partnership through a series of limited
+
+but successful commercial engagements. Our relationship with Tesla evolved meaningfully following Tesla�s
+
+January 2026 commitment to invest in xAI � an investment that, upon SpaceX�s acquisition of xAI, was converted
+
+Table of Contents
+
+into an equity interest in SpaceX. Tesla and xAI continue to build upon their longstanding collaborative relationship
+
+by evaluating future strategic opportunities between the companies.
+
+One expected area of collaboration is an AI project called Macrohard. We expect Macrohard to benefit from running
+
+on both state-of-the-art processors and cost efficient, next-generation Tesla processors, a critical advantage of our
+
+vertical integration.
+
+Another expected area of collaboration is Terafab, an announced AI chip manufacturing initiative designed to
+
+vertically integrate the design, fabrication, and deployment of advanced logic and memory chips. We believe this
+
+initiative will alleviate potential future chip shortages at SpaceX and optimize compute performance.  We expect
+
+Terafab to be the world�s largest chip manufacturing facility. Our strategy for Terafab is to vertically integrate
+
+across the design of lithography masks, fabrication of logic and memory chips, and design of advanced packaging in
+
+a single closed-loop plant. Conducting all these activities end-to-end in a single facility enables rapid testing and
+
+iterations, allowing us to improve chip design and scale manufacturing faster. We expect that our speed and cost
+
+advantage from vertical integration will allow us to scale efficiently in AI chip manufacturing towards our long-term
+
+goal of producing one terawatt of compute each year. We are partnering to build Terafab in order to support growth
+
+in two kinds of chips� one type optimized for terrestrial edge and inference to be used primarily in Tesla�s Optimus
+
+robots and vehicles, and another type optimized for the space environment to be used in our orbital compute
+
+infrastructure. While Terafab is intended to expand our internal chip manufacturing capabilities, we expect to
+
+continue sourcing a significant portion of our compute hardware from third-party suppliers. We view Terafab as
+
+complementary to these relationships, enabling us to augment our access to compute hardware at massive scale and
+
+further complete our highly vertically integrated compute platform by extending our control to the foundational chip
+
+layer. We believe that the key constraints in the continued growth of AI are physical�chip manufacturing, data
+
+center infrastructure, and power generation; the future of AI will be determined by the control of the physical stack.
+
+We believe that we are better positioned than other AI companies given our unique control over the full physical
+
+stack. We plan to explore other areas of strategic collaboration with Tesla in the future.
+
+Collaboration with Cursor
+
+On April 19, 2026, we entered into a compute agreement with Cursor. Cursor develops and operates an AI-native
+
+integrated development environment that enables professional software developers and engineering teams to write,
+
+edit, review, and refactor code using LLM-powered agents and workflows integrated via its proprietary model
+
+harness. In 2025, Cursor launched Composer, its own LLM trained for software development. It recently released
+
+Composer 2, which offers improvements in coding performance at lower cost. We believe the compute agreement
+
+and any acquisition of Cursor (described below), if completed, will extend our strategy to vertically integrate
+
+compute infrastructure, models, and applications, can help accelerate our development of AI-native software tools,
+
+and combined with our significant compute capacity, will help strengthen our position in AI-assisted developer
+
+productivity. We expect to accelerate the development of our existing AI models, including Grok, through our
+
+collaboration with Cursor.
+
+Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity for use in
+
+connection with specified development, training, improvement and other activities related to AI models and other
+
+technology and intellectual property. In exchange, Cursor will contribute certain personnel, data and datasets,
+
+documentation, technical know-how, workflows, prompts, specifications and software code. We will collaborate
+
+with Cursor to improve our existing models, including Grok, and potentially to jointly develop AI models and
+
+related model-specific deliverables. Each party retains ownership of its pre-existing and independently developed
+
+intellectual property (including, in the case of SpaceX, Grok) and related improvements and derivatives, including
+
+where they are utilized in connection with joint development activities. Any jointly developed models will be jointly
+
+owned, and each party will have a broad right to use, reproduce, modify, distribute, license, commercialize and
+
+otherwise exploit them without an obligation to account to the other party.
+
+We also entered into an option agreement pursuant to which we have the right, but not the obligation, to acquire
+
+Cursor. The option agreement generally provides that we may exercise the call option at any time during the 30-day
+
+period following the earlier of (i) seven trading days following the completion of this offering and (ii) September 30,
+
+Table of Contents
+
+2026. Exercise of the call option is in our sole discretion and subject to further approval by our board of directors.
+
+Cursor is also subject to certain exclusivity obligations under the option agreement.
+
+If we exercise the call option, we would simultaneously execute a merger agreement with Cursor, pursuant to which,
+
+following satisfaction of the closing conditions set forth in the merger agreement, including receipt of requisite
+
+regulatory approvals, Cursor would become our subsidiary, and, as a result, we would acquire all of Cursor�s cash,
+
+intellectual property, personnel, customer contracts and other assets. As of January 31, 2026 (Cursor�s fiscal year-
+
+end), Cursor had $3.1 billion of total assets, primarily comprising $2.7 billion of cash and cash equivalents, and
+
+$0.55 billion of total liabilities. The purchase price would primarily be allocated to goodwill on our balance sheet.
+
+Cursor has historically earned some revenue by providing services to customers and, if we acquired Cursor, we may
+
+provide these or similar services to customers after the acquisition although at revenue levels that may vary
+
+significantly from historical performance. If we exercise the call option to acquire Cursor, we would expect to retain
+
+certain Cursor talent by committing to provide continuing employees with competitive compensation and retention-
+
+focused incentives designed to support the long-term value of SpaceX.
+
+The consideration for the acquisition of Cursor, if any, after the closing of this offering would consist of shares of
+
+our Class A common stock based on an implied equity value of Cursor of $60.0 billion, and the price of our Class A
+
+common stock that equals the volume-weighted average closing price thereof over the seven consecutive trading
+
+days immediately preceding the closing of the acquisition. If either (i) we decide to terminate the option agreement
+
+or (ii) Cursor is eligible to and decides to terminate due to our material breach of the option agreement (subject to
+
+notice and cure provisions), Cursor is entitled to a $1.5 billion termination fee under the option agreement and an
+
+$8.5 billion deferred services fee under the compute agreement. These fees are payable in cash (or Class A common
+
+stock, if this offering has not been consummated at the time the fees become payable).
+
+Any shares of our Class A common stock issuable pursuant to the merger agreement would be issued in reliance
+
+upon the exemption from the registration requirements of the Securities Act provided by Section 4(a)(2) thereof. As
+
+a result, any such shares of Class A common stock would be deemed �restricted securities� as such term is defined
+
+under Rule 144 under the Securities Act. Such shares of Class A common stock would be eligible for resale only if
+
+registered under the Securities Act or if such resales qualify for an exemption from registration.
+
+We have conducted preliminary due diligence on Cursor�s business, technology and operations, and expect to
+
+continue such diligence in connection with any decision to exercise the call option. We cannot predict whether we
+
+will elect to exercise the call option or, if exercised, whether the acquisition will close on the anticipated terms, or at
+
+Compute Services Agreements with Third Parties
+
+We believe our compute infrastructure and related strategy provides us with substantial flexibility in how we
+
+allocate and monetize capacity. We have the ability to use compute resources to support our proprietary AI
+
+applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to
+
+select compute capacity to third-party customers. For example, in May 2026, we entered into Cloud Services
+
+Agreements with Anthropic, an AI research and development public benefit corporation, with respect to access to
+
+compute capacity across COLOSSUS and COLOSSUS II. Pursuant to these agreements, the customer has agreed to
+
+pay us $1.25 billion per month through May 2029, with capacity ramping in May and June 2026 at a reduced fee.
+
+The agreements may be terminated by either party upon 90 days� notice. The customer will retain ownership and
+
+intellectual property rights in its content, AI models, and related data. This structure allows us to monetize unused
+
+compute capacity in our infrastructure, while still permitting reallocation of the capacity for our own internal
+
+initiatives if needed in the future. We have sufficient capacity to provide compute for our own AI models, including
+
+support of our training and inference demands, and to satisfy the obligations under these agreements. We expect to
+
+enter into additional similar services contracts for compute capacity with third parties. To the extent we become
+
+compute constrained due internal and external utilization, we would need to expand our compute infrastructure. We
+
+believe this opportunity highlights the increasing importance of large-scale, frontier-level AI infrastructure and
+
+positions us as a differentiated provider of high-performance compute capacity to both internal and third-party AI
+
+workloads. We believe our dual monetization strategy provides multiple pathways to generate returns on invested
+
+Table of Contents
+
+Our Repeatable Business Model
+
+Our business model is built on a repeatable, engineering-driven framework that combines our unparalleled launch
+
+capabilities, extreme vertical integration, rapid iteration, and disciplined capital investment to create durable, large-
+
+scale businesses. We execute this framework through the following core principles:
+
+1. Leverage our unparalleled launch capabilities to enable massive scale . Our rockets�with unmatched
+
+launch cadence, best-in-class reliability, and dramatically reduced cost-to-orbit�are the foundation that we
+
+expect will enable us to create economic opportunities in space and deliver a diversified portfolio of services.
+
+Our launch capabilities enable large-scale deployment of assets that would not otherwise be economically
+
+2. Identify and create new trillion-dollar market opportunities. We focus on market opportunities that are
+
+useful for humanity and that present trillion-dollar opportunities, including global broadband and mobile
+
+connectivity for consumers, enterprises, and governments; and AI applications and computational infrastructure.
+
+We prioritize opportunities where structural inefficiencies or legacy technological limitations have constrained
+
+3. Design a solution with world-class engineering and first-principles thinking. We apply physics-based
+
+engineering and first-principles thinking to design products and systems from the ground up�boiling things
+
+down to the most fundamental truths and reasoning up from there. This helps us drive massive, step-function
+
+improvements in performance, scalability, and cost.
+
+4. Apply �The Algorithm� (make less dumb, delete, optimize, accelerate, automate). We operate under a set
+
+of core execution principles that we refer to as �The Algorithm,� a five-step iterative process that we use as our
+
+guiding principles day-to-day. We make the requirements less dumb , delete unnecessary processes or parts
+
+(embracing the principle that the best part is no part), only then optimize the necessary processes or parts, and
+
+then accelerate cycle time (many entities have launched once; no one other than us has ever launched over 100
+
+times per year), and automate only proven processes after the first four steps are completed. We apply the
+
+Algorithm across every aspect of our organization, creating a cultural and operational standard of excellence
+
+that has defined SpaceX since inception.
+
+5. Vertically integrate all the way to the end customer. We design and manufacture a significant portion of our
+
+components in-house, including engines, avionics, structures, and software, even producing the �tools that make
+
+the tools,� enabling us to test, fail, and iterate rapidly. We can then release newer, more advanced hardware with
+
+speed and cost efficiency.
+
+6. Continuously drive cost down and throughput up. Through rocket reusability, manufacturing at scale,
+
+advanced automation, and rigorous operational discipline, we continuously reduce unit costs while increasing
+
+launch cadence, satellite network, and AI hosting capacity.
+
+7. Generate significant cash flow and reinvest in the future. As our businesses scale, they generate significant
+
+cash flow, which we reinvest into nascent market opportunities� driving a self-reinforcing cycle of constant
+
+innovation and potentially creating significant additional value.
+
+Starship is a powerful example of this business model in action. Upon achieving a fully and rapidly reusable design,
+
+we believe Starship will support a step-function increase in launch capacity and be capable of landing massive
+
+amounts of cargo on the Moon. Once there, we believe it will be possible to establish a permanent presence for
+
+scientific and manufacturing pursuits. For example, we believe that factories on the Moon could take advantage of
+
+lunar resources to manufacture millions of AI compute satellites and deploy them farther into space. Additionally,
+
+we are collaborating with NASA under the Artemis program to land humans on the Moon, with the goal of using
+
+Starship for transportation, which will be the first such mission since 1972.
+
+We will continue leveraging our expanding launch capabilities, combined with our engineering and manufacturing
+
+expertise, to create and scale new markets in space for the benefit of humanity�on Earth, the Moon, Mars, and
+
+Table of Contents
+
+Our Engineering-First Culture
+
+We are able to achieve transformative technological breakthroughs because we accept only the laws of physics as
+
+the limiting factors to our work and mission. Our core approach is deeply rooted in first-principles thinking, which
+
+rejects any preconceived notions or experience-based norms. Our unparalleled track record demonstrates our
+
+capacity to execute space missions and achieve technological breakthroughs with speed and precision that others
+
+have not achieved. We have a track record of achieving what many have deemed impossible. Some of our industry-
+
+defining achievements and historic milestones include:
+
+� The first private company to develop and launch a liquid-fuel rocket to reach orbit (2008);
+
+� The first private company to successfully dock a private spacecraft with the International Space Station (2012);
+
+� The first to successfully propulsively land (2015) and refly orbital-class rocket boosters (2017);
+
+� The first to begin deploying a large-scale LEO broadband satellite constellation (2019);
+
+� The first private company to transport astronauts to orbit, returning America�s ability to fly astronauts to and
+
+from the International Space Station (2020);
+
+� The first to manufacture consumer-grade phased-array user terminals at scale (2022);
+
+� The first to deploy a large-scale LEO satellite-to-mobile constellation (2025);
+
+� The first to build a gigawatt-scale AI training cluster and largest coherent supercomputer (2026);
+
+� The first gigawatt-scale Megapack battery installation (2026); and
+
+� The only company capable of building orbital AI compute at scale.
+
+Our organizational philosophy fosters an engineering- and data-led culture that embraces failure as an essential
+
+learning opportunity and is maniacally focused on efficiency and speed. This culture allows us to deliberately move
+
+quickly to test new hardware, knowing that early failures provide more valuable data than protracted analysis. We
+
+view our factories as the machines that build the machines and maintain a relentless focus on our ability to move,
+
+fail, and fix fast.
+
+Our AI Compute Infrastructure Advantage and Growth Strategy
+
+We believe AI leadership will be defined by the ability to rapidly scale compute capacity to support exponential
+
+usage growth and frontier intelligence. There is a meaningful compounding benefit of greater usage, creating more
+
+data for training, driving improvements in model performance, and in turn leading to greater usage. We believe that
+
+our highly vertically integrated, shovels-to-tokens approach allows us to train and iterate our frontier models at
+
+lower cost and higher velocity, accelerating development cycles, eliminating external bottlenecks, and driving rapid,
+
+continuous improvements in model performance. This dynamic reinforces the criticality of scale and cost efficiency
+
+in compute infrastructure as the primary differentiator in the AI landscape. In addition, our leadership in compute
+
+infrastructure positions us to monetize not only AI software applications built on our models, but also the underlying
+
+compute that powers them. As we continue to scale our terrestrial and orbital compute infrastructure to support
+
+internal model development, training, and inference workloads, we intend to sell our high-performance compute
+
+capacity to a limited number of third party customers.
+
+Why Compute Matters . The training and inference demanded by advanced AI models require substantial
+
+computational resources. Greater compute capacity enables more intelligence by training new generations of models
+
+with increasing frequency and creating more capable models, ability to support inference, or usage, across a large
+
+and growing user base, and extraction of the highest performance from those models. As the AI user base expands,
+
+we also expect compute demand per user to increase significantly. Reasoning models introduced in 2024
+
+demonstrated that allocating more computational resources during inference directly leads to higher-quality
+
+intelligence. AI agents popularized in 2026 demonstrated that allocating more computational resources enabled
+
+Table of Contents
+
+multi-step task execution, meaningfully increasing compute demand per human user interaction. In addition,
+
+compute infrastructure with end-to-end, cluster-level coherence through tight integration across software and
+
+hardware systems enables more efficient, stable, and higher-fidelity training and inference at scale�ultimately
+
+enhancing model intelligence and performance. Within inference, we expect computationally-intensive reasoning,
+
+agentic, and multi-modal workloads will continue to grow as a portion of overall usage. We therefore expect
+
+demand for compute will continue to increase across consumer, enterprise, and government applications as AI
+
+adoption accelerates. For example, U.S. compute demand has already outpaced available power supply with
+
+estimated demand of 62 gigawatts in 2025 exceeding the power generation of 49 gigawatts, according to industry
+
+sources. We expect the gap between demand for compute and power supply to continue to widen meaningfully as AI
+
+compute needs proliferate.  Furthermore, we believe that third-party estimates on data center demand are constrained
+
+by the practical supply limitations that exist in a terrestrial context and the power shortage may be far greater than
+
+what research estimates suggest. We believe operators with superior model-to-compute integration�the ability to
+
+efficiently support and allocate compute across both training and inference workloads�are best positioned to win
+
+Self-Reinforcing Network Effects Among Lower Cost Per Token, Model Quality, and User Adoption. AI systems
+
+are ultimately constrained or differentiated by the cost, speed, and scale at which they can generate and process
+
+tokens. A �token� represents the fundamental unit of data consumed and produced by modern AI models, for
+
+example corresponding to words, images, audio, or other modalities. It serves as the atomic unit through which
+
+models read, reason, and generate output. As such, tokens are the primary basis for measuring both the cost of
+
+training and cost of inference, making them a foundational economic metric in the AI space. Companies that can
+
+structurally reduce energy, compute, networking, and deployment costs per token will be positioned to train faster,
+
+iterate more rapidly, and ultimately manufacture greater intelligence, scale models more rapidly, and deliver
+
+increasingly powerful and accessible AI solutions. This creates a self-reinforcing advantage in which lower token
+
+costs drive greater model quality and user adoption, reinforcing AI leadership. This is because lower cost per token
+
+enables more frequent model training, larger and more sophisticated models, longer chains of processing for
+
+reasoning and agentic workloads, and significantly higher inference volumes at economically viable prices. This
+
+dynamic directly impacts model quality, responsiveness, and accessibility, while also determining the ability to
+
+serve the rising global demand across consumer, enterprise, and mission-critical AI applications. As AI systems
+
+scale toward increasingly complex reasoning tasks and higher usage intensity, improvement in cost per token
+
+enables meaningful advantages in performance quality, scaled distribution, and monetization. This is particularly
+
+true as the industry converges towards recursive self-improving learning that minimizes human i ntervention, which
+
+is highly token consumptive.
+
+Cost of Compute is th e Main Driver of Cost Per Token . The cost of compute is the primary driver of cost per token
+
+across both training and inference workloads. Each token processed by an AI model requires a quant

@@ -1,0 +1,579 @@
+ on three rapidly evolving industries: space, connectivity, and AI. Technological advancements and
+
+breakthrough innovation are enabling what we believe is the next great economic frontier, as progress across space
+
+launch, global communications, frontier models, AI compute, robotics, and automation reshape what is possible on
+
+and off Earth. There are several key trends driving the growth and evolution of these industries in which we operate:
+
+� Reusable launch and industrialized space operations are materially reducing the cost of access to orbit,
+
+increasing mass carried per launch, and enabling high-cadence deployment of space-based infrastructure;
+
+� High‑volume satellite manufacturing, combined with rapid constellation refresh cycles, is expanding the ability
+
+for ubiquitous connectivity across unconnected, underconnected, and mobile �dead zone� areas; and
+
+� AI, automation, and robotics are accelerating engineering iteration cycles, streamlining operations, and
+
+revolutionizing complex construction, reducing reliance on scarce specialized labor while delivering faster,
+
+more precise, and cost-optimized infrastructure.
+
+The Space Industry
+
+For most of the space age�dating back to the first launches in the 1950s�spaceflight was shaped by onerous
+
+regulatory requirements and government budgets that determined launch cadence. The prevailing cost-plus
+
+procurement model offered limited incentives to reduce costs or increase launch cadence, creating an operating
+
+environment that constrained technological innovation. Government agencies served as the primary launch services
+
+providers and the industry remained stagnant for decades. According to NASA, until the 2000s and the introduction
+
+of the Falcon 9 rocket by SpaceX, global commercial launch activity averaged 25 to 35 launches per year. As a
+
+result, the space industry remained a niche domain with limited ability to support large commercial markets or
+
+scaled space-based infrastructure.
+
+During this period, satellites�which comprised the majority of launch payload�were typically bespoke, expensive
+
+systems requiring significant non-recurring engineering that consisted of development cycles that were measured in
+
+decades. Launch vehicles were designed to be largely expendable and optimized for single-mission use, reinforcing
+
+a low-throughput ecosystem that lacked flexibility, scalability, and responsiveness to evolving customer
+
+The need for more advanced launch capabilities became clear as space-based use cases expanded to include
+
+communications, navigation, Earth observation, environmental monitoring, scientific research, Intelligence,
+
+Surveillance and Reconnaissance, and access to the International Space Station. In 2006, NASA awarded SpaceX,
+
+Table of Contents
+
+along with Rocketplane Kistler, the landmark Commercial Orbital Transportation Services contract that heralded the
+
+age of commercial space launch, marking a shift toward a more scalable approach to accessing space. This inflection
+
+point catalyzed a transition toward systems designed for more frequent operations, lower cost, and greater
+
+operational flexibility.
+
+Fundamental breakthroughs in high cadence, reliable, and affordable access to space�driven largely by SpaceX�
+
+have expanded space from a purely mission-driven activity to a fully industrialized and commercial sector capable
+
+of supporting and enabling industries far beyond traditional launch and satellites. SpaceX�s advancements reduced
+
+the cost of access to orbit from tens of thousands of dollars per kilogram to just a few thousand dollars per kilogram.
+
+Cost of Space Launches to Low-Earth Orbit
+
+(constant 2021 $ per kilogram; plotted o n a logarithmic axis)
+
+As launch economics have changed rapidly over the last decade, demand for orbital infrastructure has expanded
+
+dramatically. Commercial operators have launched thousands of satellites since 2015 as constellation architectures
+
+scale and diversify. The number of active maneuverable satellites in orbit has grown from less than 1,000 in 2015 to
+
+approximately 12,700 as of March 31, 2026. With approximately 9,600 Starlink broadband and mobile satellites in
+
+Low-Earth Orbit as of March 31, 2026, SpaceX owns and operates approximately 75% of all active maneuverable
+
+satellites. Additionally, launch activity has continued to grow, with approximately 220 metric tons of payload
+
+launched to orbit in 2012 increasing to approximately 2,600 metric tons in 2025, of which over 80% was launched
+
+Government demand is rising in parallel: according to the Space Foundation, excluding classified spending, U.S.
+
+Government space spending in 2024 totaled approximately $77 billion. Notably, U.S. national security customers
+
+have also awarded approximately $13.7 billion across the National Security Space Launch (�NSSL�) Program�s
+
+Phase 3 Lane 2 contracts through 2032, supporting approximately 54 missions from 2025 to 2032, with the overall
+
+Phase 3 manifest nearly doubling Phase 2�s manifest to 84 missions. Amid escalating geopolitical tensions that
+
+further underscore the critical role of resilient launch infrastructure, we believe government space budgets around
+
+the world are positioned for sustained, long‑term growth.
+
+Table of Contents
+
+Falcon Heavy Boosters Landing
+
+On the back of dramatically reduced launch cost pioneered by SpaceX over the past two decades, the global
+
+economy is reorganizing around a new domain: space. We believe the development of a lunar economy will be
+
+central to unlocking the full potential of this new domain and advancing the long-term transition to a multiplanetary
+
+The Connectivity Industry
+
+Modern life relies on connectivity. Over the past several decades, the technologies that underpin global connectivity
+
+have evolved rapidly, reshaping the way individuals, families, and organizations communicate, collaborate, and
+
+access information.
+
+Despite remarkable technological advancements, terrestrial networks remain constrained by the same inherent
+
+structural limitations that have hindered them since their inception. According to the Global Satellite Operators
+
+Association, terrestrial network infrastructure only covers approximately 20% of global land mass, resulting in
+
+significant unserved and underserved regions across both developed and developing economies. This terrestrial
+
+connectivity gap spans areas that are remote, difficult to build in, or economically impractical to serve�and also
+
+includes mobile �dead zones� within otherwise well-connected areas and in urban markets. According to the J.D.
+
+Power U.S. Wireless Network Quality Performance Study, U.S. wireless customers experienced service problems in
+
+approximately one out of every 11 mobile interactions, even in well-connected areas. As demand for ubiquitous,
+
+high-reliability connectivity continues to rise, terrestrial networks alone are increasingly unable to bridge the
+
+widening gap between user demand and available coverage.
+
+The development of large-scale LEO constellations represented a paradigm shift, breaking from the long-standing
+
+dependence on terrestrial networks for global connectivity. Deployed at unprecedented scale�such as through
+
+SpaceX�s Starlink and Mobile constellations�these satellites can provide high-speed, low-latency service that
+
+integrates seamlessly with terrestrial infrastructure. This evolution has transformed satellite connectivity from a
+
+solution of last resort into a core pillar of resilient, ubiquitous global communications.
+
+Table of Contents
+
+Consumer Broadband
+
+Residential internet access began with the dial-up connection in the late 1990s with maximum speeds of .056 Mbps,
+
+when early users relied on narrowband copper phone lines to connect. As demand for speed and reliability grew,
+
+dial-up gave way to DSL, cable, and eventually fiber, each increasing bandwidth and enabling more connected
+
+devices. According to the Speedtest Global Index, the global average broadband download speed has increased to
+
+approximately 120 Mbps. Satellite internet also emerged in the 1990s through geostationary orbit (GEO) systems
+
+that extended coverage to remote and unconnected regions�beginning with early offerings such as Hughesnet�s
+
+first satellite service DirecPC, which provided downstream speeds of roughly 400 kbps compared to dial-up
+
+averages of 28.8 kbps�but these systems were constrained by limited throughput and high latency, making it
+
+difficult to keep pace as consumer requirements evolved. Starlink satellites operate in Low-Earth Orbit, substantially
+
+closer to the Earth�s surface than traditional geostationary communications satellites. This architecture reduces
+
+signal latency and is designed to support broadband connectivity in remote and underserved areas. Each launch of
+
+additional Starlink satellites increases the overall capacity of the network, which provides service globally.
+
+In today�s digital landscape, consumers increasingly rely on seamless, high-performance connectivity to power all
+
+aspects of connected life�from every day digital services to demanding applications that require high throughput,
+
+consistent performance, and low latency. These needs are particularly challenging to satisfy in regions where
+
+terrestrial networks are limited, degraded, or unavailable due to prohibitive deployment costs, rugged terrain, low
+
+population density, or outdated infrastructure. Consequently, consumer broadband has evolved into a multifaceted
+
+ecosystem, where diverse access technologies converge and providers compete based on superior reliability,
+
+consistent performance, and an exceptional overall user experience.
+
+Consumer demand for data is surging at a pace that terrestrial infrastructure has struggled to match. According to
+
+International Data Corporation�s Global DataSphere, in 2025, global data generation was estimated to have reached
+
+more than 585 exabytes of per day�up from approximately 10.8 exabytes per day in 2010�reflecting an immense
+
+escalation in consumption. With fixed broadband connections projected to reach two billion by 2030 according to
+
+Ericsson, and terrestrial expansion often economically unfeasible in remote and challenging regions, only space-
+
+based systems can deliver truly global, ubiquitous, high-throughput coverage capable of supporting this explosive
+
+growth in data demand.
+
+Enterprise and Government Broadband
+
+Enterprise broadband internet has evolved alongside residential internet, beginning with fixed private lines that
+
+connected offices and infrastructure. As businesses adopted real-time, distributed workflows, they needed secure,
+
+low-latency connectivity across multiple sites and mobile assets. Mobility became essential in sectors like
+
+manufacturing, transportation, and logistics, extending connectivity demands beyond fixed locations into dynamic
+
+environments that terrestrial networks often cannot support reliably or economically. Enterprises now expect
+
+seamless, uninterrupted performance with instant failover where terrestrial systems are unavailable or unstable�
+
+driving adoption of hybrid architectures that combine ground networks with space-based solutions.
+
+Enterprise connectivity demand continues to rise as organizations digitize operations and rely on real‑time,
+
+cloud‑based workflows that require secure, low‑latency connectivity across distributed sites and mobile
+
+environments. This is particularly true in the case of aviation, maritime, and land mobility applications, where
+
+aircraft, vessels, and ground fleets are inherently mobile and therefore unable to depend on continuous terrestrial
+
+network coverage for connectivity. These platforms increasingly require resilient communications to support flight
+
+and voyage operations, crew applications, passenger internet access, telematics, and port or shipboard logistics. In
+
+aviation, legacy GEO-based systems that are still prevalent across most major commercial fleets typically provide
+
+low Mbps speeds and significantly higher latency, often exceeding 500 milliseconds, falling well short of the
+
+approximately 100 Mbps throughput and sub-50 milliseconds latency that today�s applications�such as streaming,
+
+cloud services, and real-time collaboration�increasingly demand. Therefore, there is a need for modern LEO-
+
+powered in-flight connectivity systems�such as Starlink Broadband�that can deliver passenger download speeds
+
+exceeding 400 Mbps with latency as low as 21 milliseconds. Terrestrial networks cannot meet these evolving
+
+demands where deployment is costly, complex, and slowed by regulatory constraints, and legacy satellite solutions
+
+Table of Contents
+
+have not delivered the latency or consistency needed for enterprise‑grade applications, with average terrestrial ISP
+
+download speeds at 120 Mbps and average latency from 7-34 milliseconds.
+
+Defense and civil agencies similarly require secure, resilient, and global connectivity, often operating in contested or
+
+infrastructure-poor regions where terrestrial networks are unavailable or vulnerable. As the battlefield becomes
+
+increasingly connected, the need for robust, persistent connectivity across all domains is more urgent than ever.
+
+Modern missions depend on high-throughput, low-latency connectivity for command and control, autonomous
+
+systems, emergency response, and humanitarian operations, driving demand for architectures that maintain
+
+performance where terrestrial systems fail. Substantial government investment into mission-critical, space-based
+
+communication services illustrates the institutional reliance on LEO architecture for defense applications. High-
+
+throughput, low-latency LEO constellations add a new architectural layer that enhances redundancy, operational
+
+continuity, and flexibility across mission sets. There is an increasing need for purpose-built secure platforms�such
+
+as Starshield, that can provide encrypted, high-assurance communications and modular payload integration�further
+
+expand the utility of space-based connectivity for defense, civil, and national resilience needs. Together, these
+
+advances position space as the foundational component of future mission‑critical communications architectures.
+
+Satellite-to-Mobile Service
+
+Since the early rise of mobile phones, terrestrial networks have expanded at immense cost and increasing density to
+
+support successive generations of cellular technology�from the primarily voice-centric networks of the 1980s to
+
+today�s high-speed 5G data networks. These investments have enabled much of the global population to become
+
+well‑connected, yet the capital‑intensive nature of terrestrial build‑outs has resulted in vast geographic mobile �dead
+
+zones� where coverage remains too expensive or is nonexistent. In many regions particularly those that are remote
+
+or sparsely populated, extending towers is economically impractical for mobile network operators, resulting in large
+
+segments of the population with limited or no access to reliable connectivity. Early satellite-based cellular options,
+
+beginning in the 1980s with dedicated satellite phones, helped fill these gaps but required bulky hardware and
+
+carried high usage cost, limiting them to narrow and mission-driven use cases. As consumer expectations for
+
+ubiquitous coverage have grown, mobile network operators face structural limits in closing these �dead zones� with
+
+terrestrial infrastructure alone, making LEO-based augmentation the most viable path to continuous, reliable mobile
+
+connectivity at global scale.
+
+Early satellite-to-mobile services (i.e., those connecting directly to standard smartphones) emerged in the 2020s with
+
+support for basic messaging and, in some cases, voice in areas without terrestrial coverage. These offerings provided
+
+more contiguous communication for safety, continuity, and remote operations. However, they were introduced at the
+
+same time mobile data consumption was accelerating dramatically, and consumer expectations for �always-
+
+connected� devices were rising. As a result, satellite-to-mobile technology is now evolving beyond emergency-only
+
+communication. It is shifting toward enabling everyday smartphones to remain seamlessly connected when outside
+
+traditional cellular or Wi-Fi range, integrating satellite connectivity into routine mobile usage, rather than treating it
+
+as a contingency layer. At the same time, telecom operators have been reducing capital expenditures amid slower
+
+revenue growth, weaker monetization, and declining returns on invested capital�pressures that have limited their
+
+willingness to maintain historically high levels of network deployment. These shifts are also increasing demand for
+
+harmonized, scalable spectrum allocations capable of supporting higher-capacity satellite-to-mobile services without
+
+interfering with terrestrial networks, with the potential to add an incremental $1.4 trillion of economic growth over
+
+the next 10 years, as forecasted by Cellular Telecommunications and Internet Association.
+
+These industry shifts have opened the door for deeper collaboration among satellite operators, MNOs, carriers,
+
+spectrum owners, device manufacturers, and regulators. As satellite network performance continues to improve and
+
+these partnerships expand, satellite-to-mobile offerings�such as Starlink Mobile�are poised to evolve from a
+
+�backup� layer into a meaningful complement to terrestrial networks, extending coverage and enhancing overall
+
+network resilience and performance.
+
+Humanity is defined by our relentless pursuit of knowledge, with each transformative breakthrough dramatically
+
+expanding our capacity to create, preserve, and share ideas across time and space. AI marks the next�and arguably
+
+Table of Contents
+
+most consequential�chapter in this progression. For the first time, we are creating systems that do more than simply
+
+amplify or transmit human-generated knowledge. These systems can reason, learn, and generate new knowledge
+
+autonomously�synthesizing information, forming hypotheses, and in some domains even making original
+
+discoveries. In doing so, they augment, accelerate, and will likely surpass unaided human cognition. This represents
+
+a profound shift: we are moving from tools that simply extend the mind to autonomous agents and companions that
+
+actively participate in the act of knowing.
+
+Over the past decade, the convergence of big data, advances in AI hardware, and the breakthrough development of
+
+LLMs have transformed AI from a speculative academic field into a foundational driver of the modern economy.
+
+Massive demand for frontier AI models is accelerating the build-out of AI infrastructure at a pace and scale with few
+
+historical precedents. Meeting projected AI needs will require $7 trillion in global data center investment through
+
+2030, with generative AI workloads expected to account for roughly 70% of total data-center power demand by the
+
+end of the decade. Each new generation of frontier models requires exponentially greater compute, following well-
+
+established scaling laws that link model performance to the volume and quality of training data, parameter count,
+
+and total compute expected. The rise of agentic AI and the potential emergence of artificial general intelligence are
+
+expected to further amplify inference workloads, driving a step-function increase in compute requirements and the
+
+corresponding data center capacity needed to support them. Frontier AI has become fundamentally infrastructure-
+
+constrained. Only operators with access to massive amounts of power, very large GPU clusters and tightly integrated
+
+training infrastructure can train cutting-edge models, and these systems exhibit non-linear performance advantages
+
+that compound over time. Compute infrastructure scale helps determine model iteration speed, model quality, and
+
+capital efficiency�making infrastructure itself a critical capability.
+
+AI Frontier Models
+
+A new class of frontier models has emerged, which includes LLMs and multimodal models. LLMs are neural
+
+network-based models trained on massive datasets to interpret user questions and generate responses to highly
+
+complex questions. LLMs can synthesize existing research, propose new ideas, and communicate in a natural
+
+language that requires no programming expertise by the user. Demand for these tools has been explosive�according
+
+to a YouGov survey, approximately 60% of Americans have used AI tools since December 2024, and 34% use AI
+
+tools at least weekly. Multimodal models are AI systems that can process, understand, and generate outputs across
+
+multiple types of data simultaneously�such as text, images, audio, video, and sometimes other modalities�rather
+
+than being limited to just one (like text-only language models). Multimodal models offer several key benefits over
+
+traditional unimodal (e.g., text-only) systems by processing and integrating multiple data types like text, images,
+
+audio, video, and sometimes sensor data simultaneously. They provide richer contextual understanding, capturing
+
+relationships and nuances across modalities that are invisible in isolation, leading to more accurate predictions and
+
+AI frontier models are shaped by the values, objectives, and design choices of their creators. Model intelligence and
+
+performance reflect decisions around data curation, training methodologies, alignment frameworks, and system
+
+constraints, resulting in different reasoning styles, interpretations, and responses across models. Therefore, values
+
+can be embedded in the technology, influencing accuracy, logic, and utility of the model outputs and how well
+
+models can serve end users.
+
+Following rapid frontier model innovation and broad adoption of chat-based tools, organizations are now beginning
+
+to deploy agentic systems�AI that can use tools and operate with limited supervision. This marks the beginning of
+
+what we believe will be a broader transition from co-pilots to agentic systems that enable high-complexity
+
+workflows and create materially higher inference demand.
+
+Consumer and Enterprise Applications
+
+Advances in digital communication have reshaped how information is created, shared, and consumed, laying the
+
+foundation for today�s social media platforms. These platforms have become essential channels for digital
+
+advertising by combining large‑scale user engagement with targeted content and ad distribution. Recent advances in
+
+Table of Contents
+
+AI are further strengthening advertising, allowing enterprises to optimize campaigns and measure outcomes. At the
+
+same time, consumer expectations for AI‑powered tools are rising, with users seeking timely, accurate and
+
+trustworthy information across an expanding universe of digital content.
+
+We believe the ongoing convergence of consumer platforms, consumer AI, and integrated digital services will
+
+accelerate the emergence of super‑app ecosystems that combine communication, content creation, information,
+
+commerce, and banking within a single platform. These trends are expected to expand the role of internet platforms
+
+as distribution channels and support next‑generation AI‑enabled applications and advertising solutions.
+
+For enterprises and governments, frontier models and agentic AI�autonomous systems capable of multi-step
+
+reasoning and independent task execution�are beginning to manage increasingly complex processes and
+
+workflows. As of February 2026, more than 80% of Fortune 500 companies were using AI active agents. Entire
+
+industries are being reshaped by AI-driven applications, including agentic commerce (personalized AI-directed
+
+shopping), vibe coding (software development with minimal or no human-written code), and autonomous driving for
+
+The ultimate frontier in AI is human augmentation: creating systems that amplify and multiply human reasoning,
+
+creativity, decision-making, and productivity, enabling people to perform highly complex tasks with unprecedented
+
+speed, scale, and insight. By enhancing how humans think, learn, and interact, such systems act as cognitive
+
+multipliers, supercharging individual and collective capabilities far beyond biological limits. As AI evolves, we
+
+expect both consumer platforms and enterprises to adopt increasingly agentic systems that serve as powerful
+
+extensions of human intelligence. These tools will orchestrate multi-step workflows, interact seamlessly with
+
+business applications, and accelerate operational processes, with humans at the center of judgment, creativity, and
+
+strategy. Emerging efforts in enterprise AI illustrate how future systems could coordinate entire business functions
+
+as force multipliers�dramatically expanding what a human team can achieve with minimal scaling friction and
+
+maximal leverage. Human augmentation also offers a transformative solution to the escalating effort required for
+
+breakthroughs in technology and beyond. For example, the human effort needed to sustain Moore�s Law (chip
+
+density doubling approximately every two years) has increased eighteenfold since the early 1970s; AI augmentation
+
+could reverse this trend by empowering engineers, researchers, and innovators to iterate faster, explore more
+
+possibilities, and achieve exponential progress with smaller, core teams of experts.
+
+As humanity expands beyond Earth, augmented human intelligence will be essential to managing the immense
+
+operational, scientific, and logistical complexity of a spacefaring civilization. The core promise of augmentation lies
+
+in multiplication: AI not as a substitute for human minds, but as an amplifier for human ingenuity, curiosity and
+
+purpose that unlocks new frontiers of what humans can accomplish together.
+
+We have an intense, mission-driven, and engineering-first culture that seeks to achieve what many have deemed
+
+impossible. We make the incredible and extraordinary possible and repeatable by continuously leveraging our core
+
+Global Leadership in Orbital Launch Services
+
+Our unique ability to reliably, quickly, and cost efficiently launch rockets at scale into space is our core competitive
+
+advantage that enables other parts of our business. Our launch capabilities form the foundation of our orbital
+
+infrastructure and have created new multi-trillion-dollar opportunities in space, global connectivity, and AI. We
+
+believe no other launch provider is competitive at this scale today, nor is likely to become so in the near term. Our
+
+fleet of 24 flight-proven, reusable rockets and our growing share of total mass delivered to orbit has increased every
+
+year since 2021. Reusability completely changes the economics of space access. Qualified for 40 launches, our
+
+reusable rockets can fly multiple times with only minimal refurbishment between missions, sharply lowering the
+
+cost per launch, while boosting our launch rate, asset use, and overall efficiency compared to traditional expendable
+
+rockets. As a result, we can offer competitive launch prices, rapidly deploy our own satellites and infrastructure, and
+
+make it easier and cheaper for us to pursue new opportunities requiring orbital access. Our higher launch rates and
+
+reusability also create a virtuous cycle: more flights lead to faster improvements in design, manufacturing, and
+
+operations through accumulated experience. Additionally, not only did we demonstrate at least a 10-year advantage
+
+Table of Contents
+
+over the rest of the industry when we first landed our Falcon 9 booster back from space in 2015, but we have
+
+continued to invest significantly in further increasing our lead by pursuing full and rapid reusability at scale,
+
+including investing over $15 billion in our next-generation rocket, Starship.
+
+Unrivaled Satellite and Connectivity Platform across Design, Manufacturing, Deployment, and Operations
+
+We are able to design, engineer, and manufacture the world�s most advanced satellites at scale, enabling the creation
+
+and scaling of new businesses leveraging this core satellite technology platform, including: Starlink Broadband, our
+
+space-based internet broadband service; Starlink Mobile, our global satellite-to-mobile service; and emerging AI
+
+initiatives. Unlike traditional satellite manufacturers that rely on fragmented supply chains and low-volume
+
+production, we have built an integrated satellite platform that spans architecture, chip design, software, power
+
+systems, and final assembly. As we rapidly iterate on our next-generation satellites in-house, some others are
+
+contracting outsourced manufacturers to build satellite architectures with capacity comparable to satellites that we
+
+retired years ago. As of March 31, 2026, our constellation also incorporates over 23,000 inter-satellite lasers that
+
+create a dynamic mesh network in space, enabling data traffic to route through orbit rather than relying solely on
+
+terrestrial backhaul infrastructure. By controlling satellite design, production, launch and operations, we can tailor
+
+payloads, networking capabilities, and power requirements to support new use cases. For example, our AI compute
+
+constellations will leverage our core satellite technologies already developed for our existing Starlink constellations.
+
+We will build new satellites that can host processors for high-density compute payloads, offer enhanced power
+
+generation with larger solar panels and storage systems, and enable higher-capacity networking capabilities to
+
+support low-latency workloads in orbit. Our high-throughput manufacturing capabilities�combined with our launch
+
+capabilities�enable us to produce and deploy thousands of satellites per year, an uneconomic proposition for those
+
+lacking an ability to deliver substantial mass into space. This capability accelerates our deployment timelines and
+
+allows us to commercialize entire constellations with capital efficiency that we believe is difficult to replicate.
+
+Our global connectivity platform, Starlink, is powered by the world�s largest LEO constellation and supported by
+
+our vertically integrated launch and

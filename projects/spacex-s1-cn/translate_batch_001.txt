@@ -1,0 +1,627 @@
+racterized by high processor concentration and elevated power
+
+usage per unit of space.
+
+Table of Contents
+
+� �Imagine� refers to our image and video generation system.
+
+� �inference� refers to the process by which a trained artificial intelligence model generates outputs (such as text,
+
+images, or predictions) from new input data.
+
+� �International Docking System Standard� refers to a standard for autonomous docking capabilities used by
+
+spacecraft like Dragon.
+
+� �IoT� refers to the network of physical objects embedded with sensors, software, and other technologies for the
+
+purpose of connecting and exchanging data with other devices and systems over the internet.
+
+� �Kardashev Type II� refers to a civilization that harnesses the full energy output of its local star, like our Sun, to
+
+power unprecedented growth and sustain the civilization�s existence.
+
+� �large language model� or �LLM� refers to a sophisticated artificial intelligence model designed for advanced
+
+reasoning and natural language processing.
+
+� �large-scale LEO broadband satellite constellation� refers to a satellite constellation network of over 1,000
+
+� �latency� refers to the time delay between the transmission of data from a source and its receipt at a destination,
+
+typically measured in milliseconds.
+
+� �launch payload mass� refers to the theoretical payload mass that a particular spacecraft is capable of delivering
+
+to a specified orbit under specific conditions, which is derived from advanced computer simulations and
+
+performance modeling that apply to particular mission scenarios and trajectory assumptions. Actual payload
+
+that can be delivered for a given mission may be different and will vary depending on numerous mission
+
+parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions,
+
+vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations.
+
+� �launch system� refers to a comprehensive system comprising rockets and associated ground infrastructure used
+
+to launch spacecraft and payloads into space.
+
+� �launch vehicle� refers to a rocket designed to transport payloads from terrestrial bodies (e.g., Earth, Moon, or
+
+Mars) to space or to a designated orbital trajectory.
+
+� �LEO satellite constellation� refers to a network of numerous satellites operating in Low-Earth Orbit, typically
+
+deployed to provide services such as broadband connectivity, including Starlink.
+
+� �Low-Earth Orbit� or �LEO� refers to an orbit relatively close to Earth�s surface, typically used by satellites for
+
+applications like broadband internet due to its lower latency compared to higher orbits.
+
+� �low-latency network� refers to a network with latency below 70 milliseconds.
+
+� �lunar mass driver� refers to a launch system that we intend to build on the Moon�s surface that will be
+
+designed to use electromagnetic acceleration to propel payloads into space without the use of rockets.
+
+� �Macrohard� refers to a platform we are currently developing that is designed to emulate digital workflows,
+
+augment human operation of computers, and create a fully AI-operated software company.
+
+� �mass to orbit� refers to the total kilograms of payload deployed to orbit in a given period, and is a key indicator
+
+of our capacity and scalability that supports Space revenue and drives expansion across our Connectivity and AI
+
+� �MAU� (or monthly active users) refers to the total number of users who have interacted with Grok or X
+
+through web browsers or mobile applications at least once during the 30-day period ending on the date of
+
+measurement (�active users�). In presenting combined MAUs across the two platforms, we seek to identify and
+
+account for users who access both Grok and X based on sign-in traffic so that such users are not double-counted
+
+Table of Contents
+
+when measuring MAU. Furthermore, only users who have registered for an X or Grok account are included.
+
+While we believe our methodologies provide a reasonable approximation of MAU based on the number of
+
+unique users, they may not fully capture all instances of duplication, and our reported MAU should be viewed
+
+as an estimate of unique users across our Grok and X platforms for the applicable period. We track the subset of
+
+users who used Grok�s AI features and those who have not based on the source of their server requests.
+
+� �Mbps� refers to megabits per second.
+
+� �Megapack� refers to a containerized, utility-scale lithium-ion battery energy storage system produced by Tesla
+
+and designed to stabilize power grids, store renewable energy, and replace fossil fuel peaker plants.
+
+� �megawatt� refers to one million watts.
+
+� �Merlin� refers to the Merlin family of engines, which include vacuum and sea level variants and are fully
+
+developed and produced by the Company.
+
+� �microgravity� refers to very weak gravity, such as that experienced in orbiting spacecraft, which allows for
+
+unique manufacturing processes like creating ultra-pure materials.
+
+� �Mid-Earth Orbit� or �MEO� refers to an orbital region between approximately 2,000 km and 35,786 km above
+
+Earth�s surface.
+
+� �mission success rate� refers to the proportion of Falcon 9 and Falcon Heavy missions that achieve their
+
+primary objectives. This term does not include Starship flight tests.
+
+� �mobile network operators� or �MNOs� refers to the local entities of the companies that provide mobile phone
+
+services to customers, with whom SpaceX partners to offer satellite-to-mobile connectivity. The term may also
+
+include mobile virtual network operators, where applicable.
+
+� �Mobile Satellite Service� refers to providing wireless voice, messaging, and data connectivity to, from, or
+
+between mobile devices by using orbiting satellites rather than terrestrial cell towers.
+
+� �Moore�s Law� refers to an observation, not a physical law, that the number of transistors on a microchip
+
+doubles roughly every two years, leading to exponentially faster, smaller, and cheaper electronics.
+
+� �orbital AI compute� refers to artificial intelligence computing infrastructure contemplated to be deployed in
+
+space, consisting of satellite constellations that act as orbital data centers, harnessing solar energy for power and
+
+leveraging the space environment for cooling. We expect to begin deploying our orbital AI compute satellites as
+
+� �payload� refers to the portion of a vehicle�s total mass that consists of the cargo, passengers, satellites, or other
+
+mission-specific items being transported and that reaches the target orbit or destination. Payload is distinct from
+
+total mass (also referred to as gross mass or initial mass) which is the entire weight of the vehicle, including the
+
+payload, fuel / propellant, structure, engines, and any other items, at the start of a journey.
+
+� �payload capacity to orbit� refers to a theoretical payload capacity that a particular launch vehicle is capable of
+
+delivering to a specified orbit (e.g., LEO or GEO) or celestial body (e.g., Mars) under specific conditions, which
+
+orbit is derived from advanced computer simulations and performance modelling that apply to particular
+
+mission scenarios and trajectory assumptions. Actual payload capacity for a given mission may be different and
+
+will vary depending on numerous mission parameters and operational factors, including mission-specific
+
+trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable
+
+regulatory or range-safety limitations .
+
+� �Power Usage Effectiveness� refers to the global standard metric for data center efficiency, calculated as the
+
+ratio of total facility power to IT equipment power.
+
+Table of Contents
+
+� �propellant� refers to the chemical substance or combination of substances consumed by a rocket engine to
+
+produce thrust by generating high-velocity exhaust gases.
+
+� �propulsive landing� refers to the process of landing a rocket or spacecraft using its engines to control descent
+
+and achieve a soft, vertical touchdown.
+
+� �radiative cooling� refers to a cooling method that dissipates heat by radiating it into space, often passively, and
+
+is expected to be used in orbital AI compute infrastructure.
+
+� �Raptor engines� refers to high-performance family of engines developed and produced by the Company, such
+
+as those powering the Super Heavy booster and Starship upper stage, designed for efficiency and reusability.
+
+� �reflight� refers to the reuse of a flight-proven rocket booster or upper stage that has successfully completed a
+
+prior space mission, and has been recovered, refurbished, and certified for subsequent launches.
+
+� �return payload mass� refers to the theoretical payload mass that a particular spacecraft is capable of bringing
+
+back to Earth from a specified orbit under specific conditions, which is derived from advanced computer
+
+simulations and performance modelling that apply to particular mission scenarios and trajectory assumptions.
+
+Actual payload that can be returned for a given mission may be different and will vary depending on numerous
+
+mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric
+
+conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations.
+
+� �rideshare� refers to a type of space mission where multiple satellites or payloads from different customers are
+
+launched together on a single rocket, sharing the cost.
+
+� �satellite-to-mobile� refers to a service that provides global cellular connectivity directly to everyday
+
+smartphones via satellites, supplementing terrestrial networks and eliminating mobile dead zones.
+
+� �Service Line� refers to an individual instance of Starlink broadband internet service provisioned under a
+
+subscription plan, generally associated with a specific Starlink User Terminal or group of terminals, and billed
+
+according to Starlink�s service plans and terms of service. The number of Service Lines is distinct from the
+
+number of unique devices, account holders, end users, or physical persons.
+
+� �space economy� refers to economic activities related to the development, production, and operation of goods
+
+and services that utilize or support space-based infrastructure and capabilities, including launch services,
+
+satellite systems, and space-enabled technologies.
+
+� �Space segment� refers to our Space segment, which includes our customer launch operations and offerings
+
+such as Falcon, Dragon, and Starship.
+
+� �SpaceX Bridge Loan� refers to the Bridge Loan Credit Agreement, dated as of March 2, 2026, by and among
+
+the Company, as borrower, the guarantors from time to time party thereto, the lenders from time to time party
+
+thereto and Goldman Sachs Bank USA, as administrative agent and a lender.
+
+� �SpaceX Credit Facility� refers to our Credit Agreement, dated as of February 7, 2025, by and among the
+
+Company, as borrower, the guarantors from time to time party thereto, the lenders from time to time party
+
+thereto and Bank of America, N.A., as administrative agent, as amended by the First Amendment to Credit
+
+Agreement and Waiver, dated as of March 2, 2026, by and among the Company, the lenders party thereto, and
+
+the other L/C Issuers party thereto. In May 2026, the SpaceX Credit Facility was amended to increase the
+
+borrowing capacity and extends the maturity date.
+
+� �spectrum� refers to the range of electromagnetic frequencies used for wireless communication, with licensed
+
+spectrum granting use for specific services.
+
+� �Starlink� refers to our global Low-Earth Orbit satellite constellation and broadband network designed to
+
+deliver high-speed, low-latency internet connectivity worldwide.
+
+Table of Contents
+
+� �Starlink Consumer Broadband� refers to a category of Starlink active users encompassing both individual
+
+residential users (households and personal use) and small-to-medium-sized businesses.
+
+� �Starlink Fixed Site� refers to a category of Starlink active users encompassing exclusively enterprise
+
+� �Starlink Kit� refers to a set of products needed to connect to the Starlink network, typically including a Starlink
+
+User Terminal and accessories.
+
+� � Starlink Mobile� refers to a service that provides cellular connectivity directly to everyday smartphones via
+
+satellites, supplementing terrestrial networks and substantially reducing mobile dead zones.
+
+� �Starlink Subscriber� refers to a unique Service Line that is directly assigned to a Starlink.com account
+
+registered to a person or entity that does not have a direct, negotiated agreement with the Starlink sales team.
+
+� �Starlink User Terminal� refers to a device developed by the Company that connects to the Starlink satellite
+
+constellation to deliver high-speed, low-latency internet.
+
+� �Starshield� refers to a secure satellite network designed specifically for government customers and national
+
+security applications.
+
+� �Starship� refers to a fully reusable, super heavy-lift launch vehicle . Starship can be used to describe the stacked
+
+vehicle (booster and upper stage) or upper stage only. We expect Starship to commence payload delivery to
+
+orbit in the second half of 2026.
+
+� �Sun-synchronous orbit� refers to a type of polar orbit around a planet in which a satellite passes over any given
+
+point of the planet�s surface at the same local mean solar time, allowing for consistent solar energy capture.
+
+� �Super Heavy� refers to the reusable first-stage booster for the Starship launch vehicle, powered by 33 Raptor
+
+� �SuperGrok� refers to our subscription-based Grok service that provides users with expanded access to Grok
+
+models and related tools.
+
+� �SuperGrok Heavy� refers to our subscription-based Grok service tier that provides users with expanded access
+
+to Grok models and related tools, including higher usage limits relative to SuperGrok.
+
+� �SuperGrok Lite� refers to our subscription-based Grok service tier that provides users with basic access to
+
+Grok models and related tools.
+
+� �supported accounts� refers to, when used in the context of our X platform and Grok, a human, bot or similar
+
+account that logged into the X platform or Grok. The total number of supported accounts may include fake,
+
+spam or bot accounts if they are active.
+
+� �Tbps� refers to terabits per second.
+
+� �Terafab� refers to a chip manufacturing initiative with a long-term goal of producing one terawatt of compute
+
+hardware each year.
+
+� �terawatt� refers to one trillion watts.
+
+� �terawatt-scale� refers to infrastructure, systems, or facilities that are designed to generate, transmit, or consume
+
+approximately one terawatt or more of electrical power capacity.
+
+� �terrestrial AI compute� refers to artificial intelligence computing infrastructure located on Earth, such as data
+
+centers and supercomputers, used for training and running AI models.
+
+Table of Contents
+
+� �throughput� refers to the rate at which data or material can be processed or transferred, often referring to
+
+network capacity or production output.
+
+� �tokens� refers to the basic units of text or images processed and generated by an AI model, used to measure AI
+
+workload, throughput, and computational output.
+
+� �watt� is the International System of Units (SI) unit for measuring power, representing the rate of which energy
+
+is transferred, used or generated.
+
+� �X� refers to our real-time information, entertainment, and free speech platform that serves as a foundational
+
+distribution and data engine for the AI ecosystem.
+
+� �xAI� refers to X.AI Holdings LLC or, prior to the xAI Merger, X.AI Holdings Corp., together with its
+
+subsidiaries, as applicable.
+
+� �xAI Gov� refers to our offering that provides government customers with access to Grok models and related
+
+tools for use in governmental applications, workflows, and services.
+
+� �X Premium+� refers to our highest subscription tier for X.
+
+Our Satellite Names
+
+We use a �V� naming convention for our Starlink satellites (such as V1, V2 Mini, and V3). Although we use a
+
+similar �V� naming convention for both our broadband and mobile satellite constellations, these are distinct systems.
+
+Our broadband satellites are designed to deliver high-speed internet services to homes, businesses, and vehicles,
+
+while our mobile satellites are designed to connect directly to cell phones from space. These constellations have
+
+different performance requirements and technical specifications. Please see below the terms used for our satellites
+
+throughout this prospectus:
+
+� �V1 Mobile satellites� refers to our mobile satellites that provide light data, text messaging (SMS), and over-
+
+the-top voice services (e.g., WhatsApp and FaceTime) to mobile devices . V1 Mobile satellites are currently in
+
+orbit and are launched on our Falcon rockets.
+
+� �V2 Mini satellites� refers to our current broadband satellites that provide high-speed internet to homes,
+
+businesses, and vehicles. V2 Mini satellites are currently in orbit and are launched on our Falcon rockets .
+
+� �V2 Mobile satellites� refers to our next-generation mobile satellites, which are designed to provide more
+
+comprehensive satellite-to-mobile services, including broadband data and IoT connectivity and which we expect
+
+to begin deploying on Starship in 2027.
+
+� �V3 satellites� refers to our next-generation Starlink broadband satellites, which are designed to offer one Tbps
+
+of downlink capacity per satellite and which we expect to begin deploying on Starship in the second half of
+
+Table of Contents
+
+PROSPECTUS SUMMARY
+
+This summary highlights information contained elsewhere in this prospectus. This summary is not complete and
+
+does not contain all of the information you should consider before investing in our Class A common stock. You
+
+should read this entire prospectus carefully before making an investment decision. You should carefully consider,
+
+among other things, the sections titled �Risk Factors,� �Management�s Discussion and Analysis of Financial
+
+Condition and Results of Operations,� and our consolidated financial statements and the related notes included
+
+elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please
+
+carefully consider �Cautionary Statement Regarding Forward-Looking Statements.�
+
+�You want to wake up in the morning and think the future is going to be great�and that�s what being a space-faring
+
+civilization is all about. It�s about believing in the future and thinking that the future will be better than the past. And
+
+I can�t think of anything more exciting than going out there and being among the stars.�
+
+Our mission is to build the systems and technologies necessary to make life multiplanetary, to understand the true
+
+nature of the universe, and to extend the light of consciousness to the stars. To do this, we have formed the most
+
+ambitious, vertically integrated innovation engine on (and off) Earth with unmatched capabilities to rapidly
+
+manufacture and launch space-based communications that connect the world, to harness the Sun to power a truth-
+
+seeking artificial intelligence that advances scientific discovery, and ultimately to build a base on the Moon and
+
+cities on other planets.
+
+Founded in 2002, SpaceX is the only company building the integrated hardware and software infrastructure of the
+
+future across space, connectivity, and AI. At our core, we are builders. We design, manufacture, launch, and operate
+
+products and services built on cutting-edge technologies, including the world�s most advanced rockets and
+
+spacecraft. We safely and reliably transport astronauts, satellites, and other payloads on missions that benefit life on
+
+Earth. Since 2023, we have launched more than 80% of mass to orbit for the world each year with an over 99%
+
+mission success rate with Falcon rockets. We also operate a high-speed, low-latency global broadband data and
+
+communications network powered by approximately 9,600 Starlink broadband and mobile satellites in Low-Earth
+
+Orbit, delivering connectivity to millions of consumer, enterprise, and government customers across 164 countries,
+
+territories, and other markets, as of March 31, 2026. Using our dedicated satellite-to-mobile constellation, we offer
+
+connectivity services, supplementing terrestrial networks and substantially reducing mobile �dead zones� across
+
+approximately 30 countries.
+
+With the potential to improve both space exploration and life on Earth, AI accelerates SpaceX�s mission to make life
+
+multiplanetary, to understand the true nature of the universe, and to extend the light of consciousness to the stars.
+
+xAI, which was founded in 2023 and acquired by SpaceX in early 2026, is now an integral pillar of our vertically
+
+integrated company. We are rapidly constructing AI compute infrastructure�starting on Earth with the goal of
+
+extending to space�at industry-leading pace and cost efficiency. Our infrastructure supports training and inference
+
+for Grok, which has emerged as one of the world�s most advanced frontier models. Grok is designed as a truth-
+
+seeking AI model, built on our founder Elon Musk�s mission to enable humanity to understand the universe. We
+
+believe that accomplishing this mission requires a truth-seeking approach to AI. We define truth seeking as the
+
+active, relentless pursuit of what is objectively true about reality, and grounded in evidence, logic, empirical data,
+
+and first principles thinking. Our goal is to understand and explain what the universe appears to be doing, as
+
+accurately as current knowledge allows. Within two years of its initial model release, Grok achieved frontier-level
+
+performance in scientific reasoning, as measured by its GPQA Diamond score, an industry benchmark that evaluates
+
+AI models on a standardized set of questions written and validated by experts, on a faster timeline than reported by
+
+other leading model providers. Grok also benefits from integration with X, our real-time information, entertainment,
+
+and free speech platform, which serves as a foundational distribution and data engine for our AI ecosystem and
+
+further enhances Grok�s truth-seeking objective.
+
+Table of Contents
+
+We believe that space represents the largest economic frontier in human history. Connectivity infrastructure in space
+
+is designed to help everyone on Earth have access to education, healthcare, entertainment, and communications, and
+
+to enable people to overcome many traditional limits, such as physical and political borders. We believe AI
+
+infrastructure in space can utilize the virtually limitless power of the Sun and thereby enable the use of AI as a
+
+transformative force for understanding the universe and improving the daily lives of all humans. We believe the
+
+convergence of these areas will enable an unprecedented expansion in the global economy, leading to an age of
+
+abundance. Our innovations and technological advancements are redefining industries on Earth, while we aim to
+
+create new ones on the Moon, Mars, and beyond. We are truly building the infrastructure of the future.
+
+� S pace. SpaceX is the only company that has cracked the code on accessing space at scale, revolutionizing an
+
+industry characterized by decades of stagnation, risk aversion, and economically perverse cost structures.
+
+SpaceX upended this paradigm through the application of first-principles thinking, which rejects industry
+
+assumptions and builds solutions based on the fundamental laws of physics. Our intense, mission-driven,
+
+engineering-first culture and focus on extreme vertical integration have propelled us to achieve what many
+
+deemed impossible. We pioneered high-cadence, reliable, and affordable access to space with our Falcon family
+
+of rockets. In 2015, we established at least a 10-year lead over the industry by successfully landing our first
+
+Falcon 9 booster back from space before anyone else. Space flight that historically cost billions per launch now
+
+costs in the tens of millions, fundamentally reducing the cost of space access and providing the opportunity to
+
+build new enterprises in space.
+
+� Connectivity. Since activating service for customers in 2020, Starlink has rapidly expanded global access to
+
+high-speed internet, prioritizing underserved rural and remote communities worldwide. While building
+
+terrestrial networks in such communities can be prohibitively expensive, Starlink is capable of delivering
+
+broadband connectivity anywhere on Earth with just a Starlink Kit . As of March 31, 2026, we had
+
+approximately 9,600 Starlink broadband and mobile satellites in Low-Earth Orbit, operating the world�s most
+
+advanced broadband constellation providing internet connectivity to approximately 10.3 million Starlink
+
+Subscribers across 164 countries, territories, and other markets. In January 2024, we also began deploying our
+
+Starlink Mobile constellation that utilizes separate Starlink satellites with satellite-to-mobile capabilities,
+
+substantially reducing mobile �dead zones� around the world. As of March 31, 2026, our dedicated satellite-to-
+
+mobile constellation of approximately 650 V1 Mobile satellites provides satellite-to-mobile data, over-the-top
+
+voice, and messaging services to approximately 7.4 million monthly unique devices across approximately 30
+
+� AI. We were the first company to deploy a coherent gigawatt-scale AI training cluster. For complex reasoning
+
+and agentic workloads, compute is directly correlated with the quality of intelligence and task completion speed.
+
+In under two years, we have established a dual advantage in both cost efficiency and deployment speed at scale.
+
+By owning the compute infrastructure and vertically integrating across the full AI stack, we can train and iterate
+
+our frontier m odels at lower cost and higher velocity and accelerate development cycles. This eliminates
+
+external bottlenecks and drives rapid, continuous improvements in model performance. We believe this
+
+combination of our state-of-the-art AI compute infrastructure, our truth-seeking frontier model, and our access
+
+to real-time data on X creates a significant strategic advantage. Our integrated AI platforms across Grok and X
+
+have over 1.3 billion supported accounts active in the last twelve months ended March 31, 2026, including
+
+approximately 550 million MAUs and generating approximately 350 million daily posts. Of our MAUs, we had
+
+approximately 117 million MAUs that used Grok�s AI features as of March 31, 2026. Grok�s deep integration
+
+with X enables freshness, relevance, and contextual awareness that we believe is a competitive differentiator.
+
+This direct, real-time access to the information and human discourse on X enhances Grok�s truth-seeking
+
+capabilities by grounding outputs in up-to-date knowledge and diverse viewpoints. As a result, we believe Grok
+
+can deliver the most objective and relevant insights and best serve high-frequency, high-value use cases across
+
+consumer and enterprise AI applications.
+
+We have created distinct new markets across the space, connectivity, and AI industries by building the integrated
+
+hardware and software infrastructure of the future and by combining our broad range of capabilities. For example,
+
+SpaceX�s recent acquisition of xAI unites SpaceX�s launch capabilities and global connectivity network with xAI�s
+
+AI development capabilities. Specifically, we believe SpaceX�s reusable rockets, scaled satellite manufacturing, and
+
+operational expertise can enable the cost-effective and rapid deployment of massive AI compute satellite
+
+Table of Contents
+
+constellations� with potentially millions of satellites� for orbital data centers. We believe these AI compute
+
+satellites in Sun-synchronous orbit will be able to handle energy-intensive AI workloads, such as inference demand,
+
+at far greater scale and efficiency than terrestrial alternatives, with Starlink providing low-latency, global
+
+connectivity linking these orbital AI systems to people around the world and delivering real-time intelligence. We
+
+expect to begin deploying our orbital AI compute satellites as early as 2028.
+
+Our financial results reflect the strength of our operating model and our ability to create and scale multiple new
+
+� For the three months ended March 31, 2026, we generated revenue on a consolidated basis of $4,694 million,
+
+loss from operations of $(1,943) million and Adjusted EBITDA of $1,127 million. In 2025, we generated
+
+revenue on a consolidated basis of $18,674 million, loss from operations of $(2,589) million and Adjusted
+
+EBITDA of $6,584 million. Our Space and Connectivity segments contributed the substantial majority of our
+
+consolidated revenue in the three months ended March 31, 2026 and the year ended December 31, 2025 ,
+
+demonstrating the benefits of their scale and operating leverage in our vertically integrated business model;
+
+� For the three months ended March 31, 2026, our Space segment generated revenue of $619 million, loss from
+
+operations of $(662) million, and Segment Adjusted EBITDA of $(351) million. In 2025 , our Space segment
+
+generated revenue of $4,086 million , loss from operations of $(657) million , and Segment Adjusted EBITDA of
+
+$653 million . Additionally, our Space segment funded $930 million and $3,004 million in research and
+
+development expense during the three months ended March 31, 2026 and the year ended December 31, 2025,
+
+respectively, for our next-generation Starship launch vehicle program. Starship is designed to enable a step-
+
+function change in our launch capability across reusability, payload capacity, and launch cadence, and is the key
+
+enabler of our long-term growth strategy by unlocking entirely new categories of missions ;
+
+� For the three months ended March 31, 2026, our Connectivity segment generated revenue of $3,257 million,
+
+income from operations of $1,188 million, and Segment Adjusted EBITDA of $2,087 million. Our Connectivity
+
+segment,

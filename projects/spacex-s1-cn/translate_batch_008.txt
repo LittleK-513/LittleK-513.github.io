@@ -1,0 +1,553 @@
+ significant
+
+changes in contract scheduling.
+
+Additionally, the U.S. government�s budget deficit and the national debt, as well as any inability of the U.S.
+
+government to complete its budget process for any government fiscal year and consequently having to shut down or
+
+operate on funding levels equivalent to its prior fiscal year pursuant to a �continuing resolution,� could have a
+
+material and adverse impact on our business, financial condition, results of operations, and future prospects.
+
+Moreover, if we fail to establish and maintain important relationships with U.S. government agencies, our ability to
+
+successfully maintain and develop new business could be materially and adversely affected. The current political
+
+Table of Contents
+
+environment in the United States is highly polarized, and shifts in the composition of the U.S. Congress or changes
+
+in the presidential administration can result in significant changes in government spending priorities, regulatory
+
+posture, and the allocation of contracts and resources across industries and programs. Our relationships with U.S.
+
+government agencies and the favorability of the regulatory and procurement environment in which we operate may
+
+be affected by which political party controls the presidency or one or both chambers of the U.S. Congress. As a
+
+result, there can be no assurance that current government relationships, contracts, or levels of funding will be
+
+maintained, and any significant adverse developments could have a material and adverse impact on our growth and
+
+competitive position.
+
+In addition, our Space segment revenue is primarily derived from fixed-price contracts, under which we agree to
+
+deliver specified products or services at a predetermined price regardless of the actual costs incurred. As a result, if
+
+we experience cost overruns on these contracts, including from factors outside our control, we are required to absorb
+
+the excess costs, which may reduce profitability or result in losses, strain cash flows, and impact our ability to invest
+
+in future growth. Any unanticipated increases in labor, material, or other direct or indirect costs�including those
+
+arising from inflation, supply chain disruptions, design changes, regulatory requirements, or unforeseen technical
+
+challenges�must be borne by us. When these overruns occur, our margins on affected contracts may be
+
+significantly reduced or eliminated, which could adversely affect our business, financial condition, results of
+
+operations, and future prospects. Additionally, absorbing excess costs may limit our ability to allocate resources to
+
+other strategic initiatives, delay investment in research and development, or constrain our capacity to pursue new
+
+business opportunities. In addition, we sometimes receive advanced payments and billings in excess of the amount
+
+of revenue we recognize, which we record as deferred revenue. As a result, our cash flows may be subject to
+
+fluctuation across periods in a manner that may be unrelated to our underlying performance.
+
+Our ability to expand our Starlink consumer and enterprise connectivity services depends on our ability to
+
+increase market awareness and acceptance of connectivity through Starlink, and any failure to do so could
+
+materially and adversely affect our business, financial condition, results of operations and future prospects .
+
+Our ability to expand our Starlink consumer and enterprise connectivity services depends on our ability to increase
+
+market awareness and acceptance of connectivity through Starlink. There can be no assurance that our efforts to
+
+increase awareness will be successful. In particular, such efforts may not be successful if we are unable to offer
+
+Starlink services at competitive prices. Additionally, constraints in the distribution of user terminals could delay
+
+service activations, increase costs, or otherwise limit our ability to scale such services as anticipated. Consumer
+
+acceptance may also be hindered by the presence of well-established terrestrial broadband alternatives, as well as
+
+lingering perceptions regarding service reliability, latency, and the complexity of satellite-based internet compared
+
+to traditional fixed-line solutions.
+
+The expansion of our satellite-to-mobile connectivity services depends substantially on our ability to secure and
+
+maintain partnerships with mobile network operators and on the adoption of necessary hardware and software
+
+modifications by device manufacturers, and any failure to do so could materially and adversely affect our
+
+business, financial condition, results of operations and future prospects.
+
+The expansion of our global satellite-to-mobile connectivity offerings depends substantially on our ability to enter
+
+into and maintain successful partnerships with telecommunications carriers and spectrum licensees globally, and to
+
+obtain country-specific authorizations to offer such connectivity using satellite spectrum bands for which we have
+
+international coordination rights. In the United States, we expect to be able to provide 5G-like connectivity to a
+
+meaningful portion of existing unmodified devices through our Starlink Mobile Gen2 service utilizing our V2
+
+Mobile satellites, either by operating on spectrum leased to us by MNO partners or by utilizing our own domestic
+
+spectrum holdings. However, achieving full 5G NR-NTN compliance and optimal performance would likely require
+
+handset manufacturers to implement hardware and software modifications, primarily to the radio-frequency front
+
+end, in future devices. The spectrum frequencies in the FCC licenses to be acquired from EchoStar are standardized
+
+for terrestrial 5G mobile broadband (3GPP bands n66 and n70). But the 5G NR-NTN bands for these same
+
+frequencies, such as n252 and n256, are not currently supported by RF front-end hardware for the provision of 5G-
+
+like service in any commercially available mobile devices. We do not have direct contractual arrangements with
+
+handset manufacturers; instead, we expect MNO partners, as major purchasers of mobile devices, to encourage or
+
+Table of Contents
+
+drive such adoption. There can be no assurance that these modifications will be adopted on our preferred timeline, or
+
+Internationally, we face similar constraints until handset manufacturers implement hardware and software
+
+modifications to support the international spectrum authorizations to be obtained from EchoStar. As a result, our
+
+near-term international service strategy depends on our ability to establish MNO spectrum partnerships on a market-
+
+by-market basis, which does not require device hardware modifications but is subject to the successful negotiation
+
+and execution of commercial agreements in each jurisdiction. Until device manufacturers incorporate support for our
+
+international spectrum bands into future handsets, we will be unable to offer 5G-like direct-to-consumer service on
+
+our own international spectrum.
+
+The provision of our satellite-to-mobile services also requires regulatory approvals from the FCC and foreign
+
+regulatory authorities. Our Gen1 service, utilizing our existing constellation of V1 Mobile satellites, is fully licensed
+
+in the United States but requires additional country-by-country approvals to operate internationally. We have signed
+
+MNO partnerships for our Gen1 service in over 30 countries. These partnerships represent commercial agreements
+
+with carriers but do not, by themselves, provide the regulatory approvals necessary to offer service. In addition to at
+
+least one MNO partnership, we have obtained required approvals to offer commercial Gen1 service in the United
+
+States, Canada, the United Kingdom, Japan, and Australia, as well as in several additional countries.
+
+Our Gen2 service, which will utilize 2 GHz S-band spectrum and a new satellite constellation, requires a license
+
+transfer, a constellation license, and spectrum usage approvals in each country in which we seek to operate. For the
+
+United States, we have received the relevant license transfer approval from the FCC, and we expect to receive the
+
+remaining necessary regulatory authorizations in the second or third quarter of 2026. While these authorizations
+
+would be sufficient from a United States regulatory perspective, we still require our V2 Mobile satellites to be in
+
+orbit and must complete the acquisition of the relevant spectrum from EchoStar before we can commence our
+
+planned commercial Gen2 service in the United States. Internationally, we have filed applications in nearly every
+
+country in which we intend to operate our Gen2 service, and approvals have been granted in a limited number of
+
+these jurisdictions to date. Each jurisdiction presents its own regulatory process and timeline, and we cannot predict
+
+when or whether approvals will be granted in any given market. Subject to regulatory approvals, we are receiving
+
+from EchoStar certain assets and authorizations that provide very senior ITU priority for international frequency
+
+coordination for our V2 Mobile constellation. Until such approvals are obtained, we also signed a coordination
+
+agreement with EchoStar to obtain the protection of its senior ITU priority rights until the authorizations transfer.
+
+However, some countries have signaled through public consultations or other actions that they are considering
+
+ignoring or diminishing ITU priority as a mechanism to decide which operators are licensed to operate in their
+
+country. Several countries and regions have open inquiries that invite input on whether factors other than ITU
+
+priority (such as whether the operator originates from the country) should govern the issuance of spectrum licenses,
+
+and we cannot be certain the outcome of these proceedings. Delays or failures to obtain necessary approvals could
+
+materially delay the deployment and commercialization of our Gen2 service. The failure to enter into or successfully
+
+maintain such partnerships, or the failure of device manufacturers to adopt the necessary hardware modifications, or
+
+the failure to obtain required regulatory approvals, could materially and adversely affect our business, financial
+
+condition, results of operations, and future prospects.
+
+If the recommendations, forecasts, content, analyses or other output that our AI technologies, including Grok,
+
+assist in producing are or are alleged to be deficient, inaccurate, harmful, illegal, or used for an improper
+
+purpose, we could continue to be subjected to claims and investigations, and we could be subjected to legal
+
+liability and brand, reputational, or competitive harm.
+
+AI technologies, the models, algorithms, prompts and datasets on which they rely, and the recommendations,
+
+forecasts, analyses or other output that such AI technologies assist in producing, may be flawed, insufficient, of poor
+
+quality, rely upon incorrect, inaccurate, harmful or illegal data, reflect unwanted forms of bias, hallucinate,
+
+misrepresent, mislead or contain other errors or inadequacies, any of which may not be easily detectable. Although
+
+we devote significant resources to develop, test, and maintain our AI technologies, we may not be able to identify or
+
+resolve all AI-related issues, deficiencies, and failures before they arise. AI technologies have been known to
+
+produce mischaracterized or �hallucinatory� inferences or outputs, and certain of our AI products, such as Grok,
+
+have been alleged to be susceptible to �data poisoning� in the past. We may not have insight into, or control over,
+
+Table of Contents
+
+the practices of third parties who may utilize our AI technologies. As such, third parties have in the past used, and
+
+may in the future use, such AI technologies for improper purposes, including through the dissemination of illegal,
+
+inaccurate, defamatory or harmful content, intellectual property infringement or misappropriation, furthering bias or
+
+discrimination, cybersecurity attacks, including spear phishing and social engineering attacks, data privacy
+
+violations, other societal harms, including activities that threaten people�s safety, financial security, or mental well-
+
+being on- or offline, or to develop competing technologies. Inappropriate or controversial data practices by data
+
+scientists, engineers, and end users of AI technologies, including our AI segment�s systems, could impair the
+
+acceptance of AI technologies generally, including our AI products. If the recommendations, forecasts, content, or
+
+analyses that our AI technologies assist in producing are or are alleged to be deficient, inaccurate, offensive, illegal,
+
+or otherwise harmful, we could be subjected to claims and investigations, and we could be subjected to legal liability
+
+and brand, reputational or competitive harm. We have in the past been, and may in the future be, subject to
+
+regulatory investigations and litigation related to such claims regarding our recommendations, forecasts, content or
+
+analyses. Also please refer to ��Our AI products, X platform, and Starlink services are subject to complex and
+
+evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data
+
+protection, content, AI, competition, youth protection, safety, consumer protection and notification, advertising, e-
+
+commerce, sanctions, export controls, and other matters. Many of these laws and regulations are subject to change
+
+and uncertain interpretation, and we could be required to make changes to our products and business practices, and
+
+be exposed to monetary penalties, increased cost of operations, declines in user growth or engagement, or loss of
+
+customers, or other harm to our AI products, X platform, and Starlink services.� In addition, if we do not have
+
+sufficient rights to use the models, algorithms, prompts and datasets on which our AI technologies rely, or the
+
+recommendations, forecasts, content, analyses or other output that our AI technologies assist in producing, we could
+
+also incur liability through the violation of applicable laws and regulations, third-party intellectual property, privacy
+
+or other rights, or contracts to which we are a party. Furthermore, failure to properly disclose the use of consumer-
+
+facing AI technologies may result in consumer protection or regulatory enforcement activity. Use of AI
+
+technologies, including our AI products, may result in disruptions in, or unauthorized access to, users� computer
+
+systems, which could also lead to the unauthorized disclosure of sensitive (including classified), proprietary,
+
+confidential or personal information, new potential cyberattack methods for third parties or an increase in the
+
+frequency, sophistication or intensity of cyberattacks. Moreover, if AI technologies are perceived to be significantly
+
+disruptive to society, it could lead to governmental or regulatory restrictions or prohibitions on their use, societal
+
+concerns or unrest, or both, any of which could materially and adversely affect our ability to develop, deploy, or
+
+commercialize AI technologies and execute our business strategy. Our implementation of AI technologies, including
+
+through our AI segment�s systems, could result in legal liability, regulatory action, operational disruption, brand,
+
+reputational or competitive harm, or other adverse impacts.
+
+Environmental laws, regulations, litigation, liabilities and proceedings may adversely affect our operations,
+
+including our launch operations, manufacturing activities, fuel storage and handling operations, launch facilities
+
+and ground infrastructure, and data center operations and expansion plans.
+
+Our operations, including our launch operations, manufacturing activities, fuel storage and handling operations,
+
+launch facilities and ground infrastructure, and data center operations and expansion plans are subject to a variety of
+
+state and federal environmental laws and regulations governing matters such as air emissions, wastewater discharges
+
+and the discharge, treatment, storage, disposal and remediation of hazardous substances and wastes, including the
+
+Comprehensive Environmental Response, Compensation and Liability Act, the Resource Conservation and
+
+Recovery Act, the Clean Air Act, the Clean Water Act and permitting requirements of federal, state and local
+
+environmental authorities. Liability under these laws imposes strict liability for environmental contamination or
+
+remediation costs. Changing regulatory requirements for permits and approvals relating to operational infrastructure,
+
+including energy generation assets (e.g., renewables, generators or grid connections), manufacturing facilities,
+
+launch facilities, fuel storage and handling facilities, and data centers may cause delays, higher costs or denials, and
+
+a failure to comply with these requirements may result in fines, shutdowns or competitive harm. In addition,
+
+growing scrutiny of data centers� overall ecological footprint could lead to community opposition, fines or mandates
+
+for changing existing practices. We are or may become subject to environmental lawsuits and proceedings, and
+
+various parties have threatened or brought lawsuits that allege we are unlawfully operating natural gas-fired turbines
+
+without required permits at facilities in Southaven, Mississippi. While we have obtained such permits, the outcome
+
+of these legal actions is uncertain. Injunctive relief or the rescission of issued permits would prevent our ability to
+
+Table of Contents
+
+utilize power generation sources that are required for the operation of these data centers and would adversely affect
+
+our AI business. We cannot predict with certainty how future legislative or regulatory developments will affect our
+
+business, but compliance with new or modified environmental requirements could require us to incur significant
+
+unanticipated expenditures that could adversely affect our financial condition, results of operations, speed of
+
+deployment and cash flows.
+
+In addition, our launch facilities and related operations are subject to environmental permitting, land use, wetlands,
+
+coastal management and other environmental review requirements, such as the National Environmental Policy Act
+
+or related federal and state laws, that may give rise to litigation, regulatory enforcement actions or permitting
+
+disputes. Environmental groups, regulatory authorities or other stakeholders may challenge our launch activities,
+
+launch cadence, construction or expansion of facilities, fuel storage or handling practices, or other operational
+
+activities under federal, state or local environmental laws. Such actions may seek injunctive relief, civil penalties or
+
+additional environmental review and mitigation measures, any of which could delay launches, restrict operations,
+
+increase compliance costs or otherwise adversely affect our business, financial condition, results of operations and
+
+future prospects.
+
+We may face substantial potential liability and operational disruptions if we violate the intellectual property rights
+
+or other rights of third parties, and if we fail to adequately protect, maintain, defend or enforce our intellectual
+
+property and other similar rights, we could lose an important competitive advantage, in each case which could
+
+have a material adverse effect on our business, financial condition, results of operations, customer trust and
+
+future prospects.
+
+Our success and ability to compete also depends in part on our ability to operate without infringing,
+
+misappropriating or otherwise violating the intellectual property rights of third parties. Companies in the AI and
+
+technology industries own large numbers of patents, copyrights, trademarks, and trade secrets, and frequently enter
+
+into litigation based on allegations of infringement, misappropriation, or other violations of intellectual property or
+
+other rights, including in novel areas such as those relating to AI training and AI outputs. Plaintiffs have in the past
+
+and may in the future file infringement or other litigation or administrative or adversarial actions relating to the
+
+training or development of our AI models. We cannot guarantee that the operation of our business does not and will
+
+not infringe or violate the rights of third parties, and we may be unaware of the intellectual property rights that
+
+others may claim cover some or all of our products or services. Moreover, we may not have the freedom to operate
+
+unimpeded by the patent or other rights of others. Third parties may have dominating, blocking or other patents or
+
+other rights relevant to our technology, of which we are not aware.
+
+Intellectual property and related laws are constantly evolving, can be highly uncertain and involve complex legal
+
+and factual questions for which important principles remain unresolved. For example, in the United States and in
+
+many foreign jurisdictions, policies regarding the breadth of claims allowed in patents and scope of protections for
+
+content can be inconsistent. We cannot predict future changes in the interpretation of patent, intellectual property
+
+and other related laws or changes to patent, intellectual property and other related laws that might be enacted into
+
+law by U.S. and foreign legislative bodies.
+
+We rely on statutory safe harbors, including those set forth in the Digital Millennium Copyright Act and Section 230
+
+of the Communications Decency Act in the United States and the Digital Services Act in the EU, to protect against
+
+liability for various activities, including linking, caching, ranking, recommending and hosting. Legislation or court
+
+rulings affecting these safe harbors may harm us and may impose significant operational challenges. There are
+
+legislative proposals and pending litigation in the United States, EU, and around the world that could diminish or
+
+eliminate safe harbor protection for websites and online platforms.
+
+If we violate, or are alleged to have violated, the intellectual property rights of third parties, including patents,
+
+copyrights, trademarks, trade secrets, or other intellectual property rights and related rights, we may be subject to
+
+costly and time-consuming litigation, substantial financial penalties, and reputational harm, any of which could
+
+materially disrupt our operations, product development and strategic initiatives. As we continue to develop new or
+
+update existing technologies, products, and services, there is a risk that third parties may allege that our operations
+
+or offerings infringe upon their intellectual property rights. For example, we are currently a defendant in litigation
+
+alleging copyright infringement relating to the claimed use of copyrighted works to train our AI models. Other
+
+Table of Contents
+
+plaintiffs may file infringement or other litigation relating to the training or development of our AI models. In
+
+addition, we are currently subject to, and in the future may be subject to claims from various �non-practicing
+
+entities� or other companies that own patents and other intellectual property rights that often attempt to aggressively
+
+assert their rights in order to extract value from technology companies by threatening costly litigation or that have
+
+minimal operations or relevant product revenue and against whom our patents may provide little or no deterrence or
+
+protection. We are and may in the future be subject to additional copyright litigation or other litigation, including
+
+litigation relating to allegations that we have trained or developed our AI models on copyrighted works in a manner
+
+that infringes on copyrights, or in a manner that otherwise violates the intellectual property or other rights of third
+
+parties, or that our models produce outputs in a manner that infringes on copyrights or other intellectual property or
+
+other rights. Moreover, the impact of AI on intellectual property ownership and licensing rights, including
+
+copyrights, has not been fully addressed by U.S. or international courts or other federal, state or international laws or
+
+regulations (or by courts, laws or regulations in foreign jurisdictions), and our use of AI models may reduce our
+
+ability to protect our own intellectual property. In addition, former employers of our current, former, or future
+
+employees may assert claims that such employees have improperly disclosed to us confidential or proprietary
+
+information of these former employers. Any such claims or allegations, whether or not they have merit, could result
+
+in costly litigation, substantial damages, injunctions against the use of certain technologies, or the need to obtain
+
+licenses on unfavorable terms. In addition, certain of our contracts with customers, suppliers, and partners contain
+
+indemnification provisions that could require us to defend against infringement or other claims and pay damages or
+
+settlements, thereby increasing our financial exposure. The outcome of intellectual property litigation is inherently
+
+uncertain, and adverse judgments could materially and adversely affect our business, financial condition, results of
+
+operations, and future prospects. If we are unable to obtain necessary licenses, non-infringing substitute
+
+technologies, or otherwise mitigate these risks, we may be forced to discontinue certain products or services, delay
+
+or curtail research and development activities, or limit our expansion into new markets.
+
+Additionally, failure to adequately protect, maintain, defend, or enforce our intellectual property�including patents,
+
+copyrights, trademarks, trade secrets, and proprietary technologies�may lead to loss of competitive advantage,
+
+weakened market position, and financial harm from unauthorized use or infringement. We rely and expect to
+
+continue to rely upon a combination of patents, trademarks, trade secrets, copyrights, confidentiality procedures,
+
+contractual commitments and other legal rights to establish and protect our intellectual property. However, the steps
+
+we take to protect our intellectual property and other rights may be inadequate due to various circumstances. We
+
+may be unable or choose not to pursue or maintain certain types of intellectual property protection or registration for
+
+our intellectual property in the United States or foreign jurisdictions, and the measures we do take may not prevent
+
+our competitors or other third parties from independently developing products, services, and technology similar to or
+
+duplicative of our products and services. We will not be able to protect our intellectual property if we are unable to
+
+enforce our rights or if we do not detect unauthorized use of our intellectual property. In addition, our patents or
+
+other intellectual property rights may be challenged, invalidated, circumvented or rendered unenforceable, and
+
+pending and future trademark and patent applications may not be approved. While it is our policy to enter into
+
+confidentiality agreements with our employees, contractors and other third parties to limit and control access to and
+
+disclosure of our trade secrets, intellectual property and confidential information, we may fail to enter into such
+
+agreements with all relevant entities and any such agreements may be breached, or this intellectual property may
+
+otherwise be disclosed or become known to our competitors, including through hacking, theft, or other
+
+misappropriation, including by employees, which could cause us to lose any competitive advantage resulting from
+
+these trade secrets, intellectual property and proprietary information. Accordingly, we cannot guarantee that the
+
+steps we have taken to protect our intellectual property will be adequate to prevent infringement of our rights or
+
+misappropriation of our technology, trade secrets or know-how.
+
+Additionally, to protect our intellectual property rights, we may be required to spend significant resources to
+
+monitor, defend, enforce and protect these rights. Monitoring unauthorized uses of our intellectual property is
+
+difficult and costly. We may not be able to detect unauthorized use of, or take appropriate steps to enforce, our
+
+intellectual property rights. Litigation may be necessary in the future to enforce our intellectual property rights and
+
+to protect our trade secrets, and any such litigation may be costly and time consuming, result in the diversion of time
+
+and attention of our management team, and may not be successful or could result in the impairment or loss of
+
+portions of our intellectual property. Furthermore, our efforts to enforce our intellectual property rights may be met
+
+with defenses, counterclaims and countersuits attacking the validity and enforceability of our intellectual property
+
+Table of Contents
+
+rights. Despite our efforts, we may not be able to prevent unauthorized use, copy, reverse engineering,
+
+misappropriation of our technology or intellectual property rights to create technology that compete with ours, or
+
+independent development of similar technologies. Insufficient protection could force us into costly and uncertain
+
+litigation or enforcement actions, allowing competitors to launch rival products and eroding our revenue and
+
+Acquisitions, divestitures, or other strategic transactions we pursue may not achieve the anticipated benefits,
+
+synergies or strategic objectives.
+
+We may not achieve the anticipated benefits, synergies, or strategic objectives of any acquisition, divestiture, or
+
+other strategic transaction in a timely manner, or at all, including those we expect from the recent acquisition of xAI,
+
+the acquisition of spectrum assets and licenses from EchoStar in connection with our Starlink Mobile initiatives, our
+
+collaboration on Terafab with Tesla, Intel or any future partners, project and our recent collaboration with Cursor
+
+and any potential acquisition of Cursor, if consummated. Acquisitions, divestitures, or other strategic transactions
+
+may present unforeseen liabilities or disruptions to our operations, which co

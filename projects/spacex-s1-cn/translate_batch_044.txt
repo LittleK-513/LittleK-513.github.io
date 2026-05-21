@@ -1,0 +1,675 @@
+rent trends, which forms the basis for
+
+making judgments about the carrying value of assets and liabilities. In addition, the Company engages valuation
+
+specialists to assist in the valuation of equity instruments.
+
+Cash and Cash Equivalents and Restricted Cash
+
+The Company�s total cash and cash equivalents and restricted cash, as presented in the consolidated statements of
+
+cash flows , are as follows:
+
+Cash and cash equivalents .........................................................................................
+
+Restricted cash included in prepaid expenses and other current assets .....................
+
+Restricted cash included in other assets .....................................................................
+
+Total as presented in the consolidated statements of cash flows ........................
+
+Significant Accounting Policies
+
+There have been no material changes to the Company�s significant accounting policies from the annual consolidated
+
+financial statements for the year ended December 31, 2025 .
+
+Recent Accounting Pronouncements
+
+In December 2025, the FASB issued ASU No. 2025-11, Interim Reporting (Topic 270): Narrow-Scope
+
+Improvements . The ASU improves the guidance in Topic 270 by improving the navigability of the required interim
+
+disclosures and clarifying when that guidance is applicable. The amendments also provide additional guidance on
+
+what disclosures should be provided in interim reporting periods. The amendments add to Topic 270 a principle that
+
+requires entities to disclose events since the end of the last annual reporting period that have a material impact on the
+
+entity. The ASU is effective for interim reporting periods within annual reporting periods beginning after December
+
+15, 2027. Adoption of this ASU can either be applied prospectively or retrospectively to any or all prior periods
+
+presented in the financial statements, and early adoption is permitted. The Company is currently evaluating the
+
+provisions of this ASU and does not expect this ASU to have a material impact on the consolidated financial
+
+Table of Contents
+
+Recently adopted accounting pronouncements
+
+In July 2025, the FASB issued ASU No. 2025-05, Financial Instruments�Credit Losses (Topic 326): Measurement
+
+of Credit Losses for Accounts Receivable and Contract Assets . The amendments in this update provide a practical
+
+expedient permitting an entity to assume that conditions at the balance sheet date remain unchanged over the life of
+
+the asset when estimating expected credit losses for current classified accounts receivable and contract assets. The
+
+Company adopted this ASU on a prospective basis effective January 1, 2026. While this ASU was adopted, the
+
+Company did not elect the practical expedient permitted under this ASU. Therefore, the adoption has no impact on
+
+the consolidated financial statements.
+
+Note 3 - Revenue
+
+Revenue disaggregated by products and services is as follows:
+
+Three Months Ended March 31,
+
+Products .....................................................................................................................
+
+Services ......................................................................................................................
+
+Total revenues .........................................................................................................
+
+All of products revenue is attributable to the Connectivity segment.
+
+Revenue disaggregated by type and segment is as follows:
+
+Three Months Ended March 31,
+
+Launch Services ...................................................................................................
+
+Launch & Development ........................................................................................
+
+Space ........................................................................................................................
+
+Consumer ..............................................................................................................
+
+Enterprise & Government (1) .................................................................................
+
+Connectivity ............................................................................................................
+
+Advertising ............................................................................................................
+
+AI Solutions & Infrastructure ...............................................................................
+
+AI ..............................................................................................................................
+
+Total revenues .........................................................................................................
+
+___________________
+
+(1) Enterprise & Government revenue includes revenue from Starlink Mobile service offerings.
+
+Deferred revenue
+
+Deferred revenue is recorded when cash payments are received or due, in advance of the Company�s performance.
+
+Deferred revenu e primarily relates to Space agreements and Connectivity enterprise and government contracts. Total
+
+deferred revenue as of December 31, 2025 was $12,116 million , of which $1,165 million was recognized as revenue
+
+for the three months ended March 31, 2026 . Total deferred revenue as of March 31, 2026 was $13,236 million .
+
+The Company�s backlog represents the transaction price of performance obligations to customers for which work
+
+remains to be performed. The amount of backlog increases with new contracts or additions to existing contracts and
+
+decreases as revenue is recognized on existing contracts. Contracts are included in backlog when an enforceable
+
+agreement has been reached. Backlog does not include amounts related to performance obligations that are billed
+
+and recognized as they are delivered, optional purchases that do not represent material rights and any estimated
+
+amounts of variable consideration that are subject to constraint. Backlog totaled $27,621 million as of March 31,
+
+Table of Contents
+
+2026 , of which $13,236 million was recognized as deferred revenue at March 31, 2026 . A pproximately 36% is
+
+expected to be recognized within one year, and approximately 46% is expected to be recognized between one and
+
+three years, with the remaining 18% to be recognized thereafter.
+
+Note 4 - Inventory
+
+Inventory consists of the following:
+
+Raw materials ............................................................................................................
+
+Work-in-progress .......................................................................................................
+
+Finished goods ...........................................................................................................
+
+Inventory .................................................................................................................
+
+Note 5 - Property, Plant, and Equipment, Net
+
+Property, plant, and equipment, net consist of the following:
+
+Servers and networking equipment ...........................................................................
+
+Satellites .....................................................................................................................
+
+Machinery and equipment .........................................................................................
+
+Data center infrastructure ..........................................................................................
+
+Launch sites ...............................................................................................................
+
+Land, buildings and improvements (1) .......................................................................
+
+Flight vehicle hardware .............................................................................................
+
+Leasehold improvements ...........................................................................................
+
+Construction-in-progress ...........................................................................................
+
+Property, plant, and equipment ..................................................................................
+
+Less: Accumulated depreciation ................................................................................
+
+Property, plant, and equipment, net .....................................................................
+
+__________________
+
+(1) Land is not a depreciable asset.
+
+Construction in progress is primarily comprised of ongoing construction and expansion of the facilities and
+
+equipment as well as AI infrastructure that has not yet been placed in service.
+
+Depreciation expense for the three months ended March 31, 2026 and 2025 was $2,329 million and $1,237 million ,
+
+Interest is capitalized during the construction period for significant long term construction projects, such as the AI
+
+infrastructure data centers and launch facilities. For the three months ended March 31, 2026 , the Company
+
+capitalized $7 million of interest, which is included in Construction-in-progress amounts above. No interest was
+
+capitalized during the three months ended March 31, 2025 .
+
+For the three months ended March 31, 2025 , the Company recorded impairment charges of $24 million related to the
+
+write off of damaged flight vehicles in the Space segment. These charges are reflected in Impairment in the
+
+consolidated statements of operations . There were no impairment charges related to Property, plant, and equipment
+
+during the three months ended March 31, 2026 .
+
+Table of Contents
+
+Note 6 - Intangible Assets and Goodwill
+
+Intangible Assets
+
+Finite-lived intangible assets consist of the following:
+
+Brand ......................................................................
+
+User base .................................................................
+
+Existing technology ................................................
+
+Advertising customer relationships ........................
+
+Acquired workforce ................................................
+
+Total .................................................................
+
+December 31, 2025
+
+Brand ......................................................................
+
+User base .................................................................
+
+Existing technology ................................................
+
+Advertising customer relationships ........................
+
+Acquired workforce ................................................
+
+Total .................................................................
+
+Amortization expense associated with finite-lived intangible assets was $113 million and $206 million in the three
+
+months ended March 31, 2026 and 2025 , respectively.
+
+The Company also has indefinite-lived intangible assets of $ 19 million and $ 11 million as of March 31, 2026 and
+
+December 31, 2025 , respectively. Indefinite-lived intangible assets primarily consist of trade names and domain
+
+names, which are expected to provide long-term branding and marketing benefits.
+
+The activity for goodwill is as follows:
+
+Balance at December 31, 2025 .............................................................................................................
+
+Business combination .......................................................................................................................
+
+Cumulative translation adjustments ................................................................................................
+
+Balance at March 31, 2026 .................................................................................................................
+
+As of March 31, 2026 and December 31, 2025 , goodwill attributable to the Connectivity segment was $515 million
+
+and $513 million , respectively, and goodwill attributable to the AI segment was $11,166 million and $11,296
+
+million , respectively.
+
+Table of Contents
+
+Note 7 - Financial Instruments
+
+The Company�s assets that are measured at fair value on a recurring basis are as follows:
+
+Cash and cash equivalents
+
+Cash .............................................
+
+Money market funds ....................
+
+Government securities .................
+
+Marketable securities .....................
+
+Government securities .................
+
+Prepaid expenses and other
+
+Restricted cash .............................
+
+Restricted cash in money market
+
+funds .........................................
+
+Other assets .....................................
+
+Restricted cash .............................
+
+Restricted cash in money market
+
+funds .........................................
+
+Restricted cash in government
+
+securities ...................................
+
+Total .................................................
+
+December 31, 2025
+
+Cash and cash equivalents
+
+Cash ..............................................
+
+Money market funds ....................
+
+Prepaid expenses and other
+
+Restricted cash .............................
+
+Money market funds ....................
+
+Other assets ....................................
+
+Restricted cash .............................
+
+Restricted cash in money market
+
+funds .........................................
+
+Total .................................................
+
+As of March 31, 2026 and December 31, 2025 , the Company also held 18,712 units of Bitcoin with a cost basis of
+
+$661 million and fair value of $1,293 million and $1,637 million , respectively. The fair value of these digital assets
+
+is determined using Level I in the fair value hierarchy.
+
+Table of Contents
+
+Note 8 - Investments in Unconsolidated Affiliates
+
+Equity method investment
+
+As of March 31, 2026 and December 31, 2025 , the Company held an investment in Stateline Power, LLC, which is
+
+accounted for as an equity method investment, of $80 million and $86 million , respectively.
+
+Equity investments without readily determinable fair value
+
+As of March 31, 2026 and December 31, 2025 , the Company held investments in unconsolidated affiliates which are
+
+accounted for as equity investments without readily determinable fair values of $168 million and $157 million ,
+
+respectively. The Company recorded cumulative downward adjustments of $59 million on these investments as of
+
+March 31, 2026 . Upward adjustments or impairment on these investments during the three months ended March 31,
+
+2026 and 2025 were not material.
+
+SpaceX Bridge Loan ......................................................................
+
+X 2027 and X 2030 Notes ..............................................................
+
+Other financings (1) .........................................................................
+
+Total debt ........................................................................................
+
+Finance lease liability .....................................................................
+
+Total debt and finance leases ..........................................................
+
+Less: Short-term portion .................................................................
+
+Total debt and finance leases, net of current .............................
+
+December 31, 2025
+
+X 2027 and X 2030 Notes ..............................................................
+
+X B-1 Term Loan ...........................................................................
+
+X B-3 Term Loan ...........................................................................
+
+xAI Fixed Rate Term Loan ............................................................
+
+xAI Floating Rate Term Loan ........................................................
+
+xAI 12.5% Secured Senior Notes ...................................................
+
+Other financings (1) .........................................................................
+
+Total debt ........................................................................................
+
+Finance lease liability .....................................................................
+
+Total debt and finance leases ..........................................................
+
+Less: Short-term portion .................................................................
+
+Total debt and finance leases, net of current .............................
+
+__________________
+
+(1) Includes obligations related to certain AI infrastructure assets recorded as failed sale-leaseback transactions. Refer to Other Financings
+
+below for additional details.
+
+Table of Contents
+
+SpaceX Bridge Loan
+
+General. In March 2026, SpaceX entered into a new bridge loan credit agreement (the �SpaceX Bridge Loan�) with
+
+a syndicate of lenders, providing for an unsecured bridge term loan facility in an aggregate principal amount of
+
+$20,000 million . The SpaceX Bridge Loan matures on September 2, 2027, with two three-month extensions at the
+
+Company�s option, subject to the absence of a continuing default and the payment of an extension fee of 0.25% of
+
+the aggregate outstanding principal per extension, resulting in a final extended maturity date in March 2028.
+
+Proceeds. The proceeds of the SpaceX Bridge Loan were used to repay the X B-1 Term Loan, the X B-3 Term
+
+Loan, the xAI Fixed Rate Loan, the xAI Floating Rate Loan, and the xAI 12.5% Senior Secured Notes (as defined
+
+and described below). The remaining proceeds were used for general corporate purposes.
+
+Interest Rates. The SpaceX Bridge Loan bears interest, at the Company�s election, at a rate per annum equal to (i)
+
+Term SOFR plus an applicable margin ranging from 0.75%-1.75% (depending on the Company�s debt rating), or (ii)
+
+a base rate equal to the highest of (a) the Federal Funds Rate plus 0.5% , (b) the Prime Rate, (c) Term SOFR plus
+
+1.00% and (d) 1.00% , plus an applicable margin ranging from 0.00% to 0.75% (depending on the Company�s debt
+
+rating). In addition, the Company is obligated to pay duration fees equal to 0.125% of outstanding principal on the
+
+first anniversary of closing and 0.25% of outstanding principal on the fifteen-month anniversary of closing. The
+
+effective interest rate on outstanding borrowings under the SpaceX Bridge Loan was 4.58% as of March 31, 2026 .
+
+Principal Repayments. The SpaceX Bridge Loan may be prepaid at any time, in whole or in part, without premium
+
+or penalty. The Company is required to use the net proceeds of certain debt financings to repay amounts outstanding
+
+under the SpaceX Bridge Loan and to apply the net proceeds of a qualified initial public offering (�IPO�) to repay
+
+such amounts within six months following receipt.
+
+Guarantors and Collateral. The obligations of the Company under the SpaceX Bridge Loan are guaranteed on a
+
+joint and several basis by X Corp., X.AI LLC, and CTC Property LLC (each a subsidiary of the Company).
+
+Covenants. The SpaceX Bridge Loan contains customary events of default and affirmative and negative covenants,
+
+including restrictions on liens, subsidiary indebtedness, fundamental changes (including a prohibition on the
+
+disposition of Starlink assets and other material businesses outside the consolidated group), and changes in the
+
+nature of the Company�s business. The sole financial maintenance covenant requires the Company to maintain a
+
+Consolidated Leverage Ratio � defined as consolidated funded indebtedness (net of 85% of unrestricted cash) to
+
+Consolidated EBITDA (as defined in the SpaceX Bridge Loan) � of no greater than 3.75 to 1.0 as of the end of
+
+each fiscal quarter, with a temporary step-up to 4.25 to 1.0 for four fiscal quarters following a qualifying acquisition
+
+of at least $1.0 billion.  The Company was in compliance with the covenants as of March 31, 2026.
+
+Accounting Treatment .  The Company accounted for the repayment of the X B-1 Term Loan, the X B-3 Term Loan,
+
+the xAI Fixed Rate Loan, the xAI Floating Rate Loan and the xAI 12.5% Senior Secured Notes as an
+
+extinguishment of debt, resulting in a loss on extinguishment of $1,526 million , recorded in Other expense, net .
+
+SpaceX Credit Facility
+
+General. In February 2025, the Company entered into a five-year senior unsecured revolving credit agreement
+
+(�SpaceX Credit Facility�) with a syndicate of banks, under which the Company may draw up to $1,500 million ,
+
+subject to a customary financial covenant and other reporting requirements. The SpaceX Credit Facility terminates,
+
+and all outstanding loans become due and payable, on February 7, 2030, unless the parties agree to an extension. No
+
+amounts were borrowed under the SpaceX Credit Facility during the three months ended March 31, 2026 and 2025.
+
+Amendment. In March 2026, the Company entered into a First Amendment to Credit Agreement and Waiver (the
+
+�First Amendment�) with its lenders, in connection with the Company�s entry into the SpaceX Bridge Loan (as
+
+defined above). The First Amendment, among other things, (i) waived certain specified defaults and (ii) amended
+
+Table of Contents
+
+certain definitions and covenants under the SpaceX Credit Facility to conform to the terms of the SpaceX Bridge
+
+Interest Rates. Under the SpaceX Credit Facility, borrowings bear interest at the Company�s option, at a rate per
+
+annum of (i) between 0.75%-1.25%, depending on the Company�s current debt rating, plus the relevant Term SOFR
+
+or (ii) between 0.0%-0.25% depending on the Company�s current debt rating plus the greater of (a) the Federal
+
+Funds Rate plus 0.5%, (b) the Prime Rate, (c) Term SOFR plus 1.0% and (d) 1.0%. The Company may also borrow
+
+in various alternative currencies at various alternative rates, including rates based on SONIA for Pound Sterling
+
+loans and EURIBOR for Euro loans plus an applicable margin. The fee for undrawn amounts is between
+
+0.07%-0.11% per annum, depending on the Company�s current debt rating. Interest is payable either monthly or
+
+quarterly, depending on the interest loan option.
+
+Covenants. The Company was in compliance with the covenants as of March 31, 2026 ; however, the Company had
+
+a technical default when the Company acquired xAI on February 2, 2026 due to the amount of debt assumed as part
+
+of the acquisition at the subsidiary level. On March 2, 2026, the Company obtained a waiver from the syndicate of
+
+banks and amended the SpaceX Credit Facility allowing for the debt refinance completed on March 2, 2026,
+
+resulting in the Company being in compliance with all covenants.
+
+X 2027 and 2030 Notes
+
+General. In 2019, a subsidiary of X, an indirect subsidiary of the Company, issued $700 million aggregate principal
+
+amount of 3.875% senior notes due 2027 (the �X 2027 Notes�) in a private placement. The X 2027 Notes mature on
+
+December 15, 2027.  In 2022, a subsidiary of X issued $1,000 million aggregate principal amount of 5.000% senior
+
+notes due 2030 (the �X 2030 Notes�) in a private placement.  The X 2030 Notes mature on March 1, 2030. The X
+
+2027 and X 2030 Notes represent senior unsecured obligations of the Company.
+
+Interest Rates. For the X 2027 Notes, the interest rate is fixed at 3.875% per annum and interest is payable semi-
+
+annually in arrears on June 15 and December 15 of each year.  For the X 2030 Notes, the interest rate is fixed at
+
+5.000% per annum and interest is payable semi-annually in arrears on March 1 and September 1 of each year.
+
+Principal Repayments. In November 2022, the Company purchased approximately $675 million aggregate principal
+
+amount of X 2027 Notes and $998 million aggregate principal amount of the X 2030 Notes in settlement of the
+
+change in control of Twitter. The X 2027 Notes and X 2030 Notes that remain outstanding may be redeemed at the
+
+option of the Company, in whole or in part, at any time prior to September 15, 2027 and December 1, 2029,
+
+respectively, at a price equal to 100.0% of the principal amounts plus a �make-whole� premium and accrued and
+
+unpaid interest, if any, up to, but excluding, the redemption date.
+
+Covenants. The Company was in compliance with the covenants as of March 31, 2026 .
+
+X First Lien Senior Credit Facilities
+
+General. In 2022, X Corp., an indirect subsidiary of the Company, entered into the First Lien Credit Agreement
+
+which provided for a new term loan commitment of $6,705 million (�X B-1 Term Loan�) and a $500 million
+
+Secured First Lien Revolving Credit Facility (including a letter of credit subfacility with an aggregate face value of
+
+up to $100 million ) (together referred to as �X First Lien Senior Credit Facilities�).  The Secured First Lien
+
+Revolving Credit Facility matures on October 27, 2027 and the X B-1 Term Loan matures on October 27, 2029.
+
+Amendments. In February 2025, X Corp., an indirect subsidiary of the Company, amended the X First Lien Senior
+
+Credit Facilities and entered into a new term loan commitment for $4,741 million with a maturity date of October
+
+27, 2029  (�X B-3 Term Loan�) and reduced the Secured First Lien Revolving Credit Facility commitment to $0 .
+
+As part of the issuance of the X B-3 Term Loan, the Company is required to pay an arrangement fee of $51 million ,
+
+which is due and payable on February 19, 2027. In April 2025, the Company entered into an amendment to the X
+
+Table of Contents
+
+B-3 Term Loan for an additional commitment of $1,225 million with the same terms and conditions, increasing the
+
+total X B-3 Term Loan borrowings to $5,966 million .
+
+Interest Rates. The X B-1 Term Loan bore interest at a rate per annum of, initially, adjusted Term SOFR plus
+
+6.50% .  The Secured First Lien Revolving Credit Facility bore interest at a rate per annum of, initially, an adjusted
+
+Term SOFR plus 4.50% , with leverage-based step-downs. Undrawn commitments under the Secured First Lien
+
+Revolving Credit Facility were subject to an unused commitment fee of 0.50% per annum, subject to quarterly
+
+leverage based step-downs.  The X B-3 Term Loan had a fixed interest rate of 9.50% per annum.  Interest on the X
+
+B-1 Term Loan and X B-3 Term Loan was payable monthly, quarterly, or bi-annually at the option of the Company.
+
+Principal Repayments. On March 2, 2026, the Company repaid the full outstanding principal balance and accrued
+
+interest, including a prepayment penalty of $425 million , resulting in the extinguishment of the X B-1 Term Loan
+
+and X B-3 Term Loan. The X B-1 Term Loan was repayable at any time, in whole or in part, without premium or
+
+penalty, subject to mandatory quarterly prepayments of principal beginning on the last day of the fiscal quarter
+
+ended March 31, 2023, in amounts equal to 0.25% of the original principal amount of borrowings thereunder, with
+
+the unpaid balance being payable on the final maturity date thereof.  The X B-1 Term Loan was also subject to
+
+additional customary mandatory prepayment provisions from the proceeds of certain debt issuances and asset sales,
+
+as well as sweeps of a portion of excess cash flow, subject to certain leverage-based step-downs and exceptions.
+
+The X B-3 Term Loan had prepayment penalties of 107.13% of the outstanding principal before October 27, 2026,
+
+104.75% of the outstanding principal before October 27, 2027, and 102.38% of the outstanding principal before
+
+October 27, 2028.
+
+Guarantors and Collateral. Obligations under the First Lien Senior Credit Facilities were guaranteed by X, and were
+
+collateralized by a first priority lien on substantially all of the assets of X and its subsidiaries (subject to customary
+
+xAI First Lien Credit Agreement
+
+General. In June 2025, X.AI Corp. and X.AI LLC, indirect subsidiaries of the Company, entered into the First Lien
+
+Credit Agreement to provide borrowings up to $2,000 million .  The Company executed a $1,000 million Fixed Rate
+
+Term Loan maturing on June 30, 2030 (�xAI Fixed Rate Term Loan�); and a $1,000 million Floating Rate Term
+
+Loan  maturing on June 30, 2030 (�xAI Floating Rate Term Loan�).
+
+Interest Rates. The xAI Fixed Rate Term Loan had a fixed interest rate of 12.50% per annum and the xAI Floating
+
+Rate Term Loan had a floating interest rate per annum of Term SOFR plus 7.25% or ABR plus 6.25%.  Interest on
+
+the xAI Fixed Rate Term Loan was payable bi-annually on January 31 and July 31, commencing on January 31,
+
+2026. Interest on the xAI Floating Rate Term loan was payable monthly, quarterly, or bi-annually at the option of
+
+Principal Repayments. On March 2, 2026, the Company repaid the full outstanding principal balance and accrued
+
+interest, including a prepayment penalty of $221 million, resulting in the extinguishment of the xAI Fixed Rate
+
+Term Loan and xAI Floating Rate Term Loan.  The xAI Fixed Rate Term Loan and the xAI Floating Rate Term
+
+Loan had prepayment penalties of 103% on the principal outstanding balance prior to June 30, 2027 and 101% on
+
+the principal outstanding balance prior to June 30, 2028.
+
+Guarantors. Obligations under the xAI Fixed Rate Term Loan and xAI Floating Rate Term Loan were guaranteed
+
+each jointly and severally by X.AI Corp. and the following subsidiaries of X.AI Corp.: AIQ Phase LLC, CTC
+
+Holding LLC, CTC, LLZ Build LLC, and MZX.
+
+xAI 12.5% Secured Senior Notes
+
+General. In June 2025, X.AI LLC and, X.AI Co Issuer Corp, indirect subsidiaries of the Company, issued $3,000
+
+million aggregate principal amount of 12.5% interest Senior Secured Notes due in 2030 (�xAI 12.5% Senior Secured
+
+Notes�).  The Senior Secured Notes were issued at 100% of the principal amount and the entire principal amount
+
+will be due on June 30, 2030.
+
+Table of Contents
+
+Interest Rates. The xAI 12.5% Senior Secured Notes had a fixed interest rate of 12.50% per annum.  Interest was
+
+payable bi-annually on January 15 and July 15, commencing on January 15, 2026.
+
+Principal Repayments. On March 5, 2026, the Company repaid the full outstanding principal balance and accrued
+
+interest, including a prepayment penalty of $518 million, resulting in the extinguishment of the xAI 12.5% Senior
+
+Secured Notes . The xAI 12.5% Senior Secured Notes had prepayment penalties of 106.25% on the principal
+
+outstanding balance prior to July 15, 2027 and 103.13% on the principal outstanding balance prior to July 15, 2028.
+
+Guarantors. Obligations under the xAI 12.5% Senior Secured N

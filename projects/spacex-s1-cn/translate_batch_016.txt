@@ -1,0 +1,733 @@
+ $4,659 million , or 33.2% , compared to the prior year
+
+ended December 31, 2024 . This increase was primarily due to an increase in revenue from our Connectivity segment
+
+of $3,788 million as our Starlink Subscriber base continued to grow as well as our Connectivity enterprise and
+
+government sales, and increases in revenue from our Space segment of $290 million due to increases in Launch and
+
+Table of Contents
+
+Development revenue for work performed on government contracts, and an increase in revenue from our AI
+
+segment of $581 million as advertising, Grok and X subscriptions, and data licensing arrangements grew.
+
+Cost of revenue for the year ended December 31, 2025 increased by $1,455 million , or 18.2% , compared to the prior
+
+year ended December 31, 2024 . This increase was primarily due to an increase in costs in our Connectivity segment
+
+of $1,153 million driven by higher depreciation as the number of satellites placed into orbit grew and higher
+
+operating expenses, and higher infrastructure and cloud computing costs of $491 million in our AI segment, partially
+
+offset by a decrease in cost of revenue from our Space segment of $189 million due to the increased reusability of
+
+our Falcon launch vehicles resulting in lower depreciation.
+
+Research and Development
+
+Research and development expense for the year ended December 31, 2025 increased by $5,179 million , or 149.5% ,
+
+compared to the prior year ended December 31, 2024 . This increase was primarily due to higher R&D costs in our
+
+AI segment of $3,888 million driven by the depreciation of GPU hardware and the cost of cloud computing as a
+
+result of our AI data center expansions and higher R&D costs from our Space segment of $1,169 million driven by
+
+accelerated investment in our Starship vehicle.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative expense for the year ended December 31, 2025 increased by $831 million , or
+
+45.8% , compared to the prior year ended December 31, 2024 . This increase was primarily due to higher employee
+
+and facilities-related costs and higher legal expenses for our AI segment of $722 million as our AI business grew
+
+rapidly, and higher marketing and international expansion costs of $53 million and $37 million, respectively , for our
+
+Connectivity segment. These increase s were partially offset by lower allocated general and administrative overhead
+
+in our Space segment.
+
+Restructuring Charges
+
+Restructuring charges for the year ended December 31, 2025 increased by $274 million , or 128.6% , compared to the
+
+prior year ended December 31, 2024 .  This increase was primarily due to additional expense related to the settlement
+
+to former Twitter employees as part of the workforce reduction program implemented in 2022.
+
+Impairment for the year ended December 31, 2025 decreased by $25 million , or 39.7% , compared to the prior year
+
+ended December 31, 2024 . The decrease was primarily related to a discontinuation of a Starlink Kit production line
+
+in our Connectivity segment that occurred during the year ended December 31, 2024 with no impairment in 2025,
+
+partially offset by an increase in impairment in our Space Segment during the year ended December 31, 2025
+
+primarily related to a post-landing anomaly.
+
+Income (Loss) from Operations
+
+Income (loss) from operations for the year ended December 31, 2025 decreased by $3,055 million compared to the
+
+prior year ended December 31, 2024 driven by the factors described above.
+
+Interest Expense
+
+Interest expense for the year ended December 31, 2025 increased by $365 million , or 23.1% , compared to the prior
+
+year ended December 31, 2024 . This increase was primarily due to new term loans and senior notes entered into by
+
+the Company and other financing arrangements for GPUs entered into during the year by our AI segment.
+
+Table of Contents
+
+Interest income for the year ended December 31, 2025 increased by $121 million , or 32.6% , compared to the prior
+
+year ended December 31, 2024 . This increase was primarily due to an increase in dividend income earned from
+
+marketable securities and cash equivalents.
+
+Other Income (Expense), N et
+
+Other income (expense), net for the year ended December 31, 2025 decreased by $1,162 million , compared to the
+
+prior year ended December 31, 2024 . This decrease was primarily due to an unrealized loss on digital assets.
+
+Provision for (Benefit from) Income Taxes
+
+Provision for income taxes for the year ended December 31, 2025 increased by $1,267 million compared to the prior
+
+year ended December 31, 2024 . The increase was primarily due to a partial valuation allowance release in 2024 and
+
+the establishment of a valuation allowance in 2025. For the year ended December 31, 2024 , the Company released a
+
+partial valuation allowance on the Company�s U.S. deferred tax assets. As of December 31, 2024 , the Company
+
+forecasted $ 659 million of deferred tax assets related to U.S. R&D credits would be utilized in the future. For the
+
+year ended December 31, 2025, as a result of the enactment of the One Big Beautiful Bill Act (Public Law No.
+
+119-21), we assessed the realizability of our deferred tax assets and reversed the benefit that was recognized for the
+
+year ended December 31, 2024 .
+
+Net Income (Loss)
+
+Net income (loss) for the year ended December 31, 2025 decreased by $5,728 million compared to the prior year
+
+ended December 31, 2024 driven by the factors described above.
+
+Year Ended December 31,
+
+2025 vs. 2024 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income (loss) from operations ............................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2025 increased by $290 million , or 7.6% , compared to the prior year
+
+ended December 31, 2024 .  Launch Services revenue remained relatively flat year over year, while Launch and
+
+Development revenue increased by $298 million .  The Launch and Development revenue increase was primarily
+
+driven by increased revenue for an extended contract with NASA for additional Cargo Resupply Services (CRS)
+
+missions to the International Space Station and increased revenue from a U.S. Department of War contract. While
+
+total Falcon launches increased by 31 from 134 in 2024 to 165 in 2025, Space customer launches and average price
+
+per launch remained relatively flat year over year.
+
+Table of Contents
+
+Cost of revenue for the year ended December 31, 2025 decreased by $189 million , or 12.2% , compared to the prior
+
+year ended December 31, 2024 . This decrease was primarily due increased reusability of our Falcon launch vehicles
+
+resulting in lower deprecation of $240 million, lowering the cost of each launch, and lower overhead costs of $11
+
+million. The decrease is also due to the relative increase in Starlink satellite launches from 89 launches in 2024 to
+
+122 launches in 2025 , resulting in relatively more of our launch operations and overhead costs capitalized in our
+
+Connectivity segment of $14 million.  This decrease was partially offset by an increase in inventory excess and
+
+obsolescence reserves of $51 million mainly due to less demand on rocket vehicle and spacecraft parts as reusability
+
+Research and Development
+
+Research and development for the year ended December 31, 2025 increased by $1,169 million , or 63.7% , compared
+
+to the prior year ended December 31, 2024 . This increase was primarily driven by higher production costs of $779
+
+million, higher launch costs of $218 million, and higher engineering costs of $185 million, due to the accelerated
+
+investment in development of the Starship vehicle and continued development of production and launch facilities to
+
+support future Starship launches.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2025 decreased by $26 million , or 6.9% ,
+
+compared to the prior year ended December 31, 2024 . This decrease was primarily due to lower allocated general
+
+and administrative overhead of $52 million, partially offset by higher employee compensation expenses (including
+
+salaries, benefits, and share-based compensation) of $16 million.
+
+Impairment for the year ended December 31, 2025 increased by $14 million , or 61.5% , compared to the prior year
+
+ended December 31, 2024 . This increase was primarily due to a non-recurring impairment loss on a Falcon 9 booster
+
+due to a post-landing anomaly during the year.
+
+Income (Loss) from Operations
+
+Space income from operations for the year ended December 31, 2025 decreased by $678 million compared to the
+
+prior year ended December 31, 2024 driven by the factors described above.
+
+Year Ended December 31,
+
+2025 vs. 2024 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Impairment .....................................................
+
+Total costs and expenses ................................
+
+Income from operations ......................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Table of Contents
+
+Revenue for the year ended December 31, 2025 increased by $3,788 million , or 49.8% , compared to the prior year
+
+ended December 31, 2024 . This increase was primarily driven by an increase of $2,377 million in revenue from our
+
+consumer subscribers, composed of 99.9% growth in Starlink Subscribers , offset by an 11.2% decline in Starlink
+
+Subscriber ARPU, primarily due to international expansion and the addition of lower priced service plans. In
+
+addition, Connectivity revenue had an increase of $1,411 million from our enterprise and government customers,
+
+primarily driven by the growth in our enterprise connectivity business of $1,218 million inclusive of growth in our
+
+mobile connectivity business of $632 million, and growth in our government connectivity business of $193 million.
+
+Cost of revenue for the year ended December 31, 2025 increased by $1,153 million , or 24.2% , compared to the prior
+
+year ended December 31, 2024 . This increase was primarily due to higher depreciation of $827 million from
+
+capitalized launch and satellite costs , higher operating expenses of $283 million mainly driven by ground operating
+
+costs of $134 million, payment processor fees of $45 million, international expansion of $44 million, warranty costs
+
+of $38 million, and employee compensation expenses (including salaries, benefits, and share-based compensation)
+
+of $12 million, and higher freight costs of $72 million.
+
+Research and Development
+
+Research and development for the year ended December 31, 2025 increased by $122 million , or 27.1% , compared to
+
+the prior year ended December 31, 2024 . This increase was primarily due to higher costs for the next-generation
+
+production development of satellites of $84 million, Starlink Kits of $22 million, and ground equipment of $15
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2025 increased by $135 million , or 40.4% ,
+
+compared to the prior year ended December 31, 2024 . This increase was primarily driven by higher marketing costs
+
+of $53 million, higher international expansion costs of $37 million, and higher allocated general and administrative
+
+overhead of $67 million.
+
+Impairment for the year ended December 31, 2025 decreased by $39 million compared to the prior year ended
+
+December 31, 2024 . The decrease was primarily related to the discontinuation of a Starlink Kit production line in
+
+2024 with no impairment in 2025.
+
+Income from Operations
+
+Connectivity income from operations for the year ended December 31, 2025 increased by $2,417 million , or
+
+120.4% , compared to the prior year ended December 31, 2024 driven by the factors described above.
+
+Table of Contents
+
+Year Ended December 31,
+
+2025 vs. 2024 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges .....................................
+
+Total costs and expenses ...........................
+
+Loss from operations ...........................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2025 increased by $581 million , or 22.2% , compared to the prior year
+
+ended December 31, 2024 . This increase was primarily due to an increase in advertising revenue of $116 million as
+
+advertising spend increased from advertising partners on X and an increase in AI solutions and infrastructure
+
+revenue of $465 million .  The increase in AI solutions and infrastructure revenue is mainly due to an increase in X
+
+and Grok subscription revenue of $365 million and an increase in revenue from data licensing arrangements of $88
+
+Cost of revenue for the year ended December 31, 2025 increased b y $491 million , or 29.1% , compared to the prior
+
+year ended December 31, 2024 . This increase was primarily due to higher infrastructure and cloud computing costs
+
+of $412 million attributable to increased subscriber revenue, higher employee compensation expenses (including
+
+salaries, benefits, and share-based compensation) of $90 million , higher revenue share and content creator fees of
+
+$45 million , and higher payment processor fees of $28 million , partially offset by a decrease in depreciation and
+
+amortization expense of $97 million driven by a decrease in amortization expense for intangible assets that were
+
+fully amortized during 2025.
+
+Research and Development
+
+Research and development for the year ended December 31, 2025 increased by $3,888 million , or 330.8% ,
+
+compared to the prior year ended December 31, 2024 . This increase was primarily due to higher GPU depreciation
+
+expense of $1,673 million , higher infrastructure and cloud computing expenses of $1,440 million associated with the
+
+build out of our compute infrastructure, and higher employee compensation expenses (including salaries, benefits,
+
+and share-based compensation) and allocated overhead costs of $775 million .
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2025 increased by $722 million , or 65.4% ,
+
+compared to the prior year ended December 31, 2024 . This increase was primarily due to higher employee
+
+compensation expenses (including salaries, benefits, and share-based compensation) of $519 million as we continue
+
+to expand our AI business, higher legal expenses of $189 million , and higher facilities and general and
+
+administrative costs of $14 million .
+
+Restructuring Charges
+
+Restructuring charges for the year ended December 31, 2025 increased by $274 million or 129.1% , compared to the
+
+prior year ended December 31, 2024 . This increase was primarily due to additional expense recorded to settle with
+
+former Twitter employees as part of the workforce reduction program implemented in 2022.
+
+Table of Contents
+
+Loss from Operations
+
+AI loss from operations for the year ended December 31, 2025 increased by $4,794 million , or 307.1% , compared to
+
+the prior year ended December 31, 2024 driven by the factors described above.
+
+Comparison of the Years Ended December 31, 2024 and 2023
+
+Consolidated Results of Operations
+
+Year Ended December 31,
+
+2024 vs. 2023 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges .....................................
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income (loss) from operations ............................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other income, net ................................................
+
+Income (loss) before income taxes ......................
+
+Benefit from income taxes ..................................
+
+Net income (loss) ................................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2024 increased by $3,628 million , or 34.9% , compared to the prior year
+
+ended December 31, 2023. This increase was primarily due to an increase in revenue from our Connectivity segment
+
+of $3,730 million as both our Starlink consumer subscriber base continued to grow as well as our C onnectivity
+
+enterprise and government sales, and an increase in revenue from our Space segment of $239 million due to the
+
+increase in Falcon 9 launches partially offset by a decrease in Launch and Development revenue due to timing of
+
+government contracts. This increase was partially offset by a decrease in revenue from our AI segment of $341
+
+million driven by a decrease in advertising sales, partially offset by an increase in X subscriptions and data licensing
+
+Cost of revenue for the year ended December 31, 2024 increased by $1,886 million , or 30.9% , compared to the prior
+
+year ended December 31, 2023. This increase was primarily due to a higher cost of revenue from the Connectivity
+
+segment of $1,982 million as a result of the higher volume spend on Starlink Kits as deliveries increased and higher
+
+depreciation of launch costs driven by an increase in the number of satellites placed into orbit , partially offset by
+
+cost efficiency from increased reusability of our Falcon launch vehicles in our Space segment of $128 million .
+
+Research and Development
+
+Research and development for the year ended December 31, 2024 increased by $1,359 million , or 64.6% , compared
+
+to the prior year ended December 31, 2023. This increase was primarily due to higher cost in our AI segment of
+
+Table of Contents
+
+$990 million related to advancing our AI technologies and higher costs of $297 million in our Space segment for
+
+investment in Starship production, launch and engineering costs, and related facilities.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2024 increased by $148 million , or 8.9% ,
+
+compared to the prior year ended December 31, 2023.  This increase was primarily due to: ( i) higher international
+
+expansion costs of $18 million, higher employee compensation expenses (including salaries, benefits, and share-
+
+based compensation) of $11 million, and higher allocated general and administrative overhead of $54 million in our
+
+Connectivity segment, and  ( ii) higher employee compensation expenses (including salaries, benefits, and share-
+
+based compensation) and professional fees of $25 million in our Space segment.
+
+Restructuring Charges
+
+Restructuring charges for the year ended December 31, 2024 decreased by $24 million , or 10.1% , compared to the
+
+prior year ended December 31, 2023.  This decrease was due to the impairment on office leases assumed as part of
+
+the Twitter acquisition that occurred during the year ended December 31, 2023, partially offset by an increase in
+
+workforce-related restructuring charges.
+
+Impairment for the year ended December 31, 2024 decreased by $3,712 million , or 98.3% , compared to the prior
+
+year ended December 31, 2023. The impairment during the year ended December 31, 2023 was primarily related to
+
+the impairment of the Twitter brand following its rebranding to X.
+
+Income (Loss) from Operations
+
+Income from operations for the year ended December 31, 2024 increased by $3,971 million compared to the prior
+
+year ended December 31, 2023 driven by the factors described above.
+
+Interest Expense
+
+Interest expense for the year ended December 31, 2024 decreased by $113 million , or 6.7% , compared to the prior
+
+year ended December 31, 2023. This decrease was primarily due to the debt issuance costs related to the X Bridge
+
+Credit Facilities being amortized only through July 2024, the original maturity date, as compared to a full year of
+
+amortization in 2023.
+
+Interest income for the year ended December 31, 2024 increased by $122 million , or 49.0% , compared to the prior
+
+year ended December 31, 2023. This increase was primarily due to an increase in dividend income earned from
+
+marketable securities.
+
+Other Income (Expense), net
+
+Other income (expense), net for the year ended December 31, 2024 increased by $1,027 million compared to the
+
+prior year ended December 31, 2023. This increase was primarily due to an unrealized gain on digital assets.
+
+Benefit from Income Taxes
+
+Benefit from income taxes for the year ended December 31, 2024 increased by $186 million , or 51.2% , compared to
+
+the prior year ended December 31, 2023. This increase was primarily due to the change in the realizability of our net
+
+deferred tax assets. As of December 31, 2024, we forecasted additional deferred tax assets related to U.S. R&D
+
+credits would be utilized.
+
+Table of Contents
+
+Net Income (Loss)
+
+Net income for the year ended December 31, 2024 increased by $5,419 million compared to the prior year ended
+
+December 31, 2023 driven by the factors described above.
+
+Year Ended December 31,
+
+2024 vs. 2023 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income (loss) from operations ............................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2024 increased by $239 million , or 6.7% , compared to the prior year
+
+ended December 31, 2023. Launch Services revenue increased by $620 million as total Falcon launches increased by
+
+38 from 96 in 2023 to 134 in 2024, with Launch Services missions increasing by 8 .  This increase was partially
+
+offset by a decrease of $381 million for Launch and Development revenue due to decreased activity in our
+
+International Space Station contracts and lower revenue from a U.S. Department of War contract.
+
+Cost of revenue for the year ended December 31, 2024 decreased by $128 million , or 7.6% , compared to the prior
+
+year ended December 31, 2023. This decrease was primarily due to increased reusability of our Falcon launch
+
+vehicles resulting in lower depreciation of $80 million, lowering the cost of each launch. T he decrease was also due
+
+to the relative increase in Starlink satellite launches from 63 launches in 2023 to 89 launches in 2024, resulting in
+
+relatively more of our launch operations and overhead costs capitalized in our Connectivity segment of $99 million.
+
+This decrease was offset by an increase in launch overhead costs of $77 million due to the increase in Falcon
+
+Research and Development
+
+Research and development for the year ended December 31, 2024 increased by $297 million , or 19.3% , compared to
+
+the prior year ended December 31, 2023. This increase was primarily due to higher production costs of $159 million,
+
+higher launch costs of $67 million, and higher engineering costs of $56 million due to the increased investment in
+
+the development of the Starship vehicle and related launch facilities.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2024 increased by $24 million , or 7.0% ,
+
+compared to the prior year ended December 31, 2023. This increase was primarily due to higher employee
+
+compensation expenses (including salaries, benefits, and share-based compensation) and professional fees of $25
+
+Table of Contents
+
+Impairment for the year ended December 31, 2024 increased by $24 million compared to the prior year ended
+
+December 31, 2023. This increase was primarily due to non-recurring impairment losses resulting from one-time
+
+launch anomalies experienced during the year.
+
+Income (Loss) from Operations
+
+Income (loss) from operations for the year ended December 31, 2024 increased by $22 million compared to the prior
+
+year ended December 31, 2023 driven by the factors described above.
+
+Year Ended December 31,
+
+2024 vs. 2023 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Income from operations ......................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2024 increased by $3,730 million , or 96.4% , compared to the prior year
+
+ended December 31, 2023. This increase was primarily driven by an increase of $2,013 million in revenue from our
+
+consumer subscribers, composed of 96.5% growth in Starlink Subscribers offset by a 8.1% decline in Starlink
+
+Subscriber ARPU primarily due to international expansion.  In addition, Connectivity revenue had an increase of
+
+$1,717 million from our enterprise and government customers, primarily driven by the growth in our enterprise
+
+connectivity business of $466 million and growth in our government connectivity business of $1,250 million .
+
+Cost of revenue for the year ended December 31, 2024 increased by $1,982 million , or 71.1% , compared to the prior
+
+year ended December 31, 2023. This increase was primarily due to higher volume spend on Starlink Kits of $907
+
+million driven by higher kit deliveries and higher depreciation of $555 million from capitalized launch and satellite
+
+costs driven by an increase in the number of launches and satellites placed into orbit.
+
+Research and Development
+
+Research and development for the year ended December 31, 2024 increased by $72 million , or 18.8% , compared to
+
+the prior year ended December 31, 2023. This increase was primarily due to higher costs for the next-generation
+
+production development of satellites of $73 million, ground equipment of $4 million, offset by lower costs of $4
+
+million for Starlink Kits.
+
+Selling, General, and Administrative
+
+Selling, general, and administrative for the year ended December 31, 2024 increased by $100 million , or 43.0% ,
+
+compared to the prior year ended December 31, 2023. This increase was primarily due to higher international
+
+expansion costs of $18 million , higher employee compensation expenses (including salaries, benefits, and share-
+
+based compensation) of $11 million , and higher allocated general and administrative overhead of $54 million .
+
+Table of Contents
+
+Impairment for the year ended December 31, 2024 increased by $39 million compared to the prior year ended
+
+December 31, 2023. This increase was due to a discontinuation of a certain Starlink Kit production line.
+
+Income from Operations
+
+Income from operations for the year ended December 31, 2024 increased by $1,537 million , or 327.4% , compared to
+
+the prior year ended December 31, 2023 driven by the factors described above.
+
+Year Ended December 31,
+
+2024 vs. 2023 Change
+
+Revenue ...............................................................
+
+Costs and expenses
+
+Cost of revenue ..............................................
+
+Research and development .............................
+
+Selling, general, and administrative ...............
+
+Restructuring charges .....................................
+
+Impairment .....................................................
+
+Total costs and expenses ...........................
+
+Loss from operations ...........................................
+
+_________________
+
+NM � Absolute percentage comparisons from positive to negative values or to zero values are considered not meaningful.
+
+Revenue for the year ended December 31, 2024 decreased by $341 million , or 11.5% , compared to the prior year
+
+ended December 31, 2023. This decrease was due to a decrease in advertising revenue of $595 million , partially
+
+offset by an increase in AI solutions and infrastructure revenue of $254 million . The decrease in advertising revenue
+
+was due to the loss of advertising partners for X. The increase in AI solutions and infrastructure was due to an
+
+increase in X subscription revenue of $157 million and an increase in data licensing arrangements of $90 million . In
+
+2023 and 2024, substantially all of our AI segment revenue consisted of advertising, subscriptions, and data
+
+licensing revenue gen erated from X, formerly known as Twitter.
+
+Cost of revenue for the year ended December 31, 2024 increased by $32 million , or 1.9% , compared to the prior
+
+year ended

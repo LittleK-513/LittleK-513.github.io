@@ -1,0 +1,629 @@
+eatures such as Grok-assisted post creation, content
+
+discovery, and conversational AI directly within the interface via the prominent Grok icon.
+
+Table of Contents
+
+Grok Holds Front and Center Real Estate on the X Platform
+
+With native integration of Grok�s frontier models, including real-time access to X data for up-to-date insights,
+
+trending analysis, and enhanced search, X delivers personalized feeds, smarter recommendations, and low-latency
+
+AI assistance for our users worldwide. Our X Premium subscription options, including Basic, Premium and
+
+Premium+ tiers, offer expanded features, ad-reduced experiences, and priority Grok interactions. In 2023, Grok�s
+
+chat functionality was integrated into the X app allowing for the user to open the chat interface to type prompts and
+
+get real time answers.
+
+Public X data enhances Grok�s training and reasoning capabilities, while the platform continues to deliver
+
+measurable performance outcomes for advertisers, with an increasing strategic focus on performance-based
+
+marketing solutions.
+
+In addition to X consumer products, X offers advertisers and developers a powerful suite of tools to reach highly
+
+engaged audiences. Advertisers can target audiences through diverse ad formats�such as Promoted Ads, Vertical
+
+Video Ads, Collection Ads, and premium options such as X Amplify and Takeovers�blending seamlessly with
+
+organic content for authentic engagement. With advanced targeting based on public conversations, events,
+
+keywords, interests, locations, and look-alike audiences, brands can connect with audiences while benefiting from
+
+flexible, performance-based pricing (pay only for actions such as clicks or engagements) and often lower costs
+
+compared to other platforms. We expect that our ongoing innovations�including Grok-powered integrations, new
+
+contextual ad tests, and expanded aspect ratio support for easy reuse of ad creative�make X a competitive choice
+
+for driving traffic, conversions, and brand awareness and visibility among X�s hundreds of millions of MAUs.
+
+Developers have access to a continuous, high-volume, real-time stream of data around current events, trends, or
+
+sentiment, which they can access through an official X Developer Platform and APIs.
+
+In April 2026, we began a phased roll-out of our new advertising platform, that we rebuilt from the ground up. The
+
+new Ads Manager is built to help advertisers launch better campaigns, faster, with stronger ROI. Powered by AI, the
+
+new systems enable more precise, relevant and dynamic ad delivery. Ads are seamlessly integrated into a User�s X
+
+Table of Contents
+
+By combining high-volume user interactions with frontier AI, AI compute infrastructure, and vertical integration, X
+
+accelerates progress toward ubiquitous connectivity, real-time global awareness, and the foundational social layer
+
+for multiplanetary human endeavors.
+
+X Ads Manager . X provides a comprehensive suite of advertising products, including promoted posts, video ads,
+
+carousels, and sponsored content, which enable businesses to reach targeted audiences in real time across the
+
+platform. Powered by real-time conversation data, interest-based targeting, and behavioral signals, these solutions
+
+support objective-based campaigns focused on website traffic, video views, app installs, lead generation, and brand
+
+awareness. X�s Ad Manager provides a centralized platform that allows advertisers to manage creation,
+
+optimization, and real-time monitoring of ad campaigns with detailed audience insights, bidding controls,
+
+performance analytics, and A/B testing capabilities. Integration with Grok AI further streamlines creative
+
+development, making X�s scalable ad solutions effective for businesses of all sizes seeking efficient engagement in a
+
+dynamic public conversation environment.
+
+Grok Consumer Products
+
+Our consumer products are powered by Grok, including Grok language and coding models, Grok image and video
+
+generation models (more commonly known as Grok Imagine), and Grokipedia. These applications leverage the
+
+underlying Grok model family to deliver advanced multimodal interaction, real-time information awareness, and
+
+transparent reasoning outputs. We currently offer three different tiers of subscription for Grok�basic, SuperGrok,
+
+SuperGrok Heavy, and SuperGrok Lite, each priced on a monthly or annual basis. Higher pricing tiers unlock
+
+expanded access to advanced models, increased usage limits, priority compute, and a suite of premium features
+
+tailored to power users and enterprise-grade applications.
+
+Grok Chat. Grok Chat represents the primary conversational interface of Grok, enabling users to submit text or
+
+voice queries for explanations, problem-solving, research, coding, brainstorming, and in-depth discussions with real-
+
+time integration of web search, X data, code execution, and multimodal analysis of images or documents. Available
+
+via grok.com, dedicated mobile apps, X platform integration, and the xAI API, it provides truth-seeking, helpful,
+
+and minimally censored responses optimized for factual precision and complex reasoning.
+
+Table of Contents
+
+Grok Imagine. Grok Imagine is Grok�s generative visual and multimedia creation suite, powered by proprietary
+
+models for producing high-quality images, short videos (up to 15 seconds at 720p in current iterations), and
+
+synchronized audio from text prompts, reference images, or existing visuals. It supports text-to-image/video editing,
+
+image-to-video editing, and video-to-video editing, style transfer, and cinematic motion with strong prompt
+
+adherence and photorealistic output, accessible through the Grok platform, Imagine tab, and dedicated API.
+
+Grok Voice. Grok Voice delivers natural, real-time conversational AI through voice interactions, allowing users to
+
+seamlessly speak and listen to Grok for faster access to information and task execution.
+
+Grok Enterprise Products
+
+Grok Teams. Grok Teams empowers small-to-medium-sized organizations to integrate Grok�s advanced AI
+
+capabilities directly into collaborative workflows. Teams gain access to dedicated workspaces with secure sharing,
+
+enhanced privacy protections, and administrative controls for inviting users and managing access. Grok Teams
+
+accelerates analysis, innovation, and creation while ensuring data remains private and is never used for training.
+
+Grok API. The Grok API provides programmatic access to Grok�s frontier models, including advanced reasoning,
+
+vision, tool-use, image generation, voice AI, and real-time search capabilities, tailored for enterprise-scale
+
+integration. It offers features like agentic workflows, and enterprise-grade options such as custom allocations, secure
+
+authentication, and dedicated support. Designed for developers and organizations building production applications,
+
+the API enables seamless embedding of Grok�s powerful AI into custom solutions, driving innovation across
+
+industries with speed, precision, and reliability. For example, the enterprise version of the Grok Voice Agent API
+
+allows developers and businesses to build multilingual voice agents capable of speech recognition, tool calling, real-
+
+time data querying, and low-latency responses. It supports production-grade voice applications that enhance
+
+customer service, internal operations, and interactive experiences with high performance in audio reasoning
+
+Table of Contents
+
+Infrastructure and Facilities
+
+SpaceX maintains a highly vertically integrated, geographically diverse manufacturing ecosystem that designs,
+
+produces, and qualifies a significant share of components in-house, from raw materials and rocket engines to
+
+complete launch vehicles, crewed spacecraft, satellites, and user terminals, enabling unprecedented iteration speed,
+
+quality control, and cost efficiency essential for successful production of reusable systems and high-cadence
+
+operations. Our manufacturing facilities are complemented by our physical infrastructure, which supports launch
+
+and orbital operations for human spaceflight, satellite deployment, and cargo missions, as well as large-scale
+
+artificial intelligence training and inference. We continue to invest in expansions and improvements across our sites
+
+to accommodate anticipated growth in launch cadence, Starlink Subscribers, and AI compute requirements.
+
+SpaceX Facilities
+
+While none of our properties are individually material to our operations because of the long-term timetables for
+
+renewal and the opportunities for alternative sites, we maintain an effective network of vertically integrated facilities
+
+across the United States, including:
+
+� Starbase, Texas: Development, manufacturing, testing, and launch of Starship currently takes place at
+
+Starbase, home to SpaceX headquarters and one of the world�s first commercial spaceports designed for orbital
+
+missions. The site is located at the newly created city of Starbase in Cameron County, Texas, along the Gulf of
+
+America. Its infrastructure includes Starfactory, a manufacturing facility designed to mass produce Starship and
+
+Super Heavy at scale; a large office structure co-locating engineering and production personnel; and large,
+
+vertical integration buildings including the upcoming Gigabay, which will be able to support Starship and Super
+
+Heavy vehicles up to 85 meters (279 feet) tall and will provide 24 work cells for integration and refurbishment
+
+work, along with cranes capable of lifting up to 400 tons. Starbase also has an orbital launch pad for flight of the
+
+world�s most powerful rocket, complete with one of the tallest launch towers in the world, specially designed to
+
+integrate, test, launch, and catch Starship and Super Heavy vehicles, with an additional pad underway to support
+
+Starship V3. The Starbase team also operates a site for full and subscale vehicle structural testing, static fires,
+
+and component level testing.
+
+Starbase is also home to several hundred SpaceX employees and their families, many of whom have relocated
+
+from across the country to the community to support the development and operation of Starship. SpaceX, in
+
+Table of Contents
+
+partnership with the newly formed city, is developing local infrastructure and municipal services, including
+
+utilities, governance, schools, and environmental conservation initiatives, to support a world-class, concentrated
+
+engineering and manufacturing community focused on the rapid advancement of Starship and SpaceX�s long-
+
+term mission. This close integration of residential life, engineering, and manufacturing around a single program
+
+enables a mission-focused environment designed to accelerate development, testing, and launch operations.
+
+SpaceX Headquarters at Starbase, Texas
+
+Table of Contents
+
+� Hawthorne, California: Our original flagship facility in Hawthorne, California manufactures Falcon 9 and
+
+Falcon Heavy first and second stages, Dragon Crew and Dragon Cargo spacecraft, Merlin engines, Starship�s
+
+Raptor engines, Starlink User Terminals, as well as other various Starship components. The site supports high-
+
+reliability production for hundreds of successful missions, including NASA-certified crew rotations. We also
+
+maintain a corporate presence in Hawthorne.
+
+Hawthorne, California
+
+Table of Contents
+
+� McGregor, Texas: The McGregor rocket engine complex is the most active rocket development and testing
+
+facility in the world. It serves as the primary site for qualification, acceptance, and post-flight testing of Merlin
+
+and Raptor engines. It features 15 specialized test stands, including dedicated vertical stands for Raptor engines
+
+and multiple stands for Falcon 9�s Merlin engines, as well as component-level testing facilities for Starship
+
+hardware, including composite overwrapped pressure vessels, tanks, and experimental systems.
+
+Table of Contents
+
+� Redmond, Washington: The Redmond Starlink satellite manufacturing facility has produced an average of
+
+approximately 70 satellites per week (approximately 3,640 per year at full rate) from December 2025 to April
+
+2026, covering bus structures, phased-array antennas, propulsion, solar arrays, and inter-satellite lasers,
+
+enabling rapid Starlink constellation expansion.
+
+Redmond, Washington
+
+Table of Contents
+
+� Bastrop, Texas: We build the majority of Starlink products at our manufacturing facility in Bastrop, Texas,
+
+which opened in 2023, producing tens of thousands of Starlink Kits per day and all of the current generation
+
+Starlink Standard and Performance Kits.
+
+In 2026, we expect to more than double the size of the Bastrop facility, expanding our design and
+
+manufacturing capabilities to support new Starlink products, plus deepening our vertical integration by adding
+
+the production of Starlink gateway antennas, solar cells and AI compute satellites.
+
+� Kennedy Space Center and Cape Canaveral, Florida: SpaceX operations in Florida span across NASA�s
+
+Kennedy Space Center and Cape Canaveral Space Force Station, which includes two active launch sites�
+
+Launch Complex 39A (LC-39A) and Space Launch Complex 40 (SLC-40)�Falcon booster and Dragon
+
+spacecraft refurbishing facilities, launch operations, and payload processing buildings. Both launch sites support
+
+critical missions to geostationary orbit and the International Space Station while also providing launch
+
+opportunities to a wide range of low, mid, and polar orbit inclinations for science and national security
+
+missions. SpaceX also utilizes Landing Zones 40 and 2 at the Cape, which support Return to Launch Site
+
+landings for Falcon boosters ahead of recovery and refurbishment for future missions.
+
+Once recovered, flight hardware is refurbished at one of two state-of-the-art SpaceX facilities, HangarX and X2,
+
+on Kennedy Space Center. These facilities also house our Falcon Launch and Landing Control Center, where
+
+our Dragon spacecraft are refurbished and prepared for their next missions after they are recovered off the coast
+
+of southern California, where we produce Starship heatshield tiles in the Bakery, and where we process
+
+customer payloads before launch in our Payload Processing Facility.
+
+For future launches, SpaceX is expanding its operations in Florida to bring Starship to the Cape. In addition to
+
+the under-construction Starship launch pad at LC-39A expected to be completed by the end of 2026, SpaceX is
+
+constructing Space Launch Complex 37 (SLC-37) on Cape Canaveral Space Force Station as another Starship
+
+launch site. SLC-37 will host two orbital launch pads, including up to two towers for Starship launch, catch, and
+
+testing operations, culminating in a total of four operational launch pads for Starship by the end of 2027.
+
+SpaceX is also building a new integration facility called Gigabay, next to its HangarX location at Kennedy
+
+Space Center by late 2026.
+
+Table of Contents
+
+In connection with preparing leased real property for our launch operations, we make significant capital
+
+improvements and install extensive real and personal property at these government-owned sites. The launch
+
+facilities we build are a unique capital improvement compared to standard commercial use sites because the
+
+federal government specifically designates these launch sites for aerospace activities, such as rocket launches.
+
+Given the specific use requirements of these government-owned sites, we have historically entered into
+
+handover agreements with the relevant government entities upon expiration or termination of the leases,
+
+pursuant to which the improvements are transferred to the government rather than removed. This fact pattern
+
+has historically been the case with previous leases such as at Cape Canaveral Space Force Station.
+
+NASA�s Kennedy Space Center, Florida
+
+Table of Contents
+
+Cape Canaveral Space Force Station, Florida
+
+� Vandenberg Space Force Base, Space Launch Complex 4: Space Launch Complex 4 East at Vandenberg
+
+Space Force Base is our West Coast launch site and serves as our primary facility for polar and high-inclination
+
+orbit missions critical to Starlink constellation deployment, national security payloads, Earth observation
+
+satellites, and select lunar trajectories. The facility includes a modernized orbital launch pad optimized for
+
+Falcon 9 launches, featuring a fixed launch mount, integration tower, propellant loading infrastructure, flame
+
+trench, and support systems enabling frequent operations. Adjacent Space Launch Complex 4 West functions as
+
+a dedicated Falcon 9 booster landing zone, supporting downrange recoveries to maximize reusability. Please
+
+refer to ��Kennedy Space Center and Cape Canaveral, Florida� for additional information regarding our lease
+
+arrangements with government entities.
+
+Table of Contents
+
+Vandenberg Space Force Base, California
+
+Table of Contents
+
+� Memphis, Tennessee and Southaven, Mississippi: We operate a cluster of high-density data centers in the
+
+Greater Memphis Area extending into northern Mississippi along the state border, to power training and
+
+inference for frontier AI models, including the Grok family. The flagship COLOSSUS supercomputer campus
+
+is located on Paul R. Lowry Road in Memphis, Tennessee; the COLOSSUS II facilities are located on Tulane
+
+Road in Memphis, Tennessee and on Stateline Road in Southaven, Mississippi.
+
+Memphis, Tennessee
+
+Table of Contents
+
+� Palo Alto, California: The corporate headquarters for our AI operations following the acquisition of xAI in
+
+February 2026 is located in Palo Alto, California. This location , under long-term lease, houses our advanced AI
+
+research, development, and engineering teams and is strategically situated in Silicon Valley to attract and retain
+
+top AI research talent. The engineers responsible for the design, training, and continued evolution of Grok, our
+
+proprietary frontier AI model, are based at this facility .
+
+Palo Alto, California
+
+In addition to our infrastructure and facilities across the United States, we also operate a fleet of recovery vessels,
+
+autonomous spaceport drone ships (�ASDS�), and a network of Starlink ground stations.
+
+� Our recovery fleet: Our fleet of ASDS forms the maritime backbone of SpaceX�s reusable rocket architecture,
+
+enabling high-probability downrange booster landings for Falcon 9 and Falcon Heavy missions while
+
+maximizing vehicle recovery and rapid refurbishment. The core ASDS fleet consists of three operational
+
+vessels: �Of Course I Still Love You,� the pioneering East Coast-to-Pacific vessel homeported at the Port of
+
+Long Beach, California, and dedicated to supporting primarily polar and high-inclination launches from
+
+Vandenberg Space Force Base with its large landing deck and thruster-based dynamic positioning; �Just Read
+
+the Instructions,� stationed at Port Canaveral, Florida, serving East Coast operations from Cape Canaveral and
+
+Kennedy Space Center; and �A Shortfall of Gravitas,� the newest and most advanced addition since 2021, also
+
+based at Port Canaveral with enhanced autonomy, station-keeping precision, and upgraded deck infrastructure
+
+to handle frequent, high-cadence missions. These autonomous ships have collectively facilitated hundreds of
+
+successful booster touchdowns, dramatically reducing expendable flight profiles and enabling the reuse of
+
+boosters 34 times a s of March 31, 2026 . Complementing the drone ships are dedicated support vessels for
+
+fairing half recovery, such as �Bob� and �Doug,� named after astronauts Bob Behnken and Doug Hurley, and
+
+Dragon retrieval vessel �Shannon,� named in honor of astronaut Shannon Walker. These support vessels ensure
+
+comprehensive ocean-based recovery operations across Atlantic and Pacific theaters and underpin our
+
+constellation deployments, national security launches, and crewed missions while advancing toward full
+
+reusability for Starship in future offshore scenarios.
+
+Table of Contents
+
+Autonomous Drone Ship �A Shortfall of Gravitas�
+
+� Starlink ground stations: A Starlink ground station, also referred to as a gateway, is a terrestrial relay station
+
+that communicates with our satellite constellation. These stations transmit data between satellites and terrestria l
+
+internet networks. We operate ground stations around the world, with over 400 sites globally.
+
+Customer Case Studies
+
+The following examples illustrate ways in which customers across a range of industries have used and benefited
+
+from our solutions within our Space, Connectivity, and AI segments. These examples are intended to highlight
+
+representative applications of our offerings and the types of operational, performance and efficiency benefits that
+
+customers may realize.
+
+In addition, we include examples of our deployment of Starlink services in response to natural disasters, which
+
+demonstrate our ability to rapidly establish communications infrastructure to support emergency response and
+
+recovery efforts in challenging environments.
+
+Table of Contents
+
+Our principal sources of competition vary based on the segment and market in which our business operates.
+
+In Space, we compete with launch service providers that transport small, medium, and heavy payloads and
+
+astronauts to Earth�s orbit and beyond. Participants in this market include established aerospace and defense
+
+companies, emerging commercial launch providers, and national space agencies. Key established aerospace and
+
+defense competitors providing launch services include, among others, United Launch Alliance, a joint venture
+
+between Boeing and Lockheed Martin, Arianespace, a French-based aerospace company operating a family of
+
+European-developed rockets, and Northrop Grumman, manufacturer of the Cygnus cargo spacecraft. Emerging
+
+commercial launch providers include Blue Origin, which has developed launch vehicles intended to compete with
+
+our Falcon 9 rocket, and Rocket Lab, which operates in the small-lift launch market but is expanding into medium-
+
+lift payloads, as well as other domestic competitors such as Firefly Aerospace and Relativity Space. While we
+
+typically do not compete directly for the same missions, national space agencies also provide launch services in their
+
+respective markets.
+
+However, the launch services market is characterized by significant barriers to entry, including substantial capital
+
+requirements, advanced technological expertise, regulatory licenses and approvals, and established relationships
+
+with government and commercial customers. Competition in this market is based on factors that include launch
+
+reliability and cadence, payload capacity, mission flexibility, manufacturing capabilities and price. For this reason,
+
+while the established aerospace and defense competitors and emerging commercial launch providers may provide
+
+launch services at varying degrees of scale, we believe that SpaceX holds a meaningful advantage in terms of the
+
+breadth of our launch solutions and services and the cadence at which we are able to launch, and thus a significant
+
+competitive advantage relative to these players.
+
+In Connectivity, we compete with operators of terrestrial and satellite communications infrastructure and providers
+
+of satellite -to-mobile connectivity solutions, including terrestrial fixed network providers, terrestrial mobile network
+
+companies, and other satellite service providers, as described below:
+
+� Consumer and Enterprise Broadband . Our Starlink Consumer and Enterprise broadband offerings compete with
+
+terrestrial fixed network providers, terrestrial mobile network companies, and other satellite service providers.
+
+Terrestrial fixed network providers include operators of cable and fiber networks such as Verizon, Comcast,
+
+AT&T, T-Mobile, Lumen, Charter Communications, Google Fiber, Astound, BT, Deutsche Telekom, and
+
+Liberty Global. Terrestrial mobile network companies also operate land-based infrastructure, including wireless
+
+antennas affixed to mobile towers used to provide fixed wireless services, and include AT&T, Telef�nica, T-
+
+Mobile, Verizon, and Vodafone Group. These network providers typically serve customers in one or more
+
+countries (for example, Verizon in the United States, or Telef�nica in Spain and Brazil, among others), but are
+
+not global players insofar as they do not sell to a global customer base, nor does their network infrastructure
+
+exist globally. Satellite service providers include, among others, GEO satellite network operators such as
+
+EchoStar, SES, Telesat Corporation (�Telesat�) GEO, and Viasat, as well as current and planned LEO and
+
+MEO constellations including Amazon LEO, Blue Origin�s TeraWave, Eutelsat OneWeb, Iridium NEXT and
+
+Telesat Lightspeed. Some of these service providers are also launch customers of SpaceX as they contract with
+
+us to launch their satellite constellations into orbit.
+
+� Government Solutions . Our Starlink broadband offering for government use cases competes primarily with the
+
+same terrestrial network providers and satellite service providers with which our Starlink Consumer and
+
+Enterprise broadband offerings compete, as well as defense prime contractors. In certain cases, these providers
+
+also have dedicated subsidiaries or business units focused on serving government customers, such as Telesat
+
+Government Solutions.
+
+� Starlink Mobile . Our Starlink Mobile offering competes with other satellite -to-mobile satellite operators
+
+including, among others, AST SpaceMobile, Lynk, Globalstar and Skylo.
+
+The satellite connectivity market involves significant barriers to entry, including substantial capital requirements,
+
+advanced technological capabilities, access to spectrum and orbital resources, regulatory licenses and approvals, and
+
+the development of relationships with government, enterprise and commercial customers. Competition in this market
+
+Table of Contents
+
+is based on factors that include network coverage, capacity, latency and reliability, spectrum access, density of urban
+
+environments, satellite deployment capability and efficiency, price and user acquisition, retention, and experience.
+
+In AI, we compete with developers of foundational AI models and providers of AI products and services, as well as
+
+general purpose and vertical search engines, information services, online advertising platforms and social networks.
+
+Participants in this market include large technology companies, emerging AI model developers and providers of AI-
+
+enabled products and services. Key competitors in these markets include, among others, AI model developers and
+
+platform providers such as OpenAI, Anthropic, Google, Meta, Microsoft, and various open source model providers,
+
+as well as social networks such as Threads (owned by Meta), Reddit, and TikTok. As we continue to build out our
+
+AI compute infrastructure, we intend to sell our excess capacity by offering it to a limited number of third parties
+
+and intend to continue to explore monetizing excess capacity, potentially positioning us to emerge as a competitor to
+
+AI cloud providers such as Coreweave and Nebius as well as hyperscalers.
+
+Our AI businesses likewise compete in markets characterized by significant barriers to entry, including substantial
+
+computational and infrastructure requirements, access to large datasets and the ability to attract and retain highly
+
+skilled technical talent. Competition in these markets is based on factors including pricing and cost efficiency, the
+
+performance and technical features of AI platforms, customer experience across our products and services, the
+
+ability to attract new and retain existing subscribers, users and advertisers and the ability to deploy compute and
+
+innovative technologies at scale.
+
+Intellectual Property
+
+The intellectual property that is material to our business includes our proprietary knowledge and software, as well as
+
+our brands and our selectively patented inventions and technologies. Our proprietary knowledge includes expertise
+
+in design, testing, manufacturing, software, in-orbit operations, real-time platforms, and artificial intelligence
+
+development. The protection of our technology and intellectual property is an important aspect of our business. We
+
+rely upon a combination of patents, trademarks, trade secrets, copyrights, confidentiality procedures, contractual
+
+commitments and other legal rights to establish and protect our intellectual property. We have registered, and
+
+applied for the registration of, U.S. and international trademarks, service marks, domain names, and copyrights. We
+
+have also filed patent applications and acquired patents in the United States and foreign countries covering certain
+
+aspects of our technology, and in some cases, we have acquired patent assets of others to supplement our portfolio.
+
+We have licensed in the past, and expect that we may license in the future, certain of our rights to other parties or
+
+from other parties. We generally enter into confidentiality agreements and invention or work product assignment
+
+agreements with our employees, contractors, and consultants to control access to, and clarify ownership of, our
+
+proprietary information and other intellectual property. For additional information, please refer to �Risk Factors�
+
+Risks Related to Our Business�We may face substantial potential liability and operational disruptions if we violate
+
+the intellectual property rights or other rights of third parties, and if we fail to adequately protect, maintain, defend
+
+or enforce our intellectual property and other similar rights, we could lose an important competitive advantage, in
+
+each case which could have a material adverse effect on our business, financial condition, results of operations,
+
+customer trust and future prospects.�
+
+As of March 31, 2026, we employed over 22,000 full-time employees worldwide, none of whom are subject to any
+
+collective bargaining agreement. We believe our strong culture of collaboration and innovation distinguishes us and
+
+serves as an important driver of our business performance.
+
+Regulatory Environment
+
+We are required to compl

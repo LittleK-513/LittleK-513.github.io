@@ -1,0 +1,715 @@
+otes were guaranteed each jointly and severally by
+
+xAI and the following subsidiaries of xAI: AIQ Phase LLC, CTC Holding LLC, CTC, LLZ Build LLC, and MZX.
+
+xAI Revolving Line of Credit
+
+General. In April 2024 and amended through March 2026, a subsidiary of xAI, an indirect subsidiary of the
+
+Company, entered into a revolving line of credit up to borrowing capacity of $250 million .  The Company had no
+
+borrowings under the line of credit during the three months ended March 31, 2026 and 2025.
+
+Interest Rates. Interest on any borrowings is calculated based on the 30-day average SOFR plus the International
+
+Swaps and Derivatives Association spread adjustment plus a spread of 40 basis points.
+
+Guarantors and Collateral. The agreement permits borrowings up to the value of the pledged collateral held in
+
+custody, less any outstanding loan balances, accrued interest, and fees. The pledged collateral consisted of securities
+
+held in xAI � s custodial account.
+
+Other Financings
+
+The Company has entered into various other financing arrangements, generally collateralized by specific machinery
+
+and equipment. These arrangements have an average fixed interest rate of 4.4% and 5.5% per annum as of March
+
+31, 2026 and December 31, 2025 , respectively, with principal and interest payments due monthly, and in certain
+
+instances, a lump sum payment at the end of term.
+
+In addition, in November 2025 and January 2026, CTC completed sale-leaseback transactions for its AI
+
+infrastructure assets which would have been deemed finance leases resulting in failed sale-leaseback transactions. As
+
+a result, the Company recorded the related debt of $1,121 million and $7,920 million within Debt and finance leases,
+
+current and Debt and finance leases, net of current , respectively, in the Company � s consolidated balance sheets as of
+
+March 31, 2026 for these two failed sale-leaseback transactions. Refer to Note 17 , Related Party Transactions for
+
+additional details.
+
+The future scheduled principal maturities of debt as of March 31, 2026 are as follows:
+
+2026 (remaining nine months) ..............................................................................................................
+
+2027 ......................................................................................................................................................
+
+2028 ......................................................................................................................................................
+
+2029 ......................................................................................................................................................
+
+2030 ......................................................................................................................................................
+
+Thereafter ..............................................................................................................................................
+
+Total .....................................................................................................................................................
+
+Table of Contents
+
+Note 10 - Leases
+
+The components of lease expense are as follows within the consolidated statements of operations :
+
+Three Months Ended March 31,
+
+Operating lease expense:
+
+Operating lease expense ........................................................................................
+
+Short-term lease cost .............................................................................................
+
+Variable lease cost ................................................................................................
+
+Total operating lease expense ..........................................................................
+
+Finance lease expense:
+
+Amortization of leased assets ...............................................................................
+
+Interest on lease liabilities .....................................................................................
+
+Total finance lease expense ..............................................................................
+
+Total lease expense ..................................................................................................
+
+During the three months ended March 31, 2026 , there has been no material changes in the Company�s lease portfolio
+
+since December 31, 2025 .
+
+Note 11 - Balance Sheet Components
+
+Certain financial statement details are as follows:
+
+Prepaid expenses and other current assets
+
+Tax related assets .......................................................................................................
+
+Unbilled receivables ..................................................................................................
+
+Rebates and credits ....................................................................................................
+
+Restricted cash and deposits ......................................................................................
+
+Other ..........................................................................................................................
+
+Prepaid expenses and other current assets ......................................................
+
+Accrued expenses and other current liabilities
+
+Accrued infrastructure purchases ..............................................................................
+
+Tax related liabilities .................................................................................................
+
+Payroll & employee benefit accruals .........................................................................
+
+Operating lease liabilities, current .............................................................................
+
+Restructuring liabilities ..............................................................................................
+
+Accrued interest .........................................................................................................
+
+Other current liabilities ..............................................................................................
+
+Accrued expenses and other current liabilities ...............................................
+
+Table of Contents
+
+Note 12 - Redeemable Convertible Preferred Stock and Shareholders� Equity
+
+SpaceX Preferred and Common Stock
+
+The Company has five classes of stock - four classes to be designated Class A common stock (�Class A�), Class B
+
+common stock (�Class B�), Class C common stock (�Class C�), Class D common stock (�Class D�) (collectively the
+
+�SpaceX Common Stock�), and one class of stock to be designated preferred stock and subdivided into several
+
+series of redeemable convertible preferred stock (collectively the �SpaceX Redeemable Convertible Preferred
+
+Stock�). All references to �Class� refer to that particular class of SpaceX Common Stock and all references to
+
+�Series� refer to that particular series of SpaceX Redeemable Convertible Preferred Stock.
+
+As of March 31, 2026 , the total number of shares of SpaceX Common Stock the Company is authorized to issue is
+
+54,657 million shares, each with a par value of $0.001 per share, except for Class D, which has a par value of
+
+$0.0001 per share. 36,132 million shares are Class A, 6,125 million shares are Class B, 10,000 million shares are
+
+Class C, and 2,400 million shares are Class D. The total number of SpaceX Redeemable Convertible Preferred Stock
+
+that the Company is authorized to issue is 2,607 million shares, of which 2,400 million shares are undesignated.
+
+With the exception of the expanded conversion rights described below, there were no changes to the dividend
+
+provisions, liquidation preferences, conversion rights, redemption rights or the voting rights of the SpaceX
+
+Convertible Redeemable Preferred Stock and SpaceX Common Stock during the three months ended March 31,
+
+In May 2026, the Board approved the 2026 Stock Split, pursuant to which each share of the Class A, Class B, and
+
+Class C SpaceX Common Stock issued and outstanding was split into five shares of the same class of SpaceX
+
+xAI Redeemable Convertible Preferred Stock and Common Stock
+
+On March 28, 2025, xAI adopted an Amended and Restated Articles of Incorporation, which established its capital
+
+structure and designated multiple classes of common stock and several series of redeemable convertible preferred
+
+stock. The Articles were subsequently amended and restated through January 30, 2026 (collectively, the �xAI
+
+Articles of Incorporation�) to add and authorize additional series of redeemable convertible preferred stock with no
+
+economic changes to any previously existing series.
+
+Pursuant to the xAI Articles of Incorporation, xAI�s authorized capitalization prior to the xAI Merger consisted of
+
+three classes of common, stock, which are designated Class A common stock (�xAI Class A�), Class B common
+
+stock (�xAI Class B�), Limited Voting common stock (�xAI Limited Voting�), (collectively the �xAI Common
+
+Stock�) and several series of redeemable convertible preferred stock (collectively the �xAI Redeemable Convertible
+
+Preferred Stock�). All references to �xAI Class� refer to that particular class of xAI Common Stock and all
+
+references to �xAI Series� refer to that particular series of xAI Redeemable Convertible Preferred Stock.
+
+Effect of the xAI Merger
+
+xAI Redeemable Convertible Preferred Stock
+
+On xAI Merger Date, all outstanding shares of xAI Redeemable Convertible Preferred Stock converted into shares
+
+of SpaceX Common Stock, based on the share-for-share exchange mechanics specified in the Merger Agreement.
+
+Each share of xAI Series A‑1, B, C, D, and E redeemable convertible preferred stock (classified as �xAI Low Vote
+
+Stock�) was converted into 0.1433 shares of SpaceX Class A Common Stock per preferred share  (on a pre-2026
+
+Stock Split basis), rounded up to the nearest whole number for fractional shares. Each share of xAI Series A
+
+redeemable convertible preferred stock (classified as �xAI High Vote Stock�) was converted into 0.1433 shares of
+
+SpaceX Class B Common Stock per preferred share  (on a pre-2026 Stock Split basis), rounded up to the nearest
+
+whole number for fractional shares. For xAI Series A Redeemable Convertible Preferred Stock, all holders that were
+
+an eligible service provider could elect to receive cash of $75.46 per share of xAI Series A Redeemable Convertible
+
+Preferred Stock  (on a pre-2026 Stock Split basis). Upon conversion, all shares of xAI Redeemable Convertible
+
+Preferred Stock were canceled and retired, and former xAI Redeemable Convertible Preferred Stock shareholders
+
+Table of Contents
+
+received the applicable shares of SpaceX Common Stock. Any shares of xAI Redeemable Convertible Preferred
+
+Stock previously held by the Company were canceled and retired and did not receive any consideration.
+
+Because the xAI Redeemable Convertible Preferred Stock was legally outstanding during all historical periods prior
+
+to the xAI Merger and represented a separate equity class of a legally distinct predecessor entity, the conversion of
+
+xAI Redeemable Convertible Preferred Stock into SpaceX Common Stock is recognized only as of the closing of the
+
+xAI Merger, and not retrospectively. Accordingly, the historical consolidated balance sheets and consolidated
+
+statements of redeemable convertible preferred stock and shareholders� equity reflect the xAI Redeemable
+
+Convertible Preferred Stock as outstanding xAI Redeemable Convertible Preferred Stock consistent with its legal
+
+form and rights during those periods and are not recast on an as-converted basis for all periods presented prior to the
+
+xAI Merger Date . The impact of the conversion is presented separately in the consolidated statements of redeemable
+
+convertible preferred stock and shareholders� equity for the three months ended March 31, 2026 .
+
+xAI also issued warrants to customers that were outstanding as of the effective date of the xAI Merger, which had a
+
+ten-year term originally set to expire in 2035, with an exercise price equal to the par value of the stock, and vesting
+
+terms that resulted in the warrants vesting proportionally to the payments received under the related agreement. The
+
+closing of the xAI Merger triggered an acceleration clause in which all outstanding xAI warrants, both vested and
+
+unvested components, were automatically exercised on a cashless basis exercised and converted into fully vested
+
+SpaceX Class A Common Stock at the exchange ratio of 0.1433 (on a pre-2026 Stock Split basis).
+
+xAI and X Common Stock
+
+Upon the effective date of the xAI Merger, every outstanding share of xAI Common Stock, whether Class A, Class
+
+B, or Limited Voting, converted into the right to receive SpaceX Common Stock at a fixed exchange ratio of 0.1433
+
+SpaceX shares per share of xAI Common Stock, unless the holder was an eligible service provider and elected to
+
+receive cash of $75.46 per share of xAI Class A or Class B (on a pre-2026 Stock Split basis) . No fractional SpaceX
+
+shares were issued and all share amounts were rounded up to the nearest whole number. Any shares of xAI Common
+
+Stock previously held by the Company were canceled and retired and did not receive any consideration.
+
+Effect of the X Merger
+
+Upon the effective date of the X Merger, each class of common stock of X Holdings Corp. (�X Common Stock � )
+
+was converted to 2.776 shares of xAI Common Stock of the same class (rounded down to the nearest whole share),
+
+each class of common stock of X.AI Corp. (�xAI Corp. Common Stock � ) was converted to 1.000 share of xAI
+
+Common Stock of the same class, and each series of X.AI Corp. preferred stock (�xAI Corp. Preferred Stock � )
+
+(other than shares held by X or any of its subsidiaries) was converted to 1.000 share of xAI Redeemable Convertible
+
+Preferred Stock of the same series.
+
+As a result of the Mergers, all of X, X.AI Corp. and xAI Common Stock are being presented in the historical
+
+financial statements as if they had been converted into SpaceX Common Stock at the applicable exchange rate for all
+
+periods presented through the date of the xAI Merger. As such, all shares of historical X, X.AI Corp. and xAI
+
+Common Stock are included in the share counts for SpaceX Common Stock below. X.AI Corp. and xAI Redeemable
+
+Convertible Preferred Stock are being presented in the consolidated financial statements at historical values with an
+
+adjustment to the conversion rate at the applicable exchange ratio per the xAI Merger.
+
+Table of Contents
+
+Redeemable Convertible Preferred Stock
+
+Information for each series of SpaceX and xAI Redeemable Convertible Preferred Stock (collectively, the
+
+� Combined Redeemable Convertible Preferred Stock�) is as follows:
+
+SpaceX Redeemable
+
+Convertible Preferred
+
+Series A ................................
+
+Series A-1 .............................
+
+Series B .................................
+
+Series B-1 .............................
+
+Series C .................................
+
+Series D ................................
+
+Series E .................................
+
+Series F .................................
+
+Series G ................................
+
+Series H ................................
+
+Series I ..................................
+
+Series J ..................................
+
+Series K ................................
+
+Series L .................................
+
+Series M ................................
+
+Series N ................................
+
+Total SpaceX Redeemable
+
+Convertible Preferred
+
+Stock ................................
+
+Convertible Preferred
+
+Series A ................................
+
+Series A-1 .............................
+
+Series B .................................
+
+Series C .................................
+
+Series D ................................
+
+Series E .................................
+
+Total xAI Redeemable
+
+Convertible Preferred
+
+Stock ................................
+
+Convertible Preferred
+
+Stock ................................
+
+__________________
+
+(1) The number of issued redeemable convertible preferred stock is equal to the number of outstanding redeemable convertible preferred stock,
+
+with the exception of xAI Series A and xAI Series D, of which the number of issued shares is 1,000.0 million and 175.0 million as of
+
+December 31, 2025 , respectively, due to redeemable convertible preferred stock held by X and SpaceX, respectively.
+
+Table of Contents
+
+The following describes the various rights and preferences of the SpaceX Redeemable Convertible Preferred Stock:
+
+Dividend Provisions
+
+On a per annum basis, holders of shares of SpaceX Redeemable Convertible Preferred Stock are entitled to receive
+
+dividends prior and in preference to any declaration or payment of any dividend to common shareholders at a rate
+
+described in the table above for each outstanding share of SpaceX Redeemable Convertible Preferred Stock . Any
+
+such dividends are declared at the discretion of the Board of Directors and are not cumulative. For the period from
+
+inception through March 31, 2026 , no dividends on SpaceX Redeemable Convertible Preferred Stock have been
+
+declared. The SpaceX Redeemable Convertible Preferred Stock do not participate in distributions beyond their
+
+preferred dividend as described above.
+
+Liquidation Preference
+
+The series of SpaceX Redeemable Convertible Preferred Stock listed in the table above were issued by the Company
+
+chronologically and in alphabetical order, with Series A issued first and Series N issued most recently. Each series
+
+of SpaceX Redeemable Convertible Preferred Stock is senior in rank to all earlier issued series and junior in rank to
+
+all later issued series, except that: (i) Series A, A-1, B, B-1, and C SpaceX Redeemable Convertible Preferred Stock
+
+are all on parity with each other and junior in rank to all subsequently issued series of SpaceX Redeemable
+
+Convertible Preferred Stock; and (ii) series E, F, and G SpaceX redeemable convertible preferred stock are all on
+
+parity with each other, are senior in rank to all earlier issued series of SpaceX Redeemable Convertible Preferred
+
+Stock, and junior in rank to all subsequently issued series of SpaceX Redeemable Convertible Preferred Stock.
+
+In the event of a liquidation, dissolution, or winding up of the Company, holders of a given series of SpaceX
+
+Redeemable Convertible Preferred Stock are entitled to receive, in preference to the holders of SpaceX Common
+
+Stock and any junior-ranking SpaceX Redeemable Convertible Preferred Stock, the liquidation preference indicated
+
+in the table above for such series of SpaceX Redeemable Convertible Preferred Stock, plus any declared but unpaid
+
+dividends. Holders of all series of SpaceX Redeemable Convertible Preferred Stock are entitled to receive the
+
+greater of the liquidation preference per share indicated above, or the amount each series would be entitled to receive
+
+if all such outstanding SpaceX Redeemable Convertible Preferred Stock were converted to Class A or Class B
+
+SpaceX Common Stock, as applicable, immediately prior to such liquidation, dissolution, or winding up of the
+
+Company. Upon completion of the distributions described above, if any assets remain in the Company, the then
+
+remaining assets will be distributed on an equal priority, pro rata basis to the holders of SpaceX Common Stock.
+
+Conversion Rights
+
+Each share of Series A and Series B SpaceX Redeemable Convertible Preferred Stock is convertible at the option of
+
+the holder at any time after the date of issuance of such share into shares of Class A, Class B, or Class C SpaceX
+
+Common Stock and each share of all other series of preferred stock are convertible at the option of the holder at any
+
+time after the date of issuance of such share into shares of Class A or Class C SpaceX Common Stock. The number
+
+of shares of SpaceX Common Stock to which a holder of SpaceX Redeemable Convertible Preferred Stock is
+
+entitled shall be at a conversion rate determined by dividing the initial price by the conversion price. Each share of
+
+SpaceX Redeemable Convertible Preferred Stock is convertible into fifty shares of SpaceX Common Stock
+
+following the 2026 Stock Split. The conversion price is subject to adjustment set forth in the charter for certain
+
+dilutive issuances, splits and combinations.
+
+The SpaceX Redeemable Convertible Preferred Stock automatically converts upon the earlier of (i) the Company�s
+
+sale of its common stock in a public offering pursuant to a registration statement under the Securities Act of 1933, in
+
+which the pre-public offering market capitalization of the Company is at least $6.0 billion and which results in
+
+aggregate cash proceeds to the Company of not less than $250 million (�Qualified IPO�) or (ii) the date specified by
+
+written consent or agreement of the applicable holders of shares of SpaceX Redeemable Convertible Preferred Stock
+
+(with respect to each applicable series of SpaceX Redeemable Convertible Preferred Stock), voting in accordance
+
+with the charter.
+
+Table of Contents
+
+In the event of a transfer of a share of Series A or Series B (other than a Permitted Transfer as defined in the
+
+charter), such share shall automatically be cancelled and converted into a corresponding share of Series A-1 or
+
+Holders of each share of Series A and Series B have the right to ten votes for each share of Class B into which such
+
+share is convertible. Holders of each share of all other series of SpaceX Redeemable Convertible Preferred Stock
+
+have the right to one vote for each share of Class A into which such share is convertible. Such holders will have full
+
+voting rights and powers equal to the voting rights and powers of the holders of SpaceX Common Stock, except as
+
+required by law.
+
+The liquidation preference provisions of the SpaceX Redeemable Convertible Preferred Stock are considered
+
+contingent redemption provisions as deemed liquidation events such as a change of control are not solely within the
+
+control of the Company. Accordingly, SpaceX Redeemable Convertible Preferred Stock are presented outside of
+
+permanent equity on the Company � s consolidated balance sheets as Redeemable convertible preferred stock . SpaceX
+
+Redeemable Convertible Preferred Stock has not been remeasured to their redemption amount as they are not
+
+currently redeemable or probable of becoming redeemable.
+
+The following describes all of the activity that occurred within each class of SpaceX Common Stock during the three
+
+months ended March 31, 2026 and 2025 , incorporating all activity that occurred within the class of xAI Common
+
+Stock on an as-converted basis to the class of SpaceX Common Stock it was converted into per the xAI Merger and
+
+Balances at December 31,
+
+2024 ...................................
+
+Common stock issued, net of
+
+tax withholding ..................
+
+Repurchase of common
+
+stock ...................................
+
+Conversion of redeemable
+
+convertible preferred stock
+
+to common stock ...............
+
+Conversion between classes
+
+of common stock ...............
+
+Transfer of equity in
+
+business combination ........
+
+Balances at March 31, 2025
+
+Table of Contents
+
+Balances at December 31,
+
+2025 ...................................
+
+Common stock issued, net of
+
+tax withholding ..................
+
+Repurchase of common
+
+stock ...................................
+
+Conversion of redeemable
+
+convertible preferred stock
+
+pursuant to the xAI
+
+Merger ...............................
+
+Repurchase of common
+
+stock pursuant to xAI
+
+Merger ...............................
+
+Conversion of redeemable
+
+convertible preferred stock
+
+to common stock ...............
+
+Conversion between classes
+
+of common stock ...............
+
+Balances at March 31, 2026
+
+The following describes the various rights and preferences of the SpaceX Common Stock:
+
+Dividend Provisions
+
+Subject to the prior rights of holders of all classes and series of stock at the time outstanding having prior rights as to
+
+dividends, holders of SpaceX Common Stock shall be entitled to receive, when, as and if declared by the Board of
+
+Directors, out of any funds legally available, such dividends as may be declared from time to time by the Board of
+
+Directors. For the period from inception through March 31, 2026 , no dividends were declared on SpaceX Common
+
+Liquidation Rights
+
+In the event of a liquidation, dissolution, or winding up of the Company, upon the completion of the distributions
+
+required with respect to the SpaceX Redeemable Convertible Preferred Stock, if assets remain in the Company, the
+
+then remaining assets will be distributed on an equal priority, pro rata basis to the holders of SpaceX Common
+
+Conversion Rights
+
+Each share of Class B is convertible at the option of the holder, at any time, into one share of Class A. Each share of
+
+Class B will automatically convert into one share of Class A upon a transfer, other than a Permitted Transfer (as
+
+defined in the charter), of such share of Class B.
+
+Each holder of Class A is entitled to one vote for each share held. Each holder of Class B is entitled to ten votes for
+
+each share held. The holders of Class C have no voting rights, except as required by law. Voting rights with respect
+
+to Class D will be established when and if any shares of Class D are issued by the Board of Directors.
+
+Reserve for Unissued Shares of Common Stock
+
+The Company is required to reserve and keep available out of its authorized but unissued shares of SpaceX Common
+
+Stock such number of shares sufficient to effect the conversion of all outstanding shares of SpaceX Redeemable
+
+Table of Contents
+
+Convertible Preferred Stock and Class B, as applicable, plus shares granted and available for grant under the
+
+Company�s share plans.
+
+The amount of such shares of the SpaceX Common Stock reserved for these purposes at March 31, 2026 is as
+
+Number of Shares
+
+Redeemable Convertible Preferred Stock issued
+
+(low-vote) .................................................................
+
+Redeemable Convertible Preferred Stock issued
+
+(high-vote) ...............................................................
+
+Outstanding Class B ....................................................
+
+Outstanding stock options ...........................................
+
+Outstanding RSUs .......................................................
+
+Future grants under share-based compensation ...........
+
+Share Repurchases
+
+During the three months ended March 31, 2026 , the Company repurchased $2,413 million or 25.4 million shares of
+
+SpaceX Common Stock from eligible current and former xAI employees as part of the xAI Merger. During the three
+
+months ended March 31, 2026 , the Company also repurchased of 30.5 million shares of SpaceX Common Stock and
+
+2.1 million shares of SpaceX Redeemable Convertible Preferred Stock for $1,933 million in a number of unrelated
+
+transactions with existing shareholders at their then-current fair market value.
+
+Similarly, the Company repurchased $508 million or 28.0 million shares of SpaceX Common Stock from eligible
+
+current and former employees and existing shareholders during the three ended March 31, 2025 . The Company only
+
+repurchased shares held by eligible participants for more than six months at a purchase price per share equal to the
+
+then current fair market value.
+
+All SpaceX shares repurchased to date have been retired.
+
+Table of Contents
+
+Note 13 - Earnings per Share
+
+The following table presents the reconciliation of net loss attributable to common shareholders to net loss used in
+
+computing basic and diluted net income loss per share of common stock:
+
+Three Months Ended March 31,
+
+Net loss ......................................................................................................................
+
+Less: Deemed dividend (1) ......................................................................................
+
+Net loss attributable to common shareholders - basic and diluted ............................
+
+Weighted average shares of common stock outstanding - basic and diluted ............
+
+Loss per share attributable to common shareholders
+
+Basic and Diluted ..................................................................................................
+
+__________________
+
+(1) The excess of fair market value over the consideration transferred for the repurchase of SpaceX Redeemable Convertible Preferred Stock
+
+was treated as a deemed dividend and resulted in an increase to net loss attributable to common shareholders in the calculation of loss per
+
+The following potentially dilutive securities on an as-converted basis are excluded from the calculation of diluted net
+
+loss per share attributable to common shareholders for the periods presented because the impact of including them
+
+would be anti-dilutive (refer to Note 14 , Share-based Compensation for additional details):
+
+Three Months Ended March 31,
+
+xAI Redeemable Convertible Preferred Stock ..........................................................
+
+SpaceX Redeemable Convertible Preferred Stock ....................................................
+
+Share-based compensation ........................................................................................
+
+The table above excludes 1,319.1 million and 14.3 million share-based compensation awards outstanding as of
+
+March 31, 2026 and 2025 , respectively, as these awards are subject to performance and market conditions that were
+
+not met as of those dates.
+
+Note 14 - Share-based Compensation
+
+X and xAI Mergers
+
+As part of the xAI Merger, each xAI option for a share of xAI common stock outstanding and unexercised at the
+
+time of the xAI Merger (vested and unvested) was converted into a SpaceX option to receive 0.1433 shares of
+
+SpaceX Class A or Class B Common Stock (on a pre-2026 Stock Split basis), as applicable, under the same terms
+
+and conditions (including the vesting and exercisability conditions) as the original xAI stock options at an

@@ -1,0 +1,549 @@
+ U.S. and international cybersecurity and privacy laws and regulations have expanded regulatory
+
+regimes and compliance requirements, and regulators continue to undertake enforcement actions in these areas. We
+
+expect the regulatory environment to grow more complicated, which may increase our operational and compliance
+
+expenditures, as well as those of our suppliers. Moreover, some third parties we utilize in our operations may receive
+
+or store information provided by us or by our customers. If these third parties fail to adopt or adhere to adequate data
+
+privacy and security practices, or their systems or networks are breached in the manner described above, our data or
+
+our customers� data may be improperly accessed, used, or disclosed to unauthorized recipients, which could result in
+
+financial losses, legal liabilities, reputational harm, and additional compliance obligations. We do not control the
+
+privacy and cybersecurity measures put in place by such third parties, and any contractual protections with such
+
+third parties, such as obligations to indemnify us, if any, may be ineffective or otherwise inadequate.
+
+The development and maintenance of the technologies and infrastructure necessary to support our current and
+
+future operations will require significant capital expenditures, and if we are unable to generate sufficient cash
+
+flow from operations or obtain additional financing on acceptable terms, our business, financial condition,
+
+results of operations, and future prospects could be materially and adversely affected.
+
+Our business requires substantial capital expenditures to design, develop, expand, and maintain our technologies and
+
+infrastructure to support our operations. For example, we have incurred significant capital expenditures and expect
+
+to increase our capital expenditures substantially in the future in connection with the design, development, and
+
+deployment of our satellite constellations, launch vehicles, ground stations, manufacturing facilities, and programs,
+
+including Terafab, AI compute infrastructure, data centers, and other supporting infrastructure. These expenditures
+
+include, but are not limited to, costs associated with research and development, construction and expansion of
+
+production capabilities, acquisition of property and equipment, and ongoing maintenance and upgrades to ensure
+
+reliability and competitiveness. In particular, the development, testing, and deployment of Starship in accordance
+
+with our anticipated schedule, as well as our pursuit of orbital AI, other space-related services, and lunar and
+
+interplanetary missions, will require the investment of significant additional capital resources. In addition, we have
+
+made and intend to continue to make substantial capital expenditures to support the growth of our AI products,
+
+including costs related to obtaining third-party GPUs, manufacturing our own GPUs, and constructing, leasing,
+
+maintaining, enhancing, and expanding our data centers. We may choose to increase or accelerate the pace of any of
+
+these investments at any time, which could result in periods of reduced profitability or increased losses as we
+
+prioritize long-term growth over near-term financial performance. Many of the products and services that are
+
+important for our growth prospects are novel and untested, and therefore our estimates of capital expenditures may
+
+prove to be inaccurate.
+
+If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders
+
+could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges
+
+superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain
+
+various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive
+
+covenants relating to our capital-raising activities and other financial and operational matters, which could limit our
+
+Table of Contents
+
+operational flexibility and make it more difficult for us to obtain additional capital and to pursue business
+
+opportunities. Our ability to access the capital markets or secure other sources of financing may be adversely
+
+affected by factors beyond our control, including fluctuations in market conditions, changes in investor sentiment,
+
+increases in interest rates, or adverse events affecting the broader industry or economy.
+
+Our substantial level of indebtedness could materially adversely affect our financial condition.
+
+We have significant indebtedness that could materially adversely affect our business by increasing our vulnerability
+
+to general adverse economic and industry conditions; requiring us to dedicate a substantial portion of our cash flow
+
+from operations to payments on our indebtedness, thereby reducing the availability of our cash flow to fund
+
+operations, our growth strategy, product development and strategic initiatives; limiting our flexibility in planning
+
+for, or reacting to, changes in our business and the industry in which we operate; and exposing us to the risk of
+
+increased interest rates as our borrowings are, and may in the future be, at variable interest rates. As of March 31,
+
+2026, we had total principal indebtedness outstanding of $29,132 million . Our substantial indebtedness may also
+
+adversely affect our credit ratings or outlook, which may increase our cost of capital, limit our access to financing,
+
+and impair our ability to obtain additional financing on acceptable terms, or at all. The occurrence of any one of
+
+these events could have a material adverse effect on our business, results of operations, and financial condition, and
+
+ability to satisfy our obligations under the agreements governing our indebtedness. If we fail to comply with the
+
+terms of our debt agreements, our lenders could declare a default and accelerate our repayment obligations, which
+
+could materially and adversely affect our business, financial condition, results of operations, and future prospects.
+
+Our future revenue and operating results depend upon our ability to develop new technologies and respond to
+
+changes in customer demands and industry standards in highly competitive markets, and if we are unable to do
+
+so, our business, financial condition, results of operations, and future prospects may be materially and adversely
+
+Our future revenue growth and operating results are highly dependent on our ability to design, develop and
+
+successfully commercialize new and innovative technologies, products, and services on a timely and cost-effective
+
+basis. The markets in which we operate are characterized by rapid and disruptive technological change, evolving
+
+industry standards, the emergence of new and well-funded competitors, frequent new product and service
+
+introductions, changing customer demands and regulatory changes. In addition, we may expand into new markets,
+
+which may lead to similar or additional challenges that we cannot foresee and may require novel innovations to
+
+navigate or overcome. As a result, we may from time to time rapidly adjust, modify or change our strategic
+
+priorities, capital allocation, product or service focus or operational initiatives across our business in response to
+
+these other changes or new markets. In particular, the AI industry is nascent, highly competitive, capital intensive
+
+and rapidly changing. There are a number of companies today that develop or may develop products or services that
+
+compete with our AI segment, and new competitors may emerge over time. Some of our current or potential
+
+competitors in the AI market are large technology companies that have significant financial, technical and marketing
+
+resources, and in some cases greater access to data, and others are smaller specialized companies that possess
+
+specialized expertise and may have greater flexibility than we do. We also have a limited number of customers for
+
+our AI products when compared to certain of our competitors. Current and potential competitors have established, or
+
+may in the future establish, cooperative relationships among themselves or with third parties to increase the ability
+
+of their AI technologies to address the needs of current and prospective users of our AI products. Furthermore,
+
+current or prospective users may decide to develop competing products for particular use cases or to establish
+
+strategic relationships with our competitors for such use cases. Current and potential competitors and bad actors,
+
+may also attempt to reverse engineer or otherwise replicate our AI technology, including through model extraction
+
+or distillation techniques. Increased competition with our AI products could result in price reductions, revenue
+
+shortfalls, loss of customers and loss of market share, which may harm our business, financial condition results of
+
+operations and future prospects.
+
+In our Connectivity segment, including Starlink broadband and Starlink Mobile, we face competition from terrestrial
+
+fixed network providers, mobile network operators, and other satellite providers, and our services may be less
+
+competitive in certain markets, including dense urban areas where terrestrial fiber and wireless networks may offer
+
+higher capacity, lower cost, or more consistent performance. In addition, our Starlink Mobile offering operates in a
+
+highly competitive and evolving market, and may be affected by the pace of technological development, spectrum
+
+Table of Contents
+
+availability, and the success of our partnerships with mobile carriers. In addition, the X platform faces intense
+
+competition from social media, messaging and media companies and traditional media outlets, such as television,
+
+radio and print, for advertising budgets. Advertisers generally do not have long-term commitments to the X platform
+
+and may reduce or discontinue their advertising spending for a variety of reasons outside our control. We are
+
+expending resources to improve the X platform and improve its attractiveness to users and advertisers. While we
+
+have introduced new user interface enhancements, algorithm updates, and other product features, improvements to
+
+the X platform, introducing new products and services on the X platform and other initiatives may be costly and
+
+difficult to implement, and we cannot be sure that they will be positively received by users, content creators, or
+
+advertisers, or provide positive returns on our investment. Losing users who migrate to other platforms may
+
+negatively impact our potential subscription or advertising revenue. Additionally, if users do not continue to
+
+contribute content and otherwise engage with the X platform, we are unable to provide users with valuable and
+
+timely content, or if content that is considered to be problematic or offensive is made available on the X platform,
+
+the size of the X platform�s user base and their engagement may decline, leading to a decline in monetizable usage
+
+and the loss of potential subscription revenue from such users, and the X platform may experience brand or
+
+reputational harm. A decline in users on the X platform, or the volume or quality of their content on the X platform,
+
+could also impact the ongoing development of our AI product, which in part utilizes data and user-generated content
+
+from the X platform. We plan to publicly launch the Money product on the X platform (the �Money Product�);
+
+however, we are competing against large, established companies with significantly greater resources and market
+
+presence than us. If we are unable to anticipate technological trends, respond to technological advancements or
+
+changing customer demands, or successfully develop and commercialize new or enhanced offerings, we may be
+
+unable to establish or maintain a meaningful market position and our business, financial condition, results of
+
+operations, and future prospects could be materially and adversely affected.
+
+The estimates of future market opportunity and forecasts of market growth, and our ability to capture such
+
+markets, included in this prospectus may prove to be inaccurate.
+
+Our estimates for the total addressable market for our Space, Connectivity and AI businesses, as well as estimates
+
+regarding the growth of AI and its impacts, contained elsewhere in this prospectus are based on a number of internal
+
+and third-party estimates. For example, our estimates of market opportunity for our Space, Connectivity and AI
+
+businesses rely in part on third-party data and a number of internal assumptions. With respect to our Space segment,
+
+these estimates rely in part on estimates published by Novaspace regarding the size of the global market for space-
+
+enabled solutions, including spacecraft manufacturing, launch services and related activities. Our connectivity
+
+market estimates are based in part on estimates of the number of households, businesses, aircraft and maritime
+
+vessels globally derived from third-party sources, together with assumptions regarding ARPU and monthly service
+
+revenue derived from third-party industry data and our internal expectations regarding pricing, adoption rates and
+
+service penetration across different geographic regions and economic environments. Our AI market estimates are
+
+based in part on projections of global data center compute demand from third-party sources, including estimates
+
+published by RAND Corporation, together with internal assumptions regarding the portion of global compute
+
+capacity that may be utilized for AI workloads and other operational assumptions such as power usage, utilization
+
+rates and pricing.
+
+These estimates require us to make numerous assumptions and judgments regarding factors that are inherently
+
+uncertain and subject to change, including the pace of technological development, future demand for launch,
+
+connectivity and AI services, the rate of adoption of satellite connectivity and AI technologies, the availability and
+
+cost of power and computing hardware, the evolution of regulatory frameworks, and broader macroeconomic
+
+While we believe our assumptions and the data underlying our estimates are reasonable, these assumptions and
+
+estimates may not be correct and the conditions supporting our assumptions or estimates may change at any time,
+
+thereby reducing the predictive accuracy of these underlying factors. As a result, our estimates of the total
+
+addressable market for our services, as well as the expected growth rate for the total addressable market for our
+
+services, may prove to be inaccurate.
+
+Table of Contents
+
+Many of our initiatives, including those to develop orbital AI compute at scale, manufacture AI chips at scale,
+
+establish a lunar economy, develop human augmentation systems, and transport humans and cargo to the Moon
+
+and Mars, involve significant technical complexity, unproven technologies, or technologies that do not exist or
+
+may require significant advancement, and such initiatives may not achieve commercial viability.
+
+Our initiatives to develop orbital AI compute at scale, establish a lunar economy, develop human augmentation
+
+systems, and transport humans and cargo to the Moon and Mars are in early stages of conception, design and
+
+development and have not yet been proven at commercial scale, or at all, and may ultimately be unsuccessful. In
+
+particular, the timeline for these initiatives, and the launch cadence required to achieve them may be difficult or
+
+impossible to determine. These efforts require substantial and ongoing investments of financial, technical, and
+
+human resources over extended time horizons, including, but not limited to, research and development, testing,
+
+infrastructure, regulatory approvals, and mission execution. The technologies, systems, and operational capabilities
+
+required for each of these initiatives involve significant technical complexity and are subject to design, engineering,
+
+and performance risks, many of which may only become apparent as development and testing progress. Many of
+
+these technologies, systems and operational capabilities are novel and untested, and we expect to incur significant
+
+capital expenditures over a period of years before our AI products and services and other strategic initiatives,
+
+including AI compute infrastructure and in-orbit, lunar, and interplanetary industrialization efforts, become
+
+profitable, which may never occur. In addition, in-orbit refueling of Starship is essential to our lunar, Mars, asteroid
+
+mining, and other deep space ambitions beyond geostationary Earth orbit. In-orbit refueling is complex, and we have
+
+not yet demonstrated or attempted it. We may not be able to develop, commercialize, scale, or successfully
+
+implement these or other strategic initiatives on the timelines we currently anticipate, or at all. Furthermore, the
+
+viability of orbital AI compute depends in part on the cost advantages of solar energy relative to existing terrestrial
+
+energy sources. To the extent that breakthrough developments in terrestrial energy access, such as advances in
+
+nuclear energy, significantly reduce energy costs or alleviate infrastructure constraints, the viability of our orbital AI
+
+compute infrastructure may be materially diminished. Even if our orbital AI compute infrastructure proves to be
+
+commercially viable, a material slowdown in the growth of AI applications and related compute demand could result
+
+in existing terrestrial data centers sufficiently meeting such demand, thereby reducing the need for our orbital AI
+
+compute infrastructure. As a result, we may be required to devote financial, technical, human or other resources in
+
+excess of our current expectations, and there can be no assurance that these investments will generate adequate
+
+revenue, which could adversely affect our business, financial condition, results of operations, and future prospects.
+
+Several of our anticipated market opportunities, including certain AI, orbital, lunar, and interplanetary
+
+transportation and industrial activities, are still emerging and evolving or do not currently exist, and such
+
+markets may not develop as we expect, or at all.
+
+A portion of our anticipated market opportunities is associated with industries described in the section entitled
+
+�Business�Future Markets.� Certain of these industries, such as space tourism, human augmentation, and cargo
+
+transport to the Moon, are still emerging. Others, including in-orbit manufacturing, passenger transport to the Moon,
+
+an established human presence or gateway hub on the Moon, passenger and cargo transport to Mars, energy
+
+production on the Moon or Mars, manufacturing capabilities on the Moon or Mars, and asteroid mining do not exist
+
+today. Any estimate we make regarding the size or timing of our anticipated market opportunities is inherently
+
+uncertain and necessarily involves significant assumptions about future customer demand, adoption, technological
+
+development, regulatory conditions and the emergence of a broader commercial market that does not currently exist.
+
+While we believe these industries will develop over time, the manner in which they emerge, including the timing of
+
+commercialization, the scale and pace of adoption, and the applicable technical, regulatory, geopolitical and
+
+economic frameworks may differ materially from our current expectations. If these industries do not develop,
+
+develop on slower timelines, at smaller scales, or under different economic or regulatory conditions than we
+
+anticipate, this could require us to modify, delay, or abandon certain of our business plans, or cause such plans not to
+
+develop at all, which could materially and adversely affect our business, financial condition, results of operations,
+
+and future prospects.
+
+Table of Contents
+
+The global nature of our business poses risks with respect to unstable, malicious or arbitrary legal regimes and
+
+We, particularly through Starlink, maintain global operations. As a result, we may face risks that our operations will
+
+be subject to unstable, capricious, or malicious legal regimes and authorities. The increasing militarization of space
+
+and the potential development of space-based warfare capabilities may expose our assets and operations to
+
+heightened geopolitical and security risks, including the risk that foreign governments or other actors could target
+
+our satellites or related infrastructure. Certain foreign governments have publicly discussed the potential use of anti-
+
+satellite weapons against the Starlink constellation. These and other actions by foreign governments, whether
+
+through military, regulatory or other means, may adversely affect our operations and assets. Even if we attempt to
+
+comply with known local laws, our assets (both physical, intangible and financial) may be subject to seizure or other
+
+expropriation. There is no guarantee that we will be able to maintain operations in any jurisdiction, and, if our assets
+
+or properties are subject to seizure or other expropriation, there can be no assurances that we will be able to recover
+
+our assets or properties. Any such legal or other governmental action could have an adverse effect on us. For
+
+example, in August 2024, Starlink received an order from Brazil�s Supreme Court that froze Starlink�s Brazilian
+
+financial assets and prevented Starlink from conducting financial transactions in Brazil (the �Brazil Asset Seizure�).
+
+The action taken by the Brazilian Supreme Court arose out of purported violations of Brazilian law by X, which at
+
+the time was not owned by us and was only affiliated with Mr. Musk. It is possible that we may be subject to actions
+
+like the Brazil Asset Seizure in the future (whether in Brazil or another country) and, regardless of whether any such
+
+action is consistent with local and international law, we may never recover assets seized in any similar action.
+
+Additionally, actions that we take to minimize the impact of actions such as the Brazil Asset Seizure to our
+
+customers, for example, by continuing to provide service without charge or otherwise altering payment processes
+
+and methods to permit customers to maintain service, may have a material impact on our financial performance. As
+
+evidenced by the Brazil Asset Seizure, we may be subject to adverse actions from governmental actors on the basis
+
+of assumptions, facts or events that are not directly related to our operations and instead relate to the actions of our
+
+directors, officers, or shareholders or operations of businesses that are affiliated with them.
+
+Our services are subject to risks related to supplying services to the U.S. government.
+
+Supplying services to the U.S. government subjects us to unique risks, including compliance with complex
+
+regulations, vulnerability to changes in government priorities or funding levels, and exposure to contractual disputes
+
+or audits. In 2025, approximately one-fifth of our revenue was attributable to agencies within the U.S. federal
+
+government. As a contractor to various U.S. government agencies, we are subject to extensive federal procurement
+
+regulations, including the Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation
+
+Supplement (DFARS), as well as other rules governing cost accounting, cybersecurity, ethics, and national security.
+
+These regulations impose stringent requirements on our operations, business practices, and reporting, and
+
+noncompliance could result in civil or criminal penalties, suspension or debarment from government contracting, or
+
+loss of existing or future business. These requirements, although customary in U.S. government contracts, increase
+
+our performance and compliance costs. These costs might increase in the future. For those reasons and in order to
+
+achieve our orbital compute goals, we may prioritize our own launch payloads over additional U.S. government
+
+contracts or third-party customers. This prioritization of launch capacity may limit revenue growth in our Space
+
+segment, and impact our relationship with regulators, and could invite litigation from customers or competitors. In
+
+addition, government contracts are susceptible to unilateral termination, reduction in scope, or delays at the
+
+government�s convenience, which may occur due to shifting budgetary priorities, changes in defense or space
+
+policy, or the reallocation of funding to other programs. The termination or reduction of funding for a government
+
+program could result in a loss of anticipated future revenue attributable to that program. The actual receipt of
+
+revenue on awards may never occur or may change because a program schedule could change or the program could
+
+be canceled, or a contract could be reduced, modified, or terminated early. In addition, in certain circumstances,
+
+governments or other customers may be reluctant to rely on our satellite connectivity or defense-related services if
+
+they believe the availability of such services could be restricted or suspended based on geopolitical considerations,
+
+conflicts, sanctions, or other policy determinations, which could adversely affect our ability to win or retain
+
+contracts. In addition, our significant business relationships with U.S. defense and government agencies may cause
+
+us to be perceived as closely aligned with the U.S. government or military. This perception could discourage certain
+
+consumers, enterprises, or foreign governments from purchasing our products and services which could adversely
+
+Table of Contents
+
+affect our sales in the United States and internationally. We and our facilities could also be targeted by foreign
+
+adversaries and non-state actors due to such perception. Government customers may also subject our contracts to
+
+rigorous audits and investigations, which can result in disputes regarding contract performance, cost allowability, or
+
+compliance with applicable laws and regulations. Adverse audit findings or contractual disputes could lead to
+
+repayments, financial penalties, or restrictions on our ability to compete for future contracts.
+
+Certain of our government contracts also require that we maintain facility security clearances and that certain of our
+
+employees obtain and maintain personnel security clearances. Obtaining and maintaining these clearances involves a
+
+lengthy and uncertain process and depends on factors outside of our control, and we may experience delays in
+
+receiving required clearances or be unable to hire or retain a sufficient number of employees with the necessary
+
+clearances to perform under certain contracts. If we are unable to obtain or maintain required facility or personnel
+
+security clearances, we may be unable to bid on, win, or perform certain classified programs, and existing contracts
+
+could be terminated or not renewed, which could materially and adversely affect our business, financial condition,
+
+results of operations, and future prospects.
+
+Further, our business is subject to economic sanctions and trade embargo laws, various import regulations, including
+
+tariffs, and stringent U.S. import and export control laws. Any failure by us to comply with any of the foregoing
+
+could result in our debarment from government contracts, limitations on our ability to enter into contracts with the
+
+U.S. government, civil or criminal penalties, fines, investigations, more onerous compliance requirements, or loss of
+
+export privileges.
+
+We derive significant revenue from U.S. government contracts that are subject to competitive bidding, funding
+
+approvals and other government budgetary processes, which factors could adversely affect our business, financial
+
+condition, results of operations, and future prospects.
+
+We derive significant revenue from U.S. government contracts that were awarded through a competitive bidding
+
+process. Competitive bidding presents a number of risks, including: the need to bid on programs in advance of the
+
+completion of their design, which may result in unforeseen technological difficulties and cost overruns; the
+
+substantial cost and managerial time and effort that must be spent to prepare bids and proposals for contracts that
+
+may not be awarded to us; the need to estimate accurately the resources and cost structure that will be required to
+
+service any contract we are awarded; and the expense and delay that may arise if interested parties or our
+
+competitors protest or challenge contract awards made to us pursuant to competitive bidding, and the risk that any
+
+such protest or challenge could result in the delay of our contract performance, the distraction of management, the
+
+resubmission of bids on modified specifications, or in termination, reduction or modification of the awarded
+
+Our business with governmental entities is subject to changes in policies, priorities, regulations, mandates, and
+
+funding levels, any of which could materially impact our operations and financial results. U.S. government program
+
+funding is subject to Congressional appropriations on a fiscal year basis even though contract performance may take
+
+more than one year. As a result, at the outset of a major program, the contract is usually incrementally funded and
+
+additional funds are normally committed to the contract only as Congress makes appropriations in future fiscal
+
+years. U.S. government contracts may also be undefinitized at the time of the start of performance. Under
+
+undefinitized contract actions, the U.S. government has the ability to unilaterally definitize contracts and, absent a
+
+successful appeal of such action, the unilateral definitization of the contract would obligate us to perform under
+
+terms and conditions imposed by the U.S. government. Such unilaterally imposed contract terms could include less
+
+favorable pricing or terms and conditions more burdensome than those negotiated in other circumstances. U.S.
+
+government contracts typically involve long lead times for design and development and are subject to

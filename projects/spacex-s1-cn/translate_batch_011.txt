@@ -1,0 +1,619 @@
+al Dispute�).
+
+The selection of the Business Court as the exclusive forum for Internal Disputes may limit a shareholder�s ability to
+
+bring a claim in a judicial forum that it finds favorable for disputes with us or our directors, officers, other
+
+managerial officials, or other employees, which may discourage lawsuits against us and our directors, officers, other
+
+managerial officials, and other employees. Except to the extent that the Company consents in writing, or a court of
+
+competent jurisdiction determines in a final and unappealable judgment, that an Internal Dispute is not subject to the
+
+sole and exclusive venue and forum or jurisdiction of the Business Court or arbitration (as described further below),
+
+a shareholder will not be permitted to litigate an Internal Dispute in federal court or in any state court other than the
+
+Business Court, and will not be able to avail itself of any potential advantages or procedural protections of such
+
+other forums. Any person or entity purchasing or otherwise acquiring any interest in our shares of capital stock will
+
+be deemed to have notice of and have consented to these provisions. For more information, please refer to
+
+�Description of Capital Stock�Anti-Takeover Effects of Provisions of Our Charter, our Bylaws and Texas Law.�
+
+SpaceX maintains that the Forum Selection Bylaw, including without limitation the selection of the Business Court
+
+as the sole and exclusive forum for all actions brought under federal securities laws, accords with the law and is
+
+enforceable. However, the law governing the selection of a forum other than a federal court for certain actions
+
+brought under the federal securities laws is unsettled, and there is some risk that, if an Internal Dispute were filed
+
+Table of Contents
+
+under the Exchange Act (or the rules and regulations thereunder) in a court other than the Business Court, that court
+
+could deny a motion to transfer the action to the Business Court pursuant to the Forum Selection Bylaw.
+
+Accordingly, the bylaws provide that to the extent that a court of competent jurisdiction were to determine in a final
+
+and unappealable judgment that an Internal Dispute is not subject to the sole and exclusive venue and forum or
+
+jurisdiction of the Business Court (such Internal Dispute, an �Other Dispute�), such Other Dispute would be
+
+exclusively and finally settled by arbitration, pursuant to the Texas Arbitration Act, under the Expedited Procedure
+
+Provisions of the Rules of the International Chamber of Commerce, pursuant to Article 30 thereof. To be clear,
+
+absent Company consent, a shareholder would not be able to file an arbitration demand pursuant to the Dispute
+
+Resolution Clause without first obtaining a final and unappealable judgment that the shareholder�s Internal Dispute
+
+is not subject to the sole and exclusive venue and forum or jurisdiction of the Business Court. The governing law of
+
+such Other Dispute would be the federal law of the United States or the law of the State of Texas, as applicable to
+
+the issues raised in the Other Dispute, including without limitation the pleading and discovery limitations of the
+
+Private Securities Litigation Reform Act.
+
+Given the unsettled nature of the law in this area, there is also some risk that a court that has denied a motion to
+
+transfer an Internal Dispute to the Business Court pursuant to the Forum Selection Bylaw would also deny a motion
+
+to compel arbitration of such Other Dispute pursuant to the Forum Selection Bylaw. Accordingly, the Forum
+
+Selection Bylaw further provides that to the extent that a court of competent jurisdiction determines in a final and
+
+unappealable judgment that such Other Dispute cannot be compelled to arbitration pursuant to the Forum Selection
+
+Bylaw, the sole and exclusive forum for the adjudication and trial of such Other Dispute will be the United States
+
+District Court for the Southern District of Texas, Houston Division (the �Federal Court�).
+
+Finally, the Forum Selection Bylaw provides that to the extent that a court of competent jurisdiction determines in a
+
+final and unappealable judgment that the Federal Court lacks jurisdiction over any such Other Dispute, the sole and
+
+exclusive forum and venue for such Other Dispute will be the state district courts of Harris County, Texas.
+
+Regardless of the forum, venue, or procedures selected for an Internal Dispute or Other Dispute, our bylaws shall
+
+require that any Internal Dispute or Other Disputes be brought only as an individual action or derivative proceeding,
+
+and, to the fullest extent permitted by law, shall prohibit shareholders from bringing such an Internal Dispute or
+
+Other Dispute as a class action, mass action, or other form of collective action or from being consolidated or joined,
+
+in whole or in part, consistent with the Arbitration Rules. However, the Company, at its sole option, may elect to
+
+seek consolidation or joinder of matters as consistent with the Arbitration Rules.
+
+In addition, our bylaws will provide that any person or entity purchasing or otherwise acquiring or holding any
+
+interest in shares of stock of the Company shall be deemed to have irrevocably and unconditionally waived any right
+
+it may have to a trial by jury in any Internal Dispute. This will prevent a shareholder from requesting that a jury
+
+decide disputed issues of fact and may discourage lawsuits against us and our directors, officers, other managerial
+
+officials, and other employees.
+
+These dispute resolution rules that our bylaws will establish for Internal Disputes, as well as the Arbitration Rules to
+
+the extent they will apply, are different from the procedural rules that would normally apply to the litigation of
+
+Internal Disputes in state or federal court. They may prevent a shareholder from availing itself of procedural
+
+protections that would be available under litigation in state or federal court and may render available or affect
+
+adversely the rights and remedies available to shareholders in such proceedings. Particularly in the case of
+
+arbitration, including its prohibition on class or collective actions, these dispute resolution rules may also result in
+
+greater costs being imposed on shareholders to litigate Internal Disputes, and in some cases involving lower amounts
+
+in controversy, the additional costs that may be imposed on shareholders to litigate Internal Disputes could exceed
+
+the potential recovery from such litigation.
+
+It is possible that one or more provisions of our bylaws, including those regarding the exclusive forum for Internal
+
+Disputes, mandatory arbitration for Other Disputes, or waiver of the right to proceed on a class, mass, or collective
+
+basis, may be found by a court to be inapplicable or unenforceable. In addition, the mandatory arbitration provision
+
+in our bylaws could be subject to litigation or regulatory scrutiny, which could result in the provision being enjoined
+
+or in additional costs or uncertainty. In such case, we may incur additional costs or delays associated with resolving
+
+Table of Contents
+
+such actions, including in other jurisdictions, which could adversely affect our business, financial condition, or
+
+results of operations.
+
+Table of Contents
+
+CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS
+
+This prospectus contains forward-looking statements. Forward-looking statements include those that express a
+
+belief, expectation, or intention, as well as those that are not statements of historical fact. Forward-looking
+
+statements contained in this prospectus include information regarding our future operating results and financial
+
+position, our business strategy and plans and our objectives for future operations. Forward-looking statements
+
+contained in this prospectus also include, but are not limited to, statements about:
+
+� the development and deployment of Starship in accordance with our anticipated schedule (including
+
+commencement of payload delivery to orbit in 2026) and launch cadence and our ability to achieve expected
+
+performance, reusability, and cost efficiencies;
+
+� the size and growth of our various existing and future markets, including the markets for commercial launch
+
+services, satellite connectivity services, our AI platforms, AI compute infrastructure (terrestrial and orbital),
+
+lunar-related activities and interplanetary activities, including the extent to which such markets develop,
+
+particularly emerging or unproven markets that may not materialize as expected or on anticipated timelines;
+
+� demand for our products and services, including our launch, connectivity, and AI offerings, and our ability to
+
+grow our customer base and generate revenue;
+
+� the deployment of our next-generation Starlink satellites, satellite-to-mobile connectivity, and orbital AI
+
+compute infrastructure (including potential deployment of our orbital AI compute satellites as early as 2028),
+
+including our ability to successfully develop, scale, and commercialize such technologies, which are subject to
+
+significant technical complexity, capital requirements, new innovations and regulatory approvals;
+
+� our target launch cadence and expansion of our manufacturing and operational capacity necessary to support our
+
+strategies, including our ability to scale production, supply chain, infrastructure, and workforce efficiently;
+
+� our ability to execute our growth strategy and scale our operations efficiently, including managing costs,
+
+timelines, and operational complexity;
+
+� our ability to solve novel issues and navigate and monetize technologies and environments that have never been
+
+accessed or economized before;
+
+� our ability to design, develop and successfully commercialize new and innovative technologies, products, and
+
+services, including our AI platforms and Terafab, and our ability to achieve and maintain a low cost per token,
+
+in each case in rapidly evolving and competitive markets;
+
+� our ability to scale and monetize our AI products and services, including the development, performance, and
+
+adoption of our frontier models and related applications, and to realize benefits from related acquisitions and
+
+initiatives, such as our arrangement with Cursor;
+
+� the amount, nature and timing of our capital expenditures and the impact of such capital expenditures on our
+
+growth and performance, including our ability to fund such expenditures, manage costs, strategically reduce
+
+costs and achieve expected returns on investment;
+
+� our ability to obtain sufficient power, GPUs, and other critical components and manage our supply chain to
+
+support our operations and growth;
+
+� our ability to obtain and maintain required regulatory approvals, licenses and spectrum authorizations in the
+
+United States and internationally, and the timing, scope, and conditions of such approvals;
+
+� the competitive landscape in the industries in which we operate and our ability to compete effectively;
+
+� the implementation, interpretation, and impact of current or future regulations including laws and regulations
+
+relating to space operations, communications, AI, data privacy, and other areas;
+
+� our ability to realize benefits and manage risks of being a public company; and
+
+Table of Contents
+
+� general economic conditions.
+
+These forward-looking statements may be accompanied by words such as �anticipate,� �believe,� �estimate,�
+
+�expect,� �intend,� �may,� �outlook,� �plan,� �potential,� �predict,� �project,� �will,� �should,� �could,� �would,�
+
+�likely,� �future,� �budget,� �goal,� �commit,� �pursue,� �target,� �seek,� �objective� or the negative of these
+
+words, or similar expressions that are predictions of or indicate future events or trends that do not relate to historical
+
+matters. We caution you that the foregoing list may not contain all of the forward-looking statements made in this
+
+The forward-looking statements in this prospectus speak only as of the date of this prospectus, or such other date as
+
+specified herein. We undertake no obligation to update these statements unless required by law, and we caution you
+
+not to place undue reliance on them. Forward-looking statements are not assurances of future performance and
+
+involve risks and uncertainties. We have based these forward-looking statements on our current expectations and
+
+assumptions about future events. Forecasts, goals, milestones, and expectations that cover multi-year time horizons,
+
+or unknown timelines, inherently involve increased risks with respect to predictability and actual results may differ
+
+materially from current expectations. While our management considers these expectations and assumptions to be
+
+reasonable, they are inherently subject to significant business, economic, competitive, regulatory, technological,
+
+environmental, political, and other risks, contingencies and uncertainties, which are difficult to predict and many of
+
+which are beyond our control. These risks, contingencies, and uncertainties and other important factors are described
+
+in the �Risk Factors� and �Management�s Discussion and Analysis of Financial Condition and Results of
+
+Operations� sections of this prospectus. Should one or more of such risks or uncertainties occur, or should
+
+underlying assumptions prove incorrect, our actual results, performance, achievements or plans could differ
+
+materially from those expressed or implied in any forward-looking statements. In addition, because we operate in
+
+rapidly evolving and certain highly competitive markets, we may from time to time rapidly adjust, modify or change
+
+our strategic priorities, capital allocation, product or service focus or operational initiatives in response to
+
+technological developments, competitive dynamics, regulatory changes or other factors, which could cause actual
+
+results to differ materially from those expressed or implied by the forward-looking statements contained herein. New
+
+risks emerge from time to time, some risks are inherently unknown to us, and it is not possible for our management
+
+to predict all such risks. Many of the risks and uncertainties that could materially adversely affect us or our prospects
+
+are beyond our control or relate to portions of our business strategy that have a lengthy time horizon or involve
+
+unprecedented ventures. This can make assessment of certain risks more difficult and you should factor these
+
+uncertainties into your assessment of an investment in our Class A common stock. All forward-looking statements in
+
+this prospectus are expressly qualified in their entirety by the cautionary statements in this section.
+
+Table of Contents
+
+We expect to receive approximately $           of net proceeds from this offering (or $           if the underwriters
+
+exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial
+
+public offering price of $           per share (which is the midpoint of the price range set forth on the cover page of this
+
+prospectus) after deducting underwriting discounts and commissions and estimated offering expenses payable by us.
+
+We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI
+
+compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the scale and
+
+capacity of our satellite constellations, and any remaining amounts for general corporate purposes.
+
+Assuming no exercise of the underwriters� option to purchase additional shares, each $1.00 change in the assumed
+
+initial public offering price of $           per share (which is the midpoint of the price range set forth on the cover page
+
+of this prospectus) would cause the net proceeds from this offering, after deducting the underwriting discounts and
+
+commissions and estimated offering expenses payable by us, to change by approximately $          million, assuming
+
+no change to the number of shares of our Class A common stock offered by us, as set forth on the cover page of this
+
+prospectus. Similarly, an increase (decrease) of one million shares of Class A common stock sold in this offering by
+
+us would increase (decrease) our net proceeds by $          million, assuming the initial public offering price of
+
+$           per share (which is the midpoint of the price range set forth on the cover page of this prospectus) remains
+
+the same, and after deducting the underwriting discounts and commissions and estimated offering expenses payable
+
+by us. If the net proceeds increase for any reason, we would use the additional net proceeds for the purposes set forth
+
+above. If the net proceeds decrease for any reason, then we expect that we would use the lower amount of net
+
+proceeds for the purposes set forth above.
+
+The expected use of net proceeds from this offering represents our intentions based upon our present plans and
+
+business conditions. We cannot predict with certainty all of the particular uses for the net proceeds from this offering
+
+or the amounts that we will actually spend on each of the uses set forth above. Accordingly, our management will
+
+have significant flexibility in applying the net proceeds from this offering. The timing and amount of our actual
+
+expenditures will be based on many factors, including cash flows and the anticipated growth of our business.
+
+Table of Contents
+
+We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable
+
+future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future
+
+dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our
+
+results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our
+
+ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may
+
+deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter
+
+into credit agreements or other borrowing arrangements in the future that restrict our ability to declare or pay cash
+
+dividends or make distributions in the future. Please refer to �Management�s Discussion and Analysis of Financial
+
+Condition and Results of Operations�Liquidity and Capital Resources� for a description of the restrictions on our
+
+ability to pay dividends.
+
+Please refer to �Risk Factors�Risks Related to Our Corporate Structure, Ownership of our Class A Common Stock
+
+and This Offering�Our ability to provide returns to shareholders will depend on appreciation in our share price, as
+
+we do not plan to pay dividends for the foreseeable future.�
+
+Table of Contents
+
+The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026 :
+
+� on an actual basis;
+
+� on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March
+
+31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii)
+
+the effectiveness of our charter, which will become effective upon the completion of this offering; and
+
+� on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of
+
+shares of our Class A common stock in this offering at an assumed initial offering price of $           per share,
+
+which is the midpoint of the range set forth on the cover page of this prospectus, and (iii) the application of the
+
+net proceeds from this offering as described under �Use of Proceeds.�
+
+The table below should be read in conjunction with, and is qualified in its entirety by reference to �Management�s
+
+Discussion and Analysis of Financial Condition and Results of Operations,� �Description of Capital Stock� and our
+
+consolidated financial statements and related notes included elsewhere in this prospectus .
+
+As of March 31, 2026
+
+(Dollars in millions, except par values)
+
+Cash and cash equivalents .............................................................
+
+SpaceX Credit Facility (1) .........................................................
+
+SpaceX Bridge Loan (2) ............................................................
+
+X 2027 and X 2030 Notes ........................................................
+
+Other Financings (3) ..................................................................
+
+Unamortized deferred financing costs ......................................
+
+Total long-term debt ............................................................
+
+Redeemable convertible preferred stock :
+
+Redeemable convertible preferred stock, par value $0.001 ;
+
+189,155,861 shares issued and 134,451,267 shares
+
+outstanding, actual; no shares authorized, issued or
+
+outstanding, pro forma and pro forma as adjusted ...............
+
+Shareholders� equity:
+
+Class A common stock, par value $0.001 ; 2,964,501,353
+
+shares issued and 2,882,444,444 shares outstanding,
+
+actual; 36,132,150,000 shares authorized, 6,824,581,339
+
+shares issued and outstanding, pro forma; 36,132,150,000
+
+shares authorized,                shares issued and outstanding,
+
+pro forma as adjusted ............................................................
+
+Class B common stock, par value $0.001 ; 2,421,276,530
+
+shares issued and outstanding, actual;
+
+6,125,000,000 shares authorized, 5,695,729,430 shares
+
+issued and outstanding, pro forma and pro forma as
+
+adjusted .................................................................................
+
+Class C common stock, par value $0.001 ; 494,026,445
+
+shares issued and outstanding, actual; 10,000,000,000
+
+shares authorized, no shares issued or outstanding, pro
+
+forma and pro forma as adjusted ..........................................
+
+Class D common stock, par value $0.0001 ; no shares issued
+
+and outstanding, actual; no shares authorized, issued or
+
+outstanding, pro forma and pro forma as adjusted ...............
+
+Table of Contents
+
+Preferred stock, par value $0.001 ; no shares issued and
+
+outstanding, actual; 2,400,000,000 shares authorized, no
+
+shares issued or outstanding, pro forma and pro forma as
+
+adjusted .................................................................................
+
+Additional paid-in capital .........................................................
+
+Accumulated deficit .................................................................
+
+Accumulated other comprehensive income .............................
+
+Total shareholders� equity ...................................................
+
+Total capitalization ........................................................................
+
+________________
+
+(1) As of April 30, 2026, we had no borrowings outstanding under the SpaceX Credit Facility. In May 2026, the SpaceX Credit Facility was
+
+amended to increase the borrowing capacity up to $5,000 million (�Amended SpaceX Credit Facility�). The Amended SpaceX Credit
+
+Facility terminates, and all outstanding loans become due and payable, on May 19, 2031, unless the parties agree to an extension in
+
+accordance with the terms of the Amended SpaceX Credit Facility. For more information on the SpaceX Credit Facility and Amended
+
+SpaceX Credit Facility, please see �Management's Discussion and Analysis of Financial Condition and Results of Operations�Liquidity
+
+and Capital Resources�Debt Agreements.�
+
+(2) As of April 30, 2026, we had $20,000 million of borrowings outstanding under the SpaceX Bridge Loan. The SpaceX Bridge Loan matures
+
+on September 2, 2027, subject to extension in accordance with the terms of the agreement. For more information on the SpaceX Bridge
+
+Loan, please see �Management's Discussion and Analysis of Financial Condition and Results of Operations�Liquidity and Capital
+
+Resources�Debt Agreements.�
+
+(3) Includes obligations related to certain AI infrastructure assets recorded as failed sale-leaseback transactions.
+
+Table of Contents
+
+Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the
+
+net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value
+
+as of March 31, 2026 was approximately $              , or $                per share of Class A common stock. Net tangible
+
+book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the
+
+total number of outstanding shares of all classes of common stock outstanding immediately prior to the completion
+
+of this offering. After giving effect to the sale of shares of Class A common stock in this offering, the payment of
+
+underwriting discounts and commissions and estimated offering expenses by us, the Class C Reclassification and the
+
+Preferred Conversion as if such reclassification and conversion occurred on March 31, 2026, our adjusted pro forma
+
+net tangible book value as of March 31 , 2026 would have been approximately $                , or $                per share of
+
+Class A common stock. This represents an immediate decrease in the net tangible book value of $                per share
+
+of Class A common stock to Mr. Musk and other existing investors and an immediate dilution (i.e., the difference
+
+between the offering price and the adjusted pro forma net tangible book value immediately after this offering) to
+
+new investors purchasing shares of Class A common stock in this offering of $                per share. The following
+
+table illustrates the per share dilution to new investors purchasing shares of Class A common stock in this offering:
+
+Initial public offering price per share ........................................................................
+
+Pro forma net tangible book value per share as of March 31, 2026 ..........................
+
+Decrease per share attributable to new investors in this offering ..............................
+
+As adjusted pro forma net tangible book value per share after giving further effect
+
+to this offering ........................................................................................................
+
+Dilution in pro forma net tangible book value per share to new investors in this
+
+offering (1) ...............................................................................................................
+
+(1) If the initial public offering price were to increase or decrease by $1.00 per share, then dilution in pro forma net tangible book value per
+
+share of Class A common stock to new investors in this offering would equal $                or $                , respectively. Similarly, if the
+
+number of shares of Class A common stock offered by us were to increase or decrease by                      shares, then dilution in pro forma net
+
+tangible book value per share of Class A common stock to new investors in this offering would be $                or $                , respectively.
+
+The following table summarizes, on an adjusted pro forma basis as of March 31, 2026, the total number of shares of
+
+Class A and Class B common stock owned by Mr. Musk and other existing investors and to be owned by new
+
+investors in this offering, the total consideration paid, and the average price per share paid by Mr. Musk and other
+
+existing investors and to be paid by new investors in this offering at $                , calculated before deduction of
+
+underwriting discounts and commissions and estimated offering expenses.
+
+Shares Acquired (1)
+
+Total Consideration (2)
+
+Elon Musk and other existing
+
+investors ............................................
+
+New investors in this offering ............
+
+Total ...................................................
+
+(1) If the underwriters exercise their option to purchase additional shares in full, Mr. Musk and other existing investors would own
+
+approximately                % and our new investors in this offering would own approximately                % of the total number of shares of our
+
+common stock outstanding after this offering.
+
+(2) If the underwriters exercise their option to purchase additional shares in full, the total consideration paid by our new investors would be
+
+approximately $                (or                %).
+
+Each $1.00 increase or decrease in the assumed initial public offering price would increase or decrease, as
+
+applicable, the total consideration paid by new investors and the total consideration paid by all shareholders by
+
+$           million, assuming that the number of shares of Class A common stock offered by us remains the same and
+
+after deducting estimated underwriting discounts and commissions and estimated offering expenses payable by us.
+
+Similarly, an increase or decrease of                      shares in the number of shares of Class A common stock offered
+
+by us would increase or decrease, as applicable, the total consideration paid by new investors and the total
+
+Table of Contents
+
+consideration paid by all shareholders by $              million, assuming that the assumed initial public offering price
+
+remains the same and after deducting estimated underwriting discounts and commissions and estimated offering
+
+expenses payable by us.
+
+Table of Contents
+
+MANAGEMENT�S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF
+
+The following discussion and analysis of our financial condition and results of operations should be read in
+
+conjunction with our audited consolidated financial statements and the related notes and other financial information
+
+included elsewhere in this prospectus. In addition to historical consolidated financial information, the following
+
+discussion contains forward-looking statements that reflect our plans, estimates, and beliefs. Our actual results
+
+could differ materially from those discussed in the forward-looking statements. You should review the sections titled
+
+�Cautionary Note Regarding Forward-Looking Statements� for a discussion of forward-looking statements and
+
+�Risk Factor

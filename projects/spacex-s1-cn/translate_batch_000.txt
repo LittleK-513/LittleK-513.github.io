@@ -1,0 +1,631 @@
+As filed with the U.S. Securities and Exchange Commission on May 20, 2026
+
+Registration No. 333-
+
+SECURITIES AND EXCHANGE COMMISSION
+
+WASHINGTON, DC 20549
+
+REGISTRATION STATEMENT
+
+UNDER THE SECURITIES ACT OF 1933
+
+Space Exploration Technologies Corp.
+
+(Exact name of registrant as specified in its charter)
+
+(State or other jurisdiction of incorporation or
+
+(Primary Standard Industrial Classification Code
+
+(I.R.S. Employer Identification Number)
+
+Starbase, Texas 78521
+
+(Address, including zip code, and telephone number, including area code, of registrant�s principal executive offices)
+
+Chief Executive Officer
+
+Starbase, Texas 78521
+
+Tel: (310) 363-6000
+
+(Name, address, including zip code, and telephone number, including area code, of agent for ser vice)
+
+George J. Sampas
+
+Hillary H. Holmes
+
+Gibson, Dunn & Crutcher LLP
+
+811 Main Street, Suite 3000
+
+Houston, Texas 77002
+
+Tel: (346) 718-6600
+
+Space Exploration Technologies Corp.
+
+Hawthorne, California 90250
+
+Tel: (310) 363-6000
+
+Alan F. Denenberg
+
+Stephen A. Byeff
+
+Davis Polk & Wardwell LLP
+
+450 Lexington Avenue
+
+New York, New York 10017
+
+Tel: (212) 450-4000
+
+Approximate date of commencement of proposed sale to the public:
+
+As soon as practicable after this Registration Statement becomes effective.
+
+If any of the securities being registered on this Form are to be offered on a delayed or continuous basis pursuant to Rule 415 under the Securities Act of 1933 check the following
+
+If this Form is filed to register additional securities for an offering pursuant to Rule 462(b) under the Securities Act, check the following box and list the Securities Act registration
+
+statement number of the earlier effective registration statement for the same offering.  ☐
+
+If this Form is a post-effective amendment filed pursuant to Rule 462(c) under the Securities Act, check the following box and list the Securities Act registration statement number
+
+of the earlier effective registration statement for the same offering.  ☐
+
+If this Form is a post-effective amendment filed pursuant to Rule 462(d) under the Securities Act, check the following box and list the Securities Act registration statement number
+
+of the earlier effective registration statement for the same offering.  ☐
+
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company.
+
+See the definitions of �large accelerated filer,� �accelerated filer,� �smaller reporting company� and �emerging growth company� in Rule 12b-2 of the Exchange Act:
+
+Large accelerated filer
+
+Accelerated filer
+
+Non-accelerated filer
+
+Smaller reporting company
+
+Emerging growth company
+
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial
+
+accounting standards provided pursuant to Section 7(a)(2)(B) of the Securities Act.  ☐
+
+The Registrant hereby amends this Registration Statement on such date or dates as may be necessary to delay its effective date until the registrant shall file a further
+
+amendment which specifically states that this Registration Statement shall thereafter become effective in accordance with Section 8(a) of the Securities Act of 1933, as
+
+amended, or until the Registration Statement shall become effective on such date as the Securities and Exchange Commission, acting pursuant to such Section 8(a), may
+
+SUBJECT TO COMPLETION, DATED      , 2026
+
+PRELIMINARY PROSPECTUS
+
+Space Exploration Technologies Corp.
+
+Class A Common Stock
+
+This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies
+
+Corp., a Texas corporation. We are offering                shares of our Class A common stock.
+
+Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $    and
+
+$    per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (�Nasdaq�) and Nasdaq Texas,
+
+Inc. (�Nasdaq Texas�) under the symbol �SPCX.�
+
+Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common stock
+
+and Class B common stock. Each share of Class A common stock will entitle its holder to one vote per share. Each share of Class B
+
+common stock will entitle its holder to 10 votes per share. Class A shareholders and Class B shareholders will vote together as a
+
+single class on all matters to be voted on by shareholders, except Class B shareholders will be entitled to elect a majority of our board
+
+of directors in addition to having certain other class votes as described under �Description of Capital Stock.�
+
+Assuming an offering size as set forth above and an initial public offering price of $                per share (the midpoint of the estimated
+
+price range set forth above), Elon Musk, our founder, Chief Executive Officer, Chief Technical Officer and Chairman of our board,
+
+will hold approximately           % of the voting power of our common stock (or approximately        % if the underwriters exercise their
+
+option to purchase additional shares of Class A common stock in full) immediately after the completion of this offering through his
+
+ownership of shares of our Class A and Class B common stock of which approximately           % he controls through his ownership of
+
+our Class B common stock. As a result, Mr. Musk will be able to control the outcome of matters requiring shareholder approval. This
+
+includes the election of (i) a majority of our board, through his ownership of Class B shares (as Class B Directors), for so long as he
+
+holds a majority of the voting power of the Class B common stock, and (ii) the remainder of our board, for so long as he holds a
+
+majority of the combined voting power of the Class A and Class B common stock. As a result, we will be a �controlled company�
+
+under the corporate governance rules of Nasdaq following the completion of this offering and, as a result, we intend to rely on
+
+exemptions from certain corporate governance requirements. Please refer to �Management�Controlled Company Exemption.�
+
+Investing in our Class A common stock involves risks. Please refer to �Risk Factors� beginning on page 26 of this
+
+The information in this preliminary prospectus is not complete and may be changed. The securities described herein may not be sold until the registration statement filed with the Securities and Exchange
+
+Commission is effective. This prospectus is not an offer to sell such securities, and it is not soliciting an offer to buy these securities, in any jurisdiction where the offer or sale is not permitted.
+
+Initial public offering price ......................................................................................................
+
+Underwriting discounts and commissions (1) ............................................................................
+
+Proceeds, before expenses, to Space Exploration Technologies Corp. ...................................
+
+________________
+
+(1) Please refer to �Underwriting� for a description of all underwriting compensation payable in connection with this offering.
+
+The underwriters may also exercise an option to purchase up to an additional       shares of our Class A common stock from us, at the
+
+initial public offering price, less the underwriting discounts and commissions, for 30 days after the date of this prospectus.
+
+At our request, the underwriters have reserved up to             percent of the shares of Class A common stock to be issued by the
+
+Company and offered by this prospectus for sale, at the initial public offering price, to              . Please refer to �Underwriting�
+
+Directed Share Program.� Neither the Securities and Exchange Commission (the �SEC�) nor any state securities commission has
+
+approved or disapproved of these securities or passed on the adequacy or accuracy of this prospectus. Any representation to the
+
+contrary is a criminal offense.
+
+The shares of Class A common stock will be ready for delivery on or about             , 2026.
+
+Joint Book-Running Managers
+
+Societe Generale
+
+Macquarie Capital
+
+Mirae Asset Securities
+
+Prospectus Dated              , 2026.
+
+Table of Contents
+
+TABLE OF CONTENTS
+
+GLOSSARY OF TERMS .................................................................................................................................
+
+PROSPECTUS SUMMARY ............................................................................................................................
+
+RISK FACTORS ..............................................................................................................................................
+
+CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ...........................
+
+USE OF PROCEEDS .......................................................................................................................................
+
+DIVIDEND POLICY ........................................................................................................................................
+
+CAPITALIZATION .........................................................................................................................................
+
+DILUTION .......................................................................................................................................................
+
+MANAGEMENT�S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS
+
+OF OPERATIONS ........................................................................................................................................
+
+BUSINESS ........................................................................................................................................................
+
+MANAGEMENT ..............................................................................................................................................
+
+EXECUTIVE COMPENSATION ....................................................................................................................
+
+CERTAIN RELATIONSHIPS AND RELATED PERSON TRANSACTIONS .............................................
+
+SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT ....................
+
+DESCRIPTION OF CAPITAL STOCK ..........................................................................................................
+
+SHARES ELIGIBLE FOR FUTURE SALE ....................................................................................................
+
+MATERIAL U.S. FEDERAL INCOME TAX CONSIDERATIONS FOR NON-U.S. HOLDERS OF
+
+CLASS A COMMON STOCK .....................................................................................................................
+
+UNDERWRITING ...........................................................................................................................................
+
+LEGAL MATTERS ..........................................................................................................................................
+
+EXPERTS .........................................................................................................................................................
+
+WHERE YOU CAN FIND ADDITIONAL INFORMATION ........................................................................
+
+INDEX TO FINANCIAL STATEMENTS ......................................................................................................
+
+Neither we nor the underwriters have authorized anyone to provide you with information other than that contained in
+
+this prospectus or in any free writing prospectus authorized by us. We and the underwriters take no responsibility
+
+for, and can provide no assurance as to the reliability of, any other information that others may give you. We and the
+
+underwriters are not making an offer to sell, or seeking offers to buy, our Class A common stock in any jurisdiction
+
+where an offer or sale is not permitted. The information contained in this prospectus or any free writing prospectus is
+
+accurate only as of its date, regardless of its time of delivery or of any sale of shares of our Class A common stock.
+
+Our business, financial condition, results of operations and future prospects may have changed since that date.
+
+For investors outside of the United States: Neither we nor the underwriters have done anything that would permit
+
+this offering, or possession or distribution of this prospectus, in any jurisdiction where action for that purpose is
+
+required, other than the United States. Persons outside of the United States who come into possession of this
+
+prospectus must inform themselves about, and observe any restrictions relating to, the offering of the shares of our
+
+Class A common stock and the distribution of this prospectus outside of the United States.
+
+This prospectus contains forward-looking statements that are subject to a number of risks and uncertainties, many of
+
+which are beyond our control. Please refer to �Risk Factors� and �Cautionary Statement Regarding Forward-
+
+Looking Statements.�
+
+Table of Contents
+
+General Information
+
+Except as otherwise indicated or required by the context, all references to �SpaceX,� the �Company,� �we,� �our�
+
+and �us� or similar terms refer to Space Exploration Technologies Corp. and its consolidated subsidiaries. For the
+
+definitions of certain terms and abbreviations used in this prospectus, please refer to �Glossary of Terms� beginning
+
+on page iv of this prospectus.
+
+References to (i) our �bylaws� are to the form of amended and restated bylaws of the Company (as amended and
+
+restated from time to time) to be effective upon the completion of this offering, (ii) our �charter� are to the form of
+
+restated certificate of formation of the Company to be effective upon the completion of this offering and (iii) �our
+
+board� or �the board� are to the board of directors of the Company.
+
+Basis of Presentation
+
+The consolidated financial statements of SpaceX have been retrospectively recast for all periods presented to include
+
+(i) the historical results of X.AI Holdings Corp., which was acquired by SpaceX, effective February 2, 2026 (the
+
+�xAI Merger�), and X Holdings Corp. (�X Holdings�), which was acquired by xAI, effective March 28, 2025 (the
+
+�X Merger�), because these transactions were between entities under common control, and (ii) a five-for-one stock
+
+split of the Company�s Class A, Class B, and Class C Common Stock, effective May 4, 2026 (the �2026 Stock
+
+Split�). Unless otherwise stated or the context otherwise requires, all share and per share information included in this
+
+prospectus have been retroactively adjusted to reflect the 2026 Stock Split. Refer to Note 1, Nature of Business, to
+
+the audited consolidated financial statements included elsewhere in this prospectus.
+
+Industry and Market Data
+
+Certain market and industry data and forecasts used in this prospectus have been obtained from, are based on, or use
+
+data from, the following reports and sources, among others: (i) Breaking Barriers to Data Center Growth , dated
+
+January 20, 2025, by Boston Consulting Group; (ii) Looming Spectrum Shortfall Could Cost America�s GDP $1.4T,
+
+Jeopardize Continued Function of U.S. Networks, New Report Finds , dated March 27, 2025, by the Cellular
+
+Telecommunications and Internet Association; (iii) Top 50 Countries by Number of Business Aircraft Registered ,
+
+dated January 27, 2026, by Corporate Jet Investor; (iv) Digital Economy Trends 2026 , dated December 2025, by the
+
+Digital Cooperation Organization; (v) Global Fixed Broadband Market Outlook , Ericsson Mobility Report, dated
+
+November 1, 2025, by Ericsson; (vi) Households by Number of Households and by Country , Euromonitor
+
+International Passport 2026 Edition, dated November 5, 2025, by Euromonitor International; (vii) Satellite Solutions
+
+for Universal Service , dated March 2025, by the Global Satellite Operators Association; (viii) Broadband Services
+
+Market Analysis Segment Forecast to 2027 , dated April 2025, by Grand View Research; (ix) Consumer Market
+
+Model H2 2025 � Worldwide Household Internet Penetration , dated March 2026, by International Data Corporation;
+
+(x) World Energy Outlook Special Report: Energy and AI , dated April 2025, by the International Energy Agency;
+
+(xi) The 175 GW Crisis: America�s Power Grid Cannot Keep Up with AI Data Centers , dated January 21, 2026, by
+
+Introl; (xii) As Wireless Network Quality Competition Increases, Customers Benefit , dated July 17, 2025, by J.D.
+
+Power; (xiii) Satellite Statistics: Satellite and Debris Population , dated April 2026, by Jonathan McDowell; (xiv)
+
+2026 Global Data Center Outlook: Navigating AI Demand, Power Constraints and Global Opportunities , dated
+
+January 5, 2026, by JLL; (xv) Global Ship Tracking Intelligence , at marinetraffic.com, as updated from time to time
+
+and last accessed April 13, 2026, by Marine Traffic Dashboard; (xvi) The Cost of Compute: A $7 Trillion Race to
+
+Scale Data Centers , dated April 28, 2025, by McKinsey & Company; (xvii) What is Multimodal AI? , dated June 10,
+
+2025, by McKinsey & Company; (xviii) NASA: Enabling America on the Space Frontier , dated December 2024, by
+
+the National Aeronautics and Space Administration (�NASA�); (xix) Space Act Agreement , dated April 2015, by
+
+NASA; (xx) The Recent Large Reduction in Space Launch Cost , dated July 8, 2018, by NASA; (xxi) 12th Edition
+
+Space Economy Report , dated January 29, 2026, by Novaspace; (xxii) Global Fleet and MRO Market Forecast
+
+2025�2035 , dated February 2025, by Oliver Wyman; (xxiii) Broadband Op Subs by Technology � Forecasts
+
+Summary , dated March 31, 2026, by Omdia; (xxiv) Mobile Forecasts Summary � February 2026 , dated February
+
+18, 2026, by Omdia; (xxv) Data Center Rules and Regulations , dated September 8, 2025, by QTS; (xxvi) AI�s
+
+Power Requirements Under Exponential Growth , dated January 28, 2025, by RAND Corporation; (xxvii) Data
+
+Center Grid-Power Demand to Rise 22% in 2025, Nearly Triple by 2030 , dated October 14, 2025, by S&P Global
+
+Market Intelligence; (xxviii) NVIDIA GTC 2025 � Built for Reasoning, Vera Rubin, Kyber, CPO, Dynamo
+
+Table of Contents
+
+Inference, Jensen Math, Feynman , dated March 18, 2025, by SemiAnalysis; (xxix) NVIDIA Blackwell Ultra
+
+Datasheet , dated February 16, 2026, by SemiAnalysis; (xxx) H100 Rental Price Over Time (2023�2025): A
+
+Complete Market Analysis , dated December 21, 2025, by Silicon Data; (xxxi) Data Centers � Understanding the
+
+Power Consumption of Data Centers , at socomec.us, as updated from time to time and last accessed April 13, 2026,
+
+by Socomec; (xxxii) The Space Report 2025 Q2 Highlights Record $613 Billion Global Space Economy for 2024 ,
+
+dated July 22, 2025, by the Space Foundation; (xxxiii) Median Country Speeds Updated February 2026 , dated
+
+February 2026, by the Speedtest Global Index; (xxxiv) Data Center (Russian Market) Commercial Data Centers ,
+
+dated January 28, 2026, by TAdviser; (xxxv) Merchant Fleet by Flag of Registration and by Type of Ship , dated
+
+June 10, 2025, by the United Nations Conference on Trade and Development; (xxxvi) U.S. Electricity Generation in
+
+2025 Hit a Record, Again , dated March 5, 2026, by the U.S. Energy Information Administration; (xxxvii)
+
+GAO-25-107555, In-Space Servicing, Assembly, and Manufacturing: Benefits, Challenges, and Policy Options ,
+
+dated July 2025, by the U.S. Government Accountability Office; (xxxviii) GDP (current US$) , at
+
+data.worldbank.data.org, as updated from time to time and last accessed April 13, 2026, by the World Bank; (xxxix)
+
+Rural population (% of total population), at data.worldbank.org, as updated from time to time and last accessed May
+
+2, 2026, by the World Bank; (xl) How Data Centres in Space Sustainably Enable the AI Revolution , dated January
+
+16, 2026, by Philip Johnston Co-Founder and Chief Executive Officer, Starcloud, published by the World Economic
+
+Forum; and (xli) Most Americans Use AI but Still Don�t Trust It , dated December 9, 2025, by YouGov. We did not
+
+commission the preparation of any of these reports or sources.
+
+Some market data and statistical information contained in this prospectus are also based on management�s estimates
+
+and calculations, which are derived from our review and interpretation of publicly available industry publications,
+
+our internal research and our knowledge of the markets in which we currently, and will in the future, operate, as well
+
+as the sources referred to above. This information involves a number of assumptions and limitations, and you are
+
+cautioned not to give undue weight to such information. The estimates and assumptions used in determining our
+
+total addressable markets are further detailed in the section titled �Business�Our Market Opportunity,� and you are
+
+urged to read the risk factor titled �The estimates of future market opportunity and forecasts of market growth, and
+
+our ability to capture such markets, included in this prospectus may prove to be inaccurate.� Forecasts and other
+
+forward-looking information obtained from the sources named above are subject to the same qualifications and
+
+uncertainties as the other forward-looking statements in this prospectus.
+
+Statements as to market position, market opportunity and market size are based on data currently available to us, as
+
+well as management�s estimates, judgments, assessments, and assumptions. While we are not aware of any
+
+misstatements regarding market position, market opportunity, and market size information included in this
+
+prospectus, such information, which is derived in part from management�s estimates and beliefs, is inherently
+
+uncertain and imprecise. Projections, assumptions and estimates of estimated market position and market
+
+opportunity and the future performance of the industries in which we operate are necessarily subject to a high degree
+
+of uncertainty and risk due to a variety of factors, including those described in �Risk Factors,� �Cautionary
+
+Statement Regarding Forward-Looking Statements� and elsewhere in this prospectus. These and other factors could
+
+cause results to differ materially from those expressed in the estimates made by third parties and by us. Investors are
+
+cautioned not to place undue reliance on statements of expected future market size or opportunity.
+
+Trademarks and Trade Names
+
+We own or have rights to various trademarks, service marks and trade names that we use in connection with the
+
+operation of our business. This prospectus may also contain trademarks, service marks and trade names of third
+
+parties, which are the property of their respective owners. Our use or display of third parties� trademarks, service
+
+marks, trade names or products in this prospectus is not intended to, and does not imply, a relationship with us or an
+
+endorsement or sponsorship by or of us. Solely for convenience, the trademarks, service marks and trade names
+
+referred to in this prospectus may appear without the �, � or SM symbols, but such references are not intended to
+
+indicate, in any way, that we will not assert, to the fullest extent under applicable law, our rights or the right of the
+
+applicable licensor to these trademarks, service marks and trade names.
+
+Table of Contents
+
+GLOSSARY OF TERMS
+
+The terms and abbreviations defined in this section are used throughout this prospectus :
+
+� �AI� or �artificial intelligence� refers to advanced computational technologies and systems enabling machines
+
+to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function
+
+with growing autonomy.
+
+� �AI compute� or �compute� refers to the computing infrastructure required to train and operate artificial
+
+intelligence models, including, without limitation, specialized processors, networking, storage, and power
+
+systems deployed in data centers or other computing environments.
+
+� �AI compute satellite� refers to a satellite equipped with onboard artificial intelligence processing capabilities
+
+designed to perform data analysis, inference, or other machine learning, automated decision-making and
+
+artificial intelligence algorithms, models and technologies workloads in orbit.
+
+� �AI ecosystem� refers to a complex, multi-layered network of technologies, products, systems, and
+
+infrastructure that develop, leverage, and deploy intelligent systems.
+
+� �AI segment� refers to our AI business, which we acquired in connection with our acquisition of xAI in
+
+February 2026, and includes our AI compute, Grok, and X.
+
+� �AI training cluster� refers to an integrated system that provides computational power required for training and
+
+running advanced AI models.
+
+� �The Algorithm� refers to our five-step iterative process that we use to rapidly innovate and optimize,
+
+emphasizing making the requirements less dumb , deleting unnecessary processes or parts, optimizing the
+
+necessary processes or parts, accelerating cycle timesteps, and automating only proven processes after the first
+
+four steps are completed.
+
+� �Application Programming Interface� or �API� refers to a defined set of rules and protocols that allows
+
+different software systems to communicate with and interact with each other programmatically.
+
+� �ARPU� refers to service revenue generated from Starlink Subscribers during a period divided by (i) the
+
+average number of Starlink Subscribers during the period and by (ii) the number of months in the period.
+
+� �Artemis program� refers to a NASA program aimed at landing humans on the Moon by the late 2020s.
+
+� �booster� refers to the first-stage rocket that provides the primary thrust during launch.
+
+� �booster catch� refers to a recovery method in which a returning first-stage rocket booster is captured mid-air by
+
+mechanical arms on the launch tower rather than on legs at a landing zone or at sea.
+
+� �booster launch� refers to a rocket launch in which a booster stage provides the primary thrust during liftoff and
+
+the initial phase of ascent before separating from the vehicle.
+
+� �bps� refers to bits per second.
+
+� �COLOSSUS� refers to our flagship data center, located on Paul R. Lowry Road in Memphis, Tennessee.
+
+� �COLOSSUS II� refers to our data centers in Memphis, Tennessee and in Southaven, Mississippi. These data
+
+centers are part of our coherent gigawatt-scale AI training cluster.
+
+� �Connectivity segment� refers to our Connectivity segment, which includes Starlink and associated offerings.
+
+� �Credit Agreements� refers to our SpaceX Credit Facility and SpaceX Bridge Loan.
+
+� �crewmember� refers to a person who has traveled on our spacecraft, measuring by each mission.
+
+Table of Contents
+
+� �daily posts� on X and Grok refers to the aggregate volume of original posts, replies, reposts, quotes and media
+
+shared daily by users on the X platform, and the real-time interactions, analysis and generative capabilities
+
+provided to a user by Grok. This may include posts generated by AI or accounts managed by AI.
+
+� �downlink capacity� refers to the maximum rate at which data can be transmitted from a satellite to users over a
+
+network or communication link in a given period of time.
+
+� �Draco thrusters� refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments.
+
+� �Dragon� refers to our Dragon spacecraft.
+
+� �Falcon 1� refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009.
+
+� �Falcon 9� refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload
+
+capacity to LEO of approximately 23 metric tons.
+
+� �Falcon Heavy� refers to our partially reusable super heavy-lift launch vehicle, first launched in 2018, which
+
+has a payload capacity to LEO of approximately 64 metric tons.
+
+� �flight-proven booster launches� refers to a mission utilizing a booster that has previously completed at least
+
+one successful launch and recovery.
+
+� �frontier model� refers to a leading-edge, sophisticated large language model, such as Grok, designed for
+
+rigorous reasoning and real-time information synthesis.
+
+� �Gbps� refers to gigabits per second.
+
+� �geostationary orbit� refers to a high Earth orbit that allows satellites to match Earth�s rotation, appearing
+
+stationary from the ground, often used for communication satellites.
+
+� �geosynchronous transfer orbit� refers to an elliptical orbit used to transfer a spacecraft from a lower orbit to a
+
+geostationary orbit.
+
+� �gigawatt� refers to one billion watts.
+
+� �gigawatt-scale� refers to infrastructure, systems, or facilities that are designed to generate, transmit, or
+
+consume approximately one gigawatt or more of electrical power capacity.
+
+� �GPU� refers to a graphics processing unit.
+
+� �Grok� refers to our family of frontier models, which represents a core pillar of our mission to advance
+
+humanity�s understanding of the universe through the development of truth-seeking artificial intelligence.
+
+� �Grok API� refers to our application programming interface that enables developers to access and integrate
+
+Grok models into external software applications and workflows.
+
+� �Grok Business� refers to our subscription-based offering that provides organizations with access to Grok
+
+models and related tools for use in internal business applications and workflows, designed for deployment by
+
+small-to-medium teams.
+
+� �Grok Enterprise� refers to our subscription-based offering that provides organizations with access to Grok
+
+models and related tools for use in internal business applications and workflows, designed for deployment by
+
+enterprise organizations.
+
+� �Grok Voice� refers to the Grok real-time speech engine.
+
+� �high-density compute� refers to compute infrastructure designed to deliver a large amount of processing power
+
+within a limited physical footprint, typically cha

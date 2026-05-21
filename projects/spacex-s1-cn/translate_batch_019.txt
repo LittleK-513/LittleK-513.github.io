@@ -1,0 +1,571 @@
+ations�Non-GAAP Financial Measures� for additional
+
+information on our non-GAAP financial measures, including reconciliations of Segment Adjusted EBITDA to
+
+segment income (loss) from operations, the most directly comparable GAAP measure .
+
+Why This Matters Now
+
+For the entirety of its existence, human civilization has lived on a single celestial body: Earth. The current paradigm,
+
+in which human civilization is confined to one planet, exposes humanity to existential threats that are unpredictable
+
+and uncontrollable on a planetary scale. These threats include naturally occurring catastrophic events�such as
+
+asteroid impacts, volcanic activity, or solar fluctuations�as well as man-made global conflicts. Geological and
+
+astronomical records indicate a non-zero probability of extinction-level events occurring over periods measurable in
+
+millions of years. Reliance on a single planetary home constitutes a single point of failure and carries existential risk
+
+with a probability of one that must be solved. By moving beyond the only home we have ever known, we ensure
+
+species-level redundancy and that the light of consciousness will not be tied to a single planet subject to the
+
+inevitable hazards of a harsh and vast universe. We do not want humans to have the same fate as dinosaurs. We want
+
+to give them a reason to look ahead with excitement, with the prospect that we are entering an age of abundance
+
+with an endlessly prosperous and exciting future.
+
+Artist Visualization of Life on Mars
+
+Table of Contents
+
+For decades, a reality where humanity travels between the planets and the stars has felt tantalizingly close but still
+
+locked in the pages and screens of science fiction. We are capable of better understanding the universe, exploring the
+
+universe, and ultimately making life multiplanetary across the universe. We are becoming a civilization with the
+
+ability to reach beyond Earth�s cradle and begin to inhabit other worlds. While we remain dedicated to this
+
+fundamental mission, our progress in accessing space continues to yield opportunities that enrich life on Earth.
+
+We believe our steps into the expanse will be accelerated by the rapid emergence of AI. As humanity moves into the
+
+unknown, we believe AI will be our greatest tool for innovation and navigation, helping us better understand day-to-
+
+day life and the universe, and master the complexity of establishing new civilizations in the far-flung reaches of
+
+space. For AI to help us understand the universe, we believe it must be able to discard the often popular, but wrong,
+
+in favor of the unpopular, but true. By combining the innate human desire to seek truth and explore with our
+
+breakthrough technologies, we believe humanity will eventually reach new frontiers across the universe, while
+
+enhancing the quality and resilience of life on Earth.
+
+The rapid emergence of the AI era intensifies the urgency of our mission, as AI has the potential to accelerate not
+
+only space exploration, but also transformative societal advancements on Earth. However, AI�s ability to
+
+revolutionize human potential is directly dependent on meeting exponentially increasing resource demands. On
+
+Earth, the massive expansion of data center capacity to support growing compute demand is significantly outpacing
+
+electricity generation, which was effectively flat in the United States for approximately 15 years, growing at a
+
+compound annual growth rate of 0.1% from 2008 to 2023. Despite the recent increase in electricity demand from AI
+
+data centers, electricity generation in the United States has grown at an annual rate of less than 3% between 2023
+
+and 2025, while electricity generation in China has grown at approximately twice that rate in the same time period.
+
+U.S. compute demand has already outpaced available power supply with estimated demand of 62 gigawatts in 2025
+
+exceeding the power generation of 49 gigawatts, according to industry sources. We expect the gap between demand
+
+for compute and power supply to continue to widen meaningfully as AI compute needs proliferate. Such structural
+
+power shortages are expected to intensify over the coming years. This supply and demand imbalance is already
+
+imposing unsustainable strains on terrestrial power grids, supply chains, and the environment. The Sun contains
+
+approximately 99.8% of the solar system�s energy and, as a result, we believe it is the only truly scalable solution to
+
+terrestrial energy constraints in the age of AI. Harnessing this energy in space is considerably more efficient than on
+
+land. Space-based solar arrays can generate more than five times the energy per unit area of terrestrial solar due to
+
+continuous illumination, lack of atmospheric interference, and optimal orientation. SpaceX is well-positioned to
+
+capture this space-based solar energy through our ability to rapidly access Sun-synchronous orbit through our
+
+satellite manufacturing scale and launch capability. As a result, we are expanding our footprint and harnessing the
+
+vast resources of space that are essential to sustaining technological development. Our goal is to ensure that AI
+
+becomes a force for human flourishing and a benefit to civilization, rather than a catalyst for terrestrial resource
+
+depletion and instability. We believe owning scalable, power-efficient infrastructure to train and operate frontier
+
+models will be the most important competitive differentiator as AI systems converge toward AGI�which has the
+
+potential to unlock large-scale productivity gains, scientific discovery, and societal abundance.
+
+We believe space represents the largest economic frontier in human history. Our unmatched launch cadence has
+
+massively increased access to space, enabling rapid and reliable missions for humans, cargo, and satellites�creating
+
+unprecedented opportunities for innovation, scientific discovery, and global connectivity. SpaceX has always been a
+
+mission-driven company, founded with the goal of making humanity multiplanetary. By dramatically reducing the
+
+cost of access to space, we have been able to expand our mission to address some of the Earth�s most pressing
+
+challenges, including bridging the digital divide by aiming to connect over three billion unconnected people to the
+
+internet and humanity�s collective knowledge. Starlink is our groundbreaking solution for global internet
+
+connectivity, delivering high-speed, low-latency access to the most remote and underserved corners of the world�
+
+from Antarctica�s frozen wilderness to vast oceans and towering mountaintops�overcoming barriers posed by
+
+traditional terrestrial infrastructure. Starlink�s unparalleled global reach has the potential to enable society to educate
+
+billions of people, to help lift entire communities out of poverty, and to provide essential connectivity to schools,
+
+hospitals, and critical services, fostering a more equitable and informed future for humanity. We support essential
+
+applications such as education in rural and underserved regions, telemedicine for hard-to-reach patients, seamless
+
+connectivity for aviation and maritime users, and resilient communications during natural disasters. For example,
+
+during the 2023 Maui wildfires, which devastated Lahaina and left thousands without power or cellular service,
+
+Table of Contents
+
+Starlink rapidly deployed over 650 terminals to restore high-speed internet connectivity, enabling first responders,
+
+humanitarian organizations, and survivors to coordinate relief efforts, access aid resources, communicate with
+
+family, and support recovery in areas where traditional infrastructure had completely failed. During Hurricanes
+
+Helene and Milton in 2024 in the southeastern United States, our Starlink terminals provided a rapid lifeline for
+
+communication and recovery when traditional cell towers, broadband lines, and power infrastructure were knocked
+
+out for days or weeks by widespread damage caused by flooding and high winds.
+
+Our AI technology also has the ability to elevate the quality of life for people and communities around the world.
+
+We believe AI has the potential to revolutionize human potential�from advanced manufacturing and infrastructure
+
+development to scientific research and medicine�delivering tangible real-world benefits for individuals,
+
+organizations, and governments. For example, AI systems can expedite scientific discovery for researchers, aid
+
+healthcare professionals in precise medical analysis and diagnosis, and empower educators to craft tailored learning
+
+experiences for students. Moreover, these technologies can optimize Earth�s resource allocation, enhance disaster
+
+response strategies, and drive efficiencies in transportation and energy systems.
+
+We believe that our current space efforts will catalyze transformative breakthroughs that could reshape terrestrial
+
+industries and lead to the emergence of new trillion-dollar markets on the Moon, Mars, and beyond. In particular, we
+
+believe our goal of establishing a lunar presence will enable terawatt-scale annual AI compute growth, support
+
+deeper space exploration and industrialization, and serve as a stepping stone to establishing a civilization on Mars.
+
+Due to technological advancements that we are working towards, such as in-space propellant transfer, we believe
+
+our Starship vehicle will be capable of landing massive amounts of cargo on the Moon. Once there, we believe it
+
+will be possible to establish a permanent presence for scientific and manufacturing pursuits. For example, we believe
+
+that factories on the Moon will be able to take advantage of lunar resources to manufacture millions of AI compute
+
+satellites and deploy them farther into space. Our goal is to establish a sustainable lunar presence for scientific
+
+exploration, industrialization, and as a stepping stone to Mars, serving as a proving ground for habitats, resource
+
+utilization, and Starship systems essential for long-term human survival beyond Earth.
+
+We believe the next paradigm shift for humanity is the creation of a resilient, perpetually expanding spacefaring
+
+civilization that drives continuous innovation across new frontiers, ultimately propelling us to Kardashev Type II
+
+status�a civilization that harnesses the full energy output of our Sun. In the near term, we expect space-enabled
+
+technologies to enhance life on Earth through greater global connectivity and breakthroughs forged in the harsh
+
+environments of our solar system, leading to accelerating progress in energy and AI. As we build infrastructure in
+
+the Earth�s orbit, and potentially on the Moon, Mars and beyond, we believe we are capable of unlocking an era of
+
+unprecedented economic expansion, while also contributing to the safeguards of humanity�s future against
+
+existential risk.
+
+Our mission is to build the systems and technologies necessary to make life multiplanetary, to understand the true
+
+nature of the universe, and to extend the light of consciousness to the stars. To do this, we�ve formed the most
+
+ambitious, vertically integrated innovation engine on (and off) Earth. We are combining the most transformative and
+
+critical technologies in human history, including reusable rockets, a fully global internet service, satellite-to-mobile
+
+communications that enable connectivity everywhere, our real-time information, entertainment, and free speech
+
+platform, and a truth-seeking AI system designed to accelerate scientific discovery and augment human capabilities.
+
+These capabilities form a self-reinforcing ecosystem: launch systems deploy and maintain the satellite network,
+
+which delivers ubiquitous connectivity and vast data flows; the platform surfaces real-time information and supports
+
+open discourse; and AI processes data at scale to drive breakthroughs in physics, materials science, and space
+
+exploration. Together, they create a foundation for the development of the infrastructure of the future and the
+
+ultimate goal of establishing a self-sustaining human presence on other planets.
+
+SpaceX designs, manufactures, launches, and operates the world�s most advanced rockets and spacecraft. We safely
+
+and reliably transport astronauts, satellites, and other payloads on missions that benefit life on Earth. Since 2023, we
+
+have launched more than 80% of mass to orbit for the world each year with an over 99% mission success rate. We
+
+believe our unparalleled launch capabilities represent the foundational competitive advantage that enables all other
+
+parts of our business. We operate a high-speed, low-latency broadband data and communications network powered
+
+Table of Contents
+
+by approximately 9,600 Starlink broadband and mobile satellites in Low-Earth Orbit, delivering connectivity to
+
+millions of consumer, enterprise, and government customers across 164 countries, territories, and other markets, as
+
+of March 31, 2026. We also built one of the world�s most advanced models in under two years and are rapidly
+
+scaling the associated AI compute infrastructure�starting on Earth with the goal of extending to space�at industry-
+
+leading pace and cost efficiency. We believe that space represents the largest economic frontier in human history
+
+and that AI is a transformative force for understanding the universe. Together, we believe that space and AI will
+
+enable an age of abundance that will lead to an unprecedented expansion in the global economy. We are the only
+
+company that has the foundational infrastructure across hardware and software necessary to drive transformative
+
+innovation across space, connectivity, and AI. Our technological advancements are redefining industries on Earth,
+
+while aiming to create new ones on the Moon, Mars, and beyond.
+
+Our Unparalleled Launch Capabilities
+
+Since our founding in 2002, SpaceX has cracked the code on accessing space at scale, transforming an industry
+
+characterized by decades of stagnation, risk aversion, and economically perverse cost structures. We design,
+
+manufacture, launch, and refurbish reusable launch vehicles that provide cost-efficient, reliable, and high-cadence
+
+access to space for our own purposes as well as for third-party commercial and government customers. In 2025, we
+
+launched from four primary launch pads in the United States and successfully recovered boosters across seven
+
+landing facilities including autonomous drone ships and catch towers based on the vehicle type and mission profile.
+
+Our extensive vertical integration and end-to-end control over the entire value chain, from design to launch to
+
+operations, allows us to achieve unprecedented speed and cost efficiency.
+
+As of March 31, 2026, SpaceX had launched a total mass to orbit of approximately 7,400 metric tons with an over
+
+99% mission success rate across our Falcon rockets. We have completed approximately 650 orbital space launches,
+
+and over 540 of those launches were completed by a flight-proven Falcon rocket . In 2025 alone, SpaceX completed
+
+170 missions across Falcon and Starship vehicles and 159 flight-proven booster launches with an over 99% success
+
+rate on attempted booster recoveries. We launched over 2,200 metric tons, representing over 80% of mass to orbit
+
+for the world in 2025 . With the first successful launch of Falcon 1 in 2008, we became the first private company to
+
+successfully launch a liquid-fueled rocket to Earth�s orbit. Just two years later, in 2010, the commercial debut of the
+
+Falcon 9 rocket revolutionized space access by delivering unprecedented cost efficiency. For example, according to
+
+NASA, the first version of Falcon 9 in 2010 reduced launch cost to approximately $2,700 per kilogram, which
+
+represented a reduction of approximately 85% compared to the historical average launch cost per kilogram of
+
+$18,500. The first version of Falcon Heavy in 2018 further reduced this cost to $1,400 per kilogram, a reduction of
+
+approximately 92% compared to the historical average. We have also reduced our internal cost of launch through a
+
+combination of engineering improvements, manufacturing efficiencies, and economies of scale�most notably,
+
+through our ability to drive more frequent reuse of rockets.
+
+In December 2015, we achieved what many deemed impossible: landing a rocket launched to space back on Earth.
+
+By 2017, we were routinely recovering and reusing the Falcon 9 first-stage booster post-launch, delivering another
+
+step-function drop in space access costs via groundbreaking reusability. As of March 31, 2026, our Falcon 9 rockets
+
+have demonstrated the ability to refly a first-stage 34 times. Since 2020, our Dragon spacecraft has safely flown 78
+
+crewmembers from 20 countries. With the future deployment of Starship, which is designed to be the world�s first
+
+fully and rapidly reusable spacecraft, we aim to reduce the cost to reach orbit by 99% or more relative to the
+
+historical average launch cost, establishing the most affordable and scalable path to creating new opportunities in
+
+space, such as orbital AI compute and Mars exploration.
+
+Table of Contents
+
+Booster Reusabili ty Enables Increasing Launch Rates
+
+Our principal launch vehicles and spacecraft include:
+
+� Falcon 9 . As the world�s first orbital-class rapidly reusable rocket, Falcon 9 was first launched in 2010 and has
+
+a payload capacity to LEO of approximately 23 metric tons when fully expendable. Falcon 9 has completed
+
+approximately 620 orbital space launches as of March 31, 2026, and an over 99% mission success rate, making
+
+it the most active orbital launch vehicle today. In 2025 alone, we launched 165 Falcon 9 rockets, of which 157
+
+were flight-proven booster launches , and during the three months ended March 31, 2026, we launched 40
+
+Falcon rockets, of which 39 were flight-proven booster launches .
+
+� Falcon Heavy . Falcon Heavy first launched in 2018 when it put a Tesla Roadster and its mannequin passenger,
+
+known as Starman, into orbit around the Sun. With a payload capacity to LEO of approximately 64 metric tons,
+
+Falcon Heavy is a partially reusable super heavy-lift launch vehicle designed to deliver large payloads to orbit.
+
+Falcon Heavy is one of the most powerful operational rockets in the world measured by liftoff thrust, with 11
+
+launches as of March 31, 2026 and a 100% mission success rate.
+
+� Dragon. Launched by Falcon 9 in 2012, our Dragon spacecraft became the first commercial spacecraft to
+
+deliver cargo to and from the International Space Station and, eight years later, the first privately built vehicle to
+
+fly humans to the orbiting laboratory. Since its first flight, Dragon has visited the International Space Station
+
+over 50 times, and restored America�s ability to launch astronauts. Dragon has also supported all of NASA�s
+
+private astronaut missions to the International Space Station, flown the first all-commercial astronaut crew,
+
+completed the first human spaceflight over the Earth�s polar regions, and supported the first-ever commercial
+
+� Starship. First launched in 2023, Starship is designed to be a fully reusable, super heavy-lift launch vehicle.
+
+Starship V3 is designed to deliver 100 metric tons to Earth�s orbit in a fully reusable configuration while
+
+enabling rapid turnaround times akin to commercial aviation. Future generations of Starship are being designed
+
+to double this payload capacity. To date, we have executed 11 Starship flight tests. We have also scheduled a
+
+12th flight test, which will debut the next generation Starship vehicle and Super Heavy booster, powered by the
+
+next evolution of our Raptor engine and launching from a newly designed pad at Starbase. We expect Starship
+
+to commence payload delivery to orbit in the second half of 2026. We have achieved innovative milestones
+
+Table of Contents
+
+such as catching a booster using �chopstick� arms on the same tower it launched from. We expect this
+
+capability will facilitate rapid refurbishment and reuse, allowing for multiple launches per day at reduced costs.
+
+Upon achieving rocket reusability, we recognized the immense potential of our launch business to enable new
+
+revenue streams, as our launch capacity would eventually outstrip demand from traditional space customers alone.
+
+This realization, along with our efforts to make life multiplanetary, drove us to reimagine what was possible when
+
+access to space became more affordable. Rather than asking what was being done in space, we asked what large-
+
+scale global need could be better served from space. This led to the development of Starlink, our global satellite
+
+internet constellation, consisting of thousands of LEO satellites designed to provide high-speed, low-latency
+
+broadband connectivity to underserved areas worldwide. Although the concept of using satellites for global internet
+
+connectivity dates back decades, technical challenges and the prohibitive cost of accessing space historically
+
+rendered attempts to provide such connectivity economically unviable. Within three years of our first satellite launch
+
+in 2019, we solved the technical and production challenges of the satellites, and within five years, we had deployed
+
+the largest LEO constellation in existence. Today, Starlink is the sole low-latency network available globally.
+
+As the leader in space access, our launch operations are an important and expanding competitive advantage. By
+
+combining increasing launch cadence, expanding cargo capacity, and declining unit costs�driven by rapid
+
+reusability�we have generated a compounding competitive advantage. This not only fortifies our core business, but
+
+also provides vast new market opportunities uniquely enabled by space.
+
+Our Leading Capabilities Across Space, Connectivity, and AI
+
+Space . While our launch capabilities support our other businesses, such as Starlink Consumer Broadband and
+
+Starlink Mobile, we also sell launches to third-party customers. We offer launch services to commercial, civil, and
+
+government customers through our reusable Falcon 9 and Falcon Heavy rockets for satellite, cargo, and crew
+
+missions. We fly to LEO, MEO, GEO, lunar, and interplanetary trajectories, as well as the International Space
+
+Station. We are the primary launch provider for the U.S. government. In 2025, we launched 11 of 12 National
+
+Security Space Launch (�NSSL�) medium and heavy lift missions and all five U.S. crew and cargo missions to the
+
+International Space Station for NASA. We serve commercial and government customers�including NASA, the
+
+National Reconnaissance Office (�NRO�), Axiom Space, SES, Eutelsat, and Oneweb. We charge our customers
+
+based on the type of rocket, mass to orbit, size of payload, and type of service, such as whether the launch is
+
+dedicated to a single customer or part of a �rideshare� with other customers.
+
+Starship is our next-generation reusable rocket vehicle that we expect will expand our launch capability dramatically
+
+through full and rapid reusability combined with currently unprecedented mass to orbit capability. As the most
+
+powerful launch system ever developed, we expect that Starship V3 will be able to carry a payload of 100 metric
+
+tons, and that future generations could reach 200 metric tons, potentially as soon as Starship V4. Starship is designed
+
+to deliver our next-generation satellites to orbit, long-haul point-to-point transportation on Earth, the cargo and crew
+
+necessary to develop a base on the Moon and a city on Mars for research and human spaceflight development.
+
+Connectivity . Starlink provides global access to high-speed internet, including underserved rural and remote
+
+communities worldwide. As of March 31, 2026, we had approximately 9,600 Starlink broadband and mobile
+
+satellites in Low-Earth Orbit, providing broadband connectivity to approximately 10.3 million Starlink Subscribers
+
+across 164 countries, territories, and other markets. We also provide satellite-to-mobile texting and over-the-top
+
+voice services to approximately 7.4 million monthly unique devices across approximately 30 countries.
+
+� Starlink Consumer Broadband. We operate the world�s largest and most advanced space-based internet
+
+broadband service with median latency at approximately 25 milliseconds as of March 31, 2026. We provide
+
+fiber-like download speeds�at a median of 225 Mbps during peak hours for residential users as of March 31,
+
+2026�and the technological capability to provide service everywhere on Earth, including the poles. This
+
+service quality is enabled by our vast network of approximately 9,600 Starlink broadband and mobile satellites
+
+in Low-Earth Orbit, which accounted for approximately 75% of all active maneuverable satellites in orbit as of
+
+March 31, 2026. We expect to commence deploying our next-generation V3 satellites, designed to offer one
+
+Tbps of downlink capacity per satellite, using Starship in the second half of 2026. We expect that a single
+
+Starship launch will be capable of deploying up to 60 V3 satellites to LEO, representing a potential twenty-fold
+
+Table of Contents
+
+increase in Starlink downlink capacity deployed relative to a Falcon 9 launch. As of March 31, 2026, we had
+
+approximately 10.3 million Starlink Subscribers, up approximately 105% from 5.0 million subscribers a year
+
+prior. We charge our Starlink Subscribers a monthly subscription fee, which varies based on geographic market
+
+and download speed, plus typically a one-time upfront terminal cost.
+
+� Enterprise Solutions . SpaceX is a critical partner to a wide array of enterprises. We offer Starlink�s high-
+
+speed, low-latency, reliable internet services to enterprise customers across industries including construction,
+
+agriculture, retail, telecom, hospitality, aviation, maritime, and land mobility. Starlink�s unique capabilities are
+
+well‑suited for deployments across field offices, remote worksites, research stations, drilling rigs, rural
+
+hospitals, aircraft, cruise ships, trains, and hotels. Our enterprise customers include companies such as United
+
+Airlines, Carnival, Maersk, and John Deere, among others. We also serve a broad fixed‑site customer base
+
+across industries such as retail and financial services that require high availability for critical operations as well
+
+as reliable connectivity in remote or hard-to-serve locations. As companies continue to invest in secure and
+
+resilient networks and backup systems to keep critical infrastructure online�such as point‑of‑sale and payment
+
+processing systems�we often start as a backup solution and then transition to being the primary solution. Our
+
+enterprise contracts are based on a combination of subscriptions, data consumption, capacity, or other pricing
+
+models depending on each customer�s particular needs. Since 2023, no Starlink Enterprise customer having
+
+contributed more than $750,000 of annual revenue has voluntarily discontinued their service, demonstrating the
+
+strong performance and value of our offering. This is despite the ability of our customers to cancel the service at
+
+� Government Solutions. For our government customers, we provide high-speed, resilient connectivity for
+
+public services, social impact, humanitarian efforts, and disaster response in even the most remote and
+
+challenging environments. Examples include support for the FEMA in coordinating disaster recovery after
+
+hurricanes and wildfires, the NOAA for at-sea testing and environmental monitoring, the Government of the
+
+Philippines for linking remote islands, schools, and public institutions, the Government of Jamaica for
+
+improving digital access in remote and maritime areas, and the Government of Ecuador for supporting
+
+education and healthcare connectivity in isolated communities. Separately with Starshield, we have leveraged
+
+our commercial LEO satellite constellation engineering learnings and operational experiences to develop a
+
+secure, dedicated satellite network designed specifically for United States Government customers and national
+
+security applications.
+
+� Starlink Mobile. We provide satellite-to-mobile connectivity, supplementing terrestrial networks and
+
+substantially reducing mobile �dead zones� across approximately 30 countries. We partner with MNOs
+
+including major wireless carriers like T-Mobile in the United States, and other international operators including
+
+One NZ, Optus, Telstra, Rogers, KDDI, Salt, Entel, Kyivstar, and VMO2. Through these partnerships, we
+
+enable consumers, businesses, and public-sector customers to use their existing phones in more places, support
+
+critical connectivity during disasters and power outages, and open new applications for low-bandwidth mobile
+
+and IoT devices. Our current capabilities under our �V1� constellation (consisting of approximately 650 V1
+
+Mobile satellites in orbit) include light data, text messaging (SMS), and over-the-top voice services (e.g.,
+
+WhatsApp and FaceTime ). We are developing more comprehensive satellite-to-mobile services, including
+
+broadband data and IoT connectivity, which are expected to deliver resilient, infrastructure-independent
+
+connectivity worldwide and enable 5G connectivity. We have partnerships with approximately 30 MNOs on six
+
+continents, covering an area that is home to approximately 1.9 billion people. We charge MNOs either a fixed
+
+fee or a per-mobile user fee-based amount, which is typically passed through to the customer via the carrier as
+
+an �add-on� feature.
+
+Table of Contents
+
+Our Global Starlink Subscriber Base
+
+AI. We operate a highly vertically integrated AI platform spanning gigawatt-scale AI compute infrastructure, our
+
+truth-seeking frontier AI model, Grok, AI solutions for consumer and enterprise customers, and X, our real-time
+
+information, entertainment, and free speech platform. We believe AI is rapidly converging toward AGI, where
+
+human cognitive capabilities can be replicated and scaled at machine speeds, profoundly augmenting human
+
+productivity. Once an AGI system exists, its true value derives from the ability to create limitless duplicates of
+
+human-like intelligence, ne

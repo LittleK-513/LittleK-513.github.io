@@ -1,0 +1,573 @@
+y with a variety of governmental regulations, which could have a significant impact on our
+
+business, including our capital expenditures, earnings and competitive position. In particular, our ability to (i)
+
+conduct launches and reentries, (ii) operate and expand our satellite systems and related ground infrastructure and
+
+(iii) perform certain U.S. government programs depends on maintaining key governmental authorizations and
+
+complying with evolving safety, spectrum, national security, environmental, contractual, and trade-control
+
+requirements. Our ability to provide our AI products and X platform depends on complying with evolving AI, data
+
+privacy, online services, cybersecurity and environmental requirements. We incur and will continue to incur
+
+Table of Contents
+
+substantial costs to monitor and take actions to comply with governmental and other regulations that are or will be
+
+applicable to our businesses, including, among others, restrictions and regulations of the U.S. Department of
+
+Transportation, the FAA, the FCC and other government agencies in the United States and the other countries in
+
+which we operate, economic sanctions and trade embargo laws, export controls, import controls and customs. For
+
+additional information, please refer to �Risk Factors�Risks Related to Our Business�Our ability to continue and
+
+expand launch and satellite operations depends upon our ability to obtain new and leverage existing U.S. export
+
+control and sanctions authorizations, and any significant changes to the geopolitical landscape or U.S. government
+
+regulatory approach to licensing could materially and adversely impact our international business operations by
+
+compromising existing licenses or limiting our ability to engage in commercial dealings in or involving
+
+geopolitically sensitive countries.� We will also be subject to additional laws and regulations as a result of being a
+
+public company, which will require us to devote significant management resources and incur additional legal,
+
+accounting and other expenses.
+
+Our Space segment is subject to extensive regulation in the United States and internationally, including (i)
+
+regulations administered by the FAA relating to commercial space launches and reentries, (ii) regulations
+
+administered by the FCC relating to radio communications used in launch activities and spacecraft operations, and
+
+related domestic and international coordination processes, including through the International Telecommunication
+
+Union, (iii) U.S. export and import regulatory regimes, and (iv) additional regulations that relate to being a U.S.
+
+government contractor.
+
+Commercial space launch and reentry activities require licenses and permits from the FAA. FAA licenses are
+
+generally granted on a launch-by-launch basis and may incorporate safety, environmental and operational
+
+conditions. Where applicable, reentry operations require separate authorization. We are generally required to obtain
+
+licenses or license modifications from the FAA in connection with changes to vehicles, launch sites, flight profiles,
+
+operational procedures, payloads, or other mission parameters, and our launch and range operations may also be
+
+subject to environmental reviews, consultations, and permits. We depend on timely approvals of licenses or license
+
+modifications from the FAA and the timing and outcome of the FAA approval process may affect our ability to
+
+conduct launches and reentries or require operational restrictions or mitigation measures. For additional information,
+
+please refer to �Risk Factors�Risks Related to Our Business�Any delays or difficulties in obtaining, maintaining
+
+or renewing required regulatory approvals and licenses required for our space-related activities, including FAA
+
+launch and reentry licenses, would materially delay or disrupt our operations, harm our business, or limit our ability
+
+to execute our business strategy.�
+
+Radio communications for launch activities and spacecraft operations require licenses from the FCC and are subject
+
+to technical and operational conditions, coordination requirements, and interference-mitigation frameworks. We rely
+
+on obtaining licenses from the FCC to conduct our launch and spacecraft operations, and many of our FCC licenses
+
+include conditions regarding milestone schedules, reporting and surety‑bond requirements, among other conditions.
+
+In addition, our spacecraft and satellite operations are subject to evolving regulatory expectations relating to space
+
+situational awareness and orbital debris mitigation, including requirements regarding collision avoidance and post-
+
+mission disposal. International spacecraft frequency use is coordinated via International Telecommunication Union
+
+filings made through the FCC and similar international regulatory bodies, and through country‑by‑country market
+
+access approvals for non‑U.S. service. For additional information, please refer to �Risk Factors�Risks Related to
+
+Our Business�Any delays or difficulties in obtaining, maintaining or renewing required regulatory approvals and
+
+licenses required for our space-related activities, including FAA launch and reentry licenses, would materially delay
+
+or disrupt our operations, harm our business, or limit our ability to execute our business strategy.�
+
+Additionally, as a contractor and subcontractor to certain agencies of the U.S. government, we are subject to the
+
+Federal Acquisition Regulation, and other applicable laws, security requirements, and regulations, including
+
+supplemental agency regulations, which comprehensively regulate the formation, administration, and performance
+
+under government contracts. Certain contracts with the U.S. government may require us to be issued facility security
+
+clearances under the National Industrial Security Program Operating Manual Rule, as a result of which we are
+
+required to maintain with the Department of War mitigation measures with respect to foreign ownership, control and
+
+influence. Additionally, certain transactions in which we may be involved from time to time may be subject to the
+
+Table of Contents
+
+jurisdiction of the Committee on Foreign Investment in the United States (�CFIUS�), which has authority to conduct
+
+national security reviews of certain foreign investments. CFIUS may impose mitigation conditions to grant clearance
+
+of a particular transaction, may unilaterally initiate national security review of certain transactions, and may
+
+recommend that the President of the United States order parties to divest their shareholdings in certain situations,
+
+among other actions.
+
+Our Connectivity services, including our global satellite -to-mobile connectivity services under Starlink Mobile,
+
+depend on authorizations from the FCC in the United States and telecommunications regulators in other countries.
+
+Without these licenses and approvals, we generally cannot offer connectivity services in a given market. In the
+
+United States, these authorizations include FCC approvals for our satellite system and related earth stations and use
+
+of radio frequency spectrum, and they may be subject to technical, operational, and reporting conditions and
+
+ongoing compliance obligations (including interference mitigation, coordination requirements and orbital debris
+
+mitigation requirements). All communications services that rely on radio frequency communications require use of
+
+radio frequency spectrum, the assignment and distribution of which is subject to FCC oversight. Our access to
+
+spectrum and orbital resources is also subject to international coordination processes, including through International
+
+Telecommunication Union filing and coordination processes, and disputes or delays in these processes could
+
+adversely affect our operations. If demand continues to increase or if new spectrum is required for a future
+
+generation of technology, we may need to obtain additional spectrum usage rights or related authorizations through
+
+FCC proceedings (including modification applications), coordination processes, auctions or secondary market
+
+transactions, or partnerships with third parties, each of which may be subject to review, approval, and conditions.
+
+We hold FCC authorizations and licenses that allow us to provide a wide range of satellite-based connectivity
+
+services, including through the operation of our satellite system and related earth stations. FCC spectrum licenses
+
+and authorizations typically have terms of 10-15 years, at which time they are subject to renewal. Similarly, our
+
+subsidiaries operating outside the United States are subject to the jurisdiction of regulatory authorities in the
+
+territories in which the subsidiaries operate, including any requirements to obtain spectrum licenses or other market
+
+access authorization. Our licensing, compliance and advocacy initiatives in foreign countries support our ability to
+
+offer enterprise and consumer connectivity services in various international markets. Although we generally seek to
+
+renew and maintain these authorizations, challenges could be raised in the future, and there can be no assurance that
+
+our applications to renew, modify, or expand our authorizations will be granted on a timely basis, or at all, or
+
+without additional conditions. If a spectrum license was revoked or not renewed, we would not be permitted to
+
+provide services on the spectrum covered by that license or could be required to modify or curtail operations.
+
+Within the United States, the Communications Act generally preempts regulation by state and local governments of
+
+the entry of, or the rates charged by, wireless carriers. It does not prohibit states from regulating the other �terms and
+
+conditions� of wireless service. For example, some states impose reporting and consumer protection requirements.
+
+Several states also have laws or regulations that address safety issues (for example, use of wireless handsets while
+
+driving), universal service funding, and taxation matters. Some states are also considering new network reliability or
+
+service quality requirements that may affect how and where we provide services if not preempted by federal law.
+
+Certain enacted and proposed laws and regulations related to AI may impose requirements with respect to our
+
+development, deployment, and use of AI systems and models, including obligations relating to security, integrity,
+
+transparency, labeling, detection, and provenance of AI data, models and AI-generated content, as well as
+
+restrictions on the export or import of AI-related systems and components. AI regulation is evolving rapidly across
+
+jurisdictions, with regulators applying, or considering applying, existing laws or adopting new, non-harmonized
+
+frameworks with respect thereto, including emerging AI laws. Development, deployment, and use of AI can also be
+
+subject to existing, technology-agnostic regulatory frameworks, including, for example, those addressing consumer
+
+protection, data privacy, cybersecurity, intellectual property, content moderation, non-discrimination, and
+
+employment. Data centers necessary for AI-related systems may also be subject to changing regulatory frameworks
+
+under federal, state, local, and foreign environmental, health, and safety laws. The scope and enforcement of these
+
+regimes remain uncertain, and their potential impact on our multiple and overlapping business lines is difficult to
+
+Table of Contents
+
+predict. Divergent or conflicting regulatory approaches across jurisdictions, as well as evolving enforcement
+
+priorities, may also create compliance uncertainty and require market-specific limitations or modifications to AI-
+
+related functionality, increasing operational complexity.
+
+In addition, third parties may allege intellectual property violations, or misappropriation relating to the training data
+
+used in, or the outputs generated by, AI systems and models. The uncertain and evolving legal status of AI-
+
+generated content may create legal and operational risk, including with respect to the ownership of, and ability to
+
+obtain intellectual property protection for, such outputs, as well as our ability to offer services in certain markets.
+
+Open-source and other license terms applicable to AI systems and models may limit the distribution of AI-related
+
+functionality or constrain product design.
+
+Separately, AI systems and models may present legal operational and reputational risks. Legal and reputational risk
+
+may arise in the context of datasets used in the development or operation of AI systems and models as well as the
+
+use of AI-enabled products or services to generate output that is perceived as objectionable or inappropriate.
+
+Emerging legislation, such as the European Union�s Artificial Intelligence Act, California�s Transparency in
+
+Frontier Artificial Intelligence Act (SB 53) and New York�s Responsible AI Safety and Education Act (RAISE Act),
+
+may impose requirements relating to, among other things, safety, governance, transparency, and incident reporting
+
+on developers of large or frontier AI models. Misuse of our AI systems, models, products, or services by customers
+
+or partners may similarly create safety, compliance, or brand risks. These risks have in the past and may in the future
+
+result in regulatory scrutiny, legal liability, or reputational harm and adversely affect our business, results of
+
+operations, and financial condition. Addressing these risks may require substantial investment in testing,
+
+moderation, guardrails, enforcement, and other mitigation measures. For additional information, please refer to
+
+�Risk Factors�Risks Related to Our Business�If the recommendations, forecasts, content, analyses or other output
+
+that our AI technologies, including Grok, assist in producing are or are alleged to be deficient, inaccurate, harmful,
+
+illegal, or used for an improper purpose, we could continue to be subjected to claims and investigations, and we
+
+could be subjected to legal liability and brand, reputational, or competitive harm.�
+
+Privacy, Cybersecurity, Data Protection, Online Safety, and Digital Platform Regulation
+
+We are subject to complex and evolving global legal and regulatory frameworks relating to privacy, cybersecurity,
+
+AI, data protection, lawful access, content moderation, and digital platform regulation, as well as contractual and
+
+other commitments we make in the course of doing business and our internal and external policies, procedures and
+
+controls. These laws and regulations vary across jurisdictions and sectors, are not harmonized, and may conflict or
+
+impose overlapping or inconsistent obligations, and continue to evolve and emerge. In particular, the California
+
+Consumer Privacy Act (as amended), the European Union�s General Data Protection Regulation (and its equivalent
+
+in the United Kingdom) and other data privacy laws and regulations impose stringent and burdensome requirements
+
+in connection with the processing of personal information and include significant penalties for non-compliance.
+
+Additionally, as a government contractor, we are also subject to the Department of War�s Cybersecurity Maturity
+
+Model Certification requirements, which requires companies that do business with the Department of War to,
+
+depending on the level of security required, meet or exceed certain specified cybersecurity standards to be eligible
+
+for new contract awards. The interpretation and application of these and other existing laws not originally enacted to
+
+address privacy, cybersecurity, AI, data protection, lawful access, content moderation, or digital platforms are
+
+uncertain and continue to develop as they are applied to new technologies and data-driven products and services.
+
+These frameworks impose obligations regarding, among other things, the collection, use, storage, protection,
+
+disclosure, transfer, and other processing of data, including personal information, and may restrict or condition
+
+cross-border data transfers, require data localization, or impose content moderation or other platform-related
+
+requirements, and may be interpreted or enforced in ways that are inconsistent, unclear, or subject to significant
+
+regulatory discretion. The risks are particularly acute for us because we operate globally across multiple industries
+
+and develop cutting-edge technologies that present novel regulatory and security issues. The data we collect and
+
+otherwise process is integral to our business, technology, and services, and regulatory restrictions or limitations on
+
+our ability to secure and process such data could materially affect our operations and business model.
+
+In addition, our products and services, including those enabled by AI, may also be subject to online safety and
+
+youth-protection laws and regulations. Such laws and regulations may impose obligations relating to content risk
+
+mitigation, age assurance, platform governance, and, in certain jurisdictions, content reporting and removal
+
+Table of Contents
+
+requirements. For example, the UK�s Online Safety Act 2023 and Australia�s Online Safety Amendment (Social
+
+Media Minimum Age) Act 2024 impose risk mitigation and age-related requirements on certain online platforms. As
+
+a result of these requirements or to otherwise seek to maintain the safety of our platforms, we maintain content
+
+policies and enforcement mechanisms across our platforms and related products and services. These include a
+
+combination of automated detection tools, classifiers and filters, algorithmic signals, and human review processes.
+
+We also employ measures to help detect and challenge suspicious accounts during sign-up and ongoing use, provide
+
+user reporting channels, and apply enforcement actions. Additional safeguards to help mitigate safety concerns
+
+include age-related controls, content restrictions, and specialized modes; and labeling or watermarks on certain
+
+outputs and other market-specific restrictions on certain content categories where required by local laws.
+
+This evolving landscape will continue to affect our ability to maintain, develop, or launch products and services,
+
+including those that rely on the processing of personal information or other sensitive data, including targeted
+
+advertising and other data-driven offerings, and may require market-specific changes to our products, services, or
+
+business practices, increasing operational complexity and cost. In addition, emerging laws and regulations seeking to
+
+restrict cross-border transfer of or access to certain data in light of perceived national security considerations may
+
+increase compliance costs and restrict our operational flexibility, investment activities, or ability to achieve our
+
+strategic objectives. As our business evolves, and if we expand into additional industries or jurisdictions, our
+
+compliance requirements and associated costs may increase and we may be subject to heightened regulatory
+
+We also face cybersecurity risks, including the potential unlawful, accidental, or unauthorized access to, or use,
+
+disclosure, alteration, loss, or disruption of, our technology, products, systems, and data, or those of our service
+
+providers and partners, which could result in a loss of confidentiality, integrity, or availability. We operate in
+
+industries that have been, and will continue to be, targeted by sophisticated and persistent internal and external threat
+
+actors, including those controlled by or affiliated with nation states. For additional information, please refer to �Risk
+
+Factors�Risks Related to Our Business�Any significant disruption in, or unauthorized access to, our computer and
+
+data systems or those of third parties that we utilize in our operations could result in a loss or degradation of service,
+
+loss of trust in us and harm to our business.� Many jurisdictions impose mandatory breach notification and reporting
+
+obligations, and compliance with such requirements can be costly, time-sensitive, and operationally burdensome,
+
+and we may bear such costs in the event of a material incident. As we continue to use and integrate advanced
+
+technologies, including AI systems and models, into our operations, products, and services, our exposure to
+
+cybersecurity incidents may increase, particularly as threat actors also try to adopt and deploy AI-enabled tools to
+
+evade detection and compromise systems or data. Compliance with applicable privacy, cybersecurity, AI, data
+
+protection, lawful access, content moderation and digital platform obligations can be costly and operationally
+
+demanding and may require changes to our products, services, business practices, or technical infrastructure.
+
+Environmental, Health, and Safety
+
+Our operations and facilities, as well as existing and planned infrastructure, are subject to an extensive regulatory
+
+framework of federal, state, local, and foreign environmental, health, and safety laws, and regulations and permits
+
+that govern, among other things, employee health and safety, discharges of pollutants into the air and water, the
+
+generation, handling, storage, and disposal of hazardous materials and wastes and the investigation and remediation
+
+of certain materials, substances, and wastes. These include various regulations promulgated by federal, state, and
+
+local regulatory agencies and legislative bodies. Certain of our operations, including launch, reentry, testing, and
+
+manufacturing activities and the development or expansion of facilities, as well as the siting, construction and
+
+operation of data centers, may require environmental reviews, consultations, and permits and may be subject to
+
+conditions or mitigation measures that could increase costs or limit operations.
+
+We are required to obtain a number of permits and entitlements from various government agencies to construct and
+
+operate our facilities, including zoning, land use and building code permits, air quality permits for permanent
+
+combustion equipment (including both diesel generators and natural gas turbines), stormwater and wastewater
+
+discharge permits, and fire and life safety approvals. We have issued or pending permit applications for certain of
+
+our facilities. For additional information, please refer to �Risk Factors�Risks Related to Our Business�
+
+Environmental laws, regulations, litigation, liabilities and proceedings may adversely affect our operations,
+
+Table of Contents
+
+including our launch operations, manufacturing activities, fuel storage and handling operations, launch facilities and
+
+ground infrastructure, and data center operations and expansion plans.�
+
+Government Contracts
+
+A portion of our revenue is derived from contracts, directly or indirectly, with the U.S. government. We have
+
+numerous direct contracts with the U.S. government, primarily NASA, the Department of War, the General Services
+
+Administration, and certain Intelligence Community agencies. These contracts focus mainly on launch services,
+
+spacecraft development, and satellite deployment, and artificial intelligence products. We are almost always the
+
+prime contractor on our government contracts, and we rarely use subcontractors. All of our launch contracts with
+
+U.S. government agencies are firm fixed-price contracts with milestone-based payments.
+
+These contracts are subject to U.S. government contracting rules and regulations (Federal Acquisition Regulation
+
+(FAR) and Defense Federal Acquisition Regulation Supplement (DFARS)), and therefore, we are subject to the
+
+business risks specific to the defense industry. These regulations impose stringent requirements on our operations,
+
+business practices and reporting, and noncompliance could result in civil or criminal penalties, suspension or
+
+debarment from government contracting, or loss of existing or future business. These requirements, although
+
+customary in U.S. government contracts, increase our performance and compliance costs. These costs might increase
+
+in the future. The U.S. government has the ability to unilaterally: (i) declare us ineligible to receive new contracts;
+
+(ii) terminate existing contracts at its convenience and without advance notice; (iii) reduce the scope and value of
+
+existing contracts; (iv) audit our contract-related costs and fees, including allocated indirect costs; and (v) revoke
+
+required security clearances. Violations of government procurement laws could result in civil or criminal penalties.
+
+We are also required to maintain special security clearances and comply with executive orders, federal laws and
+
+regulations, and customer security requirements for classified programs, and our government contracts impose
+
+cybersecurity and information assurance requirements, including implementation of information security protections
+
+in accordance with NIST Special Publication 800-171 and obligations to review and report certain cyber incidents.
+
+Failure to comply could result in suspension of payments, termination of contracts, civil or criminal penalties, or
+
+exclusion from future government contracting opportunities. For additional information, please refer to �Risk
+
+Factors�Risks Related to Our Business�Our services are subject to risks related to supplying services to the U.S.
+
+In addition, in connection with preparing leased real property for our launch operations at Kennedy Space Center
+
+and Cape Canaveral, Florida, and Space Launch Complex 4 at Vandenberg Space Force Base, California, we make
+
+significant capital improvements and install extensive real and personal property at these government-owned sites.
+
+The launch facilities we build are a unique capital improvement compared to standard commercial use sites because
+
+the federal government specifically designates these launch sites for aerospace activities, such as rocket launches.
+
+Given the specific use requirements of these government-owned sites, we have historically entered into handover
+
+agreements with the relevant government entities upon expiration or termination of the leases, pursuant to which the
+
+improvements are transferred to the government rather than removed. This fact pattern has historically been the case
+
+with previous leases such as at Cape Canaveral Space Force Station.
+
+Legal Proceedings
+
+We are involved in the legal proceedings describ ed in Note 17 , Commitments and Contingencies , in our audited
+
+consolidated financial statements and Note 16 , Commitments and Contingencies in our unaudited consolidated
+
+financial statements included elsewhere in this prospectus, and we are subject to other claims and litigation arising in
+
+the ordinary course of business. The outcome of any litigation is inherently uncertain, and if decided adversely to us,
+
+or if we determine that settlement of particular litigation is appropriate, we may be subject to liability that could
+
+have a material adverse effect on our business.
+
+Table of Contents
+
+Below is certain information as of May 1, 2026 regarding individuals who are expected to serve as our executive
+
+officers and directors upon the completion of this offering.
+
+Elon Musk ......................
+
+Chief Executive Officer, Chief Technical Officer and Chairman of the Board
+
+Gwynne Shotwell ...........
+
+President, Chief Operating Officer and Director
+
+Bret Johnsen ...................
+
+Chief Financial Officer
+
+Ira Ehrenpreis .................
+
+Randy Glein ....................
+
+Antonio J. Gracias ..........
+
+Donald Harrison .............
+
+Steve Jurvetson ...............
+
+Luke Nosek .....................
+
+Executive Officers and Management Directors
+
+Elon Musk has served as our Chief Executive Officer, Chief Technical Officer and Chairman of our board since
+
+May 2002. Mr. Musk is also the Technoking of Tesla and has served as Chief Executive Officer of Tesla since
+
+October 2008. Mr. Musk was Chief Technology Officer and on the board of directors of X, beginning October 2022
+
+and served as the Chief Executive Officer and on the board of directors of xAI, beginning March 2023, in each case
+
+through the March 2025 merger of X and xAI. Following the merger, Mr. Musk served as the President, Treasurer,
+
+and Chief Executive Officer and on the board of directors of xAI, until it was acquired by the Company in February
+
+2026. Mr. Musk is also a founder and Chief Executive Officer of Neuralink Corp., a company focused on
+
+developing brain-machine interfaces, and The Boring Company, an infrastructure company. Prior to the Company,
+
+Mr. Musk co-founded PayPal, an electronic payment system, which was acquired by eBay in October 2002, and
+
+Zip2 Corporation, a provider of Internet enterprise software and services, which was acquired by Compaq in March
+
+1999. Mr. Musk serves on the board of directors of Tesla and previously served on the board of directors of
+
+Endeavor Group Holdings, Inc. from April 2021 to June 2022. Mr. Musk holds a B.A. in Physics from the
+
+University of Pennsylvania and a B.S. in Business from the Wharton School of the University of Pennsylvania. Mr.
+
+Musk brings to our board historical knowledge, operational and technical expertise, and continuity.
+
+Gwynne Shotwell has served as our President and Chief Operating Officer since 2008 and has been a member of our
+
+board since March 2009. Previously, Ms. Shotwell served as our Vice President, Business Development, from 2002
+
+to 2008. Prior to joining the Company, Ms. Shotwell held positions with Microcosm, Inc., an aerospace company, as
+
+a director, and The Aerospace Corporation, an independent, non-profit organization performing objective technical
+
+analyses and assessments for a variety of government, civil, and commercial customers, as a senior project engineer.
+
+Ms. Shotwell also serves on the board of directors of Polaris, Inc., a manufacturer of powersports vehicles, and on
+
+Northwestern University�s Board of Trustees. Ms. Shotwell was inducted into the National Academy of Engineering
+
+and was previously named the Satellite Executive of the Year, included on Time�s 100 Most Influential People, and
+
+Fortune 

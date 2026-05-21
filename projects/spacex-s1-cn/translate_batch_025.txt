@@ -1,0 +1,593 @@
+r, and
+
+sea. We believe we have a differentiated right to win these verticals as existing connectivity solutions are not
+
+able to provide sufficient speed, latency and reliability, with frequent service outages driven by weather, orbital
+
+mechanics and coverage gaps. Our Starlink constellation directly addresses these deficiencies, creating a
+
+compelling path for us to capture a substantial share of opportunities and to unlock previously unattainable
+
+levels of service quality and customer willingness to pay.
+
+In land mobility, Starlink supports connectivity for vehicle fleets, including trucking, rail, public safety vehicles,
+
+and autonomous systems, enabling real-time telematics, route optimization, safety monitoring, and onboard
+
+passenger connectivity, as fleets become increasingly connected and data-driven.
+
+In aviation, Starlink delivers high-speed, low-latency in-flight connectivity for commercial airlines, business
+
+aviation, and government aircraft, supporting passenger broadband, operational communications, and real-time
+
+aircraft data transmission, as airlines increasingly prioritize differentiated onboard experiences and operational
+
+Table of Contents
+
+efficiency. There are approximately 23,900 commercial aircraft, according to Oliver Wyman, and
+
+approximately 24,500 privately owned aircraft, according to Corporate Jet Investor, in the world, which can be
+
+served by our aviation offering.
+
+In maritime, Starlink provides connectivity for commercial shipping, offshore energy platforms, cruise lines,
+
+and government vessels, enabling crew welfare, operational optimization, safety systems, and real-time data
+
+transfer, as connectivity becomes a standard requirement across global fleets. Our potential customer base as of
+
+2025 consists of approximately 99,000 commercial merchant ships, defined as being 100 gross tons or more,
+
+approximately 21,000 fishing vessels, and approximately 4,000 cruise ships and private yachts, according to
+
+Marine Traffic Dashboard.
+
+� Expanded Enterprise and Government Applications
+
+Enterprise Back-Up and Failover Connectivity. As connectivity becomes a mission critical component of
+
+enterprise operations, we believe back-up and failover connectivity is evolving into a foundational layer of
+
+enterprise infrastructure. The increasing cost of downtime, combined with the proliferation of cloud-based and
+
+latency-sensitive applications, is driving enterprises to prioritize uptime, business continuity, and network
+
+resilience and adopt multi-layered connectivity architectures. We believe this shift will result in a meaningful
+
+expansion of the connectivity market.
+
+Expanded Government Applications . We believe traditional connectivity market estimates do not fully
+
+capture the scope of government-related demand, particularly in mission-critical and classified applications. The
+
+growing importance of secure communications, real-time intelligence, and resilient network architectures is
+
+driving sustained investment in connectivity capabilities across defense and civilian agencies. These use cases
+
+tend to command higher value and longer-duration contracts, contributing to a meaningful and durable
+
+expansion of the connectivity market.
+
+Smart Device Connectivity . The proliferation of connected devices across various physical environments�
+
+including sensors, wearables, vehicles, appliances, and infrastructure systems�is driving increasing demand for
+
+ubiquitous, reliable, and low-latency connectivity. As of 2025, there were approximately 22 billion IoT
+
+connected devices globally, forecasted to reach 47 billion by 2031. As billions of connected devices generate,
+
+transmit, and act on data, connectivity becomes an essential enabler of new categories of economic activity. As
+
+these devices grow in scale into the tens of billions globally and become more intelligent and data-intensive, we
+
+believe the scope of the connectivity market will expand significantly beyond traditional human-centric usage.
+
+In-Orbit Data Transport . We operate a large constellation of over 23,000 inter-satellite lasers that create a
+
+dynamic mesh network in space and enable traffic rerouting through orbit. We believe this laser mesh network
+
+will help us unlock a new connectivity market by enabling third-party satellites to utilize our in-orbit data
+
+transport layer. While most of our laser mesh network capacity is used to power our Starlink services, we
+
+selectively monetize excess capacity through our Plaser program. We allow third parties to purchase our space
+
+laser hardware and connect their satellites to our Starlink network, allowing them to offload data to a ground
+
+station anywhere on Earth while bypassing the need to build their own relay architecture or ground stations. As
+
+satellite constellations grow, we expect market demand for high-throughput, low-latency data relay to increase
+
+across commercial and government operators. While this market remains nascent, we believe the opportunity
+
+represents a meaningful expansion beyond traditional satellite connectivity TAM.
+
+Artificial Intelligence
+
+The market for artificial intelligence is currently undergoing explosive structural growth, emerging as a foundational
+
+utility for the modern global economy and unlocking a multi-trillion-dollar opportunity. Our frontier models,
+
+consumer and enterprise applications, and AI infrastructure solutions are strategically positioned to capture value
+
+across four key components of this vast ecosystem, resulting in an estimated total market opportunity of $26.5
+
+AI Infrastructure. According to RAND Corporation, global data center compute demand is estimated to be 235
+
+gigawatts in 2030, of which 70% is estimated to be utilized for AI workloads. Assuming a target Power Usage
+
+Table of Contents
+
+Effectiveness of 1.2 and an all-in chip power consumption per GPU of 1.3 kilowatts per GPU�that of an H100
+
+SXM� this AI workload demand corresponds to 104 million GPUs required. We apply an 80% utilization rate per
+
+the National Electrical Installation Standards and a GPU rental rate of $3.33 per hour, according to Silicon Data,
+
+which is based on the median of neocloud GPU rental rates in 2025; we note that the rental rate has historically
+
+varied subject to market conditions. As a result, we estimate the AI compute infrastructure market opportunity to be
+
+approximately $2.4 trillion.
+
+Consumer Subscriptions. As demand for AI solutions surges, fueled by widespread adoption of AI tools that
+
+enhance productivity, creativity, personalization, and real-time assistance in everyday life, consumers are
+
+increasingly turning to subscription-based access to high-performance AI platforms. These platforms, equipped with
+
+advanced reasoning, seamless real-time data integration, and multimodal capabilities, are essential in today�s ever-
+
+more receptive and interconnected world. We believe SpaceX is well positioned to address this opportunity through
+
+our X and Grok platforms by delivering a differentiated product centered on truth-seeking and real-time relevance.
+
+Our roadmap for future models contains multi-trillion parameter models, which could represent a step change in
+
+reasoning depth and overall intelligence. Through Grok�s integration with X and proprietary access to real-time data
+
+inflows, we believe we can better address a broader set of high-frequency, high-value consumer use cases and
+
+increase user engagement and willingness to pay, positioning Grok to capture a larger share of the consumer AI
+
+subscription market relative to standalone, non-integrated offerings. We estimate our market opportunity based on
+
+the global population of individuals aged 10 and over in 2025�approximately five and a half billion according to
+
+Euromonitor�multiplied by the weighted average monthly subscription revenue of $12, resulting in an annualized
+
+market opportunity of approximately $760 billion. Our weighted average monthly revenue assumes different
+
+monthly subscription fees across different geographies around the world. We assume $30 monthly cost of a
+
+SuperGrok subscription in high-income countries, $8 monthly cost in upper-middle and lower-middle income
+
+countries, and significantly lower monthly cost in low income countries, as defined by the World Bank.
+
+Digital Advertising. Digital advertising represents a large and growing global market opportunity as businesses
+
+increase marketing budgets towards digital platforms that enable targeted advertising, measurable performance, and
+
+direct engagement with consumers. In 2025, global digital advertising spending totaled $600 billion according to
+
+S&P Global Market Intelligence. We believe that X�s ability to combine large-scale user engagement, real-time
+
+content, and advanced AI-driven performance marketing tools positions us well to participate in this significant
+
+market opportunity.
+
+Enterprise Applications. AI is revolutionizing enterprise applications as organizations across industries increasingly
+
+adopt AI solutions to automate complex workflows, augment knowledge workers, enhance decision-making,
+
+redefine productivity, and improve operational efficiency. Specifically, we believe that our enterprise applications,
+
+including Macrohard, agentic AI, will increasingly support knowledge workers across industries by automating
+
+routine cognitive tasks, assisting with research and analysis, generating content and code, and refining decision-
+
+making processes. Ultimately, we believe this transformation could evolve knowledge workers into empowered
+
+managers of autonomous agents, unlocking unprecedented levels of creativity and productivity.
+
+We believe we are still in the early days of AI transforming enterprises, with AI-powered enterprise applications
+
+poised to reshape the digital economy. The Digital Cooperation Organization (�DCO�) defines the digital economy
+
+as economic activity reliant on, significantly enhanced, or enabled by digital technologies and their applications,
+
+including the following products and services: AI and advanced analytics, blockchain and decentralized
+
+technologies, cloud services, digital connectivity, digital devices and the IoT, encryption and cybersecurity,
+
+immersive technologies, and robotics and autonomous systems. DCO estimates that the digital economy will grow
+
+three times faster in 2026 on a year-over-year basis compared to the estimated growth of the global GDP, reaching
+
+approximately $22.7 trillion in 2026. In a survey of CTOs, senior technologists, policymakers, and digital economy
+
+experts, also conducted by DCO, AI and advanced analytics were identified by 69% of respondents as their top
+
+digital technology priority�higher than any other surveyed priority. We believe that our enterprise strategy, which
+
+is focused on serving the digital needs of the world�s largest industries with AI solutions, positions us competitively
+
+to pursue this rapidly growing opportunity.
+
+Table of Contents
+
+Beyond the established markets reflected in our TAM, we envision that ongoing advancements in our technology
+
+and infrastructure will unlock entirely new markets over time. As launch costs decline, satellite capabilities advance,
+
+and large-scale compute infrastructure expands, innovative applications and new markets may emerge that harness
+
+our integrated infrastructure across space, connectivity, and AI. Although these prospects remain nascent, with
+
+uncertain timing and scale�and thus are excluded from our quantified total addressable market estimates�we
+
+believe they hold trillions of dollars of eventual potential for groundbreaking innovation and value creation,
+
+eventually representing multi-trillion-dollar economic opportunities.
+
+Long-Haul Point-to-Point Terrestrial Travel. Our Starship vehicle has the potential to revolutionize terrestrial
+
+commercial transportation by achieving an unparalleled combination of speed, reliability and cost efficiency. This
+
+capability could reduce most international long-haul flights to under 30 minutes, enabling point-to-point travel to the
+
+furthest location in an hour or less. While we must surmount technological, economic and regulatory obstacles to
+
+fully capitalize on this opportunity�such as restrictions on supersonic flights over land in certain regions due to
+
+sonic booms, and the economic feasibility of shorter routes�we believe we are strategically positioned to take share
+
+of the terrestrial logistics and transportation market.
+
+Space Tourism. Historically, human spaceflight has been limited to government astronauts, augmented by a limited
+
+number of privately funded missions. Yet, with meaningful advances in space technology and the ongoing
+
+expansion of orbital flight infrastructure, we anticipate a gradual increase in accessibility of spaceflight over time,
+
+potentially enabling a new category of commercial human spaceflight and tourism. Under 30 people out of the
+
+global population visited Earth�s orbit in 2025, which we believe could be a far greater number in the future.
+
+Passenger and Cargo Transport to the Moon and Mars. Looking further ahead, advances in reusable launch
+
+systems and deep-space transportation infrastructure may enable new forms of interplanetary logistics, including
+
+passenger and cargo transportation to the Moon and Mars. Supporting a sustained human presence on another planet
+
+would require the regular transport of people, equipment, and materials at a scale not previously possible.
+
+Energy Production and Manufacturing on the Moon and Mars. Establishing a sustained human and industrial
+
+presence on the Moon and Mars would require reliable, large-scale energy generation to support habitats,
+
+manufacturing, and scientific operations. Potential solutions could include solar power systems, taking advantage of
+
+the thin atmosphere, constant solar exposure, and other advanced energy technologies designed to operate in the
+
+unique environmental conditions of the Moon and Mars. Over time, we believe that advances in planetary
+
+infrastructure may enable manufacturing on the Moon and Mars using locally available resources.
+
+In-Orbit Manufacturing. Terrestrial manufacturing is inherently constrained by gravity, which imposes
+
+fundamental limitations on processes at the atomic and molecular level. Establishing in-orbit infrastructure unlocks
+
+large-scale, high-value production free from those traditional barriers, enabling breakthroughs in precision and
+
+efficiency. The microgravity environment of space fosters innovative advancements in key industries, such as
+
+pharmaceuticals�where it enhances drug solubility, purity, crystallization, and stability�as well as, advanced
+
+materials and semiconductors, allowing for superior crystal formation and material properties unattainable on Earth.
+
+Beyond these particle-level innovations, in-orbit facilities overcome Earth�s energy constraints by harnessing
+
+abundant, uninterrupted solar power, facilitating energy-intensive operations with unparalleled sustainability.
+
+Asteroid Mining. Asteroid resources, including platinum-group metals, rare earth elements, nickel, cobalt, iron and
+
+water, represent a vast untapped reservoir beyond Earth�s gravity well, with some near-Earth objects containing
+
+concentrations of elements far exceeding typical terrestrial ore grades. With meaningful advances in reusable launch
+
+capabilities, autonomous robotics, and in-situ processing technologies, we believe the accessibility of asteroid
+
+resources will expand over time, unlocking a new category of commercial space resource extraction. We believe our
+
+experience in launch systems, spacecraft development, and space infrastructure uniquely positions us to pursue
+
+asteroid mining operations to extract metals and other critical resources from near-Earth and main-belt asteroids,
+
+providing abundant raw materials for space-based infrastructure, reducing the need to launch all mass from Earth.
+
+Table of Contents
+
+Our Solutions & Services
+
+Unparalleled Launch Capability
+
+Our unmatched launch capability is the foundational competitive advantage that enables our unique solutions and
+
+services. We are the market leader in orbital launch, providing low-cost, reliable, and frequent access to space for
+
+commercial and government customers. Our launch services are built around a fleet of reusable rockets and
+
+spacecraft. SpaceX�s family of rocket systems and spacecraft address missions ranging from routine cargo delivery
+
+to the International Space Station to deep-space exploration. The Falcon class of rockets delivered over 80% of mass
+
+to orbit in the year ending December 31, 2025. Starship, a two-stage super heavy-lift launch vehicle that we have
+
+been flight testing since 2023, further enhances our industry-defining launch offerings.
+
+Separate from our fleet of reusable rockets, SpaceX�s launch advantage is equally underpinned by our fleet of
+
+advanced spacecraft. Our International Space Station cargo and human spaceflight missions are launched on Falcon
+
+9 and flown on the Dragon crew and cargo spacecraft. The vehicles autonomously dock to the station, delivering
+
+pressurized and unpressurized cargo, and passengers. Both Dragon variants are partially reusable and perform fully
+
+autonomous rendezvous, docking, and return operations.
+
+Our Fleet of Launch Vehicles and Spacecraft
+
+Our Fleet of Launch Vehicles
+
+Falcon 9. The Falcon 9 rocket is a reusable, two-stage rocket designed and manufactured by SpaceX for the safe,
+
+reliable, and cost-effective transport of satellites, scientific payloads, cargo, and crew to Earth orbit and beyond.
+
+Powered by liquid oxygen and rocket-grade kerosene, the first-stage is equipped with nine Merlin 1D engines
+
+producing over 1.7 million pounds of thrust at sea level, while the second stage utilizes a single vacuum-optimized
+
+Merlin engine for precise orbital insertion. First launched in 2010, Falcon 9 is the world�s first orbital-class rapidly
+
+reusable rocket, and has become the most active orbital launch vehicle today, with approximately 620 orbital space
+
+launches as of March 31, 2026 and an over 99% mission success rate. Falcon 9 is capable of delivering
+
+approximately 23 metric tons to LEO and eight metric tons to geosynchronous transfer orbit. Reusability allows
+
+SpaceX to refly the most expensive parts of the rocket, which in turn drives down the cost of space access. Falcon
+
+9�s reusable components primarily include its booster, which lands on one of our autonomous drone ships out on the
+
+Table of Contents
+
+ocean or on one of our landing zones near our launch pads ahead of being refurbished for a future launch, and its
+
+payload fairing halves, which are recovered via parachute-assisted splashdowns and are refurbished and reused after
+
+retrieval. The second stage is not designed for recovery or reuse and instead safely deorbits after successful payload
+
+Falcon 9 Overview
+
+Falcon 9 introduced a combination of technical innovation, cost reduction, and operational scale that materially
+
+altered the economics of orbital launch and established our position as the leading commercial launch provider.
+
+� First Orbital-Class Rapidly Reusable Rocket: In December 2015, Falcon 9 achieved the first vertical landing
+
+of an orbital-class booster, followed in April 2016 by the first autonomous drone ship landing in the Atlantic
+
+Ocean. Reuse of boosters and fairings, a practice pioneered by SpaceX in the launch industry, fundamentally
+
+enables our launch rate and capacity and forms the basis for the launch system�s inherent reliability. Through
+
+recovering, inspecting, and evaluating flown hardware, SpaceX gains insight into system performance that
+
+would not be otherwise achievable. Partial reusability for orbital spaceflight has reduced cost per ton to orbit by
+
+approximately 85% as compared to the historical average launch cost per kilogram of $18,500.
+
+� Reusability Enabled Cost Structure Advantage: Reuse of the first-stage�representing the majority of
+
+vehicle manufacturing cost�has materially reduced marginal launch costs relative to fully expendable systems.
+
+� Highest Operational Tempo in History: With approximately 620 orbital space launches over 15 years of
+
+operation, Falcon 9 is the most frequently flown active orbital launch vehicle to date. In 2025, Falcon 9
+
+conducted 165 launches, accounting for over half of all global orbital launches in the year while delivering over
+
+80% of mass to orbit.
+
+� Track Record of Success: As of March 31, 2026, Falcon 9 has achieved an over 99% mission success rate.
+
+Falcon 9 has achieved over 530 successful booster landings and more than 540 launches completed by a flight-
+
+proven Falcon rocket, underscoring the reliability of its reusability architecture.
+
+� Human Spaceflight Certified: Falcon 9, paired with SpaceX�s Dragon crew spacecraft, is the only U.S.-based
+
+launch vehicle certified by NASA under the Commercial Crew Program to transport astronauts to and from the
+
+Table of Contents
+
+International Space Station. As of December 31, 2025, Falcon 9 has successfully launched 19 human
+
+spaceflight missions with a 100% mission success rate.
+
+� In-House Engine Development and Manufacturing: Falcon 9 is powered by Merlin engines that are
+
+designed, developed, and manufactured in‑house, providing vertical integration across propulsion design,
+
+production, and testing. The Merlin engine achieves one of the highest thrust‑to‑weight ratios of any rocket
+
+engine in operational service, contributing to Falcon 9�s performance and payload capacity.
+
+As we transition primary production and development resources toward the fully and rapidly reusable Starship
+
+system, Falcon 9 continues to serve as the backbone of our launch revenue base; generating high-margin recurring
+
+cash flows while providing critical operational experience in high-cadence reuse. The proven capabilities of Falcon
+
+9 established us as the leading provider of launch services globally and laid the technological and economic
+
+foundation for the next era of space transportation.
+
+Falcon Heavy. Falcon Heavy is a partially reusable super heavy-lift launch vehicle, designed to deliver large
+
+payloads to orbit. Building on the proven architecture of the Falcon 9 rocket, Falcon Heavy is composed of three
+
+reusable Falcon 9 nine-engine boosters whose combined 27 Merlin engines generate more than five million pounds
+
+of thrust at liftoff�one of the most powerful operational rockets in the world today. It is capable of carrying
+
+approximately 64 metric tons of payload to LEO and 27 metric tons to geosynchronous transfer orbit. Falcon
+
+Heavy�s reusable components primarily include its three boosters, which are designed to land vertically on drone
+
+ships in the ocean and landing zones near our launch sites, and its payload-faring halves, which are recovered via
+
+parachute-assisted splashdown and are refurbished and reused after retrieval. The second stage is not designed for
+
+recovery or reuse and is designed to safely deorbit after successful payload deployment, similar to Falcon 9.
+
+Table of Contents
+
+Falcon Heavy Overview
+
+� Reusability: Falcon Heavy incorporates a design focused on reusability, which has contributed to lowering the
+
+cost of access to space and altering the launch industry�s economic model for large or high-value payloads. The
+
+vehicle�s two side boosters, equipped with hypersonic grid fins and advanced propulsion systems, enable
+
+controlled recovery and soft landings. This capability enables reusability, with missions launching on flight-
+
+proven boosters generally priced below those of traditional expendable flights . Our Falcon 9 boosters, which are
+
+qualified for up to 40 flights, are also used on Falcon Heavy, with an average of 6 flights per booster on Falcon
+
+Heavy. Although our Falcon 9 boosters have been engineered and demonstrated to support up to 40 flights, we
+
+have established a maximum accounting useful life of 25 flights as an estimate based on forecasted utilization.
+
+This estimate reflects: (i) our strategic transition to Starship, which is expected to materially reduce future
+
+Falcon 9 flight demand; and (ii) restrictions under certain government contracts that prohibit the use of boosters
+
+flown more than five times on their missions. These useful life estimates are periodically reassessed based on
+
+engineering qualification data, post-flight inspections, recovery success rates, actual fleet performance, cost
+
+sensitivity analyses, and the long-range launch manifest.
+
+Table of Contents
+
+� Exploratory Missions Beyond Earth�s Orbit: Falcon Heavy first launched in February 2018, when it put a
+
+Tesla Roadster and its mannequin passenger, Starman, into orbit around the Sun. This was the first instance of a
+
+car sent into deep space and demonstrated the rocket�s capability for trans-Mars injection. Since its inaugural
+
+flight, Falcon Heavy has completed missions that expanded the scope of space exploration and commercial
+
+spaceflight. Falcon Heavy has been selected by NASA to launch critical weather satellites, interplanetary probes
+
+including Europa Clipper (Jupiter) and Dragonfly (Saturn), and the upcoming Nancy Grace Roman telescope,
+
+designed to study exoplanets and dark energy and matter.
+
+Table of Contents
+
+Starman in Orbit
+
+� Perfect Performance Record: As of March 31, 2026, Falcon Heavy had successfully completed 11 launches,
+
+all resulting in successful payload delivery. Falcon Heavy flown boosters have also safely completed 18 total
+
+recoveries and 16 reflights. It was certified for National Security Space Launch in 2019, authorizing its use for
+
+U.S. government operations alongside Falcon 9.
+
+Starship. A fully reusable two-stage super heavy-lift launch vehicle, Starship stands to fundamentally transform
+
+spaceflight by making it more accessible, cost-effective, and scalable than ever before. Comprising the Super Heavy
+
+booster (powered by 33 Raptor engines) and the Starship upper stage (with three sea-level and three vacuum Raptor
+
+engines), Starship V3 is designed to deliver 100 metric tons to space in a fully reusable configuration while enabling
+
+rapid turnaround times akin to commercial aviation, and future generations could reach 200 metric tons, potentially
+
+as soon as Starship V4. To date, we have executed 11 Starship flight tests. We have also scheduled a 12th flight test,
+
+which will debut the next generation Starship vehicle and Super Heavy booster, powered by the next evolution of
+
+our Raptor engine and launching from a newly designed pad at Starbase. We expect Starship to commence payload
+
+delivery to orbit in the second half of 2026. We have achieved innovative milestones, including multiple successful
+
+ascents of the world�s most powerful rocket; the launch, return, catch, and reuse of the Super Heavy booster; the
+
+return of its upper stage within three meters of its intended landing point; the transfer of approximately five metric
+
+tons of cryogenic propellant between tanks while in space, a first of its kind operation that provides key data for
+
+future full-scale propellant transfer operations; successful in-space relights of the Raptor engines; and multiple
+
+controlled reentries through Earth�s atmosphere. The purpose of flight tests is to collect data so no result, even loss
+
+of a vehicle, is considered a failure because we learn something.
+
+Starship is a key enabler of our growth objectives, including the deployment of next-generation V3 satellites, direct-
+
+to-cell constellations, and orbital AI compute at scale. Achieving our targeted launch cadence with Starship will
+
+require significant progress on several key milestones and the investment of significant capital resources. These
+
+include: securing additional land and developing high-rate launch sites and supporting infrastructure across multiple
+
+locations; scaling production of Starship vehicles and Raptor engines; constructing propellant production facilities,
+
+including air separation units and methane liquefaction plants co-located with launch sites; securing sufficient power
+
+supply; and obtaining the necessary regulatory approvals, particularly from the FAA, to support a high launch
+
+cadence while addressing public safety and environmental considerations. Our development of Starship and its
+
+Table of Contents
+
+associated infrastructure assumes continued successful iteration through flight testing, regulatory progress, supply
+
+chain scaling, and cost reduction driven by increasing reusability. We have made substantial investments in
+
+manufacturing scale-up, including Starfactory for high-volume vehicle production, multiple large-scale vertical
+
+integration and refurbishment facilities, additional launch towers, test infrastructure, propellant production assets,
+
+and power generation capabilities.
+
+Full reusability of Starship�s upper stage is not required to deploy our V3 satellites and V2 Mobile satellites in low-
+
+Earth orbit. In-orbit refueling is also not required for any of these LEO programs and is instead intended for
+
+missions beyond LEO, such as lunar and interplanetary transport. Starship�s substantial payload capacity to LEO,
+
+even in partially reusable or expendable configurations, enables meaningful progress toward these objectives. We
+
+have already demonstrated Super Heavy booster reusability in multiple integrated flight tests. As a result,
+
+meaningful advancement across the deployment of next-generation V3 satellites, direct-to-cell constellations, and
+
+the orbital AI compute program is not dependent on achieving full reusability.
+
+Starship Overview
+
+� Full and Rapid Reusability and Drastically Reduced Launch Costs: Starship�s core design innovation is its
+
+full and rapid approach to reusability: both stages return to Earth for catch and rapid refurbishment. The Super
+
+Heavy booster returns to the launch site following stage separation and is caught mid-air by the launch tower�s
+
+mechanical arms, also known as �chopsticks,� to facilitate imme

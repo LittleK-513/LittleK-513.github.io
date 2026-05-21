@@ -1,0 +1,553 @@
+s or degradation of our
+
+satellites, increased costs for collision avoidance maneuvers, or the need to replace or reposition assets on an
+
+accelerated schedule. Not all satellite operators or other space actors adhere to the same rigorous space safety, debris
+
+mitigation, or coordination practices that we adhere to, which may increase the likelihood of congestion,
+
+conjunctions, or other operational risks outside of our control and, in extreme cases, could contribute to
+
+fragmentation events or cascading debris effects that further increase collision risks in Low-Earth Orbit.
+
+In addition, some domestic and international authorities have applied heightened regulatory scrutiny as interest in
+
+utilizing Low-Earth Orbit for satellite operations has increased. Debris mitigation regulations may emerge if
+
+congestion increases. Failure to meet debris requirements could result in monetary penalties or loss of licensing
+
+authority, which would adversely affect our satellite constellation deployment and expansion plans, and future
+
+regulatory actions could impose more restrictive operational, deployment, or debris mitigation requirements that
+
+could limit our ability to launch or operate satellites in Low-Earth Orbit. In addition, there is a burgeoning effort to
+
+further regulate Low-Earth Orbit, MEO, and GSO and establish liability regimes for operators, including regimes
+
+similar to those under the Comprehensive Environmental Response, Compensation and Liability Act, which imposes
+
+strict liability for environmental contamination or remediation costs, as well as growing concern over the potential
+
+Table of Contents
+
+environmental effects of emissions and other byproducts from rocket launches in Earth�s upper atmosphere.
+
+Additional regulation in this area could adversely impact our business, financial condition, results of operations, and
+
+future prospects.
+
+Furthermore, any damage to our satellites or impairment of their functionality resulting from collisions with space
+
+debris or other spacecraft could materially and adversely affect our ability to deliver reliable services to our
+
+customers, harm our reputation, and expose us to potential contractual liabilities or insurance claims. The growing
+
+challenges associated with space debris management may require us to invest in additional technologies or processes
+
+to safeguard our assets and maintain compliance with evolving regulatory frameworks, which could have a material
+
+adverse effect on our business, financial condition, results of operations, and future prospects.
+
+Interruptions in the operation of critical satellite network, ground station, launch, manufacturing, or spacecraft
+
+or data center infrastructure could result in significant downtime, operational delays or loss of service, each of
+
+which could have a material adverse effect on our business, financial condition, results of operations, and future
+
+Our ability to provide reliable services across our Space, Connectivity, and AI business segments depends on the
+
+uninterrupted operation of our critical infrastructure, including but not limited to satellite and communications
+
+networks, ground stations, launch facilities, and data centers. An interruption or failure affecting any aspect of this
+
+infrastructure, whether due to equipment malfunctions, power outages, disruptions in, or unauthorized access to, our
+
+computer systems (such as software or hardware failures, or cyberattacks), natural disasters (such as earthquakes,
+
+floods, fires, or severe weather events), terrorism, war, sabotage, pandemics, epidemics, or other unforeseen
+
+circumstances, could result in significant downtime, operational delays, or complete loss of service. Any such attack
+
+could destroy or disable a significant number of our satellites and, depending on its scale, could trigger a cascading
+
+collision event that renders our licensed orbits, and potentially other orbits, unusable for an extended period.
+
+Similarly, the use of our satellites to enable communications access in conflict zones may expose us to retaliation
+
+from foreign governments and non-state actors. Such an event could have a material adverse effect on our business,
+
+financial condition, results of operations, and future prospects. These events may disrupt power, damage facilities,
+
+interrupt service despite contingency plans or compromise our ability to deliver services to customers as promised,
+
+hinder our ability to meet regulatory or contractual requirements, and erode trust among our customers, partners,
+
+regulators and stakeholders. In particular, an interruption or failure affecting our critical infrastructure could result in
+
+outages of service to our Starlink Subscribers. Any such outage could erode the trust of existing and potential
+
+Starlink Subscribers in our service, which could result in the loss of existing or potential subscribers. In addition, the
+
+complexity and interdependence of our engineering, manufacturing, assembly and terrestrial, space transportation,
+
+and infrastructure systems mean that a disruption in one component can have cascading effects throughout our
+
+operations. For example, an outage at a data center or ground station could impact command and control functions,
+
+mission planning, or real-time telemetry, while interruptions at launch facilities could cause postponements or
+
+cancellations of scheduled launches.
+
+Adverse global macroeconomic and geopolitical conditions may negatively affect our business, financial
+
+condition, results of operations and future prospects.
+
+Adverse global or regional economic and geopolitical conditions could reduce demand for certain of our products
+
+and services, which may negatively affect our business, financial condition, results of operations and future
+
+prospects. Economic downturns, inflation, higher interest rates, tighter credit conditions, reduced consumer
+
+spending, lower business or government investment, or geopolitical developments may negatively affect demand for
+
+our offerings. Reduced consumer or enterprise spending for each of our Starlink connectivity services or our AI-
+
+related offerings would limit our ability to grow our business, which may slow the pace at which we deploy satellites
+
+and expand our constellation or adversely affect the utilization of our launch capabilities.
+
+Table of Contents
+
+Manufacturing, testing and launching rockets, satellites, and spacecraft, including our efforts to reuse rockets
+
+and spacecraft, involve inherent risks that could result in human injury or death, property damage and
+
+environmental damage or other adverse environmental impacts due to accidents or equipment failures. Any such
+
+events could result in substantial losses, including reputational harm and legal liability, which could have a
+
+material adverse effect on our business.
+
+The manufacturing, testing, launching, and recovery of our rockets, satellites, and spacecraft are complex activities
+
+that are conducted under challenging conditions and involve a high degree of risk. Our reusable vehicles will reenter
+
+Earth�s atmosphere and fly over populated land for extended periods, which carries inherent risks to populations in
+
+the event of failure, such as structural breakup, loss of control, or debris dispersal. Although we implement extensive
+
+safety protocols and operational safeguards designed to protect personnel and the public, these protocols and
+
+safeguards may not in all circumstances prevent exposure of our personnel and potentially members of the public to
+
+hazards such as explosions, structural failures or debris dispersal. A manufacturing defect, testing anomaly, launch
+
+failure, recovery incident, or similar event involving injury to humans, any human fatalities, property damage, or
+
+environmental damage or other adverse environmental impacts could result in substantial losses, including
+
+reputational harm and legal liability, which could have a material adverse effect on our business.
+
+Although we are focused on the vertical integration of our businesses, we depend on third parties to manufacture
+
+and supply certain key components necessary for the provision of our launch, connectivity, and AI services, and
+
+any supply shortages or disruptions or failures in their performance could have a material adverse effect on our
+
+business, financial condition, results of operations, and future prospects.
+
+Disruptions in the supply chain for essential raw materials or components, challenges in the supplier qualification
+
+process, or increases in the prices of inputs could materially and adversely affect our business, financial condition,
+
+results of operations, and future prospects. Despite our supply chain being largely vertically integrated, our reliance
+
+on third-party manufacturers and suppliers for key components introduces risks related to supply chain continuity,
+
+quality assurance, and vendor performance. We depend on both domestic and international suppliers for certain
+
+specialized materials, components, and services that are essential to the production and operation of our launch
+
+vehicles, spacecraft, satellites, user terminals (including Starlink consumer terminals), AI segment and related
+
+infrastructure. Any failure or delay by these partners to deliver components in the required quantities, within
+
+specifications, or on schedule has in the past and may in the future adversely affect our production schedules,
+
+operational reliability, and our ability to meet contractual obligations. In addition, disruptions in the supply chain
+
+due to shortages, quality issues, natural disasters, geopolitical events, labor disputes, pandemics, epidemics, tariffs or
+
+trade restrictions, criminal activity (including terrorism, sabotage or cyberattacks) or other factors outside our
+
+control could result in significant delays, increased costs, or an inability to deliver products and services to
+
+customers in a timely and cost-effective manner. The process of qualifying new suppliers or transitioning to
+
+alternative vendors can be time-consuming and may not be successful, further increasing our exposure to supply
+
+chain interruptions. Furthermore, our limited pool of qualified vendors for certain critical products or services
+
+exposes us to increased pricing pressures and quality risks. In particular, certain materials and products that are key
+
+inputs in our Space, Connectivity, and AI segments are available from a limited number of suppliers, including sole
+
+or limited-source suppliers, and our direct chip suppliers are dependent on a concentrated group of advanced
+
+semiconductor fabrication facilities. For additional information regarding supply chain risk relating to our AI
+
+processors, please see �Our ability to scale our AI products relies on our terrestrial and orbital AI compute
+
+infrastructure, which depends on the availability of power, AI processors, and other critical components,
+
+telecommunications services, and any shortages or disruptions thereof would materially adversely affect our
+
+business, financial condition, results of operations, and future prospects.� The inability of these suppliers to deliver
+
+necessary components of the products in a timely manner and at prices, quality levels, and volumes acceptable to us,
+
+or interruptions in supply of materials or products on which these suppliers rely, could have an adverse effect on our
+
+ability to meet customer demands and contractual obligations, execute on our growth strategy, or manage our
+
+expenses or timelines as expected, which could adversely impact our business, financial condition, results of
+
+operations, and future prospects.
+
+Table of Contents
+
+Our ability to scale our AI products relies on our terrestrial and orbital AI compute infrastructure, which
+
+depends on the availability of power, AI processors, and other critical components, telecommunications services,
+
+and any shortages or disruptions thereof would materially adversely affect our business, financial condition,
+
+results of operations, and future prospects.
+
+Our ability to scale our data center infrastructure, which supports our AI segment, is increasingly constrained by the
+
+availability of power at economically feasible prices, long lead times, availability of materials, and changing
+
+regulatory requirements. For example, energy supply is constrained globally due to the significant increase in
+
+demand for, and limited availability of, energy to power AI compute. Securing this capacity can involve entering
+
+into complex, long-lead-time arrangements or proceeding with alternative sources of power generation. We
+
+currently rely significantly on natural gas and gas turbine technology to power our data center operations. As such,
+
+our ability to scale our infrastructure depends in part on our continued access to natural gas supply at economically
+
+feasible prices, the availability of gas turbines and related equipment, and the maintenance of a regulatory
+
+environment that permits and supports the use of natural gas for large-scale power generation. Our AI products also
+
+rely on GPUs and other processors, servers, network equipment and other critical components sourced from third-
+
+party suppliers for use in our data centers. Manufacturing and supply of servers and network equipment for our
+
+technical infrastructure, particularly for GPUs and other specialized components, is limited to a small number of
+
+qualified suppliers. We do not have any long-term or other material contractual arrangements with our direct chip
+
+suppliers, instead procuring all of our GPUs on a purchase-order basis. Our direct chip suppliers are dependent on a
+
+concentrated group of advanced semiconductor fabrication facilities, or �fabs.� Any disruption to our upstream
+
+supply chain, including fab capacity constraints, manufacturing issues, shortages of raw materials such as silicon
+
+wafers or rare earth elements, geopolitical tensions affecting fab operations, or natural disasters impacting key
+
+fabrication regions, could limit our chip suppliers� ability to fulfill our orders, which could have a material adverse
+
+effect on our business, financial condition, and results of operations. Our ability to achieve orbital AI at scale
+
+depends on our ability to access a sufficient number of AI chips, significantly more than are currently available to
+
+us. While we expect to construct Terafab to address such supply constraints, Terafab may not be successful, in
+
+which case we may not have other sources of sufficient AI chips to meet our orbital AI compute demands. While
+
+Terafab is intended to expand our internal chip manufacturing capabilities and alleviate potential future AI chip
+
+shortages at SpaceX, particularly as we pursue orbital AI at scale, we expect to continue sourcing a significant
+
+portion of our compute hardware from third-party suppliers, and there can be no assurance that we will be able to
+
+achieve our objectives with respect to Terafab within the expected timeframes, or at all. While we have a framework
+
+agreement with Tesla, neither Tesla nor Intel are obligated to remain a part of the project, and we may not enter into
+
+any such definitive agreements. Our AI segment also relies on services from third-party telecommunications
+
+providers, including connectivity to the cloud, and internet bandwidth suppliers to provide uninterrupted and error-
+
+free services through their networks. We may be unable to obtain AI processors or other necessary components or
+
+telecommunications services at prices or volumes that are acceptable to us or in a timely manner. Our suppliers and
+
+telecommunications and internet service providers also serve other customers, including certain of our competitors,
+
+and such suppliers or providers may prioritize capacity for such other customers, increase prices on short notice,
+
+require onerous prepayments, or reduce or delay deliveries to us. Any failure by our suppliers and service providers
+
+to meet our cost, quality, volume, or delivery requirements, or any shortage or disruption in the supply of chips,
+
+telecommunications services or other components required for our AI segment, could result in service disruption or
+
+outages, delay critical data center or network infrastructure upgrades or expansions, impair our ability to train our AI
+
+models and meet customer demand for our AI segment products and materially adversely affect our business,
+
+financial condition, results of operations and future prospects.
+
+We also rely on third-party cloud compute providers for a portion of the compute used for the X platform and may
+
+from time to time rely on third-party data center providers, which exposes us to several risks that are beyond our
+
+direct control, including vulnerability to outages, performance issues, and cyberattacks. We have non-cancellable,
+
+multi-year capacity commitments to cloud compute providers, requiring payment regardless of usage. A termination
+
+or lapse in service from third-party cloud compute and data center providers could expose us to service interruptions,
+
+significant delays, and additional expenses to re-architect products for a different provider. Additionally, in the event
+
+of nonperformance by us or our providers, or an industry downturn, we may incur liabilities, have excess capacity
+
+that we cannot easily redeploy, and fail to receive payments from our counterparties or customers.
+
+Table of Contents
+
+We face intense competition in the markets in which we operate, and while we have historically outperformed
+
+certain competitors in our Space and Connectivity segments, we may not continue to do so, which could adversely
+
+affect our business, financial condition, results of operations, and future prospects.
+
+The markets in which we operate are rapidly evolving and intensely competitive, and we face competition from a
+
+range of established and emerging companies, including large, well-capitalized technology companies and aerospace
+
+firms, including foreign competitors. Some competitors are investing significant capital to develop and deploy
+
+satellite constellations and related infrastructure that compete directly with our offerings, and companies based in
+
+China and other jurisdictions may benefit from government support, favorable regulatory environments, or strategic
+
+national prioritization.
+
+Some of our current and potential competitors, particularly in our AI segment, have greater financial, technical,
+
+manufacturing, or other resources than we do, and may devote more resources to the development and
+
+commercialization of competing products and services. Competitors may adopt more aggressive pricing, secure
+
+more favorable supplier or distribution arrangements, bundle services, form strategic alliances or otherwise take
+
+actions that enhance their competitive position in ways that could adversely affect our business. In certain markets,
+
+regulatory or geopolitical factors may result in preferential treatment for domestic competitors or otherwise limit our
+
+ability to compete effectively.
+
+Competition continues to intensify as new technologies are developed and new entrants emerge. While we have
+
+historically outperformed certain competitors in aspects of our business, such as our Space and Connectivity
+
+segments, there can be no assurance that we will maintain this position.
+
+We depend on our ability to recruit and retain employees who have advanced engineering and technical skills,
+
+and intense competition for such employees may increase costs and affect our ability to meet development and
+
+production timelines.
+
+We depend on our ability to recruit and retain employees who have advanced engineering and technical skills and, in
+
+some cases, employees with the necessary national security clearances to perform under our government contracts or
+
+win new business. These employees are in great demand and are likely to remain a limited resource in the
+
+foreseeable future. The current tight labor market has adversely impacted our ability to recruit qualified personnel,
+
+including engineers, particularly with respect to our AI segment. Increased restrictions on the import or retention of
+
+foreign labor may also increase demand for engineering personnel and adversely impact our ability to hire and retain
+
+qualified personnel. Continued turnover may impact employee morale and create other challenges as we attempt to
+
+scale our AI business. In addition, significant amounts of time and resources are required to train technical and other
+
+personnel, and we have in the past lost and may in the future lose new employees to our competitors or other
+
+companies before we realize the benefit of our investment in recruiting and training them. Our ability to recruit and
+
+retain qualified employees depends on a number of things, including our ability to pay market compensation,
+
+provide opportunities for advancement, and secure visa sponsorships and work permits for qualified international
+
+candidates. If we are unable to recruit and retain a sufficient number of these employees, then our ability to maintain
+
+our competitiveness and grow our business could be negatively affected. In addition, because of the highly technical
+
+nature of our products and services, the loss of any significant number of our existing engineering personnel could
+
+have a material adverse effect on our business, financial condition, results of operations, and future prospects. A
+
+significant portion of the talent pool for advanced engineering and technical roles is international, and changes in
+
+immigration laws or policies in the jurisdictions in which we operate could limit our ability to hire and retain such
+
+candidates and intensify competition for talent.
+
+From time to time, we are involved in litigation, investigations, and other regulatory proceedings which could be
+
+costly, time-consuming, and divert management attention, materially adversely affecting our business.
+
+From time to time, we have been and may in the future become involved in various legal proceedings relating to a
+
+variety of matters, including intellectual property, commercial, regulatory, product liability, employment, personal
+
+injury, class action, employee or contractor health and safety, environmental, whistleblower, securities and other
+
+litigation and claims, and governmental and other regulatory investigations and proceedings, including tax
+
+examinations. Additionally, our share price may be volatile and, in the past, companies that have experienced
+
+Table of Contents
+
+volatility in the market price of their stock have been subject to securities litigation, including class action litigation.
+
+Such matters could be costly, time-consuming, and divert management�s attention from executing our strategic
+
+initiatives and operating our business. The industries in which we operate have historically experienced significant
+
+litigation and regulatory scrutiny, and with our public profile, expanding operations and the novel nature of some of
+
+our offerings, including our AI solutions, we may face an increased risk of such actions. Litigation and regulatory
+
+proceedings are inherently unpredictable. Any adverse judgments, settlements, or regulatory penalties could result in
+
+substantial financial costs, reputational harm, and operational disruptions. Certain of our hardware products are new
+
+and relatively unproven. If a product defect were to arise, especially one leading to product liability claims, the
+
+resulting warranty and damage claims, together with any associated harm to our reputation, could have a material
+
+adverse effect on our business, financial condition, results of operations, and future prospects. Even if we prevail in
+
+these matters, the defense and resolution of litigation and regulatory proceedings may require significant resources
+
+and management attention, which could materially and adversely affect our business, financial condition, results of
+
+operations, and future prospects. Additionally, the mere initiation of litigation or government inquiries, regardless of
+
+the outcome, could negatively impact investor confidence and our stock price. As we continue to innovate and
+
+pursue new commercial and government contracts, expand our product offerings, and enter new markets, the
+
+likelihood of facing legal and regulatory challenges may increase, further exposing us to these risks. Please refer to
+
+�Business�Legal Proceedings� and Note 17, Commitments and Contingencies, in our audited consolidated
+
+financial statements and Note 16 , Commitments and Contingencies in our unaudited consolidated financial
+
+statements include elsewhere in this prospectus.
+
+Any significant disruption in, or unauthorized access to, our computer and data systems or those of third parties
+
+that we utilize in our operations could result in a loss or degradation of service, loss of trust in us and harm to
+
+An operational disruption in, or unauthorized access to, our computer and data systems or those of third parties that
+
+we utilize in our operations could compromise sensitive (including classified or otherwise government-controlled),
+
+proprietary, confidential, or personal information, impede operations, and result in financial losses, legal liabilities,
+
+reputational harm, and erosion of our competitive position in launch services, space-based internet, and mobile
+
+phone services. Our business depends on the continuous and secure operation of our information technology systems
+
+and infrastructure, including those that support our launch operations, manufacturing facilities, Starlink services,
+
+government services, employee databases, and mission-critical communications. Our systems and infrastructure may
+
+also be subject to cyberattacks, including sophisticated hacking attempts by nation-states, state-sponsored actors,
+
+cybercriminals, or other malicious third parties, which could result in unauthorized access to, disruption of, or
+
+degradation of our satellite systems, ground infrastructure, or data networks. Such disruptions or unauthorized
+
+access, which may result from a wide variety of incidents or activities, including inadvertent compromises arising
+
+from process, coding or human errors, cyberattacks, data breaches, exploitation of known or unknown software or
+
+hardware vulnerabilities, malware, ransomware, credential harvesting, computer viruses, social engineering (such as
+
+phishing), denial of service attacks, software or hardware failure, or other malicious or disruptive incidents or
+
+activities�whether perpetrated by external actors, including nation-states, state-sponsored organizations, or
+
+cybercriminal groups, insiders, or other threat actors, any of whom may see their efforts enhanced by the use of AI
+
+�could lead to the theft, destruction, or unauthorized disclosure of sensitive (including classified or otherwise
+
+government-controlled), proprietary, confidential or personal information, including technical data, customer or
+
+partner information, and intellectual property, particularly because some of our products and services involve the
+
+collection, storage, and processing of such data and information. Our development and deployment of AI models,
+
+internal and third-party AI tools, and other AI applications expose us to increased and novel risks and
+
+vulnerabilities, including prompt injection, hallucinations, errors, and other issues related to AI agents, as well as the
+
+risk of compromise of valuable intellectual property including source code, model weights, and other assets. Certain
+
+internal and external threat actors, such as nation-states, state-sponsored organizations, organized threat networks
+
+and corporate espionage actors, among others have and will continue to sustain malicious activities for extended
+
+periods and deploy significant resources to attempt, and in some cases succeed, at causing significant disruptions in,
+
+or unauthorized access to, our computer systems or those of third parties that we utilize in our operations. Such
+
+incidents have in the past and may in the future also disrupt or degrade our ability to design, produce, launch, or
+
+manage our products and services, resulting in operational delays, violations of applicable data privacy and
+
+Table of Contents
+
+cybersecurity laws and regulations, disruptions in, or unauthorized access to, our customers� computer systems,
+
+increased costs, loss of revenue, loss of trust, litigation or regulatory penalties.
+
+As the scale, frequency, sophistication, or intensity of cyber and data privacy threats continue to evolve, and as our
+
+reliance on interconnected systems and third-party vendors grows, we remain exposed to vulnerabilities despite our
+
+efforts to implement security measures, monitoring, and incident response protocols. There can be no assurance that
+
+our cybersecurity risk management processes, including our policies, procedures, and controls, will be effective in
+
+promptly or effectively detecting, containing, or remediating cybersecurity attacks. Any significant security and data
+
+breach or system failure could materially and adversely affect our business, financial condition, results of operations,
+
+and future prospects, and could result in loss of trust among customers, regulators, government agencies, and
+
+partners. Furthermore, our efforts to investigate, mitigate, contain, and remediate the harm caused by a significant
+
+disruption in, or unauthorized access to, our computer and data systems or those of third parties that we utilize in our
+
+operations may be costly and time-consuming and may not be successful, and we may make errors or fail to take
+
+necessary actions. Remediation efforts, litigation, regulatory investigations, and compliance obligations (including
+
+obligations to notify appropriate regulators and affected parties) arising from such incidents could require substantial
+
+management attention and resources, and we rely on our own funds to cover such losses or liabilities. In addition,
+
+rapid changes to

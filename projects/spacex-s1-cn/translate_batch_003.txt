@@ -1,0 +1,657 @@
+ on Earth.
+
+� We will use our proven Starlink in-orbit technology to optimize our orbital AI compute. In order to
+
+operate orbital AI compute satellites, we plan to build on our vast experience of operating approximately 9,600
+
+Starlink broadband and mobile satellites in Low-Earth Orbit. In 2025 alone, Starlink satellites proactively
+
+performed over 1,000 automated collision avoidance maneuvers per day guided by this technology to safely and
+
+efficiently operate the constellation. This operating model gives us control over workload placement across
+
+Earth and space while maintaining resilience through redundancy and fail safe systems. A high degree of
+
+controllability will allow the satellite to be optimized for brightness mitigation, disposal, and other modes of
+
+� We can manufacture our AI compute constellations at scale with rapid upgrade cycles. We have built one
+
+of the largest satellite manufacturing operations in the world. Our vertically integrated approach with limited
+
+reliance on third-party suppliers will be key to our mass-scaling efforts and should allow us to deploy the latest
+
+AI processors. We believe SpaceX will be the first and only company to manufacture satellites at the scale of
+
+automotive manufacturing .
+
+� We are building chip manufacturing capabilities to scale our access to AI compute hardware. We
+
+announced a collaboration with Tesla in March 2026 to build the Terafab initiative with a long-term goal of
+
+producing one terawatt of compute hardware each year. In connection with such collaboration, we have agreed
+
+with Tesla on a general framework for the future development of Terafab. Intel joined the project in April 2026
+
+and is expected to contribute its expertise in designing, fabricating, and packaging ultra-high performance chips
+
+to help Terafab scale. Any specific projects undertaken pursuant to this framework will be subject to separate
+
+negotiations and agreements (including any development timelines, milestones and capital expenditures) and
+
+Table of Contents
+
+have not yet been determined. With this internal manufacturing capability, we plan to alleviate potential future
+
+chip shortages at SpaceX, especially as we develop orbital AI at scale, and design chips that are optimized for
+
+the space environment.
+
+� We can leverage our terrestrial experience to build and operate compute clusters and AI workloads at
+
+scale. We believe our experience operating compute infrastructure on Earth provides the technical and
+
+operational foundation to extend these capabilities into orbit. For example, we plan to subject compute hardware
+
+to extensive pre-deployment testing on Earth to identify early life failures before launch to reduce in-orbit
+
+disruption. For compute hardware that does fail, we plan to leverage existing Starlink fleet management
+
+software to reallocate traffic to other satellites and prevent cluster-level downtime.
+
+We Believe Our Infrastructure is a Distinct Advantage in Delivering Superior AI. We expect the combination of
+
+competitive cost per token, our ability to deploy and operate data centers in orbit, and our strength in connectivity to
+
+result in more scalable intelligence that is accessible globally at high speeds.
+
+� Global Leadership in Orbital Launch Services
+
+� Unrivaled Satellite and Connectivity Platform across Design, Manufacturing, Deployment, and Operations
+
+� Truth-Seeking AI Model Enhanced by Real-Time Data
+
+� Extreme Vertical Integration Enabling High Velocity and Superior Cost Efficiency at Scale
+
+� Unique Ability to Scale New Trillion-Dollar Markets Across Space, Connectivity, and AI
+
+� Business Models that Are Incredibly Difficult to Replicate
+
+� Mission-D riven Culture and World-Class Talent
+
+Our Growth Strategies
+
+� Increase launch payload capacity
+
+� Establ ish the lunar economy, including cargo transport, manufacturing, and energy production on the Moon
+
+� Grow Starlink Broadband customers
+
+� Expand our Starlink Mobile offering
+
+� Incre ase the capacity of our constellations
+
+� Grow consumer AI platform monetization
+
+� Grow X monetizatio n
+
+� Deepen enterprise and government adoption
+
+� Increase the scale of our terrestrial power and AI compute infrastructure
+
+� Deploy orbital AI compute at scale
+
+� Design and manufacture our own chips
+
+� Launch digital human augmentation
+
+� Point-to-point terrestrial travel
+
+� In-orbit manufacturing
+
+� Passenger and cargo transport to the Moon and Mars
+
+� Energy production on the Moon and Mars
+
+� Manufacturing capabilities on the Moon and Mars
+
+� Asteroid mining
+
+Table of Contents
+
+Our Market Opportunity
+
+We believe we have identified the largest actionable total addressable market (�TAM�) in human history. We
+
+estimate that our quantifiable TAM is $28.5 trillion, consisting of $370 billion in Space from space-enabled
+
+solutions; $1.6 trillion in Connectivity across $870 billion in Starlink Broadband and $740 billion in Starlink Mobile
+
+as well as additional opportunities in enterprise and government; $26.5 trillion in AI across $2.4 trillion in AI
+
+infrastructure, $760 billion in consumer subscriptions, $600 billion in digital advertising, and $22.7 trillion in
+
+enterprise applications. For illustrative purposes of sizing our addressable market opportunity, we exclude China and
+
+Russia from our global estimates.
+
+Space X�s Estimated TAM by Segment
+
+We face a number of challenges relating to our business and growth strategy and, ultimately, the achievement of our
+
+mission to make life multiplanetary, understand the true nature of the universe, and extend the light of consciousness
+
+to the stars. The pursuit of our mission drives our decision-making and forms the foundation of our business plan,
+
+which is  predicated on building, commercializing, and operating services and products at a scale that has not
+
+previously been achieved. This objective requires us to develop and integrate complex and novel technologies,
+
+develop new processes and infrastructure, and coordinate across multiple suppliers, contractors, regulators, and
+
+stakeholders. Because we are attempting to execute at a scale for which there is no precedent, we face heightened
+
+uncertainty with respect to design, engineering, procurement, construction, commissioning, and operational
+
+performance. In particular, our ability to execute our growth strategy is highly dependent on the successful
+
+development and scaling of Starship and the ability to increase our launch cadence, both of which are subject to
+
+challenges and uncertainties inherent in the development and deployment of new and complex technologies.
+
+Additionally, many of our initiatives described above under �Our Growth Strategies,� including those to develop
+
+orbital AI compute at scale, manufacture AI chips at scale, establish a lunar economy, transport humans and cargo to
+
+the Moon and Mars, and develop human augmentation systems, involve significant technical complexity, unproven
+
+technologies or technologies that do not exist, and such initiatives may not achieve commercial viability. Many of
+
+the innovative products and services described elsewhere in this prospectus may ultimately be unsuccessful and may
+
+require great expense, innovations not yet achieved or technologies not yet developed. As a result, the timeline for
+
+certain of our initiatives involving unproven or new innovations, including our goal of deploying 100 gigawatts of
+
+Table of Contents
+
+annual compute power to orbit, the establishment of a lunar economy and interplanetary industrialization, and the
+
+launch cadence required to achieve these goals may be difficult or impossible to determine. Our growth strategy may
+
+take longer to execute than anticipated, and you may not realize a return on your investment within the timeframe
+
+you anticipate, or at all.
+
+In addition, a portion of our anticipated market opportunities is associated with industries described above under
+
+�Future Markets.� Certain of these industries, such as space tourism and cargo transport to the Moon, are still
+
+emerging. Others, including in-orbit manufacturing, passenger transport to the Moon, passenger and cargo transport
+
+to Mars, energy production on the Moon and Mars, manufacturing capabilities on the Moon and Mars, and asteroid
+
+mining, do not exist today. While we believe these industries will develop over time, the manner in which they
+
+emerge, including the timing of commercialization, the scale and pace of adoption, and the applicable competitive,
+
+technical, regulatory, geopolitical, and economic frameworks may differ materially from our current expectations.
+
+Our Space, Connectivity, and AI segments are also subject to the following challenges and uncertainties, among
+
+� Space: Our growth strategy depends on our ability to increase our launch cadence and payload capacity, which
+
+is dependent on the successful development of Starship at scale. Unexpected design modifications, supply chain
+
+disruptions, anomalies, environmental issues, and other unforeseen technical challenges could result in delays or
+
+failures to deploy Starship on our anticipated schedule, which would delay or impede our ability to achieve our
+
+other business objectives, such as the deployment of our next-generation satellites, the expansion of our
+
+satellite -to-mobile connectivity services, and deployment of in-orbit AI compute infrastructure.
+
+� Connectivity: Our satellite connectivity, including our global satellite-to-mobile connectivity services under
+
+Starlink Mobile, depend on access to radio frequency spectrum and authorizations from the Federal
+
+Communications Commission (the �FCC�) in the United States and telecommunications regulators in other
+
+countries . Acquiring the necessary authorizations can be a complex and time-consuming process. Without these
+
+licenses and approvals, we cannot generally offer connectivity services in a given market. Spectrum access itself
+
+is limited and highly regulated. Additionally, the growth of our connectivity services depends on our ability to
+
+increase market awareness and acceptance of connectivity through Starlink across numerous international
+
+markets, each with its unique challenges.
+
+� AI: Our AI business is in a relatively early stage, it is being integrated into our organization, its business
+
+strategy is still developing, and it will require significant capital expenditures to fund compute, infrastructure
+
+and power generation, model training, and product development. Additionally, our AI business is subject to
+
+challenges inherent in a nascent, highly competitive, capital intensive and rapidly changing industry. These
+
+include the potential for disruptive technological change, evolving industry and regulatory standards, the
+
+emergence of new and well-funded competitors, frequent new product and service introductions, and changing
+
+customer de mands.
+
+Any number of these challenges, and others that may be currently unknown to us, could have a negative impact on
+
+our business, financial condition, and results of operations. For a discussion of the challenges, risks, and limitations
+
+that could harm our future prospects, please refer to �Cautionary Note Regarding Forward-Looking Statements,�
+
+�Risk Factors,� and �Management�s Discussion and Analysis of Financial Condition and Results of Operations�
+
+included elsewhere in this prospectus.
+
+Recent Developments
+
+Collaboration with Cursor
+
+In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a
+
+San Francisco-based private software company (�Cursor�), which we view as a compelling extension of our strategy
+
+to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will
+
+provide Cursor with certain GPU cluster compute capacity and collaborate to improve existing models, including
+
+Grok, and potentially to jointly develop AI models and related model-specific deliverables or products. With the
+
+option agreement, we have the right, but not obligation, to acquire Cursor at a predetermined price or pay a fee. We
+
+Table of Contents
+
+consider software development as a strategically important use case for AI given its combination of high-quality
+
+structured data, rapid feedback cycles and frequent, mission-critical usage. AI-assisted coding workflows generate
+
+context-rich, verifiable data that can enhance model training and performance, while also driving sustained inference
+
+demand. The depth of Cursor�s integration with a high-frequency coding workflow generates valuable developer
+
+interaction data, including coding generation prompts, iteration cycles, and software architecture decisions. We
+
+expect that access to this data will enhance our model training and inference, including with respect to Grok.
+
+Meanwhile, by providing access to our large-scale compute infrastructure, we believe we can help Cursor deliver
+
+faster and higher quality user experiences. The collaboration with Cursor may also accelerate our AI strategy by
+
+integrating our AI models more directly into developer workflows and expanding the distribution of our AI
+
+capabilities through high-engagement software interfaces.
+
+The consideration for the acquisition of Cursor, if any, after the closing of this offering would consist of shares of
+
+our Class A common stock based on an implied equity value of Cursor of $60.0 billion, and the price of our Class A
+
+common stock that equals the volume-weighted average closing price thereof over the seven consecutive trading
+
+days immediately preceding the closing of the acquisition. If either (i) we decide to terminate the option agreement
+
+or (ii) Cursor is eligible to and decides to terminate due to our material breach of the option agreement (subject to
+
+notice and cure provisions), Cursor is entitled to a $1.5 billion termination fee under the option agreement and an
+
+$8.5 billion deferred services fee under the compute agreement. These fees are payable in cash (or Class A common
+
+stock, if this offering has not been consummated at the time the fees become payable). For more information about
+
+our arrangement with Cursor, including our option to acquire the company, please refer to �Business�Collaboration
+
+with Cursor� included elsewhere in this prospectus.
+
+Compute Services Agreements with Third Parties
+
+We believe our compute infrastructure and related strategy provides us with substantial flexibility in how we
+
+allocate and monetize capacity. We have the ability to use compute resources to support our proprietary AI
+
+applications (such as Grok 5, which is currently being trained at COLOSSUS II), while also providing access to
+
+select compute capacity to third-party customers. For example, in May 2026, we entered into Cloud Services
+
+Agreements with Anthropic PBC (�Anthropic�), an AI research and development public benefit corporation, with
+
+respect to access to compute capacity across COLOSSUS and COLOSSUS II. Pursuant to these agreements, the
+
+customer has agreed to pay us $1.25 billion per month through May 2029, with capacity ramping in May and June
+
+2026 at a reduced fee. The agreements may be terminated by either party upon 90 days� notice. The customer will
+
+retain ownership and intellectual property rights in its content, AI models, and related data. This structure allows us
+
+to monetize unused compute capacity in our infrastructure, while still permitting reallocation of the capacity for our
+
+own internal initiatives if needed in the future. We have sufficient capacity to provide compute for our own AI
+
+models, including support of our training and inference demands, and to satisfy the obligations under these
+
+agreements. We expect to enter into additional similar services contracts. We believe this opportunity highlights the
+
+increasing importance of large-scale, frontier-level AI infrastructure and positions us as a differentiated provider of
+
+high-performance compute capacity to both internal and third-party AI workloads. We believe our dual monetization
+
+strategy provides multiple pathways to generate returns on invested capital.
+
+Founder, Chief Executive Officer, Chief Technical Officer and Chairman of Our Board
+
+Mr. Musk is our founder, Chief Executive Officer, Chief Technical Officer and the Chairman of our board.
+
+Assuming a size as set forth on the cover page of this prospectus and an initial public offering price of $
+
+per share (the midpoint of the estimated price range set forth on the cover page of this prospectus), Mr. Musk will
+
+hold approximately           % of the voting power of our common stock (or               % if the underwriters exercise
+
+their option to purchase additional shares of Class A common stock in full) immediately after this offering through
+
+his ownership of                    shares of our Class A common stock and                    shares of our Class B common
+
+stock, which comprises approximately           % of our Class B common stock. Under our charter, the holders of our
+
+Class B common stock will have the right to elect a majority of our board (such directors, the �Class B Directors�),
+
+for so long as any shares of Class B common stock remain outstanding. As the holder of a majority of our shares of
+
+Class B common stock, Mr. Musk will be able to elect, remove or fill any vacancy among the Class B Directors. In
+
+addition, for so long as he beneficially owns more than 50% of the voting power of our common stock, Mr. Musk
+
+will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control
+
+Table of Contents
+
+the outcome of matters requiring shareholder approval, including election of all our directors, and to control our
+
+business and affairs.
+
+Our Controlled Company Status
+
+We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules.
+
+A controlled company is not required to have a majority of its board composed of independent directors or to
+
+establish independent compensation and nominating committees. As a controlled company, we will remain subject
+
+to rules that require us to have an audit committee composed entirely of independent directors.
+
+Corporate Information
+
+We were founded and incorporated as Space Exploration Technologies Corp., a Delaware corporation, on March 14,
+
+2002 and reincorporated as a Texas corporation on February 14, 2024. Our principal executive offices are located at
+
+1 Rocket Road, Starbase, Texas 78521. Our website address is www.spacex.com . Information contained on our
+
+website or linked therein or otherwise connected thereto does not constitute part of nor is it incorporated by
+
+reference into this prospectus or the registration statement of which this prospectus forms a part.
+
+Table of Contents
+
+Summary of Risk Factors
+
+An investment in our Class A common stock involves risks and uncertainties. The following is a summary of the
+
+principal factors that make an investment in our Class A common stock speculative or risky, all of which are more
+
+fully described below in the section titled �Risk Factors.� This summary should be read in conjunction with the
+
+�Risk Factors� section and should not be relied upon as an exhaustive summary.
+
+� Any failure or delay in the development of Starship at scale or in achieving the required launch cadence,
+
+reusability and capabilities thereafter would delay or limit our ability to execute our growth strategy, including
+
+the deployment of next-generation satellites, global satellite-to-mobile connectivity, and orbital AI compute,
+
+which could materially adversely affect our business, financial condition, results of operations, and future
+
+� Any delays or difficulties in obtaining, maintaining or renewing required regulatory approvals and licenses
+
+required for our space-related activities, including the U.S. Federal Aviation Administration (�FAA�) launch
+
+and reentry licenses, would materially delay or disrupt our operations, harm our business, or limit our ability to
+
+execute our business strategy.
+
+� Any delays or difficulties in obtaining, maintaining or renewing required communications licenses and
+
+spectrum authorizations for our satellite connectivity services, including international and FCC satellite
+
+spectrum licenses, could materially delay or disrupt our operations, harm our business, or limit our ability to
+
+execute our business strategy.
+
+� Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations that
+
+are subject to change and uncertain interpretation, and we could be required to make changes to our products
+
+and business practices, and be exposed to monetary penalties, increased cost of operations, declines in user
+
+growth or engagement, or loss of customers, or other harm to our AI products and X platform.
+
+� Our business strategy depends on successfully designing, developing, and deploying our products and services,
+
+as well as related platforms, infrastructure, and other strategic initiatives, at an unprecedented scale, which
+
+presents significant execution, cost, and timing risks.
+
+� We have experienced, and will likely continue to experience, launch delays and failures that could have a
+
+material adverse effect on our business, financial condition, results of operations, and future prospects.
+
+� Our satellites, launch vehicles, and other space-related technologies operate, and in the case of orbital AI
+
+compute, will operate, in the harsh and unpredictable environment of space, exposing them to a wide and
+
+unique range of space-related risks that could cause them to malfunction or fail, and any such malfunction or
+
+failure could adversely affect our business, financial condition, results of operations, and future prospects.
+
+� The continued proliferation of satellite constellations in Low-Earth Orbit, as well as the risk of collisions with
+
+space debris or other spacecraft, could limit or impair our launch flexibility and satellite deployment, which
+
+could adversely affect our business, financial condition, results of operations, and future prospects.
+
+� Interruptions in the operation of critical satellite network, ground station, launch, manufacturing, or spacecraft
+
+or data center infrastructure could result in significant downtime, operational delays or loss of service, each of
+
+which could have a material adverse effect on our business, financial condition, results of operations, and future
+
+� Manufacturing, testing and launching rockets, satellites, and spacecraft, including our efforts to reuse rockets
+
+and spacecraft, involve inherent risks that could result in human injury or death, property damage and
+
+environmental damage or other adverse environmental impacts due to accidents or equipment failures. Any such
+
+events could result in substantial losses, including reputational harm and legal liability, which could have a
+
+material adverse effect on our business.
+
+� Although we are focused on the vertical integration of our businesses, we depend on third parties to
+
+manufacture and supply certain key components necessary for the provision of our launch, connectivity, and AI
+
+Table of Contents
+
+services, and any supply shortages or disruptions or failures in their performance could have a material adverse
+
+effect on our business, financial condition, results of operations, and future prospects.
+
+� Our ability to scale our AI products relies on our terrestrial and orbital AI compute infrastructure, which
+
+depends on the availability of power, AI processors, and other critical components, telecommunications
+
+services, and any shortages or disruptions thereof would materially adversely affect our business, financial
+
+condition, results of operations, and future prospects.
+
+� We face intense competition in the markets in which we operate, and while we have historically outperformed
+
+certain competitors in our Space and Connectivity segments, we may not continue to do so, which could
+
+adversely affect our business, financial condition, results of operations, and future prospects.
+
+� The Company�s AI segment is recently formed, still being integrated, operates in a rapidly evolving industry
+
+and is subject to integration, execution, competitive and operational risks.
+
+� Adverse global macroeconomic and geopolitical conditions may negatively affect our business, financial
+
+condition, results of operations and future prospects.
+
+� We depend on our ability to recruit and retain employees who have advanced engineering and technical skills,
+
+and intense competition for such employees may increase costs and affect our ability to meet development and
+
+production timelines.
+
+� Any significant disruption in, or unauthorized access to, our computer and data systems or those of third parties
+
+that we utilize in our operations could result in a loss or degradation of service, loss of trust in us and harm to
+
+� The development and maintenance of the technologies and infrastructure necessary to support our current and
+
+future operations will require significant capital expenditures, and if we are unable to generate sufficient cash
+
+flow from operations or obtain additional financing on acceptable terms, our business, financial condition,
+
+results of operations, and future prospects could be materially and adversely affected.
+
+� Our substantial level of indebtedness could materially adversely affect our financial condition.
+
+� Our future revenue and operating results depend upon our ability to develop new technologies and respond to
+
+changes in customer demands and industry standards in highly competitive markets, and if we are unable to do
+
+so, our business, financial condition, results of operations, and future prospects may be materially and adversely
+
+� The estimates of future market opportunity and forecasts of market growth, and our ability to capture such
+
+markets, included in this prospectus may prove to be inaccurate.
+
+� Many of our initiatives, including those to develop orbital AI compute at scale, manufacture AI chips at scale,
+
+establish a lunar economy, develop human augmentation systems, and transport humans and cargo to the Moon
+
+and Mars, involve significant technical complexity, unproven technologies, or technologies that do not exist or
+
+may require significant advancement, and such initiatives may not achieve commercial viability.
+
+� The global nature of our business poses risks with respect to unstable, malicious or arbitrary legal regimes and
+
+� Our bylaws place restrictions on the forum, venue and procedures for legal actions or proceedings initiated by
+
+our shareholders, including certain requirements for mandatory arbitration. These provisions could limit our
+
+shareholders� ability to pursue certain claims and/or increase the cost of doing so and could also affect the
+
+procedures, rights, and remedies available to our shareholders in such legal actions or proceedings.
+
+� Upon completion of this offering, Mr. Musk will serve as our Chief Executive Officer, Chief Technical Officer,
+
+and Chairman of our board and control the election of our directors, and our dual class structure concentrates
+
+voting control with Mr. Musk and other holders of our Class B common stock. This will limit or preclude your
+
+ability to influence corporate matters and the election of our directors.
+
+Table of Contents
+
+Issuer ......................................................................
+
+Space Exploration Technologies Corp.
+
+Class A common stock offered by us .....................
+
+shares (or                shares if the underwriters exercise
+
+their option to purchase additional shares of Class A common
+
+Class A common stock outstanding immediately
+
+after this offering ................................................
+
+shares (or                shares if the underwriters exercise
+
+their option to purchase additional shares of Class A common
+
+Class B common stock outstanding immediately
+
+after this offering ................................................
+
+Voting power of Class A common stock after
+
+giving effect to this offering ...............................
+
+% (or                % if the underwriters exercise their
+
+option to purchase additional shares of Class A common stock
+
+Voting power of Class B common stock after
+
+giving effect to this offering ...............................
+
+% (or                % if the underwriters exercise their
+
+option to purchase additional shares of Class A common stock
+
+Voting rights ...........................................................
+
+Each share of Class A common stock will entitle its holder to
+
+one vote per share. Each share of Class B common stock will
+
+entitle its holder to 10 votes per share. Class A shareholders and
+
+Class B shareholders will vote together as a single class on all
+
+matters to be voted on by shareholders under our charter,
+
+except the holders of our Class B common stock will have the
+
+right to elect a majority of our board and have certain other
+
+voting rights as a class. Each share of Class B common stock
+
+will be convertible at any time at the option of the holder into
+
+one share of our Class A common stock. In addition, each share
+
+of Class B common stock will convert automatically into one
+
+share of Class A common stock upon a Transfer (as defined in
+
+the charter) of that share of Class B common stock, whether or
+
+not for value, except for Permitted Transfers (as defined in the
+
+charter). Please refer to �Description of Capital Stock.�
+
+Use of proceeds ......................................................
+
+We expect to receive approximately $                of net proceeds
+
+from this offering (or $                if the underwriters exercise
+
+their option to purchase additional shares of Class A common
+
+stock in full), based upon the assumed initial public offering
+
+price of $                per share (which is the midpoint of the price
+
+range set forth on the cover page of this prospectus), after
+
+deducting underwriting discounts and 

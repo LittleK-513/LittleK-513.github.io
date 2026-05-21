@@ -1,0 +1,647 @@
+d States. The OBBBA
+
+includes a broad range of tax provisions, such as the permanent extension of certain provisions of the 2017 Act and
+
+the restoration of favorable tax treatment for certain business provisions. The legislation has multiple effective dates,
+
+with certain provisions effective in 2025 and others implemented through 2027. The Company has evaluated the
+
+provisions of the OBBBA and determined that the most significant impacts relate to the expensing of research and
+
+experimental expenditures under IRC Section 174A and interest expense limitation under IRC Section 163(j). The
+
+effects of applicable provisions of OBBBA have been reflected in the Company�s income tax provision.
+
+Note 17 - Commitments and Contingencies
+
+Unconditional Obligations
+
+The Company�s unconditional obligations are non-cancelable contractual commitments primarily relate to the
+
+Company�s investments in AI infrastructure and third-party cloud capacity arrangements and other service
+
+arrangements. It also includes the Company�s commitments under the Spectrum Transaction, which are payable in
+
+cash and in the Company�s Class A Common Stock. Refer to Note 6 , Intangible Assets and Goodwill for additional
+
+details. The following table summarizes the Company�s non-cancelable contractual commitments as of
+
+December 31, 2025 :
+
+2026 ......................................................................................................................................................
+
+2027 ......................................................................................................................................................
+
+2028 ......................................................................................................................................................
+
+2029 ......................................................................................................................................................
+
+2030 ......................................................................................................................................................
+
+Thereafter ..............................................................................................................................................
+
+Total ....................................................................................................................................................
+
+Letters of Credit and Surety Bonds
+
+The Company had outstanding letters of credit of $348 million at December 31, 2025 related to various customer
+
+contracts, insurance agreements, and facility lease agreements. All of the outstanding letters of credit were
+
+collateralized by restricted cash. The Company also had surety bonds of $51 million for self-insured workers�
+
+compensation programs and other governmental licenses at December 31, 2025 .
+
+Legal Proceedings
+
+In the normal course of its business, the Company is involved from time to time in various arbitrations, class actions,
+
+commercial litigation, investigations and other legal, regulatory or governmental actions, including the significant
+
+matters described below that could have a material impact on our results of operations. The Company assesses, in
+
+conjunction with its legal counsel, the need to record a liability for litigation and contingencies. With respect to the
+
+cases, actions, and inquiries described below, the Company evaluates the associated developments on a regular basis
+
+and will accrue a liability when it believes a loss is probable and the amount can be reasonably estimated. In
+
+Table of Contents
+
+addition, the Company believes there is a reasonable possibility that it may incur a loss in some of these matters and
+
+the loss may be material or exceed its estimated ranges of possible loss.
+
+The outcomes of the matters described in this section, such as whether the likelihood of loss is remote, reasonably
+
+possible, or probable, or if and when the reasonably possible range of loss is estimable, are inherently uncertain, and
+
+unless specified otherwise, possible losses are not reasonably estimable at this time. If one or more of these matters
+
+were resolved against the Company for amounts above management�s estimates, the Company�s financial condition
+
+and results of operations, including in a particular reporting period in which any such outcome becomes probable
+
+and estimable, could be materially adversely affected.
+
+In November 2022, the European Union�s Digital Services Act (�DSA�) came into force as a result of which X has
+
+to comply with extensive content moderation and other duties. The Company published its first Transparency Report
+
+under the DSA in November 2023. In December 2023, the European Commission (�EC�) opened a formal
+
+investigation into X and its Irish subsidiary, Twitter International Unlimited Company (�TIUC�), which was later
+
+renamed to X Internet Unlimited Company (XIUC). On July 12, 2024, in relation to alleged breaches of Articles
+
+25(1), 39 and 40(12) of the DSA, the EC issued preliminary findings that X�s blue checkmark is deceptive, its
+
+advertisement repository does not meet DSA requirements, and it grants inadequate access to data to third-party
+
+researchers. On September 26, 2024, XIUC and X submitted their observations challenging the EC�s preliminary
+
+findings.  On December 5, 2025, the EC delivered a final decision in which it upheld its preliminary findings and
+
+imposed a fine of EUR 120 million on XIUC, X., x.AI, and Elon Musk (together, the �parties�).  On February 16,
+
+2026, the parties challenged the EC�s decision in the General Court of the European Union. This challenge remains
+
+In March 2016, non-practicing entity Youtoo Technologies filed suit against Twitter, Inc. in the United States
+
+District Court for the Northern District of Texas alleging its Vine and Periscope products infringe Youtoo�s video-
+
+sharing patents (the �304, �506, and �997 patents). On Twitter�s motion, the district court dismissed the �304 and
+
+�506 patents as invalid. Twitter filed petitions for Inter Partes Review before the Patent Trial and Appeals Board
+
+(PTAB) challenging all three patents-in-suit. The PTAB upheld the �304 and �506 Patents and invalidated the �997
+
+Patent; the Federal Circuit affirmed. On March 16, 2020, Plaintiff (now Vidstream LLC, which allegedly acquired
+
+the patents from Youtoo Technologies in a bankruptcy proceeding), moved the Court to reconsider its earlier ruling
+
+invalidating the �304 and �506 patents. On April 1, 2022, the Court reversed its original ruling on the �304 and �506
+
+patents. On September 27, 2024, Vidstream filed a motion for partial summary judgment, which the Court granted in
+
+part. The case went to a jury trial, and on April 16, 2025, the jury rendered a verdict finding (i) that Twitter did not
+
+infringe any claim of the �506 patent and two out of three claims of the �304 patent and that each of those patent
+
+claims was invalid, but (ii) that Twitter willfully infringed one claim of the �304 patent. The jury awarded Plaintiff
+
+$105 million in damages. In November 2025, the district court affirmed the jury�s award and awarded an additional
+
+$67 million in prejudgment interest. Twitter has appealed and Vidstream has cross-appealed. Both appeals remain
+
+pending before the Federal Circuit.
+
+In June 2023, music publishing companies that are members of the National Music Publishers� Association (the
+
+�NMPA�) filed a complaint against X in the U.S. District Court for the Middle District of Tennessee, claiming
+
+direct, contributory, and vicarious copyright infringement based on Twitter�s alleged failure to expeditiously take
+
+down infringing music posted by users after the music publishers allegedly gave Twitter notice of those
+
+infringements. The music publishers also allege that Twitter did not suspend the accounts of �repeat infringers,� so
+
+that Twitter is not entitled to a �safe harbor� from liability under the DMCA. X filed a motion to dismiss the
+
+complaint on August 14, 2023. On March 5, 2024, the Court dismissed plaintiffs� direct infringement and vicarious
+
+infringement claims, and part of plaintiffs� claim for contributory infringement. X answered the complaint on April
+
+9, 2024. Litigation was stayed from June 11, 2025 to September 9, 2025 for settlement discussions that were not
+
+successful. Accordingly, discovery is ongoing.
+
+In September 2023, Dutch foundation Stichting Data Bescherming Nederland (�SDBN�) filed a putative class action
+
+lawsuit in the District Court of Amsterdam in the Netherlands against TIUC, Twitter, Inc., X Corp., and Twitter
+
+Netherlands b.v. related to Twitter�s operation of the MoPub platform. SDBN primarily claims that MoPub�s real-
+
+time bidding ad exchange violated the GDPR. SDBN claims to represent 11 million Dutch internet users who
+
+downloaded and used third-party mobile apps containing the MoPub software development kit during the period
+
+Table of Contents
+
+2013-2022 and it seeks a monetary award in the range of � 250 to � 2,500 per person.  On February 4, 2026, the
+
+Court declined to allow the case to proceed as a class action and indicated that it is considering staying the
+
+proceedings until the Court of Justice of the European Union has ruled in a separate case concerning the
+
+applicability of Dutch class action requirements to GDPR claims. The Twitter parties filed a brief in support of the
+
+proposed stay, which the plaintiffs opposed, on March 4, 2026.
+
+In August 2024, Dutch foundation Stichting Onderzoek Marktinformatie (SOMI) initiated a collective action in the
+
+District Court of Amsterdam in the Netherlands on behalf of approximately 7.8 million Dutch X users. Among other
+
+things, SOMI seeks damages against TIUC, X Corp. and Twitter Netherlands B.V. (collectively, the �X entities�)
+
+for: (1) alleged data breaches and insufficient security measures; (2) alleged unauthorized microtargeting and lack of
+
+transparency; and (3) the alleged failure to moderate hate speech and the obstruction of research, all in violation of
+
+the GDPR and/or DSA. The alleged data breaches relate to a Twitter API bug that came to light in 2022 and that had
+
+allowed persons who knew the email address or phone number of a user to determine the user�s Twitter ID. SOMI
+
+has requested compensation (to be assessed at a later stage) for each member of the class, including symbolic
+
+damages of EUR 1 for each member of the class that is allegedly affected by hate speech on the X platform. The X
+
+entities filed a procedural defense on March 12, 2025.  A hearing has been scheduled for April 2, 2026.
+
+In September 2025, non-practicing entity Search and Share Technologies, LLC (�SaS�) filed a patent complaint
+
+against X Corp. in the Federal District Court for the Western District of Texas. SaS alleges that X Corp. infringed on
+
+U.S. Patent Nos. 10,180,952 and 11,106,744, through features in its mobile app and website enabling users to
+
+interact with content through dedicated interfaces that directly share what other users see in ranked feeds and search
+
+results. SaS filed an Amended Complaint on January 5, 2026. On January 20, 2026, X Corp. moved to dismiss SaS�s
+
+willful infringement and induced infringement claims.  On February 3, 2026, SAS responded to, but did not oppose,
+
+X Corp.�s partial motion to dismiss. On February 10, 2026, X Corp. filed its reply.  On February 4, 2026, X Corp.
+
+filed an IPR petition challenging the �744 Patent and on February 18, 2026, filed an IPR petition challenging the
+
+Beginning in January 2026, the Company and certain subsidiaries have been named as defendants in multiple
+
+lawsuits arising from Grok�s image-generation and editing features. The complaints generally allege that Grok�s
+
+image-generation and editing features enabled the creation and dissemination of nonconsensual explicit images and/
+
+or content representing women and/or children in sexualized contexts. The actions include Jane Doe v. X.AI Corp.
+
+and X.AI LLC, instituted in the U.S. District Court for the Northern District of California on January 23, 2026, and
+
+Jane Doe 1 et al. v. X.AI Corp. and X.AI LLC (the �Jane Doe 1 Case�) instituted in the U.S. District Court for the
+
+Northern District of California on March 16, 2026.  These cases are putative class actions, asserting claims
+
+including, among other things, claims of strict liability, negligence, nuisance, rights of privacy or publicity, and, in
+
+the Jane Doe 1 Case, certain federal statutory claims.  Plaintiffs in these two cases seek, among other things,
+
+compensatory, statutory and punitive damages, restitution, disgorgement and injunctive relief. In addition, a case,
+
+Mayor and City Council of Baltimore ex rel. Ebony M. Thompson v. X Corp., X.AI Corp., X.AI LLC, and Space
+
+Exploration Technologies Corp, was instituted in the Baltimore City Circuit Court on March 24, 2026 (the
+
+�Baltimore Case�). The plaintiff in the Baltimore Case, the Mayor and City Council of Baltimore, asserts similar
+
+claims to those in the two cases discussed above under Baltimore�s Consumer Protection Ordinances. The plaintiff
+
+in the Baltimore Case seeks statutory penalties and/or i njunctive relief. The defendants intend to defend themselves
+
+vigorously in these actions.
+
+The Company has recorded an accrual of $530 million for litigation losses that are probable and reasonably
+
+estimable in Accrued expenses and other current liabilities and Other liabilities on the consolidated balance sheet as
+
+of December 31, 2025 . For other matters, the Company is not currently able to estimate the reasonably possible loss
+
+or range of loss.
+
+Non-Income Taxes
+
+The Company is under various non-income tax audits by domestic and foreign tax authorities. These audits
+
+primarily revolve around routine inquiries, refund requests, and employee benefits. The Company accrues non-
+
+income taxes that may result from these audits when they are probable and can be reasonably estimated. Due to the
+
+Table of Contents
+
+complexity and uncertainty of some of these matters, however, as well as the judicial process in certain jurisdictions,
+
+the final outcome of these audits may be materially different from the Company�s expectations.
+
+Indemnifications
+
+In the ordinary course of business, the Company may provide indemnifications of varying scope and terms to
+
+customers, vendors, lessors, investors, directors, officers, employees, and other parties with respect to certain
+
+matters, including, but not limited to, losses arising out of the Company�s breach of certain agreements, services to
+
+be provided by the Company, or from intellectual property infringement claims made by third parties . These
+
+indemnifications may survive the termination of the underlying agreement and the maximum potential amount of
+
+future payments the Company could be required to make under these indemnification provisions may not be subject
+
+to maximum loss clauses. It is not possible to determine the maximum potential amount under these indemnification
+
+agreements due to the unique facts and circumstances involved in each particular agreement. Historically, payments
+
+made by us under these agreements have not had a material impact on our consolidated financial statements. At
+
+December 31, 2025 and 2024 , the Company has not accrued a liability for any i ndemnification claims , because the
+
+likelihood of incurring a payment obligation, if any, in connection with any such indemnification claims is not
+
+probable or reasonably estimable.
+
+Note 18 - Related Party Transactions
+
+The Company periodically does business with certain entities with which its CEO and directors are affiliated.
+
+During the years ended December 31, 2025 and 2024 , the Company purchased $506 million and $191 million of
+
+Megapack products, respectively, from Tesla, Inc. (�Tesla � ) recorded in Property, plant, and equipment, net in the
+
+consolidated balance sheets . The Company also obtained $131 million of Cybertrucks at manufacturer�s suggested
+
+retail price from Tesla recorded in Property, plant, and equipment, net in the consolidated balance sheets during the
+
+year ended December 31, 2025 .
+
+On October 12, 2025, and as subsequently amended on November 10, 2025, CTC, a subsidiary of xAI and an
+
+indirect subsidiary of the Company, entered into an equipment lease agreement with Valor Equity Partners (�Valor � )
+
+for certain AI infrastructure hardware (the �Valor transaction � ). The founder, CEO and Chief Investment Officer of
+
+Valor, Antonio J. Gracias , serves as one of the directors of the Company. The Valor transaction was deemed to be a
+
+failed sale-leaseback transaction and the Company recorded the related debt of $455 million and $4,052 million
+
+within Debt and finance leases, current and Debt and finance leases, net of current , respectively, as of December 31,
+
+2025 in the Company�s consolidated balance sheets , and $66 million in Interest expense for the year ended
+
+December 31, 2025 in the Company�s consolidated statements of operations . Refer to Note 10 , Debt for additional
+
+details. The related asset is recorded within Property, plant, and equipment, net in the Company�s consolidated
+
+balance sheets .
+
+In 2025, Elon Musk, through his trust, purchased $1,421 million of common stock from current and former
+
+Other transactions with Tesla and other related parties during the years ended December 31, 2025, 2024, and 2023
+
+were immaterial.
+
+Table of Contents
+
+Note 19 - Segments
+
+Following the Mergers, the Company evaluated how to view and measure performance of the combined company
+
+and potential realignment of individual entity�s historical segment structure. Following this evaluation, the Company
+
+determined that as a combined company, effective in Q1 2026, the Company�s Chief Executive Officer, as the Chief
+
+Operating Decision Maker (�CODM � ), organizes the Company, manages resource allocations, and measures
+
+performance among three operating and reportable segments: (i) Space, (ii) Connectivity, and (iii) AI. Prior period
+
+presentations for segments conform to the current segment reporting structure.
+
+The Company�s CODM assesses performance and allocates resources to operating segments based on segment
+
+income (loss) from operations by comparing actual income (loss) from operations to historical results and previously
+
+forecasted financial information. The Company�s CODM does not evaluate operating and reportable segments using
+
+asset or liability information.
+
+The following tables present information as to revenues, significant segment expenses, and income (loss) from
+
+operations by the Company�s reportable segments:
+
+Year Ended December 31,
+
+Total Reportable
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue .................................................
+
+Research and development ...............................
+
+Selling, general, and administrative .................
+
+Restructuring charges .......................................
+
+Impairment ........................................................
+
+Total costs and expenses ................................
+
+Income (loss) from operations .........................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other income (expense), net ...............................
+
+Income (loss) before income taxes ..................
+
+Supplemental segment information
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Impairment ..........................................................
+
+Capital expenditures ............................................
+
+Table of Contents
+
+Year Ended December 31,
+
+Total Reportable
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue .................................................
+
+Research and development ...............................
+
+Selling, general, and administrative .................
+
+Restructuring charges .......................................
+
+Impairment ........................................................
+
+Total costs and expenses ................................
+
+Income (loss) from operations .........................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other income (expense), net ...............................
+
+Income (loss) before income taxes ..................
+
+Supplemental segment information
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Impairment ..........................................................
+
+Capital expenditures ............................................
+
+Year Ended December 31,
+
+Total Reportable
+
+Revenue .............................................................
+
+Costs and expenses
+
+Cost of revenue .................................................
+
+Research and development ...............................
+
+Selling, general, and administrative .................
+
+Restructuring charges .......................................
+
+Impairment ........................................................
+
+Total costs and expenses ................................
+
+Income (loss) from operations .........................
+
+Interest expense ...................................................
+
+Interest income ....................................................
+
+Other income (expense), net ...............................
+
+Income (loss) before income taxes ..................
+
+Supplemental segment information
+
+Depreciation and amortization ............................
+
+Share-based compensation ..................................
+
+Impairment ..........................................................
+
+Capital expenditures ............................................
+
+Table of Contents
+
+The following tables provide revenue by geography based on the country of domicile in which the transaction
+
+Year Ended December 31,
+
+USA ................................................................................................
+
+Ireland .............................................................................................
+
+Canada ............................................................................................
+
+All Other .........................................................................................
+
+Total Revenues ..........................................................................
+
+As of December 31, 2025 and 2024 , substantially all of the Company�s long-lived assets were located within the
+
+Note 20 - Restructuring
+
+In 2022 . X, an indirect subsidiary of the Company (through the X Merger and subsequently, xAI Merger), initiated
+
+global employee workforce reductions, the effects of which continued through 2025. The charges associated with
+
+the workforce reduction include cash severance expense and other termination benefits. Restructuring charges also
+
+include impairment of operating lease right-of-use assets for excess office space and related leasehold improvements
+
+and office equipment, as well as lease termination penalties for office space terminated before the end of the lease
+
+term as a result of the workforce reduction.
+
+Total charges of $487 million , $147 million , and $77 million associated with the workforce reduction were recorded
+
+in Restructuring charges in the consolidated statements of operations for the years ended December 31, 2025 , 2024 ,
+
+and 2023 , respectively. Additionally, the Company recorded restructuring charges of $36 million , and $54 million
+
+related to its leasehold improvements and office equipment, and restructuring charges of $30 million , and $106
+
+million for operating lease right-of-use assets as part of its facilities consolidation efforts for the years ended
+
+December 31, 2024 and 2023 , respectively.
+
+The following table is a summary of the changes in the restructuring liabilities for each period presented, included
+
+within Accrued expenses and other current liabilities and Other liabilities on the consolidated balance sheets :
+
+Restructuring liabilities as of December 31, 2023 ................................................................................
+
+Severance and other personnel costs .................................................................................................
+
+Cash payments ...................................................................................................................................
+
+Other adjustments ..............................................................................................................................
+
+Restructuring liabilities as of December 31, 2024 ................................................................................
+
+Severance and other personnel costs .................................................................................................
+
+Cash payments ...................................................................................................................................
+
+Other adjustments ..............................................................................................................................
+
+Restructuring liabilities as of December 31, 2025 ................................................................................
+
+Note 21 - Subsequent Events
+
+The Company has evaluated subsequent events that occurred from January 1, 2026 through March 30, 2026 , which
+
+is the date the consolidated financial statements were available to be issued, and determined that there were no
+
+subsequent events or transactions that required recognition or disclosure in the consolidated financial statements ,
+
+except as discussed below.
+
+Table of Contents
+
+Officer Equity Awards
+
+In January 2026, the Company granted 1,000 million performance-based restricted shares of Class B common stock
+
+to Elon Musk. The restricted shares vest upon (i) the Company�s achievement of specified market capitalization
+
+milestones across 15 equal tranches ranging from $500 billion to $7.5 trillion , with each milestone reflecting $500
+
+billion in additional valuation, and (ii) the Company�s establishment of a permanent human colony on Mars with at
+
+least one million inhabitants, in each case, subject to Mr. Musk�s continued employ ment.
+
+In March 2026, the Company cancelled Mr. Musk�s xAI Award and replaced it with a grant of 302.1 million
+
+performance-based restricted shares of Class B common stock, which vest upon (i) the achievement of specified
+
+market capitalization milestones across 12 equal tranches ranging from $1.065 trillion to $ 6.565 trillion, with each
+
+milestone reflecting $500 billion in additional valuation, and (ii) the Company�s completion of non-Earth-based data
+
+centers capable of delivering 100 terawatts of compute per year, in each case, subject to Mr. Musk�s continued
+
+In January 2026, the Company approved an amendment to 4 million performance-based stock options granted to
+
+Bret Johnsen, Chief Financial Officer, that were originally issued in 2024. In lieu of vesting based on free cash flow
+
+achievement in excess of a baseline, 371 thousand of the stock options will vest for each $10 billion in adjusted
+
+EBITDA achieved during the 2025 through 2029 fiscal years, assessed on an annual basis. For purposes of this
+
+award, adjusted EBITDA is calculated as income from operations excluding (i) depreciation and amortization, (ii)
+
+share-based compensation, (iii) impairment, and (iv) restructuring impacts. Once a tranche of the stock options have
+
+become earned as a result of the Company�s adjusted EBITDA performance as of the end of a particular fiscal year,
+
+such stock options remain subject to an additional one-year and one day service-based vesting requirement
+
+following December 31 of the fiscal year in which such tranche was earned. The number of options granted was not
+
+changed in the amendment. None of the stock options became earned on account of the Company�s adjusted
+
+EBITDA performance for the year ended December 31, 2025.
+
+Share Repurchases
+
+Between January and March 2026, the Company repurchased Redeemable Convertible Preferred Stock and
+
+Common Stock from eligible current and former employees as well as third-party investors totaling $1,396 million.
+
+Sale-Leaseback Transaction
+
+In January 2026, and as further amended on February 18, 2026, CTC entered into an equipment lease agreement
+
+with Valor for certain AI infrastructure hardware (�Valor transaction II � ). Similar to the Valor transaction, the Valor
+
+transaction II was considered to be a transaction with a related party. The Valor transaction II is deemed to be a
+
+failed sale-leaseback transaction and the Company recorded the related debt of $5,365 million in the Company�s
+
+consolidated balance sheets .
+
+xAI Merger Closing
+
+Pursuant to the terms of the xAI Merger on February 2, 2026, the Company issued, prior to the 2026 Stock Split,
+
+321.7 million shares of Class A Common Stock, 121.7 million shares of Class B Common Stock and paid $2,947
+
+million in cash to holders of xAI Common Stock and Redeemable Convertible Preferred Stock . Refer to Note 13 ,
+
+Redeemable Convertible Preferred Stock and Shareholders� Equity for additional details.
+
+Tesla�s xAI Investment and SpaceX Class A Common Stock Issuance
+
+In January 2026, Tesla entered into an agreement with xAI to invest $2,000 million via a purchase of xAI Series E
+
+Redeemable Convertible Preferred Stock. Pursuant to the terms of that agreement and a letter agreement entered into
+
+between xAI and Tesla on January 16, 2026, xAI�s issuance of the shares of Series E Redeemable Convertible
+
+Preferred Stock, and Tesla�s payment therefore, was conditioned upon the receipt of required regulatory approvals.
+
+Following the xAI Merg
