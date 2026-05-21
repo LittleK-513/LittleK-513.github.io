@@ -557,7 +557,7 @@ def generate_json_report(data):
     
     report = {
         "meta": {
-            "version": "p1-baseline-v1",
+            "version": "p1-baseline-v2",
             "generated_at": datetime.now().isoformat(),
             "workspace": WORKSPACE,
         },
@@ -727,6 +727,28 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
     
     return md
 
+def get_skill_source():
+    """读取 Skill 文档和脚本源码"""
+    sources = {}
+    
+    # Skill 文档
+    doc_path = f"{WORKSPACE}/skills/p1-0/baseline-check-v2.md"
+    try:
+        with open(doc_path, "r", encoding="utf-8") as f:
+            sources["doc"] = f.read()
+    except Exception:
+        sources["doc"] = "# Skill 文档未找到\n"
+    
+    # 检查脚本
+    script_path = f"{WORKSPACE}/skills/p1-0/p1-baseline.py"
+    try:
+        with open(script_path, "r", encoding="utf-8") as f:
+            sources["script"] = f.read()
+    except Exception:
+        sources["script"] = "# 脚本未找到\n"
+    
+    return sources
+
 def generate_html_dashboard(report):
     """生成 HTML 可视化仪表板"""
     score = report["score"]
@@ -736,6 +758,11 @@ def generate_html_dashboard(report):
     projects = report["projects"]
     cap = report["capabilities"]
     alerts = report["alerts"]
+    
+    # 读取 Skill 源码
+    skill_sources = get_skill_source()
+    skill_doc_content = skill_sources["doc"].replace("<", "&lt;").replace(">", "&gt;")
+    skill_script_content = skill_sources["script"].replace("<", "&lt;").replace(">", "&gt;")
     
     critical = len([a for a in alerts if a["level"] == "critical"])
     warning = len([a for a in alerts if a["level"] == "warning"])
@@ -1070,6 +1097,28 @@ footer {{
   <details>
     <summary style="cursor: pointer; color: var(--accent);">点击展开完整 JSON 数据</summary>
     <pre style="margin-top: 1rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim);"><code id="raw-json"></code></pre>
+  </details>
+</div>
+
+<!-- Skill 源码 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>📋 Skill 源码</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    本报告由 P1.0 baseline-check Skill 自动生成。以下展示该 Skill 的完整文档和脚本源码，供审计和改进。
+  </p>
+  
+  <details>
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      📄 baseline-check-v2.md（Skill 文档）
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>{skill_doc_content}</code></pre>
+  </details>
+  
+  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 p1-baseline.py（检查脚本）
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>{skill_script_content}</code></pre>
   </details>
 </div>
 
