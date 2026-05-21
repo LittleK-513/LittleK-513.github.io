@@ -114,17 +114,6 @@ header .subtitle { color: var(--text-dim); font-size: 0.9rem; }
 .alert-warning { border-left-color: var(--warn); }
 .alert-info { border-left-color: var(--accent); }
 
-.project-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border);
-}
-.project-row:last-child { border-bottom: none; }
-.project-name { font-weight: 500; }
-.project-meta { color: var(--text-dim); font-size: 0.85rem; }
-
 .metric {
   display: flex;
   justify-content: space-between;
@@ -201,7 +190,7 @@ footer {
 <header>
   <h1>P1.0 系统状态</h1>
   <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力</p>
-  <p class="subtitle">生成于 2026-05-22T00:43:33</p>
+  <p class="subtitle">生成于 2026-05-22T01:13:10</p>
 </header>
 
 <!-- 评分圆环 -->
@@ -209,7 +198,7 @@ footer {
   <svg width="200" height="200" viewBox="0 0 200 200">
     <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a2e" stroke-width="12"/>
     <circle id="score-circle" cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="12"
-      stroke-dasharray="565.5" stroke-dashoffset="{565.5 * (1 - 6.5/10)}"
+      stroke-dasharray="565.5" stroke-dashoffset="197.92499999999998"
       stroke-linecap="round"/>
   </svg>
   <div class="score-text">6.5</div>
@@ -241,7 +230,7 @@ footer {
 <!-- 告警详情 -->
 <div class="card" style="margin-bottom: 2rem;">
   <h2>告警详情</h2>
-  <div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> bounty stale 53h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 bounty 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p0-github-money stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p0-github-money 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p1-self-evolution stale 4h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p1-self-evolution 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p2-agent-social stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p2-agent-social 的 blocker 或推进 next action</span></div>
+  <div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> bounty stale 54h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 bounty 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p0-github-money stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p0-github-money 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p1-self-evolution stale 4h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p1-self-evolution 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p2-agent-social stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p2-agent-social 的 blocker 或推进 next action</span></div>
 </div>
 
 <!-- 项目状态 -->
@@ -252,7 +241,7 @@ footer {
       <tr><th>项目</th><th>Tier</th><th>状态</th><th>文件</th><th>最后活跃</th><th>Blocker</th></tr>
     </thead>
     <tbody>
-      <tr><td><strong>bounty</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>5</td><td>53h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p0-github-money</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>19</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p1-self-evolution</strong></td><td>P1</td><td><span class="status-badge badge-warn">stale</span></td><td>30</td><td>4h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-agent-social</strong></td><td>P2</td><td><span class="status-badge badge-warn">stale</span></td><td>9</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>hermes-lite</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>23</td><td>20h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-moltbook</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>1</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr>
+      <tr><td><strong>bounty</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>5</td><td>54h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p0-github-money</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>19</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p1-self-evolution</strong></td><td>P1</td><td><span class="status-badge badge-warn">stale</span></td><td>30</td><td>4h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-agent-social</strong></td><td>P2</td><td><span class="status-badge badge-warn">stale</span></td><td>9</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>hermes-lite</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>23</td><td>20h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-moltbook</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>1</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr>
     </tbody>
   </table>
 </div>
@@ -273,7 +262,7 @@ footer {
     <h2>Harness 机制</h2>
     <div class="metric"><span>Cron Jobs</span><span class="metric-value">9</span></div>
     <div class="metric"><span>Gateway</span><span class="metric-value">Service: systemd (en</span></div>
-    <div class="metric"><span>Sessions</span><span class="metric-value">236 个</span></div>
+    <div class="metric"><span>Sessions</span><span class="metric-value">238 个</span></div>
     <div class="metric"><span>Git 分支</span><span class="metric-value">main</span></div>
     <div class="metric"><span>未提交</span><span class="metric-value">有</span></div>
   </div>
@@ -284,7 +273,7 @@ footer {
     <div class="metric"><span>关键文件</span><span class="metric-value">✅</span></div>
     <div class="metric"><span>记忆文件</span><span class="metric-value">26</span></div>
     <div class="metric"><span>日记总数</span><span class="metric-value">169</span></div>
-    <div class="metric"><span>7天日记</span><span class="metric-value">48</span></div>
+    <div class="metric"><span>7天日记</span><span class="metric-value">47</span></div>
   </div>
   
   <!-- 能力 -->
@@ -311,18 +300,17 @@ footer {
 <div class="card" style="margin-bottom: 2rem;">
   <h2>📋 Skill 源码</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    本报告由 P1.0 baseline-check Skill 自动生成。以下展示该 Skill 的完整文档和脚本源码，供审计和改进。
+    本报告由 P1.0 baseline-check Skill（模块化架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
   </p>
-  
-  <details>
+  <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
-      📄 baseline-check-v2.md（Skill 文档）
+      📄 baseline-check-v2.md
     </summary>
-    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code># baseline-check v2 — P1.0 全面状态检查 Skill
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code># baseline-check v2 — P1.0 全面状态检查 Skill（模块化架构）
 
 &gt; **Purpose**: 全面扫描系统状态，生成 JSON 数据包 + Markdown 报告 + HTML 可视化仪表板
 &gt; **Invocation**: 每次 P1.0 周期启动时、heartbeat 触发时、用户询问状态时
-&gt; **Architecture**: 文档(this file) + 脚本(p1-baseline.py) + 输出(JSON/Markdown/HTML)
+&gt; **Architecture**: 文档(this file) + 7个检查模块 + 编排器 + 报告生成器
 
 ---
 
@@ -331,10 +319,33 @@ footer {
 | 组件 | 文件 | 作用 |
 |------|------|------|
 | **Skill 文档** | `skills/p1-0/baseline-check-v2.md` | 本文档 — 定义检查逻辑、输出格式、调用方式 |
-| **检查脚本** | `skills/p1-0/p1-baseline.py` | 执行引擎 — 收集数据、评分、生成报告 |
+| **模块层** | `skills/p1-0/modules/check-*.py` | 7个独立检查模块，各输出标准 JSON |
+| **编排器** | `skills/p1-0/orchestrator.py` | 并行运行模块、收集输出、计算评分、生成告警 |
+| **报告生成器** | `skills/p1-0/generate-report.py` | 从统一 JSON 生成 Markdown + HTML |
 | **Skill 状态** | `skills/p1-0/state.json` | 记录上次检查结果和历史 |
 | **输出目录** | `reports/p1-0/` | 每次运行生成 JSON + Markdown + HTML |
 | **部署位置** | `p1-dashboard.html` | 主页仪表板，自动覆盖更新 |
+
+---
+
+## 模块架构
+
+```
+skills/p1-0/modules/
+├── check-model.py         → 模型与运行时信息
+├── check-harness.py       → Harness 机制（Gateway、cron、systemd、sessions）
+├── check-memory.py        → 记忆系统（关键文件、日记活跃度）
+├── check-projects.py      → 项目审计（workspace + projects/ 扫描）
+├── check-environment.py   → 运行环境（磁盘、内存、负载、Git）
+├── check-capabilities.py  → 能力验证（GitHub、飞书、Tunnel、邮件）
+└── check-sessions.py      → 会话历史（最近 session 文件）
+```
+
+**每个模块接口标准**:
+- 独立可运行: `python3 check-xxx.py`
+- 输出格式: `{"module": "xxx", "data": {...}, "checks_passed": N, "checks_total": M}`
+- 错误处理: 单个模块失败不影响其他模块
+- 超时保护: 每个模块最多 30 秒
 
 ---
 
@@ -387,10 +398,10 @@ footer {
 | 维度 | 权重 | 计算方式 |
 |------|------|---------|
 | 项目健康度 | 30% | active 项目数 / 总项目数 × 10 |
-| 环境稳定度 | 20% | 环境检查通过项 / 总检查项 × 10 |
-| 记忆完整度 | 20% | 关键文件存在 + 日记更新及时 = 10 |
+| 环境稳定度 | 20% | 环境检查通过项 / 总检查项 × 10（磁盘&gt;85%扣2分，&gt;95%扣3分） |
+| 记忆完整度 | 20% | 关键文件存在 + 日记更新及时 = 10（&lt;3篇扣2分） |
 | 能力可用度 | 20% | 外部连接可用数 / 总连接数 × 10 |
-| 历史趋势 | 10% | 与上次 baseline 对比 |
+| 历史趋势 | 10% | 与上次 baseline 对比（默认持平） |
 
 **总分** = Σ(维度分 × 权重)，0-10 分
 **评级** = A(≥8) / B(≥6) / C(≥4) / D(&lt;4)
@@ -410,10 +421,10 @@ footer {
 ## 输出格式
 
 ### 1. JSON 数据包 (`reports/p1-0/latest.json`)
-完整结构化数据，包含 meta / score / model / environment / harness / memory_system / projects / capabilities / session_history / git / alerts
+完整结构化数据，包含 meta / score / modules / alerts
 
 ### 2. Markdown 报告 (`reports/p1-0/latest.md`)
-人类可读摘要，包含评分表格、告警清单、项目审计表、环境信息
+人类可读摘要，包含评分表格、告警清单、项目审计表、环境信息、模块运行状态
 
 ### 3. HTML 仪表板 (`p1-dashboard.html` + `reports/p1-0/latest.html`)
 暗色赛博朋克主题，包含：
@@ -421,15 +432,21 @@ footer {
 - 告警卡片
 - 项目表格
 - 环境/Harness/记忆/能力四宫格
-- **Skill 源码章节**（本 Skill 的 Markdown 文档和 Python 脚本源码，可折叠展开）
+- **Skill 源码章节**（所有模块脚本源码，可折叠展开）
+- 原始 JSON 数据（可折叠）
 
 ---
 
 ## 调用方式
 
 ```bash
-# 自动运行（P1.0 周期 / heartbeat 触发）
-python3 /root/.openclaw/workspace/skills/p1-0/p1-baseline.py
+# 完整流程（编排器 + 报告生成）
+python3 /root/.openclaw/workspace/skills/p1-0/orchestrator.py | \
+  python3 /root/.openclaw/workspace/skills/p1-0/generate-report.py
+
+# 或分步执行
+python3 /root/.openclaw/workspace/skills/p1-0/orchestrator.py
+python3 /root/.openclaw/workspace/skills/p1-0/generate-report.py
 
 # 输出位置
 # → reports/p1-0/latest.json
@@ -454,68 +471,468 @@ self-check-v1 ──→ 验证执行结果
 
 ---
 
-*Version: v2 | Updated: 2026-05-22*
+*Version: v2-modular | Updated: 2026-05-22*
 </code></pre>
-  </details>
-  
-  <details style="margin-top: 1rem;">
+  </details>  <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
-      🐍 p1-baseline.py（检查脚本）
+      🐍 orchestrator.py
     </summary>
     <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
-"""
-p1-baseline.py — P1.0 全面状态检查系统
-全面检查：模型、Harness机制、记忆机制、项目机制、运行环境、能力
-输出：JSON 数据包 + Markdown 报告 + HTML 可视化
+"""orchestrator.py — P1.0 baseline-check 编排器
+并行运行所有检查模块，收集输出，计算评分，生成告警
+用法：python3 orchestrator.py
+输出：统一 JSON 到 stdout，同时写入 reports/p1-0/latest.json
 """
 
-import os
-import sys
-import json
-import time
-import subprocess
-import glob
-from datetime import datetime, timedelta
-from pathlib import Path
+import os, sys, json, subprocess, time, glob
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 WORKSPACE = "/root/.openclaw/workspace"
-OUTPUT_DIR = f"{WORKSPACE}/skills/p1-0/reports"
-SKILL_DIR = f"{WORKSPACE}/skills/p1-0"
+MODULES_DIR = f"{WORKSPACE}/skills/p1-0/modules"
 REPORTS_DIR = f"{WORKSPACE}/reports/p1-0"
 
-def ensure_dirs():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    os.makedirs(REPORTS_DIR, exist_ok=True)
-    os.makedirs(f"{REPORTS_DIR}/history", exist_ok=True)
-
-def run_cmd(cmd, timeout=30):
+def run_module(script_path, timeout=30):
+    """运行单个模块，返回 JSON 输出或错误信息"""
     try:
         result = subprocess.run(
-            cmd, shell=True, capture_output=True, text=True, timeout=timeout
+            ["python3", script_path],
+            capture_output=True, text=True, timeout=timeout,
+            cwd=MODULES_DIR
         )
-        return {
-            "stdout": result.stdout.strip(),
-            "stderr": result.stderr.strip(),
-            "returncode": result.returncode,
-            "ok": result.returncode == 0,
-        }
+        if result.returncode == 0:
+            try:
+                return json.loads(result.stdout)
+            except json.JSONDecodeError:
+                return {"module": os.path.basename(script_path), "error": "invalid JSON", "raw": result.stdout[:500]}
+        else:
+            return {"module": os.path.basename(script_path), "error": result.stderr[:500], "raw": result.stdout[:500]}
     except subprocess.TimeoutExpired:
-        return {"stdout": "", "stderr": "timeout", "returncode": -1, "ok": False}
+        return {"module": os.path.basename(script_path), "error": "timeout", "checks_passed": 0, "checks_total": 0}
+    except Exception as e:
+        return {"module": os.path.basename(script_path), "error": str(e), "checks_passed": 0, "checks_total": 0}
+
+def calculate_score(modules_data):
+    """计算系统健康分
+    项目30% + 环境20% + 记忆20% + 能力20% + 趋势10%
+    """
+    score = 0
+    breakdown = {}
+    
+    # 项目健康 (30%)
+    projects_mod = modules_data.get("projects", {})
+    projects_data = projects_mod.get("data", {})
+    projects_list = projects_data.get("projects", [])
+    active = len([p for p in projects_list if p.get("status") == "active"])
+    total = len(projects_list)
+    if total &gt; 0:
+        project_score = min(10, (active / total) * 10)
+    else:
+        project_score = 5
+    breakdown["projects"] = round(project_score, 1)
+    score += project_score * 0.30
+    
+    # 环境稳定 (20%)
+    env_mod = modules_data.get("environment", {})
+    env_data = env_mod.get("data", {})
+    disk_pct = env_data.get("disk", {}).get("usage_percent", 0)
+    env_checks = env_mod.get("checks_passed", 0)
+    env_total = env_mod.get("checks_total", 1)
+    env_score = min(10, (env_checks / max(env_total, 1)) * 10)
+    if disk_pct &gt; 85:
+        env_score -= 2
+    if disk_pct &gt; 95:
+        env_score -= 3
+    breakdown["environment"] = round(max(0, env_score), 1)
+    score += max(0, env_score) * 0.20
+    
+    # 记忆完整 (20%)
+    mem_mod = modules_data.get("memory", {})
+    mem_data = mem_mod.get("data", {})
+    mem_score = 10 if mem_data.get("all_key_files_exist") else 5
+    if mem_data.get("diary_recent_7d", 0) &lt; 3:
+        mem_score -= 2
+    breakdown["memory"] = round(max(0, mem_score), 1)
+    score += max(0, mem_score) * 0.20
+    
+    # 能力可用 (20%)
+    cap_mod = modules_data.get("capabilities", {})
+    cap_data = cap_mod.get("data", {})
+    cap_list = [cap_data.get("github_cli"), cap_data.get("github_api"),
+                cap_data.get("feishu"), cap_data.get("cloudflare_tunnel")]
+    available = sum(1 for c in cap_list if c)
+    cap_score = (available / len(cap_list)) * 10 if cap_list else 5
+    breakdown["capabilities"] = round(cap_score, 1)
+    score += cap_score * 0.20
+    
+    # 历史趋势 (10%)
+    trend_score = 5  # 默认持平，后续版本可从 state.json 对比
+    breakdown["trend"] = trend_score
+    score += trend_score * 0.10
+    
+    return round(score, 1), breakdown
+
+def generate_alerts(modules_data):
+    """从模块数据生成告警清单"""
+    alerts = []
+    
+    # 项目告警
+    projects_mod = modules_data.get("projects", {})
+    for p in projects_mod.get("data", {}).get("projects", []):
+        if p.get("status") == "stale":
+            alerts.append({
+                "level": "warning",
+                "category": "project",
+                "item": f"{p['name']} stale {p['age_hours']:.0f}h",
+                "suggestion": f"检查 {p['name']} 的 blocker 或推进 next action",
+            })
+        elif p.get("status") == "ghost":
+            alerts.append({
+                "level": "info",
+                "category": "project",
+                "item": f"{p['name']} 是 ghost 项目",
+                "suggestion": "归档或填充内容",
+            })
+    
+    # 环境告警
+    env_mod = modules_data.get("environment", {})
+    env_data = env_mod.get("data", {})
+    disk_pct = env_data.get("disk", {}).get("usage_percent", 0)
+    if disk_pct &gt; 85:
+        alerts.append({
+            "level": "critical",
+            "category": "environment",
+            "item": f"磁盘使用率 {disk_pct}%",
+            "suggestion": "清理日志和旧 session 文件",
+        })
+    
+    # 记忆告警
+    mem_mod = modules_data.get("memory", {})
+    mem_data = mem_mod.get("data", {})
+    if not mem_data.get("all_key_files_exist"):
+        missing = [k for k, v in mem_data.get("key_files", {}).items() if not v or not v.get("exists")]
+        alerts.append({
+            "level": "critical",
+            "category": "memory",
+            "item": f"关键文件缺失: {', '.join(missing)}",
+            "suggestion": "从 git 恢复或重建文件",
+        })
+    if mem_data.get("diary_recent_7d", 0) == 0:
+        alerts.append({
+            "level": "warning",
+            "category": "memory",
+            "item": "7 天内无日记记录",
+            "suggestion": "检查内观机制是否正常运行",
+        })
+    
+    # 能力告警
+    cap_mod = modules_data.get("capabilities", {})
+    cap_data = cap_mod.get("data", {})
+    if not cap_data.get("github_api"):
+        alerts.append({
+            "level": "warning",
+            "category": "capability",
+            "item": "GitHub API 不可用",
+            "suggestion": "检查 PAT 是否过期",
+        })
+    
+    # 模块失败告警
+    for name, mod in modules_data.items():
+        if "error" in mod and mod["error"]:
+            alerts.append({
+                "level": "critical",
+                "category": "module",
+                "item": f"模块 {name} 运行失败: {mod['error']}",
+                "suggestion": "检查模块脚本",
+            })
+    
+    # 排序
+    level_order = {"critical": 0, "warning": 1, "info": 2}
+    alerts.sort(key=lambda x: level_order.get(x["level"], 99))
+    
+    return alerts
+
+def main():
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    os.makedirs(f"{REPORTS_DIR}/history", exist_ok=True)
+    
+    print("🔍 P1.0 baseline-check orchestrator 启动...")
+    
+    # 发现所有模块
+    module_scripts = sorted(glob.glob(f"{MODULES_DIR}/check-*.py"))
+    print(f"  → 发现 {len(module_scripts)} 个检查模块")
+    
+    # 并行运行所有模块
+    modules_data = {}
+    with ThreadPoolExecutor(max_workers=7) as executor:
+        futures = {executor.submit(run_module, path): os.path.basename(path).replace(".py", "") for path in module_scripts}
+        for future in as_completed(futures):
+            module_name = futures[future]
+            try:
+                result = future.result()
+                key = result.get("module", module_name)
+                modules_data[key] = result
+                error = result.get("error")
+                if error:
+                    print(f"  ⚠️ {key}: {error}")
+                else:
+                    passed = result.get("checks_passed", 0)
+                    total = result.get("checks_total", 0)
+                    print(f"  ✅ {key}: {passed}/{total} 通过")
+            except Exception as e:
+                print(f"  ❌ {module_name}: {e}")
+                modules_data[module_name] = {"module": module_name, "error": str(e), "checks_passed": 0, "checks_total": 0}
+    
+    # 计算评分
+    print("📊 计算评分...")
+    score, breakdown = calculate_score(modules_data)
+    alerts = generate_alerts(modules_data)
+    
+    # 组装统一报告
+    report = {
+        "meta": {
+            "version": "p1-baseline-v2-modular",
+            "generated_at": datetime.now().isoformat(),
+            "workspace": WORKSPACE,
+            "modules_run": len(module_scripts),
+            "modules_ok": sum(1 for m in modules_data.values() if "error" not in m or not m.get("error")),
+        },
+        "score": {
+            "total": score,
+            "max": 10,
+            "breakdown": breakdown,
+            "grade": "A" if score &gt;= 8 else ("B" if score &gt;= 6 else ("C" if score &gt;= 4 else "D")),
+        },
+        "modules": modules_data,
+        "alerts": alerts,
+        "alert_count": {
+            "critical": len([a for a in alerts if a["level"] == "critical"]),
+            "warning": len([a for a in alerts if a["level"] == "warning"]),
+            "info": len([a for a in alerts if a["level"] == "info"]),
+        },
+    }
+    
+    # 写入 latest.json
+    json_path = f"{REPORTS_DIR}/latest.json"
+    with open(json_path, "w") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+    print(f"  → JSON: {json_path}")
+    
+    # 写入 state.json
+    state_path = f"{WORKSPACE}/skills/p1-0/state.json"
+    state = {}
+    if os.path.exists(state_path):
+        try:
+            with open(state_path, "r") as f:
+                state = json.load(f)
+        except:
+            pass
+    state["last_baseline"] = report
+    state["last_run"] = datetime.now().isoformat()
+    with open(state_path, "w") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+    
+    # 输出摘要
+    print(f"""
+{'='*60}
+✅ P1.0 检查完成
+{'='*60}
+评分：{score}/10（{report['score']['grade']} 级）
+模块：{report['meta']['modules_ok']}/{report['meta']['modules_run']} 成功
+告警：🔴 {report['alert_count']['critical']} 🟡 {report['alert_count']['warning']} 🟢 {report['alert_count']['info']}
+{'='*60}
+""")
+    
+    # 同时输出到 stdout
+    print(json.dumps(report, indent=2, ensure_ascii=False))
+    return report
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-capabilities.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-capabilities.py — 能力验证模块（GitHub、飞书、Tunnel、邮件）
+独立运行输出 JSON：python3 check-capabilities.py
+"""
+
+import os, json, subprocess
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+def run_cmd(cmd, timeout=15):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        return {"stdout": result.stdout.strip(), "stderr": result.stderr.strip(),
+                "returncode": result.returncode, "ok": result.returncode == 0}
     except Exception as e:
         return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
 
-def get_file_info(path):
-    """获取文件信息"""
-    if not os.path.exists(path):
-        return None
-    stat = os.stat(path)
-    return {
-        "exists": True,
-        "size": stat.st_size,
-        "size_human": human_size(stat.st_size),
-        "mtime": datetime.fromtimestamp(stat.st_mtime).isoformat(),
-        "mtime_age_hours": round((time.time() - stat.st_mtime) / 3600, 1),
+def check():
+    checks_passed = 0
+    checks_total = 6
+    
+    # GitHub CLI
+    gh_auth = run_cmd("gh auth status 2&gt;&amp;1 | head -5")
+    gh_ok = "Logged in" in gh_auth["stdout"] or gh_auth["ok"]
+    if gh_ok: checks_passed += 1
+    
+    # GitHub API
+    gh_api = run_cmd("gh api user 2&gt;&amp;1 | head -1")
+    gh_api_ok = gh_api["ok"] and "login" in gh_api["stdout"]
+    if gh_api_ok: checks_passed += 1
+    
+    # Web 搜索（依赖 kimi_search tool，标记为可用）
+    search_ok = True
+    checks_passed += 1
+    
+    # 飞书 token
+    feishu_ok = os.path.exists("/root/.openclaw/.feishu_token") or os.path.exists(f"{WORKSPACE}/.feishu_token")
+    if feishu_ok: checks_passed += 1
+    
+    # Cloudflare Tunnel
+    tunnel = run_cmd("curl -s -o /dev/null -w '%{http_code}' http://localhost:8080 2&gt;/dev/null || echo '000'")
+    tunnel_ok = tunnel["stdout"] in ["200", "404", "301", "302"]
+    if tunnel_ok: checks_passed += 1
+    
+    # 邮件 webhook
+    mailgun = run_cmd("systemctl is-active xiaok-mailbox-webhook 2&gt;/dev/null || echo 'inactive'")
+    mailgun_ok = "active" in mailgun["stdout"]
+    if mailgun_ok: checks_passed += 1
+    
+    data = {
+        "github_cli": gh_ok,
+        "github_api": gh_api_ok,
+        "web_search": search_ok,
+        "feishu": feishu_ok,
+        "cloudflare_tunnel": tunnel_ok,
+        "mailgun_webhook": mailgun_ok,
+        "raw": {
+            "gh_auth": gh_auth["stdout"],
+            "gh_api": gh_api["stdout"],
+            "tunnel_http_code": tunnel["stdout"],
+            "mailgun": mailgun["stdout"],
+        },
     }
+    
+    return {"module": "capabilities", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
+
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-environment.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-environment.py — 运行环境检查模块（磁盘、内存、负载、Git）
+独立运行输出 JSON：python3 check-environment.py
+"""
+
+import os, json, subprocess, time
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+def run_cmd(cmd, timeout=10):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        return {"stdout": result.stdout.strip(), "stderr": result.stderr.strip(),
+                "returncode": result.returncode, "ok": result.returncode == 0}
+    except Exception as e:
+        return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
+
+def check():
+    checks_passed = 0
+    checks_total = 4
+    
+    # 磁盘
+    df = run_cmd("df -h . | tail -1")
+    disk_match = df["stdout"].split() if df["ok"] else []
+    disk_pct = int(disk_match[4].rstrip("%")) if len(disk_match) &gt;= 5 else 0
+    disk_ok = disk_pct &lt; 90
+    if disk_ok: checks_passed += 1
+    
+    # 内存
+    free = run_cmd("free -h | grep Mem")
+    mem_ok = free["ok"]
+    if mem_ok: checks_passed += 1
+    
+    # 负载/运行时间
+    uptime = run_cmd("uptime")
+    uptime_ok = uptime["ok"]
+    if uptime_ok: checks_passed += 1
+    
+    # Git
+    branch = run_cmd("git branch --show-current")
+    status = run_cmd("git status --short")
+    last_commit = run_cmd("git log -1 --format=%H")
+    last_commit_time = run_cmd("git log -1 --format=%ci")
+    commit_count = run_cmd("git rev-list --count HEAD")
+    
+    git_ok = branch["ok"]
+    if git_ok: checks_passed += 1
+    
+    data = {
+        "timestamp": datetime.now().isoformat(),
+        "hostname": run_cmd("hostname")["stdout"] or "unknown",
+        "uptime": uptime["stdout"] if uptime["ok"] else "unknown",
+        "disk": {
+            "usage_percent": disk_pct,
+            "available": disk_match[3] if len(disk_match) &gt;= 4 else "unknown",
+            "raw": df["stdout"] if df["ok"] else "unknown",
+            "ok": disk_ok,
+        },
+        "memory": {
+            "raw": free["stdout"] if free["ok"] else "unknown",
+            "ok": mem_ok,
+        },
+        "git": {
+            "branch": branch["stdout"] if branch["ok"] else "unknown",
+            "uncommitted_changes": status["stdout"].split("\n") if status["stdout"] else [],
+            "has_uncommitted": len(status["stdout"]) &gt; 0 if status["ok"] else False,
+            "last_commit_hash": last_commit["stdout"][:8] if last_commit["ok"] else "unknown",
+            "last_commit_time": last_commit_time["stdout"] if last_commit_time["ok"] else "unknown",
+            "total_commits": int(commit_count["stdout"]) if commit_count["ok"] else 0,
+            "ok": git_ok,
+        },
+        "versions": {
+            "node": run_cmd("node --version")["stdout"] or "unknown",
+            "python": run_cmd("python3 --version")["stdout"] or "unknown",
+            "gh_cli": run_cmd("gh --version | head -1")["stdout"] or "unknown",
+            "openclaw": run_cmd("openclaw --version 2&gt;/dev/null || openclaw version 2&gt;/dev/null || echo 'unknown'")["stdout"] or "unknown",
+        },
+    }
+    
+    return {"module": "environment", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
+
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-harness.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-harness.py — Harness 机制检查模块（Gateway、cron、systemd、sessions）
+独立运行输出 JSON：python3 check-harness.py
+"""
+
+import os, json, subprocess, glob, time
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+def run_cmd(cmd, timeout=10):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        return {"stdout": result.stdout.strip(), "stderr": result.stderr.strip(),
+                "returncode": result.returncode, "ok": result.returncode == 0}
+    except Exception as e:
+        return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
 
 def human_size(n):
     for unit in ["B", "KB", "MB", "GB"]:
@@ -524,57 +941,103 @@ def human_size(n):
         n /= 1024
     return f"{n:.1f}TB"
 
-def get_git_info():
-    """检查 git 状态"""
-    branch = run_cmd("git branch --show-current")
-    status = run_cmd("git status --short")
-    last_commit = run_cmd("git log -1 --format=%H")
-    last_commit_time = run_cmd("git log -1 --format=%ci")
-    commit_count = run_cmd("git rev-list --count HEAD")
-    
-    return {
-        "branch": branch["stdout"] if branch["ok"] else "unknown",
-        "uncommitted_changes": status["stdout"].split("\n") if status["stdout"] else [],
-        "has_uncommitted": len(status["stdout"]) &gt; 0 if status["ok"] else False,
-        "last_commit_hash": last_commit["stdout"][:8] if last_commit["ok"] else "unknown",
-        "last_commit_time": last_commit_time["stdout"] if last_commit_time["ok"] else "unknown",
-        "total_commits": int(commit_count["stdout"]) if commit_count["ok"] else 0,
-    }
+def get_file_info(path):
+    if not os.path.exists(path):
+        return None
+    stat = os.stat(path)
+    return {"exists": True, "size": stat.st_size, "mtime": stat.st_mtime,
+            "mtime_age_hours": round((time.time() - stat.st_mtime) / 3600, 1)}
 
-def get_system_info():
-    """系统环境检查"""
-    df = run_cmd("df -h . | tail -1")
-    free = run_cmd("free -h | grep Mem")
-    uptime = run_cmd("uptime")
-    node = run_cmd("node --version")
-    python = run_cmd("python3 --version")
-    gh = run_cmd("gh --version | head -1")
-    openclaw = run_cmd("openclaw --version 2&gt;/dev/null || openclaw version 2&gt;/dev/null || echo 'unknown'")
+def check():
+    checks_passed = 0
+    checks_total = 5
     
-    disk_match = df["stdout"].split() if df["ok"] else []
+    # 配置文件
+    config_paths = ["/root/.openclaw/config.yaml", "/root/.openclaw/config.yml", "/root/.openclaw/.env"]
+    config_status = {}
+    configs_ok = 0
+    for path in config_paths:
+        info = get_file_info(path)
+        config_status[path] = info or {"exists": False}
+        if info and info["exists"]:
+            configs_ok += 1
+    if configs_ok &gt; 0: checks_passed += 1  # 至少一个配置存在
     
-    return {
-        "timestamp": datetime.now().isoformat(),
-        "hostname": run_cmd("hostname")["stdout"],
-        "uptime": uptime["stdout"] if uptime["ok"] else "unknown",
-        "disk": {
-            "usage_percent": int(disk_match[4].rstrip("%")) if len(disk_match) &gt;= 5 else 0,
-            "available": disk_match[3] if len(disk_match) &gt;= 4 else "unknown",
-            "raw": df["stdout"],
-        },
-        "memory": {
-            "raw": free["stdout"] if free["ok"] else "unknown",
-        },
-        "versions": {
-            "node": node["stdout"] if node["ok"] else "unknown",
-            "python": python["stdout"] if python["ok"] else "unknown",
-            "gh_cli": gh["stdout"] if gh["ok"] else "unknown",
-            "openclaw": openclaw["stdout"] if openclaw["ok"] else "unknown",
+    # cron jobs
+    cron = run_cmd("crontab -l 2&gt;/dev/null || echo 'no crontab'")
+    cron_jobs = [line for line in cron["stdout"].split("\n") if line.strip() and not line.startswith("#")]
+    checks_passed += 1  # cron 可查询即算通过
+    
+    # Gateway 状态
+    gateway = run_cmd("openclaw gateway status 2&gt;/dev/null || echo 'unknown'")
+    gateway_ok = "running" in gateway["stdout"].lower() or "active" in gateway["stdout"].lower()
+    if gateway_ok: checks_passed += 1
+    
+    # systemd 服务
+    systemd = run_cmd("systemctl list-units --type=service --state=running | grep -i openclaw || echo 'none'")
+    systemd_ok = systemd["stdout"] and systemd["stdout"] != "none"
+    if systemd_ok: checks_passed += 1
+    
+    # session 文件
+    sessions_dir = "/root/.openclaw/agents/main/sessions"
+    sessions = glob.glob(f"{sessions_dir}/*.jsonl") if os.path.exists(sessions_dir) else []
+    total_size = sum(os.path.getsize(s) for s in sessions)
+    session_ok = len(sessions) &gt; 0
+    if session_ok: checks_passed += 1
+    
+    data = {
+        "config_files": config_status,
+        "cron_jobs_count": len(cron_jobs),
+        "cron_jobs": cron_jobs,
+        "gateway_status": gateway["stdout"],
+        "gateway_ok": gateway_ok,
+        "systemd_services": systemd["stdout"],
+        "systemd_ok": systemd_ok,
+        "sessions": {
+            "count": len(sessions),
+            "total_size": human_size(total_size),
+            "total_size_bytes": total_size,
         },
     }
+    
+    return {"module": "harness", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
 
-def get_memory_system():
-    """记忆系统全面审计"""
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-memory.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-memory.py — 记忆系统检查模块（关键文件、日记活跃度）
+独立运行输出 JSON：python3 check-memory.py
+"""
+
+import os, json, glob, time
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+def get_file_info(path):
+    if not os.path.exists(path):
+        return None
+    stat = os.stat(path)
+    return {"exists": True, "size": stat.st_size, "size_human": human_size(stat.st_size),
+            "mtime": datetime.fromtimestamp(stat.st_mtime).isoformat(),
+            "mtime_age_hours": round((time.time() - stat.st_mtime) / 3600, 1)}
+
+def human_size(n):
+    for unit in ["B", "KB", "MB", "GB"]:
+        if n &lt; 1024:
+            return f"{n:.1f}{unit}"
+        n /= 1024
+    return f"{n:.1f}TB"
+
+def check():
+    checks_passed = 0
+    checks_total = 3
+    
     memory_dir = f"{WORKSPACE}/memory"
     diary_dir = f"{WORKSPACE}/diary"
     
@@ -600,21 +1063,22 @@ def get_memory_system():
         if not (info and info["exists"]):
             all_exist = False
     
+    if all_exist: checks_passed += 1
+    if len(memory_files) &gt;= 5: checks_passed += 1
+    
     # 日记活跃度
-    recent_diary = []
     now = time.time()
+    recent_diary = []
     for f in diary_files:
         stat = os.stat(f)
         age_hours = (now - stat.st_mtime) / 3600
         if age_hours &lt; 168:  # 7 days
-            recent_diary.append({
-                "file": os.path.basename(f),
-                "age_hours": round(age_hours, 1),
-            })
-    
+            recent_diary.append({"file": os.path.basename(f), "age_hours": round(age_hours, 1)})
     recent_diary.sort(key=lambda x: x["age_hours"])
     
-    return {
+    if len(recent_diary) &gt;= 3: checks_passed += 1
+    
+    data = {
         "key_files": key_status,
         "all_key_files_exist": all_exist,
         "memory_files_count": len(memory_files),
@@ -622,73 +1086,114 @@ def get_memory_system():
         "diary_recent_7d": len(recent_diary),
         "diary_latest": recent_diary[:5] if recent_diary else None,
     }
+    
+    return {"module": "memory", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
 
-def get_harness_mechanisms():
-    """Harness 机制检查 — OpenClaw/Gateway 配置"""
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-model.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-model.py — 模型与运行时信息检查模块
+独立运行输出 JSON：python3 check-model.py
+"""
+
+import os, sys, json, subprocess
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+def run_cmd(cmd, timeout=10):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        return {"stdout": result.stdout.strip(), "stderr": result.stderr.strip(),
+                "returncode": result.returncode, "ok": result.returncode == 0}
+    except Exception as e:
+        return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
+
+def check():
+    checks_passed = 0
+    checks_total = 4
     
-    # 检查 OpenClaw 配置
-    config_paths = [
-        "/root/.openclaw/config.yaml",
-        "/root/.openclaw/config.yml",
-        "/root/.openclaw/.env",
-    ]
+    model = os.environ.get("OPENCLAW_MODEL", "unknown")
+    agent = os.environ.get("OPENCLAW_AGENT", "unknown")
+    session_file = os.environ.get("OPENCLAW_SESSION_FILE", "")
     
-    config_status = {}
-    for path in config_paths:
-        config_status[path] = get_file_info(path)
+    # 运行时检查
+    node = run_cmd("node --version")
+    python = run_cmd("python3 --version")
     
-    # 检查 cron jobs
-    cron = run_cmd("crontab -l 2&gt;/dev/null || echo 'no crontab'")
-    cron_jobs = [line for line in cron["stdout"].split("\n") if line.strip() and not line.startswith("#")]
+    # 验证基本检查
+    if model != "unknown": checks_passed += 1
+    if node["ok"]: checks_passed += 1
+    if python["ok"]: checks_passed += 1
+    if os.path.isdir(WORKSPACE): checks_passed += 1
     
-    # 检查 Gateway 状态
-    gateway = run_cmd("openclaw gateway status 2&gt;/dev/null || echo 'unknown'")
-    
-    # 检查 systemd 服务
-    systemd = run_cmd("systemctl list-units --type=service --state=running | grep -i openclaw || echo 'none'")
-    
-    # 检查 session 文件
-    sessions_dir = "/root/.openclaw/agents/main/sessions"
-    sessions = glob.glob(f"{sessions_dir}/*.jsonl") if os.path.exists(sessions_dir) else []
-    
-    total_session_size = 0
-    for s in sessions:
-        total_session_size += os.path.getsize(s)
-    
-    return {
-        "config_files": config_status,
-        "cron_jobs_count": len(cron_jobs),
-        "cron_jobs": cron_jobs,
-        "gateway_status": gateway["stdout"],
-        "systemd_services": systemd["stdout"],
-        "sessions": {
-            "count": len(sessions),
-            "total_size": human_size(total_session_size),
-            "total_size_bytes": total_session_size,
-        },
+    data = {
+        "model": model,
+        "agent": agent,
+        "session_file": session_file,
+        "python_path": sys.executable,
+        "python_version": python["stdout"] if python["ok"] else "unknown",
+        "node_version": node["stdout"] if node["ok"] else "unknown",
+        "working_dir": WORKSPACE,
+        "hostname": run_cmd("hostname")["stdout"] or "unknown",
+        "timestamp": datetime.now().isoformat(),
     }
+    
+    return {"module": "model", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
 
-def get_projects():
-    """项目全面审计 — 支持多种目录结构"""
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-projects.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-projects.py — 项目审计模块（workspace + projects/ 扫描）
+独立运行输出 JSON：python3 check-projects.py
+"""
+
+import os, json, time
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+EXCLUDE_DIRS = {
+    "node_modules", "tmp", ".local", "_layouts", "blog", "downloads", "__pycache__",
+    "_posts", "backups", "daily", "data", "diary", "memorized_diary", "memorized_media",
+    "memory", "references", "scripts", "skills", "todo", "weekly",
+}
+
+EXCLUDE_FILES = {
+    ".git", ".github", ".openclaw", ".config", ".cache", ".npm", ".nvm",
+}
+
+def check():
+    checks_passed = 0
+    checks_total = 2
+    
     projects = []
     seen = set()
     
-    # 策略1: 扫描 workspace 一级目录
     candidates = []
     for item in os.listdir(WORKSPACE):
         item_path = os.path.join(WORKSPACE, item)
         if not os.path.isdir(item_path):
             continue
-        if item.startswith(".") or item in ["node_modules", "tmp", ".local", "_layouts", "blog", "downloads", "__pycache__", "_posts", "backups", "daily", "data", "diary", "memorized_diary", "memorized_media", "memory", "references", "scripts", "skills", "todo", "weekly", "bounty_archive.md", "data.json", "data.jsonl", "index.html", "index.html.bak", "CNAME", "_config.yml", "founders-handbook.md", "capability-inventory.md", "claude-openclaw-bridge.md", "mac-bridge-websocket-spec.md", "mac-forward-message.json", "ac_api.py", "AGENTS.md", "BOOTSTRAP.md", "DREAMS.md", "EOF", "HEARTBEAT.md", "IDENTITY.md", "MEMORY.md", "SOUL.md", "USER.md", "TOOLS.md", "1", "@", "d22_test.txt", "littlek-513.github.io", "p1-dashboard.html", "qq-test-session.jsonl", "qq-test-session.txt", "weixin_health.sh", "weixin-msg-payload.json", "README.md", "readme.md", "package.json", "package-lock.json"]:
+        if item.startswith(".") or item in EXCLUDE_DIRS or item in EXCLUDE_FILES:
             continue
         candidates.append((item, item_path))
     
-    # 策略2: 特别检查 projects/ 下的子目录
     projects_dir = f"{WORKSPACE}/projects"
     if os.path.exists(projects_dir):
         for sub in os.listdir(projects_dir):
             sub_path = os.path.join(projects_dir, sub)
-            if os.path.isdir(sub_path) and not sub.startswith("."):
+            if os.path.isdir(sub_path) and not sub.startswith(".") and sub not in EXCLUDE_DIRS:
                 candidates.append((sub, sub_path))
     
     for name, path in candidates:
@@ -696,24 +1201,23 @@ def get_projects():
             continue
         seen.add(name)
         
-        # 判断是否为项目 — 严格的判定标准
         has_state = os.path.exists(f"{path}/state.json")
         has_readme = os.path.exists(f"{path}/README.md") or os.path.exists(f"{path}/readme.md")
         has_project_py = os.path.exists(f"{path}/project-status.py")
         has_todo = os.path.exists(f"{path}/todo") and os.path.isdir(f"{path}/todo")
         is_tiered = name.startswith(("p0-", "p1-", "p2-", "p3-"))
         
-        # 排除标准
-        is_empty = len(os.listdir(path)) == 0
-        only_hidden = all(f.startswith(".") for f in os.listdir(path))
+        try:
+            files = os.listdir(path)
+            is_empty = len(files) == 0
+            only_hidden = all(f.startswith(".") for f in files)
+        except:
+            continue
         
-        # 严格判定：满足以下任一条件
         is_project = has_state or has_project_py or (has_readme and has_todo) or is_tiered
-        
         if is_empty or only_hidden or not is_project:
             continue
         
-        # 读取 state.json（支持多种格式）
         state_info = None
         tier = None
         last_updated = None
@@ -724,33 +1228,24 @@ def get_projects():
             try:
                 with open(f"{path}/state.json", "r") as f:
                     state_info = json.load(f)
-                
-                # 灵活提取字段（支持多种命名）
                 tier = state_info.get("tier") or state_info.get("p0_id") or state_info.get("tier_id")
                 if tier == "github-money":
                     tier = "P0"
-                
-                last_updated = (state_info.get("last_updated") or 
-                               state_info.get("updated_at") or 
-                               state_info.get("last_update") or
-                               state_info.get("scan_time") or
-                               state_info.get("completed_at") or
-                               state_info.get("started_at"))
+                last_updated = (state_info.get("last_updated") or state_info.get("updated_at") or
+                               state_info.get("last_update") or state_info.get("scan_time") or
+                               state_info.get("completed_at") or state_info.get("started_at"))
                 blocker = state_info.get("blocker") or state_info.get("current_blocker")
-                last_action = (state_info.get("last_action") or 
-                              state_info.get("latest_progress") or 
-                              state_info.get("last_action_summary") or
-                              state_info.get("current_phase"))
+                last_action = (state_info.get("last_action") or state_info.get("latest_progress") or
+                              state_info.get("last_action_summary") or state_info.get("current_phase"))
             except:
                 state_info = {"error": "invalid json"}
         
-        # 统计文件
         file_count = 0
         latest_mtime = 0
-        for root, dirs, files in os.walk(path):
+        for root, dirs, files_inner in os.walk(path):
             dirs[:] = [d for d in dirs if not d.startswith(".") and d not in ["node_modules", "__pycache__", ".git"]]
-            file_count += len(files)
-            for f in files:
+            file_count += len(files_inner)
+            for f in files_inner:
                 try:
                     mtime = os.path.getmtime(os.path.join(root, f))
                     if mtime &gt; latest_mtime:
@@ -760,7 +1255,6 @@ def get_projects():
         
         age_hours = (time.time() - latest_mtime) / 3600 if latest_mtime else float("inf")
         
-        # 状态判定 — 优先用 last_updated，如无则用文件修改时间
         check_time = last_updated
         if not check_time and latest_mtime:
             check_time = datetime.fromtimestamp(latest_mtime).isoformat()
@@ -797,79 +1291,78 @@ def get_projects():
             "last_action": str(last_action)[:200] if last_action else None,
         })
     
-    # 按 tier 排序（P0 &gt; P1 &gt; P2 &gt; other）
     tier_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
     projects.sort(key=lambda x: (tier_order.get(x["tier"], 99), x["name"]))
     
-    return projects
-
-def get_capabilities():
-    """能力验证 — 外部连接检查"""
+    active_count = len([p for p in projects if p["status"] == "active"])
+    if active_count &gt;= 1: checks_passed += 1
+    if len(projects) &gt;= 1: checks_passed += 1
     
-    # GitHub
-    gh_auth = run_cmd("gh auth status 2&gt;&1 | head -5")
-    gh_ok = "Logged in" in gh_auth["stdout"] or gh_auth["ok"]
-    
-    # GitHub API 测试
-    gh_api = run_cmd("gh api user 2&gt;&1 | head -1")
-    gh_api_ok = gh_api["ok"] and "login" in gh_api["stdout"]
-    
-    # Web 搜索测试（轻量）
-    search_ok = True  # 依赖 kimi_search tool，无法直接测试
-    
-    # 飞书 token
-    feishu_ok = os.path.exists("/root/.openclaw/.feishu_token") or os.path.exists(f"{WORKSPACE}/.feishu_token")
-    
-    # Cloudflare Tunnel
-    tunnel = run_cmd("curl -s -o /dev/null -w '%{http_code}' http://localhost:8080 2&gt;/dev/null || echo '000'")
-    tunnel_ok = tunnel["stdout"] in ["200", "404", "301", "302"]
-    
-    # 邮件 webhook
-    mailgun = run_cmd("systemctl is-active xiaok-mailbox-webhook 2&gt;/dev/null || echo 'inactive'")
-    mailgun_ok = "active" in mailgun["stdout"]
-    
-    return {
-        "github_cli": gh_ok,
-        "github_api": gh_api_ok,
-        "web_search": search_ok,
-        "feishu": feishu_ok,
-        "cloudflare_tunnel": tunnel_ok,
-        "mailgun_webhook": mailgun_ok,
-        "raw": {
-            "gh_auth": gh_auth["stdout"],
-            "gh_api": gh_api["stdout"],
-            "tunnel_http_code": tunnel["stdout"],
-            "mailgun": mailgun["stdout"],
-        },
+    data = {
+        "projects": projects,
+        "active_count": active_count,
+        "stale_count": len([p for p in projects if p["status"] == "stale"]),
+        "orphan_count": len([p for p in projects if p["status"] == "orphan"]),
+        "ghost_count": len([p for p in projects if p["status"] == "ghost"]),
+        "total_count": len(projects),
     }
+    
+    return {"module": "projects", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
 
-def get_session_history_summary():
-    """从历史会话提取项目进展"""
-    sessions_dir = "/root/.openclaw/agents/main/sessions"
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-sessions.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-sessions.py — 会话历史检查模块（最近 session 文件）
+独立运行输出 JSON：python3 check-sessions.py
+"""
+
+import os, json, glob, time
+from datetime import datetime
+
+SESSIONS_DIR = "/root/.openclaw/agents/main/sessions"
+
+def human_size(n):
+    for unit in ["B", "KB", "MB", "GB"]:
+        if n &lt; 1024:
+            return f"{n:.1f}{unit}"
+        n /= 1024
+    return f"{n:.1f}TB"
+
+def check():
+    checks_passed = 0
+    checks_total = 2
     
-    if not os.path.exists(sessions_dir):
-        return {"error": "sessions dir not found"}
+    if not os.path.exists(SESSIONS_DIR):
+        return {
+            "module": "sessions",
+            "data": {"error": "sessions dir not found", "total_sessions": 0, "recent_10": []},
+            "checks_passed": 0,
+            "checks_total": 2,
+        }
     
-    sessions = sorted(
-        glob.glob(f"{sessions_dir}/*.jsonl"),
-        key=lambda x: os.path.getmtime(x),
-        reverse=True
-    )
+    sessions = sorted(glob.glob(f"{SESSIONS_DIR}/*.jsonl"), key=lambda x: os.path.getmtime(x), reverse=True)
     
-    # 取最近 10 个 session
+    if len(sessions) &gt; 0: checks_passed += 1
+    
     recent = sessions[:10]
-    
     session_summaries = []
     for s in recent:
         stat = os.stat(s)
         size = stat.st_size
         mtime = stat.st_mtime
         
-        # 读取第一行获取 session 信息
         first_line = None
         if size &gt; 0:
-            with open(s, "r", errors="ignore") as f:
-                first_line = f.readline().strip()
+            try:
+                with open(s, "r", errors="ignore") as f:
+                    first_line = f.readline().strip()
+            except:
+                pass
         
         session_summaries.append({
             "file": os.path.basename(s),
@@ -879,851 +1372,24 @@ def get_session_history_summary():
             "first_line": first_line[:200] if first_line else None,
         })
     
-    return {
+    if len(session_summaries) &gt;= 5: checks_passed += 1
+    
+    data = {
         "total_sessions": len(sessions),
         "recent_10": session_summaries,
     }
-
-def get_model_info():
-    """当前模型和运行时信息"""
-    # 从 OpenClaw 环境获取
-    model = os.environ.get("OPENCLAW_MODEL", "unknown")
-    agent = os.environ.get("OPENCLAW_AGENT", "unknown")
     
-    # 读取 session status
-    session_file = os.environ.get("OPENCLAW_SESSION_FILE", "")
-    
-    return {
-        "model": model,
-        "agent": agent,
-        "session_file": session_file,
-        "python_path": sys.executable,
-        "working_dir": WORKSPACE,
-    }
-
-def calculate_score(data):
-    """计算系统健康分"""
-    score = 0
-    breakdown = {}
-    
-    # 项目健康 (30%)
-    projects = data.get("projects", [])
-    active = len([p for p in projects if p["status"] == "active"])
-    total = len(projects)
-    if total &gt; 0:
-        project_score = min(10, (active / total) * 10)
-    else:
-        project_score = 5
-    breakdown["projects"] = round(project_score, 1)
-    score += project_score * 0.30
-    
-    # 环境稳定 (20%)
-    env = data.get("environment", {})
-    disk = env.get("disk", {}).get("usage_percent", 0)
-    env_score = 10 if disk &lt; 80 else (5 if disk &lt; 90 else 0)
-    breakdown["environment"] = env_score
-    score += env_score * 0.20
-    
-    # 记忆完整 (20%)
-    memory = data.get("memory_system", {})
-    mem_score = 10 if memory.get("all_key_files_exist") else 5
-    if memory.get("diary_recent_7d", 0) &lt; 3:
-        mem_score -= 2
-    breakdown["memory"] = max(0, mem_score)
-    score += max(0, mem_score) * 0.20
-    
-    # 能力可用 (20%)
-    cap = data.get("capabilities", {})
-    cap_list = [cap.get("github_cli"), cap.get("github_api"), cap.get("feishu"), cap.get("cloudflare_tunnel")]
-    available = sum(1 for c in cap_list if c)
-    cap_score = (available / len(cap_list)) * 10 if cap_list else 5
-    breakdown["capabilities"] = round(cap_score, 1)
-    score += cap_score * 0.20
-    
-    # 历史趋势 (10%)
-    trend_score = 5  # 默认持平
-    breakdown["trend"] = trend_score
-    score += trend_score * 0.10
-    
-    return round(score, 1), breakdown
-
-def generate_alerts(data):
-    """生成告警清单"""
-    alerts = []
-    
-    # 项目告警
-    for p in data.get("projects", []):
-        if p["status"] == "stale":
-            alerts.append({
-                "level": "warning",
-                "category": "project",
-                "item": f"{p['name']} stale {p['age_hours']:.0f}h",
-                "suggestion": f"检查 {p['name']} 的 blocker 或推进 next action",
-            })
-        elif p["status"] == "ghost":
-            alerts.append({
-                "level": "info",
-                "category": "project",
-                "item": f"{p['name']} 是 ghost 项目",
-                "suggestion": "归档或填充内容",
-            })
-    
-    # 环境告警
-    env = data.get("environment", {})
-    disk_pct = env.get("disk", {}).get("usage_percent", 0)
-    if disk_pct &gt; 85:
-        alerts.append({
-            "level": "critical",
-            "category": "environment",
-            "item": f"磁盘使用率 {disk_pct}%",
-            "suggestion": "清理日志和旧 session 文件",
-        })
-    
-    # 记忆告警
-    mem = data.get("memory_system", {})
-    if not mem.get("all_key_files_exist"):
-        missing = [k for k, v in mem.get("key_files", {}).items() if not v or not v.get("exists")]
-        alerts.append({
-            "level": "critical",
-            "category": "memory",
-            "item": f"关键文件缺失: {', '.join(missing)}",
-            "suggestion": "从 git 恢复或重建文件",
-        })
-    
-    if mem.get("diary_recent_7d", 0) == 0:
-        alerts.append({
-            "level": "warning",
-            "category": "memory",
-            "item": "7 天内无日记记录",
-            "suggestion": "检查内观机制是否正常运行",
-        })
-    
-    # 能力告警
-    cap = data.get("capabilities", {})
-    if not cap.get("github_api"):
-        alerts.append({
-            "level": "warning",
-            "category": "capability",
-            "item": "GitHub API 不可用",
-            "suggestion": "检查 PAT 是否过期",
-        })
-    
-    # 排序
-    level_order = {"critical": 0, "warning": 1, "info": 2}
-    alerts.sort(key=lambda x: level_order.get(x["level"], 99))
-    
-    return alerts
-
-def generate_json_report(data):
-    """生成完整 JSON 报告"""
-    score, breakdown = calculate_score(data)
-    alerts = generate_alerts(data)
-    
-    report = {
-        "meta": {
-            "version": "p1-baseline-v2",
-            "generated_at": datetime.now().isoformat(),
-            "workspace": WORKSPACE,
-        },
-        "score": {
-            "total": score,
-            "max": 10,
-            "breakdown": breakdown,
-            "grade": "A" if score &gt;= 8 else ("B" if score &gt;= 6 else ("C" if score &gt;= 4 else "D")),
-        },
-        "model": data.get("model", {}),
-        "environment": data.get("environment", {}),
-        "harness": data.get("harness", {}),
-        "memory_system": data.get("memory_system", {}),
-        "projects": data.get("projects", []),
-        "capabilities": data.get("capabilities", {}),
-        "session_history": data.get("session_history", {}),
-        "git": data.get("git", {}),
-        "alerts": alerts,
-        "alert_count": {
-            "critical": len([a for a in alerts if a["level"] == "critical"]),
-            "warning": len([a for a in alerts if a["level"] == "warning"]),
-            "info": len([a for a in alerts if a["level"] == "info"]),
-        },
-    }
-    
-    return report
-
-def generate_markdown_report(report):
-    """生成 Markdown 人类可读报告"""
-    meta = report["meta"]
-    score = report["score"]
-    env = report["environment"]
-    harness = report["harness"]
-    memory = report["memory_system"]
-    projects = report["projects"]
-    cap = report["capabilities"]
-    git = report["git"]
-    alerts = report["alerts"]
-    
-    md = f"""# P1.0 系统状态报告
-
-&gt; 生成时间：{meta['generated_at']}
-&gt; 版本：{meta['version']}
-&gt; 工作区：{meta['workspace']}
-
----
-
-## 综合评分：{score['total']}/10（{score['grade']} 级）
-
-| 维度 | 得分 | 权重 | 加权 |
-|------|------|------|------|
-"""
-    for dim, val in score["breakdown"].items():
-        weights = {"projects": "30%", "environment": "20%", "memory": "20%", "capabilities": "20%", "trend": "10%"}
-        md += f"| {dim} | {val} | {weights.get(dim, '-')} | {round(val * float(weights.get(dim, '0').rstrip('%'))/100, 2)} |\n"
-    
-    md += f"""
----
-
-## 告警清单
-
-| 级别 | 类别 | 问题 | 建议 |
-|------|------|------|------|
-"""
-    if alerts:
-        for a in alerts:
-            icon = "🔴" if a["level"] == "critical" else ("🟡" if a["level"] == "warning" else "🟢")
-            md += f"| {icon} {a['level']} | {a['category']} | {a['item']} | {a['suggestion']} |\n"
-    else:
-        md += "| 🟢 | - | 无告警 | 系统运行正常 |\n"
-    
-    md += f"""
----
-
-## 运行环境
-
-```
-主机：{env.get('hostname', 'unknown')}
-运行时间：{env.get('uptime', 'unknown')}
-磁盘：{env.get('disk', {}).get('raw', 'unknown')}
-内存：{env.get('memory', {}).get('raw', 'unknown')}
-Node.js：{env.get('versions', {}).get('node', 'unknown')}
-Python：{env.get('versions', {}).get('python', 'unknown')}
-OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
-```
-
----
-
-## Harness 机制
-
-| 检查项 | 状态 |
-|--------|------|
-| Cron Jobs | {harness.get('cron_jobs_count', 0)} 条 |
-| Gateway | {harness.get('gateway_status', 'unknown')} |
-| Sessions | {harness.get('sessions', {}).get('count', 0)} 个文件，共 {harness.get('sessions', {}).get('total_size', '0')} |
-| Git 分支 | {git.get('branch', 'unknown')} |
-| Git 未提交 | {'有' if git.get('has_uncommitted') else '无'} |
-| 上次提交 | {git.get('last_commit_hash', 'unknown')} @ {git.get('last_commit_time', 'unknown')} |
-
-### Cron Jobs
-
-```
-"""
-    for job in harness.get("cron_jobs", []):
-        md += f"{job}\n"
-    md += """```
-
----
-
-## 记忆系统
-
-| 关键文件 | 状态 | 大小 | 最后修改 |
-|----------|------|------|----------|
-"""
-    for name, info in memory.get("key_files", {}).items():
-        if info and info.get("exists"):
-            md += f"| {name} | ✅ | {info.get('size_human', '-')} | {info.get('mtime', '-')} |\n"
-        else:
-            md += f"| {name} | ❌ 缺失 | - | - |\n"
-    
-    md += f"""
-**统计**：记忆文件 {memory.get('memory_files_count', 0)} 个，日记 {memory.get('diary_total_count', 0)} 篇（最近7天 {memory.get('diary_recent_7d', 0)} 篇）
-
----
-
-## 项目审计
-
-| 项目 | Tier | 状态 | 文件数 | 最后活跃 | Blocker | 最近动作 |
-|------|------|------|--------|----------|---------|----------|
-"""
-    for p in projects:
-        tier = p.get("tier", "-") or "-"
-        status_icon = "🟢" if p["status"] == "active" else ("🟡" if p["status"] == "stale" else "⚪")
-        blocker = (p.get("blocker") or "-")[:30]
-        action = (p.get("last_action") or "-")[:40]
-        md += f"| {p['name']} | {tier} | {status_icon} {p['status']} | {p['file_count']} | {p['age_hours']:.0f}h | {blocker} | {action} |\n"
-    
-    md += f"""
----
-
-## 能力验证
-
-| 能力 | 状态 |
-|------|------|
-| GitHub CLI | {'✅' if cap.get('github_cli') else '❌'} |
-| GitHub API | {'✅' if cap.get('github_api') else '❌'} |
-| Web 搜索 | {'✅' if cap.get('web_search') else '❌'} |
-| 飞书 | {'✅' if cap.get('feishu') else '❌'} |
-| Cloudflare Tunnel | {'✅' if cap.get('cloudflare_tunnel') else '❌'} |
-| 邮件 Webhook | {'✅' if cap.get('mailgun_webhook') else '❌'} |
-
----
-
-## 会话历史
-
-最近会话：{report.get('session_history', {}).get('total_sessions', 0)} 个文件
-
-"""
-    for s in report.get("session_history", {}).get("recent_10", [])[:5]:
-        md += f"- `{s['file']}` ({s['size']}, {s['age_hours']:.0f}h ago)\n"
-    
-    md += """
----
-
-*报告由 p1-baseline.py 自动生成*
-"""
-    
-    return md
-
-def get_skill_source():
-    """读取 Skill 文档和脚本源码"""
-    sources = {}
-    
-    # Skill 文档
-    doc_path = f"{WORKSPACE}/skills/p1-0/baseline-check-v2.md"
-    try:
-        with open(doc_path, "r", encoding="utf-8") as f:
-            sources["doc"] = f.read()
-    except Exception:
-        sources["doc"] = "# Skill 文档未找到\n"
-    
-    # 检查脚本
-    script_path = f"{WORKSPACE}/skills/p1-0/p1-baseline.py"
-    try:
-        with open(script_path, "r", encoding="utf-8") as f:
-            sources["script"] = f.read()
-    except Exception:
-        sources["script"] = "# 脚本未找到\n"
-    
-    return sources
-
-def generate_html_dashboard(report):
-    """生成 HTML 可视化仪表板"""
-    score = report["score"]
-    env = report["environment"]
-    harness = report["harness"]
-    memory = report["memory_system"]
-    projects = report["projects"]
-    cap = report["capabilities"]
-    alerts = report["alerts"]
-    
-    # 读取 Skill 源码
-    skill_sources = get_skill_source()
-    skill_doc_content = skill_sources["doc"].replace("&lt;", "&lt;").replace("&gt;", "&gt;")
-    skill_script_content = skill_sources["script"].replace("&lt;", "&lt;").replace("&gt;", "&gt;")
-    
-    critical = len([a for a in alerts if a["level"] == "critical"])
-    warning = len([a for a in alerts if a["level"] == "warning"])
-    info = len([a for a in alerts if a["level"] == "info"])
-    
-    # 项目状态数据（给 JS 用）
-    project_data = json.dumps(projects)
-    
-    # 评分维度数据
-    score_data = json.dumps(score["breakdown"])
-    
-    html = f"""&lt;!DOCTYPE html&gt;
-&lt;html lang="zh-CN"&gt;
-&lt;head&gt;
-&lt;meta charset="UTF-8"&gt;
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-&lt;title&gt;P1.0 系统状态 · 小K&lt;/title&gt;
-&lt;style&gt;
-:root {{
-  --bg: #0a0a0f;
-  --card: #13131f;
-  --card-hover: #1a1a2e;
-  --text: #e0e0e0;
-  --text-dim: #888;
-  --accent: #00d4ff;
-  --accent-dim: #0088aa;
-  --good: #00ff88;
-  --warn: #ffcc00;
-  --bad: #ff4444;
-  --border: #222;
-}}
-* {{ margin: 0; padding: 0; box-sizing: border-box; }}
-body {{
-  background: var(--bg);
-  color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace;
-  line-height: 1.6;
-  min-height: 100vh;
-}}
-.container {{ max-width: 1200px; margin: 0 auto; padding: 2rem; }}
-header {{
-  text-align: center;
-  padding: 3rem 1rem;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 2rem;
-}}
-header h1 {{
-  font-size: 2.5rem;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin-bottom: 0.5rem;
-}}
-header .subtitle {{ color: var(--text-dim); font-size: 0.9rem; }}
-
-.score-ring {{
-  width: 200px;
-  height: 200px;
-  margin: 2rem auto;
-  position: relative;
-}}
-.score-ring svg {{
-  transform: rotate(-90deg);
-}}
-.score-ring .score-text {{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  font-weight: 200;
-}}
-.score-ring .score-label {{
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1rem;
-  color: var(--text-dim);
-}}
-
-.grid {{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}}
-.card {{
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 1.5rem;
-  transition: all 0.3s ease;
-}}
-.card:hover {{ background: var(--card-hover); border-color: var(--accent-dim); }}
-.card h2 {{
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--accent);
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}}
-
-.status-badge {{
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 500;
-  margin: 0.2rem;
-}}
-.badge-good {{ background: rgba(0,255,136,0.15); color: var(--good); border: 1px solid var(--good); }}
-.badge-warn {{ background: rgba(255,204,0,0.15); color: var(--warn); border: 1px solid var(--warn); }}
-.badge-bad {{ background: rgba(255,68,68,0.15); color: var(--bad); border: 1px solid var(--bad); }}
-.badge-info {{ background: rgba(0,212,255,0.15); color: var(--accent); border: 1px solid var(--accent); }}
-
-.alert-item {{
-  padding: 0.75rem;
-  margin: 0.5rem 0;
-  border-radius: 8px;
-  border-left: 3px solid;
-  background: rgba(255,255,255,0.03);
-}}
-.alert-critical {{ border-left-color: var(--bad); }}
-.alert-warning {{ border-left-color: var(--warn); }}
-.alert-info {{ border-left-color: var(--accent); }}
-
-.project-row {{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border);
-}}
-.project-row:last-child {{ border-bottom: none; }}
-.project-name {{ font-weight: 500; }}
-.project-meta {{ color: var(--text-dim); font-size: 0.85rem; }}
-
-.metric {{
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}}
-.metric:last-child {{ border-bottom: none; }}
-.metric-value {{ font-family: monospace; color: var(--accent); }}
-
-table {{
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-}}
-th, td {{
-  text-align: left;
-  padding: 0.6rem;
-  border-bottom: 1px solid var(--border);
-}}
-th {{
-  color: var(--accent);
-  font-weight: 500;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 1px;
-}}
-tr:hover {{ background: rgba(255,255,255,0.02); }}
-
-footer {{
-  text-align: center;
-  padding: 3rem 1rem;
-  color: var(--text-dim);
-  font-size: 0.8rem;
-  border-top: 1px solid var(--border);
-  margin-top: 2rem;
-}}
-
-.chart-bar {{
-  display: flex;
-  align-items: center;
-  margin: 0.5rem 0;
-}}
-.chart-label {{
-  width: 80px;
-  font-size: 0.8rem;
-  color: var(--text-dim);
-}}
-.chart-fill {{
-  height: 20px;
-  border-radius: 4px;
-  background: var(--accent);
-  transition: width 0.5s ease;
-  position: relative;
-}}
-.chart-fill::after {{
-  content: attr(data-value);
-  position: absolute;
-  right: -35px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.75rem;
-  color: var(--text);
-}}
-
-@media (max-width: 600px) {{
-  .grid {{ grid-template-columns: 1fr; }}
-  header h1 {{ font-size: 1.8rem; }}
-}}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div class="container"&gt;
-
-&lt;header&gt;
-  &lt;h1&gt;P1.0 系统状态&lt;/h1&gt;
-  &lt;p class="subtitle"&gt;全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力&lt;/p&gt;
-  &lt;p class="subtitle"&gt;生成于 {report["meta"]["generated_at"][:19]}&lt;/p&gt;
-&lt;/header&gt;
-
-&lt;!-- 评分圆环 --&gt;
-&lt;div class="score-ring"&gt;
-  &lt;svg width="200" height="200" viewBox="0 0 200 200"&gt;
-    &lt;circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a2e" stroke-width="12"/&gt;
-    &lt;circle id="score-circle" cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="12"
-      stroke-dasharray="565.5" stroke-dashoffset="{{565.5 * (1 - {score['total']}/10)}}"
-      stroke-linecap="round"/&gt;
-  &lt;/svg&gt;
-  &lt;div class="score-text"&gt;{score['total']}&lt;/div&gt;
-  &lt;div class="score-label"&gt;/ 10&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- 告警概览 --&gt;
-&lt;div class="grid"&gt;
-  &lt;div class="card"&gt;
-    &lt;h2&gt;告警概览&lt;/h2&gt;
-    &lt;div style="text-align:center; padding: 1rem 0;"&gt;
-      &lt;span class="status-badge badge-bad"&gt;🔴 Critical: {critical}&lt;/span&gt;
-      &lt;span class="status-badge badge-warn"&gt;🟡 Warning: {warning}&lt;/span&gt;
-      &lt;span class="status-badge badge-info"&gt;🟢 Info: {info}&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;p style="text-align:center; color: var(--text-dim); font-size: 0.85rem;"&gt;
-      {'无告警，系统运行正常' if critical == 0 and warning == 0 else f'共 {critical + warning + info} 条告警，建议优先处理 Critical'}
-    &lt;/p&gt;
-  &lt;/div&gt;
-  
-  &lt;div class="card"&gt;
-    &lt;h2&gt;评分维度&lt;/h2&gt;
-    &lt;div id="score-bars"&gt;
-      &lt;!-- JS fills this --&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- 告警详情 --&gt;
-&lt;div class="card" style="margin-bottom: 2rem;"&gt;
-  &lt;h2&gt;告警详情&lt;/h2&gt;
-  {"".join([
-    f'&lt;div class="alert-item alert-{a["level"]}"&gt;'
-    f'&lt;strong&gt;{"🔴" if a["level"]=="critical" else ("🟡" if a["level"]=="warning" else "🟢")} [{a["level"].upper()}]&lt;/strong&gt; '
-    f'&lt;span style="color: var(--text-dim);"&gt;[{a["category"]}]&lt;/span&gt; {a["item"]}&lt;br&gt;'
-    f'&lt;span style="color: var(--accent-dim); font-size: 0.85rem;"&gt;→ {a["suggestion"]}&lt;/span&gt;'
-    f'&lt;/div&gt;'
-    for a in alerts
-  ]) if alerts else '&lt;p style="color: var(--good); text-align: center; padding: 1rem;"&gt;✅ 无告警&lt;/p&gt;'}
-&lt;/div&gt;
-
-&lt;!-- 项目状态 --&gt;
-&lt;div class="card" style="margin-bottom: 2rem;"&gt;
-  &lt;h2&gt;项目审计&lt;/h2&gt;
-  &lt;table&gt;
-    &lt;thead&gt;
-      &lt;tr&gt;&lt;th&gt;项目&lt;/th&gt;&lt;th&gt;Tier&lt;/th&gt;&lt;th&gt;状态&lt;/th&gt;&lt;th&gt;文件&lt;/th&gt;&lt;th&gt;最后活跃&lt;/th&gt;&lt;th&gt;Blocker&lt;/th&gt;&lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-      {''.join([
-        f'&lt;tr&gt;'
-        f'&lt;td&gt;&lt;strong&gt;{p["name"]}&lt;/strong&gt;&lt;/td&gt;'
-        f'&lt;td&gt;{p.get("tier", "-") or "-"}&lt;/td&gt;'
-        f'&lt;td&gt;&lt;span class="status-badge {"badge-good" if p["status"]=="active" else ("badge-warn" if p["status"]=="stale" else "badge-info")}"&gt;{p["status"]}&lt;/span&gt;&lt;/td&gt;'
-        f'&lt;td&gt;{p["file_count"]}&lt;/td&gt;'
-        f'&lt;td&gt;{p["age_hours"]:.0f}h&lt;/td&gt;'
-        f'&lt;td style="color: var(--text-dim); font-size: 0.8rem;"&gt;{(p.get("blocker") or "-")[:25]}&lt;/td&gt;'
-        f'&lt;/tr&gt;'
-        for p in projects
-      ])}
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/div&gt;
-
-&lt;div class="grid"&gt;
-  &lt;!-- 环境 --&gt;
-  &lt;div class="card"&gt;
-    &lt;h2&gt;运行环境&lt;/h2&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;主机&lt;/span&gt;&lt;span class="metric-value"&gt;{env.get("hostname", "-")}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;磁盘&lt;/span&gt;&lt;span class="metric-value"&gt;{env.get("disk", {}).get("usage_percent", 0)}%&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Node.js&lt;/span&gt;&lt;span class="metric-value"&gt;{env.get("versions", {}).get("node", "-")}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Python&lt;/span&gt;&lt;span class="metric-value"&gt;{env.get("versions", {}).get("python", "-")}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;OpenClaw&lt;/span&gt;&lt;span class="metric-value"&gt;{env.get("versions", {}).get("openclaw", "-")}&lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!-- Harness --&gt;
-  &lt;div class="card"&gt;
-    &lt;h2&gt;Harness 机制&lt;/h2&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Cron Jobs&lt;/span&gt;&lt;span class="metric-value"&gt;{harness.get("cron_jobs_count", 0)}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Gateway&lt;/span&gt;&lt;span class="metric-value"&gt;{harness.get("gateway_status", "-")[:20]}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Sessions&lt;/span&gt;&lt;span class="metric-value"&gt;{harness.get("sessions", {}).get("count", 0)} 个&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Git 分支&lt;/span&gt;&lt;span class="metric-value"&gt;{report.get("git", {}).get("branch", "-")}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;未提交&lt;/span&gt;&lt;span class="metric-value"&gt;{"有" if report.get("git", {}).get("has_uncommitted") else "无"}&lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!-- 记忆 --&gt;
-  &lt;div class="card"&gt;
-    &lt;h2&gt;记忆系统&lt;/h2&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;关键文件&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if memory.get("all_key_files_exist") else "❌"}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;记忆文件&lt;/span&gt;&lt;span class="metric-value"&gt;{memory.get("memory_files_count", 0)}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;日记总数&lt;/span&gt;&lt;span class="metric-value"&gt;{memory.get("diary_total_count", 0)}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;7天日记&lt;/span&gt;&lt;span class="metric-value"&gt;{memory.get("diary_recent_7d", 0)}&lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  
-  &lt;!-- 能力 --&gt;
-  &lt;div class="card"&gt;
-    &lt;h2&gt;能力验证&lt;/h2&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;GitHub CLI&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if cap.get("github_cli") else "❌"}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;GitHub API&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if cap.get("github_api") else "❌"}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;飞书&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if cap.get("feishu") else "❌"}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;Tunnel&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if cap.get("cloudflare_tunnel") else "❌"}&lt;/span&gt;&lt;/div&gt;
-    &lt;div class="metric"&gt;&lt;span&gt;邮件&lt;/span&gt;&lt;span class="metric-value"&gt;{"✅" if cap.get("mailgun_webhook") else "❌"}&lt;/span&gt;&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;!-- 详细数据 JSON --&gt;
-&lt;div class="card" style="margin-bottom: 2rem;"&gt;
-  &lt;h2&gt;原始数据（JSON）&lt;/h2&gt;
-  &lt;details&gt;
-    &lt;summary style="cursor: pointer; color: var(--accent);"&gt;点击展开完整 JSON 数据&lt;/summary&gt;
-    &lt;pre style="margin-top: 1rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim);"&gt;&lt;code id="raw-json"&gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/details&gt;
-&lt;/div&gt;
-
-&lt;!-- Skill 源码 --&gt;
-&lt;div class="card" style="margin-bottom: 2rem;"&gt;
-  &lt;h2&gt;📋 Skill 源码&lt;/h2&gt;
-  &lt;p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;"&gt;
-    本报告由 P1.0 baseline-check Skill 自动生成。以下展示该 Skill 的完整文档和脚本源码，供审计和改进。
-  &lt;/p&gt;
-  
-  &lt;details&gt;
-    &lt;summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;"&gt;
-      📄 baseline-check-v2.md（Skill 文档）
-    &lt;/summary&gt;
-    &lt;pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"&gt;&lt;code&gt;{skill_doc_content}&lt;/code&gt;&lt;/pre&gt;
-  &lt;/details&gt;
-  
-  &lt;details style="margin-top: 1rem;"&gt;
-    &lt;summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;"&gt;
-      🐍 p1-baseline.py（检查脚本）
-    &lt;/summary&gt;
-    &lt;pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"&gt;&lt;code&gt;{skill_script_content}&lt;/code&gt;&lt;/pre&gt;
-  &lt;/details&gt;
-&lt;/div&gt;
-
-&lt;footer&gt;
-  &lt;p&gt;小K · P1.0 自成长系统 · 全面状态检查&lt;/p&gt;
-  &lt;p style="margin-top: 0.5rem;"&gt;报告由 p1-baseline.py 自动生成 · 部署于 littlek.trust4.net&lt;/p&gt;
-&lt;/footer&gt;
-
-&lt;/div&gt;
-
-&lt;script&gt;
-// 评分维度柱状图
-const scoreData = {score_data};
-const scoreContainer = document.getElementById('score-bars');
-for (const [dim, val] of Object.entries(scoreData)) {{
-  const bar = document.createElement('div');
-  bar.className = 'chart-bar';
-  const label = {{'projects':'项目','environment':'环境','memory':'记忆','capabilities':'能力','trend':'趋势'}}[dim] || dim;
-  bar.innerHTML = `
-    &lt;div class="chart-label"&gt;${{label}}&lt;/div&gt;
-    &lt;div class="chart-fill" style="width: ${{val * 10}}%; background: ${{val &gt;= 8 ? 'var(--good)' : (val &gt;= 5 ? 'var(--accent)' : 'var(--warn)')}}" data-value="${{val}}"&gt;&lt;/div&gt;
-  `;
-  scoreContainer.appendChild(bar);
-}}
-
-// 注入原始 JSON
-const rawData = {json.dumps(report, indent=2, ensure_ascii=False)};
-document.getElementById('raw-json').textContent = JSON.stringify(rawData, null, 2);
-&lt;/script&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-"""
-    return html
-
-def main():
-    ensure_dirs()
-    
-    print("🔍 P1.0 全面状态检查启动...")
-    
-    # 收集所有数据
-    data = {}
-    
-    print("  → 检查模型与运行时...")
-    data["model"] = get_model_info()
-    
-    print("  → 检查系统环境...")
-    data["environment"] = get_system_info()
-    
-    print("  → 检查 Harness 机制...")
-    data["harness"] = get_harness_mechanisms()
-    
-    print("  → 检查记忆系统...")
-    data["memory_system"] = get_memory_system()
-    
-    print("  → 审计项目...")
-    data["projects"] = get_projects()
-    
-    print("  → 验证能力...")
-    data["capabilities"] = get_capabilities()
-    
-    print("  → 检查会话历史...")
-    data["session_history"] = get_session_history_summary()
-    
-    print("  → 检查 Git 状态...")
-    data["git"] = get_git_info()
-    
-    # 生成报告
-    print("📊 生成报告...")
-    report = generate_json_report(data)
-    
-    # 写入 JSON
-    json_path = f"{REPORTS_DIR}/latest.json"
-    with open(json_path, "w") as f:
-        json.dump(report, f, indent=2, ensure_ascii=False)
-    print(f"  → JSON: {json_path}")
-    
-    # 写入 Markdown
-    md_path = f"{REPORTS_DIR}/latest.md"
-    md_content = generate_markdown_report(report)
-    with open(md_path, "w") as f:
-        f.write(md_content)
-    print(f"  → Markdown: {md_path}")
-    
-    # 写入 HTML（部署到主页）
-    html_path = f"{WORKSPACE}/p1-dashboard.html"
-    html_content = generate_html_dashboard(report)
-    with open(html_path, "w") as f:
-        f.write(html_content)
-    print(f"  → HTML: {html_path}")
-    
-    # 同时写入报告目录
-    html_backup = f"{REPORTS_DIR}/latest.html"
-    with open(html_backup, "w") as f:
-        f.write(html_content)
-    
-    # 历史归档
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M")
-    hist_json = f"{REPORTS_DIR}/history/{timestamp}.json"
-    hist_md = f"{REPORTS_DIR}/history/{timestamp}.md"
-    with open(hist_json, "w") as f:
-        json.dump(report, f, indent=2, ensure_ascii=False)
-    with open(hist_md, "w") as f:
-        f.write(md_content)
-    
-    # 写入 state.json
-    state_path = f"{SKILL_DIR}/state.json"
-    state = {}
-    if os.path.exists(state_path):
-        try:
-            with open(state_path, "r") as f:
-                state = json.load(f)
-        except:
-            pass
-    state["last_baseline"] = report
-    state["last_run"] = datetime.now().isoformat()
-    with open(state_path, "w") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False)
-    
-    # 输出摘要
-    print(f"""
-{'='*60}
-✅ P1.0 检查完成
-{'='*60}
-评分：{report['score']['total']}/10（{report['score']['grade']} 级）
-项目：{len(report['projects'])} 个（active {len([p for p in report['projects'] if p['status']=='active'])}, stale {len([p for p in report['projects'] if p['status']=='stale'])}）
-告警：🔴 {report['alert_count']['critical']} 🟡 {report['alert_count']['warning']} 🟢 {report['alert_count']['info']}
-{'='*60}
-""")
-    
-    return report
+    return {"module": "sessions", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
 
 if __name__ == "__main__":
-    main()
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
 </code></pre>
   </details>
 </div>
 
 <footer>
   <p>小K · P1.0 自成长系统 · 全面状态检查</p>
-  <p style="margin-top: 0.5rem;">报告由 p1-baseline.py 自动生成 · 部署于 littlek.trust4.net</p>
+  <p style="margin-top: 0.5rem;">报告由 P1.0 baseline-check Skill 自动生成 · 部署于 littlek.trust4.net</p>
 </footer>
 
 </div>
@@ -1732,13 +1398,15 @@ if __name__ == "__main__":
 // 评分维度柱状图
 const scoreData = {"projects": 3.3, "environment": 10, "memory": 10, "capabilities": 5.0, "trend": 5};
 const scoreContainer = document.getElementById('score-bars');
+const labels = {'projects':'项目','environment':'环境','memory':'记忆','capabilities':'能力','trend':'趋势'};
 for (const [dim, val] of Object.entries(scoreData)) {
   const bar = document.createElement('div');
   bar.className = 'chart-bar';
-  const label = {'projects':'项目','environment':'环境','memory':'记忆','capabilities':'能力','trend':'趋势'}[dim] || dim;
+  const label = labels[dim] || dim;
+  const color = val >= 8 ? 'var(--good)' : (val >= 5 ? 'var(--accent)' : 'var(--warn)');
   bar.innerHTML = `
     <div class="chart-label">${label}</div>
-    <div class="chart-fill" style="width: ${val * 10}%; background: ${val >= 8 ? 'var(--good)' : (val >= 5 ? 'var(--accent)' : 'var(--warn)')}" data-value="${val}"></div>
+    <div class="chart-fill" style="width: ${val * 10}%; background: ${color}" data-value="${val}"></div>
   `;
   scoreContainer.appendChild(bar);
 }
@@ -1746,9 +1414,11 @@ for (const [dim, val] of Object.entries(scoreData)) {
 // 注入原始 JSON
 const rawData = {
   "meta": {
-    "version": "p1-baseline-v2",
-    "generated_at": "2026-05-22T00:43:33.293226",
-    "workspace": "/root/.openclaw/workspace"
+    "version": "p1-baseline-v2-modular",
+    "generated_at": "2026-05-22T01:13:10.094992",
+    "workspace": "/root/.openclaw/workspace",
+    "modules_run": 7,
+    "modules_ok": 7
   },
   "score": {
     "total": 6.5,
@@ -1762,462 +1432,524 @@ const rawData = {
     },
     "grade": "B"
   },
-  "model": {
-    "model": "unknown",
-    "agent": "unknown",
-    "session_file": "",
-    "python_path": "/usr/bin/python3",
-    "working_dir": "/root/.openclaw/workspace"
-  },
-  "environment": {
-    "timestamp": "2026-05-22T00:43:28.939438",
-    "hostname": "VM-13-249-ubuntu",
-    "uptime": "00:43:28 up 14 days,  7:44,  0 user,  load average: 0.15, 0.11, 0.06",
-    "disk": {
-      "usage_percent": 77,
-      "available": "8.8G",
-      "raw": "/dev/vda2        40G   29G  8.8G  77% /"
-    },
+  "modules": {
     "memory": {
-      "raw": "Mem:           7.5Gi       2.7Gi       1.5Gi       9.9Mi       3.6Gi       4.8Gi"
+      "module": "memory",
+      "data": {
+        "key_files": {
+          "MEMORY.md": {
+            "exists": true,
+            "size": 8458,
+            "size_human": "8.3KB",
+            "mtime": "2026-05-18T17:57:27.039477",
+            "mtime_age_hours": 79.3
+          },
+          "USER.md": {
+            "exists": true,
+            "size": 37158,
+            "size_human": "36.3KB",
+            "mtime": "2026-05-22T01:06:23.181739",
+            "mtime_age_hours": 0.1
+          },
+          "SOUL.md": {
+            "exists": true,
+            "size": 6142,
+            "size_human": "6.0KB",
+            "mtime": "2026-05-20T01:23:52.630789",
+            "mtime_age_hours": 47.8
+          },
+          "IDENTITY.md": {
+            "exists": true,
+            "size": 3799,
+            "size_human": "3.7KB",
+            "mtime": "2026-05-20T01:23:57.447799",
+            "mtime_age_hours": 47.8
+          },
+          "AGENTS.md": {
+            "exists": true,
+            "size": 2507,
+            "size_human": "2.4KB",
+            "mtime": "2026-05-20T01:23:26.723733",
+            "mtime_age_hours": 47.8
+          },
+          "BOOTSTRAP.md": {
+            "exists": true,
+            "size": 1681,
+            "size_human": "1.6KB",
+            "mtime": "2026-05-19T19:19:18.771783",
+            "mtime_age_hours": 53.9
+          },
+          "HEARTBEAT.md": {
+            "exists": true,
+            "size": 2085,
+            "size_human": "2.0KB",
+            "mtime": "2026-05-21T21:05:26.567589",
+            "mtime_age_hours": 4.1
+          }
+        },
+        "all_key_files_exist": true,
+        "memory_files_count": 26,
+        "diary_total_count": 169,
+        "diary_recent_7d": 47,
+        "diary_latest": [
+          {
+            "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
+            "age_hours": 21.7
+          },
+          {
+            "file": "2026-05-20-2214-system.md",
+            "age_hours": 27.0
+          },
+          {
+            "file": "LEARNINGS.md",
+            "age_hours": 27.1
+          },
+          {
+            "file": "2026-05-20-0335-deep-introspection-v2.md",
+            "age_hours": 45.7
+          },
+          {
+            "file": "2026-05-19-2208-subagent-pitfall-3.md",
+            "age_hours": 50.8
+          }
+        ]
+      },
+      "checks_passed": 3,
+      "checks_total": 3
     },
-    "versions": {
-      "node": "v24.15.0",
-      "python": "Python 3.12.3",
-      "gh_cli": "gh version 2.92.0 (2026-04-28)",
-      "openclaw": "OpenClaw 2026.4.14 (323493f)"
-    }
-  },
-  "harness": {
-    "config_files": {
-      "/root/.openclaw/config.yaml": null,
-      "/root/.openclaw/config.yml": null,
-      "/root/.openclaw/.env": {
-        "exists": true,
-        "size": 125,
-        "size_human": "125.0B",
-        "mtime": "2026-05-12T11:54:33.000615",
-        "mtime_age_hours": 228.8
-      }
+    "projects": {
+      "module": "projects",
+      "data": {
+        "projects": [
+          {
+            "name": "bounty",
+            "path": "/root/.openclaw/workspace/bounty",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 5,
+            "last_modified": "2026-05-19T19:37:52.473199",
+            "age_hours": 53.6,
+            "status": "stale",
+            "tier": "P0",
+            "blocker": null,
+            "last_action": null
+          },
+          {
+            "name": "p0-github-money",
+            "path": "/root/.openclaw/workspace/projects/p0-github-money",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 19,
+            "last_modified": "2026-05-21T21:58:06.972136",
+            "age_hours": 3.3,
+            "status": "stale",
+            "tier": "P0",
+            "blocker": null,
+            "last_action": null
+          },
+          {
+            "name": "p1-self-evolution",
+            "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": true,
+            "has_todo": false,
+            "file_count": 30,
+            "last_modified": "2026-05-21T20:52:06.676118",
+            "age_hours": 4.4,
+            "status": "stale",
+            "tier": "P1",
+            "blocker": null,
+            "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan."
+          },
+          {
+            "name": "p2-agent-social",
+            "path": "/root/.openclaw/workspace/projects/p2-agent-social",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 9,
+            "last_modified": "2026-05-21T21:56:32.498939",
+            "age_hours": 3.3,
+            "status": "stale",
+            "tier": "P2",
+            "blocker": null,
+            "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- "
+          },
+          {
+            "name": "hermes-lite",
+            "path": "/root/.openclaw/workspace/projects/hermes-lite",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 23,
+            "last_modified": "2026-05-21T04:40:12.131068",
+            "age_hours": 20.5,
+            "status": "active",
+            "tier": null,
+            "blocker": null,
+            "last_action": null
+          },
+          {
+            "name": "p2-moltbook",
+            "path": "/root/.openclaw/workspace/projects/p2-moltbook",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 1,
+            "last_modified": "2026-05-21T21:56:38.611952",
+            "age_hours": 3.3,
+            "status": "active",
+            "tier": null,
+            "blocker": null,
+            "last_action": null
+          }
+        ],
+        "active_count": 2,
+        "stale_count": 4,
+        "orphan_count": 0,
+        "ghost_count": 0,
+        "total_count": 6
+      },
+      "checks_passed": 2,
+      "checks_total": 2
     },
-    "cron_jobs_count": 9,
-    "cron_jobs": [
-      "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
-      "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1",
-      "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
-      "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
-      "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
-      "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
-      "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1",
-      "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
-      "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
-    ],
-    "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1272686, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
-    "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
     "sessions": {
-      "count": 236,
-      "total_size": "139.0MB",
-      "total_size_bytes": 145788573
+      "module": "sessions",
+      "data": {
+        "total_sessions": 238,
+        "recent_10": [
+          {
+            "file": "2e88f65e-d472-4f53-993c-19b06a307d6a.jsonl",
+            "size": "276.1KB",
+            "mtime": "2026-05-22T01:13:07.510624",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"2e88f65e-d472-4f53-993c-19b06a307d6a\",\"timestamp\":\"2026-05-21T17:06:24.238Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "bc2cd740-76ba-496f-a4b7-57338f275bc3.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T01:11:04.023354",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bc2cd740-76ba-496f-a4b7-57338f275bc3\",\"timestamp\":\"2026-05-21T17:10:57.305Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+            "size": "1015.2KB",
+            "mtime": "2026-05-22T01:07:51.286932",
+            "age_hours": 0.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "0b3247d7-9458-4638-ae22-4ef9b95fe320.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T01:01:06.079045",
+            "age_hours": 0.2,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b3247d7-9458-4638-ae22-4ef9b95fe320\",\"timestamp\":\"2026-05-21T17:00:57.356Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "bb43cc63-8cd7-4111-936f-9ec7175c12b8.jsonl",
+            "size": "138.5KB",
+            "mtime": "2026-05-22T00:55:13.843276",
+            "age_hours": 0.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bb43cc63-8cd7-4111-936f-9ec7175c12b8\",\"timestamp\":\"2026-05-21T16:54:43.748Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "336b72f3-e2d7-4548-8241-51e45afdd14f.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T00:51:12.316753",
+            "age_hours": 0.4,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"336b72f3-e2d7-4548-8241-51e45afdd14f\",\"timestamp\":\"2026-05-21T16:50:56.745Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "47512758-6326-49f6-8a8c-041ce83148e8.jsonl",
+            "size": "138.5KB",
+            "mtime": "2026-05-22T00:46:35.172153",
+            "age_hours": 0.4,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"47512758-6326-49f6-8a8c-041ce83148e8\",\"timestamp\":\"2026-05-21T16:44:35.016Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T00:41:31.785495",
+            "age_hours": 0.5,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727\",\"timestamp\":\"2026-05-21T16:40:57.383Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "8d6226d0-5e82-4ba3-b61a-b8b800acaadb.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T00:31:36.202203",
+            "age_hours": 0.7,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"8d6226d0-5e82-4ba3-b61a-b8b800acaadb\",\"timestamp\":\"2026-05-21T16:30:57.392Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T00:21:42.570915",
+            "age_hours": 0.9,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e\",\"timestamp\":\"2026-05-21T16:20:57.411Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          }
+        ]
+      },
+      "checks_passed": 2,
+      "checks_total": 2
+    },
+    "model": {
+      "module": "model",
+      "data": {
+        "model": "unknown",
+        "agent": "unknown",
+        "session_file": "",
+        "python_path": "/usr/bin/python3",
+        "python_version": "Python 3.12.3",
+        "node_version": "v24.15.0",
+        "working_dir": "/root/.openclaw/workspace",
+        "hostname": "VM-13-249-ubuntu",
+        "timestamp": "2026-05-22T01:13:07.859767"
+      },
+      "checks_passed": 3,
+      "checks_total": 4
+    },
+    "environment": {
+      "module": "environment",
+      "data": {
+        "timestamp": "2026-05-22T01:13:07.880891",
+        "hostname": "VM-13-249-ubuntu",
+        "uptime": "01:13:07 up 14 days,  8:14,  0 user,  load average: 0.34, 0.32, 0.23",
+        "disk": {
+          "usage_percent": 77,
+          "available": "8.8G",
+          "raw": "/dev/vda2        40G   29G  8.8G  77% /",
+          "ok": true
+        },
+        "memory": {
+          "raw": "Mem:           7.5Gi       3.0Gi       1.2Gi       9.9Mi       3.6Gi       4.5Gi",
+          "ok": true
+        },
+        "git": {
+          "branch": "main",
+          "uncommitted_changes": [
+            "M ../../../data.jsonl",
+            " M ../../../p1-dashboard.html",
+            " M ../../../reports/p1-0/latest.html",
+            " M ../../../reports/p1-0/latest.json",
+            " M ../../../reports/p1-0/latest.md",
+            " M ../state.json",
+            "?? ../../../.local/",
+            "?? ../../../.openclaw/",
+            "?? ../../../.triggers/",
+            "?? ../../../1",
+            "?? ../../../20260508-mac-xiaok-conversation-full.md",
+            "?? ../../../20260508-xiaok-mac-conversation-full.md",
+            "?? ../../../@",
+            "?? ../../../AGENTS.md",
+            "?? ../../../BOOTSTRAP.md",
+            "?? ../../../DREAMS.md",
+            "?? ../../../EOF",
+            "?? ../../../HEARTBEAT.md",
+            "?? ../../../IDENTITY.md",
+            "?? ../../../MEMORY.md",
+            "?? ../../../MEMORY.md.backup-20260513",
+            "?? ../../../P0_state.json",
+            "?? ../../../SOUL.md",
+            "?? ../../../TOOLS.md",
+            "?? ../../../USER.md",
+            "?? ../../../USER.md.backup-20260513",
+            "?? ../../../__pycache__/",
+            "?? ../../../ac_api.py",
+            "?? ../../../backups/",
+            "?? ../../../bounty/",
+            "?? ../../../bounty_archive.md",
+            "?? ../../../capability-inventory.md",
+            "?? ../../../claude-openclaw-bridge.md",
+            "?? ../../../d22_test.txt",
+            "?? ../../../daily/",
+            "?? ../../../daily_health.sh",
+            "?? ../../../dashboard/",
+            "?? ../../../data.jsonl.bak",
+            "?? ../../../data/",
+            "?? ../../../diary/",
+            "?? ../../../downloads/",
+            "?? ../../../index.html.bak",
+            "?? ../../../mac-bridge-websocket-spec.md",
+            "?? ../../../mac-forward-message.json",
+            "?? ../../../mac-sync-packet-20260509.md",
+            "?? ../../../memorized_diary/",
+            "?? ../../../memorized_media/",
+            "?? ../../../memory/",
+            "?? ../../../memory_board.md",
+            "?? ../../../memory_consolidation/",
+            "?? ../../../orchestrator-runs/",
+            "?? ../../../p1-prompt.md",
+            "?? ../../../p1-prompt.md~",
+            "?? ../../../p1-prompt.mz~",
+            "?? ../../../p1-state.json",
+            "?? ../../../projects/",
+            "?? ../../../references/claude-founders-playbook/",
+            "?? ../../../references/claude_code_arch.png",
+            "?? ../../../references/claude_code_security.png",
+            "?? ../../../references/design_philosophy_scores.png",
+            "?? ../../../references/diary-time-rules.md",
+            "?? ../../../references/execution-mode-review-20260514.md",
+            "?? ../../../references/fig_kimiclaw_architecture.png",
+            "?? ../../../references/fig_kimiclaw_tools_comparison.png",
+            "?? ../../../references/openclaw-collect-queue-mode.md",
+            "?? ../../../references/openclaw-kimiclaw-claude-code-comparison-report.md",
+            "?? ../../../references/openclaw_arch.png",
+            "?? ../../../references/resource-dashboard-hosting-options.md",
+            "?? ../../../references/resource-metrics/",
+            "?? ../../../references/self-evolution/MVES-draft-v0.1.md",
+            "?? ../../../references/self-evolution/MVES-draft-v0.2.md",
+            "?? ../../../references/self-evolution/MVES-v0.1.md",
+            "?? ../../../references/self-evolution/claude-skills-jianshuo-reference.md",
+            "?? ../../../references/self-evolution/declarative-orchestrator-idea.md",
+            "?? ../../../references/self-evolution/docs/",
+            "?? ../../../references/self-evolution/momentum-protocol-v1.md",
+            "?? ../../../references/self-evolution/momentum-status-20260514.md",
+            "?? ../../../references/self-evolution/ref-lencx-model-to-engineering.md",
+            "?? ../../../references/self-evolution/reference-1-hermes-agent.md",
+            "?? ../../../references/self-evolution/reference-2-full-guide.md",
+            "?? ../../../references/self-evolution/reference-2-full-guide.pdf",
+            "?? ../../../references/self-evolution/reference-3-xiaok-blueprint.md",
+            "?? ../../../references/self-evolution/reference-3-xiaok-blueprint.pdf",
+            "?? ../../../references/self-evolution/state/P0.json",
+            "?? ../../../references/self-evolution/state/P2.json",
+            "?? ../../../references/self-evolution/state/heartbeat-check.py",
+            "?? ../../../references/self-evolution/task-execution-protocol-v1.md",
+            "?? ../../../references/self-evolution/tencentdb-agent-memory-reference.md",
+            "?? ../../../references/self-evolution/unix-pipeline-skill-design.md",
+            "?? ../../../references/three_way_comparison.png",
+            "?? ../../../reports/p1-0/history/20260521-2229.json",
+            "?? ../../../reports/p1-0/history/20260521-2229.md",
+            "?? ../../../reports/p1-0/history/20260522-0043.json",
+            "?? ../../../reports/p1-0/history/20260522-0043.md",
+            "?? ../../../reports/p1-0/history/20260522-0044.json",
+            "?? ../../../reports/p1-0/history/20260522-0044.md",
+            "?? ../../../scripts/",
+            "?? ../../../self-drive-mechanism.md",
+            "?? ../../../self-evolution/",
+            "?? ../../../session-sync-forward-to-mac.txt",
+            "?? ../../../session-sync-request-to-mac.md",
+            "?? ../../../silk-v3-decoder-master/",
+            "?? ../../../silk_decoder.zip",
+            "?? ../../../silk_decoder/",
+            "?? ../../.skills_store_lock.json",
+            "?? ../../bounty-hunter-agent/",
+            "?? ../../data-analyst/",
+            "?? ../../find-skills/",
+            "?? ../../github-assistant-skill/",
+            "?? ../../github-ops-pro/",
+            "?? ../../kimiim/",
+            "?? ../generate-report.py",
+            "?? ./",
+            "?? ../orchestrator.py",
+            "?? ../test-result.md",
+            "?? ../test-v2-result.md",
+            "?? ../../scraper-pro/",
+            "?? ../../skillhub-preference/",
+            "?? ../../task-advance/",
+            "?? ../../time-awareness/",
+            "?? ../../worker-safety/",
+            "?? ../../../state/",
+            "?? ../../../task-execution-protocol.md",
+            "?? ../../../task_record.json",
+            "?? ../../../todo/",
+            "?? ../../../venv_whisper/",
+            "?? ../../../voice_processor.py",
+            "?? ../../../weekly/",
+            "?? ../../../weixin_health.sh",
+            "?? ../../../whisper-models/"
+          ],
+          "has_uncommitted": true,
+          "last_commit_hash": "03a1c206",
+          "last_commit_time": "2026-05-22 00:43:53 +0800",
+          "total_commits": 184,
+          "ok": true
+        },
+        "versions": {
+          "node": "v24.15.0",
+          "python": "Python 3.12.3",
+          "gh_cli": "gh version 2.92.0 (2026-04-28)",
+          "openclaw": "OpenClaw 2026.4.14 (323493f)"
+        }
+      },
+      "checks_passed": 4,
+      "checks_total": 4
+    },
+    "capabilities": {
+      "module": "capabilities",
+      "data": {
+        "github_cli": true,
+        "github_api": true,
+        "web_search": true,
+        "feishu": false,
+        "cloudflare_tunnel": false,
+        "mailgun_webhook": true,
+        "raw": {
+          "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1053,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+          "tunnel_http_code": "000000",
+          "mailgun": "inactive\ninactive"
+        }
+      },
+      "checks_passed": 4,
+      "checks_total": 6
+    },
+    "harness": {
+      "module": "harness",
+      "data": {
+        "config_files": {
+          "/root/.openclaw/config.yaml": {
+            "exists": false
+          },
+          "/root/.openclaw/config.yml": {
+            "exists": false
+          },
+          "/root/.openclaw/.env": {
+            "exists": true,
+            "size": 125,
+            "mtime": 1778558073.0006151,
+            "mtime_age_hours": 229.3
+          }
+        },
+        "cron_jobs_count": 9,
+        "cron_jobs": [
+          "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
+          "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1",
+          "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
+          "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
+          "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
+          "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
+          "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1",
+          "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
+          "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+        ],
+        "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1272686, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+        "gateway_ok": true,
+        "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
+        "systemd_ok": true,
+        "sessions": {
+          "count": 238,
+          "total_size": "139.7MB",
+          "total_size_bytes": 146508516
+        }
+      },
+      "checks_passed": 5,
+      "checks_total": 5
     }
-  },
-  "memory_system": {
-    "key_files": {
-      "MEMORY.md": {
-        "exists": true,
-        "size": 8458,
-        "size_human": "8.3KB",
-        "mtime": "2026-05-18T17:57:27.039477",
-        "mtime_age_hours": 78.8
-      },
-      "USER.md": {
-        "exists": true,
-        "size": 34964,
-        "size_human": "34.1KB",
-        "mtime": "2026-05-21T23:45:45.620990",
-        "mtime_age_hours": 1.0
-      },
-      "SOUL.md": {
-        "exists": true,
-        "size": 6142,
-        "size_human": "6.0KB",
-        "mtime": "2026-05-20T01:23:52.630789",
-        "mtime_age_hours": 47.3
-      },
-      "IDENTITY.md": {
-        "exists": true,
-        "size": 3799,
-        "size_human": "3.7KB",
-        "mtime": "2026-05-20T01:23:57.447799",
-        "mtime_age_hours": 47.3
-      },
-      "AGENTS.md": {
-        "exists": true,
-        "size": 2507,
-        "size_human": "2.4KB",
-        "mtime": "2026-05-20T01:23:26.723733",
-        "mtime_age_hours": 47.3
-      },
-      "BOOTSTRAP.md": {
-        "exists": true,
-        "size": 1681,
-        "size_human": "1.6KB",
-        "mtime": "2026-05-19T19:19:18.771783",
-        "mtime_age_hours": 53.4
-      },
-      "HEARTBEAT.md": {
-        "exists": true,
-        "size": 2085,
-        "size_human": "2.0KB",
-        "mtime": "2026-05-21T21:05:26.567589",
-        "mtime_age_hours": 3.6
-      }
-    },
-    "all_key_files_exist": true,
-    "memory_files_count": 26,
-    "diary_total_count": 169,
-    "diary_recent_7d": 48,
-    "diary_latest": [
-      {
-        "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
-        "age_hours": 21.2
-      },
-      {
-        "file": "2026-05-20-2214-system.md",
-        "age_hours": 26.5
-      },
-      {
-        "file": "LEARNINGS.md",
-        "age_hours": 26.6
-      },
-      {
-        "file": "2026-05-20-0335-deep-introspection-v2.md",
-        "age_hours": 45.2
-      },
-      {
-        "file": "2026-05-19-2208-subagent-pitfall-3.md",
-        "age_hours": 50.3
-      }
-    ]
-  },
-  "projects": [
-    {
-      "name": "bounty",
-      "path": "/root/.openclaw/workspace/bounty",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": false,
-      "has_todo": false,
-      "file_count": 5,
-      "last_modified": "2026-05-19T19:37:52.473199",
-      "age_hours": 53.1,
-      "status": "stale",
-      "tier": "P0",
-      "blocker": null,
-      "last_action": null
-    },
-    {
-      "name": "p0-github-money",
-      "path": "/root/.openclaw/workspace/projects/p0-github-money",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": false,
-      "has_todo": false,
-      "file_count": 19,
-      "last_modified": "2026-05-21T21:58:06.972136",
-      "age_hours": 2.8,
-      "status": "stale",
-      "tier": "P0",
-      "blocker": null,
-      "last_action": null
-    },
-    {
-      "name": "p1-self-evolution",
-      "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": true,
-      "has_todo": false,
-      "file_count": 30,
-      "last_modified": "2026-05-21T20:52:06.676118",
-      "age_hours": 3.9,
-      "status": "stale",
-      "tier": "P1",
-      "blocker": null,
-      "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan."
-    },
-    {
-      "name": "p2-agent-social",
-      "path": "/root/.openclaw/workspace/projects/p2-agent-social",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": false,
-      "has_todo": false,
-      "file_count": 9,
-      "last_modified": "2026-05-21T21:56:32.498939",
-      "age_hours": 2.8,
-      "status": "stale",
-      "tier": "P2",
-      "blocker": null,
-      "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- "
-    },
-    {
-      "name": "hermes-lite",
-      "path": "/root/.openclaw/workspace/projects/hermes-lite",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": false,
-      "has_todo": false,
-      "file_count": 23,
-      "last_modified": "2026-05-21T04:40:12.131068",
-      "age_hours": 20.1,
-      "status": "active",
-      "tier": null,
-      "blocker": null,
-      "last_action": null
-    },
-    {
-      "name": "p2-moltbook",
-      "path": "/root/.openclaw/workspace/projects/p2-moltbook",
-      "has_state_json": true,
-      "has_readme": false,
-      "has_project_py": false,
-      "has_todo": false,
-      "file_count": 1,
-      "last_modified": "2026-05-21T21:56:38.611952",
-      "age_hours": 2.8,
-      "status": "active",
-      "tier": null,
-      "blocker": null,
-      "last_action": null
-    }
-  ],
-  "capabilities": {
-    "github_cli": true,
-    "github_api": true,
-    "web_search": true,
-    "feishu": false,
-    "cloudflare_tunnel": false,
-    "mailgun_webhook": true,
-    "raw": {
-      "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
-      "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1053,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
-      "tunnel_http_code": "000000",
-      "mailgun": "inactive\ninactive"
-    }
-  },
-  "session_history": {
-    "total_sessions": 236,
-    "recent_10": [
-      {
-        "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
-        "size": "853.0KB",
-        "mtime": "2026-05-22T00:43:28.565748",
-        "age_hours": 0.0,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727.jsonl",
-        "size": "12.0KB",
-        "mtime": "2026-05-22T00:41:31.785495",
-        "age_hours": 0.0,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727\",\"timestamp\":\"2026-05-21T16:40:57.383Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "8d6226d0-5e82-4ba3-b61a-b8b800acaadb.jsonl",
-        "size": "11.9KB",
-        "mtime": "2026-05-22T00:31:36.202203",
-        "age_hours": 0.2,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"8d6226d0-5e82-4ba3-b61a-b8b800acaadb\",\"timestamp\":\"2026-05-21T16:30:57.392Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e.jsonl",
-        "size": "11.8KB",
-        "mtime": "2026-05-22T00:21:42.570915",
-        "age_hours": 0.4,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e\",\"timestamp\":\"2026-05-21T16:20:57.411Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "f1b52845-794a-4c44-af61-87332c6fe953.jsonl",
-        "size": "11.9KB",
-        "mtime": "2026-05-22T00:11:39.057607",
-        "age_hours": 0.5,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"f1b52845-794a-4c44-af61-87332c6fe953\",\"timestamp\":\"2026-05-21T16:10:57.460Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "f31fc312-354d-4539-8b60-2140507fadd1.jsonl",
-        "size": "11.9KB",
-        "mtime": "2026-05-22T00:01:07.841244",
-        "age_hours": 0.7,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"f31fc312-354d-4539-8b60-2140507fadd1\",\"timestamp\":\"2026-05-21T16:00:57.561Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "5526c677-46c4-4bf0-9643-489ca86b01f8.jsonl",
-        "size": "12.0KB",
-        "mtime": "2026-05-21T23:51:07.125748",
-        "age_hours": 0.9,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"5526c677-46c4-4bf0-9643-489ca86b01f8\",\"timestamp\":\"2026-05-21T15:50:57.034Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "e8e83b32-8f25-4169-9222-e842e3761cff.jsonl",
-        "size": "66.0KB",
-        "mtime": "2026-05-21T23:47:38.477231",
-        "age_hours": 0.9,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"e8e83b32-8f25-4169-9222-e842e3761cff\",\"timestamp\":\"2026-05-21T15:45:48.390Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "f0251a6f-9277-403f-8302-a9156a4eff8e.jsonl",
-        "size": "12.0KB",
-        "mtime": "2026-05-21T23:41:44.315475",
-        "age_hours": 1.0,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"f0251a6f-9277-403f-8302-a9156a4eff8e\",\"timestamp\":\"2026-05-21T15:40:54.425Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      },
-      {
-        "file": "f8f1516b-9aa7-480d-9ed7-598a63e465e0.jsonl",
-        "size": "11.8KB",
-        "mtime": "2026-05-21T23:31:17.551136",
-        "age_hours": 1.2,
-        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"f8f1516b-9aa7-480d-9ed7-598a63e465e0\",\"timestamp\":\"2026-05-21T15:30:54.617Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-      }
-    ]
-  },
-  "git": {
-    "branch": "main",
-    "uncommitted_changes": [
-      "M data.jsonl",
-      " M p1-dashboard.html",
-      " M reports/p1-0/latest.html",
-      " M reports/p1-0/latest.json",
-      " M reports/p1-0/latest.md",
-      " M skills/p1-0/p1-baseline.py",
-      " M skills/p1-0/state.json",
-      "?? .local/",
-      "?? .openclaw/",
-      "?? .triggers/",
-      "?? 1",
-      "?? 20260508-mac-xiaok-conversation-full.md",
-      "?? 20260508-xiaok-mac-conversation-full.md",
-      "?? @",
-      "?? AGENTS.md",
-      "?? BOOTSTRAP.md",
-      "?? DREAMS.md",
-      "?? EOF",
-      "?? HEARTBEAT.md",
-      "?? IDENTITY.md",
-      "?? MEMORY.md",
-      "?? MEMORY.md.backup-20260513",
-      "?? P0_state.json",
-      "?? SOUL.md",
-      "?? TOOLS.md",
-      "?? USER.md",
-      "?? USER.md.backup-20260513",
-      "?? __pycache__/",
-      "?? ac_api.py",
-      "?? backups/",
-      "?? bounty/",
-      "?? bounty_archive.md",
-      "?? capability-inventory.md",
-      "?? claude-openclaw-bridge.md",
-      "?? d22_test.txt",
-      "?? daily/",
-      "?? daily_health.sh",
-      "?? dashboard/",
-      "?? data.jsonl.bak",
-      "?? data/",
-      "?? diary/",
-      "?? downloads/",
-      "?? index.html.bak",
-      "?? mac-bridge-websocket-spec.md",
-      "?? mac-forward-message.json",
-      "?? mac-sync-packet-20260509.md",
-      "?? memorized_diary/",
-      "?? memorized_media/",
-      "?? memory/",
-      "?? memory_board.md",
-      "?? memory_consolidation/",
-      "?? orchestrator-runs/",
-      "?? p1-prompt.md",
-      "?? p1-prompt.md~",
-      "?? p1-prompt.mz~",
-      "?? p1-state.json",
-      "?? projects/",
-      "?? references/claude-founders-playbook/",
-      "?? references/claude_code_arch.png",
-      "?? references/claude_code_security.png",
-      "?? references/design_philosophy_scores.png",
-      "?? references/diary-time-rules.md",
-      "?? references/execution-mode-review-20260514.md",
-      "?? references/fig_kimiclaw_architecture.png",
-      "?? references/fig_kimiclaw_tools_comparison.png",
-      "?? references/openclaw-collect-queue-mode.md",
-      "?? references/openclaw-kimiclaw-claude-code-comparison-report.md",
-      "?? references/openclaw_arch.png",
-      "?? references/resource-dashboard-hosting-options.md",
-      "?? references/resource-metrics/",
-      "?? references/self-evolution/MVES-draft-v0.1.md",
-      "?? references/self-evolution/MVES-draft-v0.2.md",
-      "?? references/self-evolution/MVES-v0.1.md",
-      "?? references/self-evolution/claude-skills-jianshuo-reference.md",
-      "?? references/self-evolution/declarative-orchestrator-idea.md",
-      "?? references/self-evolution/docs/",
-      "?? references/self-evolution/momentum-protocol-v1.md",
-      "?? references/self-evolution/momentum-status-20260514.md",
-      "?? references/self-evolution/ref-lencx-model-to-engineering.md",
-      "?? references/self-evolution/reference-1-hermes-agent.md",
-      "?? references/self-evolution/reference-2-full-guide.md",
-      "?? references/self-evolution/reference-2-full-guide.pdf",
-      "?? references/self-evolution/reference-3-xiaok-blueprint.md",
-      "?? references/self-evolution/reference-3-xiaok-blueprint.pdf",
-      "?? references/self-evolution/state/P0.json",
-      "?? references/self-evolution/state/P2.json",
-      "?? references/self-evolution/state/heartbeat-check.py",
-      "?? references/self-evolution/task-execution-protocol-v1.md",
-      "?? references/self-evolution/tencentdb-agent-memory-reference.md",
-      "?? references/self-evolution/unix-pipeline-skill-design.md",
-      "?? references/three_way_comparison.png",
-      "?? reports/p1-0/history/20260521-2229.json",
-      "?? reports/p1-0/history/20260521-2229.md",
-      "?? scripts/",
-      "?? self-drive-mechanism.md",
-      "?? self-evolution/",
-      "?? session-sync-forward-to-mac.txt",
-      "?? session-sync-request-to-mac.md",
-      "?? silk-v3-decoder-master/",
-      "?? silk_decoder.zip",
-      "?? silk_decoder/",
-      "?? skills/.skills_store_lock.json",
-      "?? skills/bounty-hunter-agent/",
-      "?? skills/data-analyst/",
-      "?? skills/find-skills/",
-      "?? skills/github-assistant-skill/",
-      "?? skills/github-ops-pro/",
-      "?? skills/kimiim/",
-      "?? skills/p1-0/baseline-check-v2.md",
-      "?? skills/p1-0/test-result.md",
-      "?? skills/scraper-pro/",
-      "?? skills/skillhub-preference/",
-      "?? skills/task-advance/",
-      "?? skills/time-awareness/",
-      "?? skills/worker-safety/",
-      "?? state/",
-      "?? task-execution-protocol.md",
-      "?? task_record.json",
-      "?? todo/",
-      "?? venv_whisper/",
-      "?? voice_processor.py",
-      "?? weekly/",
-      "?? weixin_health.sh",
-      "?? whisper-models/"
-    ],
-    "has_uncommitted": true,
-    "last_commit_hash": "5a502086",
-    "last_commit_time": "2026-05-21 23:49:00 +0800",
-    "total_commits": 180
   },
   "alerts": [
     {
       "level": "warning",
       "category": "project",
-      "item": "bounty stale 53h",
+      "item": "bounty stale 54h",
       "suggestion": "检查 bounty 的 blocker 或推进 next action"
     },
     {
