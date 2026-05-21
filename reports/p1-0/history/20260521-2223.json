@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "version": "p1-baseline-v1",
+    "generated_at": "2026-05-21T22:23:39.787453",
+    "workspace": "/root/.openclaw/workspace"
+  },
+  "score": {
+    "total": 5.5,
+    "max": 10,
+    "breakdown": {
+      "projects": 0.0,
+      "environment": 10,
+      "memory": 10,
+      "capabilities": 5.0,
+      "trend": 5
+    },
+    "grade": "C"
+  },
+  "model": {
+    "model": "unknown",
+    "agent": "unknown",
+    "session_file": "",
+    "python_path": "/usr/bin/python3",
+    "working_dir": "/root/.openclaw/workspace"
+  },
+  "environment": {
+    "timestamp": "2026-05-21T22:23:35.825542",
+    "hostname": "VM-13-249-ubuntu",
+    "uptime": "22:23:35 up 14 days,  5:24,  0 user,  load average: 0.25, 0.26, 0.33",
+    "disk": {
+      "usage_percent": 77,
+      "available": "8.9G",
+      "raw": "/dev/vda2        40G   29G  8.9G  77% /"
+    },
+    "memory": {
+      "raw": "Mem:           7.5Gi       2.2Gi       2.2Gi       9.9Mi       3.5Gi       5.3Gi"
+    },
+    "versions": {
+      "node": "v24.15.0",
+      "python": "Python 3.12.3",
+      "gh_cli": "gh version 2.92.0 (2026-04-28)",
+      "openclaw": "OpenClaw 2026.4.14 (323493f)"
+    }
+  },
+  "harness": {
+    "config_files": {
+      "/root/.openclaw/config.yaml": null,
+      "/root/.openclaw/config.yml": null,
+      "/root/.openclaw/.env": {
+        "exists": true,
+        "size": 125,
+        "size_human": "125.0B",
+        "mtime": "2026-05-12T11:54:33.000615",
+        "mtime_age_hours": 226.5
+      }
+    },
+    "cron_jobs_count": 9,
+    "cron_jobs": [
+      "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
+      "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1",
+      "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
+      "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
+      "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
+      "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
+      "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1",
+      "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
+      "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+    ],
+    "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1272686, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+    "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
+    "sessions": {
+      "count": 232,
+      "total_size": "138.2MB",
+      "total_size_bytes": 144934565
+    }
+  },
+  "memory_system": {
+    "key_files": {
+      "MEMORY.md": {
+        "exists": true,
+        "size": 8458,
+        "size_human": "8.3KB",
+        "mtime": "2026-05-18T17:57:27.039477",
+        "mtime_age_hours": 76.4
+      },
+      "USER.md": {
+        "exists": true,
+        "size": 33009,
+        "size_human": "32.2KB",
+        "mtime": "2026-05-21T21:55:02.862700",
+        "mtime_age_hours": 0.5
+      },
+      "SOUL.md": {
+        "exists": true,
+        "size": 6142,
+        "size_human": "6.0KB",
+        "mtime": "2026-05-20T01:23:52.630789",
+        "mtime_age_hours": 45.0
+      },
+      "IDENTITY.md": {
+        "exists": true,
+        "size": 3799,
+        "size_human": "3.7KB",
+        "mtime": "2026-05-20T01:23:57.447799",
+        "mtime_age_hours": 45.0
+      },
+      "AGENTS.md": {
+        "exists": true,
+        "size": 2507,
+        "size_human": "2.4KB",
+        "mtime": "2026-05-20T01:23:26.723733",
+        "mtime_age_hours": 45.0
+      },
+      "BOOTSTRAP.md": {
+        "exists": true,
+        "size": 1681,
+        "size_human": "1.6KB",
+        "mtime": "2026-05-19T19:19:18.771783",
+        "mtime_age_hours": 51.1
+      },
+      "HEARTBEAT.md": {
+        "exists": true,
+        "size": 2085,
+        "size_human": "2.0KB",
+        "mtime": "2026-05-21T21:05:26.567589",
+        "mtime_age_hours": 1.3
+      }
+    },
+    "all_key_files_exist": true,
+    "memory_files_count": 26,
+    "diary_total_count": 169,
+    "diary_recent_7d": 49,
+    "diary_latest": [
+      {
+        "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
+        "age_hours": 18.8
+      },
+      {
+        "file": "2026-05-20-2214-system.md",
+        "age_hours": 24.1
+      },
+      {
+        "file": "LEARNINGS.md",
+        "age_hours": 24.2
+      },
+      {
+        "file": "2026-05-20-0335-deep-introspection-v2.md",
+        "age_hours": 42.8
+      },
+      {
+        "file": "2026-05-19-2208-subagent-pitfall-3.md",
+        "age_hours": 48.0
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "bounty",
+      "path": "/root/.openclaw/workspace/bounty",
+      "has_state_json": true,
+      "has_readme": false,
+      "has_project_py": false,
+      "file_count": 5,
+      "last_modified": "2026-05-19T19:37:52.473199",
+      "age_hours": 50.8,
+      "status": "orphan",
+      "tier": "P0",
+      "blocker": null,
+      "last_action": ""
+    },
+    {
+      "name": "daily",
+      "path": "/root/.openclaw/workspace/daily",
+      "has_state_json": false,
+      "has_readme": true,
+      "has_project_py": false,
+      "file_count": 2,
+      "last_modified": "2026-05-14T17:31:11.338522",
+      "age_hours": 172.9,
+      "status": "orphan",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    },
+    {
+      "name": "projects",
+      "path": "/root/.openclaw/workspace/projects",
+      "has_state_json": false,
+      "has_readme": false,
+      "has_project_py": false,
+      "file_count": 83,
+      "last_modified": "2026-05-21T21:58:06.972136",
+      "age_hours": 0.4,
+      "status": "orphan",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    },
+    {
+      "name": "self-evolution",
+      "path": "/root/.openclaw/workspace/self-evolution",
+      "has_state_json": false,
+      "has_readme": true,
+      "has_project_py": false,
+      "file_count": 7,
+      "last_modified": "2026-05-20T22:09:03.132052",
+      "age_hours": 24.2,
+      "status": "orphan",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    },
+    {
+      "name": "silk-v3-decoder-master",
+      "path": "/root/.openclaw/workspace/silk-v3-decoder-master",
+      "has_state_json": false,
+      "has_readme": true,
+      "has_project_py": false,
+      "file_count": 187,
+      "last_modified": "2020-01-23T10:13:28",
+      "age_hours": 55452.2,
+      "status": "orphan",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    },
+    {
+      "name": "silk_decoder",
+      "path": "/root/.openclaw/workspace/silk_decoder",
+      "has_state_json": false,
+      "has_readme": true,
+      "has_project_py": false,
+      "file_count": 300,
+      "last_modified": "2026-05-07T22:24:50.522225",
+      "age_hours": 336.0,
+      "status": "orphan",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    },
+    {
+      "name": "weekly",
+      "path": "/root/.openclaw/workspace/weekly",
+      "has_state_json": false,
+      "has_readme": true,
+      "has_project_py": false,
+      "file_count": 1,
+      "last_modified": "2026-05-11T11:27:48.681400",
+      "age_hours": 250.9,
+      "status": "ghost",
+      "tier": null,
+      "blocker": null,
+      "last_action": null
+    }
+  ],
+  "capabilities": {
+    "github_cli": true,
+    "github_api": true,
+    "web_search": true,
+    "feishu": false,
+    "cloudflare_tunnel": false,
+    "mailgun_webhook": true,
+    "raw": {
+      "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+      "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":992,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+      "tunnel_http_code": "000000",
+      "mailgun": "inactive\ninactive"
+    }
+  },
+  "session_history": {
+    "total_sessions": 232,
+    "recent_10": [
+      {
+        "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+        "size": "175.6KB",
+        "mtime": "2026-05-21T22:23:35.448330",
+        "age_hours": 0.0,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "33066c9a-c285-4aad-b246-6d0b100d85df.jsonl",
+        "size": "12.0KB",
+        "mtime": "2026-05-21T22:21:02.163010",
+        "age_hours": 0.0,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"33066c9a-c285-4aad-b246-6d0b100d85df\",\"timestamp\":\"2026-05-21T14:20:54.410Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "86680c50-eb7d-479b-871c-4a121b6324c6.jsonl",
+        "size": "12.0KB",
+        "mtime": "2026-05-21T22:11:40.816836",
+        "age_hours": 0.2,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"86680c50-eb7d-479b-871c-4a121b6324c6\",\"timestamp\":\"2026-05-21T14:10:54.142Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "c35df3a9-e7fa-42be-abcb-5031365725aa.jsonl",
+        "size": "12.0KB",
+        "mtime": "2026-05-21T22:01:49.410600",
+        "age_hours": 0.4,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"c35df3a9-e7fa-42be-abcb-5031365725aa\",\"timestamp\":\"2026-05-21T14:00:57.150Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "8293aaeb-d4a8-4270-9fd7-613340935fad.jsonl",
+        "size": "176.2KB",
+        "mtime": "2026-05-21T21:58:32.101188",
+        "age_hours": 0.4,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"8293aaeb-d4a8-4270-9fd7-613340935fad\",\"timestamp\":\"2026-05-21T13:55:04.811Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "953ad723-ab90-447c-a83f-c4fd79894377.jsonl",
+        "size": "57.6KB",
+        "mtime": "2026-05-21T21:56:51.330978",
+        "age_hours": 0.4,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"953ad723-ab90-447c-a83f-c4fd79894377\",\"timestamp\":\"2026-05-21T13:55:10.578Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "1e2ce603-1f80-49ee-8e7a-ef6020ce8c5f.jsonl",
+        "size": "11.9KB",
+        "mtime": "2026-05-21T21:51:04.000988",
+        "age_hours": 0.5,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"1e2ce603-1f80-49ee-8e7a-ef6020ce8c5f\",\"timestamp\":\"2026-05-21T13:50:54.885Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "b7f197cb-2827-4a06-bbfe-4b8b72077fe8.jsonl",
+        "size": "12.1KB",
+        "mtime": "2026-05-21T21:41:10.702606",
+        "age_hours": 0.7,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b7f197cb-2827-4a06-bbfe-4b8b72077fe8\",\"timestamp\":\"2026-05-21T13:40:54.782Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "9515d1af-c83f-41b1-a59d-56cb8aeb2a3e.jsonl",
+        "size": "12.1KB",
+        "mtime": "2026-05-21T21:31:07.185781",
+        "age_hours": 0.9,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"9515d1af-c83f-41b1-a59d-56cb8aeb2a3e\",\"timestamp\":\"2026-05-21T13:30:54.041Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      },
+      {
+        "file": "7b9ad096-a8a6-4326-ada5-7c694670bced.jsonl",
+        "size": "12.0KB",
+        "mtime": "2026-05-21T21:21:29.155607",
+        "age_hours": 1.0,
+        "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7b9ad096-a8a6-4326-ada5-7c694670bced\",\"timestamp\":\"2026-05-21T13:20:54.054Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+      }
+    ]
+  },
+  "git": {
+    "branch": "main",
+    "uncommitted_changes": [
+      "M data.jsonl",
+      "?? .local/",
+      "?? .openclaw/",
+      "?? .triggers/",
+      "?? 1",
+      "?? 20260508-mac-xiaok-conversation-full.md",
+      "?? 20260508-xiaok-mac-conversation-full.md",
+      "?? @",
+      "?? AGENTS.md",
+      "?? BOOTSTRAP.md",
+      "?? DREAMS.md",
+      "?? EOF",
+      "?? HEARTBEAT.md",
+      "?? IDENTITY.md",
+      "?? MEMORY.md",
+      "?? MEMORY.md.backup-20260513",
+      "?? P0_state.json",
+      "?? SOUL.md",
+      "?? TOOLS.md",
+      "?? USER.md",
+      "?? USER.md.backup-20260513",
+      "?? __pycache__/",
+      "?? ac_api.py",
+      "?? backups/",
+      "?? bounty/",
+      "?? bounty_archive.md",
+      "?? capability-inventory.md",
+      "?? claude-openclaw-bridge.md",
+      "?? d22_test.txt",
+      "?? daily/",
+      "?? daily_health.sh",
+      "?? dashboard/",
+      "?? data.jsonl.bak",
+      "?? data/",
+      "?? diary/",
+      "?? downloads/",
+      "?? index.html.bak",
+      "?? mac-bridge-websocket-spec.md",
+      "?? mac-forward-message.json",
+      "?? mac-sync-packet-20260509.md",
+      "?? memorized_diary/",
+      "?? memorized_media/",
+      "?? memory/",
+      "?? memory_board.md",
+      "?? memory_consolidation/",
+      "?? orchestrator-runs/",
+      "?? p1-prompt.md",
+      "?? p1-prompt.md~",
+      "?? p1-prompt.mz~",
+      "?? p1-state.json",
+      "?? projects/",
+      "?? references/",
+      "?? scripts/",
+      "?? self-drive-mechanism.md",
+      "?? self-evolution/",
+      "?? session-sync-forward-to-mac.txt",
+      "?? session-sync-request-to-mac.md",
+      "?? silk-v3-decoder-master/",
+      "?? silk_decoder.zip",
+      "?? silk_decoder/",
+      "?? skills/",
+      "?? state/",
+      "?? task-execution-protocol.md",
+      "?? task_record.json",
+      "?? todo/",
+      "?? venv_whisper/",
+      "?? voice_processor.py",
+      "?? weekly/",
+      "?? weixin_health.sh",
+      "?? whisper-models/"
+    ],
+    "has_uncommitted": true,
+    "last_commit_hash": "68df671b",
+    "last_commit_time": "2026-05-21 11:39:23 +0800",
+    "total_commits": 150
+  },
+  "alerts": [
+    {
+      "level": "info",
+      "category": "project",
+      "item": "weekly 是 ghost 项目",
+      "suggestion": "归档或填充内容"
+    }
+  ],
+  "alert_count": {
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  }
+}
