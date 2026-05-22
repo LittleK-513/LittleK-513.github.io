@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""generate-report.py — P1.0 baseline-check 报告生成器
+"""generate-report.py — P1.0 baseline-check 报告生成器 v3
 输入：orchestrator 输出的统一 JSON（stdin 或文件）
 输出：
   1. reports/p1-0/latest.json  — 完整数据包
   2. reports/p1-0/latest.md     — Markdown 人类可读报告
-  3. p1-dashboard.html          — HTML 可视化仪表板
+  3. p1-dashboard.html          — HTML 可视化仪表板（四层树 + AI 分析 + 差距矩阵）
 用法：
   python3 orchestrator.py | python3 generate-report.py
   或：python3 generate-report.py < reports/p1-0/latest.json
@@ -18,6 +18,7 @@ REPORTS_DIR = f"{WORKSPACE}/reports/p1-0"
 SKILL_DIR = f"{WORKSPACE}/skills/p1-0"
 MODULES_DIR = f"{SKILL_DIR}/modules"
 
+
 def human_size(n):
     for unit in ["B", "KB", "MB", "GB"]:
         if n < 1024:
@@ -25,11 +26,11 @@ def human_size(n):
         n /= 1024
     return f"{n:.1f}TB"
 
+
 def get_skill_sources():
     """读取所有 Skill 源码文件"""
     sources = []
     
-    # Skill 文档
     doc_path = f"{SKILL_DIR}/baseline-check-v2.md"
     try:
         with open(doc_path, "r", encoding="utf-8") as f:
@@ -37,7 +38,6 @@ def get_skill_sources():
     except Exception as e:
         sources.append(("baseline-check-v2.md", f"# 读取失败: {e}"))
     
-    # orchestrator
     orch_path = f"{SKILL_DIR}/orchestrator.py"
     try:
         with open(orch_path, "r", encoding="utf-8") as f:
@@ -45,7 +45,6 @@ def get_skill_sources():
     except Exception as e:
         sources.append(("orchestrator.py", f"# 读取失败: {e}"))
     
-    # 所有模块
     for script_path in sorted(glob.glob(f"{MODULES_DIR}/check-*.py")):
         name = os.path.basename(script_path)
         try:
@@ -56,11 +55,14 @@ def get_skill_sources():
     
     return sources
 
+
 def generate_markdown(report):
     meta = report["meta"]
     score = report["score"]
     modules = report["modules"]
     alerts = report["alerts"]
+    ai_analysis = report.get("ai_analysis", {})
+    gap_matrix = report.get("gap_matrix", [])
     
     model = modules.get("model", {}).get("data", {})
     env = modules.get("environment", {}).get("data", {})
@@ -70,6 +72,7 @@ def generate_markdown(report):
     cap = modules.get("capabilities", {}).get("data", {})
     sessions = modules.get("sessions", {}).get("data", {})
     git = env.get("git", {})
+    groups = projects.get("groups", [])
     
     md = f"""# P1.0 系统状态报告
 
@@ -88,6 +91,44 @@ def generate_markdown(report):
         weights = {"projects": "30%", "environment": "20%", "memory": "20%", "capabilities": "20%", "trend": "10%"}
         w = float(weights.get(dim, "0").rstrip("%")) / 100
         md += f"| {dim} | {val} | {weights.get(dim, '-')} | {round(val * w, 2)} |\n"
+    
+    md += f"""
+---
+
+## AI 分析摘要
+
+{ai_analysis.get('summary', '暂无分析')}
+
+### 健康度评估
+"""
+    for tier, ha in ai_analysis.get("health_assessment", {}).items():
+        md += f"- **{tier}**: 评分 {ha.get('score', '-')}/10，状态 {ha.get('status', '-')}\n"
+        for note in ha.get("notes", []):
+            md += f"  - {note}\n"
+    
+    md += f"""
+### 趋势判断
+"""
+    for t in ai_analysis.get("trends", []):
+        md += f"- {t}\n"
+    
+    md += f"""
+### 改进建议
+"""
+    for rec in ai_analysis.get("recommendations", [])[:5]:
+        icon = "🔴" if rec.get("priority") == "immediate" else "🟡"
+        md += f"- {icon} **{rec.get('target', '-')}**: {rec.get('action', '')}\n"
+    
+    md += f"""
+---
+
+## 期望 vs 现实 差距矩阵
+
+| 项目群 | 期望状态 | 扫描现实 | 差距 | 改进建议 |
+|--------|----------|----------|------|----------|
+"""
+    for row in gap_matrix:
+        md += f"| {row['tier']} | {row['expected'][:60]}… | {row['reality'][:40]}… | {row['gap']} | {row['suggestion'][:50]}… |\n"
     
     md += f"""
 ---
@@ -126,7 +167,7 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 | 检查项 | 状态 |
 |--------|------|
 | Cron Jobs | {harness.get('cron_jobs_count', 0)} 条 |
-| Gateway | {harness.get('gateway_status', 'unknown')} |
+| Gateway | {harness.get('gateway_status', 'unknown')[:20]}... |
 | Sessions | {harness.get('sessions', {}).get('count', 0)} 个文件，共 {harness.get('sessions', {}).get('total_size', '0')} |
 | Git 分支 | {git.get('branch', 'unknown')} |
 | Git 未提交 | {'有' if git.get('has_uncommitted') else '无'} |
@@ -158,20 +199,26 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 
 ---
 
-## 项目审计
+## 项目审计（四层结构）
 
-| 项目 | Tier | 状态 | 文件数 | 最后活跃 | Blocker | 最近动作 |
-|------|------|------|--------|----------|---------|----------|
 """
-    for p in projects.get("projects", []):
-        tier = p.get("tier", "-") or "-"
-        status_icon = "🟢" if p["status"] == "active" else ("🟡" if p["status"] == "stale" else "⚪")
-        blocker = (p.get("blocker") or "-")[:30]
-        action = (p.get("last_action") or "-")[:40]
-        md += f"| {p['name']} | {tier} | {status_icon} {p['status']} | {p['file_count']} | {p['age_hours']:.0f}h | {blocker} | {action} |\n"
+    for g in groups:
+        md += f"""### {g['name']} [{g['tier']}]
+
+> 目标：{g['goal']}  
+> 健康：{g['group_health']} | 评分：{g['group_score']}/10
+
+| 项目 | 状态 | 文件数 | 最后活跃 | Blocker | 最近动作 |
+|------|------|--------|----------|---------|----------|
+"""
+        for p in g.get("projects", []):
+            status_icon = "🟢" if p["status"] == "active" else ("🟡" if p["status"] == "stale" else "⚪")
+            blocker = (p.get("blocker") or "-")[:30]
+            action = (p.get("last_action") or "-")[:40]
+            md += f"| {p['name']} | {status_icon} {p['status']} | {p['file_count']} | {p['age_hours']:.0f}h | {blocker} | {action} |\n"
+        md += "\n"
     
-    md += f"""
----
+    md += f"""---
 
 ## 能力验证
 
@@ -216,13 +263,17 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 """
     return md
 
+
 def escape_html(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 
 def generate_html(report):
     score = report["score"]
     modules = report["modules"]
     alerts = report["alerts"]
+    ai_analysis = report.get("ai_analysis", {})
+    gap_matrix = report.get("gap_matrix", [])
     
     env = modules.get("environment", {}).get("data", {})
     harness = modules.get("harness", {}).get("data", {})
@@ -231,13 +282,12 @@ def generate_html(report):
     cap = modules.get("capabilities", {}).get("data", {})
     sessions = modules.get("sessions", {}).get("data", {})
     git = env.get("git", {})
+    groups = projects_data.get("groups", [])
     
     critical = len([a for a in alerts if a["level"] == "critical"])
     warning = len([a for a in alerts if a["level"] == "warning"])
     info = len([a for a in alerts if a["level"] == "info"])
     
-    projects_list = projects_data.get("projects", [])
-    project_data_json = json.dumps(projects_list, ensure_ascii=False)
     score_data_json = json.dumps(score["breakdown"], ensure_ascii=False)
     
     # Skill 源码章节
@@ -261,17 +311,80 @@ def generate_html(report):
         for a in alerts
     ]) if alerts else '<p style="color: var(--good); text-align: center; padding: 1rem;">✅ 无告警</p>'
     
-    projects_html = "".join([
-        f'<tr>'
-        f'<td><strong>{p["name"]}</strong></td>'
-        f'<td>{p.get("tier", "-") or "-"}</td>'
-        f'<td><span class="status-badge {"badge-good" if p["status"]=="active" else ("badge-warn" if p["status"]=="stale" else "badge-info")}">{p["status"]}</span></td>'
-        f'<td>{p["file_count"]}</td>'
-        f'<td>{p["age_hours"]:.0f}h</td>'
-        f'<td style="color: var(--text-dim); font-size: 0.8rem;">{(p.get("blocker") or "-")[:25]}</td>'
-        f'</tr>'
-        for p in projects_list
-    ])
+    # 四层项目树形展示
+    tier_tree_html = ""
+    for g in groups:
+        tier = g["tier"]
+        stats = g["stats"]
+        health_color = "var(--good)" if g["group_status"] == "healthy" else ("var(--warn)" if g["group_status"] == "mixed" else "var(--bad)")
+        
+        proj_rows = ""
+        for p in g.get("projects", []):
+            status_class = "badge-good" if p["status"] == "active" else ("badge-warn" if p["status"] == "stale" else "badge-info")
+            proj_rows += f"""
+          <div class="project-row">
+            <span class="project-name">{p['name']}</span>
+            <span class="status-badge {status_class}">{p['status']}</span>
+            <span class="project-meta">{p['file_count']} 文件 · {p['age_hours']:.0f}h</span>
+          </div>"""
+        
+        tier_tree_html += f"""
+      <div class="tier-card">
+        <div class="tier-header">
+          <span class="tier-badge" style="background: {health_color}20; color: {health_color}; border-color: {health_color};">{tier}</span>
+          <span class="tier-title">{g['name'].split(': ', 1)[1]}</span>
+          <span class="tier-score">{g['group_score']}/10</span>
+        </div>
+        <div class="tier-goal">{g['goal']}</div>
+        <div class="tier-stats">
+          <span class="stat-pill">🟢 {stats['active']} 活跃</span>
+          <span class="stat-pill">🟡 {stats['stale']} 停滞</span>
+          <span class="stat-pill">⚪ {stats['orphan']} orphan</span>
+          <span class="stat-pill">共 {stats['total']}</span>
+        </div>
+        <div class="tier-projects">
+{proj_rows}
+        </div>
+      </div>"""
+    
+    # AI 分析摘要 HTML
+    ai_summary = escape_html(ai_analysis.get("summary", "暂无分析"))
+    
+    health_cards = ""
+    for tier, ha in ai_analysis.get("health_assessment", {}).items():
+        score_val = ha.get("score", 0)
+        status = ha.get("status", "unknown")
+        color = "var(--good)" if score_val >= 7 else ("var(--warn)" if score_val >= 4 else "var(--bad)")
+        notes_html = "<br>".join(escape_html(n) for n in ha.get("notes", []))
+        health_cards += f"""
+        <div class="health-card">
+          <div class="health-tier">{tier}</div>
+          <div class="health-score" style="color: {color};">{score_val}/10</div>
+          <div class="health-status">{status}</div>
+          <div class="health-notes">{notes_html}</div>
+        </div>"""
+    
+    trends_html = ""
+    for t in ai_analysis.get("trends", []):
+        trends_html += f'<div class="trend-item">{escape_html(t)}</div>\n'
+    
+    recs_html = ""
+    for rec in ai_analysis.get("recommendations", [])[:5]:
+        icon = "🔴" if rec.get("priority") == "immediate" else "🟡"
+        recs_html += f'<div class="rec-item">{icon} <strong>{rec.get("target", "-")}</strong>: {escape_html(rec.get("action", ""))}</div>\n'
+    
+    # 差距矩阵 HTML
+    gap_rows = ""
+    for row in gap_matrix:
+        gap_color = "var(--good)" if "✅" in row["gap"] else ("var(--warn)" if "🟡" in row["gap"] else ("var(--bad)" if "🔴" in row["gap"] else "var(--text-dim)"))
+        gap_rows += f"""
+        <tr>
+          <td><strong>{row['tier']}</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">{row['tier_name'].split(': ',1)[1]}</span></td>
+          <td style="font-size:0.8rem;">{escape_html(row['expected'][:100])}{'...' if len(row['expected']) > 100 else ''}</td>
+          <td style="font-size:0.8rem;">{escape_html(row['reality'][:80])}{'...' if len(row['reality']) > 80 else ''}</td>
+          <td style="color: {gap_color}; font-weight: 600;">{row['gap']}</td>
+          <td style="font-size:0.8rem;">{escape_html(row['suggestion'][:80])}{'...' if len(row['suggestion']) > 80 else ''}</td>
+        </tr>"""
     
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -354,6 +467,7 @@ header .subtitle {{ color: var(--text-dim); font-size: 0.9rem; }}
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
 }}
 .card:hover {{ background: var(--card-hover); border-color: var(--accent-dim); }}
 .card h2 {{
@@ -453,9 +567,142 @@ footer {{
   color: var(--text);
 }}
 
+/* 四层项目树 */
+.tier-card {{
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}}
+.tier-header {{
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}}
+.tier-badge {{
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid;
+}}
+.tier-title {{
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
+}}
+.tier-score {{
+  font-family: monospace;
+  color: var(--accent);
+}}
+.tier-goal {{
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+}}
+.tier-stats {{
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}}
+.stat-pill {{
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  color: var(--text-dim);
+}}
+.tier-projects {{
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+}}
+.project-row {{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+}}
+.project-name {{
+  font-family: monospace;
+  font-size: 0.85rem;
+  min-width: 140px;
+}}
+.project-meta {{
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-left: auto;
+}}
+
+/* AI 分析 */
+.ai-summary {{
+  background: rgba(0,212,255,0.05);
+  border: 1px solid rgba(0,212,255,0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}}
+.health-grid {{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}}
+.health-card {{
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}}
+.health-tier {{
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}}
+.health-score {{
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}}
+.health-status {{
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+}}
+.health-notes {{
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}}
+.trend-item {{
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: 0.85rem;
+}}
+.rec-item {{
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: 0.85rem;
+}}
+
+/* 差距矩阵 */
+.gap-matrix table {{
+  font-size: 0.8rem;
+}}
+.gap-matrix th {{
+  background: rgba(0,212,255,0.05);
+}}
+
 @media (max-width: 600px) {{
   .grid {{ grid-template-columns: 1fr; }}
   header h1 {{ font-size: 1.8rem; }}
+  .tier-header {{ flex-wrap: wrap; }}
 }}
 </style>
 </head>
@@ -502,23 +749,60 @@ footer {{
   </div>
 </div>
 
+<!-- AI 分析摘要 -->
+<div class="card">
+  <h2>🧠 AI 分析摘要</h2>
+  <div class="ai-summary">
+    {ai_summary}
+  </div>
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">项目群健康度</h3>
+  <div class="health-grid">
+    {health_cards}
+  </div>
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">趋势判断</h3>
+  {trends_html if trends_html else '<div class="trend-item">暂无趋势数据</div>'}
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">改进建议</h3>
+  {recs_html if recs_html else '<div class="rec-item">暂无建议</div>'}
+</div>
+
+<!-- 期望 vs 现实 差距矩阵 -->
+<div class="card gap-matrix">
+  <h2>📋 期望 vs 现实 差距矩阵</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    对比 P*.json 期望状态与扫描现实，识别偏差并生成改进建议。
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>项目群</th>
+        <th>期望状态（记忆中）</th>
+        <th>扫描现实</th>
+        <th>差距</th>
+        <th>改进建议</th>
+      </tr>
+    </thead>
+    <tbody>
+      {gap_rows}
+    </tbody>
+  </table>
+</div>
+
 <!-- 告警详情 -->
 <div class="card" style="margin-bottom: 2rem;">
   <h2>告警详情</h2>
   {alerts_html}
 </div>
 
-<!-- 项目状态 -->
+<!-- 四层项目树形展示 -->
 <div class="card" style="margin-bottom: 2rem;">
-  <h2>项目审计</h2>
-  <table>
-    <thead>
-      <tr><th>项目</th><th>Tier</th><th>状态</th><th>文件</th><th>最后活跃</th><th>Blocker</th></tr>
-    </thead>
-    <tbody>
-      {projects_html}
-    </tbody>
-  </table>
+  <h2>🏗️ 四层项目结构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务
+  </p>
+  {tier_tree_html}
 </div>
 
 <div class="grid">
@@ -575,7 +859,7 @@ footer {{
 <div class="card" style="margin-bottom: 2rem;">
   <h2>📋 Skill 源码</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    本报告由 P1.0 baseline-check Skill（模块化架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
+    本报告由 P1.0 baseline-check Skill（v3 AI+Gap 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
   </p>
 {''.join(skill_sections)}
 </div>
@@ -613,6 +897,7 @@ document.getElementById('raw-json').textContent = JSON.stringify(rawData, null, 
 </html>"""
     return html
 
+
 def main():
     # 读取输入
     if len(sys.argv) > 1:
@@ -621,7 +906,6 @@ def main():
     else:
         stdin_data = sys.stdin.read()
         if not stdin_data.strip():
-            # 尝试读取 latest.json
             latest_path = f"{REPORTS_DIR}/latest.json"
             if os.path.exists(latest_path):
                 with open(latest_path, "r") as f:
@@ -661,7 +945,7 @@ def main():
         f.write(html_content)
     print(f"→ HTML backup: {html_backup}")
     
-    # 历史归档
+    # 历史归档（不覆盖已有）
     timestamp = datetime.now().strftime("%Y%m%d-%H%M")
     for suffix, content in [(".json", json.dumps(report, indent=2, ensure_ascii=False)),
                             (".md", md_content)]:
@@ -671,6 +955,7 @@ def main():
     print(f"→ 历史归档: {REPORTS_DIR}/history/{timestamp}.*")
     
     print("\n✅ 报告生成完成")
+
 
 if __name__ == "__main__":
     main()

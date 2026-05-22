@@ -1,16 +1,16 @@
 {
   "meta": {
-    "version": "p1-baseline-v2-modular",
-    "generated_at": "2026-05-22T01:13:10.094992",
+    "version": "p1-baseline-v3-ai-gap",
+    "generated_at": "2026-05-22T09:59:54.623948",
     "workspace": "/root/.openclaw/workspace",
     "modules_run": 7,
     "modules_ok": 7
   },
   "score": {
-    "total": 6.5,
+    "total": 6.2,
     "max": 10,
     "breakdown": {
-      "projects": 3.3,
+      "projects": 2.3,
       "environment": 10,
       "memory": 10,
       "capabilities": 5.0,
@@ -28,85 +28,314 @@
             "size": 8458,
             "size_human": "8.3KB",
             "mtime": "2026-05-18T17:57:27.039477",
-            "mtime_age_hours": 79.3
+            "mtime_age_hours": 88.0
           },
           "USER.md": {
             "exists": true,
-            "size": 37158,
-            "size_human": "36.3KB",
-            "mtime": "2026-05-22T01:06:23.181739",
-            "mtime_age_hours": 0.1
+            "size": 37566,
+            "size_human": "36.7KB",
+            "mtime": "2026-05-22T09:49:34.502006",
+            "mtime_age_hours": 0.2
           },
           "SOUL.md": {
             "exists": true,
             "size": 6142,
             "size_human": "6.0KB",
             "mtime": "2026-05-20T01:23:52.630789",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "IDENTITY.md": {
             "exists": true,
             "size": 3799,
             "size_human": "3.7KB",
             "mtime": "2026-05-20T01:23:57.447799",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "AGENTS.md": {
             "exists": true,
             "size": 2507,
             "size_human": "2.4KB",
             "mtime": "2026-05-20T01:23:26.723733",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "BOOTSTRAP.md": {
             "exists": true,
             "size": 1681,
             "size_human": "1.6KB",
             "mtime": "2026-05-19T19:19:18.771783",
-            "mtime_age_hours": 53.9
+            "mtime_age_hours": 62.7
           },
           "HEARTBEAT.md": {
             "exists": true,
-            "size": 2085,
-            "size_human": "2.0KB",
-            "mtime": "2026-05-21T21:05:26.567589",
-            "mtime_age_hours": 4.1
+            "size": 2273,
+            "size_human": "2.2KB",
+            "mtime": "2026-05-22T01:16:18.393040",
+            "mtime_age_hours": 8.7
           }
         },
         "all_key_files_exist": true,
-        "memory_files_count": 26,
-        "diary_total_count": 169,
-        "diary_recent_7d": 47,
+        "memory_files_count": 27,
+        "diary_total_count": 170,
+        "diary_recent_7d": 40,
         "diary_latest": [
           {
-            "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
-            "age_hours": 21.7
+            "file": "2026-05-22-0330-disk-watch.md",
+            "age_hours": 6.5
           },
           {
-            "file": "2026-05-20-2214-system.md",
-            "age_hours": 27.0
+            "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
+            "age_hours": 30.5
           },
           {
             "file": "LEARNINGS.md",
-            "age_hours": 27.1
+            "age_hours": 35.8
+          },
+          {
+            "file": "2026-05-20-2214-system.md",
+            "age_hours": 35.8
           },
           {
             "file": "2026-05-20-0335-deep-introspection-v2.md",
-            "age_hours": 45.7
-          },
-          {
-            "file": "2026-05-19-2208-subagent-pitfall-3.md",
-            "age_hours": 50.8
+            "age_hours": 54.4
           }
         ]
       },
       "checks_passed": 3,
       "checks_total": 3
     },
+    "sessions": {
+      "module": "sessions",
+      "data": {
+        "total_sessions": 242,
+        "recent_10": [
+          {
+            "file": "b700f0c3-96f9-499d-802f-9412956077ba.jsonl",
+            "size": "343.4KB",
+            "mtime": "2026-05-22T09:59:51.837221",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b700f0c3-96f9-499d-802f-9412956077ba\",\"timestamp\":\"2026-05-22T01:49:35.744Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+            "size": "1.8MB",
+            "mtime": "2026-05-22T09:56:52.433876",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "b1e64309-dc52-4d7d-9ab2-f74416ea9719.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T09:54:43.106627",
+            "age_hours": 0.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b1e64309-dc52-4d7d-9ab2-f74416ea9719\",\"timestamp\":\"2026-05-22T01:54:29.689Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "32017e4a-457b-4d8f-b683-ac6c1449acf3.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:44:34.832351",
+            "age_hours": 0.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"32017e4a-457b-4d8f-b683-ac6c1449acf3\",\"timestamp\":\"2026-05-22T01:44:22.286Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "88c5729f-2b33-4ca2-a0a2-558dfbfc0982.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T09:34:29.918803",
+            "age_hours": 0.4,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"88c5729f-2b33-4ca2-a0a2-558dfbfc0982\",\"timestamp\":\"2026-05-22T01:34:21.949Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "74a5bd8e-0e40-4b53-90b2-27436f27f444.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T09:24:31.164598",
+            "age_hours": 0.6,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"74a5bd8e-0e40-4b53-90b2-27436f27f444\",\"timestamp\":\"2026-05-22T01:24:21.821Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:14:29.651346",
+            "age_hours": 0.8,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4\",\"timestamp\":\"2026-05-22T01:14:21.870Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "c2cea10a-6d38-42a5-b225-9199753ee32d.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:04:29.459136",
+            "age_hours": 0.9,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"c2cea10a-6d38-42a5-b225-9199753ee32d\",\"timestamp\":\"2026-05-22T01:04:21.770Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed.jsonl",
+            "size": "12.1KB",
+            "mtime": "2026-05-22T08:54:28.968898",
+            "age_hours": 1.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed\",\"timestamp\":\"2026-05-22T00:54:21.764Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "b0ac0671-2748-4df9-be03-d53860127535.jsonl",
+            "size": "12.2KB",
+            "mtime": "2026-05-22T08:44:30.716636",
+            "age_hours": 1.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b0ac0671-2748-4df9-be03-d53860127535\",\"timestamp\":\"2026-05-22T00:44:21.968Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          }
+        ]
+      },
+      "checks_passed": 2,
+      "checks_total": 2
+    },
     "projects": {
       "module": "projects",
       "data": {
-        "projects": [
+        "groups": [
+          {
+            "tier": "P0",
+            "name": "P0: GitHub 赚钱任务",
+            "goal": "通过 GitHub issue、bounty 平台获取收入",
+            "projects": [
+              {
+                "name": "bounty",
+                "path": "/root/.openclaw/workspace/bounty",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 5,
+                "last_modified": "2026-05-19T19:37:52.473199",
+                "age_hours": 62.4,
+                "status": "stale",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": "P0",
+                "tier": "P0"
+              },
+              {
+                "name": "p0-github-money",
+                "path": "/root/.openclaw/workspace/projects/p0-github-money",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 19,
+                "last_modified": "2026-05-21T21:58:06.972136",
+                "age_hours": 12.0,
+                "status": "stale",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": "P0",
+                "tier": "P0"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 0,
+              "stale": 2,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 0,
+            "group_status": "stale",
+            "group_health": "🟠 全面停滞"
+          },
+          {
+            "tier": "P1",
+            "name": "P1: 自进化任务",
+            "goal": "自学习、自改进、Skill 进化与系统能力增强",
+            "projects": [
+              {
+                "name": "hermes-lite",
+                "path": "/root/.openclaw/workspace/projects/hermes-lite",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 23,
+                "last_modified": "2026-05-21T04:40:12.131068",
+                "age_hours": 29.3,
+                "status": "active",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": null,
+                "tier": "P1"
+              },
+              {
+                "name": "p1-self-evolution",
+                "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": true,
+                "has_todo": false,
+                "file_count": 30,
+                "last_modified": "2026-05-21T20:52:06.676118",
+                "age_hours": 13.1,
+                "status": "stale",
+                "blocker": null,
+                "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
+                "state_tier": "P1",
+                "tier": "P1"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 1,
+              "stale": 1,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          },
+          {
+            "tier": "P2",
+            "name": "P2: 社交网络探索",
+            "goal": "Agent 社交网络互动、社区建立与影响力扩展",
+            "projects": [
+              {
+                "name": "p2-agent-social",
+                "path": "/root/.openclaw/workspace/projects/p2-agent-social",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 9,
+                "last_modified": "2026-05-21T21:56:32.498939",
+                "age_hours": 12.1,
+                "status": "stale",
+                "blocker": null,
+                "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
+                "state_tier": "P2",
+                "tier": "P2"
+              },
+              {
+                "name": "p2-moltbook",
+                "path": "/root/.openclaw/workspace/projects/p2-moltbook",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 1,
+                "last_modified": "2026-05-21T21:56:38.611952",
+                "age_hours": 12.1,
+                "status": "active",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": null,
+                "tier": "P2"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 1,
+              "stale": 1,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          }
+        ],
+        "flat_projects": [
           {
             "name": "bounty",
             "path": "/root/.openclaw/workspace/bounty",
@@ -116,11 +345,12 @@
             "has_todo": false,
             "file_count": 5,
             "last_modified": "2026-05-19T19:37:52.473199",
-            "age_hours": 53.6,
+            "age_hours": 62.4,
             "status": "stale",
-            "tier": "P0",
             "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": "P0",
+            "tier": "P0"
           },
           {
             "name": "p0-github-money",
@@ -131,56 +361,12 @@
             "has_todo": false,
             "file_count": 19,
             "last_modified": "2026-05-21T21:58:06.972136",
-            "age_hours": 3.3,
+            "age_hours": 12.0,
             "status": "stale",
-            "tier": "P0",
             "blocker": null,
-            "last_action": null
-          },
-          {
-            "name": "p1-self-evolution",
-            "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": true,
-            "has_todo": false,
-            "file_count": 30,
-            "last_modified": "2026-05-21T20:52:06.676118",
-            "age_hours": 4.4,
-            "status": "stale",
-            "tier": "P1",
-            "blocker": null,
-            "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan."
-          },
-          {
-            "name": "p2-agent-social",
-            "path": "/root/.openclaw/workspace/projects/p2-agent-social",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": false,
-            "has_todo": false,
-            "file_count": 9,
-            "last_modified": "2026-05-21T21:56:32.498939",
-            "age_hours": 3.3,
-            "status": "stale",
-            "tier": "P2",
-            "blocker": null,
-            "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- "
-          },
-          {
-            "name": "hermes-lite",
-            "path": "/root/.openclaw/workspace/projects/hermes-lite",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": false,
-            "has_todo": false,
-            "file_count": 23,
-            "last_modified": "2026-05-21T04:40:12.131068",
-            "age_hours": 20.5,
-            "status": "active",
-            "tier": null,
-            "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": "P0",
+            "tier": "P0"
           },
           {
             "name": "p2-moltbook",
@@ -191,11 +377,60 @@
             "has_todo": false,
             "file_count": 1,
             "last_modified": "2026-05-21T21:56:38.611952",
-            "age_hours": 3.3,
+            "age_hours": 12.1,
             "status": "active",
-            "tier": null,
             "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": null,
+            "tier": "P2"
+          },
+          {
+            "name": "hermes-lite",
+            "path": "/root/.openclaw/workspace/projects/hermes-lite",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 23,
+            "last_modified": "2026-05-21T04:40:12.131068",
+            "age_hours": 29.3,
+            "status": "active",
+            "blocker": null,
+            "last_action": null,
+            "state_tier": null,
+            "tier": "P1"
+          },
+          {
+            "name": "p2-agent-social",
+            "path": "/root/.openclaw/workspace/projects/p2-agent-social",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 9,
+            "last_modified": "2026-05-21T21:56:32.498939",
+            "age_hours": 12.1,
+            "status": "stale",
+            "blocker": null,
+            "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
+            "state_tier": "P2",
+            "tier": "P2"
+          },
+          {
+            "name": "p1-self-evolution",
+            "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": true,
+            "has_todo": false,
+            "file_count": 30,
+            "last_modified": "2026-05-21T20:52:06.676118",
+            "age_hours": 13.1,
+            "status": "stale",
+            "blocker": null,
+            "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
+            "state_tier": "P1",
+            "tier": "P1"
           }
         ],
         "active_count": 2,
@@ -203,86 +438,6 @@
         "orphan_count": 0,
         "ghost_count": 0,
         "total_count": 6
-      },
-      "checks_passed": 2,
-      "checks_total": 2
-    },
-    "sessions": {
-      "module": "sessions",
-      "data": {
-        "total_sessions": 238,
-        "recent_10": [
-          {
-            "file": "2e88f65e-d472-4f53-993c-19b06a307d6a.jsonl",
-            "size": "276.1KB",
-            "mtime": "2026-05-22T01:13:07.510624",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"2e88f65e-d472-4f53-993c-19b06a307d6a\",\"timestamp\":\"2026-05-21T17:06:24.238Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "bc2cd740-76ba-496f-a4b7-57338f275bc3.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T01:11:04.023354",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bc2cd740-76ba-496f-a4b7-57338f275bc3\",\"timestamp\":\"2026-05-21T17:10:57.305Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
-            "size": "1015.2KB",
-            "mtime": "2026-05-22T01:07:51.286932",
-            "age_hours": 0.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "0b3247d7-9458-4638-ae22-4ef9b95fe320.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T01:01:06.079045",
-            "age_hours": 0.2,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b3247d7-9458-4638-ae22-4ef9b95fe320\",\"timestamp\":\"2026-05-21T17:00:57.356Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "bb43cc63-8cd7-4111-936f-9ec7175c12b8.jsonl",
-            "size": "138.5KB",
-            "mtime": "2026-05-22T00:55:13.843276",
-            "age_hours": 0.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bb43cc63-8cd7-4111-936f-9ec7175c12b8\",\"timestamp\":\"2026-05-21T16:54:43.748Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "336b72f3-e2d7-4548-8241-51e45afdd14f.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T00:51:12.316753",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"336b72f3-e2d7-4548-8241-51e45afdd14f\",\"timestamp\":\"2026-05-21T16:50:56.745Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "47512758-6326-49f6-8a8c-041ce83148e8.jsonl",
-            "size": "138.5KB",
-            "mtime": "2026-05-22T00:46:35.172153",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"47512758-6326-49f6-8a8c-041ce83148e8\",\"timestamp\":\"2026-05-21T16:44:35.016Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T00:41:31.785495",
-            "age_hours": 0.5,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727\",\"timestamp\":\"2026-05-21T16:40:57.383Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "8d6226d0-5e82-4ba3-b61a-b8b800acaadb.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T00:31:36.202203",
-            "age_hours": 0.7,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"8d6226d0-5e82-4ba3-b61a-b8b800acaadb\",\"timestamp\":\"2026-05-21T16:30:57.392Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T00:21:42.570915",
-            "age_hours": 0.9,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e\",\"timestamp\":\"2026-05-21T16:20:57.411Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          }
-        ]
       },
       "checks_passed": 2,
       "checks_total": 2
@@ -298,7 +453,7 @@
         "node_version": "v24.15.0",
         "working_dir": "/root/.openclaw/workspace",
         "hostname": "VM-13-249-ubuntu",
-        "timestamp": "2026-05-22T01:13:07.859767"
+        "timestamp": "2026-05-22T09:59:52.217215"
       },
       "checks_passed": 3,
       "checks_total": 4
@@ -306,27 +461,27 @@
     "environment": {
       "module": "environment",
       "data": {
-        "timestamp": "2026-05-22T01:13:07.880891",
+        "timestamp": "2026-05-22T09:59:52.254405",
         "hostname": "VM-13-249-ubuntu",
-        "uptime": "01:13:07 up 14 days,  8:14,  0 user,  load average: 0.34, 0.32, 0.23",
+        "uptime": "09:59:52 up 14 days, 17:00,  0 user,  load average: 0.15, 0.29, 0.25",
         "disk": {
-          "usage_percent": 77,
-          "available": "8.8G",
-          "raw": "/dev/vda2        40G   29G  8.8G  77% /",
+          "usage_percent": 83,
+          "available": "6.5G",
+          "raw": "/dev/vda2        40G   32G  6.5G  83% /",
           "ok": true
         },
         "memory": {
-          "raw": "Mem:           7.5Gi       3.0Gi       1.2Gi       9.9Mi       3.6Gi       4.5Gi",
+          "raw": "Mem:           7.5Gi       2.8Gi       889Mi       6.1Mi       4.2Gi       4.7Gi",
           "ok": true
         },
         "git": {
           "branch": "main",
           "uncommitted_changes": [
             "M ../../../data.jsonl",
-            " M ../../../p1-dashboard.html",
-            " M ../../../reports/p1-0/latest.html",
             " M ../../../reports/p1-0/latest.json",
-            " M ../../../reports/p1-0/latest.md",
+            " M ../generate-report.py",
+            " M check-projects.py",
+            " M ../orchestrator.py",
             " M ../state.json",
             "?? ../../../.local/",
             "?? ../../../.openclaw/",
@@ -412,12 +567,6 @@
             "?? ../../../references/self-evolution/tencentdb-agent-memory-reference.md",
             "?? ../../../references/self-evolution/unix-pipeline-skill-design.md",
             "?? ../../../references/three_way_comparison.png",
-            "?? ../../../reports/p1-0/history/20260521-2229.json",
-            "?? ../../../reports/p1-0/history/20260521-2229.md",
-            "?? ../../../reports/p1-0/history/20260522-0043.json",
-            "?? ../../../reports/p1-0/history/20260522-0043.md",
-            "?? ../../../reports/p1-0/history/20260522-0044.json",
-            "?? ../../../reports/p1-0/history/20260522-0044.md",
             "?? ../../../scripts/",
             "?? ../../../self-drive-mechanism.md",
             "?? ../../../self-evolution/",
@@ -433,9 +582,7 @@
             "?? ../../github-assistant-skill/",
             "?? ../../github-ops-pro/",
             "?? ../../kimiim/",
-            "?? ../generate-report.py",
-            "?? ./",
-            "?? ../orchestrator.py",
+            "?? ../self-acceptance-report-20260522.md",
             "?? ../test-result.md",
             "?? ../test-v2-result.md",
             "?? ../../scraper-pro/",
@@ -454,9 +601,9 @@
             "?? ../../../whisper-models/"
           ],
           "has_uncommitted": true,
-          "last_commit_hash": "03a1c206",
-          "last_commit_time": "2026-05-22 00:43:53 +0800",
-          "total_commits": 184,
+          "last_commit_hash": "90e2f68e",
+          "last_commit_time": "2026-05-22 05:58:27 +0800",
+          "total_commits": 200,
           "ok": true
         },
         "versions": {
@@ -480,7 +627,7 @@
         "mailgun_webhook": true,
         "raw": {
           "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
-          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1053,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1208,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
           "tunnel_http_code": "000000",
           "mailgun": "inactive\ninactive"
         }
@@ -502,7 +649,7 @@
             "exists": true,
             "size": 125,
             "mtime": 1778558073.0006151,
-            "mtime_age_hours": 229.3
+            "mtime_age_hours": 238.1
           }
         },
         "cron_jobs_count": 9,
@@ -517,49 +664,124 @@
           "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
           "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
         ],
-        "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1272686, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+        "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
         "gateway_ok": true,
         "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
         "systemd_ok": true,
         "sessions": {
-          "count": 238,
-          "total_size": "139.7MB",
-          "total_size_bytes": 146508516
+          "count": 242,
+          "total_size": "141.0MB",
+          "total_size_bytes": 147823846
         }
       },
       "checks_passed": 5,
       "checks_total": 5
     }
   },
+  "ai_analysis": {
+    "summary": "本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。",
+    "tier_insights": {},
+    "anomalies": [],
+    "trends": [
+      "➡️ 系统健康度持平（6.2 分）",
+      "⚠️ 活跃项目仅占 33%，多数项目停滞",
+      "🟡 磁盘使用率偏高，建议纳入下周清理计划"
+    ],
+    "recommendations": [
+      {
+        "priority": "this_cycle",
+        "target": "projects",
+        "action": "激活停滞项目: bounty, p0-github-money, p1-self-evolution"
+      }
+    ],
+    "health_assessment": {
+      "P0": {
+        "score": 0,
+        "status": "stale",
+        "notes": [
+          "⚠️ P0 有 2/2 个项目停滞",
+          "   最老停滞: bounty (62h)"
+        ]
+      },
+      "P1": {
+        "score": 3.5,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P1 有 1/2 个项目停滞",
+          "   最老停滞: p1-self-evolution (13h)"
+        ]
+      },
+      "P2": {
+        "score": 3.5,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P2 有 1/2 个项目停滞",
+          "   最老停滞: p2-agent-social (12h)"
+        ]
+      }
+    }
+  },
+  "gap_matrix": [
+    {
+      "tier": "P0",
+      "tier_name": "P0: GitHub 赚钱任务",
+      "expected": "当前阶段: scan_new_issue | 最近动作: [2026-05-19 03:45] Pushed 4-Agent Multi-Agent Research Pipel | 下一步: 扫描新 good first issue（1-2 个候选），评估复杂度",
+      "reality": "0/2 活跃 | 停滞: bounty, p0-github-money",
+      "gap": "🔴 严重偏差",
+      "gap_reason": "全部项目停滞",
+      "suggestion": "检查 blocker，激活 P0 任务"
+    },
+    {
+      "tier": "P1",
+      "tier_name": "P1: 自进化任务",
+      "expected": "当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-",
+      "reality": "1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
+      "gap": "🟡 偏差",
+      "gap_reason": "1/2 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
+    },
+    {
+      "tier": "P2",
+      "tier_name": "P2: 社交网络探索",
+      "expected": "当前阶段: agent_community_interact | 最近动作: ✅ Agent Community 轻量互动完成（2026-05-21 03:24）\n- 回复 r_byk0o96q → | 下一步: Agent Community 持续互动：每日签到、监控帖子回复、主动评论感兴趣话题",
+      "reality": "1/2 活跃 | 停滞: p2-agent-social | 活跃: p2-moltbook",
+      "gap": "🟡 偏差",
+      "gap_reason": "1/2 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
+    },
+    {
+      "tier": "P3",
+      "tier_name": "P3: 用户安排的其它任务",
+      "expected": "未记录期望",
+      "reality": "无项目",
+      "gap": "⚪ 未启动",
+      "gap_reason": "项目群为空",
+      "suggestion": "启动 用户指派任务"
+    }
+  ],
   "alerts": [
     {
-      "level": "warning",
-      "category": "project",
-      "item": "bounty stale 54h",
-      "suggestion": "检查 bounty 的 blocker 或推进 next action"
+      "level": "critical",
+      "category": "project_group",
+      "item": "P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)",
+      "suggestion": "检查 P0 项目群的 blocker，优先激活"
     },
     {
       "level": "warning",
-      "category": "project",
-      "item": "p0-github-money stale 3h",
-      "suggestion": "检查 p0-github-money 的 blocker 或推进 next action"
+      "category": "project_group",
+      "item": "P1: 自进化任务 部分停滞: p1-self-evolution",
+      "suggestion": "推进 P1 停滞项目的 next action"
     },
     {
       "level": "warning",
-      "category": "project",
-      "item": "p1-self-evolution stale 4h",
-      "suggestion": "检查 p1-self-evolution 的 blocker 或推进 next action"
-    },
-    {
-      "level": "warning",
-      "category": "project",
-      "item": "p2-agent-social stale 3h",
-      "suggestion": "检查 p2-agent-social 的 blocker 或推进 next action"
+      "category": "project_group",
+      "item": "P2: 社交网络探索 部分停滞: p2-agent-social",
+      "suggestion": "推进 P2 停滞项目的 next action"
     }
   ],
   "alert_count": {
-    "critical": 0,
-    "warning": 4,
+    "critical": 1,
+    "warning": 2,
     "info": 0
   }
 }

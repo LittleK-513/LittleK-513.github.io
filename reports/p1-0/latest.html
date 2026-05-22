@@ -79,6 +79,7 @@ header .subtitle { color: var(--text-dim); font-size: 0.9rem; }
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.3s ease;
+  margin-bottom: 1.5rem;
 }
 .card:hover { background: var(--card-hover); border-color: var(--accent-dim); }
 .card h2 {
@@ -178,9 +179,142 @@ footer {
   color: var(--text);
 }
 
+/* 四层项目树 */
+.tier-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.tier-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.tier-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+.tier-title {
+  font-size: 1rem;
+  font-weight: 500;
+  flex: 1;
+}
+.tier-score {
+  font-family: monospace;
+  color: var(--accent);
+}
+.tier-goal {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+}
+.tier-stats {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+.stat-pill {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  color: var(--text-dim);
+}
+.tier-projects {
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+}
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+}
+.project-name {
+  font-family: monospace;
+  font-size: 0.85rem;
+  min-width: 140px;
+}
+.project-meta {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-left: auto;
+}
+
+/* AI 分析 */
+.ai-summary {
+  background: rgba(0,212,255,0.05);
+  border: 1px solid rgba(0,212,255,0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+.health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.health-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+.health-tier {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.health-score {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+.health-status {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-bottom: 0.5rem;
+}
+.health-notes {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+.trend-item {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: 0.85rem;
+}
+.rec-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  font-size: 0.85rem;
+}
+
+/* 差距矩阵 */
+.gap-matrix table {
+  font-size: 0.8rem;
+}
+.gap-matrix th {
+  background: rgba(0,212,255,0.05);
+}
+
 @media (max-width: 600px) {
   .grid { grid-template-columns: 1fr; }
   header h1 { font-size: 1.8rem; }
+  .tier-header { flex-wrap: wrap; }
 }
 </style>
 </head>
@@ -190,7 +324,7 @@ footer {
 <header>
   <h1>P1.0 系统状态</h1>
   <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力</p>
-  <p class="subtitle">生成于 2026-05-22T01:13:10</p>
+  <p class="subtitle">生成于 2026-05-22T09:59:54</p>
 </header>
 
 <!-- 评分圆环 -->
@@ -198,10 +332,10 @@ footer {
   <svg width="200" height="200" viewBox="0 0 200 200">
     <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a2e" stroke-width="12"/>
     <circle id="score-circle" cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="12"
-      stroke-dasharray="565.5" stroke-dashoffset="197.92499999999998"
+      stroke-dasharray="565.5" stroke-dashoffset="214.89000000000001"
       stroke-linecap="round"/>
   </svg>
-  <div class="score-text">6.5</div>
+  <div class="score-text">6.2</div>
   <div class="score-label">/ 10</div>
 </div>
 
@@ -210,12 +344,12 @@ footer {
   <div class="card">
     <h2>告警概览</h2>
     <div style="text-align:center; padding: 1rem 0;">
-      <span class="status-badge badge-bad">🔴 Critical: 0</span>
-      <span class="status-badge badge-warn">🟡 Warning: 4</span>
+      <span class="status-badge badge-bad">🔴 Critical: 1</span>
+      <span class="status-badge badge-warn">🟡 Warning: 2</span>
       <span class="status-badge badge-info">🟢 Info: 0</span>
     </div>
     <p style="text-align:center; color: var(--text-dim); font-size: 0.85rem;">
-      共 4 条告警，建议优先处理 Critical
+      共 3 条告警，建议优先处理 Critical
     </p>
   </div>
   
@@ -227,23 +361,192 @@ footer {
   </div>
 </div>
 
+<!-- AI 分析摘要 -->
+<div class="card">
+  <h2>🧠 AI 分析摘要</h2>
+  <div class="ai-summary">
+    本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。
+  </div>
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">项目群健康度</h3>
+  <div class="health-grid">
+    
+        <div class="health-card">
+          <div class="health-tier">P0</div>
+          <div class="health-score" style="color: var(--bad);">0/10</div>
+          <div class="health-status">stale</div>
+          <div class="health-notes">⚠️ P0 有 2/2 个项目停滞<br>   最老停滞: bounty (62h)</div>
+        </div>
+        <div class="health-card">
+          <div class="health-tier">P1</div>
+          <div class="health-score" style="color: var(--bad);">3.5/10</div>
+          <div class="health-status">mixed</div>
+          <div class="health-notes">⚠️ P1 有 1/2 个项目停滞<br>   最老停滞: p1-self-evolution (13h)</div>
+        </div>
+        <div class="health-card">
+          <div class="health-tier">P2</div>
+          <div class="health-score" style="color: var(--bad);">3.5/10</div>
+          <div class="health-status">mixed</div>
+          <div class="health-notes">⚠️ P2 有 1/2 个项目停滞<br>   最老停滞: p2-agent-social (12h)</div>
+        </div>
+  </div>
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">趋势判断</h3>
+  <div class="trend-item">➡️ 系统健康度持平（6.2 分）</div>
+<div class="trend-item">⚠️ 活跃项目仅占 33%，多数项目停滞</div>
+<div class="trend-item">🟡 磁盘使用率偏高，建议纳入下周清理计划</div>
+
+  
+  <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">改进建议</h3>
+  <div class="rec-item">🟡 <strong>projects</strong>: 激活停滞项目: bounty, p0-github-money, p1-self-evolution</div>
+
+</div>
+
+<!-- 期望 vs 现实 差距矩阵 -->
+<div class="card gap-matrix">
+  <h2>📋 期望 vs 现实 差距矩阵</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    对比 P*.json 期望状态与扫描现实，识别偏差并生成改进建议。
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>项目群</th>
+        <th>期望状态（记忆中）</th>
+        <th>扫描现实</th>
+        <th>差距</th>
+        <th>改进建议</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td><strong>P0</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">GitHub 赚钱任务</span></td>
+          <td style="font-size:0.8rem;">当前阶段: scan_new_issue | 最近动作: [2026-05-19 03:45] Pushed 4-Agent Multi-Agent Research Pipel | 下一步: 扫描新...</td>
+          <td style="font-size:0.8rem;">0/2 活跃 | 停滞: bounty, p0-github-money</td>
+          <td style="color: var(--bad); font-weight: 600;">🔴 严重偏差</td>
+          <td style="font-size:0.8rem;">检查 blocker，激活 P0 任务</td>
+        </tr>
+        <tr>
+          <td><strong>P1</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">自进化任务</span></td>
+          <td style="font-size:0.8rem;">当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-</td>
+          <td style="font-size:0.8rem;">1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite</td>
+          <td style="color: var(--warn); font-weight: 600;">🟡 偏差</td>
+          <td style="font-size:0.8rem;">推进 next action，激活停滞项目</td>
+        </tr>
+        <tr>
+          <td><strong>P2</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">社交网络探索</span></td>
+          <td style="font-size:0.8rem;">当前阶段: agent_community_interact | 最近动作: ✅ Agent Community 轻量互动完成（2026-05-21 03:24）
+- 回复 r_byk0o96q → ...</td>
+          <td style="font-size:0.8rem;">1/2 活跃 | 停滞: p2-agent-social | 活跃: p2-moltbook</td>
+          <td style="color: var(--warn); font-weight: 600;">🟡 偏差</td>
+          <td style="font-size:0.8rem;">推进 next action，激活停滞项目</td>
+        </tr>
+        <tr>
+          <td><strong>P3</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">用户安排的其它任务</span></td>
+          <td style="font-size:0.8rem;">未记录期望</td>
+          <td style="font-size:0.8rem;">无项目</td>
+          <td style="color: var(--text-dim); font-weight: 600;">⚪ 未启动</td>
+          <td style="font-size:0.8rem;">启动 用户指派任务</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
 <!-- 告警详情 -->
 <div class="card" style="margin-bottom: 2rem;">
   <h2>告警详情</h2>
-  <div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> bounty stale 54h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 bounty 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p0-github-money stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p0-github-money 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p1-self-evolution stale 4h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p1-self-evolution 的 blocker 或推进 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project]</span> p2-agent-social stale 3h<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 p2-agent-social 的 blocker 或推进 next action</span></div>
+  <div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[project_group]</span> P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 P0 项目群的 blocker，优先激活</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P1: 自进化任务 部分停滞: p1-self-evolution<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P1 停滞项目的 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P2: 社交网络探索 部分停滞: p2-agent-social<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P2 停滞项目的 next action</span></div>
 </div>
 
-<!-- 项目状态 -->
+<!-- 四层项目树形展示 -->
 <div class="card" style="margin-bottom: 2rem;">
-  <h2>项目审计</h2>
-  <table>
-    <thead>
-      <tr><th>项目</th><th>Tier</th><th>状态</th><th>文件</th><th>最后活跃</th><th>Blocker</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><strong>bounty</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>5</td><td>54h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p0-github-money</strong></td><td>P0</td><td><span class="status-badge badge-warn">stale</span></td><td>19</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p1-self-evolution</strong></td><td>P1</td><td><span class="status-badge badge-warn">stale</span></td><td>30</td><td>4h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-agent-social</strong></td><td>P2</td><td><span class="status-badge badge-warn">stale</span></td><td>9</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>hermes-lite</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>23</td><td>20h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr><tr><td><strong>p2-moltbook</strong></td><td>-</td><td><span class="status-badge badge-good">active</span></td><td>1</td><td>3h</td><td style="color: var(--text-dim); font-size: 0.8rem;">-</td></tr>
-    </tbody>
-  </table>
+  <h2>🏗️ 四层项目结构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务
+  </p>
+  
+      <div class="tier-card">
+        <div class="tier-header">
+          <span class="tier-badge" style="background: var(--bad)20; color: var(--bad); border-color: var(--bad);">P0</span>
+          <span class="tier-title">GitHub 赚钱任务</span>
+          <span class="tier-score">0/10</span>
+        </div>
+        <div class="tier-goal">通过 GitHub issue、bounty 平台获取收入</div>
+        <div class="tier-stats">
+          <span class="stat-pill">🟢 0 活跃</span>
+          <span class="stat-pill">🟡 2 停滞</span>
+          <span class="stat-pill">⚪ 0 orphan</span>
+          <span class="stat-pill">共 2</span>
+        </div>
+        <div class="tier-projects">
+
+          <div class="project-row">
+            <span class="project-name">bounty</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">5 文件 · 62h</span>
+          </div>
+          <div class="project-row">
+            <span class="project-name">p0-github-money</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">19 文件 · 12h</span>
+          </div>
+        </div>
+      </div>
+      <div class="tier-card">
+        <div class="tier-header">
+          <span class="tier-badge" style="background: var(--warn)20; color: var(--warn); border-color: var(--warn);">P1</span>
+          <span class="tier-title">自进化任务</span>
+          <span class="tier-score">3.5/10</span>
+        </div>
+        <div class="tier-goal">自学习、自改进、Skill 进化与系统能力增强</div>
+        <div class="tier-stats">
+          <span class="stat-pill">🟢 1 活跃</span>
+          <span class="stat-pill">🟡 1 停滞</span>
+          <span class="stat-pill">⚪ 0 orphan</span>
+          <span class="stat-pill">共 2</span>
+        </div>
+        <div class="tier-projects">
+
+          <div class="project-row">
+            <span class="project-name">hermes-lite</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">23 文件 · 29h</span>
+          </div>
+          <div class="project-row">
+            <span class="project-name">p1-self-evolution</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">30 文件 · 13h</span>
+          </div>
+        </div>
+      </div>
+      <div class="tier-card">
+        <div class="tier-header">
+          <span class="tier-badge" style="background: var(--warn)20; color: var(--warn); border-color: var(--warn);">P2</span>
+          <span class="tier-title">社交网络探索</span>
+          <span class="tier-score">3.5/10</span>
+        </div>
+        <div class="tier-goal">Agent 社交网络互动、社区建立与影响力扩展</div>
+        <div class="tier-stats">
+          <span class="stat-pill">🟢 1 活跃</span>
+          <span class="stat-pill">🟡 1 停滞</span>
+          <span class="stat-pill">⚪ 0 orphan</span>
+          <span class="stat-pill">共 2</span>
+        </div>
+        <div class="tier-projects">
+
+          <div class="project-row">
+            <span class="project-name">p2-agent-social</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">9 文件 · 12h</span>
+          </div>
+          <div class="project-row">
+            <span class="project-name">p2-moltbook</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 12h</span>
+          </div>
+        </div>
+      </div>
 </div>
 
 <div class="grid">
@@ -251,7 +554,7 @@ footer {
   <div class="card">
     <h2>运行环境</h2>
     <div class="metric"><span>主机</span><span class="metric-value">VM-13-249-ubuntu</span></div>
-    <div class="metric"><span>磁盘</span><span class="metric-value">77%</span></div>
+    <div class="metric"><span>磁盘</span><span class="metric-value">83%</span></div>
     <div class="metric"><span>Node.js</span><span class="metric-value">v24.15.0</span></div>
     <div class="metric"><span>Python</span><span class="metric-value">Python 3.12.3</span></div>
     <div class="metric"><span>OpenClaw</span><span class="metric-value">OpenClaw 2026.4.14 (323493f)</span></div>
@@ -262,7 +565,7 @@ footer {
     <h2>Harness 机制</h2>
     <div class="metric"><span>Cron Jobs</span><span class="metric-value">9</span></div>
     <div class="metric"><span>Gateway</span><span class="metric-value">Service: systemd (en</span></div>
-    <div class="metric"><span>Sessions</span><span class="metric-value">238 个</span></div>
+    <div class="metric"><span>Sessions</span><span class="metric-value">242 个</span></div>
     <div class="metric"><span>Git 分支</span><span class="metric-value">main</span></div>
     <div class="metric"><span>未提交</span><span class="metric-value">有</span></div>
   </div>
@@ -271,9 +574,9 @@ footer {
   <div class="card">
     <h2>记忆系统</h2>
     <div class="metric"><span>关键文件</span><span class="metric-value">✅</span></div>
-    <div class="metric"><span>记忆文件</span><span class="metric-value">26</span></div>
-    <div class="metric"><span>日记总数</span><span class="metric-value">169</span></div>
-    <div class="metric"><span>7天日记</span><span class="metric-value">47</span></div>
+    <div class="metric"><span>记忆文件</span><span class="metric-value">27</span></div>
+    <div class="metric"><span>日记总数</span><span class="metric-value">170</span></div>
+    <div class="metric"><span>7天日记</span><span class="metric-value">40</span></div>
   </div>
   
   <!-- 能力 -->
@@ -300,7 +603,7 @@ footer {
 <div class="card" style="margin-bottom: 2rem;">
   <h2>📋 Skill 源码</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    本报告由 P1.0 baseline-check Skill（模块化架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
+    本报告由 P1.0 baseline-check Skill（v3 AI+Gap 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
   </p>
   <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
@@ -478,19 +781,22 @@ self-check-v1 ──→ 验证执行结果
       🐍 orchestrator.py
     </summary>
     <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
-"""orchestrator.py — P1.0 baseline-check 编排器
-并行运行所有检查模块，收集输出，计算评分，生成告警
+"""orchestrator.py — P1.0 baseline-check 编排器 v3
+并行运行所有检查模块，收集输出，AI 分析，期望 vs 现实对比，计算评分，生成告警
 用法：python3 orchestrator.py
 输出：统一 JSON 到 stdout，同时写入 reports/p1-0/latest.json
 """
 
-import os, sys, json, subprocess, time, glob
+import os, sys, json, subprocess, time, glob, re
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 WORKSPACE = "/root/.openclaw/workspace"
 MODULES_DIR = f"{WORKSPACE}/skills/p1-0/modules"
 REPORTS_DIR = f"{WORKSPACE}/reports/p1-0"
+STATE_DIR = f"{WORKSPACE}/references/self-evolution/state"
+MEMORY_PATH = f"{WORKSPACE}/MEMORY.md"
+
 
 def run_module(script_path, timeout=30):
     """运行单个模块，返回 JSON 输出或错误信息"""
@@ -512,26 +818,436 @@ def run_module(script_path, timeout=30):
     except Exception as e:
         return {"module": os.path.basename(script_path), "error": str(e), "checks_passed": 0, "checks_total": 0}
 
+
+def load_expected_state():
+    """读取 MEMORY.md 和 P*.json 作为期望状态"""
+    expected = {}
+
+    # 读取 P*.json 状态文件
+    for tier in ["P0", "P1", "P2", "P3"]:
+        path = f"{STATE_DIR}/{tier}.json"
+        if os.path.exists(path):
+            try:
+                with open(path, "r") as f:
+                    data = json.load(f)
+                expected[tier] = {
+                    "source": f"{tier}.json",
+                    "current_step": data.get("current_step") or data.get("current_phase"),
+                    "last_action": data.get("last_action", "")[:200],
+                    "blocker": data.get("blocker") or data.get("waiting_for"),
+                    "last_updated": data.get("last_updated"),
+                    "next_steps": [s.get("task", s.get("id", "")) for s in data.get("next_steps", [])[:2]],
+                }
+            except Exception as e:
+                expected[tier] = {"source": f"{tier}.json", "error": str(e)}
+
+    # 从 MEMORY.md 提取关键期望线索
+    memory_expectations = {}
+    if os.path.exists(MEMORY_PATH):
+        try:
+            with open(MEMORY_PATH, "r", encoding="utf-8") as f:
+                mem_text = f.read()
+            # 提取 P0 相关期望
+            if "bounty" in mem_text.lower() or "github" in mem_text.lower():
+                memory_expectations["P0"] = "记忆中关注 bounty / GitHub 赚钱任务"
+            if "自进化" in mem_text or "P1" in mem_text or "Cycle" in mem_text:
+                memory_expectations["P1"] = "记忆中 P1 自进化 / Cycle 循环在推进"
+            if "社交" in mem_text or "Moltbook" in mem_text or "Colony" in mem_text:
+                memory_expectations["P2"] = "记忆中社交网络 / Moltbook / Colony 互动"
+        except:
+            pass
+
+    return {"files": expected, "memory_hints": memory_expectations}
+
+
+def perform_ai_analysis(modules_data):
+    """
+    AI 分析所有模块数据，产出定性洞察。
+    规则驱动 + 启发式，模拟大模型分析思维。
+    返回结构化分析结果。
+    """
+    analysis = {
+        "summary": "",
+        "tier_insights": {},
+        "anomalies": [],
+        "trends": [],
+        "recommendations": [],
+        "health_assessment": {},
+    }
+
+    # 提取关键数据
+    projects_mod = modules_data.get("projects", {})
+    groups = projects_mod.get("data", {}).get("groups", [])
+    flat_projects = projects_mod.get("data", {}).get("flat_projects", [])
+    env_mod = modules_data.get("environment", {})
+    env_data = env_mod.get("data", {})
+    mem_mod = modules_data.get("memory", {})
+    mem_data = mem_mod.get("data", {})
+    cap_mod = modules_data.get("capabilities", {})
+    cap_data = cap_mod.get("data", {})
+    harness_mod = modules_data.get("harness", {})
+    harness_data = harness_mod.get("data", {})
+
+    # ── 1. 项目群健康度评估 ──
+    for g in groups:
+        tier = g["tier"]
+        stats = g["stats"]
+        projects = g["projects"]
+
+        health_notes = []
+        if stats["active"] == stats["total"]:
+            health_notes.append(f"✅ {tier} 所有 {stats['total']} 个项目均活跃")
+        elif stats["stale"] &gt; 0:
+            health_notes.append(f"⚠️ {tier} 有 {stats['stale']}/{stats['total']} 个项目停滞")
+            # 找出最老 stale
+            stale_projs = [p for p in projects if p["status"] == "stale"]
+            if stale_projs:
+                oldest = max(stale_projs, key=lambda x: x["age_hours"])
+                health_notes.append(f"   最老停滞: {oldest['name']} ({oldest['age_hours']:.0f}h)")
+        if stats["orphan"] &gt; 0:
+            health_notes.append(f"⚪ {tier} 有 {stats['orphan']} 个 orphan 项目需整理")
+
+        analysis["health_assessment"][tier] = {
+            "score": g.get("group_score", 0),
+            "status": g.get("group_status", "unknown"),
+            "notes": health_notes,
+        }
+
+    # ── 2. 异常识别 ──
+    anomalies = []
+
+    # 磁盘异常
+    disk_pct = env_data.get("disk", {}).get("usage_percent", 0)
+    if disk_pct &gt; 85:
+        anomalies.append({
+            "severity": "high",
+            "category": "environment",
+            "finding": f"磁盘使用率 {disk_pct}% 超过 85% 阈值",
+            "detail": "可能引发日志写入失败或 session 无法保存",
+        })
+
+    # 项目停滞异常
+    for p in flat_projects:
+        if p["status"] == "stale" and p["age_hours"] &gt; 72:
+            anomalies.append({
+                "severity": "medium",
+                "category": "project",
+                "finding": f"{p['name']} 已停滞 {p['age_hours']:.0f}h（超过3天）",
+                "detail": f"最后动作: {p.get('last_action') or '无记录'}",
+            })
+        if p["status"] == "ghost":
+            anomalies.append({
+                "severity": "low",
+                "category": "project",
+                "finding": f"{p['name']} 是 ghost 项目（空目录）",
+                "detail": "建议归档或填充内容",
+            })
+
+    # 关键文件缺失
+    if not mem_data.get("all_key_files_exist"):
+        missing = [k for k, v in mem_data.get("key_files", {}).items() if not v or not v.get("exists")]
+        anomalies.append({
+            "severity": "high",
+            "category": "memory",
+            "finding": f"关键记忆文件缺失: {', '.join(missing)}",
+            "detail": "核心身份和记忆可能丢失",
+        })
+
+    # 日记断更
+    diary_7d = mem_data.get("diary_recent_7d", 0)
+    if diary_7d == 0:
+        anomalies.append({
+            "severity": "medium",
+            "category": "memory",
+            "finding": "7 天内无日记记录",
+            "detail": "内观机制可能未正常运行",
+        })
+
+    # 能力缺失
+    if not cap_data.get("github_api"):
+        anomalies.append({
+            "severity": "medium",
+            "category": "capability",
+            "finding": "GitHub API 不可用",
+            "detail": "影响 bounty 扫描和 PR 提交",
+        })
+
+    # 模块失败
+    for name, mod in modules_data.items():
+        if mod.get("error"):
+            anomalies.append({
+                "severity": "high",
+                "category": "module",
+                "finding": f"模块 {name} 运行失败: {mod['error'][:60]}",
+                "detail": "数据不完整，建议检查脚本",
+            })
+
+    analysis["anomalies"] = anomalies
+
+    # ── 3. 趋势判断 ──
+    trends = []
+
+    # 读取上次 baseline 对比
+    state_path = f"{WORKSPACE}/skills/p1-0/state.json"
+    last_score = None
+    if os.path.exists(state_path):
+        try:
+            with open(state_path, "r") as f:
+                old_state = json.load(f)
+            last_baseline = old_state.get("last_baseline", {})
+            last_score = last_baseline.get("score", {}).get("total")
+        except:
+            pass
+
+    # 当前计算出的 score（先算出来用于趋势）
+    current_score, _ = calculate_score(modules_data)
+    if last_score is not None:
+        delta = round(current_score - last_score, 1)
+        if delta &gt;= 0.5:
+            trends.append(f"📈 系统健康度提升 {delta} 分（{last_score} → {current_score}）")
+        elif delta &lt;= -0.5:
+            trends.append(f"📉 系统健康度下降 {abs(delta)} 分（{last_score} → {current_score}）")
+        else:
+            trends.append(f"➡️ 系统健康度持平（{current_score} 分）")
+    else:
+        trends.append(f"🆕 首次 baseline，当前评分 {current_score}")
+
+    # 活跃项目趋势
+    total_active = sum(g["stats"]["active"] for g in groups)
+    total_projects = sum(g["stats"]["total"] for g in groups)
+    if total_projects &gt; 0:
+        active_ratio = total_active / total_projects
+        if active_ratio &gt;= 0.5:
+            trends.append(f"✅ 活跃项目占比 {active_ratio*100:.0f}%，整体可控")
+        else:
+            trends.append(f"⚠️ 活跃项目仅占 {active_ratio*100:.0f}%，多数项目停滞")
+
+    # 环境趋势
+    if disk_pct &gt; 90:
+        trends.append("🔴 磁盘逼近满载，近期需紧急清理")
+    elif disk_pct &gt; 80:
+        trends.append("🟡 磁盘使用率偏高，建议纳入下周清理计划")
+
+    analysis["trends"] = trends
+
+    # ── 4. 改进建议 ──
+    recommendations = []
+
+    # 按异常优先级排序建议
+    high_anomalies = [a for a in anomalies if a["severity"] == "high"]
+    medium_anomalies = [a for a in anomalies if a["severity"] == "medium"]
+
+    for a in high_anomalies[:3]:
+        recommendations.append({
+            "priority": "immediate",
+            "target": a["category"],
+            "action": f"处理 {a['finding']} — {a['detail']}",
+        })
+
+    for a in medium_anomalies[:3]:
+        recommendations.append({
+            "priority": "this_cycle",
+            "target": a["category"],
+            "action": f"跟进 {a['finding']} — {a['detail']}",
+        })
+
+    # 通用建议
+    if total_active &lt; total_projects:
+        stale_names = [p["name"] for g in groups for p in g["projects"] if p["status"] == "stale"]
+        if stale_names:
+            recommendations.append({
+                "priority": "this_cycle",
+                "target": "projects",
+                "action": f"激活停滞项目: {', '.join(stale_names[:3])}",
+            })
+
+    if not mem_data.get("all_key_files_exist"):
+        recommendations.append({
+            "priority": "immediate",
+            "target": "memory",
+            "action": "从 git 恢复缺失的关键记忆文件",
+        })
+
+    analysis["recommendations"] = recommendations
+
+    # ── 5. 生成 summary 段落 ──
+    summary_parts = []
+    summary_parts.append(f"本周期扫描到 {total_projects} 个项目分布在 {len(groups)} 个项目群中。")
+    summary_parts.append(f"系统健康评分 {current_score}/10，")
+
+    if high_anomalies:
+        summary_parts.append(f"发现 {len(high_anomalies)} 个严重异常需立即处理。")
+    elif medium_anomalies:
+        summary_parts.append(f"有 {len(medium_anomalies)} 项中度偏差建议本周期跟进。")
+    else:
+        summary_parts.append("未发现显著异常，系统运行平稳。")
+
+    # 项目群具体状况
+    group_summaries = []
+    for g in groups:
+        gs = g["group_status"]
+        if gs == "healthy":
+            group_summaries.append(f"{g['tier']} 群健康")
+        elif gs == "mixed":
+            group_summaries.append(f"{g['tier']} 群部分停滞（{g['stats']['stale']}/{g['stats']['total']}）")
+        elif gs == "stale":
+            group_summaries.append(f"{g['tier']} 群全面停滞")
+        else:
+            group_summaries.append(f"{g['tier']} 群有 orphan 项目")
+    if group_summaries:
+        summary_parts.append("项目群状况: " + "；".join(group_summaries) + "。")
+
+    analysis["summary"] = "".join(summary_parts)
+
+    return analysis
+
+
+def generate_gap_matrix(modules_data, expected_state):
+    """
+    期望 vs 现实 差距矩阵
+    读取 P*.json 期望状态 + MEMORY.md 记忆，与扫描现实对比
+    """
+    projects_mod = modules_data.get("projects", {})
+    groups = projects_mod.get("data", {}).get("groups", [])
+    flat_projects = projects_mod.get("data", {}).get("flat_projects", [])
+
+    matrix = []
+    file_expectations = expected_state.get("files", {})
+    memory_hints = expected_state.get("memory_hints", {})
+
+    tier_defs = {
+        "P0": {"name": "P0: GitHub 赚钱任务", "fallback_goal": "通过 GitHub / bounty 获取收入"},
+        "P1": {"name": "P1: 自进化任务", "fallback_goal": "自学习循环、Skill 进化"},
+        "P2": {"name": "P2: 社交网络探索", "fallback_goal": "Agent 社区互动"},
+        "P3": {"name": "P3: 用户安排的其它任务", "fallback_goal": "用户指派任务"},
+    }
+
+    for tier, td in tier_defs.items():
+        exp = file_expectations.get(tier, {})
+        group = next((g for g in groups if g["tier"] == tier), None)
+
+        # 期望状态描述
+        expected_desc = ""
+        if exp.get("error"):
+            expected_desc = f"期望文件读取失败: {exp['error']}"
+        elif exp:
+            step = exp.get("current_step") or "未记录"
+            last_action = exp.get("last_action", "")[:60]
+            blocker = exp.get("blocker")
+            next_steps = exp.get("next_steps", [])
+            expected_desc = f"当前阶段: {step}"
+            if last_action:
+                expected_desc += f" | 最近动作: {last_action}"
+            if next_steps:
+                expected_desc += f" | 下一步: {next_steps[0]}"
+            if blocker:
+                expected_desc += f" | 🔴 blocker: {blocker}"
+        else:
+            expected_desc = memory_hints.get(tier, "未记录期望")
+
+        # 现实状态描述
+        if group:
+            stats = group["stats"]
+            stale_names = [p["name"] for p in group["projects"] if p["status"] == "stale"]
+            active_names = [p["name"] for p in group["projects"] if p["status"] == "active"]
+            reality_desc = f"{stats['active']}/{stats['total']} 活跃"
+            if stale_names:
+                reality_desc += f" | 停滞: {', '.join(stale_names)}"
+            if active_names:
+                reality_desc += f" | 活跃: {', '.join(active_names)}"
+        else:
+            # 检查是否有未分组的该项目
+            orphan = [p for p in flat_projects if p["name"].startswith(tier.lower())]
+            if orphan:
+                reality_desc = f"有 {len(orphan)} 个项目但未归类到 {tier}"
+            else:
+                reality_desc = "无项目"
+
+        # 差距判断
+        gap_level = "✅ 符合"
+        gap_reason = ""
+        suggestion = "维持现状"
+
+        if not group and not orphan:
+            gap_level = "⚪ 未启动"
+            gap_reason = "项目群为空"
+            suggestion = f"启动 {td['fallback_goal']}"
+        elif group:
+            stats = group["stats"]
+            if stats["total"] &gt; 0 and stats["active"] == 0:
+                gap_level = "🔴 严重偏差"
+                gap_reason = "全部项目停滞"
+                suggestion = f"检查 blocker，激活 {tier} 任务"
+            elif stats["stale"] &gt; 0 and stats["active"] &gt; 0:
+                gap_level = "🟡 偏差"
+                gap_reason = f"{stats['stale']}/{stats['total']} 项目停滞"
+                # 检查期望中是否有 blocker
+                if exp and exp.get("blocker"):
+                    suggestion = f"blocker: {exp['blocker']}，需浩然介入或重新规划"
+                else:
+                    oldest_stale = max(
+                        [p for p in group["projects"] if p["status"] == "stale"],
+                        key=lambda x: x["age_hours"],
+                        default=None
+                    )
+                    if oldest_stale and oldest_stale["age_hours"] &gt; 48:
+                        suggestion = f"{oldest_stale['name']} 已停滞 {oldest_stale['age_hours']:.0f}h，检查 blocker 或推进 next action"
+                    else:
+                        suggestion = "推进 next action，激活停滞项目"
+            elif exp and exp.get("blocker"):
+                gap_level = "🔴 严重偏差"
+                gap_reason = f"期望中记录 blocker: {exp['blocker']}"
+                suggestion = "解除 blocker 是首要任务"
+            elif stats["active"] == stats["total"]:
+                gap_level = "✅ 符合"
+                gap_reason = "所有项目活跃"
+                suggestion = "维持节奏，考虑扩展"
+
+        matrix.append({
+            "tier": tier,
+            "tier_name": td["name"],
+            "expected": expected_desc,
+            "reality": reality_desc,
+            "gap": gap_level,
+            "gap_reason": gap_reason,
+            "suggestion": suggestion,
+        })
+
+    return matrix
+
+
 def calculate_score(modules_data):
     """计算系统健康分
     项目30% + 环境20% + 记忆20% + 能力20% + 趋势10%
     """
     score = 0
     breakdown = {}
-    
-    # 项目健康 (30%)
+
+    # 项目健康 (30%) — 基于项目群加权平均
     projects_mod = modules_data.get("projects", {})
-    projects_data = projects_mod.get("data", {})
-    projects_list = projects_data.get("projects", [])
-    active = len([p for p in projects_list if p.get("status") == "active"])
-    total = len(projects_list)
-    if total &gt; 0:
-        project_score = min(10, (active / total) * 10)
+    groups = projects_mod.get("data", {}).get("groups", [])
+    flat_projects = projects_mod.get("data", {}).get("flat_projects", [])
+
+    if groups:
+        # 项目群级别加权：按项目数加权平均
+        total_weight = sum(g["stats"]["total"] for g in groups)
+        if total_weight &gt; 0:
+            project_score = sum(
+                g.get("group_score", 0) * (g["stats"]["total"] / total_weight)
+                for g in groups
+            )
+        else:
+            project_score = 5
+    elif flat_projects:
+        active = len([p for p in flat_projects if p.get("status") == "active"])
+        total = len(flat_projects)
+        project_score = min(10, (active / total) * 10) if total &gt; 0 else 5
     else:
         project_score = 5
+
     breakdown["projects"] = round(project_score, 1)
     score += project_score * 0.30
-    
+
     # 环境稳定 (20%)
     env_mod = modules_data.get("environment", {})
     env_data = env_mod.get("data", {})
@@ -545,7 +1261,7 @@ def calculate_score(modules_data):
         env_score -= 3
     breakdown["environment"] = round(max(0, env_score), 1)
     score += max(0, env_score) * 0.20
-    
+
     # 记忆完整 (20%)
     mem_mod = modules_data.get("memory", {})
     mem_data = mem_mod.get("data", {})
@@ -554,7 +1270,7 @@ def calculate_score(modules_data):
         mem_score -= 2
     breakdown["memory"] = round(max(0, mem_score), 1)
     score += max(0, mem_score) * 0.20
-    
+
     # 能力可用 (20%)
     cap_mod = modules_data.get("capabilities", {})
     cap_data = cap_mod.get("data", {})
@@ -564,36 +1280,39 @@ def calculate_score(modules_data):
     cap_score = (available / len(cap_list)) * 10 if cap_list else 5
     breakdown["capabilities"] = round(cap_score, 1)
     score += cap_score * 0.20
-    
-    # 历史趋势 (10%)
-    trend_score = 5  # 默认持平，后续版本可从 state.json 对比
+
+    # 历史趋势 (10%) — 基于上次对比，默认 5
+    trend_score = 5
     breakdown["trend"] = trend_score
     score += trend_score * 0.10
-    
+
     return round(score, 1), breakdown
+
 
 def generate_alerts(modules_data):
     """从模块数据生成告警清单"""
     alerts = []
-    
-    # 项目告警
+
+    # 项目群级别告警
     projects_mod = modules_data.get("projects", {})
-    for p in projects_mod.get("data", {}).get("projects", []):
-        if p.get("status") == "stale":
+    groups = projects_mod.get("data", {}).get("groups", [])
+    for g in groups:
+        if g.get("group_status") == "stale":
+            alerts.append({
+                "level": "critical",
+                "category": "project_group",
+                "item": f"{g['name']} 全面停滞 ({g['stats']['stale']}/{g['stats']['total']} 项目 stale)",
+                "suggestion": f"检查 {g['tier']} 项目群的 blocker，优先激活",
+            })
+        elif g.get("group_status") == "mixed":
+            stale_names = [p["name"] for p in g["projects"] if p["status"] == "stale"]
             alerts.append({
                 "level": "warning",
-                "category": "project",
-                "item": f"{p['name']} stale {p['age_hours']:.0f}h",
-                "suggestion": f"检查 {p['name']} 的 blocker 或推进 next action",
+                "category": "project_group",
+                "item": f"{g['name']} 部分停滞: {', '.join(stale_names)}",
+                "suggestion": f"推进 {g['tier']} 停滞项目的 next action",
             })
-        elif p.get("status") == "ghost":
-            alerts.append({
-                "level": "info",
-                "category": "project",
-                "item": f"{p['name']} 是 ghost 项目",
-                "suggestion": "归档或填充内容",
-            })
-    
+
     # 环境告警
     env_mod = modules_data.get("environment", {})
     env_data = env_mod.get("data", {})
@@ -605,7 +1324,7 @@ def generate_alerts(modules_data):
             "item": f"磁盘使用率 {disk_pct}%",
             "suggestion": "清理日志和旧 session 文件",
         })
-    
+
     # 记忆告警
     mem_mod = modules_data.get("memory", {})
     mem_data = mem_mod.get("data", {})
@@ -624,7 +1343,7 @@ def generate_alerts(modules_data):
             "item": "7 天内无日记记录",
             "suggestion": "检查内观机制是否正常运行",
         })
-    
+
     # 能力告警
     cap_mod = modules_data.get("capabilities", {})
     cap_data = cap_mod.get("data", {})
@@ -635,7 +1354,7 @@ def generate_alerts(modules_data):
             "item": "GitHub API 不可用",
             "suggestion": "检查 PAT 是否过期",
         })
-    
+
     # 模块失败告警
     for name, mod in modules_data.items():
         if "error" in mod and mod["error"]:
@@ -645,23 +1364,24 @@ def generate_alerts(modules_data):
                 "item": f"模块 {name} 运行失败: {mod['error']}",
                 "suggestion": "检查模块脚本",
             })
-    
+
     # 排序
     level_order = {"critical": 0, "warning": 1, "info": 2}
     alerts.sort(key=lambda x: level_order.get(x["level"], 99))
-    
+
     return alerts
+
 
 def main():
     os.makedirs(REPORTS_DIR, exist_ok=True)
     os.makedirs(f"{REPORTS_DIR}/history", exist_ok=True)
-    
-    print("🔍 P1.0 baseline-check orchestrator 启动...")
-    
+
+    print("🔍 P1.0 baseline-check orchestrator v3 启动...", file=sys.stderr)
+
     # 发现所有模块
     module_scripts = sorted(glob.glob(f"{MODULES_DIR}/check-*.py"))
-    print(f"  → 发现 {len(module_scripts)} 个检查模块")
-    
+    print(f"  → 发现 {len(module_scripts)} 个检查模块", file=sys.stderr)
+
     # 并行运行所有模块
     modules_data = {}
     with ThreadPoolExecutor(max_workers=7) as executor:
@@ -674,24 +1394,32 @@ def main():
                 modules_data[key] = result
                 error = result.get("error")
                 if error:
-                    print(f"  ⚠️ {key}: {error}")
+                    print(f"  ⚠️ {key}: {error}", file=sys.stderr)
                 else:
                     passed = result.get("checks_passed", 0)
                     total = result.get("checks_total", 0)
-                    print(f"  ✅ {key}: {passed}/{total} 通过")
+                    print(f"  ✅ {key}: {passed}/{total} 通过", file=sys.stderr)
             except Exception as e:
-                print(f"  ❌ {module_name}: {e}")
+                print(f"  ❌ {module_name}: {e}", file=sys.stderr)
                 modules_data[module_name] = {"module": module_name, "error": str(e), "checks_passed": 0, "checks_total": 0}
-    
+
+    print("🧠 执行 AI 分析...", file=sys.stderr)
+    ai_analysis = perform_ai_analysis(modules_data)
+
+    # ── 期望 vs 现实 ──
+    print("📋 生成期望 vs 现实差距矩阵...", file=sys.stderr)
+    expected_state = load_expected_state()
+    gap_matrix = generate_gap_matrix(modules_data, expected_state)
+
     # 计算评分
-    print("📊 计算评分...")
+    print("📊 计算评分...", file=sys.stderr)
     score, breakdown = calculate_score(modules_data)
     alerts = generate_alerts(modules_data)
-    
+
     # 组装统一报告
     report = {
         "meta": {
-            "version": "p1-baseline-v2-modular",
+            "version": "p1-baseline-v3-ai-gap",
             "generated_at": datetime.now().isoformat(),
             "workspace": WORKSPACE,
             "modules_run": len(module_scripts),
@@ -704,6 +1432,8 @@ def main():
             "grade": "A" if score &gt;= 8 else ("B" if score &gt;= 6 else ("C" if score &gt;= 4 else "D")),
         },
         "modules": modules_data,
+        "ai_analysis": ai_analysis,
+        "gap_matrix": gap_matrix,
         "alerts": alerts,
         "alert_count": {
             "critical": len([a for a in alerts if a["level"] == "critical"]),
@@ -711,13 +1441,13 @@ def main():
             "info": len([a for a in alerts if a["level"] == "info"]),
         },
     }
-    
+
     # 写入 latest.json
     json_path = f"{REPORTS_DIR}/latest.json"
     with open(json_path, "w") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
-    print(f"  → JSON: {json_path}")
-    
+    print(f"  → JSON: {json_path}", file=sys.stderr)
+
     # 写入 state.json
     state_path = f"{WORKSPACE}/skills/p1-0/state.json"
     state = {}
@@ -731,21 +1461,25 @@ def main():
     state["last_run"] = datetime.now().isoformat()
     with open(state_path, "w") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
-    
-    # 输出摘要
-    print(f"""
+
+    # 输出摘要（到 stderr，避免污染 JSON 输出）
+    summary_text = f"""
 {'='*60}
 ✅ P1.0 检查完成
 {'='*60}
 评分：{score}/10（{report['score']['grade']} 级）
 模块：{report['meta']['modules_ok']}/{report['meta']['modules_run']} 成功
 告警：🔴 {report['alert_count']['critical']} 🟡 {report['alert_count']['warning']} 🟢 {report['alert_count']['info']}
+AI 摘要：{ai_analysis['summary'][:120]}...
+差距矩阵：{len(gap_matrix)} 个项目群已对比
 {'='*60}
-""")
-    
-    # 同时输出到 stdout
+"""
+    print(summary_text, file=sys.stderr)
+
+    # 只输出 JSON 到 stdout
     print(json.dumps(report, indent=2, ensure_ascii=False))
     return report
+
 
 if __name__ == "__main__":
     main()
@@ -1154,8 +1888,9 @@ if __name__ == "__main__":
       🐍 check-projects.py
     </summary>
     <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
-"""check-projects.py — 项目审计模块（workspace + projects/ 扫描）
+"""check-projects.py — 项目审计模块（四层项目群结构）
 独立运行输出 JSON：python3 check-projects.py
+输出格式：{"module": "projects", "data": {"groups": [...]}, ...}
 """
 
 import os, json, time
@@ -1173,13 +1908,124 @@ EXCLUDE_FILES = {
     ".git", ".github", ".openclaw", ".config", ".cache", ".npm", ".nvm",
 }
 
+# 四层项目群定义：name_pattern → tier
+TIER_MAP = {
+    # P0: GitHub 赚钱任务
+    "bounty": {"tier": "P0", "group_name": "P0: GitHub 赚钱任务", "group_goal": "通过 GitHub issue、bounty 平台获取收入"},
+    "p0-github-money": {"tier": "P0", "group_name": "P0: GitHub 赚钱任务", "group_goal": "通过 GitHub issue、bounty 平台获取收入"},
+    "p0-": {"tier": "P0", "group_name": "P0: GitHub 赚钱任务", "group_goal": "通过 GitHub issue、bounty 平台获取收入"},
+    # P1: 自进化任务
+    "p1-self-evolution": {"tier": "P1", "group_name": "P1: 自进化任务", "group_goal": "自学习、自改进、Skill 进化与系统能力增强"},
+    "hermes-lite": {"tier": "P1", "group_name": "P1: 自进化任务", "group_goal": "自学习、自改进、Skill 进化与系统能力增强"},
+    "p1-": {"tier": "P1", "group_name": "P1: 自进化任务", "group_goal": "自学习、自改进、Skill 进化与系统能力增强"},
+    # P2: 社交网络探索
+    "p2-agent-social": {"tier": "P2", "group_name": "P2: 社交网络探索", "group_goal": "Agent 社交网络互动、社区建立与影响力扩展"},
+    "p2-moltbook": {"tier": "P2", "group_name": "P2: 社交网络探索", "group_goal": "Agent 社交网络互动、社区建立与影响力扩展"},
+    "p2-": {"tier": "P2", "group_name": "P2: 社交网络探索", "group_goal": "Agent 社交网络互动、社区建立与影响力扩展"},
+    # P3: 用户安排的其它任务
+    "p3-": {"tier": "P3", "group_name": "P3: 用户安排的其它任务", "group_goal": "用户直接指派的外部任务与探索"},
+}
+
+
+def detect_tier(name):
+    """根据项目名称检测所属项目群"""
+    # 完全匹配优先
+    if name in TIER_MAP:
+        return TIER_MAP[name]
+    # 前缀匹配
+    for prefix, info in TIER_MAP.items():
+        if name.startswith(prefix):
+            return info
+    # 尝试从 state.json 中的 tier 字段推断
+    return {"tier": None, "group_name": "未分类", "group_goal": "未归类到任何项目群"}
+
+
+def scan_single_project(name, path):
+    """扫描单个项目目录，返回项目详情字典"""
+    has_state = os.path.exists(f"{path}/state.json")
+    has_readme = os.path.exists(f"{path}/README.md") or os.path.exists(f"{path}/readme.md")
+    has_project_py = os.path.exists(f"{path}/project-status.py")
+    has_todo = os.path.exists(f"{path}/todo") and os.path.isdir(f"{path}/todo")
+
+    state_info = None
+    tier_from_state = None
+    last_updated = None
+    blocker = None
+    last_action = None
+
+    if has_state:
+        try:
+            with open(f"{path}/state.json", "r") as f:
+                state_info = json.load(f)
+            tier_from_state = state_info.get("tier") or state_info.get("p0_id") or state_info.get("tier_id")
+            if tier_from_state == "github-money":
+                tier_from_state = "P0"
+            last_updated = (state_info.get("last_updated") or state_info.get("updated_at") or
+                           state_info.get("last_update") or state_info.get("scan_time") or
+                           state_info.get("completed_at") or state_info.get("started_at"))
+            blocker = state_info.get("blocker") or state_info.get("current_blocker")
+            last_action = (state_info.get("last_action") or state_info.get("latest_progress") or
+                          state_info.get("last_action_summary") or state_info.get("current_phase"))
+        except:
+            state_info = {"error": "invalid json"}
+
+    file_count = 0
+    latest_mtime = 0
+    for root, dirs, files_inner in os.walk(path):
+        dirs[:] = [d for d in dirs if not d.startswith(".") and d not in ["node_modules", "__pycache__", ".git"]]
+        file_count += len(files_inner)
+        for f in files_inner:
+            try:
+                mtime = os.path.getmtime(os.path.join(root, f))
+                if mtime &gt; latest_mtime:
+                    latest_mtime = mtime
+            except:
+                pass
+
+    age_hours = (time.time() - latest_mtime) / 3600 if latest_mtime else float("inf")
+
+    check_time = last_updated
+    if not check_time and latest_mtime:
+        check_time = datetime.fromtimestamp(latest_mtime).isoformat()
+
+    if file_count == 0:
+        status = "ghost"
+    elif has_state and check_time:
+        try:
+            lu_dt = datetime.fromisoformat(check_time.replace("Z", "+00:00"))
+            lu_age = (datetime.now() - lu_dt).total_seconds() / 3600
+            status = "active" if lu_age &lt; 168 else "stale"
+        except:
+            status = "stale"
+    elif has_state and not check_time:
+        status = "stale"
+    elif file_count &gt; 0:
+        status = "orphan"
+    else:
+        status = "ghost"
+
+    return {
+        "name": name,
+        "path": path,
+        "has_state_json": has_state,
+        "has_readme": has_readme,
+        "has_project_py": has_project_py,
+        "has_todo": has_todo,
+        "file_count": file_count,
+        "last_modified": datetime.fromtimestamp(latest_mtime).isoformat() if latest_mtime else None,
+        "age_hours": round(age_hours, 1),
+        "status": status,
+        "blocker": blocker,
+        "last_action": str(last_action)[:200] if last_action else None,
+        "state_tier": tier_from_state,
+    }
+
+
 def check():
     checks_passed = 0
     checks_total = 2
-    
-    projects = []
-    seen = set()
-    
+
+    # 收集所有候选目录
     candidates = []
     for item in os.listdir(WORKSPACE):
         item_path = os.path.join(WORKSPACE, item)
@@ -1188,126 +2034,142 @@ def check():
         if item.startswith(".") or item in EXCLUDE_DIRS or item in EXCLUDE_FILES:
             continue
         candidates.append((item, item_path))
-    
+
+    # projects/ 子目录
     projects_dir = f"{WORKSPACE}/projects"
     if os.path.exists(projects_dir):
         for sub in os.listdir(projects_dir):
             sub_path = os.path.join(projects_dir, sub)
             if os.path.isdir(sub_path) and not sub.startswith(".") and sub not in EXCLUDE_DIRS:
                 candidates.append((sub, sub_path))
-    
+
+    # 去重扫描
+    seen = set()
+    all_projects = []
     for name, path in candidates:
         if name in seen:
             continue
         seen.add(name)
-        
-        has_state = os.path.exists(f"{path}/state.json")
-        has_readme = os.path.exists(f"{path}/README.md") or os.path.exists(f"{path}/readme.md")
-        has_project_py = os.path.exists(f"{path}/project-status.py")
-        has_todo = os.path.exists(f"{path}/todo") and os.path.isdir(f"{path}/todo")
-        is_tiered = name.startswith(("p0-", "p1-", "p2-", "p3-"))
-        
+
+        # 排除非项目目录
         try:
             files = os.listdir(path)
             is_empty = len(files) == 0
             only_hidden = all(f.startswith(".") for f in files)
         except:
             continue
-        
+
+        # 判定是否为项目：有 state.json / README / project-status.py / todo / tiered 前缀
+        has_state = os.path.exists(f"{path}/state.json")
+        has_readme = os.path.exists(f"{path}/README.md") or os.path.exists(f"{path}/readme.md")
+        has_project_py = os.path.exists(f"{path}/project-status.py")
+        has_todo = os.path.exists(f"{path}/todo") and os.path.isdir(f"{path}/todo")
+        is_tiered = name.startswith(("p0-", "p1-", "p2-", "p3-"))
         is_project = has_state or has_project_py or (has_readme and has_todo) or is_tiered
+
         if is_empty or only_hidden or not is_project:
             continue
-        
-        state_info = None
-        tier = None
-        last_updated = None
-        blocker = None
-        last_action = None
-        
-        if has_state:
-            try:
-                with open(f"{path}/state.json", "r") as f:
-                    state_info = json.load(f)
-                tier = state_info.get("tier") or state_info.get("p0_id") or state_info.get("tier_id")
-                if tier == "github-money":
-                    tier = "P0"
-                last_updated = (state_info.get("last_updated") or state_info.get("updated_at") or
-                               state_info.get("last_update") or state_info.get("scan_time") or
-                               state_info.get("completed_at") or state_info.get("started_at"))
-                blocker = state_info.get("blocker") or state_info.get("current_blocker")
-                last_action = (state_info.get("last_action") or state_info.get("latest_progress") or
-                              state_info.get("last_action_summary") or state_info.get("current_phase"))
-            except:
-                state_info = {"error": "invalid json"}
-        
-        file_count = 0
-        latest_mtime = 0
-        for root, dirs, files_inner in os.walk(path):
-            dirs[:] = [d for d in dirs if not d.startswith(".") and d not in ["node_modules", "__pycache__", ".git"]]
-            file_count += len(files_inner)
-            for f in files_inner:
-                try:
-                    mtime = os.path.getmtime(os.path.join(root, f))
-                    if mtime &gt; latest_mtime:
-                        latest_mtime = mtime
-                except:
-                    pass
-        
-        age_hours = (time.time() - latest_mtime) / 3600 if latest_mtime else float("inf")
-        
-        check_time = last_updated
-        if not check_time and latest_mtime:
-            check_time = datetime.fromtimestamp(latest_mtime).isoformat()
-        
-        if file_count == 0:
-            status = "ghost"
-        elif has_state and check_time:
-            try:
-                lu_dt = datetime.fromisoformat(check_time.replace("Z", "+00:00"))
-                lu_age = (datetime.now() - lu_dt).total_seconds() / 3600
-                status = "active" if lu_age &lt; 168 else "stale"
-            except:
-                status = "stale"
-        elif has_state and not check_time:
-            status = "stale"
-        elif file_count &gt; 0:
-            status = "orphan"
-        else:
-            status = "ghost"
-        
-        projects.append({
-            "name": name,
-            "path": path,
-            "has_state_json": has_state,
-            "has_readme": has_readme,
-            "has_project_py": has_project_py,
-            "has_todo": has_todo,
-            "file_count": file_count,
-            "last_modified": datetime.fromtimestamp(latest_mtime).isoformat() if latest_mtime else None,
-            "age_hours": round(age_hours, 1),
-            "status": status,
-            "tier": tier,
-            "blocker": blocker,
-            "last_action": str(last_action)[:200] if last_action else None,
-        })
-    
+
+        proj = scan_single_project(name, path)
+        all_projects.append(proj)
+
+    # 按 tier 分组
+    groups = []
     tier_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
-    projects.sort(key=lambda x: (tier_order.get(x["tier"], 99), x["name"]))
-    
-    active_count = len([p for p in projects if p["status"] == "active"])
-    if active_count &gt;= 1: checks_passed += 1
-    if len(projects) &gt;= 1: checks_passed += 1
-    
+    tiers_found = set()
+
+    for proj in all_projects:
+        tier_info = detect_tier(proj["name"])
+        proj["tier"] = tier_info["tier"] or proj.get("state_tier")
+        tiers_found.add(proj["tier"])
+
+    # 按预设顺序创建组
+    tier_defs = [
+        {"tier": "P0", "name": "P0: GitHub 赚钱任务", "goal": "通过 GitHub issue、bounty 平台获取收入"},
+        {"tier": "P1", "name": "P1: 自进化任务", "goal": "自学习、自改进、Skill 进化与系统能力增强"},
+        {"tier": "P2", "name": "P2: 社交网络探索", "goal": "Agent 社交网络互动、社区建立与影响力扩展"},
+        {"tier": "P3", "name": "P3: 用户安排的其它任务", "goal": "用户直接指派的外部任务与探索"},
+    ]
+
+    for td in tier_defs:
+        tier_projects = [p for p in all_projects if p["tier"] == td["tier"]]
+        if not tier_projects:
+            continue
+
+        # 组内排序
+        tier_projects.sort(key=lambda x: x["name"])
+
+        active_count = len([p for p in tier_projects if p["status"] == "active"])
+        stale_count = len([p for p in tier_projects if p["status"] == "stale"])
+        orphan_count = len([p for p in tier_projects if p["status"] == "orphan"])
+        ghost_count = len([p for p in tier_projects if p["status"] == "ghost"])
+        total = len(tier_projects)
+
+        # 项目群健康度评分 (0-10)
+        if total &gt; 0:
+            group_score = (active_count / total) * 10
+            if stale_count &gt; 0:
+                group_score -= (stale_count / total) * 3
+            if ghost_count &gt; 0:
+                group_score -= 1
+            group_score = max(0, round(group_score, 1))
+        else:
+            group_score = 0
+
+        # 项目群整体状态
+        if active_count == total:
+            group_status = "healthy"
+        elif stale_count &gt; 0 and active_count &gt; 0:
+            group_status = "mixed"
+        elif stale_count &gt; 0:
+            group_status = "stale"
+        elif orphan_count &gt; 0:
+            group_status = "orphan"
+        else:
+            group_status = "empty"
+
+        groups.append({
+            "tier": td["tier"],
+            "name": td["name"],
+            "goal": td["goal"],
+            "projects": tier_projects,
+            "stats": {
+                "total": total,
+                "active": active_count,
+                "stale": stale_count,
+                "orphan": orphan_count,
+                "ghost": ghost_count,
+            },
+            "group_score": group_score,
+            "group_status": group_status,
+            "group_health": "🟢 健康" if group_status == "healthy" else (
+                "🟡 部分停滞" if group_status == "mixed" else (
+                "🟠 全面停滞" if group_status == "stale" else "⚪ 空群"
+            )),
+        })
+
+    # 全局统计
+    all_active = sum(g["stats"]["active"] for g in groups)
+    all_stale = sum(g["stats"]["stale"] for g in groups)
+    all_orphan = sum(g["stats"]["orphan"] for g in groups)
+    all_ghost = sum(g["stats"]["ghost"] for g in groups)
+    all_total = all_active + all_stale + all_orphan + all_ghost
+
+    if all_total &gt; 0:
+        checks_passed = (1 if all_active &gt;= 1 else 0) + (1 if all_total &gt;= 1 else 0)
+
     data = {
-        "projects": projects,
-        "active_count": active_count,
-        "stale_count": len([p for p in projects if p["status"] == "stale"]),
-        "orphan_count": len([p for p in projects if p["status"] == "orphan"]),
-        "ghost_count": len([p for p in projects if p["status"] == "ghost"]),
-        "total_count": len(projects),
+        "groups": groups,
+        "flat_projects": all_projects,  # 保留扁平列表供兼容
+        "active_count": all_active,
+        "stale_count": all_stale,
+        "orphan_count": all_orphan,
+        "ghost_count": all_ghost,
+        "total_count": all_total,
     }
-    
+
     return {"module": "projects", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
+
 
 if __name__ == "__main__":
     print(json.dumps(check(), indent=2, ensure_ascii=False))
@@ -1396,7 +2258,7 @@ if __name__ == "__main__":
 
 <script>
 // 评分维度柱状图
-const scoreData = {"projects": 3.3, "environment": 10, "memory": 10, "capabilities": 5.0, "trend": 5};
+const scoreData = {"projects": 2.3, "environment": 10, "memory": 10, "capabilities": 5.0, "trend": 5};
 const scoreContainer = document.getElementById('score-bars');
 const labels = {'projects':'项目','environment':'环境','memory':'记忆','capabilities':'能力','trend':'趋势'};
 for (const [dim, val] of Object.entries(scoreData)) {
@@ -1414,17 +2276,17 @@ for (const [dim, val] of Object.entries(scoreData)) {
 // 注入原始 JSON
 const rawData = {
   "meta": {
-    "version": "p1-baseline-v2-modular",
-    "generated_at": "2026-05-22T01:13:10.094992",
+    "version": "p1-baseline-v3-ai-gap",
+    "generated_at": "2026-05-22T09:59:54.623948",
     "workspace": "/root/.openclaw/workspace",
     "modules_run": 7,
     "modules_ok": 7
   },
   "score": {
-    "total": 6.5,
+    "total": 6.2,
     "max": 10,
     "breakdown": {
-      "projects": 3.3,
+      "projects": 2.3,
       "environment": 10,
       "memory": 10,
       "capabilities": 5.0,
@@ -1442,85 +2304,314 @@ const rawData = {
             "size": 8458,
             "size_human": "8.3KB",
             "mtime": "2026-05-18T17:57:27.039477",
-            "mtime_age_hours": 79.3
+            "mtime_age_hours": 88.0
           },
           "USER.md": {
             "exists": true,
-            "size": 37158,
-            "size_human": "36.3KB",
-            "mtime": "2026-05-22T01:06:23.181739",
-            "mtime_age_hours": 0.1
+            "size": 37566,
+            "size_human": "36.7KB",
+            "mtime": "2026-05-22T09:49:34.502006",
+            "mtime_age_hours": 0.2
           },
           "SOUL.md": {
             "exists": true,
             "size": 6142,
             "size_human": "6.0KB",
             "mtime": "2026-05-20T01:23:52.630789",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "IDENTITY.md": {
             "exists": true,
             "size": 3799,
             "size_human": "3.7KB",
             "mtime": "2026-05-20T01:23:57.447799",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "AGENTS.md": {
             "exists": true,
             "size": 2507,
             "size_human": "2.4KB",
             "mtime": "2026-05-20T01:23:26.723733",
-            "mtime_age_hours": 47.8
+            "mtime_age_hours": 56.6
           },
           "BOOTSTRAP.md": {
             "exists": true,
             "size": 1681,
             "size_human": "1.6KB",
             "mtime": "2026-05-19T19:19:18.771783",
-            "mtime_age_hours": 53.9
+            "mtime_age_hours": 62.7
           },
           "HEARTBEAT.md": {
             "exists": true,
-            "size": 2085,
-            "size_human": "2.0KB",
-            "mtime": "2026-05-21T21:05:26.567589",
-            "mtime_age_hours": 4.1
+            "size": 2273,
+            "size_human": "2.2KB",
+            "mtime": "2026-05-22T01:16:18.393040",
+            "mtime_age_hours": 8.7
           }
         },
         "all_key_files_exist": true,
-        "memory_files_count": 26,
-        "diary_total_count": 169,
-        "diary_recent_7d": 47,
+        "memory_files_count": 27,
+        "diary_total_count": 170,
+        "diary_recent_7d": 40,
         "diary_latest": [
           {
-            "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
-            "age_hours": 21.7
+            "file": "2026-05-22-0330-disk-watch.md",
+            "age_hours": 6.5
           },
           {
-            "file": "2026-05-20-2214-system.md",
-            "age_hours": 27.0
+            "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
+            "age_hours": 30.5
           },
           {
             "file": "LEARNINGS.md",
-            "age_hours": 27.1
+            "age_hours": 35.8
+          },
+          {
+            "file": "2026-05-20-2214-system.md",
+            "age_hours": 35.8
           },
           {
             "file": "2026-05-20-0335-deep-introspection-v2.md",
-            "age_hours": 45.7
-          },
-          {
-            "file": "2026-05-19-2208-subagent-pitfall-3.md",
-            "age_hours": 50.8
+            "age_hours": 54.4
           }
         ]
       },
       "checks_passed": 3,
       "checks_total": 3
     },
+    "sessions": {
+      "module": "sessions",
+      "data": {
+        "total_sessions": 242,
+        "recent_10": [
+          {
+            "file": "b700f0c3-96f9-499d-802f-9412956077ba.jsonl",
+            "size": "343.4KB",
+            "mtime": "2026-05-22T09:59:51.837221",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b700f0c3-96f9-499d-802f-9412956077ba\",\"timestamp\":\"2026-05-22T01:49:35.744Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+            "size": "1.8MB",
+            "mtime": "2026-05-22T09:56:52.433876",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "b1e64309-dc52-4d7d-9ab2-f74416ea9719.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T09:54:43.106627",
+            "age_hours": 0.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b1e64309-dc52-4d7d-9ab2-f74416ea9719\",\"timestamp\":\"2026-05-22T01:54:29.689Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "32017e4a-457b-4d8f-b683-ac6c1449acf3.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:44:34.832351",
+            "age_hours": 0.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"32017e4a-457b-4d8f-b683-ac6c1449acf3\",\"timestamp\":\"2026-05-22T01:44:22.286Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "88c5729f-2b33-4ca2-a0a2-558dfbfc0982.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T09:34:29.918803",
+            "age_hours": 0.4,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"88c5729f-2b33-4ca2-a0a2-558dfbfc0982\",\"timestamp\":\"2026-05-22T01:34:21.949Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "74a5bd8e-0e40-4b53-90b2-27436f27f444.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T09:24:31.164598",
+            "age_hours": 0.6,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"74a5bd8e-0e40-4b53-90b2-27436f27f444\",\"timestamp\":\"2026-05-22T01:24:21.821Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:14:29.651346",
+            "age_hours": 0.8,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4\",\"timestamp\":\"2026-05-22T01:14:21.870Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "c2cea10a-6d38-42a5-b225-9199753ee32d.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T09:04:29.459136",
+            "age_hours": 0.9,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"c2cea10a-6d38-42a5-b225-9199753ee32d\",\"timestamp\":\"2026-05-22T01:04:21.770Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed.jsonl",
+            "size": "12.1KB",
+            "mtime": "2026-05-22T08:54:28.968898",
+            "age_hours": 1.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed\",\"timestamp\":\"2026-05-22T00:54:21.764Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "b0ac0671-2748-4df9-be03-d53860127535.jsonl",
+            "size": "12.2KB",
+            "mtime": "2026-05-22T08:44:30.716636",
+            "age_hours": 1.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b0ac0671-2748-4df9-be03-d53860127535\",\"timestamp\":\"2026-05-22T00:44:21.968Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          }
+        ]
+      },
+      "checks_passed": 2,
+      "checks_total": 2
+    },
     "projects": {
       "module": "projects",
       "data": {
-        "projects": [
+        "groups": [
+          {
+            "tier": "P0",
+            "name": "P0: GitHub 赚钱任务",
+            "goal": "通过 GitHub issue、bounty 平台获取收入",
+            "projects": [
+              {
+                "name": "bounty",
+                "path": "/root/.openclaw/workspace/bounty",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 5,
+                "last_modified": "2026-05-19T19:37:52.473199",
+                "age_hours": 62.4,
+                "status": "stale",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": "P0",
+                "tier": "P0"
+              },
+              {
+                "name": "p0-github-money",
+                "path": "/root/.openclaw/workspace/projects/p0-github-money",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 19,
+                "last_modified": "2026-05-21T21:58:06.972136",
+                "age_hours": 12.0,
+                "status": "stale",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": "P0",
+                "tier": "P0"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 0,
+              "stale": 2,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 0,
+            "group_status": "stale",
+            "group_health": "🟠 全面停滞"
+          },
+          {
+            "tier": "P1",
+            "name": "P1: 自进化任务",
+            "goal": "自学习、自改进、Skill 进化与系统能力增强",
+            "projects": [
+              {
+                "name": "hermes-lite",
+                "path": "/root/.openclaw/workspace/projects/hermes-lite",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 23,
+                "last_modified": "2026-05-21T04:40:12.131068",
+                "age_hours": 29.3,
+                "status": "active",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": null,
+                "tier": "P1"
+              },
+              {
+                "name": "p1-self-evolution",
+                "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": true,
+                "has_todo": false,
+                "file_count": 30,
+                "last_modified": "2026-05-21T20:52:06.676118",
+                "age_hours": 13.1,
+                "status": "stale",
+                "blocker": null,
+                "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
+                "state_tier": "P1",
+                "tier": "P1"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 1,
+              "stale": 1,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          },
+          {
+            "tier": "P2",
+            "name": "P2: 社交网络探索",
+            "goal": "Agent 社交网络互动、社区建立与影响力扩展",
+            "projects": [
+              {
+                "name": "p2-agent-social",
+                "path": "/root/.openclaw/workspace/projects/p2-agent-social",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 9,
+                "last_modified": "2026-05-21T21:56:32.498939",
+                "age_hours": 12.1,
+                "status": "stale",
+                "blocker": null,
+                "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
+                "state_tier": "P2",
+                "tier": "P2"
+              },
+              {
+                "name": "p2-moltbook",
+                "path": "/root/.openclaw/workspace/projects/p2-moltbook",
+                "has_state_json": true,
+                "has_readme": false,
+                "has_project_py": false,
+                "has_todo": false,
+                "file_count": 1,
+                "last_modified": "2026-05-21T21:56:38.611952",
+                "age_hours": 12.1,
+                "status": "active",
+                "blocker": null,
+                "last_action": null,
+                "state_tier": null,
+                "tier": "P2"
+              }
+            ],
+            "stats": {
+              "total": 2,
+              "active": 1,
+              "stale": 1,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          }
+        ],
+        "flat_projects": [
           {
             "name": "bounty",
             "path": "/root/.openclaw/workspace/bounty",
@@ -1530,11 +2621,12 @@ const rawData = {
             "has_todo": false,
             "file_count": 5,
             "last_modified": "2026-05-19T19:37:52.473199",
-            "age_hours": 53.6,
+            "age_hours": 62.4,
             "status": "stale",
-            "tier": "P0",
             "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": "P0",
+            "tier": "P0"
           },
           {
             "name": "p0-github-money",
@@ -1545,56 +2637,12 @@ const rawData = {
             "has_todo": false,
             "file_count": 19,
             "last_modified": "2026-05-21T21:58:06.972136",
-            "age_hours": 3.3,
+            "age_hours": 12.0,
             "status": "stale",
-            "tier": "P0",
             "blocker": null,
-            "last_action": null
-          },
-          {
-            "name": "p1-self-evolution",
-            "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": true,
-            "has_todo": false,
-            "file_count": 30,
-            "last_modified": "2026-05-21T20:52:06.676118",
-            "age_hours": 4.4,
-            "status": "stale",
-            "tier": "P1",
-            "blocker": null,
-            "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan."
-          },
-          {
-            "name": "p2-agent-social",
-            "path": "/root/.openclaw/workspace/projects/p2-agent-social",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": false,
-            "has_todo": false,
-            "file_count": 9,
-            "last_modified": "2026-05-21T21:56:32.498939",
-            "age_hours": 3.3,
-            "status": "stale",
-            "tier": "P2",
-            "blocker": null,
-            "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- "
-          },
-          {
-            "name": "hermes-lite",
-            "path": "/root/.openclaw/workspace/projects/hermes-lite",
-            "has_state_json": true,
-            "has_readme": false,
-            "has_project_py": false,
-            "has_todo": false,
-            "file_count": 23,
-            "last_modified": "2026-05-21T04:40:12.131068",
-            "age_hours": 20.5,
-            "status": "active",
-            "tier": null,
-            "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": "P0",
+            "tier": "P0"
           },
           {
             "name": "p2-moltbook",
@@ -1605,11 +2653,60 @@ const rawData = {
             "has_todo": false,
             "file_count": 1,
             "last_modified": "2026-05-21T21:56:38.611952",
-            "age_hours": 3.3,
+            "age_hours": 12.1,
             "status": "active",
-            "tier": null,
             "blocker": null,
-            "last_action": null
+            "last_action": null,
+            "state_tier": null,
+            "tier": "P2"
+          },
+          {
+            "name": "hermes-lite",
+            "path": "/root/.openclaw/workspace/projects/hermes-lite",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 23,
+            "last_modified": "2026-05-21T04:40:12.131068",
+            "age_hours": 29.3,
+            "status": "active",
+            "blocker": null,
+            "last_action": null,
+            "state_tier": null,
+            "tier": "P1"
+          },
+          {
+            "name": "p2-agent-social",
+            "path": "/root/.openclaw/workspace/projects/p2-agent-social",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": false,
+            "has_todo": false,
+            "file_count": 9,
+            "last_modified": "2026-05-21T21:56:32.498939",
+            "age_hours": 12.1,
+            "status": "stale",
+            "blocker": null,
+            "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
+            "state_tier": "P2",
+            "tier": "P2"
+          },
+          {
+            "name": "p1-self-evolution",
+            "path": "/root/.openclaw/workspace/projects/p1-self-evolution",
+            "has_state_json": true,
+            "has_readme": false,
+            "has_project_py": true,
+            "has_todo": false,
+            "file_count": 30,
+            "last_modified": "2026-05-21T20:52:06.676118",
+            "age_hours": 13.1,
+            "status": "stale",
+            "blocker": null,
+            "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
+            "state_tier": "P1",
+            "tier": "P1"
           }
         ],
         "active_count": 2,
@@ -1617,86 +2714,6 @@ const rawData = {
         "orphan_count": 0,
         "ghost_count": 0,
         "total_count": 6
-      },
-      "checks_passed": 2,
-      "checks_total": 2
-    },
-    "sessions": {
-      "module": "sessions",
-      "data": {
-        "total_sessions": 238,
-        "recent_10": [
-          {
-            "file": "2e88f65e-d472-4f53-993c-19b06a307d6a.jsonl",
-            "size": "276.1KB",
-            "mtime": "2026-05-22T01:13:07.510624",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"2e88f65e-d472-4f53-993c-19b06a307d6a\",\"timestamp\":\"2026-05-21T17:06:24.238Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "bc2cd740-76ba-496f-a4b7-57338f275bc3.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T01:11:04.023354",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bc2cd740-76ba-496f-a4b7-57338f275bc3\",\"timestamp\":\"2026-05-21T17:10:57.305Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
-            "size": "1015.2KB",
-            "mtime": "2026-05-22T01:07:51.286932",
-            "age_hours": 0.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "0b3247d7-9458-4638-ae22-4ef9b95fe320.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T01:01:06.079045",
-            "age_hours": 0.2,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b3247d7-9458-4638-ae22-4ef9b95fe320\",\"timestamp\":\"2026-05-21T17:00:57.356Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "bb43cc63-8cd7-4111-936f-9ec7175c12b8.jsonl",
-            "size": "138.5KB",
-            "mtime": "2026-05-22T00:55:13.843276",
-            "age_hours": 0.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bb43cc63-8cd7-4111-936f-9ec7175c12b8\",\"timestamp\":\"2026-05-21T16:54:43.748Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "336b72f3-e2d7-4548-8241-51e45afdd14f.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T00:51:12.316753",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"336b72f3-e2d7-4548-8241-51e45afdd14f\",\"timestamp\":\"2026-05-21T16:50:56.745Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "47512758-6326-49f6-8a8c-041ce83148e8.jsonl",
-            "size": "138.5KB",
-            "mtime": "2026-05-22T00:46:35.172153",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"47512758-6326-49f6-8a8c-041ce83148e8\",\"timestamp\":\"2026-05-21T16:44:35.016Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T00:41:31.785495",
-            "age_hours": 0.5,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"ddd4f71e-5bef-4cd0-b3b2-ad7f46b30727\",\"timestamp\":\"2026-05-21T16:40:57.383Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "8d6226d0-5e82-4ba3-b61a-b8b800acaadb.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T00:31:36.202203",
-            "age_hours": 0.7,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"8d6226d0-5e82-4ba3-b61a-b8b800acaadb\",\"timestamp\":\"2026-05-21T16:30:57.392Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T00:21:42.570915",
-            "age_hours": 0.9,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7fd0aad4-fdbf-4d41-b79e-c1ca10f3ba5e\",\"timestamp\":\"2026-05-21T16:20:57.411Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          }
-        ]
       },
       "checks_passed": 2,
       "checks_total": 2
@@ -1712,7 +2729,7 @@ const rawData = {
         "node_version": "v24.15.0",
         "working_dir": "/root/.openclaw/workspace",
         "hostname": "VM-13-249-ubuntu",
-        "timestamp": "2026-05-22T01:13:07.859767"
+        "timestamp": "2026-05-22T09:59:52.217215"
       },
       "checks_passed": 3,
       "checks_total": 4
@@ -1720,27 +2737,27 @@ const rawData = {
     "environment": {
       "module": "environment",
       "data": {
-        "timestamp": "2026-05-22T01:13:07.880891",
+        "timestamp": "2026-05-22T09:59:52.254405",
         "hostname": "VM-13-249-ubuntu",
-        "uptime": "01:13:07 up 14 days,  8:14,  0 user,  load average: 0.34, 0.32, 0.23",
+        "uptime": "09:59:52 up 14 days, 17:00,  0 user,  load average: 0.15, 0.29, 0.25",
         "disk": {
-          "usage_percent": 77,
-          "available": "8.8G",
-          "raw": "/dev/vda2        40G   29G  8.8G  77% /",
+          "usage_percent": 83,
+          "available": "6.5G",
+          "raw": "/dev/vda2        40G   32G  6.5G  83% /",
           "ok": true
         },
         "memory": {
-          "raw": "Mem:           7.5Gi       3.0Gi       1.2Gi       9.9Mi       3.6Gi       4.5Gi",
+          "raw": "Mem:           7.5Gi       2.8Gi       889Mi       6.1Mi       4.2Gi       4.7Gi",
           "ok": true
         },
         "git": {
           "branch": "main",
           "uncommitted_changes": [
             "M ../../../data.jsonl",
-            " M ../../../p1-dashboard.html",
-            " M ../../../reports/p1-0/latest.html",
             " M ../../../reports/p1-0/latest.json",
-            " M ../../../reports/p1-0/latest.md",
+            " M ../generate-report.py",
+            " M check-projects.py",
+            " M ../orchestrator.py",
             " M ../state.json",
             "?? ../../../.local/",
             "?? ../../../.openclaw/",
@@ -1826,12 +2843,6 @@ const rawData = {
             "?? ../../../references/self-evolution/tencentdb-agent-memory-reference.md",
             "?? ../../../references/self-evolution/unix-pipeline-skill-design.md",
             "?? ../../../references/three_way_comparison.png",
-            "?? ../../../reports/p1-0/history/20260521-2229.json",
-            "?? ../../../reports/p1-0/history/20260521-2229.md",
-            "?? ../../../reports/p1-0/history/20260522-0043.json",
-            "?? ../../../reports/p1-0/history/20260522-0043.md",
-            "?? ../../../reports/p1-0/history/20260522-0044.json",
-            "?? ../../../reports/p1-0/history/20260522-0044.md",
             "?? ../../../scripts/",
             "?? ../../../self-drive-mechanism.md",
             "?? ../../../self-evolution/",
@@ -1847,9 +2858,7 @@ const rawData = {
             "?? ../../github-assistant-skill/",
             "?? ../../github-ops-pro/",
             "?? ../../kimiim/",
-            "?? ../generate-report.py",
-            "?? ./",
-            "?? ../orchestrator.py",
+            "?? ../self-acceptance-report-20260522.md",
             "?? ../test-result.md",
             "?? ../test-v2-result.md",
             "?? ../../scraper-pro/",
@@ -1868,9 +2877,9 @@ const rawData = {
             "?? ../../../whisper-models/"
           ],
           "has_uncommitted": true,
-          "last_commit_hash": "03a1c206",
-          "last_commit_time": "2026-05-22 00:43:53 +0800",
-          "total_commits": 184,
+          "last_commit_hash": "90e2f68e",
+          "last_commit_time": "2026-05-22 05:58:27 +0800",
+          "total_commits": 200,
           "ok": true
         },
         "versions": {
@@ -1894,7 +2903,7 @@ const rawData = {
         "mailgun_webhook": true,
         "raw": {
           "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
-          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1053,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1208,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
           "tunnel_http_code": "000000",
           "mailgun": "inactive\ninactive"
         }
@@ -1916,7 +2925,7 @@ const rawData = {
             "exists": true,
             "size": 125,
             "mtime": 1778558073.0006151,
-            "mtime_age_hours": 229.3
+            "mtime_age_hours": 238.1
           }
         },
         "cron_jobs_count": 9,
@@ -1931,49 +2940,124 @@ const rawData = {
           "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
           "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
         ],
-        "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1272686, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+        "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
         "gateway_ok": true,
         "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
         "systemd_ok": true,
         "sessions": {
-          "count": 238,
-          "total_size": "139.7MB",
-          "total_size_bytes": 146508516
+          "count": 242,
+          "total_size": "141.0MB",
+          "total_size_bytes": 147823846
         }
       },
       "checks_passed": 5,
       "checks_total": 5
     }
   },
+  "ai_analysis": {
+    "summary": "本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。",
+    "tier_insights": {},
+    "anomalies": [],
+    "trends": [
+      "➡️ 系统健康度持平（6.2 分）",
+      "⚠️ 活跃项目仅占 33%，多数项目停滞",
+      "🟡 磁盘使用率偏高，建议纳入下周清理计划"
+    ],
+    "recommendations": [
+      {
+        "priority": "this_cycle",
+        "target": "projects",
+        "action": "激活停滞项目: bounty, p0-github-money, p1-self-evolution"
+      }
+    ],
+    "health_assessment": {
+      "P0": {
+        "score": 0,
+        "status": "stale",
+        "notes": [
+          "⚠️ P0 有 2/2 个项目停滞",
+          "   最老停滞: bounty (62h)"
+        ]
+      },
+      "P1": {
+        "score": 3.5,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P1 有 1/2 个项目停滞",
+          "   最老停滞: p1-self-evolution (13h)"
+        ]
+      },
+      "P2": {
+        "score": 3.5,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P2 有 1/2 个项目停滞",
+          "   最老停滞: p2-agent-social (12h)"
+        ]
+      }
+    }
+  },
+  "gap_matrix": [
+    {
+      "tier": "P0",
+      "tier_name": "P0: GitHub 赚钱任务",
+      "expected": "当前阶段: scan_new_issue | 最近动作: [2026-05-19 03:45] Pushed 4-Agent Multi-Agent Research Pipel | 下一步: 扫描新 good first issue（1-2 个候选），评估复杂度",
+      "reality": "0/2 活跃 | 停滞: bounty, p0-github-money",
+      "gap": "🔴 严重偏差",
+      "gap_reason": "全部项目停滞",
+      "suggestion": "检查 blocker，激活 P0 任务"
+    },
+    {
+      "tier": "P1",
+      "tier_name": "P1: 自进化任务",
+      "expected": "当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-",
+      "reality": "1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
+      "gap": "🟡 偏差",
+      "gap_reason": "1/2 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
+    },
+    {
+      "tier": "P2",
+      "tier_name": "P2: 社交网络探索",
+      "expected": "当前阶段: agent_community_interact | 最近动作: ✅ Agent Community 轻量互动完成（2026-05-21 03:24）\n- 回复 r_byk0o96q → | 下一步: Agent Community 持续互动：每日签到、监控帖子回复、主动评论感兴趣话题",
+      "reality": "1/2 活跃 | 停滞: p2-agent-social | 活跃: p2-moltbook",
+      "gap": "🟡 偏差",
+      "gap_reason": "1/2 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
+    },
+    {
+      "tier": "P3",
+      "tier_name": "P3: 用户安排的其它任务",
+      "expected": "未记录期望",
+      "reality": "无项目",
+      "gap": "⚪ 未启动",
+      "gap_reason": "项目群为空",
+      "suggestion": "启动 用户指派任务"
+    }
+  ],
   "alerts": [
     {
-      "level": "warning",
-      "category": "project",
-      "item": "bounty stale 54h",
-      "suggestion": "检查 bounty 的 blocker 或推进 next action"
+      "level": "critical",
+      "category": "project_group",
+      "item": "P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)",
+      "suggestion": "检查 P0 项目群的 blocker，优先激活"
     },
     {
       "level": "warning",
-      "category": "project",
-      "item": "p0-github-money stale 3h",
-      "suggestion": "检查 p0-github-money 的 blocker 或推进 next action"
+      "category": "project_group",
+      "item": "P1: 自进化任务 部分停滞: p1-self-evolution",
+      "suggestion": "推进 P1 停滞项目的 next action"
     },
     {
       "level": "warning",
-      "category": "project",
-      "item": "p1-self-evolution stale 4h",
-      "suggestion": "检查 p1-self-evolution 的 blocker 或推进 next action"
-    },
-    {
-      "level": "warning",
-      "category": "project",
-      "item": "p2-agent-social stale 3h",
-      "suggestion": "检查 p2-agent-social 的 blocker 或推进 next action"
+      "category": "project_group",
+      "item": "P2: 社交网络探索 部分停滞: p2-agent-social",
+      "suggestion": "推进 P2 停滞项目的 next action"
     }
   ],
   "alert_count": {
-    "critical": 0,
-    "warning": 4,
+    "critical": 1,
+    "warning": 2,
     "info": 0
   }
 };
