@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""generate-report.py — P1.0 baseline-check 报告生成器 v3
+"""generate-report.py — P1.0 baseline-check 报告生成器 v4
 输入：orchestrator 输出的统一 JSON（stdin 或文件）
 输出：
   1. reports/p1-0/latest.json  — 完整数据包
   2. reports/p1-0/latest.md     — Markdown 人类可读报告
-  3. p1-dashboard.html          — HTML 可视化仪表板（四层树 + AI 分析 + 差距矩阵）
+  3. p1-dashboard.html          — HTML 可视化仪表板（五层树 + 基础设施 + AI 分析 + 差距矩阵）
 用法：
   python3 orchestrator.py | python3 generate-report.py
   或：python3 generate-report.py < reports/p1-0/latest.json
@@ -71,8 +71,10 @@ def generate_markdown(report):
     projects = modules.get("projects", {}).get("data", {})
     cap = modules.get("capabilities", {}).get("data", {})
     sessions = modules.get("sessions", {}).get("data", {})
+    infra = modules.get("infrastructure", {}).get("data", {})
     git = env.get("git", {})
     groups = projects.get("groups", [])
+    special = projects.get("special_artifacts", [])
     
     md = f"""# P1.0 系统状态报告
 
@@ -173,14 +175,58 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 | Git 未提交 | {'有' if git.get('has_uncommitted') else '无'} |
 | 上次提交 | {git.get('last_commit_hash', 'unknown')} @ {git.get('last_commit_time', 'unknown')} |
 
-### Cron Jobs
+### Cron Jobs 归属
 
-```
+| 计划 | 归属 | 描述 | 命令 |
+|------|------|------|------|
 """
     for job in harness.get("cron_jobs", []):
-        md += f"{job}\n"
-    md += """```
+        md += f"| `{job['schedule']}` | {job['owner']} | {job['description']} | {job['command'][:60]} |\n"
+    
+    md += "\n### 系统资源\n\n"
+    linux_res = harness.get("linux_resources", {})
+    cpu = linux_res.get("cpu_load", {})
+    if cpu:
+        md += f"- **CPU 负载**: 1min={cpu.get('1min', '-')}, 5min={cpu.get('5min', '-')}, 15min={cpu.get('15min', '-')}\n"
+    mem = linux_res.get("memory", {})
+    if mem:
+        md += f"- **内存**: 总 {mem.get('total_mb', '-')}MB, 可用 {mem.get('available_mb', '-')}MB, 缓冲 {mem.get('buffers_mb', '-')}MB\n"
+    swap_used = mem.get("swap_used_mb", 0)
+    if swap_used is not None:
+        md += f"- **Swap**: 总 {mem.get('swap_total_mb', '-')}MB, 用 {swap_used}MB\n"
+    procs = linux_res.get("processes", {})
+    md += f"- **进程**: 总 {procs.get('total', '-')}, 僵尸 {procs.get('zombie', '-')}\n"
+    
+    disks = linux_res.get("disk_partitions", [])
+    if disks:
+        md += "\n**磁盘分区**:\n\n| 文件系统 | 大小 | 已用 | 可用 | 使用率 | 挂载点 |\n|----------|------|------|------|--------|--------|\n"
+        for d in disks:
+            md += f"| {d['filesystem']} | {d['size']} | {d['used']} | {d['available']} | {d['usage_percent']}% | {d['mount']} |\n"
+    
+    md += f"""
+---
 
+## OpenClaw 架构
+
+| 组件 | 状态 |
+|------|------|
+| Gateway | {'✅' if harness.get('openclaw_architecture', {}).get('gateway', {}).get('ok') else '❌'} |
+| 微信通道 | {'✅' if harness.get('openclaw_architecture', {}).get('channels', {}).get('weixin', {}).get('configured') else '❌'} |
+| 飞书通道 | {'✅' if harness.get('openclaw_architecture', {}).get('channels', {}).get('feishu', {}).get('configured') else '❌'} |
+| 邮件通道 | {'✅' if harness.get('openclaw_architecture', {}).get('channels', {}).get('mail', {}).get('systemd_active') else '❌'} |
+| Web 通道 | ✅ |
+
+---
+
+## 基础设施 (I0)
+
+| ID | 名称 | 状态 |
+|----|------|------|
+"""
+    for ig in infra.get("groups", []):
+        md += f"| {ig['id']} | {ig['name']} | {ig['status']} |\n"
+    
+    md += f"""
 ---
 
 ## 记忆系统
@@ -199,7 +245,7 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 
 ---
 
-## 项目审计（四层结构）
+## 项目审计（五层结构）
 
 """
     for g in groups:
@@ -216,6 +262,14 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
             blocker = (p.get("blocker") or "-")[:30]
             action = (p.get("last_action") or "-")[:40]
             md += f"| {p['name']} | {status_icon} {p['status']} | {p['file_count']} | {p['age_hours']:.0f}h | {blocker} | {action} |\n"
+        
+        # 特殊产出物
+        sp_list = g.get("special_artifacts", [])
+        if sp_list:
+            md += "\n**特殊产出物**:\n\n| 名称 | 状态 | 文件数 | 最后活跃 | 描述 |\n|------|------|--------|----------|------|\n"
+            for sp in sp_list:
+                status_icon = "🟢" if sp["status"] == "active" else ("🟡" if sp["status"] == "stale" else "⚪")
+                md += f"| {sp['name']} | {status_icon} {sp['status']} | {sp['file_count']} | {sp['age_hours']:.0f}h | {sp['details'][:40]} |\n"
         md += "\n"
     
     md += f"""---
@@ -226,7 +280,6 @@ OpenClaw：{env.get('versions', {}).get('openclaw', 'unknown')}
 |------|------|
 | GitHub CLI | {'✅' if cap.get('github_cli') else '❌'} |
 | GitHub API | {'✅' if cap.get('github_api') else '❌'} |
-| Web 搜索 | {'✅' if cap.get('web_search') else '❌'} |
 | 飞书 | {'✅' if cap.get('feishu') else '❌'} |
 | Cloudflare Tunnel | {'✅' if cap.get('cloudflare_tunnel') else '❌'} |
 | 邮件 Webhook | {'✅' if cap.get('mailgun_webhook') else '❌'} |
@@ -281,8 +334,10 @@ def generate_html(report):
     projects_data = modules.get("projects", {}).get("data", {})
     cap = modules.get("capabilities", {}).get("data", {})
     sessions = modules.get("sessions", {}).get("data", {})
+    infra = modules.get("infrastructure", {}).get("data", {})
     git = env.get("git", {})
     groups = projects_data.get("groups", [])
+    special_artifacts = projects_data.get("special_artifacts", [])
     
     critical = len([a for a in alerts if a["level"] == "critical"])
     warning = len([a for a in alerts if a["level"] == "warning"])
@@ -311,7 +366,7 @@ def generate_html(report):
         for a in alerts
     ]) if alerts else '<p style="color: var(--good); text-align: center; padding: 1rem;">✅ 无告警</p>'
     
-    # 四层项目树形展示
+    # 五层项目树形展示（含特殊产出物）
     tier_tree_html = ""
     for g in groups:
         tier = g["tier"]
@@ -326,6 +381,17 @@ def generate_html(report):
             <span class="project-name">{p['name']}</span>
             <span class="status-badge {status_class}">{p['status']}</span>
             <span class="project-meta">{p['file_count']} 文件 · {p['age_hours']:.0f}h</span>
+          </div>"""
+        
+        # 特殊产出物行
+        sp_rows = ""
+        for sp in g.get("special_artifacts", []):
+            status_class = "badge-good" if sp["status"] == "active" else ("badge-warn" if sp["status"] == "stale" else "badge-info")
+            sp_rows += f"""
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 {sp['name']}</span>
+            <span class="status-badge {status_class}">{sp['status']}</span>
+            <span class="project-meta">{sp['file_count']} 文件 · {sp['age_hours']:.0f}h · {sp['details'][:25]}</span>
           </div>"""
         
         tier_tree_html += f"""
@@ -344,6 +410,7 @@ def generate_html(report):
         </div>
         <div class="tier-projects">
 {proj_rows}
+{sp_rows}
         </div>
       </div>"""
     
@@ -385,6 +452,136 @@ def generate_html(report):
           <td style="color: {gap_color}; font-weight: 600;">{row['gap']}</td>
           <td style="font-size:0.8rem;">{escape_html(row['suggestion'][:80])}{'...' if len(row['suggestion']) > 80 else ''}</td>
         </tr>"""
+    
+    # 系统资源 HTML
+    linux_res = harness.get("linux_resources", {})
+    cpu_load = linux_res.get("cpu_load", {})
+    mem_info = linux_res.get("memory", {})
+    disk_parts = linux_res.get("disk_partitions", [])
+    processes = linux_res.get("processes", {})
+    
+    sys_resource_html = ""
+    if cpu_load:
+        cpu_cores = linux_res.get("cpu_cores", 1)
+        load_1 = cpu_load.get("1min", 0)
+        load_color = "var(--good)" if load_1 < cpu_cores else ("var(--warn)" if load_1 < cpu_cores * 1.5 else "var(--bad)")
+        sys_resource_html += f"""
+        <div class="metric"><span>CPU 1min 负载</span><span class="metric-value" style="color: {load_color};">{load_1} / {cpu_cores} 核</span></div>
+        <div class="metric"><span>CPU 5min 负载</span><span class="metric-value">{cpu_load.get('5min', '-')}</span></div>
+        <div class="metric"><span>CPU 15min 负载</span><span class="metric-value">{cpu_load.get('15min', '-')}</span></div>"""
+    
+    if mem_info:
+        total_mb = mem_info.get("total_mb", 0)
+        available_mb = mem_info.get("available_mb", total_mb)
+        used_mb = total_mb - available_mb
+        used_pct = (used_mb / total_mb * 100) if total_mb > 0 else 0
+        mem_color = "var(--good)" if used_pct < 70 else ("var(--warn)" if used_pct < 85 else "var(--bad)")
+        sys_resource_html += f"""
+        <div class="metric"><span>内存总量</span><span class="metric-value">{total_mb}MB</span></div>
+        <div class="metric"><span>内存可用</span><span class="metric-value" style="color: {mem_color};">{available_mb}MB ({100-used_pct:.0f}% free)</span></div>
+        <div class="metric"><span>Swap 使用</span><span class="metric-value">{mem_info.get('swap_used_mb', 0)}MB / {mem_info.get('swap_total_mb', 0)}MB</span></div>"""
+    
+    if processes:
+        sys_resource_html += f"""
+        <div class="metric"><span>总进程数</span><span class="metric-value">{processes.get('total', '-')}</span></div>
+        <div class="metric"><span>僵尸进程</span><span class="metric-value" style="color: {'var(--bad)' if processes.get('zombie',0) > 5 else 'var(--good)'}">{processes.get('zombie', 0)}</span></div>"""
+    
+    # 磁盘分区表 HTML
+    disk_table_html = ""
+    if disk_parts:
+        disk_rows = ""
+        for d in disk_parts:
+            dcolor = "var(--good)" if d["usage_percent"] < 70 else ("var(--warn)" if d["usage_percent"] < 85 else "var(--bad)")
+            disk_rows += f"""
+          <tr>
+            <td>{d['filesystem']}</td>
+            <td>{d['size']}</td>
+            <td>{d['used']}</td>
+            <td>{d['available']}</td>
+            <td style="color: {dcolor}; font-weight: 600;">{d['usage_percent']}%</td>
+            <td>{d['mount']}</td>
+          </tr>"""
+        disk_table_html = f"""
+      <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">磁盘分区</h3>
+      <table>
+        <thead>
+          <tr><th>文件系统</th><th>大小</th><th>已用</th><th>可用</th><th>使用率</th><th>挂载点</th></tr>
+        </thead>
+        <tbody>
+          {disk_rows}
+        </tbody>
+      </table>"""
+    
+    # Cron 归属表 HTML
+    cron_jobs = harness.get("cron_jobs", [])
+    cron_table_html = ""
+    if cron_jobs:
+        cron_rows = ""
+        for job in cron_jobs:
+            owner_color = "var(--accent)" if job["owner"] != "未分类" else "var(--text-dim)"
+            cron_rows += f"""
+          <tr>
+            <td><code>{job['schedule']}</code></td>
+            <td style="color: {owner_color};">{job['owner']}</td>
+            <td>{job['description'] or '-'}</td>
+            <td style="font-size:0.75rem;">{escape_html(job['command'][:80])}</td>
+          </tr>"""
+        cron_table_html = f"""
+      <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">Cron 归属</h3>
+      <table>
+        <thead>
+          <tr><th>计划</th><th>归属</th><th>描述</th><th>命令</th></tr>
+        </thead>
+        <tbody>
+          {cron_rows}
+        </tbody>
+      </table>"""
+    
+    # OpenClaw 架构面板 HTML
+    openclaw_arch = harness.get("openclaw_architecture", {})
+    arch_html = ""
+    if openclaw_arch:
+        gw = openclaw_arch.get("gateway", {})
+        arch_html += f"""
+        <div class="metric"><span>Gateway</span><span class="metric-value">{'✅' if gw.get('ok') else '❌'} {gw.get('status', '-')[:25]}</span></div>
+        <div class="metric"><span>端口</span><span class="metric-value">{gw.get('port', '?')}</span></div>
+        <div class="metric"><span>版本</span><span class="metric-value">{gw.get('version', '?')}</span></div>"""
+        
+        channels = openclaw_arch.get("channels", {})
+        for ch_name, ch in channels.items():
+            if ch_name == "weixin":
+                arch_html += f"""<div class="metric"><span>微信通道</span><span class="metric-value">{'✅' if ch.get('configured') else '❌'} {'运行中' if ch.get('process_running') else '未运行'}</span></div>"""
+            elif ch_name == "feishu":
+                arch_html += f"""<div class="metric"><span>飞书通道</span><span class="metric-value">{'✅' if ch.get('configured') else '❌'} Token{'有' if ch.get('token_present') else '无'}</span></div>"""
+            elif ch_name == "web":
+                arch_html += f"""<div class="metric"><span>Web 通道</span><span class="metric-value">✅</span></div>"""
+            elif ch_name == "mail":
+                arch_html += f"""<div class="metric"><span>邮件通道</span><span class="metric-value">{'✅' if ch.get('systemd_active') else '❌'} {ch.get('systemd_status', '')}</span></div>"""
+        
+        sessions_arch = openclaw_arch.get("sessions", {})
+        arch_html += f"""
+        <div class="metric"><span>Sessions</span><span class="metric-value">{sessions_arch.get('total_count', 0)} 个 / {sessions_arch.get('total_size', '0')}</span></div>
+        <div class="metric"><span>活跃 Session(1h)</span><span class="metric-value">{sessions_arch.get('active_recent_1h', 0)}</span></div>
+        <div class="metric"><span>Context 压力</span><span class="metric-value">{openclaw_arch.get('context_pressure', {}).get('level', '?')} ({openclaw_arch.get('context_pressure', {}).get('total_sessions_size_mb', 0)}MB)</span></div>"""
+        
+        tools = openclaw_arch.get("tools", {})
+        custom_tools = tools.get("custom", [])
+        if custom_tools:
+            tool_badges = " ".join([f"<span class='status-badge {'badge-good' if t['available'] else 'badge-bad'}'>{t['id']}</span>" for t in custom_tools])
+            arch_html += f"""<div style="margin-top:0.5rem; font-size:0.8rem;">自定义 Tools: {tool_badges}</div>"""
+        
+        plugins = openclaw_arch.get("plugins", [])
+        if plugins:
+            plugin_list = ", ".join([p["name"] for p in plugins[:5]])
+            arch_html += f"""<div style="margin-top:0.5rem; font-size:0.8rem;">插件: {plugin_list}{'...' if len(plugins) > 5 else ''}</div>"""
+    
+    # 基础设施面板 HTML
+    infra_groups = infra.get("groups", [])
+    infra_html = ""
+    for ig in infra_groups:
+        status_color = "var(--good)" if ig["status"] == "✅" else "var(--bad)"
+        infra_html += f"""
+        <div class="metric"><span>{ig['id']} {ig['name']}</span><span class="metric-value" style="color: {status_color};">{ig['status']}</span></div>"""
     
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -567,7 +764,7 @@ footer {{
   color: var(--text);
 }}
 
-/* 四层项目树 */
+/* 五层项目树 */
 .tier-card {{
   background: rgba(255,255,255,0.02);
   border: 1px solid var(--border);
@@ -699,6 +896,29 @@ footer {{
   background: rgba(0,212,255,0.05);
 }}
 
+/* 系统资源图表 */
+.resource-chart {{
+  margin: 0.5rem 0;
+}}
+.resource-bar-bg {{
+  background: rgba(255,255,255,0.05);
+  border-radius: 4px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}}
+.resource-bar-fill {{
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}}
+.resource-bar-label {{
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}}
+
 @media (max-width: 600px) {{
   .grid {{ grid-template-columns: 1fr; }}
   header h1 {{ font-size: 1.8rem; }}
@@ -711,7 +931,7 @@ footer {{
 
 <header>
   <h1>P1.0 系统状态</h1>
-  <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力</p>
+  <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力 · 基础设施</p>
   <p class="subtitle">生成于 {report["meta"]["generated_at"][:19]}</p>
 </header>
 
@@ -796,11 +1016,48 @@ footer {{
   {alerts_html}
 </div>
 
-<!-- 四层项目树形展示 -->
+<!-- 系统资源 -->
 <div class="card" style="margin-bottom: 2rem;">
-  <h2>🏗️ 四层项目结构</h2>
+  <h2>🖥️ 系统资源</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务
+    Linux 实时资源监控：CPU 负载 · 内存 · 进程 · 磁盘
+  </p>
+  {sys_resource_html}
+  {disk_table_html}
+</div>
+
+<!-- OpenClaw 架构 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>⚙️ OpenClaw 架构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Gateway · Channels · Sessions · Tools · Plugins
+  </p>
+  {arch_html}
+</div>
+
+<!-- Cron 归属 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>⏰ Cron 归属</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Cron Job → 归属项目 → 健康状态
+  </p>
+  {cron_table_html}
+</div>
+
+<!-- 基础设施面板 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>🔌 基础设施 (I0)</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Tunnel · 邮件 · GitHub · 飞书 · 微信 · SSH
+  </p>
+  {infra_html}
+</div>
+
+<!-- 五层项目树形展示 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>🏗️ 五层项目结构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务 · I0=基础设施
   </p>
   {tier_tree_html}
 </div>
@@ -859,7 +1116,7 @@ footer {{
 <div class="card" style="margin-bottom: 2rem;">
   <h2>📋 Skill 源码</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    本报告由 P1.0 baseline-check Skill（v3 AI+Gap 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
+    本报告由 P1.0 baseline-check Skill（v4 AI+Gap+Infra 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
   </p>
 {''.join(skill_sections)}
 </div>

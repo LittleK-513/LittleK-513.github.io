@@ -1,17 +1,17 @@
 {
   "meta": {
-    "version": "p1-baseline-v3-ai-gap",
-    "generated_at": "2026-05-22T09:59:54.623948",
+    "version": "p1-baseline-v4-ai-gap-infra",
+    "generated_at": "2026-05-22T11:25:36.908165",
     "workspace": "/root/.openclaw/workspace",
-    "modules_run": 7,
-    "modules_ok": 7
+    "modules_run": 8,
+    "modules_ok": 8
   },
   "score": {
-    "total": 6.2,
+    "total": 6.6,
     "max": 10,
     "breakdown": {
-      "projects": 2.3,
-      "environment": 10,
+      "projects": 5.0,
+      "environment": 8,
       "memory": 10,
       "capabilities": 5.0,
       "trend": 5
@@ -28,160 +28,80 @@
             "size": 8458,
             "size_human": "8.3KB",
             "mtime": "2026-05-18T17:57:27.039477",
-            "mtime_age_hours": 88.0
+            "mtime_age_hours": 89.5
           },
           "USER.md": {
             "exists": true,
-            "size": 37566,
-            "size_human": "36.7KB",
-            "mtime": "2026-05-22T09:49:34.502006",
+            "size": 38049,
+            "size_human": "37.2KB",
+            "mtime": "2026-05-22T11:11:07.243891",
             "mtime_age_hours": 0.2
           },
           "SOUL.md": {
             "exists": true,
             "size": 6142,
             "size_human": "6.0KB",
-            "mtime": "2026-05-20T01:23:52.630789",
-            "mtime_age_hours": 56.6
+            "mtime": "2026-05-22T11:11:00.693878",
+            "mtime_age_hours": 0.2
           },
           "IDENTITY.md": {
             "exists": true,
             "size": 3799,
             "size_human": "3.7KB",
             "mtime": "2026-05-20T01:23:57.447799",
-            "mtime_age_hours": 56.6
+            "mtime_age_hours": 58.0
           },
           "AGENTS.md": {
             "exists": true,
             "size": 2507,
             "size_human": "2.4KB",
             "mtime": "2026-05-20T01:23:26.723733",
-            "mtime_age_hours": 56.6
+            "mtime_age_hours": 58.0
           },
           "BOOTSTRAP.md": {
             "exists": true,
             "size": 1681,
             "size_human": "1.6KB",
             "mtime": "2026-05-19T19:19:18.771783",
-            "mtime_age_hours": 62.7
+            "mtime_age_hours": 64.1
           },
           "HEARTBEAT.md": {
             "exists": true,
             "size": 2273,
             "size_human": "2.2KB",
             "mtime": "2026-05-22T01:16:18.393040",
-            "mtime_age_hours": 8.7
+            "mtime_age_hours": 10.2
           }
         },
         "all_key_files_exist": true,
         "memory_files_count": 27,
         "diary_total_count": 170,
-        "diary_recent_7d": 40,
+        "diary_recent_7d": 38,
         "diary_latest": [
           {
-            "file": "2026-05-22-0330-disk-watch.md",
-            "age_hours": 6.5
-          },
-          {
             "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
-            "age_hours": 30.5
+            "age_hours": 0.2
           },
           {
-            "file": "LEARNINGS.md",
-            "age_hours": 35.8
+            "file": "2026-05-16-0535-quiet-after-storm.md",
+            "age_hours": 0.2
+          },
+          {
+            "file": "2026-05-16-0039-self-awareness.md",
+            "age_hours": 0.2
+          },
+          {
+            "file": "2026-05-22-0330-disk-watch.md",
+            "age_hours": 7.9
           },
           {
             "file": "2026-05-20-2214-system.md",
-            "age_hours": 35.8
-          },
-          {
-            "file": "2026-05-20-0335-deep-introspection-v2.md",
-            "age_hours": 54.4
+            "age_hours": 37.2
           }
         ]
       },
       "checks_passed": 3,
       "checks_total": 3
-    },
-    "sessions": {
-      "module": "sessions",
-      "data": {
-        "total_sessions": 242,
-        "recent_10": [
-          {
-            "file": "b700f0c3-96f9-499d-802f-9412956077ba.jsonl",
-            "size": "343.4KB",
-            "mtime": "2026-05-22T09:59:51.837221",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b700f0c3-96f9-499d-802f-9412956077ba\",\"timestamp\":\"2026-05-22T01:49:35.744Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
-            "size": "1.8MB",
-            "mtime": "2026-05-22T09:56:52.433876",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "b1e64309-dc52-4d7d-9ab2-f74416ea9719.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T09:54:43.106627",
-            "age_hours": 0.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b1e64309-dc52-4d7d-9ab2-f74416ea9719\",\"timestamp\":\"2026-05-22T01:54:29.689Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "32017e4a-457b-4d8f-b683-ac6c1449acf3.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:44:34.832351",
-            "age_hours": 0.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"32017e4a-457b-4d8f-b683-ac6c1449acf3\",\"timestamp\":\"2026-05-22T01:44:22.286Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "88c5729f-2b33-4ca2-a0a2-558dfbfc0982.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T09:34:29.918803",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"88c5729f-2b33-4ca2-a0a2-558dfbfc0982\",\"timestamp\":\"2026-05-22T01:34:21.949Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "74a5bd8e-0e40-4b53-90b2-27436f27f444.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T09:24:31.164598",
-            "age_hours": 0.6,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"74a5bd8e-0e40-4b53-90b2-27436f27f444\",\"timestamp\":\"2026-05-22T01:24:21.821Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:14:29.651346",
-            "age_hours": 0.8,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4\",\"timestamp\":\"2026-05-22T01:14:21.870Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "c2cea10a-6d38-42a5-b225-9199753ee32d.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:04:29.459136",
-            "age_hours": 0.9,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"c2cea10a-6d38-42a5-b225-9199753ee32d\",\"timestamp\":\"2026-05-22T01:04:21.770Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed.jsonl",
-            "size": "12.1KB",
-            "mtime": "2026-05-22T08:54:28.968898",
-            "age_hours": 1.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed\",\"timestamp\":\"2026-05-22T00:54:21.764Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "b0ac0671-2748-4df9-be03-d53860127535.jsonl",
-            "size": "12.2KB",
-            "mtime": "2026-05-22T08:44:30.716636",
-            "age_hours": 1.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b0ac0671-2748-4df9-be03-d53860127535\",\"timestamp\":\"2026-05-22T00:44:21.968Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          }
-        ]
-      },
-      "checks_passed": 2,
-      "checks_total": 2
     },
     "projects": {
       "module": "projects",
@@ -201,7 +121,7 @@
                 "has_todo": false,
                 "file_count": 5,
                 "last_modified": "2026-05-19T19:37:52.473199",
-                "age_hours": 62.4,
+                "age_hours": 63.8,
                 "status": "stale",
                 "blocker": null,
                 "last_action": null,
@@ -217,7 +137,7 @@
                 "has_todo": false,
                 "file_count": 19,
                 "last_modified": "2026-05-21T21:58:06.972136",
-                "age_hours": 12.0,
+                "age_hours": 13.5,
                 "status": "stale",
                 "blocker": null,
                 "last_action": null,
@@ -225,6 +145,7 @@
                 "tier": "P0"
               }
             ],
+            "special_artifacts": [],
             "stats": {
               "total": 2,
               "active": 0,
@@ -250,7 +171,7 @@
                 "has_todo": false,
                 "file_count": 23,
                 "last_modified": "2026-05-21T04:40:12.131068",
-                "age_hours": 29.3,
+                "age_hours": 30.8,
                 "status": "active",
                 "blocker": null,
                 "last_action": null,
@@ -266,7 +187,7 @@
                 "has_todo": false,
                 "file_count": 30,
                 "last_modified": "2026-05-21T20:52:06.676118",
-                "age_hours": 13.1,
+                "age_hours": 14.6,
                 "status": "stale",
                 "blocker": null,
                 "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
@@ -274,14 +195,106 @@
                 "tier": "P1"
               }
             ],
+            "special_artifacts": [
+              {
+                "name": "P1.1 日记系统",
+                "path": "/root/.openclaw/workspace/diary",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 355,
+                "last_modified": "2026-05-22T11:11:37.196953",
+                "age_hours": 0.2,
+                "details": "每日内观与觉察记录",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.2 学习积累",
+                "path": "/root/.openclaw/workspace/diary/LEARNINGS.md",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-20T22:08:53.140030",
+                "age_hours": 37.3,
+                "details": "经验沉淀与教训记录",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.3 资源感知舱",
+                "path": "/root/.openclaw/scripts/resource-tracker.py",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-18T23:36:28.055247",
+                "age_hours": 83.8,
+                "details": "系统资源采集与监控",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.4 心跳/内观机制",
+                "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-15T18:52:10.112388",
+                "age_hours": 160.6,
+                "details": "长期任务 idle 检查与触发",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.5 Session 管理",
+                "path": "/root/.openclaw/workspace/scripts/session-cleanup.sh",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-13T15:09:14.020543",
+                "age_hours": 212.3,
+                "details": "Session 清理与归档",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.6 网站 (littlek-513.github.io)",
+                "path": "/root/.openclaw/workspace/index.html",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 6,
+                "last_modified": "2026-05-22T11:24:38.786592",
+                "age_hours": 0.0,
+                "details": "Jekyll 静态站点 + Dashboard 主页",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              }
+            ],
             "stats": {
-              "total": 2,
-              "active": 1,
-              "stale": 1,
+              "total": 8,
+              "active": 6,
+              "stale": 2,
               "orphan": 0,
               "ghost": 0
             },
-            "group_score": 3.5,
+            "group_score": 6.8,
             "group_status": "mixed",
             "group_health": "🟡 部分停滞"
           },
@@ -299,7 +312,7 @@
                 "has_todo": false,
                 "file_count": 9,
                 "last_modified": "2026-05-21T21:56:32.498939",
-                "age_hours": 12.1,
+                "age_hours": 13.5,
                 "status": "stale",
                 "blocker": null,
                 "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
@@ -315,7 +328,7 @@
                 "has_todo": false,
                 "file_count": 1,
                 "last_modified": "2026-05-21T21:56:38.611952",
-                "age_hours": 12.1,
+                "age_hours": 13.5,
                 "status": "active",
                 "blocker": null,
                 "last_action": null,
@@ -323,6 +336,7 @@
                 "tier": "P2"
               }
             ],
+            "special_artifacts": [],
             "stats": {
               "total": 2,
               "active": 1,
@@ -331,6 +345,99 @@
               "ghost": 0
             },
             "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          },
+          {
+            "tier": "P3",
+            "name": "P3: 用户安排的其它任务",
+            "goal": "用户直接指派的外部任务与探索",
+            "projects": [],
+            "special_artifacts": [
+              {
+                "name": "P3.1 SpaceX S-1 分析",
+                "path": "/root/.openclaw/workspace/spacex-s1",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-21T11:39:00.518933",
+                "age_hours": 23.8,
+                "details": "SpaceX S-1 财务与运营分析",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.2 CFMS 数据抓取",
+                "path": "/root/.openclaw/workspace/data.jsonl",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-22T11:00:02.186523",
+                "age_hours": 0.4,
+                "details": "CFM 发动机数据抓取与备份",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.3 创始人手册翻译",
+                "path": "/root/.openclaw/workspace/founders-handbook.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-21T11:13:23.966861",
+                "age_hours": 24.2,
+                "details": "YC 创始人手册中文翻译",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.4 Claude 桥接",
+                "path": "/root/.openclaw/workspace/claude-openclaw-bridge.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-08T07:29:48.202341",
+                "age_hours": 339.9,
+                "details": "Claude 与 OpenClaw 桥接方案",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.5 Mac 连接通道",
+                "path": "/root/.openclaw/workspace/mac-bridge-websocket-spec.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-09T10:19:03.592280",
+                "age_hours": 313.1,
+                "details": "Mac 桥接 WebSocket 规格",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              }
+            ],
+            "stats": {
+              "total": 5,
+              "active": 3,
+              "stale": 2,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 4.8,
             "group_status": "mixed",
             "group_health": "🟡 部分停滞"
           }
@@ -345,7 +452,7 @@
             "has_todo": false,
             "file_count": 5,
             "last_modified": "2026-05-19T19:37:52.473199",
-            "age_hours": 62.4,
+            "age_hours": 63.8,
             "status": "stale",
             "blocker": null,
             "last_action": null,
@@ -361,7 +468,7 @@
             "has_todo": false,
             "file_count": 19,
             "last_modified": "2026-05-21T21:58:06.972136",
-            "age_hours": 12.0,
+            "age_hours": 13.5,
             "status": "stale",
             "blocker": null,
             "last_action": null,
@@ -377,7 +484,7 @@
             "has_todo": false,
             "file_count": 1,
             "last_modified": "2026-05-21T21:56:38.611952",
-            "age_hours": 12.1,
+            "age_hours": 13.5,
             "status": "active",
             "blocker": null,
             "last_action": null,
@@ -393,7 +500,7 @@
             "has_todo": false,
             "file_count": 23,
             "last_modified": "2026-05-21T04:40:12.131068",
-            "age_hours": 29.3,
+            "age_hours": 30.8,
             "status": "active",
             "blocker": null,
             "last_action": null,
@@ -409,7 +516,7 @@
             "has_todo": false,
             "file_count": 9,
             "last_modified": "2026-05-21T21:56:32.498939",
-            "age_hours": 12.1,
+            "age_hours": 13.5,
             "status": "stale",
             "blocker": null,
             "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
@@ -425,7 +532,7 @@
             "has_todo": false,
             "file_count": 30,
             "last_modified": "2026-05-21T20:52:06.676118",
-            "age_hours": 13.1,
+            "age_hours": 14.6,
             "status": "stale",
             "blocker": null,
             "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
@@ -433,11 +540,178 @@
             "tier": "P1"
           }
         ],
-        "active_count": 2,
-        "stale_count": 4,
+        "special_artifacts": [
+          {
+            "name": "P1.1 日记系统",
+            "path": "/root/.openclaw/workspace/diary",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 355,
+            "last_modified": "2026-05-22T11:11:37.196953",
+            "age_hours": 0.2,
+            "details": "每日内观与觉察记录",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.2 学习积累",
+            "path": "/root/.openclaw/workspace/diary/LEARNINGS.md",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-20T22:08:53.140030",
+            "age_hours": 37.3,
+            "details": "经验沉淀与教训记录",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.3 资源感知舱",
+            "path": "/root/.openclaw/scripts/resource-tracker.py",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-18T23:36:28.055247",
+            "age_hours": 83.8,
+            "details": "系统资源采集与监控",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.4 心跳/内观机制",
+            "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-15T18:52:10.112388",
+            "age_hours": 160.6,
+            "details": "长期任务 idle 检查与触发",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.5 Session 管理",
+            "path": "/root/.openclaw/workspace/scripts/session-cleanup.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-13T15:09:14.020543",
+            "age_hours": 212.3,
+            "details": "Session 清理与归档",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.6 网站 (littlek-513.github.io)",
+            "path": "/root/.openclaw/workspace/index.html",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 6,
+            "last_modified": "2026-05-22T11:24:38.786592",
+            "age_hours": 0.0,
+            "details": "Jekyll 静态站点 + Dashboard 主页",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.1 SpaceX S-1 分析",
+            "path": "/root/.openclaw/workspace/spacex-s1",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-21T11:39:00.518933",
+            "age_hours": 23.8,
+            "details": "SpaceX S-1 财务与运营分析",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.2 CFMS 数据抓取",
+            "path": "/root/.openclaw/workspace/data.jsonl",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-22T11:00:02.186523",
+            "age_hours": 0.4,
+            "details": "CFM 发动机数据抓取与备份",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.3 创始人手册翻译",
+            "path": "/root/.openclaw/workspace/founders-handbook.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-21T11:13:23.966861",
+            "age_hours": 24.2,
+            "details": "YC 创始人手册中文翻译",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.4 Claude 桥接",
+            "path": "/root/.openclaw/workspace/claude-openclaw-bridge.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-08T07:29:48.202341",
+            "age_hours": 339.9,
+            "details": "Claude 与 OpenClaw 桥接方案",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.5 Mac 连接通道",
+            "path": "/root/.openclaw/workspace/mac-bridge-websocket-spec.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-09T10:19:03.592280",
+            "age_hours": 313.1,
+            "details": "Mac 桥接 WebSocket 规格",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          }
+        ],
+        "active_count": 10,
+        "stale_count": 7,
         "orphan_count": 0,
         "ghost_count": 0,
-        "total_count": 6
+        "total_count": 17
       },
       "checks_passed": 2,
       "checks_total": 2
@@ -453,33 +727,116 @@
         "node_version": "v24.15.0",
         "working_dir": "/root/.openclaw/workspace",
         "hostname": "VM-13-249-ubuntu",
-        "timestamp": "2026-05-22T09:59:52.217215"
+        "timestamp": "2026-05-22T11:25:32.186646"
       },
       "checks_passed": 3,
       "checks_total": 4
     },
+    "sessions": {
+      "module": "sessions",
+      "data": {
+        "total_sessions": 244,
+        "recent_10": [
+          {
+            "file": "2719d886-45a2-4822-a234-c179744aeb61.jsonl",
+            "size": "694.3KB",
+            "mtime": "2026-05-22T11:25:31.606704",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"2719d886-45a2-4822-a234-c179744aeb61\",\"timestamp\":\"2026-05-22T03:10:44.790Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "bc70d911-2d50-4098-a09d-a2d66d2e703b.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:24:32.292578",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bc70d911-2d50-4098-a09d-a2d66d2e703b\",\"timestamp\":\"2026-05-22T03:24:23.198Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+            "size": "2.2MB",
+            "mtime": "2026-05-22T11:22:34.508327",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "afbaa0ea-6349-4c40-842d-0bc86aee2423.jsonl",
+            "size": "108.6KB",
+            "mtime": "2026-05-22T11:22:30.040318",
+            "age_hours": 0.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"afbaa0ea-6349-4c40-842d-0bc86aee2423\",\"timestamp\":\"2026-05-08T10:41:31.418Z\",\"cwd\":\"/root\"}"
+          },
+          {
+            "file": "635cb24e-7db4-4eda-9ab3-a3dcbf54462e.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:14:30.299309",
+            "age_hours": 0.2,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"635cb24e-7db4-4eda-9ab3-a3dcbf54462e\",\"timestamp\":\"2026-05-22T03:14:22.692Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.checkpoint.65cf0fad-592f-47fc-8477-72d11924b03a.jsonl",
+            "size": "2.2MB",
+            "mtime": "2026-05-22T11:12:03.638007",
+            "age_hours": 0.2,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "27d24ded-71e0-406f-8bc0-f07aef6b59fb.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:04:36.763088",
+            "age_hours": 0.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"27d24ded-71e0-406f-8bc0-f07aef6b59fb\",\"timestamp\":\"2026-05-22T03:04:22.555Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "7a76c6e2-d67f-48a7-b114-a69c1813535e.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T10:54:34.400848",
+            "age_hours": 0.5,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7a76c6e2-d67f-48a7-b114-a69c1813535e\",\"timestamp\":\"2026-05-22T02:54:22.567Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "882f9cd7-8660-44e6-a1e8-7fcb269a6759.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T10:44:40.872406",
+            "age_hours": 0.7,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"882f9cd7-8660-44e6-a1e8-7fcb269a6759\",\"timestamp\":\"2026-05-22T02:44:22.640Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "cc0e59f6-e71f-4bf5-8aae-9c3911f6cdc3.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T10:34:29.943082",
+            "age_hours": 0.9,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"cc0e59f6-e71f-4bf5-8aae-9c3911f6cdc3\",\"timestamp\":\"2026-05-22T02:34:22.610Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          }
+        ]
+      },
+      "checks_passed": 2,
+      "checks_total": 2
+    },
     "environment": {
       "module": "environment",
       "data": {
-        "timestamp": "2026-05-22T09:59:52.254405",
+        "timestamp": "2026-05-22T11:25:32.137053",
         "hostname": "VM-13-249-ubuntu",
-        "uptime": "09:59:52 up 14 days, 17:00,  0 user,  load average: 0.15, 0.29, 0.25",
+        "uptime": "11:25:32 up 14 days, 18:26,  0 user,  load average: 0.31, 0.23, 0.18",
         "disk": {
-          "usage_percent": 83,
-          "available": "6.5G",
-          "raw": "/dev/vda2        40G   32G  6.5G  83% /",
+          "usage_percent": 88,
+          "available": "4.7G",
+          "raw": "/dev/vda2        40G   33G  4.7G  88% /",
           "ok": true
         },
         "memory": {
-          "raw": "Mem:           7.5Gi       2.8Gi       889Mi       6.1Mi       4.2Gi       4.7Gi",
+          "raw": "Mem:           7.5Gi       2.7Gi       783Mi       5.7Mi       4.3Gi       4.8Gi",
           "ok": true
         },
         "git": {
           "branch": "main",
           "uncommitted_changes": [
-            "M ../../../data.jsonl",
+            "D ../../../_posts/2026-05-12-enough-not-compromise.md",
+            " M ../../../data.jsonl",
             " M ../../../reports/p1-0/latest.json",
+            " M ../baseline-check-v2.md",
             " M ../generate-report.py",
+            " D check-harness.py",
             " M check-projects.py",
             " M ../orchestrator.py",
             " M ../state.json",
@@ -499,11 +856,10 @@
             "?? ../../../MEMORY.md",
             "?? ../../../MEMORY.md.backup-20260513",
             "?? ../../../P0_state.json",
-            "?? ../../../SOUL.md",
             "?? ../../../TOOLS.md",
-            "?? ../../../USER.md",
             "?? ../../../USER.md.backup-20260513",
             "?? ../../../__pycache__/",
+            "?? ../../../_posts/2026-05-12-good-enough.md",
             "?? ../../../ac_api.py",
             "?? ../../../backups/",
             "?? ../../../bounty/",
@@ -516,7 +872,6 @@
             "?? ../../../dashboard/",
             "?? ../../../data.jsonl.bak",
             "?? ../../../data/",
-            "?? ../../../diary/",
             "?? ../../../downloads/",
             "?? ../../../index.html.bak",
             "?? ../../../mac-bridge-websocket-spec.md",
@@ -567,6 +922,8 @@
             "?? ../../../references/self-evolution/tencentdb-agent-memory-reference.md",
             "?? ../../../references/self-evolution/unix-pipeline-skill-design.md",
             "?? ../../../references/three_way_comparison.png",
+            "?? ../../../reports/p1-0/history/20260522-0959.json",
+            "?? ../../../reports/p1-0/history/20260522-0959.md",
             "?? ../../../scripts/",
             "?? ../../../self-drive-mechanism.md",
             "?? ../../../self-evolution/",
@@ -582,6 +939,9 @@
             "?? ../../github-assistant-skill/",
             "?? ../../github-ops-pro/",
             "?? ../../kimiim/",
+            "?? check-harness-old.py.bak",
+            "?? check-harness-v2.py",
+            "?? check-infrastructure.py",
             "?? ../self-acceptance-report-20260522.md",
             "?? ../test-result.md",
             "?? ../test-v2-result.md",
@@ -601,9 +961,9 @@
             "?? ../../../whisper-models/"
           ],
           "has_uncommitted": true,
-          "last_commit_hash": "90e2f68e",
-          "last_commit_time": "2026-05-22 05:58:27 +0800",
-          "total_commits": 200,
+          "last_commit_hash": "78d9b393",
+          "last_commit_time": "2026-05-22 11:21:26 +0800",
+          "total_commits": 214,
           "ok": true
         },
         "versions": {
@@ -627,7 +987,7 @@
         "mailgun_webhook": true,
         "raw": {
           "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
-          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1208,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
           "tunnel_http_code": "000000",
           "mailgun": "inactive\ninactive"
         }
@@ -649,45 +1009,465 @@
             "exists": true,
             "size": 125,
             "mtime": 1778558073.0006151,
-            "mtime_age_hours": 238.1
+            "mtime_age_hours": 239.5
           }
         },
         "cron_jobs_count": 9,
         "cron_jobs": [
-          "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
-          "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1",
-          "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
-          "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
-          "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
-          "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
-          "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1",
-          "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
-          "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+          {
+            "schedule": "*/5 * * * *",
+            "command": "flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
+            "owner": "I0.1",
+            "owner_tier": "I0",
+            "description": "腾讯云监控",
+            "raw": "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'"
+          },
+          {
+            "schedule": "47 8 * * 3",
+            "command": "cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_s",
+            "owner": "P3.2",
+            "owner_tier": "P3",
+            "description": "CFMS 数据备份",
+            "raw": "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1"
+          },
+          {
+            "schedule": "0 9 * * *",
+            "command": "/root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
+            "owner": "系统健康",
+            "owner_tier": "系统健康",
+            "description": "系统健康监控",
+            "raw": "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
+            "owner": "I0.5",
+            "owner_tier": "I0",
+            "description": "微信通道健康检查",
+            "raw": "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1"
+          },
+          {
+            "schedule": "0 4 * * 1",
+            "command": "bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
+            "owner": "P1.5",
+            "owner_tier": "P1",
+            "description": "Session 清理归档",
+            "raw": "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
+            "owner": "P1.4",
+            "owner_tier": "P1",
+            "description": "心跳/内观机制",
+            "raw": "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource",
+            "owner": "P1.3",
+            "owner_tier": "P1",
+            "description": "资源感知舱数据采集",
+            "raw": "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1"
+          },
+          {
+            "schedule": "0 * * * *",
+            "command": "/usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
+            "owner": "P1.3",
+            "owner_tier": "P1",
+            "description": "资源感知舱健康检查",
+            "raw": "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1",
+            "owner": "P1.6",
+            "owner_tier": "P1",
+            "description": "网站数据同步",
+            "raw": "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+          }
         ],
         "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
         "gateway_ok": true,
         "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
         "systemd_ok": true,
         "sessions": {
-          "count": 242,
-          "total_size": "141.0MB",
-          "total_size_bytes": 147823846
+          "count": 244,
+          "total_size": "144.6MB",
+          "total_size_bytes": 151580466
+        },
+        "linux_resources": {
+          "cpu_load": {
+            "1min": 0.31,
+            "5min": 0.23,
+            "15min": 0.18,
+            "raw": "0.31 0.23 0.18 1/296 1525232"
+          },
+          "memory": {
+            "total_mb": 7685,
+            "used_mb": 2902,
+            "free_mb": 652,
+            "shared_mb": 5,
+            "buffers_mb": 4450,
+            "cache_mb": 4782,
+            "available_mb": 4782,
+            "swap_total_mb": 4095,
+            "swap_used_mb": 269
+          },
+          "memory_raw": "total        used        free      shared  buff/cache   available\nMem:            7685        2902         652           5        4450        4782\nSwap:           4095         269        3826",
+          "disk_partitions": [
+            {
+              "filesystem": "tmpfs",
+              "size": "769M",
+              "used": "1.1M",
+              "available": "768M",
+              "usage_percent": 1,
+              "mount": "/run"
+            },
+            {
+              "filesystem": "/dev/vda2",
+              "size": "40G",
+              "used": "33G",
+              "available": "4.7G",
+              "usage_percent": 88,
+              "mount": "/"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "3.8G",
+              "used": "1.1M",
+              "available": "3.8G",
+              "usage_percent": 1,
+              "mount": "/dev/shm"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "5.0M",
+              "used": "0",
+              "available": "5.0M",
+              "usage_percent": 0,
+              "mount": "/run/lock"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "769M",
+              "used": "20K",
+              "available": "769M",
+              "usage_percent": 1,
+              "mount": "/run/user/0"
+            }
+          ],
+          "processes": {
+            "total": 156,
+            "zombie": 2
+          },
+          "uptime_pretty": "up 2 weeks, 18 hours, 26 minutes",
+          "cpu_cores": 4
+        },
+        "openclaw_architecture": {
+          "gateway": {
+            "status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+            "ok": true,
+            "port": "?",
+            "bind": "?",
+            "version": "?",
+            "last_log_age_min": null
+          },
+          "channels": {
+            "weixin": {
+              "configured": false,
+              "process_running": true,
+              "pid": "1525304"
+            },
+            "feishu": {
+              "configured": false,
+              "token_present": false
+            },
+            "web": {
+              "configured": true
+            },
+            "mail": {
+              "systemd_active": true,
+              "systemd_status": "inactive\ninactive"
+            }
+          },
+          "sessions": {
+            "total_count": 244,
+            "total_size": "144.6MB",
+            "total_size_bytes": 151580466,
+            "active_recent_1h": 10,
+            "active_sessions": [
+              {
+                "file": "635cb24e-7db4-4eda-9ab3-a3dcbf54462e.jsonl",
+                "size": "11.9KB",
+                "age_hours": 0.19
+              },
+              {
+                "file": "bc70d911-2d50-4098-a09d-a2d66d2e703b.jsonl",
+                "size": "11.9KB",
+                "age_hours": 0.02
+              },
+              {
+                "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+                "size": "2.2MB",
+                "age_hours": 0.05
+              },
+              {
+                "file": "7a76c6e2-d67f-48a7-b114-a69c1813535e.jsonl",
+                "size": "11.8KB",
+                "age_hours": 0.52
+              },
+              {
+                "file": "2719d886-45a2-4822-a234-c179744aeb61.jsonl",
+                "size": "694.3KB",
+                "age_hours": 0.0
+              }
+            ]
+          },
+          "context_pressure": {
+            "level": "high",
+            "total_sessions_size_mb": 144.56
+          },
+          "tools": {
+            "official": [],
+            "custom": [
+              {
+                "id": "cloudflared_tunnel",
+                "path": "/usr/bin/cloudflared",
+                "description": "Cloudflare Tunnel",
+                "available": true
+              },
+              {
+                "id": "ssh_dreamhost",
+                "path": "/root/.ssh/id_rsa",
+                "description": "SSH Dreamhost",
+                "available": false
+              },
+              {
+                "id": "email_webhook",
+                "path": "/root/.openclaw/scripts/email-webhook-server.js",
+                "description": "邮件 Webhook",
+                "available": true
+              },
+              {
+                "id": "resource_tracker",
+                "path": "/root/.openclaw/scripts/resource-tracker.py",
+                "description": "资源感知舱",
+                "available": true
+              },
+              {
+                "id": "momentum_trigger",
+                "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+                "description": "动量触发器",
+                "available": true
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "name": "memory_consolidation",
+              "path": "/root/.openclaw/plugins/memory_consolidation"
+            },
+            {
+              "name": "kimi-claw",
+              "path": "/root/.openclaw/plugins/kimi-claw"
+            }
+          ]
         }
       },
-      "checks_passed": 5,
-      "checks_total": 5
+      "checks_passed": 6,
+      "checks_total": 6
+    },
+    "infrastructure": {
+      "module": "infrastructure",
+      "data": {
+        "groups": [
+          {
+            "id": "I0.1",
+            "name": "Cloudflare Tunnel",
+            "status": "✅",
+            "details": {
+              "process": "323606 /usr/bin/cloudflared --no-autoupdate tunnel run --token eyJhIjoiMzNjMzVlMmFiYmM1YTA5NTNjODQzMDg5M2IwMDI4NzEiLCJ0IjoiNzljZTk4OTktN2UzNC00MjQ0LTliMjQtOWU2MjYxZGNiOWFhIiwicyI6Ik5XUTVNVEV5WWprdE5XUTNZaTAwTVdVMExUZ3hPVGN0Wm1aaE0yWTBPR00wWW1GaSJ9",
+              "running": true,
+              "port_20241": true,
+              "domain_reachable": true,
+              "domain_http_code": "200",
+              "tunnel_list": ""
+            }
+          },
+          {
+            "id": "I0.2",
+            "name": "邮件系统 (xiaok-mailbox-webhook)",
+            "status": "✅",
+            "details": {
+              "systemd_active": true,
+              "systemd_status": "inactive\ninactive",
+              "process_running": true,
+              "latest_delivery": null
+            }
+          },
+          {
+            "id": "I0.3",
+            "name": "GitHub 身份 (LittleK-513)",
+            "status": "✅",
+            "details": {
+              "cli_logged_in": true,
+              "auth_status_raw": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+              "api_ok": true,
+              "api_raw": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+              "git_user": "LittleK",
+              "git_email": "xiaok@trust4.net"
+            }
+          },
+          {
+            "id": "I0.4",
+            "name": "飞书连接",
+            "status": "❌",
+            "details": {
+              "token_present": false,
+              "channel_configured": false
+            }
+          },
+          {
+            "id": "I0.5",
+            "name": "微信通道",
+            "status": "❌",
+            "details": {
+              "channel_configured": false,
+              "process_running": true,
+              "health_log_age_hours": 0.4
+            }
+          },
+          {
+            "id": "I0.6",
+            "name": "Dreamhost SSH",
+            "status": "❌",
+            "details": {
+              "ssh_key_present": false,
+              "ssh_config_present": false,
+              "ssh_test_ok": false,
+              "ssh_test_raw": "failed"
+            }
+          }
+        ],
+        "infra": {
+          "cloudflare_tunnel": {
+            "process": "323606 /usr/bin/cloudflared --no-autoupdate tunnel run --token eyJhIjoiMzNjMzVlMmFiYmM1YTA5NTNjODQzMDg5M2IwMDI4NzEiLCJ0IjoiNzljZTk4OTktN2UzNC00MjQ0LTliMjQtOWU2MjYxZGNiOWFhIiwicyI6Ik5XUTVNVEV5WWprdE5XUTNZaTAwTVdVMExUZ3hPVGN0Wm1aaE0yWTBPR00wWW1GaSJ9",
+            "running": true,
+            "port_20241": true,
+            "domain_reachable": true,
+            "domain_http_code": "200",
+            "tunnel_list": ""
+          },
+          "mail_system": {
+            "systemd_active": true,
+            "systemd_status": "inactive\ninactive",
+            "process_running": true,
+            "latest_delivery": null
+          },
+          "github_identity": {
+            "cli_logged_in": true,
+            "auth_status_raw": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+            "api_ok": true,
+            "api_raw": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+            "git_user": "LittleK",
+            "git_email": "xiaok@trust4.net"
+          },
+          "feishu_connection": {
+            "token_present": false,
+            "channel_configured": false
+          },
+          "weixin_channel": {
+            "channel_configured": false,
+            "process_running": true,
+            "health_log_age_hours": 0.4
+          },
+          "dreamhost_ssh": {
+            "ssh_key_present": false,
+            "ssh_config_present": false,
+            "ssh_test_ok": false,
+            "ssh_test_raw": "failed"
+          }
+        }
+      },
+      "checks_passed": 3,
+      "checks_total": 6
     }
   },
   "ai_analysis": {
-    "summary": "本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。",
+    "summary": "本周期扫描到 17 个项目分布在 4 个项目群中，另有 11 个特殊产出物。系统健康评分 6.6/10，发现 4 个严重异常需立即处理。项目群状况: P0 群全面停滞；P1 群部分停滞（2/8）（+6个产出物）；P2 群部分停滞（1/2）；P3 群部分停滞（2/5）（+5个产出物）。基础设施 3/6 项健康。",
     "tier_insights": {},
-    "anomalies": [],
+    "anomalies": [
+      {
+        "severity": "high",
+        "category": "environment",
+        "finding": "磁盘使用率 88% 超过 85% 阈值",
+        "detail": "可能引发日志写入失败或 session 无法保存"
+      },
+      {
+        "severity": "medium",
+        "category": "system_resources",
+        "finding": "交换分区使用 269MB",
+        "detail": "内存压力较大，swap 活跃"
+      },
+      {
+        "severity": "medium",
+        "category": "openclaw_architecture",
+        "finding": "微信通道未配置",
+        "detail": "微信消息收发可能中断"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.4 飞书连接 不可用",
+        "detail": "检查 飞书连接 配置和进程状态"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.5 微信通道 不可用",
+        "detail": "检查 微信通道 配置和进程状态"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.6 Dreamhost SSH 不可用",
+        "detail": "检查 Dreamhost SSH 配置和进程状态"
+      }
+    ],
     "trends": [
-      "➡️ 系统健康度持平（6.2 分）",
-      "⚠️ 活跃项目仅占 33%，多数项目停滞",
-      "🟡 磁盘使用率偏高，建议纳入下周清理计划"
+      "📈 系统健康度提升 0.8 分（5.8 → 6.6）",
+      "✅ 活跃项目占比 59%，整体可控",
+      "🟡 磁盘使用率偏高，建议纳入下周清理计划",
+      "✅ OpenClaw Gateway 运行正常",
+      "📡 通道状态 3/4 活跃"
     ],
     "recommendations": [
+      {
+        "priority": "immediate",
+        "target": "environment",
+        "action": "处理 磁盘使用率 88% 超过 85% 阈值 — 可能引发日志写入失败或 session 无法保存"
+      },
+      {
+        "priority": "immediate",
+        "target": "infrastructure",
+        "action": "处理 基础设施 I0.4 飞书连接 不可用 — 检查 飞书连接 配置和进程状态"
+      },
+      {
+        "priority": "immediate",
+        "target": "infrastructure",
+        "action": "处理 基础设施 I0.5 微信通道 不可用 — 检查 微信通道 配置和进程状态"
+      },
+      {
+        "priority": "this_cycle",
+        "target": "system_resources",
+        "action": "跟进 交换分区使用 269MB — 内存压力较大，swap 活跃"
+      },
+      {
+        "priority": "this_cycle",
+        "target": "openclaw_architecture",
+        "action": "跟进 微信通道未配置 — 微信消息收发可能中断"
+      },
       {
         "priority": "this_cycle",
         "target": "projects",
@@ -700,15 +1480,15 @@
         "status": "stale",
         "notes": [
           "⚠️ P0 有 2/2 个项目停滞",
-          "   最老停滞: bounty (62h)"
+          "   最老停滞: bounty (64h)"
         ]
       },
       "P1": {
-        "score": 3.5,
+        "score": 6.8,
         "status": "mixed",
         "notes": [
-          "⚠️ P1 有 1/2 个项目停滞",
-          "   最老停滞: p1-self-evolution (13h)"
+          "⚠️ P1 有 2/8 个项目停滞",
+          "   最老停滞: p1-self-evolution (15h)"
         ]
       },
       "P2": {
@@ -716,7 +1496,14 @@
         "status": "mixed",
         "notes": [
           "⚠️ P2 有 1/2 个项目停滞",
-          "   最老停滞: p2-agent-social (12h)"
+          "   最老停滞: p2-agent-social (14h)"
+        ]
+      },
+      "P3": {
+        "score": 4.8,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P3 有 2/5 个项目停滞"
         ]
       }
     }
@@ -735,9 +1522,9 @@
       "tier": "P1",
       "tier_name": "P1: 自进化任务",
       "expected": "当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-",
-      "reality": "1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
+      "reality": "6/8 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
       "gap": "🟡 偏差",
-      "gap_reason": "1/2 项目停滞",
+      "gap_reason": "2/8 项目停滞",
       "suggestion": "推进 next action，激活停滞项目"
     },
     {
@@ -753,10 +1540,10 @@
       "tier": "P3",
       "tier_name": "P3: 用户安排的其它任务",
       "expected": "未记录期望",
-      "reality": "无项目",
-      "gap": "⚪ 未启动",
-      "gap_reason": "项目群为空",
-      "suggestion": "启动 用户指派任务"
+      "reality": "3/5 活跃",
+      "gap": "🟡 偏差",
+      "gap_reason": "2/5 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
     }
   ],
   "alerts": [
@@ -765,6 +1552,30 @@
       "category": "project_group",
       "item": "P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)",
       "suggestion": "检查 P0 项目群的 blocker，优先激活"
+    },
+    {
+      "level": "critical",
+      "category": "environment",
+      "item": "磁盘使用率 88%",
+      "suggestion": "清理日志和旧 session 文件"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.4 飞书连接 不可用",
+      "suggestion": "检查 飞书连接 配置和进程"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.5 微信通道 不可用",
+      "suggestion": "检查 微信通道 配置和进程"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.6 Dreamhost SSH 不可用",
+      "suggestion": "检查 Dreamhost SSH 配置和进程"
     },
     {
       "level": "warning",
@@ -777,11 +1588,17 @@
       "category": "project_group",
       "item": "P2: 社交网络探索 部分停滞: p2-agent-social",
       "suggestion": "推进 P2 停滞项目的 next action"
+    },
+    {
+      "level": "warning",
+      "category": "project_group",
+      "item": "P3: 用户安排的其它任务 部分停滞: ",
+      "suggestion": "推进 P3 停滞项目的 next action"
     }
   ],
   "alert_count": {
-    "critical": 1,
-    "warning": 2,
+    "critical": 5,
+    "warning": 3,
     "info": 0
   }
 }

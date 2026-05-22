@@ -179,7 +179,7 @@ footer {
   color: var(--text);
 }
 
-/* 四层项目树 */
+/* 五层项目树 */
 .tier-card {
   background: rgba(255,255,255,0.02);
   border: 1px solid var(--border);
@@ -311,6 +311,29 @@ footer {
   background: rgba(0,212,255,0.05);
 }
 
+/* 系统资源图表 */
+.resource-chart {
+  margin: 0.5rem 0;
+}
+.resource-bar-bg {
+  background: rgba(255,255,255,0.05);
+  border-radius: 4px;
+  height: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.resource-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+.resource-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
 @media (max-width: 600px) {
   .grid { grid-template-columns: 1fr; }
   header h1 { font-size: 1.8rem; }
@@ -323,8 +346,8 @@ footer {
 
 <header>
   <h1>P1.0 系统状态</h1>
-  <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力</p>
-  <p class="subtitle">生成于 2026-05-22T09:59:54</p>
+  <p class="subtitle">全面检查 · 模型 · Harness · 记忆 · 项目 · 环境 · 能力 · 基础设施</p>
+  <p class="subtitle">生成于 2026-05-22T11:25:36</p>
 </header>
 
 <!-- 评分圆环 -->
@@ -332,10 +355,10 @@ footer {
   <svg width="200" height="200" viewBox="0 0 200 200">
     <circle cx="100" cy="100" r="90" fill="none" stroke="#1a1a2e" stroke-width="12"/>
     <circle id="score-circle" cx="100" cy="100" r="90" fill="none" stroke="var(--accent)" stroke-width="12"
-      stroke-dasharray="565.5" stroke-dashoffset="214.89000000000001"
+      stroke-dasharray="565.5" stroke-dashoffset="192.27000000000004"
       stroke-linecap="round"/>
   </svg>
-  <div class="score-text">6.2</div>
+  <div class="score-text">6.6</div>
   <div class="score-label">/ 10</div>
 </div>
 
@@ -344,12 +367,12 @@ footer {
   <div class="card">
     <h2>告警概览</h2>
     <div style="text-align:center; padding: 1rem 0;">
-      <span class="status-badge badge-bad">🔴 Critical: 1</span>
-      <span class="status-badge badge-warn">🟡 Warning: 2</span>
+      <span class="status-badge badge-bad">🔴 Critical: 5</span>
+      <span class="status-badge badge-warn">🟡 Warning: 3</span>
       <span class="status-badge badge-info">🟢 Info: 0</span>
     </div>
     <p style="text-align:center; color: var(--text-dim); font-size: 0.85rem;">
-      共 3 条告警，建议优先处理 Critical
+      共 8 条告警，建议优先处理 Critical
     </p>
   </div>
   
@@ -365,7 +388,7 @@ footer {
 <div class="card">
   <h2>🧠 AI 分析摘要</h2>
   <div class="ai-summary">
-    本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。
+    本周期扫描到 17 个项目分布在 4 个项目群中，另有 11 个特殊产出物。系统健康评分 6.6/10，发现 4 个严重异常需立即处理。项目群状况: P0 群全面停滞；P1 群部分停滞（2/8）（+6个产出物）；P2 群部分停滞（1/2）；P3 群部分停滞（2/5）（+5个产出物）。基础设施 3/6 项健康。
   </div>
   
   <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">项目群健康度</h3>
@@ -375,30 +398,42 @@ footer {
           <div class="health-tier">P0</div>
           <div class="health-score" style="color: var(--bad);">0/10</div>
           <div class="health-status">stale</div>
-          <div class="health-notes">⚠️ P0 有 2/2 个项目停滞<br>   最老停滞: bounty (62h)</div>
+          <div class="health-notes">⚠️ P0 有 2/2 个项目停滞<br>   最老停滞: bounty (64h)</div>
         </div>
         <div class="health-card">
           <div class="health-tier">P1</div>
-          <div class="health-score" style="color: var(--bad);">3.5/10</div>
+          <div class="health-score" style="color: var(--warn);">6.8/10</div>
           <div class="health-status">mixed</div>
-          <div class="health-notes">⚠️ P1 有 1/2 个项目停滞<br>   最老停滞: p1-self-evolution (13h)</div>
+          <div class="health-notes">⚠️ P1 有 2/8 个项目停滞<br>   最老停滞: p1-self-evolution (15h)</div>
         </div>
         <div class="health-card">
           <div class="health-tier">P2</div>
           <div class="health-score" style="color: var(--bad);">3.5/10</div>
           <div class="health-status">mixed</div>
-          <div class="health-notes">⚠️ P2 有 1/2 个项目停滞<br>   最老停滞: p2-agent-social (12h)</div>
+          <div class="health-notes">⚠️ P2 有 1/2 个项目停滞<br>   最老停滞: p2-agent-social (14h)</div>
+        </div>
+        <div class="health-card">
+          <div class="health-tier">P3</div>
+          <div class="health-score" style="color: var(--warn);">4.8/10</div>
+          <div class="health-status">mixed</div>
+          <div class="health-notes">⚠️ P3 有 2/5 个项目停滞</div>
         </div>
   </div>
   
   <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">趋势判断</h3>
-  <div class="trend-item">➡️ 系统健康度持平（6.2 分）</div>
-<div class="trend-item">⚠️ 活跃项目仅占 33%，多数项目停滞</div>
+  <div class="trend-item">📈 系统健康度提升 0.8 分（5.8 → 6.6）</div>
+<div class="trend-item">✅ 活跃项目占比 59%，整体可控</div>
 <div class="trend-item">🟡 磁盘使用率偏高，建议纳入下周清理计划</div>
+<div class="trend-item">✅ OpenClaw Gateway 运行正常</div>
+<div class="trend-item">📡 通道状态 3/4 活跃</div>
 
   
   <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">改进建议</h3>
-  <div class="rec-item">🟡 <strong>projects</strong>: 激活停滞项目: bounty, p0-github-money, p1-self-evolution</div>
+  <div class="rec-item">🔴 <strong>environment</strong>: 处理 磁盘使用率 88% 超过 85% 阈值 — 可能引发日志写入失败或 session 无法保存</div>
+<div class="rec-item">🔴 <strong>infrastructure</strong>: 处理 基础设施 I0.4 飞书连接 不可用 — 检查 飞书连接 配置和进程状态</div>
+<div class="rec-item">🔴 <strong>infrastructure</strong>: 处理 基础设施 I0.5 微信通道 不可用 — 检查 微信通道 配置和进程状态</div>
+<div class="rec-item">🟡 <strong>system_resources</strong>: 跟进 交换分区使用 269MB — 内存压力较大，swap 活跃</div>
+<div class="rec-item">🟡 <strong>openclaw_architecture</strong>: 跟进 微信通道未配置 — 微信消息收发可能中断</div>
 
 </div>
 
@@ -430,7 +465,7 @@ footer {
         <tr>
           <td><strong>P1</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">自进化任务</span></td>
           <td style="font-size:0.8rem;">当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-</td>
-          <td style="font-size:0.8rem;">1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite</td>
+          <td style="font-size:0.8rem;">6/8 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite</td>
           <td style="color: var(--warn); font-weight: 600;">🟡 偏差</td>
           <td style="font-size:0.8rem;">推进 next action，激活停滞项目</td>
         </tr>
@@ -445,9 +480,9 @@ footer {
         <tr>
           <td><strong>P3</strong><br><span style="font-size:0.75rem;color:var(--text-dim);">用户安排的其它任务</span></td>
           <td style="font-size:0.8rem;">未记录期望</td>
-          <td style="font-size:0.8rem;">无项目</td>
-          <td style="color: var(--text-dim); font-weight: 600;">⚪ 未启动</td>
-          <td style="font-size:0.8rem;">启动 用户指派任务</td>
+          <td style="font-size:0.8rem;">3/5 活跃</td>
+          <td style="color: var(--warn); font-weight: 600;">🟡 偏差</td>
+          <td style="font-size:0.8rem;">推进 next action，激活停滞项目</td>
         </tr>
     </tbody>
   </table>
@@ -456,14 +491,184 @@ footer {
 <!-- 告警详情 -->
 <div class="card" style="margin-bottom: 2rem;">
   <h2>告警详情</h2>
-  <div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[project_group]</span> P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 P0 项目群的 blocker，优先激活</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P1: 自进化任务 部分停滞: p1-self-evolution<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P1 停滞项目的 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P2: 社交网络探索 部分停滞: p2-agent-social<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P2 停滞项目的 next action</span></div>
+  <div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[project_group]</span> P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 P0 项目群的 blocker，优先激活</span></div><div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[environment]</span> 磁盘使用率 88%<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 清理日志和旧 session 文件</span></div><div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[infrastructure]</span> I0.4 飞书连接 不可用<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 飞书连接 配置和进程</span></div><div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[infrastructure]</span> I0.5 微信通道 不可用<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 微信通道 配置和进程</span></div><div class="alert-item alert-critical"><strong>🔴 [CRITICAL]</strong> <span style="color: var(--text-dim);">[infrastructure]</span> I0.6 Dreamhost SSH 不可用<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 检查 Dreamhost SSH 配置和进程</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P1: 自进化任务 部分停滞: p1-self-evolution<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P1 停滞项目的 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P2: 社交网络探索 部分停滞: p2-agent-social<br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P2 停滞项目的 next action</span></div><div class="alert-item alert-warning"><strong>🟡 [WARNING]</strong> <span style="color: var(--text-dim);">[project_group]</span> P3: 用户安排的其它任务 部分停滞: <br><span style="color: var(--accent-dim); font-size: 0.85rem;">→ 推进 P3 停滞项目的 next action</span></div>
 </div>
 
-<!-- 四层项目树形展示 -->
+<!-- 系统资源 -->
 <div class="card" style="margin-bottom: 2rem;">
-  <h2>🏗️ 四层项目结构</h2>
+  <h2>🖥️ 系统资源</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务
+    Linux 实时资源监控：CPU 负载 · 内存 · 进程 · 磁盘
+  </p>
+  
+        <div class="metric"><span>CPU 1min 负载</span><span class="metric-value" style="color: var(--good);">0.31 / 4 核</span></div>
+        <div class="metric"><span>CPU 5min 负载</span><span class="metric-value">0.23</span></div>
+        <div class="metric"><span>CPU 15min 负载</span><span class="metric-value">0.18</span></div>
+        <div class="metric"><span>内存总量</span><span class="metric-value">7685MB</span></div>
+        <div class="metric"><span>内存可用</span><span class="metric-value" style="color: var(--good);">4782MB (62% free)</span></div>
+        <div class="metric"><span>Swap 使用</span><span class="metric-value">269MB / 4095MB</span></div>
+        <div class="metric"><span>总进程数</span><span class="metric-value">156</span></div>
+        <div class="metric"><span>僵尸进程</span><span class="metric-value" style="color: var(--good)">2</span></div>
+  
+      <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">磁盘分区</h3>
+      <table>
+        <thead>
+          <tr><th>文件系统</th><th>大小</th><th>已用</th><th>可用</th><th>使用率</th><th>挂载点</th></tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>tmpfs</td>
+            <td>769M</td>
+            <td>1.1M</td>
+            <td>768M</td>
+            <td style="color: var(--good); font-weight: 600;">1%</td>
+            <td>/run</td>
+          </tr>
+          <tr>
+            <td>/dev/vda2</td>
+            <td>40G</td>
+            <td>33G</td>
+            <td>4.7G</td>
+            <td style="color: var(--bad); font-weight: 600;">88%</td>
+            <td>/</td>
+          </tr>
+          <tr>
+            <td>tmpfs</td>
+            <td>3.8G</td>
+            <td>1.1M</td>
+            <td>3.8G</td>
+            <td style="color: var(--good); font-weight: 600;">1%</td>
+            <td>/dev/shm</td>
+          </tr>
+          <tr>
+            <td>tmpfs</td>
+            <td>5.0M</td>
+            <td>0</td>
+            <td>5.0M</td>
+            <td style="color: var(--good); font-weight: 600;">0%</td>
+            <td>/run/lock</td>
+          </tr>
+          <tr>
+            <td>tmpfs</td>
+            <td>769M</td>
+            <td>20K</td>
+            <td>769M</td>
+            <td style="color: var(--good); font-weight: 600;">1%</td>
+            <td>/run/user/0</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<!-- OpenClaw 架构 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>⚙️ OpenClaw 架构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Gateway · Channels · Sessions · Tools · Plugins
+  </p>
+  
+        <div class="metric"><span>Gateway</span><span class="metric-value">✅ Service: systemd (enabled</span></div>
+        <div class="metric"><span>端口</span><span class="metric-value">?</span></div>
+        <div class="metric"><span>版本</span><span class="metric-value">?</span></div><div class="metric"><span>微信通道</span><span class="metric-value">❌ 运行中</span></div><div class="metric"><span>飞书通道</span><span class="metric-value">❌ Token无</span></div><div class="metric"><span>Web 通道</span><span class="metric-value">✅</span></div><div class="metric"><span>邮件通道</span><span class="metric-value">✅ inactive
+inactive</span></div>
+        <div class="metric"><span>Sessions</span><span class="metric-value">244 个 / 144.6MB</span></div>
+        <div class="metric"><span>活跃 Session(1h)</span><span class="metric-value">10</span></div>
+        <div class="metric"><span>Context 压力</span><span class="metric-value">high (144.56MB)</span></div><div style="margin-top:0.5rem; font-size:0.8rem;">自定义 Tools: <span class='status-badge badge-good'>cloudflared_tunnel</span> <span class='status-badge badge-bad'>ssh_dreamhost</span> <span class='status-badge badge-good'>email_webhook</span> <span class='status-badge badge-good'>resource_tracker</span> <span class='status-badge badge-good'>momentum_trigger</span></div><div style="margin-top:0.5rem; font-size:0.8rem;">插件: memory_consolidation, kimi-claw</div>
+</div>
+
+<!-- Cron 归属 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>⏰ Cron 归属</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Cron Job → 归属项目 → 健康状态
+  </p>
+  
+      <h3 style="color: var(--accent); font-size: 0.9rem; margin: 1rem 0 0.5rem;">Cron 归属</h3>
+      <table>
+        <thead>
+          <tr><th>计划</th><th>归属</th><th>描述</th><th>命令</th></tr>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td><code>*/5 * * * *</code></td>
+            <td style="color: var(--accent);">I0.1</td>
+            <td>腾讯云监控</td>
+            <td style="font-size:0.75rem;">flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh &gt; /de</td>
+          </tr>
+          <tr>
+            <td><code>47 8 * * 3</code></td>
+            <td style="color: var(--accent);">P3.2</td>
+            <td>CFMS 数据备份</td>
+            <td style="font-size:0.75rem;">cd /root/.openclaw/workspace &amp;&amp; /usr/bin/python3 cfm_backup.py &gt;&gt; /var/log/cfm_b</td>
+          </tr>
+          <tr>
+            <td><code>0 9 * * *</code></td>
+            <td style="color: var(--accent);">系统健康</td>
+            <td>系统健康监控</td>
+            <td style="font-size:0.75rem;">/root/.openclaw/workspace/daily_health.sh &gt;&gt; /var/log/daily_health.log 2&gt;&amp;1</td>
+          </tr>
+          <tr>
+            <td><code>*/30 * * * *</code></td>
+            <td style="color: var(--accent);">I0.5</td>
+            <td>微信通道健康检查</td>
+            <td style="font-size:0.75rem;">/root/.openclaw/workspace/weixin_health.sh &gt;&gt; /var/log/openclaw_weixin_health.lo</td>
+          </tr>
+          <tr>
+            <td><code>0 4 * * 1</code></td>
+            <td style="color: var(--accent);">P1.5</td>
+            <td>Session 清理归档</td>
+            <td style="font-size:0.75rem;">bash /root/.openclaw/workspace/scripts/session-cleanup.sh &gt;&gt; /var/log/session-cl</td>
+          </tr>
+          <tr>
+            <td><code>*/30 * * * *</code></td>
+            <td style="color: var(--accent);">P1.4</td>
+            <td>心跳/内观机制</td>
+            <td style="font-size:0.75rem;">/root/.openclaw/scripts/momentum-trigger.sh &gt;&gt; /var/log/momentum-trigger.log 2&gt;&amp;</td>
+          </tr>
+          <tr>
+            <td><code>*/30 * * * *</code></td>
+            <td style="color: var(--accent);">P1.3</td>
+            <td>资源感知舱数据采集</td>
+            <td style="font-size:0.75rem;">cd /root/.openclaw/workspace &amp;&amp; /usr/bin/python3 /root/.openclaw/scripts/resourc</td>
+          </tr>
+          <tr>
+            <td><code>0 * * * *</code></td>
+            <td style="color: var(--accent);">P1.3</td>
+            <td>资源感知舱健康检查</td>
+            <td style="font-size:0.75rem;">/usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py &gt;&gt; /var/log/tra</td>
+          </tr>
+          <tr>
+            <td><code>*/30 * * * *</code></td>
+            <td style="color: var(--accent);">P1.6</td>
+            <td>网站数据同步</td>
+            <td style="font-size:0.75rem;">/root/.openclaw/scripts/sync-dashboard-data.sh &gt;&gt; /var/log/dashboard-sync.log 2&gt;</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+<!-- 基础设施面板 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>🔌 基础设施 (I0)</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    Tunnel · 邮件 · GitHub · 飞书 · 微信 · SSH
+  </p>
+  
+        <div class="metric"><span>I0.1 Cloudflare Tunnel</span><span class="metric-value" style="color: var(--good);">✅</span></div>
+        <div class="metric"><span>I0.2 邮件系统 (xiaok-mailbox-webhook)</span><span class="metric-value" style="color: var(--good);">✅</span></div>
+        <div class="metric"><span>I0.3 GitHub 身份 (LittleK-513)</span><span class="metric-value" style="color: var(--good);">✅</span></div>
+        <div class="metric"><span>I0.4 飞书连接</span><span class="metric-value" style="color: var(--bad);">❌</span></div>
+        <div class="metric"><span>I0.5 微信通道</span><span class="metric-value" style="color: var(--bad);">❌</span></div>
+        <div class="metric"><span>I0.6 Dreamhost SSH</span><span class="metric-value" style="color: var(--bad);">❌</span></div>
+</div>
+
+<!-- 五层项目树形展示 -->
+<div class="card" style="margin-bottom: 2rem;">
+  <h2>🏗️ 五层项目结构</h2>
+  <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
+    P0=赚钱 · P1=自进化 · P2=社交 · P3=用户任务 · I0=基础设施
   </p>
   
       <div class="tier-card">
@@ -484,39 +689,71 @@ footer {
           <div class="project-row">
             <span class="project-name">bounty</span>
             <span class="status-badge badge-warn">stale</span>
-            <span class="project-meta">5 文件 · 62h</span>
+            <span class="project-meta">5 文件 · 64h</span>
           </div>
           <div class="project-row">
             <span class="project-name">p0-github-money</span>
             <span class="status-badge badge-warn">stale</span>
-            <span class="project-meta">19 文件 · 12h</span>
+            <span class="project-meta">19 文件 · 14h</span>
           </div>
+
         </div>
       </div>
       <div class="tier-card">
         <div class="tier-header">
           <span class="tier-badge" style="background: var(--warn)20; color: var(--warn); border-color: var(--warn);">P1</span>
           <span class="tier-title">自进化任务</span>
-          <span class="tier-score">3.5/10</span>
+          <span class="tier-score">6.8/10</span>
         </div>
         <div class="tier-goal">自学习、自改进、Skill 进化与系统能力增强</div>
         <div class="tier-stats">
-          <span class="stat-pill">🟢 1 活跃</span>
-          <span class="stat-pill">🟡 1 停滞</span>
+          <span class="stat-pill">🟢 6 活跃</span>
+          <span class="stat-pill">🟡 2 停滞</span>
           <span class="stat-pill">⚪ 0 orphan</span>
-          <span class="stat-pill">共 2</span>
+          <span class="stat-pill">共 8</span>
         </div>
         <div class="tier-projects">
 
           <div class="project-row">
             <span class="project-name">hermes-lite</span>
             <span class="status-badge badge-good">active</span>
-            <span class="project-meta">23 文件 · 29h</span>
+            <span class="project-meta">23 文件 · 31h</span>
           </div>
           <div class="project-row">
             <span class="project-name">p1-self-evolution</span>
             <span class="status-badge badge-warn">stale</span>
-            <span class="project-meta">30 文件 · 13h</span>
+            <span class="project-meta">30 文件 · 15h</span>
+          </div>
+
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.1 日记系统</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">355 文件 · 0h · 每日内观与觉察记录</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.2 学习积累</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 37h · 经验沉淀与教训记录</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.3 资源感知舱</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 84h · 系统资源采集与监控</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.4 心跳/内观机制</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 161h · 长期任务 idle 检查与触发</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.5 Session 管理</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">1 文件 · 212h · Session 清理与归档</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P1.6 网站 (littlek-513.github.io)</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">6 文件 · 0h · Jekyll 静态站点 + Dashboard 主</span>
           </div>
         </div>
       </div>
@@ -538,12 +775,56 @@ footer {
           <div class="project-row">
             <span class="project-name">p2-agent-social</span>
             <span class="status-badge badge-warn">stale</span>
-            <span class="project-meta">9 文件 · 12h</span>
+            <span class="project-meta">9 文件 · 14h</span>
           </div>
           <div class="project-row">
             <span class="project-name">p2-moltbook</span>
             <span class="status-badge badge-good">active</span>
-            <span class="project-meta">1 文件 · 12h</span>
+            <span class="project-meta">1 文件 · 14h</span>
+          </div>
+
+        </div>
+      </div>
+      <div class="tier-card">
+        <div class="tier-header">
+          <span class="tier-badge" style="background: var(--warn)20; color: var(--warn); border-color: var(--warn);">P3</span>
+          <span class="tier-title">用户安排的其它任务</span>
+          <span class="tier-score">4.8/10</span>
+        </div>
+        <div class="tier-goal">用户直接指派的外部任务与探索</div>
+        <div class="tier-stats">
+          <span class="stat-pill">🟢 3 活跃</span>
+          <span class="stat-pill">🟡 2 停滞</span>
+          <span class="stat-pill">⚪ 0 orphan</span>
+          <span class="stat-pill">共 5</span>
+        </div>
+        <div class="tier-projects">
+
+
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P3.1 SpaceX S-1 分析</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 24h · SpaceX S-1 财务与运营分析</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P3.2 CFMS 数据抓取</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 0h · CFM 发动机数据抓取与备份</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P3.3 创始人手册翻译</span>
+            <span class="status-badge badge-good">active</span>
+            <span class="project-meta">1 文件 · 24h · YC 创始人手册中文翻译</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P3.4 Claude 桥接</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">1 文件 · 340h · Claude 与 OpenClaw 桥接方案</span>
+          </div>
+          <div class="project-row" style="opacity:0.85;">
+            <span class="project-name">📎 P3.5 Mac 连接通道</span>
+            <span class="status-badge badge-warn">stale</span>
+            <span class="project-meta">1 文件 · 313h · Mac 桥接 WebSocket 规格</span>
           </div>
         </div>
       </div>
@@ -554,7 +835,7 @@ footer {
   <div class="card">
     <h2>运行环境</h2>
     <div class="metric"><span>主机</span><span class="metric-value">VM-13-249-ubuntu</span></div>
-    <div class="metric"><span>磁盘</span><span class="metric-value">83%</span></div>
+    <div class="metric"><span>磁盘</span><span class="metric-value">88%</span></div>
     <div class="metric"><span>Node.js</span><span class="metric-value">v24.15.0</span></div>
     <div class="metric"><span>Python</span><span class="metric-value">Python 3.12.3</span></div>
     <div class="metric"><span>OpenClaw</span><span class="metric-value">OpenClaw 2026.4.14 (323493f)</span></div>
@@ -565,7 +846,7 @@ footer {
     <h2>Harness 机制</h2>
     <div class="metric"><span>Cron Jobs</span><span class="metric-value">9</span></div>
     <div class="metric"><span>Gateway</span><span class="metric-value">Service: systemd (en</span></div>
-    <div class="metric"><span>Sessions</span><span class="metric-value">242 个</span></div>
+    <div class="metric"><span>Sessions</span><span class="metric-value">244 个</span></div>
     <div class="metric"><span>Git 分支</span><span class="metric-value">main</span></div>
     <div class="metric"><span>未提交</span><span class="metric-value">有</span></div>
   </div>
@@ -576,7 +857,7 @@ footer {
     <div class="metric"><span>关键文件</span><span class="metric-value">✅</span></div>
     <div class="metric"><span>记忆文件</span><span class="metric-value">27</span></div>
     <div class="metric"><span>日记总数</span><span class="metric-value">170</span></div>
-    <div class="metric"><span>7天日记</span><span class="metric-value">40</span></div>
+    <div class="metric"><span>7天日记</span><span class="metric-value">38</span></div>
   </div>
   
   <!-- 能力 -->
@@ -603,17 +884,17 @@ footer {
 <div class="card" style="margin-bottom: 2rem;">
   <h2>📋 Skill 源码</h2>
   <p style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem;">
-    本报告由 P1.0 baseline-check Skill（v3 AI+Gap 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
+    本报告由 P1.0 baseline-check Skill（v4 AI+Gap+Infra 架构）自动生成。以下展示该 Skill 的完整文档和所有模块源码，供审计和改进。
   </p>
   <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
       📄 baseline-check-v2.md
     </summary>
-    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code># baseline-check v2 — P1.0 全面状态检查 Skill（模块化架构）
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code># baseline-check v4 — P1.0 全面状态检查 Skill（AI 分析 + 差距矩阵 + 五层结构 + 基础设施）
 
-&gt; **Purpose**: 全面扫描系统状态，生成 JSON 数据包 + Markdown 报告 + HTML 可视化仪表板
+&gt; **Purpose**: 全面扫描系统状态，AI 分析洞察，期望 vs 现实对比，生成 JSON + Markdown + HTML 仪表板
 &gt; **Invocation**: 每次 P1.0 周期启动时、heartbeat 触发时、用户询问状态时
-&gt; **Architecture**: 文档(this file) + 7个检查模块 + 编排器 + 报告生成器
+&gt; **Architecture**: 文档(this file) + 9个检查模块 + 编排器(AI+Gap+Infra) + 报告生成器
 
 ---
 
@@ -622,9 +903,9 @@ footer {
 | 组件 | 文件 | 作用 |
 |------|------|------|
 | **Skill 文档** | `skills/p1-0/baseline-check-v2.md` | 本文档 — 定义检查逻辑、输出格式、调用方式 |
-| **模块层** | `skills/p1-0/modules/check-*.py` | 7个独立检查模块，各输出标准 JSON |
-| **编排器** | `skills/p1-0/orchestrator.py` | 并行运行模块、收集输出、计算评分、生成告警 |
-| **报告生成器** | `skills/p1-0/generate-report.py` | 从统一 JSON 生成 Markdown + HTML |
+| **模块层** | `skills/p1-0/modules/check-*.py` | 9个独立检查模块，各输出标准 JSON |
+| **编排器** | `skills/p1-0/orchestrator.py` | 并行运行模块 → AI 分析 → 差距矩阵 → 评分 → 告警 |
+| **报告生成器** | `skills/p1-0/generate-report.py` | 从统一 JSON 生成 Markdown + HTML（五层树+AI+Gap+Infra） |
 | **Skill 状态** | `skills/p1-0/state.json` | 记录上次检查结果和历史 |
 | **输出目录** | `reports/p1-0/` | 每次运行生成 JSON + Markdown + HTML |
 | **部署位置** | `p1-dashboard.html` | 主页仪表板，自动覆盖更新 |
@@ -635,13 +916,14 @@ footer {
 
 ```
 skills/p1-0/modules/
-├── check-model.py         → 模型与运行时信息
-├── check-harness.py       → Harness 机制（Gateway、cron、systemd、sessions）
-├── check-memory.py        → 记忆系统（关键文件、日记活跃度）
-├── check-projects.py      → 项目审计（workspace + projects/ 扫描）
-├── check-environment.py   → 运行环境（磁盘、内存、负载、Git）
-├── check-capabilities.py  → 能力验证（GitHub、飞书、Tunnel、邮件）
-└── check-sessions.py      → 会话历史（最近 session 文件）
+├── check-model.py            → 模型与运行时信息
+├── check-harness-v2.py       → Harness 机制 v2（Gateway、cron归属、systemd、sessions、Linux资源、OpenClaw架构）
+├── check-infrastructure.py   → 基础设施检查（Tunnel、邮件、SSH、GitHub身份、飞书/微信通道）
+├── check-memory.py           → 记忆系统（关键文件、日记活跃度）
+├── check-projects.py         → 项目审计（五层结构：P0/P1/P2/P3 + I0基础设施）
+├── check-environment.py      → 运行环境（磁盘、内存、负载、Git）
+├── check-capabilities.py     → 能力验证（GitHub、飞书、Tunnel、邮件）
+└── check-sessions.py         → 会话历史（最近 session 文件）
 ```
 
 **每个模块接口标准**:
@@ -652,47 +934,133 @@ skills/p1-0/modules/
 
 ---
 
-## 检查范围（全面）
+## 五层项目群结构
 
-### 1. 模型与运行时
-- 当前模型信息（从环境变量读取）
-- Python / Node.js 版本
-- 工作目录
+```
+P0: GitHub 赚钱任务
+  └── bounty           (旧项目目录)
+  └── p0-github-money  (projects/ 下的新项目)
 
-### 2. Harness 机制（系统机制）
-- OpenClaw Gateway 状态
-- Cron Jobs 列表和数量
-- Systemd 服务
-- Session 文件数量和总大小
-- 配置文件存在性
+P1: 自进化任务
+  └── p1-self-evolution          (projects/ 目录项目)
+  └── hermes-lite               (P1 工具/能力)
+  └── P1.1 日记系统             (diary/ — 每日内观与觉察记录)
+  └── P1.2 学习积累             (diary/LEARNINGS.md — 经验沉淀)
+  └── P1.3 资源感知舱          (scripts/resource-tracker.py)
+  └── P1.4 心跳/内观机制       (scripts/momentum-trigger.sh)
+  └── P1.5 Session 管理        (scripts/session-cleanup.sh)
+  └── P1.6 网站                (index.html + _layouts + _posts)
 
-### 3. 记忆系统
-- 关键文件完整性（MEMORY.md / USER.md / SOUL.md / IDENTITY.md / AGENTS.md / BOOTSTRAP.md / HEARTBEAT.md）
-- 记忆文件数量
-- 日记活跃度（最近7天）
+P2: 社交网络探索
+  └── p2-agent-social
+  └── p2-moltbook
 
-### 4. 项目机制
-- 扫描 workspace 和 projects/ 目录
-- 识别所有项目（state.json / README.md / project-status.py / tiered 前缀）
-- 判定状态：active / stale / orphan / ghost
-- 检查 blocker、last_action
+P3: 用户安排的其它任务
+  └── P3.1 SpaceX S-1 分析     (spacex-s1/)
+  └── P3.2 CFMS 数据抓取       (data.jsonl + cfm_*.py)
+  └── P3.3 创始人手册翻译      (founders-handbook.md)
+  └── P3.4 Claude 桥接         (claude-openclaw-bridge.md)
+  └── P3.5 Mac 连接通道        (mac-bridge-websocket-spec.md)
 
-### 5. 运行环境
-- 磁盘使用率
-- 内存状态
-- 系统负载 / 运行时间
-- Git 状态（分支、未提交变更、最近提交）
+I0: 基础设施/工具
+  └── I0.1 Cloudflare Tunnel   (端口 20241)
+  └── I0.2 邮件系统            (xiaok-mailbox-webhook systemd)
+  └── I0.3 GitHub 身份         (gh CLI, LittleK-513)
+  └── I0.4 飞书连接            (feishu token)
+  └── I0.5 微信通道            (weixin channel)
+  └── I0.6 Dreamhost SSH       (美国主机出口)
+```
 
-### 6. 能力验证
-- GitHub CLI + API
-- Web 搜索（轻量检测）
-- 飞书 Token
-- Cloudflare Tunnel
-- 邮件 Webhook
+**特殊产出物识别**: `check-projects.py::discover_special_artifacts()` 扫描 workspace 根目录特定文件/目录，
+根据路径/文件名映射到对应项目群，输出统一项目结构（name, tier, group, status, last_modified, details）。
 
-### 7. 会话历史
-- 最近 10 个 session 文件
-- 总 session 数量
+**check-projects.py 输出结构**:
+```json
+{
+  "module": "projects",
+  "data": {
+    "groups": [
+      {
+        "tier": "P0",
+        "name": "P0: GitHub 赚钱任务",
+        "goal": "...",
+        "projects": [...],
+        "stats": {"total":2, "active":0, "stale":2, "orphan":0, "ghost":0},
+        "group_score": 0,
+        "group_status": "stale",
+        "group_health": "🟠 全面停滞"
+      }
+    ]
+  }
+}
+```
+
+---
+
+## AI 分析模块
+
+**位置**: `orchestrator.py` 内嵌 `perform_ai_analysis()`
+
+**分析维度**:
+1. **健康度评估**: 每个项目群评分 (0-10) + 状态标签（含特殊产出物）
+2. **异常识别**: 
+   - 磁盘 &gt;85%、项目停滞 &gt;72h、关键文件缺失、日记断更、API 失效
+   - **系统资源**: CPU 负载 &gt;2x核心数、内存 &gt;90%、swap &gt;100MB、僵尸进程 &gt;5
+   - **OpenClaw 架构**: Gateway 未运行、通道未配置
+   - **基础设施**: Tunnel 断开、邮件 systemd 停止、身份失效
+3. **趋势判断**: 与上次 baseline 对比评分变化、活跃项目占比、磁盘趋势、CPU/内存趋势、通道状态
+4. **改进建议**: 按优先级 (immediate/this_cycle) 排序的 action 列表
+
+**输出结构**:
+```json
+{
+  "ai_analysis": {
+    "summary": "本周期扫描到 N 个项目 + M 个特殊产出物...",
+    "health_assessment": {"P0": {"score": 0, "status": "stale", "notes": [...]}, ...},
+    "anomalies": [{"severity": "high", "category": "...", "finding": "...", "detail": "..."}],
+    "trends": ["➡️ 系统健康度持平（6.2 分）", "📡 通道状态 3/4 活跃", ...],
+    "recommendations": [{"priority": "immediate", "target": "projects", "action": "..."}]
+  }
+}
+```
+
+**实现方式**: 规则驱动 + 启发式分析（不单独 spawn 子 agent，在 orchestrator 内一次完成）
+
+---
+
+## 期望 vs 现实 差距矩阵
+
+**数据源**:
+- `references/self-evolution/state/P0.json` — P0 期望状态
+- `references/self-evolution/state/P1.json` — P1 期望状态
+- `references/self-evolution/state/P2.json` — P2 期望状态
+- `MEMORY.md` — 记忆中的期望线索
+
+**对比维度**:
+| 列 | 说明 |
+|----|------|
+| 项目群 | P0/P1/P2/P3 |
+| 期望状态 | 从 P*.json 提取的 current_step / last_action / next_steps / blocker |
+| 扫描现实 | 实际项目活跃/停滞数量 + 具体项目名称 |
+| 差距 | ✅ 符合 / 🟡 偏差 / 🔴 严重偏差 / ⚪ 未启动 |
+| 改进建议 | 自动生成的 action（检查 blocker / 推进 next action / 维持节奏） |
+
+**输出结构**:
+```json
+{
+  "gap_matrix": [
+    {
+      "tier": "P0",
+      "tier_name": "P0: GitHub 赚钱任务",
+      "expected": "当前阶段: scan_new_issue | 最近动作: ...",
+      "reality": "0/2 活跃 | 停滞: bounty, p0-github-money",
+      "gap": "🔴 严重偏差",
+      "gap_reason": "全部项目停滞",
+      "suggestion": "检查 blocker，激活 P0 任务"
+    }
+  ]
+}
+```
 
 ---
 
@@ -700,7 +1068,7 @@ skills/p1-0/modules/
 
 | 维度 | 权重 | 计算方式 |
 |------|------|---------|
-| 项目健康度 | 30% | active 项目数 / 总项目数 × 10 |
+| 项目健康度 | 30% | 项目群加权平均分（按项目数加权），active 比例 × 10 |
 | 环境稳定度 | 20% | 环境检查通过项 / 总检查项 × 10（磁盘&gt;85%扣2分，&gt;95%扣3分） |
 | 记忆完整度 | 20% | 关键文件存在 + 日记更新及时 = 10（&lt;3篇扣2分） |
 | 能力可用度 | 20% | 外部连接可用数 / 总连接数 × 10 |
@@ -719,23 +1087,41 @@ skills/p1-0/modules/
 | 🟡 warning | 黄色 | 可能恶化或长期停滞 | 本周期内 |
 | 🟢 info | 绿色 | 值得注意但非紧急 | 下次 baseline |
 
+**新增告警类型**: `project_group`（项目群级别，替代原来的单个项目告警）
+
 ---
 
 ## 输出格式
 
 ### 1. JSON 数据包 (`reports/p1-0/latest.json`)
-完整结构化数据，包含 meta / score / modules / alerts
+完整结构化数据，包含 meta / score / modules / **ai_analysis** / **gap_matrix** / alerts / infrastructure
 
 ### 2. Markdown 报告 (`reports/p1-0/latest.md`)
-人类可读摘要，包含评分表格、告警清单、项目审计表、环境信息、模块运行状态
+人类可读摘要，包含：
+- 评分表格
+- **AI 分析摘要** + 健康度 + 趋势 + 建议
+- **期望 vs 现实差距矩阵**
+- **告警清单**
+- **系统资源**（CPU 负载 · 内存 · Swap · 进程 · 磁盘分区）
+- **OpenClaw 架构**（Gateway · 通道 · Sessions · Tools · Plugins）
+- **Cron 归属**（计划 · 归属项目 · 描述 · 命令）
+- **基础设施面板**（I0.1-I0.6 健康状态）
+- **五层项目结构**（按 P0/P1/P2/P3 分组，含特殊产出物）
+- 环境 / Harness / 记忆 / 能力
 
-### 3. HTML 仪表板 (`p1-dashboard.html` + `reports/p1-0/latest.html`)
+### 3. HTML 仪表板 (`p1-dashboard.html`)
 暗色赛博朋克主题，包含：
 - 评分圆环可视化
 - 告警卡片
-- 项目表格
-- 环境/Harness/记忆/能力四宫格
-- **Skill 源码章节**（所有模块脚本源码，可折叠展开）
+- **🧠 AI 分析摘要**（健康度卡片网格 + 趋势 + 建议）
+- **📋 期望 vs 现实差距矩阵**（5 列表格）
+- **🖥️ 系统资源**（CPU 负载 · 内存 · 进程 · 磁盘分区表）
+- **⚙️ OpenClaw 架构**（Gateway · 通道 · Sessions · Tools · Plugins）
+- **⏰ Cron 归属**（计划 · 归属项目 · 描述）
+- **🔌 基础设施面板**（I0.1-I0.6）
+- **🏗️ 五层项目结构**（树形卡片：tier badge + 项目列表 + 特殊产出物）
+- 环境 / Harness / 记忆 / 能力四宫格
+- Skill 源码章节（可折叠）
 - 原始 JSON 数据（可折叠）
 
 ---
@@ -763,7 +1149,7 @@ python3 /root/.openclaw/workspace/skills/p1-0/generate-report.py
 ## 与其他 Skill 的关系
 
 ```
-baseline-check-v2 ──→ 全面检查 + 可视化报告
+baseline-check-v4 ──→ 全面检查 + AI 分析 + 差距矩阵 + 基础设施 + 可视化报告
        ↓
   plan-v1 ──→ 生成可执行计划
        ↓
@@ -774,7 +1160,18 @@ self-check-v1 ──→ 验证执行结果
 
 ---
 
-*Version: v2-modular | Updated: 2026-05-22*
+## 版本历史
+
+| 版本 | 日期 | 变更 |
+|------|------|------|
+| v1 | 2026-05-21 | 单体脚本 p1-baseline.py |
+| v2 | 2026-05-22 | 模块化：7 模块 + orchestrator + generate-report |
+| v3 | 2026-05-22 | + AI 分析 + 期望 vs 现实差距矩阵 + 四层项目结构 |
+| **v4** | **2026-05-22** | **+ 五层项目结构（P1 内部子项目 + P3 散落产出物 + I0 基础设施）+ check-harness-v2（系统资源 + OpenClaw 架构 + Cron 归属）+ check-infrastructure（Tunnel/邮件/SSH/身份/通道）+ 报告新增系统资源图表/OpenClaw 架构/Cron 归属表/基础设施面板** |
+
+---
+
+*Version: v4-ai-gap-infra | Updated: 2026-05-22*
 </code></pre>
   </details>  <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
@@ -879,6 +1276,7 @@ def perform_ai_analysis(modules_data):
     projects_mod = modules_data.get("projects", {})
     groups = projects_mod.get("data", {}).get("groups", [])
     flat_projects = projects_mod.get("data", {}).get("flat_projects", [])
+    special_artifacts = projects_mod.get("data", {}).get("special_artifacts", [])
     env_mod = modules_data.get("environment", {})
     env_data = env_mod.get("data", {})
     mem_mod = modules_data.get("memory", {})
@@ -887,6 +1285,9 @@ def perform_ai_analysis(modules_data):
     cap_data = cap_mod.get("data", {})
     harness_mod = modules_data.get("harness", {})
     harness_data = harness_mod.get("data", {})
+    infra_mod = modules_data.get("infrastructure", {})
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", []) if infra_data else []
 
     # ── 1. 项目群健康度评估 ──
     for g in groups:
@@ -963,6 +1364,98 @@ def perform_ai_analysis(modules_data):
             "detail": "内观机制可能未正常运行",
         })
 
+    # 系统资源异常
+    linux_res = harness_data.get("linux_resources", {})
+    cpu_load = linux_res.get("cpu_load", {})
+    if cpu_load:
+        load_1min = cpu_load.get("1min", 0)
+        cpu_cores = linux_res.get("cpu_cores", 1)
+        if load_1min &gt; cpu_cores * 2:
+            anomalies.append({
+                "severity": "high",
+                "category": "system_resources",
+                "finding": f"CPU 1分钟负载 {load_1min} 超过核心数 {cpu_cores} 的2倍",
+                "detail": "系统可能过载，影响响应时间",
+            })
+    
+    mem_info = linux_res.get("memory", {})
+    if mem_info:
+        total_mb = mem_info.get("total_mb", 1)
+        available_mb = mem_info.get("available_mb", total_mb)
+        used_pct = (total_mb - available_mb) / total_mb * 100 if total_mb &gt; 0 else 0
+        if used_pct &gt; 90:
+            anomalies.append({
+                "severity": "high",
+                "category": "system_resources",
+                "finding": f"内存使用率 {used_pct:.0f}% 超过 90%",
+                "detail": "可能触发 OOM，影响 session 和工具执行",
+            })
+        elif used_pct &gt; 80:
+            anomalies.append({
+                "severity": "medium",
+                "category": "system_resources",
+                "finding": f"内存使用率 {used_pct:.0f}% 超过 80%",
+                "detail": "建议监控，考虑清理缓存或大 session 文件",
+            })
+    
+    swap_used = mem_info.get("swap_used_mb", 0)
+    if swap_used &gt; 100:
+        anomalies.append({
+            "severity": "medium",
+            "category": "system_resources",
+            "finding": f"交换分区使用 {swap_used}MB",
+            "detail": "内存压力较大，swap 活跃",
+        })
+    
+    zombie = linux_res.get("processes", {}).get("zombie", 0)
+    if zombie &gt; 5:
+        anomalies.append({
+            "severity": "medium",
+            "category": "system_resources",
+            "finding": f"僵尸进程 {zombie} 个",
+            "detail": "可能存在未正确回收的子进程",
+        })
+
+    # OpenClaw 架构异常
+    openclaw_arch = harness_data.get("openclaw_architecture", {})
+    gateway_arch = openclaw_arch.get("gateway", {})
+    if not gateway_arch.get("ok", True):
+        anomalies.append({
+            "severity": "high",
+            "category": "openclaw_architecture",
+            "finding": "OpenClaw Gateway 未运行",
+            "detail": "所有通道和 session 可能中断",
+        })
+    
+    channels = openclaw_arch.get("channels", {})
+    for ch_name, ch_status in channels.items():
+        if ch_name == "weixin" and not ch_status.get("configured", True):
+            anomalies.append({
+                "severity": "medium",
+                "category": "openclaw_architecture",
+                "finding": "微信通道未配置",
+                "detail": "微信消息收发可能中断",
+            })
+        if ch_name == "mail" and not ch_status.get("systemd_active", True):
+            anomalies.append({
+                "severity": "medium",
+                "category": "openclaw_architecture",
+                "finding": "邮件 Webhook systemd 未激活",
+                "detail": "邮件接收可能中断",
+            })
+
+    # 基础设施异常
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", []) if infra_data else []
+    for ig in infra_groups:
+        if ig.get("status") == "❌":
+            anomalies.append({
+                "severity": "high",
+                "category": "infrastructure",
+                "finding": f"基础设施 {ig['id']} {ig['name']} 不可用",
+                "detail": f"检查 {ig['name']} 配置和进程状态",
+            })
+
     # 能力缺失
     if not cap_data.get("github_api"):
         anomalies.append({
@@ -1028,6 +1521,36 @@ def perform_ai_analysis(modules_data):
     elif disk_pct &gt; 80:
         trends.append("🟡 磁盘使用率偏高，建议纳入下周清理计划")
 
+    # 环境趋势 - 系统资源
+    cpu_load = harness_data.get("linux_resources", {}).get("cpu_load", {})
+    if cpu_load:
+        load_1min = cpu_load.get("1min", 0)
+        cpu_cores = harness_data.get("linux_resources", {}).get("cpu_cores", 1)
+        if load_1min &gt; cpu_cores * 1.5:
+            trends.append(f"🟡 CPU 负载 {load_1min} 偏高（核心 {cpu_cores}），注意资源竞争")
+    
+    mem_info = harness_data.get("linux_resources", {}).get("memory", {})
+    if mem_info:
+        total_mb = mem_info.get("total_mb", 1)
+        available_mb = mem_info.get("available_mb", total_mb)
+        used_pct = (total_mb - available_mb) / total_mb * 100 if total_mb &gt; 0 else 0
+        if used_pct &gt; 85:
+            trends.append(f"🟡 内存使用 {used_pct:.0f}%，接近压力阈值")
+    
+    # OpenClaw 架构趋势
+    openclaw_arch = harness_data.get("openclaw_architecture", {})
+    gateway_arch = openclaw_arch.get("gateway", {})
+    if gateway_arch.get("ok"):
+        trends.append("✅ OpenClaw Gateway 运行正常")
+    else:
+        trends.append("🔴 OpenClaw Gateway 异常，需立即检查")
+    
+    channels = openclaw_arch.get("channels", {})
+    active_channels = sum(1 for ch in channels.values() if ch.get("configured") or ch.get("systemd_active") or ch.get("process_running"))
+    total_channels = len(channels)
+    if total_channels &gt; 0:
+        trends.append(f"📡 通道状态 {active_channels}/{total_channels} 活跃")
+
     analysis["trends"] = trends
 
     # ── 4. 改进建议 ──
@@ -1072,7 +1595,9 @@ def perform_ai_analysis(modules_data):
 
     # ── 5. 生成 summary 段落 ──
     summary_parts = []
-    summary_parts.append(f"本周期扫描到 {total_projects} 个项目分布在 {len(groups)} 个项目群中。")
+    total_special = len(special_artifacts)
+    infra_count = len(infra_groups)
+    summary_parts.append(f"本周期扫描到 {total_projects} 个项目分布在 {len(groups)} 个项目群中，另有 {total_special} 个特殊产出物。")
     summary_parts.append(f"系统健康评分 {current_score}/10，")
 
     if high_anomalies:
@@ -1086,16 +1611,25 @@ def perform_ai_analysis(modules_data):
     group_summaries = []
     for g in groups:
         gs = g["group_status"]
+        # 特殊产出物统计
+        sp_artifacts = g.get("special_artifacts", [])
+        sp_count = len(sp_artifacts)
+        sp_active = len([a for a in sp_artifacts if a["status"] == "active"])
         if gs == "healthy":
-            group_summaries.append(f"{g['tier']} 群健康")
+            group_summaries.append(f"{g['tier']} 群健康{'（+' + str(sp_count) + '个产出物）' if sp_count else ''}")
         elif gs == "mixed":
-            group_summaries.append(f"{g['tier']} 群部分停滞（{g['stats']['stale']}/{g['stats']['total']}）")
+            group_summaries.append(f"{g['tier']} 群部分停滞（{g['stats']['stale']}/{g['stats']['total']}）{'（+' + str(sp_count) + '个产出物）' if sp_count else ''}")
         elif gs == "stale":
             group_summaries.append(f"{g['tier']} 群全面停滞")
         else:
             group_summaries.append(f"{g['tier']} 群有 orphan 项目")
     if group_summaries:
         summary_parts.append("项目群状况: " + "；".join(group_summaries) + "。")
+    
+    # 基础设施状况
+    if infra_count &gt; 0:
+        infra_healthy = sum(1 for ig in infra_groups if ig.get("status") == "✅")
+        summary_parts.append(f"基础设施 {infra_healthy}/{infra_count} 项健康。")
 
     analysis["summary"] = "".join(summary_parts)
 
@@ -1365,6 +1899,19 @@ def generate_alerts(modules_data):
                 "suggestion": "检查模块脚本",
             })
 
+    # 基础设施告警
+    infra_mod = modules_data.get("infrastructure", {})
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", [])
+    for ig in infra_groups:
+        if ig.get("status") == "❌":
+            alerts.append({
+                "level": "critical",
+                "category": "infrastructure",
+                "item": f"{ig['id']} {ig['name']} 不可用",
+                "suggestion": f"检查 {ig['name']} 配置和进程",
+            })
+
     # 排序
     level_order = {"critical": 0, "warning": 1, "info": 2}
     alerts.sort(key=lambda x: level_order.get(x["level"], 99))
@@ -1419,7 +1966,7 @@ def main():
     # 组装统一报告
     report = {
         "meta": {
-            "version": "p1-baseline-v3-ai-gap",
+            "version": "p1-baseline-v4-ai-gap-infra",
             "generated_at": datetime.now().isoformat(),
             "workspace": WORKSPACE,
             "modules_run": len(module_scripts),
@@ -1648,17 +2195,19 @@ if __name__ == "__main__":
 </code></pre>
   </details>  <details style="margin-top: 1rem;">
     <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
-      🐍 check-harness.py
+      🐍 check-harness-v2.py
     </summary>
     <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
-"""check-harness.py — Harness 机制检查模块（Gateway、cron、systemd、sessions）
-独立运行输出 JSON：python3 check-harness.py
+"""check-harness-v2.py — Harness 机制检查模块 v2（Cron 归属 + Linux 资源 + OpenClaw 架构）
+独立运行输出 JSON：python3 check-harness-v2.py
 """
 
-import os, json, subprocess, glob, time
+import os, json, subprocess, glob, time, re
 from datetime import datetime
 
 WORKSPACE = "/root/.openclaw/workspace"
+SCRIPTS_DIR = "/root/.openclaw/scripts"
+
 
 def run_cmd(cmd, timeout=10):
     try:
@@ -1668,12 +2217,14 @@ def run_cmd(cmd, timeout=10):
     except Exception as e:
         return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
 
+
 def human_size(n):
     for unit in ["B", "KB", "MB", "GB"]:
         if n &lt; 1024:
             return f"{n:.1f}{unit}"
         n /= 1024
     return f"{n:.1f}TB"
+
 
 def get_file_info(path):
     if not os.path.exists(path):
@@ -1682,10 +2233,317 @@ def get_file_info(path):
     return {"exists": True, "size": stat.st_size, "mtime": stat.st_mtime,
             "mtime_age_hours": round((time.time() - stat.st_mtime) / 3600, 1)}
 
+
+def parse_cron_jobs():
+    """解析 crontab，返回带归属的 cron job 列表"""
+    cron = run_cmd("crontab -l 2&gt;/dev/null || echo 'no crontab'")
+    lines = cron["stdout"].split("\n")
+
+    # Cron 归属映射表：pattern → (项目归属, 描述)
+    OWNERSHIP_MAP = {
+        "resource-tracker": ("P1.3", "资源感知舱数据采集"),
+        "sync-dashboard-data": ("P1.6", "网站数据同步"),
+        "tracker-health-check": ("P1.3", "资源感知舱健康检查"),
+        "cfm_backup": ("P3.2", "CFMS 数据备份"),
+        "cfm_scraper": ("P3.2", "CFMS 数据抓取"),
+        "daily_health": ("系统健康", "系统健康监控"),
+        "weixin_health": ("I0.5", "微信通道健康检查"),
+        "session-cleanup": ("P1.5", "Session 清理归档"),
+        "momentum-trigger": ("P1.4", "心跳/内观机制"),
+        "stargate": ("I0.1", "腾讯云监控"),
+    }
+
+    jobs = []
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        # 解析 cron 表达式（取前5个字段后的命令部分）
+        parts = line.split()
+        if len(parts) &lt; 6:
+            continue
+
+        schedule = " ".join(parts[:5])
+        command = " ".join(parts[5:])
+
+        # 识别归属
+        owner = "未分类"
+        owner_tier = "?"
+        description = ""
+        for pattern, (tier, desc) in OWNERSHIP_MAP.items():
+            if pattern in command:
+                owner = tier
+                owner_tier = tier.split(".")[0] if "." in tier else tier
+                description = desc
+                break
+
+        jobs.append({
+            "schedule": schedule,
+            "command": command[:120],
+            "owner": owner,
+            "owner_tier": owner_tier,
+            "description": description,
+            "raw": line,
+        })
+
+    return jobs
+
+
+def check_linux_resources():
+    """详细 Linux 系统资源监控"""
+    resources = {}
+
+    # CPU 负载
+    loadavg = run_cmd("cat /proc/loadavg")
+    if loadavg["ok"]:
+        parts = loadavg["stdout"].split()
+        if len(parts) &gt;= 3:
+            resources["cpu_load"] = {
+                "1min": float(parts[0]),
+                "5min": float(parts[1]),
+                "15min": float(parts[2]),
+                "raw": loadavg["stdout"],
+            }
+
+    # 内存详细
+    mem = run_cmd("free -m")
+    if mem["ok"]:
+        lines = mem["stdout"].split("\n")
+        mem_info = {}
+        for line in lines:
+            if line.startswith("Mem:"):
+                parts = line.split()
+                if len(parts) &gt;= 7:
+                    mem_info = {
+                        "total_mb": int(parts[1]),
+                        "used_mb": int(parts[2]),
+                        "free_mb": int(parts[3]),
+                        "shared_mb": int(parts[4]),
+                        "buffers_mb": int(parts[5]),
+                        "cache_mb": int(parts[6]),
+                        "available_mb": int(parts[6]) if len(parts) &gt;= 7 else None,
+                    }
+            elif line.startswith("Swap:"):
+                parts = line.split()
+                if len(parts) &gt;= 3:
+                    mem_info["swap_total_mb"] = int(parts[1])
+                    mem_info["swap_used_mb"] = int(parts[2])
+        resources["memory"] = mem_info
+        resources["memory_raw"] = mem["stdout"]
+
+    # 磁盘各分区
+    df = run_cmd("df -h")
+    if df["ok"]:
+        disk_partitions = []
+        for line in df["stdout"].split("\n")[1:]:
+            parts = line.split()
+            if len(parts) &gt;= 6:
+                try:
+                    usage_pct = int(parts[4].rstrip("%"))
+                except:
+                    usage_pct = 0
+                disk_partitions.append({
+                    "filesystem": parts[0],
+                    "size": parts[1],
+                    "used": parts[2],
+                    "available": parts[3],
+                    "usage_percent": usage_pct,
+                    "mount": parts[5],
+                })
+        resources["disk_partitions"] = disk_partitions
+
+    # 进程数 / 僵尸进程
+    ps = run_cmd("ps aux | wc -l")
+    zombie = run_cmd("ps aux | grep 'Z' | grep -v grep | wc -l")
+    resources["processes"] = {
+        "total": int(ps["stdout"]) if ps["ok"] else 0,
+        "zombie": int(zombie["stdout"]) if zombie["ok"] else 0,
+    }
+
+    # 系统运行时间
+    uptime = run_cmd("uptime -p 2&gt;/dev/null || uptime")
+    resources["uptime_pretty"] = uptime["stdout"] if uptime["ok"] else "unknown"
+
+    # CPU 信息
+    cpuinfo = run_cmd("nproc")
+    resources["cpu_cores"] = int(cpuinfo["stdout"]) if cpuinfo["ok"] else 0
+
+    return resources
+
+
+def check_openclaw_architecture():
+    """OpenClaw/KimiClaw 架构状态"""
+    arch = {}
+
+    # Gateway 配置与状态
+    gateway_config = run_cmd("openclaw gateway status 2&gt;/dev/null || echo 'unknown'")
+    gateway_ok = "running" in gateway_config["stdout"].lower() or "active" in gateway_config["stdout"].lower()
+
+    # 尝试读取 gateway 配置
+    gateway_port = "?"
+    gateway_bind = "?"
+    gateway_version = "?"
+    config_path = "/root/.openclaw/config.yaml"
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r") as f:
+                config_text = f.read()
+            port_match = re.search(r'port:\s*(\d+)', config_text)
+            if port_match:
+                gateway_port = port_match.group(1)
+            bind_match = re.search(r'bind:\s*([\d.:]+)', config_text)
+            if bind_match:
+                gateway_bind = bind_match.group(1)
+            ver_match = re.search(r'version:\s*([\w.-]+)', config_text)
+            if ver_match:
+                gateway_version = ver_match.group(1)
+        except:
+            pass
+
+    arch["gateway"] = {
+        "status": gateway_config["stdout"],
+        "ok": gateway_ok,
+        "port": gateway_port,
+        "bind": gateway_bind,
+        "version": gateway_version,
+    }
+
+    # Gateway heartbeat（通过最近日志推断）
+    log_paths = [
+        "/root/.openclaw/logs/gateway.log",
+        "/var/log/openclaw/gateway.log",
+    ]
+    last_heartbeat = None
+    for log_path in log_paths:
+        if os.path.exists(log_path):
+            try:
+                stat = os.stat(log_path)
+                last_heartbeat = round((time.time() - stat.st_mtime) / 60, 1)
+                break
+            except:
+                pass
+    arch["gateway"]["last_log_age_min"] = last_heartbeat
+
+    # Channels 状态
+    channels = {}
+
+    # 微信通道
+    weixin_ok = os.path.exists("/root/.openclaw/channels/weixin")
+    weixin_pid = run_cmd("pgrep -f 'weixin' || echo ''")
+    channels["weixin"] = {
+        "configured": weixin_ok,
+        "process_running": bool(weixin_pid["stdout"].strip()),
+        "pid": weixin_pid["stdout"].strip() or None,
+    }
+
+    # 飞书通道
+    feishu_ok = os.path.exists("/root/.openclaw/channels/feishu")
+    channels["feishu"] = {
+        "configured": feishu_ok,
+        "token_present": os.path.exists("/root/.openclaw/.feishu_token") or os.path.exists(f"{WORKSPACE}/.feishu_token"),
+    }
+
+    # Web 通道
+    channels["web"] = {
+        "configured": True,  # 默认总是可用
+    }
+
+    # 邮件通道
+    mail_systemd = run_cmd("systemctl is-active xiaok-mailbox-webhook 2&gt;/dev/null || echo 'inactive'")
+    channels["mail"] = {
+        "systemd_active": "active" in mail_systemd["stdout"],
+        "systemd_status": mail_systemd["stdout"],
+    }
+
+    arch["channels"] = channels
+
+    # Sessions 状态
+    sessions_dir = "/root/.openclaw/agents/main/sessions"
+    sessions = glob.glob(f"{sessions_dir}/*.jsonl") if os.path.exists(sessions_dir) else []
+    total_size = sum(os.path.getsize(s) for s in sessions)
+
+    # 活跃 session（最近1小时有消息）
+    active_sessions = []
+    for s in sessions:
+        try:
+            mtime = os.path.getmtime(s)
+            age_hours = (time.time() - mtime) / 3600
+            if age_hours &lt; 1:
+                size = os.path.getsize(s)
+                active_sessions.append({
+                    "file": os.path.basename(s),
+                    "size": human_size(size),
+                    "age_hours": round(age_hours, 2),
+                })
+        except:
+            pass
+
+    arch["sessions"] = {
+        "total_count": len(sessions),
+        "total_size": human_size(total_size),
+        "total_size_bytes": total_size,
+        "active_recent_1h": len(active_sessions),
+        "active_sessions": active_sessions[:5],
+    }
+
+    # Context 压力（估算）
+    # 通过会话文件大小估算上下文压力
+    context_pressure = "low"
+    if total_size &gt; 100 * 1024 * 1024:  # 100MB
+        context_pressure = "high"
+    elif total_size &gt; 50 * 1024 * 1024:
+        context_pressure = "medium"
+    arch["context_pressure"] = {
+        "level": context_pressure,
+        "total_sessions_size_mb": round(total_size / (1024 * 1024), 2),
+    }
+
+    # Tools 清单
+    tools = {
+        "official": [],
+        "custom": [],
+    }
+
+    # 检查常用自定义 tools
+    custom_tools = [
+        ("cloudflared_tunnel", "/usr/bin/cloudflared", "Cloudflare Tunnel"),
+        ("ssh_dreamhost", f"{os.path.expanduser('~')}/.ssh/id_rsa", "SSH Dreamhost"),
+        ("email_webhook", "/root/.openclaw/scripts/email-webhook-server.js", "邮件 Webhook"),
+        ("resource_tracker", "/root/.openclaw/scripts/resource-tracker.py", "资源感知舱"),
+        ("momentum_trigger", "/root/.openclaw/scripts/momentum-trigger.sh", "动量触发器"),
+    ]
+    for tool_id, path, desc in custom_tools:
+        exists = os.path.exists(path)
+        tools["custom"].append({
+            "id": tool_id,
+            "path": path,
+            "description": desc,
+            "available": exists,
+        })
+
+    arch["tools"] = tools
+
+    # Plugins
+    plugins_dir = "/root/.openclaw/plugins"
+    plugins = []
+    if os.path.exists(plugins_dir):
+        for item in os.listdir(plugins_dir):
+            item_path = os.path.join(plugins_dir, item)
+            if os.path.isdir(item_path):
+                plugins.append({
+                    "name": item,
+                    "path": item_path,
+                })
+    arch["plugins"] = plugins
+
+    return arch
+
+
 def check():
     checks_passed = 0
-    checks_total = 5
-    
+    checks_total = 6
+
     # 配置文件
     config_paths = ["/root/.openclaw/config.yaml", "/root/.openclaw/config.yml", "/root/.openclaw/.env"]
     config_status = {}
@@ -1695,30 +2553,42 @@ def check():
         config_status[path] = info or {"exists": False}
         if info and info["exists"]:
             configs_ok += 1
-    if configs_ok &gt; 0: checks_passed += 1  # 至少一个配置存在
-    
-    # cron jobs
-    cron = run_cmd("crontab -l 2&gt;/dev/null || echo 'no crontab'")
-    cron_jobs = [line for line in cron["stdout"].split("\n") if line.strip() and not line.startswith("#")]
+    if configs_ok &gt; 0:
+        checks_passed += 1
+
+    # Cron Jobs（带归属）
+    cron_jobs = parse_cron_jobs()
     checks_passed += 1  # cron 可查询即算通过
-    
+
     # Gateway 状态
     gateway = run_cmd("openclaw gateway status 2&gt;/dev/null || echo 'unknown'")
     gateway_ok = "running" in gateway["stdout"].lower() or "active" in gateway["stdout"].lower()
-    if gateway_ok: checks_passed += 1
-    
+    if gateway_ok:
+        checks_passed += 1
+
     # systemd 服务
     systemd = run_cmd("systemctl list-units --type=service --state=running | grep -i openclaw || echo 'none'")
     systemd_ok = systemd["stdout"] and systemd["stdout"] != "none"
-    if systemd_ok: checks_passed += 1
-    
+    if systemd_ok:
+        checks_passed += 1
+
     # session 文件
     sessions_dir = "/root/.openclaw/agents/main/sessions"
     sessions = glob.glob(f"{sessions_dir}/*.jsonl") if os.path.exists(sessions_dir) else []
     total_size = sum(os.path.getsize(s) for s in sessions)
     session_ok = len(sessions) &gt; 0
-    if session_ok: checks_passed += 1
-    
+    if session_ok:
+        checks_passed += 1
+
+    # Linux 资源
+    linux_resources = check_linux_resources()
+    resources_ok = linux_resources.get("cpu_load") is not None
+    if resources_ok:
+        checks_passed += 1
+
+    # OpenClaw 架构
+    openclaw_arch = check_openclaw_architecture()
+
     data = {
         "config_files": config_status,
         "cron_jobs_count": len(cron_jobs),
@@ -1732,9 +2602,210 @@ def check():
             "total_size": human_size(total_size),
             "total_size_bytes": total_size,
         },
+        "linux_resources": linux_resources,
+        "openclaw_architecture": openclaw_arch,
     }
-    
+
     return {"module": "harness", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
+
+
+if __name__ == "__main__":
+    print(json.dumps(check(), indent=2, ensure_ascii=False))
+</code></pre>
+  </details>  <details style="margin-top: 1rem;">
+    <summary style="cursor: pointer; color: var(--accent); margin-bottom: 0.5rem;">
+      🐍 check-infrastructure.py
+    </summary>
+    <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
+"""check-infrastructure.py — 基础设施检查模块（Tunnel / 邮件 / SSH / 身份 / 通道）
+独立运行输出 JSON：python3 check-infrastructure.py
+"""
+
+import os, json, subprocess, time
+from datetime import datetime
+
+WORKSPACE = "/root/.openclaw/workspace"
+
+
+def run_cmd(cmd, timeout=15):
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=timeout)
+        return {"stdout": result.stdout.strip(), "stderr": result.stderr.strip(),
+                "returncode": result.returncode, "ok": result.returncode == 0}
+    except Exception as e:
+        return {"stdout": "", "stderr": str(e), "returncode": -1, "ok": False}
+
+
+def check():
+    checks_passed = 0
+    checks_total = 6
+
+    infra = {}
+
+    # ── I0.1 Cloudflare Tunnel ──
+    tunnel = {}
+    # 检查进程
+    tunnel_proc = run_cmd("pgrep -a cloudflared 2&gt;/dev/null || echo 'not running'")
+    tunnel["process"] = tunnel_proc["stdout"]
+    tunnel["running"] = "not running" not in tunnel_proc["stdout"]
+
+    # 检查端口 20241（Cloudflare Tunnel 默认本地端口）
+    port_check = run_cmd("ss -tlnp | grep ':20241' || echo 'no listener'")
+    tunnel["port_20241"] = "no listener" not in port_check["stdout"]
+
+    # 域名可达性
+    domain_check = run_cmd("curl -s -o /dev/null -w '%{http_code}' --max-time 5 https://littlek.trust4.net 2&gt;/dev/null || echo '000'")
+    tunnel["domain_reachable"] = domain_check["stdout"] in ["200", "301", "302", "404"]
+    tunnel["domain_http_code"] = domain_check["stdout"]
+
+    # 隧道状态（cloudflared 状态）
+    tunnel_info = run_cmd("cloudflared tunnel list 2&gt;/dev/null | head -5 || echo 'cloudflared not available'")
+    tunnel["tunnel_list"] = tunnel_info["stdout"]
+
+    if tunnel["running"] and tunnel["domain_reachable"]:
+        checks_passed += 1
+
+    infra["cloudflare_tunnel"] = tunnel
+
+    # ── I0.2 邮件系统 ──
+    mail = {}
+    mail_systemd = run_cmd("systemctl is-active xiaok-mailbox-webhook 2&gt;/dev/null || echo 'inactive'")
+    mail["systemd_active"] = "active" in mail_systemd["stdout"]
+    mail["systemd_status"] = mail_systemd["stdout"]
+
+    # 邮件服务进程
+    mail_proc = run_cmd("pgrep -f 'email-webhook-server' 2&gt;/dev/null || echo 'not running'")
+    mail["process_running"] = "not running" not in mail_proc["stdout"]
+
+    # 最近投递日志（通过日志文件存在性和修改时间推断）
+    log_paths = [
+        "/var/log/xiaok-mailbox.log",
+        "/var/log/openclaw-email.log",
+    ]
+    latest_delivery = None
+    for log_path in log_paths:
+        if os.path.exists(log_path):
+            try:
+                stat = os.stat(log_path)
+                age_hours = (time.time() - stat.st_mtime) / 3600
+                latest_delivery = {
+                    "log_file": log_path,
+                    "last_modified_hours": round(age_hours, 1),
+                }
+                break
+            except:
+                pass
+    mail["latest_delivery"] = latest_delivery
+
+    if mail["systemd_active"]:
+        checks_passed += 1
+
+    infra["mail_system"] = mail
+
+    # ── I0.3 GitHub 身份 ──
+    github = {}
+    gh_auth = run_cmd("gh auth status 2&gt;1 | head -5")
+    github["cli_logged_in"] = "Logged in" in gh_auth["stdout"] or gh_auth["ok"]
+    github["auth_status_raw"] = gh_auth["stdout"]
+
+    # PAT 有效期（无法直接查询，通过 gh api 调用测试推断）
+    gh_api = run_cmd("gh api user 2&gt;1 | head -1")
+    github["api_ok"] = gh_api["ok"] and "login" in gh_api["stdout"]
+    github["api_raw"] = gh_api["stdout"]
+
+    # Git 配置
+    git_user = run_cmd("git config user.name 2&gt;/dev/null || echo 'not set'")
+    git_email = run_cmd("git config user.email 2&gt;/dev/null || echo 'not set'")
+    github["git_user"] = git_user["stdout"]
+    github["git_email"] = git_email["stdout"]
+
+    if github["cli_logged_in"]:
+        checks_passed += 1
+
+    infra["github_identity"] = github
+
+    # ── I0.4 飞书连接 ──
+    feishu = {}
+    token_paths = [
+        "/root/.openclaw/.feishu_token",
+        f"{WORKSPACE}/.feishu_token",
+    ]
+    token_exists = any(os.path.exists(p) for p in token_paths)
+    feishu["token_present"] = token_exists
+
+    # 检查飞书通道配置
+    feishu_channel = "/root/.openclaw/channels/feishu"
+    feishu["channel_configured"] = os.path.exists(feishu_channel)
+
+    if token_exists:
+        checks_passed += 1
+
+    infra["feishu_connection"] = feishu
+
+    # ── I0.5 微信通道 ──
+    weixin = {}
+    weixin_channel = "/root/.openclaw/channels/weixin"
+    weixin["channel_configured"] = os.path.exists(weixin_channel)
+
+    # 微信进程
+    weixin_proc = run_cmd("pgrep -f 'weixin' 2&gt;/dev/null || echo 'not running'")
+    weixin["process_running"] = "not running" not in weixin_proc["stdout"]
+
+    # 健康检查日志
+    weixin_health_log = "/var/log/openclaw_weixin_health.log"
+    if os.path.exists(weixin_health_log):
+        try:
+            stat = os.stat(weixin_health_log)
+            weixin["health_log_age_hours"] = round((time.time() - stat.st_mtime) / 3600, 1)
+        except:
+            weixin["health_log_age_hours"] = None
+
+    if weixin["channel_configured"]:
+        checks_passed += 1
+
+    infra["weixin_channel"] = weixin
+
+    # ── I0.6 美国主机出口 (Dreamhost SSH) ──
+    dreamhost = {}
+    ssh_key = f"{os.path.expanduser('~')}/.ssh/id_rsa"
+    dreamhost["ssh_key_present"] = os.path.exists(ssh_key)
+
+    # SSH 配置
+    ssh_config = f"{os.path.expanduser('~')}/.ssh/config"
+    dreamhost["ssh_config_present"] = os.path.exists(ssh_config)
+
+    if os.path.exists(ssh_config):
+        try:
+            with open(ssh_config, "r") as f:
+                config_text = f.read()
+            dreamhost["has_dreamhost_entry"] = "dreamhost" in config_text.lower()
+        except:
+            dreamhost["has_dreamhost_entry"] = False
+
+    # 尝试 SSH 连接（dry-run）
+    ssh_test = run_cmd("ssh -o BatchMode=yes -o ConnectTimeout=5 -o StrictHostKeyChecking=accept-new dreamhost 'echo ok' 2&gt;1 || echo 'failed'")
+    dreamhost["ssh_test_ok"] = "ok" in ssh_test["stdout"]
+    dreamhost["ssh_test_raw"] = ssh_test["stdout"][:100]
+
+    if dreamhost["ssh_key_present"]:
+        checks_passed += 1
+
+    infra["dreamhost_ssh"] = dreamhost
+
+    data = {
+        "groups": [
+            {"id": "I0.1", "name": "Cloudflare Tunnel", "status": "✅" if tunnel["running"] else "❌", "details": tunnel},
+            {"id": "I0.2", "name": "邮件系统 (xiaok-mailbox-webhook)", "status": "✅" if mail["systemd_active"] else "❌", "details": mail},
+            {"id": "I0.3", "name": "GitHub 身份 (LittleK-513)", "status": "✅" if github["cli_logged_in"] else "❌", "details": github},
+            {"id": "I0.4", "name": "飞书连接", "status": "✅" if feishu["token_present"] else "❌", "details": feishu},
+            {"id": "I0.5", "name": "微信通道", "status": "✅" if weixin["channel_configured"] else "❌", "details": weixin},
+            {"id": "I0.6", "name": "Dreamhost SSH", "status": "✅" if dreamhost["ssh_key_present"] else "❌", "details": dreamhost},
+        ],
+        "infra": infra,
+    }
+
+    return {"module": "infrastructure", "data": data, "checks_passed": checks_passed, "checks_total": checks_total}
+
 
 if __name__ == "__main__":
     print(json.dumps(check(), indent=2, ensure_ascii=False))
@@ -1888,27 +2959,25 @@ if __name__ == "__main__":
       🐍 check-projects.py
     </summary>
     <pre style="margin-top: 0.5rem; padding: 1rem; background: #0a0a0f; border-radius: 8px; overflow-x: auto; font-size: 0.75rem; color: var(--text-dim); max-height: 400px; overflow-y: auto;"><code>#!/usr/bin/env python3
-"""check-projects.py — 项目审计模块（四层项目群结构）
+"""check-projects.py — 项目审计模块（五层项目群结构 + 特殊产出物识别）
 独立运行输出 JSON：python3 check-projects.py
 输出格式：{"module": "projects", "data": {"groups": [...]}, ...}
 """
 
-import os, json, time
+import os, json, time, glob
 from datetime import datetime
 
 WORKSPACE = "/root/.openclaw/workspace"
 
 EXCLUDE_DIRS = {
-    "node_modules", "tmp", ".local", "_layouts", "blog", "downloads", "__pycache__",
-    "_posts", "backups", "daily", "data", "diary", "memorized_diary", "memorized_media",
-    "memory", "references", "scripts", "skills", "todo", "weekly",
+    "node_modules", "tmp", ".local", "blog", "downloads", "__pycache__",
+    "backups", "daily", "data", "memorized_diary", "memorized_media",
+    "memory", "references", "skills", "todo", "weekly", ".openclaw",
+    "memory_consolidation", "orchestrator-runs", "self-evolution", "state",
+    "dashboard", "projects", "scripts",
 }
 
-EXCLUDE_FILES = {
-    ".git", ".github", ".openclaw", ".config", ".cache", ".npm", ".nvm",
-}
-
-# 四层项目群定义：name_pattern → tier
+# 五层项目群定义：name_pattern → tier
 TIER_MAP = {
     # P0: GitHub 赚钱任务
     "bounty": {"tier": "P0", "group_name": "P0: GitHub 赚钱任务", "group_goal": "通过 GitHub issue、bounty 平台获取收入"},
@@ -2021,6 +3090,185 @@ def scan_single_project(name, path):
     }
 
 
+def discover_special_artifacts():
+    """
+    扫描 workspace 根目录的特殊文件/目录，映射到项目群。
+    返回统一的项目结构列表（name, tier, group, status, last_modified, details）
+    """
+    artifacts = []
+    now = time.time()
+
+    # ── P1 自进化 内部子项目 ──
+    p1_artifacts = [
+        {
+            "name": "P1.1 日记系统",
+            "path": f"{WORKSPACE}/diary",
+            "check_path": f"{WORKSPACE}/diary",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "每日内观与觉察记录",
+        },
+        {
+            "name": "P1.2 学习积累",
+            "path": f"{WORKSPACE}/diary/LEARNINGS.md",
+            "check_path": f"{WORKSPACE}/diary/LEARNINGS.md",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "经验沉淀与教训记录",
+        },
+        {
+            "name": "P1.3 资源感知舱",
+            "path": "/root/.openclaw/scripts/resource-tracker.py",
+            "check_path": "/root/.openclaw/scripts/resource-tracker.py",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "系统资源采集与监控",
+        },
+        {
+            "name": "P1.4 心跳/内观机制",
+            "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "check_path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "长期任务 idle 检查与触发",
+        },
+        {
+            "name": "P1.5 Session 管理",
+            "path": f"{WORKSPACE}/scripts/session-cleanup.sh",
+            "check_path": f"{WORKSPACE}/scripts/session-cleanup.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "Session 清理与归档",
+        },
+        {
+            "name": "P1.6 网站 (littlek-513.github.io)",
+            "path": f"{WORKSPACE}/index.html",
+            "check_path": f"{WORKSPACE}/index.html",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "Jekyll 静态站点 + Dashboard 主页",
+            "extra_paths": [f"{WORKSPACE}/_layouts", f"{WORKSPACE}/_posts"],
+        },
+    ]
+
+    # ── P3 用户安排的其它任务 ──
+    p3_artifacts = [
+        {
+            "name": "P3.1 SpaceX S-1 分析",
+            "path": f"{WORKSPACE}/spacex-s1",
+            "check_path": f"{WORKSPACE}/spacex-s1",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "SpaceX S-1 财务与运营分析",
+        },
+        {
+            "name": "P3.2 CFMS 数据抓取",
+            "path": f"{WORKSPACE}/data.jsonl",
+            "check_path": f"{WORKSPACE}/data.jsonl",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "CFM 发动机数据抓取与备份",
+            "extra_paths": [f"{WORKSPACE}/cfm_backup.py", f"{WORKSPACE}/cfm_scraper.py"],
+        },
+        {
+            "name": "P3.3 创始人手册翻译",
+            "path": f"{WORKSPACE}/founders-handbook.md",
+            "check_path": f"{WORKSPACE}/founders-handbook.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "YC 创始人手册中文翻译",
+        },
+        {
+            "name": "P3.4 Claude 桥接",
+            "path": f"{WORKSPACE}/claude-openclaw-bridge.md",
+            "check_path": f"{WORKSPACE}/claude-openclaw-bridge.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "Claude 与 OpenClaw 桥接方案",
+        },
+        {
+            "name": "P3.5 Mac 连接通道",
+            "path": f"{WORKSPACE}/mac-bridge-websocket-spec.md",
+            "check_path": f"{WORKSPACE}/mac-bridge-websocket-spec.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "Mac 桥接 WebSocket 规格",
+        },
+    ]
+
+    all_specs = p1_artifacts + p3_artifacts
+
+    for spec in all_specs:
+        check_path = spec["check_path"]
+        exists = os.path.exists(check_path)
+
+        # 计算最后修改时间和文件数
+        latest_mtime = 0
+        file_count = 0
+        if exists:
+            if os.path.isfile(check_path):
+                latest_mtime = os.path.getmtime(check_path)
+                file_count = 1
+            elif os.path.isdir(check_path):
+                for root, dirs, files_inner in os.walk(check_path):
+                    dirs[:] = [d for d in dirs if not d.startswith(".")]
+                    file_count += len(files_inner)
+                    for f in files_inner:
+                        try:
+                            mtime = os.path.getmtime(os.path.join(root, f))
+                            if mtime &gt; latest_mtime:
+                                latest_mtime = mtime
+                        except:
+                            pass
+
+            # 检查 extra_paths
+            for extra in spec.get("extra_paths", []):
+                if os.path.exists(extra):
+                    if os.path.isfile(extra):
+                        file_count += 1
+                        mtime = os.path.getmtime(extra)
+                        if mtime &gt; latest_mtime:
+                            latest_mtime = mtime
+                    elif os.path.isdir(extra):
+                        for root, dirs, files_inner in os.walk(extra):
+                            dirs[:] = [d for d in dirs if not d.startswith(".")]
+                            file_count += len(files_inner)
+                            for f in files_inner:
+                                try:
+                                    mtime = os.path.getmtime(os.path.join(root, f))
+                                    if mtime &gt; latest_mtime:
+                                        latest_mtime = mtime
+                                except:
+                                    pass
+
+        age_hours = (now - latest_mtime) / 3600 if latest_mtime else float("inf")
+
+        if not exists and not file_count:
+            status = "ghost"
+        elif age_hours &lt; 168:
+            status = "active"
+        else:
+            status = "stale"
+
+        artifacts.append({
+            "name": spec["name"],
+            "path": spec["path"],
+            "tier": spec["tier"],
+            "group": spec["group"],
+            "status": status,
+            "exists": exists,
+            "file_count": file_count,
+            "last_modified": datetime.fromtimestamp(latest_mtime).isoformat() if latest_mtime else None,
+            "age_hours": round(age_hours, 1),
+            "details": spec["details"],
+            "blocker": None,
+            "last_action": None,
+            "is_special_artifact": True,
+        })
+
+    return artifacts
+
+
 def check():
     checks_passed = 0
     checks_total = 2
@@ -2031,7 +3279,7 @@ def check():
         item_path = os.path.join(WORKSPACE, item)
         if not os.path.isdir(item_path):
             continue
-        if item.startswith(".") or item in EXCLUDE_DIRS or item in EXCLUDE_FILES:
+        if item.startswith(".") or item in EXCLUDE_DIRS:
             continue
         candidates.append((item, item_path))
 
@@ -2073,7 +3321,10 @@ def check():
         proj = scan_single_project(name, path)
         all_projects.append(proj)
 
-    # 按 tier 分组
+    # 获取特殊产出物
+    special_artifacts = discover_special_artifacts()
+
+    # 按 tier 分组（目录项目 + 特殊产出物）
     groups = []
     tier_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
     tiers_found = set()
@@ -2083,7 +3334,7 @@ def check():
         proj["tier"] = tier_info["tier"] or proj.get("state_tier")
         tiers_found.add(proj["tier"])
 
-    # 按预设顺序创建组
+    # 按预设顺序创建组（包含特殊产出物）
     tier_defs = [
         {"tier": "P0", "name": "P0: GitHub 赚钱任务", "goal": "通过 GitHub issue、bounty 平台获取收入"},
         {"tier": "P1", "name": "P1: 自进化任务", "goal": "自学习、自改进、Skill 进化与系统能力增强"},
@@ -2092,18 +3343,24 @@ def check():
     ]
 
     for td in tier_defs:
+        # 目录项目
         tier_projects = [p for p in all_projects if p["tier"] == td["tier"]]
-        if not tier_projects:
+        # 特殊产出物
+        tier_artifacts = [a for a in special_artifacts if a["tier"] == td["tier"]]
+
+        if not tier_projects and not tier_artifacts:
             continue
 
         # 组内排序
         tier_projects.sort(key=lambda x: x["name"])
 
-        active_count = len([p for p in tier_projects if p["status"] == "active"])
-        stale_count = len([p for p in tier_projects if p["status"] == "stale"])
-        orphan_count = len([p for p in tier_projects if p["status"] == "orphan"])
-        ghost_count = len([p for p in tier_projects if p["status"] == "ghost"])
-        total = len(tier_projects)
+        # 合并统计
+        all_items = tier_projects + tier_artifacts
+        active_count = len([p for p in all_items if p["status"] == "active"])
+        stale_count = len([p for p in all_items if p["status"] == "stale"])
+        orphan_count = len([p for p in all_items if p["status"] == "orphan"])
+        ghost_count = len([p for p in all_items if p["status"] == "ghost"])
+        total = len(all_items)
 
         # 项目群健康度评分 (0-10)
         if total &gt; 0:
@@ -2133,6 +3390,7 @@ def check():
             "name": td["name"],
             "goal": td["goal"],
             "projects": tier_projects,
+            "special_artifacts": tier_artifacts,
             "stats": {
                 "total": total,
                 "active": active_count,
@@ -2160,7 +3418,8 @@ def check():
 
     data = {
         "groups": groups,
-        "flat_projects": all_projects,  # 保留扁平列表供兼容
+        "flat_projects": all_projects,
+        "special_artifacts": special_artifacts,
         "active_count": all_active,
         "stale_count": all_stale,
         "orphan_count": all_orphan,
@@ -2258,7 +3517,7 @@ if __name__ == "__main__":
 
 <script>
 // 评分维度柱状图
-const scoreData = {"projects": 2.3, "environment": 10, "memory": 10, "capabilities": 5.0, "trend": 5};
+const scoreData = {"projects": 5.0, "environment": 8, "memory": 10, "capabilities": 5.0, "trend": 5};
 const scoreContainer = document.getElementById('score-bars');
 const labels = {'projects':'项目','environment':'环境','memory':'记忆','capabilities':'能力','trend':'趋势'};
 for (const [dim, val] of Object.entries(scoreData)) {
@@ -2276,18 +3535,18 @@ for (const [dim, val] of Object.entries(scoreData)) {
 // 注入原始 JSON
 const rawData = {
   "meta": {
-    "version": "p1-baseline-v3-ai-gap",
-    "generated_at": "2026-05-22T09:59:54.623948",
+    "version": "p1-baseline-v4-ai-gap-infra",
+    "generated_at": "2026-05-22T11:25:36.908165",
     "workspace": "/root/.openclaw/workspace",
-    "modules_run": 7,
-    "modules_ok": 7
+    "modules_run": 8,
+    "modules_ok": 8
   },
   "score": {
-    "total": 6.2,
+    "total": 6.6,
     "max": 10,
     "breakdown": {
-      "projects": 2.3,
-      "environment": 10,
+      "projects": 5.0,
+      "environment": 8,
       "memory": 10,
       "capabilities": 5.0,
       "trend": 5
@@ -2304,160 +3563,80 @@ const rawData = {
             "size": 8458,
             "size_human": "8.3KB",
             "mtime": "2026-05-18T17:57:27.039477",
-            "mtime_age_hours": 88.0
+            "mtime_age_hours": 89.5
           },
           "USER.md": {
             "exists": true,
-            "size": 37566,
-            "size_human": "36.7KB",
-            "mtime": "2026-05-22T09:49:34.502006",
+            "size": 38049,
+            "size_human": "37.2KB",
+            "mtime": "2026-05-22T11:11:07.243891",
             "mtime_age_hours": 0.2
           },
           "SOUL.md": {
             "exists": true,
             "size": 6142,
             "size_human": "6.0KB",
-            "mtime": "2026-05-20T01:23:52.630789",
-            "mtime_age_hours": 56.6
+            "mtime": "2026-05-22T11:11:00.693878",
+            "mtime_age_hours": 0.2
           },
           "IDENTITY.md": {
             "exists": true,
             "size": 3799,
             "size_human": "3.7KB",
             "mtime": "2026-05-20T01:23:57.447799",
-            "mtime_age_hours": 56.6
+            "mtime_age_hours": 58.0
           },
           "AGENTS.md": {
             "exists": true,
             "size": 2507,
             "size_human": "2.4KB",
             "mtime": "2026-05-20T01:23:26.723733",
-            "mtime_age_hours": 56.6
+            "mtime_age_hours": 58.0
           },
           "BOOTSTRAP.md": {
             "exists": true,
             "size": 1681,
             "size_human": "1.6KB",
             "mtime": "2026-05-19T19:19:18.771783",
-            "mtime_age_hours": 62.7
+            "mtime_age_hours": 64.1
           },
           "HEARTBEAT.md": {
             "exists": true,
             "size": 2273,
             "size_human": "2.2KB",
             "mtime": "2026-05-22T01:16:18.393040",
-            "mtime_age_hours": 8.7
+            "mtime_age_hours": 10.2
           }
         },
         "all_key_files_exist": true,
         "memory_files_count": 27,
         "diary_total_count": 170,
-        "diary_recent_7d": 40,
+        "diary_recent_7d": 38,
         "diary_latest": [
           {
-            "file": "2026-05-22-0330-disk-watch.md",
-            "age_hours": 6.5
-          },
-          {
             "file": "2026-05-21-0330-signal-drift-and-bounty-saturation.md",
-            "age_hours": 30.5
+            "age_hours": 0.2
           },
           {
-            "file": "LEARNINGS.md",
-            "age_hours": 35.8
+            "file": "2026-05-16-0535-quiet-after-storm.md",
+            "age_hours": 0.2
+          },
+          {
+            "file": "2026-05-16-0039-self-awareness.md",
+            "age_hours": 0.2
+          },
+          {
+            "file": "2026-05-22-0330-disk-watch.md",
+            "age_hours": 7.9
           },
           {
             "file": "2026-05-20-2214-system.md",
-            "age_hours": 35.8
-          },
-          {
-            "file": "2026-05-20-0335-deep-introspection-v2.md",
-            "age_hours": 54.4
+            "age_hours": 37.2
           }
         ]
       },
       "checks_passed": 3,
       "checks_total": 3
-    },
-    "sessions": {
-      "module": "sessions",
-      "data": {
-        "total_sessions": 242,
-        "recent_10": [
-          {
-            "file": "b700f0c3-96f9-499d-802f-9412956077ba.jsonl",
-            "size": "343.4KB",
-            "mtime": "2026-05-22T09:59:51.837221",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b700f0c3-96f9-499d-802f-9412956077ba\",\"timestamp\":\"2026-05-22T01:49:35.744Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
-            "size": "1.8MB",
-            "mtime": "2026-05-22T09:56:52.433876",
-            "age_hours": 0.0,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "b1e64309-dc52-4d7d-9ab2-f74416ea9719.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T09:54:43.106627",
-            "age_hours": 0.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b1e64309-dc52-4d7d-9ab2-f74416ea9719\",\"timestamp\":\"2026-05-22T01:54:29.689Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "32017e4a-457b-4d8f-b683-ac6c1449acf3.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:44:34.832351",
-            "age_hours": 0.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"32017e4a-457b-4d8f-b683-ac6c1449acf3\",\"timestamp\":\"2026-05-22T01:44:22.286Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "88c5729f-2b33-4ca2-a0a2-558dfbfc0982.jsonl",
-            "size": "11.9KB",
-            "mtime": "2026-05-22T09:34:29.918803",
-            "age_hours": 0.4,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"88c5729f-2b33-4ca2-a0a2-558dfbfc0982\",\"timestamp\":\"2026-05-22T01:34:21.949Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "74a5bd8e-0e40-4b53-90b2-27436f27f444.jsonl",
-            "size": "11.8KB",
-            "mtime": "2026-05-22T09:24:31.164598",
-            "age_hours": 0.6,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"74a5bd8e-0e40-4b53-90b2-27436f27f444\",\"timestamp\":\"2026-05-22T01:24:21.821Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:14:29.651346",
-            "age_hours": 0.8,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"0b4f7dfe-48a1-4549-8a9e-9f6b6db889a4\",\"timestamp\":\"2026-05-22T01:14:21.870Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "c2cea10a-6d38-42a5-b225-9199753ee32d.jsonl",
-            "size": "12.0KB",
-            "mtime": "2026-05-22T09:04:29.459136",
-            "age_hours": 0.9,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"c2cea10a-6d38-42a5-b225-9199753ee32d\",\"timestamp\":\"2026-05-22T01:04:21.770Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed.jsonl",
-            "size": "12.1KB",
-            "mtime": "2026-05-22T08:54:28.968898",
-            "age_hours": 1.1,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"377391aa-ec9f-4b10-bc57-fb7e7ff3c6ed\",\"timestamp\":\"2026-05-22T00:54:21.764Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          },
-          {
-            "file": "b0ac0671-2748-4df9-be03-d53860127535.jsonl",
-            "size": "12.2KB",
-            "mtime": "2026-05-22T08:44:30.716636",
-            "age_hours": 1.3,
-            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"b0ac0671-2748-4df9-be03-d53860127535\",\"timestamp\":\"2026-05-22T00:44:21.968Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
-          }
-        ]
-      },
-      "checks_passed": 2,
-      "checks_total": 2
     },
     "projects": {
       "module": "projects",
@@ -2477,7 +3656,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 5,
                 "last_modified": "2026-05-19T19:37:52.473199",
-                "age_hours": 62.4,
+                "age_hours": 63.8,
                 "status": "stale",
                 "blocker": null,
                 "last_action": null,
@@ -2493,7 +3672,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 19,
                 "last_modified": "2026-05-21T21:58:06.972136",
-                "age_hours": 12.0,
+                "age_hours": 13.5,
                 "status": "stale",
                 "blocker": null,
                 "last_action": null,
@@ -2501,6 +3680,7 @@ const rawData = {
                 "tier": "P0"
               }
             ],
+            "special_artifacts": [],
             "stats": {
               "total": 2,
               "active": 0,
@@ -2526,7 +3706,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 23,
                 "last_modified": "2026-05-21T04:40:12.131068",
-                "age_hours": 29.3,
+                "age_hours": 30.8,
                 "status": "active",
                 "blocker": null,
                 "last_action": null,
@@ -2542,7 +3722,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 30,
                 "last_modified": "2026-05-21T20:52:06.676118",
-                "age_hours": 13.1,
+                "age_hours": 14.6,
                 "status": "stale",
                 "blocker": null,
                 "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
@@ -2550,14 +3730,106 @@ const rawData = {
                 "tier": "P1"
               }
             ],
+            "special_artifacts": [
+              {
+                "name": "P1.1 日记系统",
+                "path": "/root/.openclaw/workspace/diary",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 355,
+                "last_modified": "2026-05-22T11:11:37.196953",
+                "age_hours": 0.2,
+                "details": "每日内观与觉察记录",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.2 学习积累",
+                "path": "/root/.openclaw/workspace/diary/LEARNINGS.md",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-20T22:08:53.140030",
+                "age_hours": 37.3,
+                "details": "经验沉淀与教训记录",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.3 资源感知舱",
+                "path": "/root/.openclaw/scripts/resource-tracker.py",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-18T23:36:28.055247",
+                "age_hours": 83.8,
+                "details": "系统资源采集与监控",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.4 心跳/内观机制",
+                "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-15T18:52:10.112388",
+                "age_hours": 160.6,
+                "details": "长期任务 idle 检查与触发",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.5 Session 管理",
+                "path": "/root/.openclaw/workspace/scripts/session-cleanup.sh",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-13T15:09:14.020543",
+                "age_hours": 212.3,
+                "details": "Session 清理与归档",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P1.6 网站 (littlek-513.github.io)",
+                "path": "/root/.openclaw/workspace/index.html",
+                "tier": "P1",
+                "group": "P1 自进化内部",
+                "status": "active",
+                "exists": true,
+                "file_count": 6,
+                "last_modified": "2026-05-22T11:24:38.786592",
+                "age_hours": 0.0,
+                "details": "Jekyll 静态站点 + Dashboard 主页",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              }
+            ],
             "stats": {
-              "total": 2,
-              "active": 1,
-              "stale": 1,
+              "total": 8,
+              "active": 6,
+              "stale": 2,
               "orphan": 0,
               "ghost": 0
             },
-            "group_score": 3.5,
+            "group_score": 6.8,
             "group_status": "mixed",
             "group_health": "🟡 部分停滞"
           },
@@ -2575,7 +3847,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 9,
                 "last_modified": "2026-05-21T21:56:32.498939",
-                "age_hours": 12.1,
+                "age_hours": 13.5,
                 "status": "stale",
                 "blocker": null,
                 "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
@@ -2591,7 +3863,7 @@ const rawData = {
                 "has_todo": false,
                 "file_count": 1,
                 "last_modified": "2026-05-21T21:56:38.611952",
-                "age_hours": 12.1,
+                "age_hours": 13.5,
                 "status": "active",
                 "blocker": null,
                 "last_action": null,
@@ -2599,6 +3871,7 @@ const rawData = {
                 "tier": "P2"
               }
             ],
+            "special_artifacts": [],
             "stats": {
               "total": 2,
               "active": 1,
@@ -2607,6 +3880,99 @@ const rawData = {
               "ghost": 0
             },
             "group_score": 3.5,
+            "group_status": "mixed",
+            "group_health": "🟡 部分停滞"
+          },
+          {
+            "tier": "P3",
+            "name": "P3: 用户安排的其它任务",
+            "goal": "用户直接指派的外部任务与探索",
+            "projects": [],
+            "special_artifacts": [
+              {
+                "name": "P3.1 SpaceX S-1 分析",
+                "path": "/root/.openclaw/workspace/spacex-s1",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-21T11:39:00.518933",
+                "age_hours": 23.8,
+                "details": "SpaceX S-1 财务与运营分析",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.2 CFMS 数据抓取",
+                "path": "/root/.openclaw/workspace/data.jsonl",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-22T11:00:02.186523",
+                "age_hours": 0.4,
+                "details": "CFM 发动机数据抓取与备份",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.3 创始人手册翻译",
+                "path": "/root/.openclaw/workspace/founders-handbook.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "active",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-21T11:13:23.966861",
+                "age_hours": 24.2,
+                "details": "YC 创始人手册中文翻译",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.4 Claude 桥接",
+                "path": "/root/.openclaw/workspace/claude-openclaw-bridge.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-08T07:29:48.202341",
+                "age_hours": 339.9,
+                "details": "Claude 与 OpenClaw 桥接方案",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              },
+              {
+                "name": "P3.5 Mac 连接通道",
+                "path": "/root/.openclaw/workspace/mac-bridge-websocket-spec.md",
+                "tier": "P3",
+                "group": "P3 用户任务",
+                "status": "stale",
+                "exists": true,
+                "file_count": 1,
+                "last_modified": "2026-05-09T10:19:03.592280",
+                "age_hours": 313.1,
+                "details": "Mac 桥接 WebSocket 规格",
+                "blocker": null,
+                "last_action": null,
+                "is_special_artifact": true
+              }
+            ],
+            "stats": {
+              "total": 5,
+              "active": 3,
+              "stale": 2,
+              "orphan": 0,
+              "ghost": 0
+            },
+            "group_score": 4.8,
             "group_status": "mixed",
             "group_health": "🟡 部分停滞"
           }
@@ -2621,7 +3987,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 5,
             "last_modified": "2026-05-19T19:37:52.473199",
-            "age_hours": 62.4,
+            "age_hours": 63.8,
             "status": "stale",
             "blocker": null,
             "last_action": null,
@@ -2637,7 +4003,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 19,
             "last_modified": "2026-05-21T21:58:06.972136",
-            "age_hours": 12.0,
+            "age_hours": 13.5,
             "status": "stale",
             "blocker": null,
             "last_action": null,
@@ -2653,7 +4019,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 1,
             "last_modified": "2026-05-21T21:56:38.611952",
-            "age_hours": 12.1,
+            "age_hours": 13.5,
             "status": "active",
             "blocker": null,
             "last_action": null,
@@ -2669,7 +4035,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 23,
             "last_modified": "2026-05-21T04:40:12.131068",
-            "age_hours": 29.3,
+            "age_hours": 30.8,
             "status": "active",
             "blocker": null,
             "last_action": null,
@@ -2685,7 +4051,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 9,
             "last_modified": "2026-05-21T21:56:32.498939",
-            "age_hours": 12.1,
+            "age_hours": 13.5,
             "status": "stale",
             "blocker": null,
             "last_action": "⚠️ Agent Community API 探测失败(2026-05-21 17:35)\n- 尝试 /api/v1/feed、/api/feed、/api/v2/feed 均返回 'Not found'\n- 主站 agent-community.com 仍可访问(HTTP 200),但 API 端点已失效\n- credits: 11(未消耗)\n- 未执行任何发帖/回复操作(API 不可用)\n- ",
@@ -2701,7 +4067,7 @@ const rawData = {
             "has_todo": false,
             "file_count": 30,
             "last_modified": "2026-05-21T20:52:06.676118",
-            "age_hours": 13.1,
+            "age_hours": 14.6,
             "status": "stale",
             "blocker": null,
             "last_action": "Cycle 6 evaluate completed. C1 CRITICAL 95% (4 days), C2 state drift fixed, C3 runs/ empty, C4 PASS, C5 PASS. Score 3/5=60%. LEARNINGS.md created. Ready for Cycle 6 plan.",
@@ -2709,11 +4075,178 @@ const rawData = {
             "tier": "P1"
           }
         ],
-        "active_count": 2,
-        "stale_count": 4,
+        "special_artifacts": [
+          {
+            "name": "P1.1 日记系统",
+            "path": "/root/.openclaw/workspace/diary",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 355,
+            "last_modified": "2026-05-22T11:11:37.196953",
+            "age_hours": 0.2,
+            "details": "每日内观与觉察记录",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.2 学习积累",
+            "path": "/root/.openclaw/workspace/diary/LEARNINGS.md",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-20T22:08:53.140030",
+            "age_hours": 37.3,
+            "details": "经验沉淀与教训记录",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.3 资源感知舱",
+            "path": "/root/.openclaw/scripts/resource-tracker.py",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-18T23:36:28.055247",
+            "age_hours": 83.8,
+            "details": "系统资源采集与监控",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.4 心跳/内观机制",
+            "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-15T18:52:10.112388",
+            "age_hours": 160.6,
+            "details": "长期任务 idle 检查与触发",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.5 Session 管理",
+            "path": "/root/.openclaw/workspace/scripts/session-cleanup.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-13T15:09:14.020543",
+            "age_hours": 212.3,
+            "details": "Session 清理与归档",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P1.6 网站 (littlek-513.github.io)",
+            "path": "/root/.openclaw/workspace/index.html",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "status": "active",
+            "exists": true,
+            "file_count": 6,
+            "last_modified": "2026-05-22T11:24:38.786592",
+            "age_hours": 0.0,
+            "details": "Jekyll 静态站点 + Dashboard 主页",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.1 SpaceX S-1 分析",
+            "path": "/root/.openclaw/workspace/spacex-s1",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-21T11:39:00.518933",
+            "age_hours": 23.8,
+            "details": "SpaceX S-1 财务与运营分析",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.2 CFMS 数据抓取",
+            "path": "/root/.openclaw/workspace/data.jsonl",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-22T11:00:02.186523",
+            "age_hours": 0.4,
+            "details": "CFM 发动机数据抓取与备份",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.3 创始人手册翻译",
+            "path": "/root/.openclaw/workspace/founders-handbook.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "active",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-21T11:13:23.966861",
+            "age_hours": 24.2,
+            "details": "YC 创始人手册中文翻译",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.4 Claude 桥接",
+            "path": "/root/.openclaw/workspace/claude-openclaw-bridge.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-08T07:29:48.202341",
+            "age_hours": 339.9,
+            "details": "Claude 与 OpenClaw 桥接方案",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          },
+          {
+            "name": "P3.5 Mac 连接通道",
+            "path": "/root/.openclaw/workspace/mac-bridge-websocket-spec.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "status": "stale",
+            "exists": true,
+            "file_count": 1,
+            "last_modified": "2026-05-09T10:19:03.592280",
+            "age_hours": 313.1,
+            "details": "Mac 桥接 WebSocket 规格",
+            "blocker": null,
+            "last_action": null,
+            "is_special_artifact": true
+          }
+        ],
+        "active_count": 10,
+        "stale_count": 7,
         "orphan_count": 0,
         "ghost_count": 0,
-        "total_count": 6
+        "total_count": 17
       },
       "checks_passed": 2,
       "checks_total": 2
@@ -2729,33 +4262,116 @@ const rawData = {
         "node_version": "v24.15.0",
         "working_dir": "/root/.openclaw/workspace",
         "hostname": "VM-13-249-ubuntu",
-        "timestamp": "2026-05-22T09:59:52.217215"
+        "timestamp": "2026-05-22T11:25:32.186646"
       },
       "checks_passed": 3,
       "checks_total": 4
     },
+    "sessions": {
+      "module": "sessions",
+      "data": {
+        "total_sessions": 244,
+        "recent_10": [
+          {
+            "file": "2719d886-45a2-4822-a234-c179744aeb61.jsonl",
+            "size": "694.3KB",
+            "mtime": "2026-05-22T11:25:31.606704",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"2719d886-45a2-4822-a234-c179744aeb61\",\"timestamp\":\"2026-05-22T03:10:44.790Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "bc70d911-2d50-4098-a09d-a2d66d2e703b.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:24:32.292578",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"bc70d911-2d50-4098-a09d-a2d66d2e703b\",\"timestamp\":\"2026-05-22T03:24:23.198Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+            "size": "2.2MB",
+            "mtime": "2026-05-22T11:22:34.508327",
+            "age_hours": 0.0,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "afbaa0ea-6349-4c40-842d-0bc86aee2423.jsonl",
+            "size": "108.6KB",
+            "mtime": "2026-05-22T11:22:30.040318",
+            "age_hours": 0.1,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"afbaa0ea-6349-4c40-842d-0bc86aee2423\",\"timestamp\":\"2026-05-08T10:41:31.418Z\",\"cwd\":\"/root\"}"
+          },
+          {
+            "file": "635cb24e-7db4-4eda-9ab3-a3dcbf54462e.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:14:30.299309",
+            "age_hours": 0.2,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"635cb24e-7db4-4eda-9ab3-a3dcbf54462e\",\"timestamp\":\"2026-05-22T03:14:22.692Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.checkpoint.65cf0fad-592f-47fc-8477-72d11924b03a.jsonl",
+            "size": "2.2MB",
+            "mtime": "2026-05-22T11:12:03.638007",
+            "age_hours": 0.2,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"69dae650-bd3c-469c-86fb-0061fb897bfe\",\"timestamp\":\"2026-05-21T14:02:38.741Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "27d24ded-71e0-406f-8bc0-f07aef6b59fb.jsonl",
+            "size": "11.9KB",
+            "mtime": "2026-05-22T11:04:36.763088",
+            "age_hours": 0.3,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"27d24ded-71e0-406f-8bc0-f07aef6b59fb\",\"timestamp\":\"2026-05-22T03:04:22.555Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "7a76c6e2-d67f-48a7-b114-a69c1813535e.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T10:54:34.400848",
+            "age_hours": 0.5,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"7a76c6e2-d67f-48a7-b114-a69c1813535e\",\"timestamp\":\"2026-05-22T02:54:22.567Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "882f9cd7-8660-44e6-a1e8-7fcb269a6759.jsonl",
+            "size": "12.0KB",
+            "mtime": "2026-05-22T10:44:40.872406",
+            "age_hours": 0.7,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"882f9cd7-8660-44e6-a1e8-7fcb269a6759\",\"timestamp\":\"2026-05-22T02:44:22.640Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          },
+          {
+            "file": "cc0e59f6-e71f-4bf5-8aae-9c3911f6cdc3.jsonl",
+            "size": "11.8KB",
+            "mtime": "2026-05-22T10:34:29.943082",
+            "age_hours": 0.9,
+            "first_line": "{\"type\":\"session\",\"version\":3,\"id\":\"cc0e59f6-e71f-4bf5-8aae-9c3911f6cdc3\",\"timestamp\":\"2026-05-22T02:34:22.610Z\",\"cwd\":\"/root/.openclaw/workspace\"}"
+          }
+        ]
+      },
+      "checks_passed": 2,
+      "checks_total": 2
+    },
     "environment": {
       "module": "environment",
       "data": {
-        "timestamp": "2026-05-22T09:59:52.254405",
+        "timestamp": "2026-05-22T11:25:32.137053",
         "hostname": "VM-13-249-ubuntu",
-        "uptime": "09:59:52 up 14 days, 17:00,  0 user,  load average: 0.15, 0.29, 0.25",
+        "uptime": "11:25:32 up 14 days, 18:26,  0 user,  load average: 0.31, 0.23, 0.18",
         "disk": {
-          "usage_percent": 83,
-          "available": "6.5G",
-          "raw": "/dev/vda2        40G   32G  6.5G  83% /",
+          "usage_percent": 88,
+          "available": "4.7G",
+          "raw": "/dev/vda2        40G   33G  4.7G  88% /",
           "ok": true
         },
         "memory": {
-          "raw": "Mem:           7.5Gi       2.8Gi       889Mi       6.1Mi       4.2Gi       4.7Gi",
+          "raw": "Mem:           7.5Gi       2.7Gi       783Mi       5.7Mi       4.3Gi       4.8Gi",
           "ok": true
         },
         "git": {
           "branch": "main",
           "uncommitted_changes": [
-            "M ../../../data.jsonl",
+            "D ../../../_posts/2026-05-12-enough-not-compromise.md",
+            " M ../../../data.jsonl",
             " M ../../../reports/p1-0/latest.json",
+            " M ../baseline-check-v2.md",
             " M ../generate-report.py",
+            " D check-harness.py",
             " M check-projects.py",
             " M ../orchestrator.py",
             " M ../state.json",
@@ -2775,11 +4391,10 @@ const rawData = {
             "?? ../../../MEMORY.md",
             "?? ../../../MEMORY.md.backup-20260513",
             "?? ../../../P0_state.json",
-            "?? ../../../SOUL.md",
             "?? ../../../TOOLS.md",
-            "?? ../../../USER.md",
             "?? ../../../USER.md.backup-20260513",
             "?? ../../../__pycache__/",
+            "?? ../../../_posts/2026-05-12-good-enough.md",
             "?? ../../../ac_api.py",
             "?? ../../../backups/",
             "?? ../../../bounty/",
@@ -2792,7 +4407,6 @@ const rawData = {
             "?? ../../../dashboard/",
             "?? ../../../data.jsonl.bak",
             "?? ../../../data/",
-            "?? ../../../diary/",
             "?? ../../../downloads/",
             "?? ../../../index.html.bak",
             "?? ../../../mac-bridge-websocket-spec.md",
@@ -2843,6 +4457,8 @@ const rawData = {
             "?? ../../../references/self-evolution/tencentdb-agent-memory-reference.md",
             "?? ../../../references/self-evolution/unix-pipeline-skill-design.md",
             "?? ../../../references/three_way_comparison.png",
+            "?? ../../../reports/p1-0/history/20260522-0959.json",
+            "?? ../../../reports/p1-0/history/20260522-0959.md",
             "?? ../../../scripts/",
             "?? ../../../self-drive-mechanism.md",
             "?? ../../../self-evolution/",
@@ -2858,6 +4474,9 @@ const rawData = {
             "?? ../../github-assistant-skill/",
             "?? ../../github-ops-pro/",
             "?? ../../kimiim/",
+            "?? check-harness-old.py.bak",
+            "?? check-harness-v2.py",
+            "?? check-infrastructure.py",
             "?? ../self-acceptance-report-20260522.md",
             "?? ../test-result.md",
             "?? ../test-v2-result.md",
@@ -2877,9 +4496,9 @@ const rawData = {
             "?? ../../../whisper-models/"
           ],
           "has_uncommitted": true,
-          "last_commit_hash": "90e2f68e",
-          "last_commit_time": "2026-05-22 05:58:27 +0800",
-          "total_commits": 200,
+          "last_commit_hash": "78d9b393",
+          "last_commit_time": "2026-05-22 11:21:26 +0800",
+          "total_commits": 214,
           "ok": true
         },
         "versions": {
@@ -2903,7 +4522,7 @@ const rawData = {
         "mailgun_webhook": true,
         "raw": {
           "gh_auth": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
-          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1208,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+          "gh_api": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
           "tunnel_http_code": "000000",
           "mailgun": "inactive\ninactive"
         }
@@ -2925,45 +4544,465 @@ const rawData = {
             "exists": true,
             "size": 125,
             "mtime": 1778558073.0006151,
-            "mtime_age_hours": 238.1
+            "mtime_age_hours": 239.5
           }
         },
         "cron_jobs_count": 9,
         "cron_jobs": [
-          "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
-          "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1",
-          "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
-          "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
-          "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
-          "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
-          "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1",
-          "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
-          "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+          {
+            "schedule": "*/5 * * * *",
+            "command": "flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'",
+            "owner": "I0.1",
+            "owner_tier": "I0",
+            "description": "腾讯云监控",
+            "raw": "*/5 * * * * flock -xn /tmp/stargate.lock -c '/usr/local/qcloud/stargate/admin/start.sh > /dev/null 2>&1 &'"
+          },
+          {
+            "schedule": "47 8 * * 3",
+            "command": "cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_s",
+            "owner": "P3.2",
+            "owner_tier": "P3",
+            "description": "CFMS 数据备份",
+            "raw": "47 8 * * 3 cd /root/.openclaw/workspace && /usr/bin/python3 cfm_backup.py >> /var/log/cfm_backup.log 2>&1 && /usr/bin/python3 cfm_scraper.py >> /var/log/cfm_scraper.log 2>&1"
+          },
+          {
+            "schedule": "0 9 * * *",
+            "command": "/root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1",
+            "owner": "系统健康",
+            "owner_tier": "系统健康",
+            "description": "系统健康监控",
+            "raw": "0 9 * * * /root/.openclaw/workspace/daily_health.sh >> /var/log/daily_health.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1",
+            "owner": "I0.5",
+            "owner_tier": "I0",
+            "description": "微信通道健康检查",
+            "raw": "*/30 * * * * /root/.openclaw/workspace/weixin_health.sh >> /var/log/openclaw_weixin_health.log 2>&1"
+          },
+          {
+            "schedule": "0 4 * * 1",
+            "command": "bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1",
+            "owner": "P1.5",
+            "owner_tier": "P1",
+            "description": "Session 清理归档",
+            "raw": "0 4 * * 1 bash /root/.openclaw/workspace/scripts/session-cleanup.sh >> /var/log/session-cleanup.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1",
+            "owner": "P1.4",
+            "owner_tier": "P1",
+            "description": "心跳/内观机制",
+            "raw": "*/30 * * * * /root/.openclaw/scripts/momentum-trigger.sh >> /var/log/momentum-trigger.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource",
+            "owner": "P1.3",
+            "owner_tier": "P1",
+            "description": "资源感知舱数据采集",
+            "raw": "*/30 * * * * cd /root/.openclaw/workspace && /usr/bin/python3 /root/.openclaw/scripts/resource-tracker.py --scan >> /var/log/resource-tracker.log 2>&1"
+          },
+          {
+            "schedule": "0 * * * *",
+            "command": "/usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1",
+            "owner": "P1.3",
+            "owner_tier": "P1",
+            "description": "资源感知舱健康检查",
+            "raw": "0 * * * * /usr/bin/python3 /root/.openclaw/scripts/tracker-health-check.py >> /var/log/tracker-health.log 2>&1"
+          },
+          {
+            "schedule": "*/30 * * * *",
+            "command": "/root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1",
+            "owner": "P1.6",
+            "owner_tier": "P1",
+            "description": "网站数据同步",
+            "raw": "*/30 * * * * /root/.openclaw/scripts/sync-dashboard-data.sh >> /var/log/dashboard-sync.log 2>&1"
+          }
         ],
         "gateway_status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
         "gateway_ok": true,
         "systemd_services": "openclaw-bridge.service     loaded active running openclaw-bridge.service",
         "systemd_ok": true,
         "sessions": {
-          "count": 242,
-          "total_size": "141.0MB",
-          "total_size_bytes": 147823846
+          "count": 244,
+          "total_size": "144.6MB",
+          "total_size_bytes": 151580466
+        },
+        "linux_resources": {
+          "cpu_load": {
+            "1min": 0.31,
+            "5min": 0.23,
+            "15min": 0.18,
+            "raw": "0.31 0.23 0.18 1/296 1525232"
+          },
+          "memory": {
+            "total_mb": 7685,
+            "used_mb": 2902,
+            "free_mb": 652,
+            "shared_mb": 5,
+            "buffers_mb": 4450,
+            "cache_mb": 4782,
+            "available_mb": 4782,
+            "swap_total_mb": 4095,
+            "swap_used_mb": 269
+          },
+          "memory_raw": "total        used        free      shared  buff/cache   available\nMem:            7685        2902         652           5        4450        4782\nSwap:           4095         269        3826",
+          "disk_partitions": [
+            {
+              "filesystem": "tmpfs",
+              "size": "769M",
+              "used": "1.1M",
+              "available": "768M",
+              "usage_percent": 1,
+              "mount": "/run"
+            },
+            {
+              "filesystem": "/dev/vda2",
+              "size": "40G",
+              "used": "33G",
+              "available": "4.7G",
+              "usage_percent": 88,
+              "mount": "/"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "3.8G",
+              "used": "1.1M",
+              "available": "3.8G",
+              "usage_percent": 1,
+              "mount": "/dev/shm"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "5.0M",
+              "used": "0",
+              "available": "5.0M",
+              "usage_percent": 0,
+              "mount": "/run/lock"
+            },
+            {
+              "filesystem": "tmpfs",
+              "size": "769M",
+              "used": "20K",
+              "available": "769M",
+              "usage_percent": 1,
+              "mount": "/run/user/0"
+            }
+          ],
+          "processes": {
+            "total": 156,
+            "zombie": 2
+          },
+          "uptime_pretty": "up 2 weeks, 18 hours, 26 minutes",
+          "cpu_cores": 4
+        },
+        "openclaw_architecture": {
+          "gateway": {
+            "status": "Service: systemd (enabled)\nFile logs: ~/.openclaw/logs/openclaw.log\nCommand: /usr/bin/node /usr/lib/node_modules/openclaw/dist/index.js gateway --port 18789\nService file: ~/.config/systemd/user/openclaw-gateway.service\nService env: OPENCLAW_GATEWAY_PORT=18789\n\nConfig (cli): ~/.openclaw/openclaw.json\nConfig (service): ~/.openclaw/openclaw.json\n\nGateway: bind=loopback (127.0.0.1), port=18789 (service args)\nProbe target: ws://127.0.0.1:18789\nDashboard: http://127.0.0.1:18789/\nProbe note: Loopback-only gateway; only local clients can connect.\n\nRuntime: running (pid 1433805, state active, sub running, last exit 0, reason 0)\nRPC probe: ok\n\nListening: 127.0.0.1:18789\nTroubles: run openclaw status\nTroubleshooting: https://docs.openclaw.ai/troubleshooting",
+            "ok": true,
+            "port": "?",
+            "bind": "?",
+            "version": "?",
+            "last_log_age_min": null
+          },
+          "channels": {
+            "weixin": {
+              "configured": false,
+              "process_running": true,
+              "pid": "1525304"
+            },
+            "feishu": {
+              "configured": false,
+              "token_present": false
+            },
+            "web": {
+              "configured": true
+            },
+            "mail": {
+              "systemd_active": true,
+              "systemd_status": "inactive\ninactive"
+            }
+          },
+          "sessions": {
+            "total_count": 244,
+            "total_size": "144.6MB",
+            "total_size_bytes": 151580466,
+            "active_recent_1h": 10,
+            "active_sessions": [
+              {
+                "file": "635cb24e-7db4-4eda-9ab3-a3dcbf54462e.jsonl",
+                "size": "11.9KB",
+                "age_hours": 0.19
+              },
+              {
+                "file": "bc70d911-2d50-4098-a09d-a2d66d2e703b.jsonl",
+                "size": "11.9KB",
+                "age_hours": 0.02
+              },
+              {
+                "file": "69dae650-bd3c-469c-86fb-0061fb897bfe.jsonl",
+                "size": "2.2MB",
+                "age_hours": 0.05
+              },
+              {
+                "file": "7a76c6e2-d67f-48a7-b114-a69c1813535e.jsonl",
+                "size": "11.8KB",
+                "age_hours": 0.52
+              },
+              {
+                "file": "2719d886-45a2-4822-a234-c179744aeb61.jsonl",
+                "size": "694.3KB",
+                "age_hours": 0.0
+              }
+            ]
+          },
+          "context_pressure": {
+            "level": "high",
+            "total_sessions_size_mb": 144.56
+          },
+          "tools": {
+            "official": [],
+            "custom": [
+              {
+                "id": "cloudflared_tunnel",
+                "path": "/usr/bin/cloudflared",
+                "description": "Cloudflare Tunnel",
+                "available": true
+              },
+              {
+                "id": "ssh_dreamhost",
+                "path": "/root/.ssh/id_rsa",
+                "description": "SSH Dreamhost",
+                "available": false
+              },
+              {
+                "id": "email_webhook",
+                "path": "/root/.openclaw/scripts/email-webhook-server.js",
+                "description": "邮件 Webhook",
+                "available": true
+              },
+              {
+                "id": "resource_tracker",
+                "path": "/root/.openclaw/scripts/resource-tracker.py",
+                "description": "资源感知舱",
+                "available": true
+              },
+              {
+                "id": "momentum_trigger",
+                "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+                "description": "动量触发器",
+                "available": true
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "name": "memory_consolidation",
+              "path": "/root/.openclaw/plugins/memory_consolidation"
+            },
+            {
+              "name": "kimi-claw",
+              "path": "/root/.openclaw/plugins/kimi-claw"
+            }
+          ]
         }
       },
-      "checks_passed": 5,
-      "checks_total": 5
+      "checks_passed": 6,
+      "checks_total": 6
+    },
+    "infrastructure": {
+      "module": "infrastructure",
+      "data": {
+        "groups": [
+          {
+            "id": "I0.1",
+            "name": "Cloudflare Tunnel",
+            "status": "✅",
+            "details": {
+              "process": "323606 /usr/bin/cloudflared --no-autoupdate tunnel run --token eyJhIjoiMzNjMzVlMmFiYmM1YTA5NTNjODQzMDg5M2IwMDI4NzEiLCJ0IjoiNzljZTk4OTktN2UzNC00MjQ0LTliMjQtOWU2MjYxZGNiOWFhIiwicyI6Ik5XUTVNVEV5WWprdE5XUTNZaTAwTVdVMExUZ3hPVGN0Wm1aaE0yWTBPR00wWW1GaSJ9",
+              "running": true,
+              "port_20241": true,
+              "domain_reachable": true,
+              "domain_http_code": "200",
+              "tunnel_list": ""
+            }
+          },
+          {
+            "id": "I0.2",
+            "name": "邮件系统 (xiaok-mailbox-webhook)",
+            "status": "✅",
+            "details": {
+              "systemd_active": true,
+              "systemd_status": "inactive\ninactive",
+              "process_running": true,
+              "latest_delivery": null
+            }
+          },
+          {
+            "id": "I0.3",
+            "name": "GitHub 身份 (LittleK-513)",
+            "status": "✅",
+            "details": {
+              "cli_logged_in": true,
+              "auth_status_raw": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+              "api_ok": true,
+              "api_raw": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+              "git_user": "LittleK",
+              "git_email": "xiaok@trust4.net"
+            }
+          },
+          {
+            "id": "I0.4",
+            "name": "飞书连接",
+            "status": "❌",
+            "details": {
+              "token_present": false,
+              "channel_configured": false
+            }
+          },
+          {
+            "id": "I0.5",
+            "name": "微信通道",
+            "status": "❌",
+            "details": {
+              "channel_configured": false,
+              "process_running": true,
+              "health_log_age_hours": 0.4
+            }
+          },
+          {
+            "id": "I0.6",
+            "name": "Dreamhost SSH",
+            "status": "❌",
+            "details": {
+              "ssh_key_present": false,
+              "ssh_config_present": false,
+              "ssh_test_ok": false,
+              "ssh_test_raw": "failed"
+            }
+          }
+        ],
+        "infra": {
+          "cloudflare_tunnel": {
+            "process": "323606 /usr/bin/cloudflared --no-autoupdate tunnel run --token eyJhIjoiMzNjMzVlMmFiYmM1YTA5NTNjODQzMDg5M2IwMDI4NzEiLCJ0IjoiNzljZTk4OTktN2UzNC00MjQ0LTliMjQtOWU2MjYxZGNiOWFhIiwicyI6Ik5XUTVNVEV5WWprdE5XUTNZaTAwTVdVMExUZ3hPVGN0Wm1aaE0yWTBPR00wWW1GaSJ9",
+            "running": true,
+            "port_20241": true,
+            "domain_reachable": true,
+            "domain_http_code": "200",
+            "tunnel_list": ""
+          },
+          "mail_system": {
+            "systemd_active": true,
+            "systemd_status": "inactive\ninactive",
+            "process_running": true,
+            "latest_delivery": null
+          },
+          "github_identity": {
+            "cli_logged_in": true,
+            "auth_status_raw": "github.com\n  ✓ Logged in to github.com account LittleK-513 (/root/.config/gh/hosts.yml)\n  - Active account: true\n  - Git operations protocol: https\n  - Token: ghp_************************************",
+            "api_ok": true,
+            "api_raw": "{\"login\":\"LittleK-513\",\"id\":284190671,\"node_id\":\"U_kgDOEPBnzw\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/284190671?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/LittleK-513\",\"html_url\":\"https://github.com/LittleK-513\",\"followers_url\":\"https://api.github.com/users/LittleK-513/followers\",\"following_url\":\"https://api.github.com/users/LittleK-513/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/LittleK-513/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/LittleK-513/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/LittleK-513/subscriptions\",\"organizations_url\":\"https://api.github.com/users/LittleK-513/orgs\",\"repos_url\":\"https://api.github.com/users/LittleK-513/repos\",\"events_url\":\"https://api.github.com/users/LittleK-513/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/LittleK-513/received_events\",\"type\":\"User\",\"user_view_type\":\"private\",\"site_admin\":false,\"name\":\"Little K\",\"company\":null,\"blog\":\"\",\"location\":null,\"email\":\"littleK@trust4.net\",\"hireable\":null,\"bio\":\"David‘s Little K (浩然的小K)\",\"twitter_username\":null,\"notification_email\":\"littleK@trust4.net\",\"public_repos\":11,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2026-05-13T03:41:56Z\",\"updated_at\":\"2026-05-13T03:46:40Z\",\"private_gists\":0,\"total_private_repos\":0,\"owned_private_repos\":0,\"disk_usage\":1273,\"collaborators\":0,\"two_factor_authentication\":false,\"plan\":{\"name\":\"free\",\"space\":976562499,\"collaborators\":0,\"private_repos\":10000}}",
+            "git_user": "LittleK",
+            "git_email": "xiaok@trust4.net"
+          },
+          "feishu_connection": {
+            "token_present": false,
+            "channel_configured": false
+          },
+          "weixin_channel": {
+            "channel_configured": false,
+            "process_running": true,
+            "health_log_age_hours": 0.4
+          },
+          "dreamhost_ssh": {
+            "ssh_key_present": false,
+            "ssh_config_present": false,
+            "ssh_test_ok": false,
+            "ssh_test_raw": "failed"
+          }
+        }
+      },
+      "checks_passed": 3,
+      "checks_total": 6
     }
   },
   "ai_analysis": {
-    "summary": "本周期扫描到 6 个项目分布在 3 个项目群中。系统健康评分 6.2/10，未发现显著异常，系统运行平稳。项目群状况: P0 群全面停滞；P1 群部分停滞（1/2）；P2 群部分停滞（1/2）。",
+    "summary": "本周期扫描到 17 个项目分布在 4 个项目群中，另有 11 个特殊产出物。系统健康评分 6.6/10，发现 4 个严重异常需立即处理。项目群状况: P0 群全面停滞；P1 群部分停滞（2/8）（+6个产出物）；P2 群部分停滞（1/2）；P3 群部分停滞（2/5）（+5个产出物）。基础设施 3/6 项健康。",
     "tier_insights": {},
-    "anomalies": [],
+    "anomalies": [
+      {
+        "severity": "high",
+        "category": "environment",
+        "finding": "磁盘使用率 88% 超过 85% 阈值",
+        "detail": "可能引发日志写入失败或 session 无法保存"
+      },
+      {
+        "severity": "medium",
+        "category": "system_resources",
+        "finding": "交换分区使用 269MB",
+        "detail": "内存压力较大，swap 活跃"
+      },
+      {
+        "severity": "medium",
+        "category": "openclaw_architecture",
+        "finding": "微信通道未配置",
+        "detail": "微信消息收发可能中断"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.4 飞书连接 不可用",
+        "detail": "检查 飞书连接 配置和进程状态"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.5 微信通道 不可用",
+        "detail": "检查 微信通道 配置和进程状态"
+      },
+      {
+        "severity": "high",
+        "category": "infrastructure",
+        "finding": "基础设施 I0.6 Dreamhost SSH 不可用",
+        "detail": "检查 Dreamhost SSH 配置和进程状态"
+      }
+    ],
     "trends": [
-      "➡️ 系统健康度持平（6.2 分）",
-      "⚠️ 活跃项目仅占 33%，多数项目停滞",
-      "🟡 磁盘使用率偏高，建议纳入下周清理计划"
+      "📈 系统健康度提升 0.8 分（5.8 → 6.6）",
+      "✅ 活跃项目占比 59%，整体可控",
+      "🟡 磁盘使用率偏高，建议纳入下周清理计划",
+      "✅ OpenClaw Gateway 运行正常",
+      "📡 通道状态 3/4 活跃"
     ],
     "recommendations": [
+      {
+        "priority": "immediate",
+        "target": "environment",
+        "action": "处理 磁盘使用率 88% 超过 85% 阈值 — 可能引发日志写入失败或 session 无法保存"
+      },
+      {
+        "priority": "immediate",
+        "target": "infrastructure",
+        "action": "处理 基础设施 I0.4 飞书连接 不可用 — 检查 飞书连接 配置和进程状态"
+      },
+      {
+        "priority": "immediate",
+        "target": "infrastructure",
+        "action": "处理 基础设施 I0.5 微信通道 不可用 — 检查 微信通道 配置和进程状态"
+      },
+      {
+        "priority": "this_cycle",
+        "target": "system_resources",
+        "action": "跟进 交换分区使用 269MB — 内存压力较大，swap 活跃"
+      },
+      {
+        "priority": "this_cycle",
+        "target": "openclaw_architecture",
+        "action": "跟进 微信通道未配置 — 微信消息收发可能中断"
+      },
       {
         "priority": "this_cycle",
         "target": "projects",
@@ -2976,15 +5015,15 @@ const rawData = {
         "status": "stale",
         "notes": [
           "⚠️ P0 有 2/2 个项目停滞",
-          "   最老停滞: bounty (62h)"
+          "   最老停滞: bounty (64h)"
         ]
       },
       "P1": {
-        "score": 3.5,
+        "score": 6.8,
         "status": "mixed",
         "notes": [
-          "⚠️ P1 有 1/2 个项目停滞",
-          "   最老停滞: p1-self-evolution (13h)"
+          "⚠️ P1 有 2/8 个项目停滞",
+          "   最老停滞: p1-self-evolution (15h)"
         ]
       },
       "P2": {
@@ -2992,7 +5031,14 @@ const rawData = {
         "status": "mixed",
         "notes": [
           "⚠️ P2 有 1/2 个项目停滞",
-          "   最老停滞: p2-agent-social (12h)"
+          "   最老停滞: p2-agent-social (14h)"
+        ]
+      },
+      "P3": {
+        "score": 4.8,
+        "status": "mixed",
+        "notes": [
+          "⚠️ P3 有 2/5 个项目停滞"
         ]
       }
     }
@@ -3011,9 +5057,9 @@ const rawData = {
       "tier": "P1",
       "tier_name": "P1: 自进化任务",
       "expected": "当前阶段: report | 最近动作: P1.0 Skills 固化推进：baseline-check-v2.md + report-v1.md + plan-",
-      "reality": "1/2 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
+      "reality": "6/8 活跃 | 停滞: p1-self-evolution | 活跃: hermes-lite",
       "gap": "🟡 偏差",
-      "gap_reason": "1/2 项目停滞",
+      "gap_reason": "2/8 项目停滞",
       "suggestion": "推进 next action，激活停滞项目"
     },
     {
@@ -3029,10 +5075,10 @@ const rawData = {
       "tier": "P3",
       "tier_name": "P3: 用户安排的其它任务",
       "expected": "未记录期望",
-      "reality": "无项目",
-      "gap": "⚪ 未启动",
-      "gap_reason": "项目群为空",
-      "suggestion": "启动 用户指派任务"
+      "reality": "3/5 活跃",
+      "gap": "🟡 偏差",
+      "gap_reason": "2/5 项目停滞",
+      "suggestion": "推进 next action，激活停滞项目"
     }
   ],
   "alerts": [
@@ -3041,6 +5087,30 @@ const rawData = {
       "category": "project_group",
       "item": "P0: GitHub 赚钱任务 全面停滞 (2/2 项目 stale)",
       "suggestion": "检查 P0 项目群的 blocker，优先激活"
+    },
+    {
+      "level": "critical",
+      "category": "environment",
+      "item": "磁盘使用率 88%",
+      "suggestion": "清理日志和旧 session 文件"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.4 飞书连接 不可用",
+      "suggestion": "检查 飞书连接 配置和进程"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.5 微信通道 不可用",
+      "suggestion": "检查 微信通道 配置和进程"
+    },
+    {
+      "level": "critical",
+      "category": "infrastructure",
+      "item": "I0.6 Dreamhost SSH 不可用",
+      "suggestion": "检查 Dreamhost SSH 配置和进程"
     },
     {
       "level": "warning",
@@ -3053,11 +5123,17 @@ const rawData = {
       "category": "project_group",
       "item": "P2: 社交网络探索 部分停滞: p2-agent-social",
       "suggestion": "推进 P2 停滞项目的 next action"
+    },
+    {
+      "level": "warning",
+      "category": "project_group",
+      "item": "P3: 用户安排的其它任务 部分停滞: ",
+      "suggestion": "推进 P3 停滞项目的 next action"
     }
   ],
   "alert_count": {
-    "critical": 1,
-    "warning": 2,
+    "critical": 5,
+    "warning": 3,
     "info": 0
   }
 };

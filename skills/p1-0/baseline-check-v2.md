@@ -1,8 +1,8 @@
-# baseline-check v3 — P1.0 全面状态检查 Skill（AI 分析 + 差距矩阵 + 四层结构）
+# baseline-check v4 — P1.0 全面状态检查 Skill（AI 分析 + 差距矩阵 + 五层结构 + 基础设施）
 
 > **Purpose**: 全面扫描系统状态，AI 分析洞察，期望 vs 现实对比，生成 JSON + Markdown + HTML 仪表板
 > **Invocation**: 每次 P1.0 周期启动时、heartbeat 触发时、用户询问状态时
-> **Architecture**: 文档(this file) + 7个检查模块 + 编排器(AI+Gap) + 报告生成器
+> **Architecture**: 文档(this file) + 9个检查模块 + 编排器(AI+Gap+Infra) + 报告生成器
 
 ---
 
@@ -11,9 +11,9 @@
 | 组件 | 文件 | 作用 |
 |------|------|------|
 | **Skill 文档** | `skills/p1-0/baseline-check-v2.md` | 本文档 — 定义检查逻辑、输出格式、调用方式 |
-| **模块层** | `skills/p1-0/modules/check-*.py` | 7个独立检查模块，各输出标准 JSON |
+| **模块层** | `skills/p1-0/modules/check-*.py` | 9个独立检查模块，各输出标准 JSON |
 | **编排器** | `skills/p1-0/orchestrator.py` | 并行运行模块 → AI 分析 → 差距矩阵 → 评分 → 告警 |
-| **报告生成器** | `skills/p1-0/generate-report.py` | 从统一 JSON 生成 Markdown + HTML（四层树+AI+Gap） |
+| **报告生成器** | `skills/p1-0/generate-report.py` | 从统一 JSON 生成 Markdown + HTML（五层树+AI+Gap+Infra） |
 | **Skill 状态** | `skills/p1-0/state.json` | 记录上次检查结果和历史 |
 | **输出目录** | `reports/p1-0/` | 每次运行生成 JSON + Markdown + HTML |
 | **部署位置** | `p1-dashboard.html` | 主页仪表板，自动覆盖更新 |
@@ -24,13 +24,14 @@
 
 ```
 skills/p1-0/modules/
-├── check-model.py         → 模型与运行时信息
-├── check-harness.py       → Harness 机制（Gateway、cron、systemd、sessions）
-├── check-memory.py        → 记忆系统（关键文件、日记活跃度）
-├── check-projects.py      → 项目审计（四层结构：P0/P1/P2/P3）
-├── check-environment.py   → 运行环境（磁盘、内存、负载、Git）
-├── check-capabilities.py  → 能力验证（GitHub、飞书、Tunnel、邮件）
-└── check-sessions.py      → 会话历史（最近 session 文件）
+├── check-model.py            → 模型与运行时信息
+├── check-harness-v2.py       → Harness 机制 v2（Gateway、cron归属、systemd、sessions、Linux资源、OpenClaw架构）
+├── check-infrastructure.py   → 基础设施检查（Tunnel、邮件、SSH、GitHub身份、飞书/微信通道）
+├── check-memory.py           → 记忆系统（关键文件、日记活跃度）
+├── check-projects.py         → 项目审计（五层结构：P0/P1/P2/P3 + I0基础设施）
+├── check-environment.py      → 运行环境（磁盘、内存、负载、Git）
+├── check-capabilities.py     → 能力验证（GitHub、飞书、Tunnel、邮件）
+└── check-sessions.py         → 会话历史（最近 session 文件）
 ```
 
 **每个模块接口标准**:
@@ -41,7 +42,7 @@ skills/p1-0/modules/
 
 ---
 
-## 四层项目群结构
+## 五层项目群结构
 
 ```
 P0: GitHub 赚钱任务
@@ -49,16 +50,37 @@ P0: GitHub 赚钱任务
   └── p0-github-money  (projects/ 下的新项目)
 
 P1: 自进化任务
-  └── p1-self-evolution
-  └── hermes-lite      (P1 工具/能力)
+  └── p1-self-evolution          (projects/ 目录项目)
+  └── hermes-lite               (P1 工具/能力)
+  └── P1.1 日记系统             (diary/ — 每日内观与觉察记录)
+  └── P1.2 学习积累             (diary/LEARNINGS.md — 经验沉淀)
+  └── P1.3 资源感知舱          (scripts/resource-tracker.py)
+  └── P1.4 心跳/内观机制       (scripts/momentum-trigger.sh)
+  └── P1.5 Session 管理        (scripts/session-cleanup.sh)
+  └── P1.6 网站                (index.html + _layouts + _posts)
 
 P2: 社交网络探索
   └── p2-agent-social
   └── p2-moltbook
 
 P3: 用户安排的其它任务
-  └── （预留，目前无项目）
+  └── P3.1 SpaceX S-1 分析     (spacex-s1/)
+  └── P3.2 CFMS 数据抓取       (data.jsonl + cfm_*.py)
+  └── P3.3 创始人手册翻译      (founders-handbook.md)
+  └── P3.4 Claude 桥接         (claude-openclaw-bridge.md)
+  └── P3.5 Mac 连接通道        (mac-bridge-websocket-spec.md)
+
+I0: 基础设施/工具
+  └── I0.1 Cloudflare Tunnel   (端口 20241)
+  └── I0.2 邮件系统            (xiaok-mailbox-webhook systemd)
+  └── I0.3 GitHub 身份         (gh CLI, LittleK-513)
+  └── I0.4 飞书连接            (feishu token)
+  └── I0.5 微信通道            (weixin channel)
+  └── I0.6 Dreamhost SSH       (美国主机出口)
 ```
+
+**特殊产出物识别**: `check-projects.py::discover_special_artifacts()` 扫描 workspace 根目录特定文件/目录，
+根据路径/文件名映射到对应项目群，输出统一项目结构（name, tier, group, status, last_modified, details）。
 
 **check-projects.py 输出结构**:
 ```json
@@ -88,19 +110,23 @@ P3: 用户安排的其它任务
 **位置**: `orchestrator.py` 内嵌 `perform_ai_analysis()`
 
 **分析维度**:
-1. **健康度评估**: 每个项目群评分 (0-10) + 状态标签
-2. **异常识别**: 磁盘 >85%、项目停滞 >72h、关键文件缺失、日记断更、API 失效
-3. **趋势判断**: 与上次 baseline 对比评分变化、活跃项目占比、磁盘趋势
+1. **健康度评估**: 每个项目群评分 (0-10) + 状态标签（含特殊产出物）
+2. **异常识别**: 
+   - 磁盘 >85%、项目停滞 >72h、关键文件缺失、日记断更、API 失效
+   - **系统资源**: CPU 负载 >2x核心数、内存 >90%、swap >100MB、僵尸进程 >5
+   - **OpenClaw 架构**: Gateway 未运行、通道未配置
+   - **基础设施**: Tunnel 断开、邮件 systemd 停止、身份失效
+3. **趋势判断**: 与上次 baseline 对比评分变化、活跃项目占比、磁盘趋势、CPU/内存趋势、通道状态
 4. **改进建议**: 按优先级 (immediate/this_cycle) 排序的 action 列表
 
 **输出结构**:
 ```json
 {
   "ai_analysis": {
-    "summary": "本周期扫描到 6 个项目...",
+    "summary": "本周期扫描到 N 个项目 + M 个特殊产出物...",
     "health_assessment": {"P0": {"score": 0, "status": "stale", "notes": [...]}, ...},
     "anomalies": [{"severity": "high", "category": "...", "finding": "...", "detail": "..."}],
-    "trends": ["➡️ 系统健康度持平（6.2 分）", ...],
+    "trends": ["➡️ 系统健康度持平（6.2 分）", "📡 通道状态 3/4 活跃", ...],
     "recommendations": [{"priority": "immediate", "target": "projects", "action": "..."}]
   }
 }
@@ -176,16 +202,20 @@ P3: 用户安排的其它任务
 ## 输出格式
 
 ### 1. JSON 数据包 (`reports/p1-0/latest.json`)
-完整结构化数据，包含 meta / score / modules / **ai_analysis** / **gap_matrix** / alerts
+完整结构化数据，包含 meta / score / modules / **ai_analysis** / **gap_matrix** / alerts / infrastructure
 
 ### 2. Markdown 报告 (`reports/p1-0/latest.md`)
 人类可读摘要，包含：
 - 评分表格
 - **AI 分析摘要** + 健康度 + 趋势 + 建议
 - **期望 vs 现实差距矩阵**
-- 告警清单
-- 四层项目结构（按 P0/P1/P2/P3 分组）
-- 环境/Harness/记忆/能力
+- **告警清单**
+- **系统资源**（CPU 负载 · 内存 · Swap · 进程 · 磁盘分区）
+- **OpenClaw 架构**（Gateway · 通道 · Sessions · Tools · Plugins）
+- **Cron 归属**（计划 · 归属项目 · 描述 · 命令）
+- **基础设施面板**（I0.1-I0.6 健康状态）
+- **五层项目结构**（按 P0/P1/P2/P3 分组，含特殊产出物）
+- 环境 / Harness / 记忆 / 能力
 
 ### 3. HTML 仪表板 (`p1-dashboard.html`)
 暗色赛博朋克主题，包含：
@@ -193,8 +223,12 @@ P3: 用户安排的其它任务
 - 告警卡片
 - **🧠 AI 分析摘要**（健康度卡片网格 + 趋势 + 建议）
 - **📋 期望 vs 现实差距矩阵**（5 列表格）
-- **🏗️ 四层项目结构**（树形卡片：tier badge + 项目列表）
-- 环境/Harness/记忆/能力四宫格
+- **🖥️ 系统资源**（CPU 负载 · 内存 · 进程 · 磁盘分区表）
+- **⚙️ OpenClaw 架构**（Gateway · 通道 · Sessions · Tools · Plugins）
+- **⏰ Cron 归属**（计划 · 归属项目 · 描述）
+- **🔌 基础设施面板**（I0.1-I0.6）
+- **🏗️ 五层项目结构**（树形卡片：tier badge + 项目列表 + 特殊产出物）
+- 环境 / Harness / 记忆 / 能力四宫格
 - Skill 源码章节（可折叠）
 - 原始 JSON 数据（可折叠）
 
@@ -223,7 +257,7 @@ python3 /root/.openclaw/workspace/skills/p1-0/generate-report.py
 ## 与其他 Skill 的关系
 
 ```
-baseline-check-v3 ──→ 全面检查 + AI 分析 + 差距矩阵 + 可视化报告
+baseline-check-v4 ──→ 全面检查 + AI 分析 + 差距矩阵 + 基础设施 + 可视化报告
        ↓
   plan-v1 ──→ 生成可执行计划
        ↓
@@ -240,8 +274,9 @@ self-check-v1 ──→ 验证执行结果
 |------|------|------|
 | v1 | 2026-05-21 | 单体脚本 p1-baseline.py |
 | v2 | 2026-05-22 | 模块化：7 模块 + orchestrator + generate-report |
-| **v3** | **2026-05-22** | **+ AI 分析 + 期望 vs 现实差距矩阵 + 四层项目结构** |
+| v3 | 2026-05-22 | + AI 分析 + 期望 vs 现实差距矩阵 + 四层项目结构 |
+| **v4** | **2026-05-22** | **+ 五层项目结构（P1 内部子项目 + P3 散落产出物 + I0 基础设施）+ check-harness-v2（系统资源 + OpenClaw 架构 + Cron 归属）+ check-infrastructure（Tunnel/邮件/SSH/身份/通道）+ 报告新增系统资源图表/OpenClaw 架构/Cron 归属表/基础设施面板** |
 
 ---
 
-*Version: v3-ai-gap | Updated: 2026-05-22*
+*Version: v4-ai-gap-infra | Updated: 2026-05-22*

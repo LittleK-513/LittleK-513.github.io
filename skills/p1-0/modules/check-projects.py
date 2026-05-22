@@ -1,25 +1,23 @@
 #!/usr/bin/env python3
-"""check-projects.py — 项目审计模块（四层项目群结构）
+"""check-projects.py — 项目审计模块（五层项目群结构 + 特殊产出物识别）
 独立运行输出 JSON：python3 check-projects.py
 输出格式：{"module": "projects", "data": {"groups": [...]}, ...}
 """
 
-import os, json, time
+import os, json, time, glob
 from datetime import datetime
 
 WORKSPACE = "/root/.openclaw/workspace"
 
 EXCLUDE_DIRS = {
-    "node_modules", "tmp", ".local", "_layouts", "blog", "downloads", "__pycache__",
-    "_posts", "backups", "daily", "data", "diary", "memorized_diary", "memorized_media",
-    "memory", "references", "scripts", "skills", "todo", "weekly",
+    "node_modules", "tmp", ".local", "blog", "downloads", "__pycache__",
+    "backups", "daily", "data", "memorized_diary", "memorized_media",
+    "memory", "references", "skills", "todo", "weekly", ".openclaw",
+    "memory_consolidation", "orchestrator-runs", "self-evolution", "state",
+    "dashboard", "projects", "scripts",
 }
 
-EXCLUDE_FILES = {
-    ".git", ".github", ".openclaw", ".config", ".cache", ".npm", ".nvm",
-}
-
-# 四层项目群定义：name_pattern → tier
+# 五层项目群定义：name_pattern → tier
 TIER_MAP = {
     # P0: GitHub 赚钱任务
     "bounty": {"tier": "P0", "group_name": "P0: GitHub 赚钱任务", "group_goal": "通过 GitHub issue、bounty 平台获取收入"},
@@ -132,6 +130,185 @@ def scan_single_project(name, path):
     }
 
 
+def discover_special_artifacts():
+    """
+    扫描 workspace 根目录的特殊文件/目录，映射到项目群。
+    返回统一的项目结构列表（name, tier, group, status, last_modified, details）
+    """
+    artifacts = []
+    now = time.time()
+
+    # ── P1 自进化 内部子项目 ──
+    p1_artifacts = [
+        {
+            "name": "P1.1 日记系统",
+            "path": f"{WORKSPACE}/diary",
+            "check_path": f"{WORKSPACE}/diary",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "每日内观与觉察记录",
+        },
+        {
+            "name": "P1.2 学习积累",
+            "path": f"{WORKSPACE}/diary/LEARNINGS.md",
+            "check_path": f"{WORKSPACE}/diary/LEARNINGS.md",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "经验沉淀与教训记录",
+        },
+        {
+            "name": "P1.3 资源感知舱",
+            "path": "/root/.openclaw/scripts/resource-tracker.py",
+            "check_path": "/root/.openclaw/scripts/resource-tracker.py",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "系统资源采集与监控",
+        },
+        {
+            "name": "P1.4 心跳/内观机制",
+            "path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "check_path": "/root/.openclaw/scripts/momentum-trigger.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "长期任务 idle 检查与触发",
+        },
+        {
+            "name": "P1.5 Session 管理",
+            "path": f"{WORKSPACE}/scripts/session-cleanup.sh",
+            "check_path": f"{WORKSPACE}/scripts/session-cleanup.sh",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "Session 清理与归档",
+        },
+        {
+            "name": "P1.6 网站 (littlek-513.github.io)",
+            "path": f"{WORKSPACE}/index.html",
+            "check_path": f"{WORKSPACE}/index.html",
+            "tier": "P1",
+            "group": "P1 自进化内部",
+            "details": "Jekyll 静态站点 + Dashboard 主页",
+            "extra_paths": [f"{WORKSPACE}/_layouts", f"{WORKSPACE}/_posts"],
+        },
+    ]
+
+    # ── P3 用户安排的其它任务 ──
+    p3_artifacts = [
+        {
+            "name": "P3.1 SpaceX S-1 分析",
+            "path": f"{WORKSPACE}/spacex-s1",
+            "check_path": f"{WORKSPACE}/spacex-s1",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "SpaceX S-1 财务与运营分析",
+        },
+        {
+            "name": "P3.2 CFMS 数据抓取",
+            "path": f"{WORKSPACE}/data.jsonl",
+            "check_path": f"{WORKSPACE}/data.jsonl",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "CFM 发动机数据抓取与备份",
+            "extra_paths": [f"{WORKSPACE}/cfm_backup.py", f"{WORKSPACE}/cfm_scraper.py"],
+        },
+        {
+            "name": "P3.3 创始人手册翻译",
+            "path": f"{WORKSPACE}/founders-handbook.md",
+            "check_path": f"{WORKSPACE}/founders-handbook.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "YC 创始人手册中文翻译",
+        },
+        {
+            "name": "P3.4 Claude 桥接",
+            "path": f"{WORKSPACE}/claude-openclaw-bridge.md",
+            "check_path": f"{WORKSPACE}/claude-openclaw-bridge.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "Claude 与 OpenClaw 桥接方案",
+        },
+        {
+            "name": "P3.5 Mac 连接通道",
+            "path": f"{WORKSPACE}/mac-bridge-websocket-spec.md",
+            "check_path": f"{WORKSPACE}/mac-bridge-websocket-spec.md",
+            "tier": "P3",
+            "group": "P3 用户任务",
+            "details": "Mac 桥接 WebSocket 规格",
+        },
+    ]
+
+    all_specs = p1_artifacts + p3_artifacts
+
+    for spec in all_specs:
+        check_path = spec["check_path"]
+        exists = os.path.exists(check_path)
+
+        # 计算最后修改时间和文件数
+        latest_mtime = 0
+        file_count = 0
+        if exists:
+            if os.path.isfile(check_path):
+                latest_mtime = os.path.getmtime(check_path)
+                file_count = 1
+            elif os.path.isdir(check_path):
+                for root, dirs, files_inner in os.walk(check_path):
+                    dirs[:] = [d for d in dirs if not d.startswith(".")]
+                    file_count += len(files_inner)
+                    for f in files_inner:
+                        try:
+                            mtime = os.path.getmtime(os.path.join(root, f))
+                            if mtime > latest_mtime:
+                                latest_mtime = mtime
+                        except:
+                            pass
+
+            # 检查 extra_paths
+            for extra in spec.get("extra_paths", []):
+                if os.path.exists(extra):
+                    if os.path.isfile(extra):
+                        file_count += 1
+                        mtime = os.path.getmtime(extra)
+                        if mtime > latest_mtime:
+                            latest_mtime = mtime
+                    elif os.path.isdir(extra):
+                        for root, dirs, files_inner in os.walk(extra):
+                            dirs[:] = [d for d in dirs if not d.startswith(".")]
+                            file_count += len(files_inner)
+                            for f in files_inner:
+                                try:
+                                    mtime = os.path.getmtime(os.path.join(root, f))
+                                    if mtime > latest_mtime:
+                                        latest_mtime = mtime
+                                except:
+                                    pass
+
+        age_hours = (now - latest_mtime) / 3600 if latest_mtime else float("inf")
+
+        if not exists and not file_count:
+            status = "ghost"
+        elif age_hours < 168:
+            status = "active"
+        else:
+            status = "stale"
+
+        artifacts.append({
+            "name": spec["name"],
+            "path": spec["path"],
+            "tier": spec["tier"],
+            "group": spec["group"],
+            "status": status,
+            "exists": exists,
+            "file_count": file_count,
+            "last_modified": datetime.fromtimestamp(latest_mtime).isoformat() if latest_mtime else None,
+            "age_hours": round(age_hours, 1),
+            "details": spec["details"],
+            "blocker": None,
+            "last_action": None,
+            "is_special_artifact": True,
+        })
+
+    return artifacts
+
+
 def check():
     checks_passed = 0
     checks_total = 2
@@ -142,7 +319,7 @@ def check():
         item_path = os.path.join(WORKSPACE, item)
         if not os.path.isdir(item_path):
             continue
-        if item.startswith(".") or item in EXCLUDE_DIRS or item in EXCLUDE_FILES:
+        if item.startswith(".") or item in EXCLUDE_DIRS:
             continue
         candidates.append((item, item_path))
 
@@ -184,7 +361,10 @@ def check():
         proj = scan_single_project(name, path)
         all_projects.append(proj)
 
-    # 按 tier 分组
+    # 获取特殊产出物
+    special_artifacts = discover_special_artifacts()
+
+    # 按 tier 分组（目录项目 + 特殊产出物）
     groups = []
     tier_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
     tiers_found = set()
@@ -194,7 +374,7 @@ def check():
         proj["tier"] = tier_info["tier"] or proj.get("state_tier")
         tiers_found.add(proj["tier"])
 
-    # 按预设顺序创建组
+    # 按预设顺序创建组（包含特殊产出物）
     tier_defs = [
         {"tier": "P0", "name": "P0: GitHub 赚钱任务", "goal": "通过 GitHub issue、bounty 平台获取收入"},
         {"tier": "P1", "name": "P1: 自进化任务", "goal": "自学习、自改进、Skill 进化与系统能力增强"},
@@ -203,18 +383,24 @@ def check():
     ]
 
     for td in tier_defs:
+        # 目录项目
         tier_projects = [p for p in all_projects if p["tier"] == td["tier"]]
-        if not tier_projects:
+        # 特殊产出物
+        tier_artifacts = [a for a in special_artifacts if a["tier"] == td["tier"]]
+
+        if not tier_projects and not tier_artifacts:
             continue
 
         # 组内排序
         tier_projects.sort(key=lambda x: x["name"])
 
-        active_count = len([p for p in tier_projects if p["status"] == "active"])
-        stale_count = len([p for p in tier_projects if p["status"] == "stale"])
-        orphan_count = len([p for p in tier_projects if p["status"] == "orphan"])
-        ghost_count = len([p for p in tier_projects if p["status"] == "ghost"])
-        total = len(tier_projects)
+        # 合并统计
+        all_items = tier_projects + tier_artifacts
+        active_count = len([p for p in all_items if p["status"] == "active"])
+        stale_count = len([p for p in all_items if p["status"] == "stale"])
+        orphan_count = len([p for p in all_items if p["status"] == "orphan"])
+        ghost_count = len([p for p in all_items if p["status"] == "ghost"])
+        total = len(all_items)
 
         # 项目群健康度评分 (0-10)
         if total > 0:
@@ -244,6 +430,7 @@ def check():
             "name": td["name"],
             "goal": td["goal"],
             "projects": tier_projects,
+            "special_artifacts": tier_artifacts,
             "stats": {
                 "total": total,
                 "active": active_count,
@@ -271,7 +458,8 @@ def check():
 
     data = {
         "groups": groups,
-        "flat_projects": all_projects,  # 保留扁平列表供兼容
+        "flat_projects": all_projects,
+        "special_artifacts": special_artifacts,
         "active_count": all_active,
         "stale_count": all_stale,
         "orphan_count": all_orphan,

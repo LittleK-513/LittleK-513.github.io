@@ -97,6 +97,7 @@ def perform_ai_analysis(modules_data):
     projects_mod = modules_data.get("projects", {})
     groups = projects_mod.get("data", {}).get("groups", [])
     flat_projects = projects_mod.get("data", {}).get("flat_projects", [])
+    special_artifacts = projects_mod.get("data", {}).get("special_artifacts", [])
     env_mod = modules_data.get("environment", {})
     env_data = env_mod.get("data", {})
     mem_mod = modules_data.get("memory", {})
@@ -105,6 +106,9 @@ def perform_ai_analysis(modules_data):
     cap_data = cap_mod.get("data", {})
     harness_mod = modules_data.get("harness", {})
     harness_data = harness_mod.get("data", {})
+    infra_mod = modules_data.get("infrastructure", {})
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", []) if infra_data else []
 
     # ── 1. 项目群健康度评估 ──
     for g in groups:
@@ -181,6 +185,98 @@ def perform_ai_analysis(modules_data):
             "detail": "内观机制可能未正常运行",
         })
 
+    # 系统资源异常
+    linux_res = harness_data.get("linux_resources", {})
+    cpu_load = linux_res.get("cpu_load", {})
+    if cpu_load:
+        load_1min = cpu_load.get("1min", 0)
+        cpu_cores = linux_res.get("cpu_cores", 1)
+        if load_1min > cpu_cores * 2:
+            anomalies.append({
+                "severity": "high",
+                "category": "system_resources",
+                "finding": f"CPU 1分钟负载 {load_1min} 超过核心数 {cpu_cores} 的2倍",
+                "detail": "系统可能过载，影响响应时间",
+            })
+    
+    mem_info = linux_res.get("memory", {})
+    if mem_info:
+        total_mb = mem_info.get("total_mb", 1)
+        available_mb = mem_info.get("available_mb", total_mb)
+        used_pct = (total_mb - available_mb) / total_mb * 100 if total_mb > 0 else 0
+        if used_pct > 90:
+            anomalies.append({
+                "severity": "high",
+                "category": "system_resources",
+                "finding": f"内存使用率 {used_pct:.0f}% 超过 90%",
+                "detail": "可能触发 OOM，影响 session 和工具执行",
+            })
+        elif used_pct > 80:
+            anomalies.append({
+                "severity": "medium",
+                "category": "system_resources",
+                "finding": f"内存使用率 {used_pct:.0f}% 超过 80%",
+                "detail": "建议监控，考虑清理缓存或大 session 文件",
+            })
+    
+    swap_used = mem_info.get("swap_used_mb", 0)
+    if swap_used > 100:
+        anomalies.append({
+            "severity": "medium",
+            "category": "system_resources",
+            "finding": f"交换分区使用 {swap_used}MB",
+            "detail": "内存压力较大，swap 活跃",
+        })
+    
+    zombie = linux_res.get("processes", {}).get("zombie", 0)
+    if zombie > 5:
+        anomalies.append({
+            "severity": "medium",
+            "category": "system_resources",
+            "finding": f"僵尸进程 {zombie} 个",
+            "detail": "可能存在未正确回收的子进程",
+        })
+
+    # OpenClaw 架构异常
+    openclaw_arch = harness_data.get("openclaw_architecture", {})
+    gateway_arch = openclaw_arch.get("gateway", {})
+    if not gateway_arch.get("ok", True):
+        anomalies.append({
+            "severity": "high",
+            "category": "openclaw_architecture",
+            "finding": "OpenClaw Gateway 未运行",
+            "detail": "所有通道和 session 可能中断",
+        })
+    
+    channels = openclaw_arch.get("channels", {})
+    for ch_name, ch_status in channels.items():
+        if ch_name == "weixin" and not ch_status.get("configured", True):
+            anomalies.append({
+                "severity": "medium",
+                "category": "openclaw_architecture",
+                "finding": "微信通道未配置",
+                "detail": "微信消息收发可能中断",
+            })
+        if ch_name == "mail" and not ch_status.get("systemd_active", True):
+            anomalies.append({
+                "severity": "medium",
+                "category": "openclaw_architecture",
+                "finding": "邮件 Webhook systemd 未激活",
+                "detail": "邮件接收可能中断",
+            })
+
+    # 基础设施异常
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", []) if infra_data else []
+    for ig in infra_groups:
+        if ig.get("status") == "❌":
+            anomalies.append({
+                "severity": "high",
+                "category": "infrastructure",
+                "finding": f"基础设施 {ig['id']} {ig['name']} 不可用",
+                "detail": f"检查 {ig['name']} 配置和进程状态",
+            })
+
     # 能力缺失
     if not cap_data.get("github_api"):
         anomalies.append({
@@ -246,6 +342,36 @@ def perform_ai_analysis(modules_data):
     elif disk_pct > 80:
         trends.append("🟡 磁盘使用率偏高，建议纳入下周清理计划")
 
+    # 环境趋势 - 系统资源
+    cpu_load = harness_data.get("linux_resources", {}).get("cpu_load", {})
+    if cpu_load:
+        load_1min = cpu_load.get("1min", 0)
+        cpu_cores = harness_data.get("linux_resources", {}).get("cpu_cores", 1)
+        if load_1min > cpu_cores * 1.5:
+            trends.append(f"🟡 CPU 负载 {load_1min} 偏高（核心 {cpu_cores}），注意资源竞争")
+    
+    mem_info = harness_data.get("linux_resources", {}).get("memory", {})
+    if mem_info:
+        total_mb = mem_info.get("total_mb", 1)
+        available_mb = mem_info.get("available_mb", total_mb)
+        used_pct = (total_mb - available_mb) / total_mb * 100 if total_mb > 0 else 0
+        if used_pct > 85:
+            trends.append(f"🟡 内存使用 {used_pct:.0f}%，接近压力阈值")
+    
+    # OpenClaw 架构趋势
+    openclaw_arch = harness_data.get("openclaw_architecture", {})
+    gateway_arch = openclaw_arch.get("gateway", {})
+    if gateway_arch.get("ok"):
+        trends.append("✅ OpenClaw Gateway 运行正常")
+    else:
+        trends.append("🔴 OpenClaw Gateway 异常，需立即检查")
+    
+    channels = openclaw_arch.get("channels", {})
+    active_channels = sum(1 for ch in channels.values() if ch.get("configured") or ch.get("systemd_active") or ch.get("process_running"))
+    total_channels = len(channels)
+    if total_channels > 0:
+        trends.append(f"📡 通道状态 {active_channels}/{total_channels} 活跃")
+
     analysis["trends"] = trends
 
     # ── 4. 改进建议 ──
@@ -290,7 +416,9 @@ def perform_ai_analysis(modules_data):
 
     # ── 5. 生成 summary 段落 ──
     summary_parts = []
-    summary_parts.append(f"本周期扫描到 {total_projects} 个项目分布在 {len(groups)} 个项目群中。")
+    total_special = len(special_artifacts)
+    infra_count = len(infra_groups)
+    summary_parts.append(f"本周期扫描到 {total_projects} 个项目分布在 {len(groups)} 个项目群中，另有 {total_special} 个特殊产出物。")
     summary_parts.append(f"系统健康评分 {current_score}/10，")
 
     if high_anomalies:
@@ -304,16 +432,25 @@ def perform_ai_analysis(modules_data):
     group_summaries = []
     for g in groups:
         gs = g["group_status"]
+        # 特殊产出物统计
+        sp_artifacts = g.get("special_artifacts", [])
+        sp_count = len(sp_artifacts)
+        sp_active = len([a for a in sp_artifacts if a["status"] == "active"])
         if gs == "healthy":
-            group_summaries.append(f"{g['tier']} 群健康")
+            group_summaries.append(f"{g['tier']} 群健康{'（+' + str(sp_count) + '个产出物）' if sp_count else ''}")
         elif gs == "mixed":
-            group_summaries.append(f"{g['tier']} 群部分停滞（{g['stats']['stale']}/{g['stats']['total']}）")
+            group_summaries.append(f"{g['tier']} 群部分停滞（{g['stats']['stale']}/{g['stats']['total']}）{'（+' + str(sp_count) + '个产出物）' if sp_count else ''}")
         elif gs == "stale":
             group_summaries.append(f"{g['tier']} 群全面停滞")
         else:
             group_summaries.append(f"{g['tier']} 群有 orphan 项目")
     if group_summaries:
         summary_parts.append("项目群状况: " + "；".join(group_summaries) + "。")
+    
+    # 基础设施状况
+    if infra_count > 0:
+        infra_healthy = sum(1 for ig in infra_groups if ig.get("status") == "✅")
+        summary_parts.append(f"基础设施 {infra_healthy}/{infra_count} 项健康。")
 
     analysis["summary"] = "".join(summary_parts)
 
@@ -583,6 +720,19 @@ def generate_alerts(modules_data):
                 "suggestion": "检查模块脚本",
             })
 
+    # 基础设施告警
+    infra_mod = modules_data.get("infrastructure", {})
+    infra_data = infra_mod.get("data", {})
+    infra_groups = infra_data.get("groups", [])
+    for ig in infra_groups:
+        if ig.get("status") == "❌":
+            alerts.append({
+                "level": "critical",
+                "category": "infrastructure",
+                "item": f"{ig['id']} {ig['name']} 不可用",
+                "suggestion": f"检查 {ig['name']} 配置和进程",
+            })
+
     # 排序
     level_order = {"critical": 0, "warning": 1, "info": 2}
     alerts.sort(key=lambda x: level_order.get(x["level"], 99))
@@ -637,7 +787,7 @@ def main():
     # 组装统一报告
     report = {
         "meta": {
-            "version": "p1-baseline-v3-ai-gap",
+            "version": "p1-baseline-v4-ai-gap-infra",
             "generated_at": datetime.now().isoformat(),
             "workspace": WORKSPACE,
             "modules_run": len(module_scripts),
