@@ -1,238 +1,195 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MD Sync — Markdown 云端同步</title>
-<style>
-:root{--bg:#0a0a0f;--panel:#12121a;--border:#1a1a2e;--text:#e0e0e0;--dim:#666;--accent:#4a9eff;--good:#0f0;--bad:#f44;--font:system-ui,-apple-system,sans-serif}
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:var(--font);min-height:100vh;display:flex;flex-direction:column}
-header{padding:12px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
-header h1{font-size:1.1rem;font-weight:600}
-header h1 span{color:var(--accent)}
-.status{display:flex;align-items:center;gap:8px;font-size:0.85rem;color:var(--dim)}
-.status-dot{width:8px;height:8px;border-radius:50%;background:var(--dim)}
-.status-dot.online{background:var(--good);box-shadow:0 0 6px var(--good)}
-.status-dot.offline{background:var(--bad)}
-main{flex:1;display:flex;overflow:hidden}
-.sidebar{width:260px;border-right:1px solid var(--border);display:flex;flex-direction:column}
-.sidebar-header{padding:16px;border-bottom:1px solid var(--border)}
-.sidebar-header h2{font-size:0.9rem;font-weight:500;margin-bottom:8px}
-.user-info{font-size:0.8rem;color:var(--dim);word-break:break-all}
-.btn{width:100%;padding:10px 14px;border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:6px;cursor:pointer;font-size:0.85rem;transition:all .2s;margin-top:8px}
-.btn:hover{border-color:var(--accent);color:var(--accent)}
-.btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-.btn-primary:hover{opacity:.9}
-.doc-list{flex:1;overflow-y:auto;padding:8px}
-.doc-item{padding:10px 12px;border-radius:6px;cursor:pointer;font-size:0.85rem;margin-bottom:4px;transition:background .15s;display:flex;align-items:center;gap:8px}
-.doc-item:hover{background:rgba(255,255,255,.05)}
-.doc-item.active{background:rgba(74,158,255,.15);border-left:2px solid var(--accent)}
-.doc-item .title{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.doc-item .time{font-size:0.75rem;color:var(--dim)}
-.editor-area{flex:1;display:flex;flex-direction:column}
-.toolbar{padding:10px 16px;border-bottom:1px solid var(--border);display:flex;gap:8px;align-items:center}
-.toolbar input{flex:1;background:transparent;border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:6px;font-size:0.9rem;outline:none}
-.toolbar input:focus{border-color:var(--accent)}
-.toolbar .spacer{flex:1}
-.editor-wrap{flex:1;display:flex}
-.editor-wrap textarea{flex:1;background:transparent;border:none;color:var(--text);padding:16px;font-size:0.95rem;line-height:1.6;resize:none;outline:none;font-family:"SF Mono",monospace}
-.preview{flex:1;border-left:1px solid var(--border);padding:16px;overflow-y:auto;font-size:0.95rem;line-height:1.7}
-.preview h1,.preview h2,.preview h3{margin:1em 0 .5em;font-weight:600}
-.preview p{margin:.5em 0}
-.preview code{background:rgba(255,255,255,.08);padding:2px 6px;border-radius:4px;font-family:monospace;font-size:.9em}
-.preview pre{background:rgba(255,255,255,.05);padding:12px;border-radius:8px;overflow-x:auto}
-.preview pre code{background:none;padding:0}
-.preview blockquote{border-left:3px solid var(--accent);padding-left:12px;color:var(--dim);margin:.5em 0}
-.preview ul,.preview ol{margin:.5em 0;padding-left:24px}
-.toast{position:fixed;bottom:20px;right:20px;padding:12px 20px;border-radius:8px;background:var(--panel);border:1px solid var(--border);font-size:0.85rem;opacity:0;transform:translateY(10px);transition:all .3s;pointer-events:none;z-index:100}
-.toast.show{opacity:1;transform:translateY(0)}
-.toast.success{border-color:var(--good);color:var(--good)}
-.toast.error{border-color:var(--bad);color:var(--bad)}
-.empty-state{padding:40px 20px;text-align:center;color:var(--dim);font-size:0.9rem}
-</style>
-</head>
-<body>
-<header>
-<h1>MD <span>Sync</span></h1>
-<div class="status">
-<span class="status-dot" id="connDot"></span>
-<span id="connText">检测中...</span>
-</div>
-</header>
-<main>
-<div class="sidebar">
-<div class="sidebar-header">
-<h2>☁️ 云端同步</h2>
-<div class="user-info" id="userId">生成 ID 中...</div>
-<button class="btn btn-primary" id="btnSync">💾 保存到云端</button>
-<button class="btn" id="btnNew">➕ 新建文档</button>
-</div>
-<div class="doc-list" id="docList">
-<div class="empty-state">暂无云端文档</div>
-</div>
-</div>
-<div class="editor-area">
-<div class="toolbar">
-<input type="text" id="docTitle" placeholder="文档标题..." value="未命名">
-<div class="spacer"></div>
-<button class="btn" id="btnLoad">📂 从云端加载</button>
-</div>
-<div class="editor-wrap">
-<textarea id="editor" placeholder="# 开始写作...
-
-支持 Markdown 语法。
-
-点击 ☁️ 保存到云端，即可多端同步。"># Hello World
-
-欢迎使用 MD Sync。
-
-- 纯 Markdown 编辑器
-- 一键云端同步
-- 匿名 UUID，无需注册
-
-> "够用就好" — 专注写作，不复杂。</textarea>
-<div class="preview" id="preview"></div>
-</div>
-</div>
-</main>
-<div class="toast" id="toast"></div>
-
-<script>
-const API_BASE = "https://003T4LittleK.trust4.net/api/md";
-let userId = localStorage.getItem("md_sync_user_id");
-let currentDocId = null;
-
-function genId() {
-  return "uid-" + Math.random().toString(36).slice(2) + Date.now().toString(36);
-}
-
-if (!userId) {
-  userId = genId();
-  localStorage.setItem("md_sync_user_id", userId);
-}
-document.getElementById("userId").textContent = userId.slice(0, 16) + "...";
-
-function showToast(msg, ok) {
-  const t = document.getElementById("toast");
-  t.textContent = msg;
-  t.className = "toast " + (ok ? "success" : "error") + " show";
-  setTimeout(() => t.classList.remove("show"), 2500);
-}
-
-async function checkConn() {
-  const dot = document.getElementById("connDot");
-  const txt = document.getElementById("connText");
-  try {
-    const r = await fetch(API_BASE + "/health", {method:"GET", signal:AbortSignal.timeout(5000)});
-    if (r.ok) { dot.className = "status-dot online"; txt.textContent = "已连接"; }
-    else throw new Error();
-  } catch(e) {
-    dot.className = "status-dot offline"; txt.textContent = "离线";
-  }
-}
-
-checkConn();
-setInterval(checkConn, 30000);
-
-async function syncDoc() {
-  const title = document.getElementById("docTitle").value || "未命名";
-  const content = document.getElementById("editor").value;
-  const docId = currentDocId || "doc-" + Date.now();
-  try {
-    const r = await fetch(API_BASE + "/save", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({user_id: userId, doc_id: docId, title, content, meta: {}})
-    });
-    const j = await r.json();
-    if (j.ok) {
-      currentDocId = docId;
-      showToast("✅ 已保存到云端", true);
-      loadList();
-    } else throw new Error(j.detail || "保存失败");
-  } catch(e) {
-    showToast("❌ " + e.message, false);
-  }
-}
-
-async function loadList() {
-  try {
-    const r = await fetch(API_BASE + "/list?user_id=" + encodeURIComponent(userId));
-    const j = await r.json();
-    const list = document.getElementById("docList");
-    if (!j.docs || j.docs.length === 0) {
-      list.innerHTML = '<div class="empty-state">暂无云端文档</div>';
-      return;
-    }
-    list.innerHTML = j.docs.map(d => `
-      <div class="doc-item ${d.doc_id === currentDocId ? 'active' : ''}" data-id="${d.doc_id}" data-title="${d.title}">
-        <span class="title">${d.title || '未命名'}</span>
-        <span class="time">${d.updated_at.slice(5,16).replace('T',' ')}</span>
-      </div>
-    `).join("");
-    list.querySelectorAll(".doc-item").forEach(el => {
-      el.addEventListener("click", () => loadDoc(el.dataset.id, el.dataset.title));
-    });
-  } catch(e) {
-    console.error("list failed", e);
-  }
-}
-
-async function loadDoc(docId, title) {
-  try {
-    const r = await fetch(API_BASE + "/load?user_id=" + encodeURIComponent(userId) + "&doc_id=" + encodeURIComponent(docId));
-    const j = await r.json();
-    if (j.ok) {
-      document.getElementById("editor").value = j.content;
-      document.getElementById("docTitle").value = j.title || "未命名";
-      currentDocId = docId;
-      showToast("✅ 已加载", true);
-      renderPreview();
-      loadList(); // refresh active
-    } else throw new Error("加载失败");
-  } catch(e) {
-    showToast("❌ " + e.message, false);
-  }
-}
-
-function newDoc() {
-  currentDocId = null;
-  document.getElementById("editor").value = "# 新建文档\n\n";
-  document.getElementById("docTitle").value = "未命名";
-  renderPreview();
-  showToast("📝 新建文档", true);
-}
-
-function renderPreview() {
-  const md = document.getElementById("editor").value;
-  // 极简 Markdown → HTML（够用就好）
-  let html = md
-    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
-    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/^\> (.*$)/gim, '<blockquote>$1</blockquote>')
-    .replace(/^- (.*$)/gim, '<li>$1</li>')
-    .replace(/^\d+\. (.*$)/gim, '<li>$1</li>')
-    .replace(/\n/g, '<br>');
-  document.getElementById("preview").innerHTML = html;
-}
-
-// 事件绑定
-document.getElementById("btnSync").addEventListener("click", syncDoc);
-document.getElementById("btnNew").addEventListener("click", newDoc);
-document.getElementById("btnLoad").addEventListener("click", loadList);
-document.getElementById("editor").addEventListener("input", renderPreview);
-document.getElementById("editor").addEventListener("keydown", e => {
-  if (e.key === "s" && (e.ctrlKey || e.metaKey)) { e.preventDefault(); syncDoc(); }
-});
-
-// 初始化
-renderPreview();
-loadList();
+  <head>
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-7NZL3PZ0NK" async></script>
+    <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-7NZL3PZ0NK');
 </script>
-</body>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="keywords" content="md,markdown,markdown-editor,wechat,official-account,yanglbme,doocs" />
+    <meta name="description" content="Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>微信 Markdown 编辑器 | Doocs 开源社区</title>
+    <link rel="shortcut icon" href="/md-editor/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/md-editor/favicon.png" />
+    <style>
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 18px;
+      }
+
+      .loading::before {
+        content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAAt1BMVEX///8AAABIz0hHzkdIzkhIz0hIz0hHzkdIzkhFz0VAz0BHzUdIz0hHzkdIzkhIzUhHzUdHzUdIzkhEzEREzERGz0ZIz0hHzUdIzkhIzUhHzkdHzkdHzUdGz0ZIzkhHzkdKzkpIzUhGzUZD00NIzUhGzUZIzkhIzkhHzkdHzkdIzkhHz0dIzUhK1UpHzUdC0EJHzkdHzkdIz0hH1UdHzUdGzkZIzUhJ20lD10NJzklIzkhIzkj////r6/fCAAAAO3RSTlMAACDvoEBg0MAwEI9fz9+A8JDgDx5Ff/r9i+VdbHSDkx9RTRdce+6q6brLb58YSBvtd0oScFTxBxM/v5xq7LMAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wwcCBssFsYwawAAAe9JREFUaN7t2tlywiAUBmABiQY1W6vWbna1i6Z2sYs97/9eNcQ6U40kEMhoh/824qeAxwSo1Wx2MUgimAAQLNNCAanDInWzCAUeahRxUsQx212NxGgaHhMq21sqCHIpdZFpRDoW2ROEtdpY/S1xu8XyEdZZ/BA8VcNbNO6wPIQbAK6akZa2v0rWN0mLk6+G+Gnr3O5qgnR1EjfOQviHCRS7yw02uyELwWGkbHAlCnGR3wkuM4WxLSuGkQNfmLYW5BDE8fUgXcHVXv9oYB45PoGBeQSd5ioaEHSWp+hA0DkMzSNoKFZKI78zuWsQuaA8l3BlEFnm2iL/FrlpZqanFbntZxmjO73IfdbVh31ERjQjj1LImEyYGMn+9xUjbELGKyRObviJI57CTzBdu/b8Ip7CDkkeQuIlQrffY5dB0rtvuqvINHnpqwISR8nTQsExSWbVW7ExSZ4jong1u2ZByJDu7kKsHszkCqQCIl+FLbKLyPtaefwwgWxEP2LvVixiEYtoQgqlHPJJC+XLLqoZRsyvpuKJB0R9XZiA18pfF+Yr3KqKS4qtcFeyVl/FrgNrlN8/aeTun3AlUh34aMPYsqcVOmWmsBMyW1Ysooi487nx/fhKThbwDdVvs0glpz0qObdSyQkchAOAQOUskU3h/AAe7qmqtAqp/QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0xMi0yOFQwODoyNzo0NCswMDowMPJYdAwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMTItMjhUMDg6Mjc6NDQrMDA6MDCDBcywAAAAAElFTkSuQmCC');
+        width: 100px;
+        height: 100px;
+        margin-bottom: 26px;
+      }
+
+      .loading.dark {
+        color: #ffffff;
+        background-color: #141414;
+      }
+
+      .loading .txt {
+        position: absolute;
+        bottom: 10%;
+      }
+
+      .loading .txt::after {
+        content: '...';
+        animation: dots 1.5s steps(4, end) infinite;
+      }
+
+      @keyframes dots {
+        0% {
+          content: ' ';
+        }
+        25% {
+          content: '.';
+        }
+        50% {
+          content: '..';
+        }
+        75% {
+          content: '...';
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/md-editor/static/js/md-index-BdI0IB75.js"></script>
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-rolldown-runtime-BdTzaQSd.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-codemirror-BiWPJYOK.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-highlight-Ck5tZPwO.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-crypto_crc32-BTkCkBUz.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-crypto_crc32c-BS_r9xfd.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-crypto_sha1-browser-Cs4FZPul.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-crypto_sha256-browser-CzV6SoW5.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-sdk_client-s3-CkXnbWKH.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-sdk_core-CgI4VDwv.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_aws-sdk_s3-request-presigner-CFyWYdYD.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_floating-ui_core-BX7bh4Rf.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_floating-ui_dom-id1qEwV7.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_floating-ui_vue-BMVXnoTG.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_antv_hierarchy-B8BN677I.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_antv_expr-CiyS0ReY.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_antv_infographic-DgH9bMEE.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_braintree_sanitize-url-DeIvHZwm.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_iconify_utils-CsTuK2Nj.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_cose-base-DP1r6oKD.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_cytoscape-cose-bilkent-CiRlbZp_.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_cytoscape-fcose-CYcWerLT.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_cytoscape-DQ3tluDb.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-array-D4e0mF26.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-axis-BEXYGamx.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-hierarchy-DOkh-P-q.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-color-BRcbU1lQ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-interpolate-CYDtbNDo.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-path-B4sARee_.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-sankey-CVi87OST.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-scale-chromatic-Bpxg3GBh.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-scale-Di7oPGHM.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-selection-KhN6dipP.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_d3-shape-DlgsYE9h.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_dagre-d3-es-XntZgV5I.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_dayjs-BUryPy_E.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_dompurify-DU5fu5AC.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_es-toolkit-CW1lcFjA.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_khroma-B-HNEoU6.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_marked-Bye260a8.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_mermaid-Durz67wJ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_vee-validate-D7OH09kj.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_vee-validate_yup-ndkkPa9a.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_lucide-vue-next-C4vce5M1.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_ohash-CEmJUrpC.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_reka-ui-CRJ4cNcQ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_axios-Daolcqoi.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_browser-image-compression-DD_Xa9ob.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_buffer-from-HrcQ5zWL.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_class-variance-authority-D-zJnKKG.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_crypto-js-KPl_tm8_.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_diff-match-patch-HHXwEe5a.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_fflate-mMiyXTKo.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_base64-js-1fPUhM1Q.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_buffer-MMuyDhqa.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_esprima-Cwtn-aB-.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_front-matter-CL6AaBw3.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_html-to-image-alPLcM38.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_isomorphic-dompurify-DxtvBTXt.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_boolbase-BLaDPSZG.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_cheerio-CGZEZYvo.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_entities-uYJbKVSY.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_juice-DObeBIeV.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_vue-DrZvWfUJ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-prettier-D_feQDQ1.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_call-bind-apply-helpers-DotF_uG8.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_call-bound-ut71YuO-.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_object-inspect-BgVPHy4f.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_qiniu-js-DuamjI54.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_internationalized_date-B6-pfCc0.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_internationalized_number-DHZ3iAAm.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_radix-vue-8oUpFQhg.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_tailwind-merge-BCxbtzhZ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_popperjs_core-DWIhg_NJ.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_vue-pick-colors-Bk8jzpVV.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_vue-sonner-B5l0ggM5.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_property-expr-ioQ4DMmd.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_tiny-case-UGa7A0DP.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_toposort-CZ1cZmSY.js">
+    <link rel="modulepreload" crossorigin href="/md-editor/static/js/md-vendor_yup-D1HbVf0G.js">
+    <link rel="stylesheet" crossorigin href="/md-editor/static/css/md-vendor_vue-sonner-Ds1aFT64.css">
+    <link rel="stylesheet" crossorigin href="/md-editor/static/css/md-index-Dxw7Xn92.css">
+  </head>
+
+  <body>
+    <noscript>
+      <strong>Please enable JavaScript to continue.</strong>
+    </noscript>
+    <div id="app">
+      <div class="loading">
+        <strong>致力于让 Markdown 编辑更简单</strong>
+        <p class="txt">正在加载编辑器</p>
+        <p class="timeout-tip" style="display: none; color: #e53935; font-size: 16px; margin-top: 2em">
+          加载时间过长，请尝试刷新页面或按 F12 查看控制台是否有异常信息
+        </p>
+      </div>
+    </div>
+    <script>
+      const theme = localStorage.getItem('vueuse-color-scheme')
+      if (theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.querySelector('.loading').classList.add('dark')
+      }
+
+      setTimeout(() => {
+        const tip = document.querySelector('.loading .timeout-tip')
+        if (tip) {
+          tip.style.display = 'block'
+        }
+      }, 30000)
+    </script>
+    <script>
+      window.MathJax = {
+        tex: { tags: 'ams' },
+        svg: { fontCache: 'none' },
+      }
+    </script>
+    <script
+      id="MathJax-script"
+      src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/npm/mathjax@3/es5/tex-svg.js"
+    ></script>
+  </body>
 </html>
