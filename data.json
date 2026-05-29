@@ -2073,3 +2073,9 @@
 {"timestamp": "2026-05-29T23:30:01.347022+08:00", "category": "context", "details": {"utilization": 83}}
 {"timestamp": "2026-05-29T23:30:01.460223+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "waiting", "note": "⏸️ 推进暂停 idle=190.2h", "last_action": "auto-scan", "roi": "mid"}}
 {"timestamp": "2026-05-29T23:30:01.460782+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "waiting", "note": "⏸️ 推进暂停 idle=193.6h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-30T00:00:01.484629+08:00", "category": "session_growth", "details": {"active_count": 281, "archive_count": 42, "active_size_mb": 202.52, "archive_size_mb": 2.42}}
+{"timestamp": "2026-05-30T00:00:01.485620+08:00", "category": "cron_status", "details": {"total_jobs": 10, "active_jobs": 4, "job_names": ["P1.1 自成长心跳", "cfm-scraper", "cfm-backup", "test-web-06:00", "sync-board-monitor", "Memory Dreaming Promotion", "self-awareness-deep-daily", "self-evolution-daily-review", "self-evolution-weekly-review", "self-evolution-monthly-insight"]}}
+{"timestamp": "2026-05-30T00:00:01.613853+08:00", "category": "token_daily", "details": {"date": "2026-05-30", "productive": 0, "exploratory": 0, "by_tier": {"P0": 0, "P1": 0, "P2": 0, "other": 0, "cron": 0}}}
+{"timestamp": "2026-05-30T00:00:01.619257+08:00", "category": "context", "details": {"utilization": 83}}
+{"timestamp": "2026-05-30T00:00:01.734353+08:00", "category": "task", "details": {"tier": "P0", "name": "GitHub赚钱", "status": "waiting", "note": "⏸️ 推进暂停 idle=190.7h", "last_action": "auto-scan", "roi": "mid"}}
+{"timestamp": "2026-05-30T00:00:01.734863+08:00", "category": "task", "details": {"tier": "P2", "name": "Agent社交网络", "status": "waiting", "note": "⏸️ 推进暂停 idle=194.1h", "last_action": "auto-scan", "roi": "mid"}}
